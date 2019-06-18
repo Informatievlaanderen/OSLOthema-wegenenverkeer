@@ -230,7 +230,14 @@
     "site": "site-skeleton",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
+    "dependencies": [
+       {
+          "package": "OSLO-Implementatieelement",
+          "packagelabel": "Implementatiemodel AWV_Object",
+          "packageurl": "https://data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/niet-bepaald"
+        }
+
+       ]
   },
   {
     "name": "waterlopen",

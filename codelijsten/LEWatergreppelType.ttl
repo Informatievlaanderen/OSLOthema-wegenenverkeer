@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van watergreppel te bepalen"@nl;
+  skos:prefLabel "LEWatergreppelType"@nl.
+
+<https://data.vlaanderen.be/id/concept/LEWatergreppelType/type II A 2> a skos:Concept;
+  skos:definition "type II A 2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType>;
+  skos:notation "type II A 2";
+  skos:prefLabel "LEWatergreppelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType> .
+
+<https://data.vlaanderen.be/id/concept/LEWatergreppelType/type II B 2> a skos:Concept;
+  skos:definition "type II B 2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType>;
+  skos:notation "type II B 2";
+  skos:prefLabel "LEWatergreppelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType> .
+
+<https://data.vlaanderen.be/id/concept/LEWatergreppelType/type II C 2> a skos:Concept;
+  skos:definition "type II C 2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType>;
+  skos:notation "type II C 2";
+  skos:prefLabel "LEWatergreppelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType> .
+
+<https://data.vlaanderen.be/id/concept/LEWatergreppelType/type II D 2> a skos:Concept;
+  skos:definition "type II D 2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType>;
+  skos:notation "type II D 2";
+  skos:prefLabel "LEWatergreppelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType> .
+
+<https://data.vlaanderen.be/id/concept/LEWatergreppelType/type II E 2> a skos:Concept;
+  skos:definition "type II E 2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType>;
+  skos:notation "type II E 2";
+  skos:prefLabel "LEWatergreppelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEWatergreppelType> .

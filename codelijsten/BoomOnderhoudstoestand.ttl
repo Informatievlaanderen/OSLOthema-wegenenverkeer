@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende mogelijke onderhoudstoestanden oplijst"@nl;
+  skos:prefLabel "boomOnderhoudstoestand"@nl.
+
+<https://data.vlaanderen.be/id/concept/BoomOnderhoudstoestand/op beeld> a skos:Concept;
+  skos:definition "De boom heeft een tijdige en goede begeleidings- of onderhoudssnoei en ziet er uit zoals hij er hoort uit te zien."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand>;
+  skos:notation "op beeld";
+  skos:prefLabel "boomOnderhoudstoestand"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand> .
+
+<https://data.vlaanderen.be/id/concept/BoomOnderhoudstoestand/niet op beeld-achterstallig> a skos:Concept;
+  skos:definition "De boom heeft 1 snoeibeurt nodig om op beeld te komen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand>;
+  skos:notation "niet op beeld-achterstallig";
+  skos:prefLabel "boomOnderhoudstoestand"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand> .
+
+<https://data.vlaanderen.be/id/concept/BoomOnderhoudstoestand/niet op beeld-verwaarloosd> a skos:Concept;
+  skos:definition "De boom heeft 2 of meer snoeibeurten nodig om op beeld te komen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand>;
+  skos:notation "niet op beeld-verwaarloosd";
+  skos:prefLabel "boomOnderhoudstoestand"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand> .
+
+<https://data.vlaanderen.be/id/concept/BoomOnderhoudstoestand/niet op beeld-problematisch> a skos:Concept;
+  skos:definition "De boom is niet meer in een gewenste onderhoudstoestand te brengen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand>;
+  skos:notation "niet op beeld-problematisch";
+  skos:prefLabel "boomOnderhoudstoestand"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomOnderhoudstoestand> .

@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het kaliber van stortsteen te bepalen."@nl;
+  skos:prefLabel "stortsteenKaliber"@nl.
+
+<https://data.vlaanderen.be/id/concept/StortsteenKaliber/< 0,063 mm> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber>;
+  skos:notation "< 0,063 mm";
+  skos:prefLabel "stortsteenKaliber"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> .
+
+<https://data.vlaanderen.be/id/concept/StortsteenKaliber/> 125 mm> a skos:Concept;
+  skos:definition "> 125 mm"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber>;
+  skos:notation "> 125 mm";
+  skos:prefLabel "stortsteenKaliber"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> .
+
+<https://data.vlaanderen.be/id/concept/StortsteenKaliber/cP90180A> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber>;
+  skos:notation "cP90180A";
+  skos:prefLabel "stortsteenKaliber"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> .
+
+<https://data.vlaanderen.be/id/concept/StortsteenKaliber/cP90250> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber>;
+  skos:notation "cP90250";
+  skos:prefLabel "stortsteenKaliber"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> .
+
+<https://data.vlaanderen.be/id/concept/StortsteenKaliber/lMA540> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber>;
+  skos:notation "lMA540";
+  skos:prefLabel "stortsteenKaliber"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> .
+
+<https://data.vlaanderen.be/id/concept/StortsteenKaliber/lMA1060> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber>;
+  skos:notation "lMA1060";
+  skos:prefLabel "stortsteenKaliber"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StortsteenKaliber> .

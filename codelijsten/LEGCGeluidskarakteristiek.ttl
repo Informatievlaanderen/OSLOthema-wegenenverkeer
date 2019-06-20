@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/LEGCGeluidskarakteristiek> a skos:ConceptScheme;
+  skos:definition "Het geluidskarakteristiek van de geluidswerende constructie."@nl;
+  skos:prefLabel "LEGCGeluidskarakteristiek"@nl.
+
+<https://data.vlaanderen.be/id/concept/LEGCGeluidskarakteristiek/absorberend> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEGCGeluidskarakteristiek>;
+  skos:notation "absorberend";
+  skos:prefLabel "LEGCGeluidskarakteristiek"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEGCGeluidskarakteristiek> .
+
+<https://data.vlaanderen.be/id/concept/LEGCGeluidskarakteristiek/reflecterend> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEGCGeluidskarakteristiek>;
+  skos:notation "reflecterend";
+  skos:prefLabel "LEGCGeluidskarakteristiek"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEGCGeluidskarakteristiek> .

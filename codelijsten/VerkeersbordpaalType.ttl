@@ -1,0 +1,46 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type verkeersbordpaal te bepalen"@nl;
+  skos:prefLabel "verkeersbordpaalType"@nl.
+
+<https://data.vlaanderen.be/id/concept/VerkeersbordpaalType/kickbackpaal> a skos:Concept;
+  skos:definition "Constructie die na aanrijding zijn oorspronkelijke positie hersteld"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType>;
+  skos:notation "kickbackpaal";
+  skos:prefLabel "verkeersbordpaalType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType> .
+
+<https://data.vlaanderen.be/id/concept/VerkeersbordpaalType/rechte paal> a skos:Concept;
+  skos:definition "Een rechte paal met als doel een verkeersbord te bevestigen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType>;
+  skos:notation "rechte paal";
+  skos:prefLabel "verkeersbordpaalType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType> .
+
+<https://data.vlaanderen.be/id/concept/VerkeersbordpaalType/vakwerksteun> a skos:Concept;
+  skos:definition "Het vakwerk is opgebouwd uit niet vooraf
+verzinkte gelaste stalen buizen met dezelfde geometrische kenmerken als de ronde steunpalen behalve
+voor de dwarsverbindingen waarvoor een kleiner buisprofiel is voorzien."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType>;
+  skos:notation "vakwerksteun";
+  skos:prefLabel "verkeersbordpaalType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType> .
+
+<https://data.vlaanderen.be/id/concept/VerkeersbordpaalType/galgpaal> a skos:Concept;
+  skos:definition "De galgpalen zijn bestemd voor het bevestigen van verkeerslichten, signaalborden, wegwijzers boven het wegdek. Bovendien laten zij het bevestigen toe van &#233;&#233;n of meerdere lantaarns van het type 200 op de paalschacht. De draagwijdte van de arm moet kunnen reiken tot 9 m. De galgpalen beantwoorden aan SB270-51-6.15
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType>;
+  skos:notation "galgpaal";
+  skos:prefLabel "verkeersbordpaalType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType> .
+
+<https://data.vlaanderen.be/id/concept/VerkeersbordpaalType/seinbrug> a skos:Concept;
+  skos:definition "Metalen constructie bestaande uit 2 of meer verticale steunen met voetplaat en uit een enkele of een dubbel uitgevoerde horizontale dwarsverbinding, allen kokervormig met rechthoekige doorsnede. Ook wel portiek of portaal genoemd"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType>;
+  skos:notation "seinbrug";
+  skos:prefLabel "verkeersbordpaalType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersbordpaalType> .

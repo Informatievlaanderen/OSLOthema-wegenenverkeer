@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/SeinbrugType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "seinbrugType"@nl.
+
+<https://data.vlaanderen.be/id/concept/SeinbrugType/koker> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType>;
+  skos:notation "koker";
+  skos:prefLabel "seinbrugType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType> .
+
+<https://data.vlaanderen.be/id/concept/SeinbrugType/nietDoorlopendeBuis> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType>;
+  skos:notation "nietDoorlopendeBuis";
+  skos:prefLabel "seinbrugType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType> .
+
+<https://data.vlaanderen.be/id/concept/SeinbrugType/vakwerk> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType>;
+  skos:notation "vakwerk";
+  skos:prefLabel "seinbrugType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType> .
+
+<https://data.vlaanderen.be/id/concept/SeinbrugType/enkeleLigger> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType>;
+  skos:notation "enkeleLigger";
+  skos:prefLabel "seinbrugType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SeinbrugType> .

@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van formaat van de mozaïekkei."@nl;
+  skos:prefLabel "mozaiekkeiFormaat"@nl.
+
+<https://data.vlaanderen.be/id/concept/MozaiekkeiFormaat/Bestratingen van mozaÃ¯ekkeien van het 1ste formaat> a skos:Concept;
+  skos:definition "Bestratingen van mozaïekkeien van het 1ste formaat"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat>;
+  skos:notation "Bestratingen van mozaÃ¯ekkeien van het 1ste formaat";
+  skos:prefLabel "mozaiekkeiFormaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat> .
+
+<https://data.vlaanderen.be/id/concept/MozaiekkeiFormaat/Bestratingen van mozaÃ¯ekkeien van het 2de formaat> a skos:Concept;
+  skos:definition "Bestratingen van mozaïekkeien van het 2de formaat"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat>;
+  skos:notation "Bestratingen van mozaÃ¯ekkeien van het 2de formaat";
+  skos:prefLabel "mozaiekkeiFormaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat> .
+
+<https://data.vlaanderen.be/id/concept/MozaiekkeiFormaat/Bestratingen van mozaÃ¯ekkeien van het 3de formaat> a skos:Concept;
+  skos:definition "Bestratingen van mozaïekkeien van het 3de formaat"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat>;
+  skos:notation "Bestratingen van mozaÃ¯ekkeien van het 3de formaat";
+  skos:prefLabel "mozaiekkeiFormaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat> .
+
+<https://data.vlaanderen.be/id/concept/MozaiekkeiFormaat/Bestratingen van mozaÃ¯ekkeien van het 4de formaat> a skos:Concept;
+  skos:definition "Bestratingen van mozaïekkeien van het 4de formaat"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat>;
+  skos:notation "Bestratingen van mozaÃ¯ekkeien van het 4de formaat";
+  skos:prefLabel "mozaiekkeiFormaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat> .
+
+<https://data.vlaanderen.be/id/concept/MozaiekkeiFormaat/Bestratingen van mozaÃ¯ekkeien van het 5de formaat> a skos:Concept;
+  skos:definition "Bestratingen van mozaïekkeien van het 5de formaat"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat>;
+  skos:notation "Bestratingen van mozaÃ¯ekkeien van het 5de formaat";
+  skos:prefLabel "mozaiekkeiFormaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MozaiekkeiFormaat> .

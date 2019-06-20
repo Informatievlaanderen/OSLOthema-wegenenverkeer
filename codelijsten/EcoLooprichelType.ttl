@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van looprichel te bepalen."@nl;
+  skos:prefLabel "ecoLooprichelType"@nl.
+
+<https://data.vlaanderen.be/id/concept/EcoLooprichelType/hout> a skos:Concept;
+  skos:definition "Een houten looprichel."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
+  skos:notation "hout";
+  skos:prefLabel "ecoLooprichelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .
+
+<https://data.vlaanderen.be/id/concept/EcoLooprichelType/beton> a skos:Concept;
+  skos:definition "Een betonnen loopruchel."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
+  skos:notation "beton";
+  skos:prefLabel "ecoLooprichelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .
+
+<https://data.vlaanderen.be/id/concept/EcoLooprichelType/schanskorven> a skos:Concept;
+  skos:definition "Een oever bestaande uit schanskorven."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
+  skos:notation "schanskorven";
+  skos:prefLabel "ecoLooprichelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .
+
+<https://data.vlaanderen.be/id/concept/EcoLooprichelType/doorlopendeNatuurlijkeOever> a skos:Concept;
+  skos:definition "Een doorlopende natuurlijke oever."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
+  skos:notation "doorlopendeNatuurlijkeOever";
+  skos:prefLabel "ecoLooprichelType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .

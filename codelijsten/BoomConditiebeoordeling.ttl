@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om de conditiebeoordeling van de boom aan te duiden."@nl;
+  skos:prefLabel "boomConditiebeoordeling"@nl.
+
+<https://data.vlaanderen.be/id/concept/BoomConditiebeoordeling/1> a skos:Concept;
+  skos:definition "De conditie is verminderd, maar op korte termijn (&lt; 5 jaar) worden ten aanzien van de fysiologische toestand van de boom geen problemen verwacht."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling>;
+  skos:notation "1";
+  skos:prefLabel "boomConditiebeoordeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling> .
+
+<https://data.vlaanderen.be/id/concept/BoomConditiebeoordeling/2> a skos:Concept;
+  skos:definition "De conditie is duidelijk verminderd. De fysiologische toestand van de boom is slecht, maar herstel van de boom is eventueel mogelijk."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling>;
+  skos:notation "2";
+  skos:prefLabel "boomConditiebeoordeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling> .
+
+<https://data.vlaanderen.be/id/concept/BoomConditiebeoordeling/3> a skos:Concept;
+  skos:definition "De conditie en toekomstverwachting van de boom is minimaal. De mechanische en/of fysiologische toestand van de boom is dusdanig slecht dat 'herstel' van de boom niet of nauwelijks mogelijk is."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling>;
+  skos:notation "3";
+  skos:prefLabel "boomConditiebeoordeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling> .
+
+<https://data.vlaanderen.be/id/concept/BoomConditiebeoordeling/0> a skos:Concept;
+  skos:definition "De conditie is goed. Op middellange termijn (10 tot 15 jaar) worden geen problemen verwacht."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling>;
+  skos:notation "0";
+  skos:prefLabel "boomConditiebeoordeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomConditiebeoordeling> .

@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BSSType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van betonstraatsteen en betontegel te bepalen"@nl;
+  skos:prefLabel "BSSType"@nl.
+
+<https://data.vlaanderen.be/id/concept/BSSType/grijze> a skos:Concept;
+  skos:definition "Grijze betonstraatstenen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BSSType>;
+  skos:notation "grijze";
+  skos:prefLabel "BSSType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BSSType> .
+
+<https://data.vlaanderen.be/id/concept/BSSType/gekleurdeMetAnorganischePigmenten> a skos:Concept;
+  skos:definition "Gekleurde betonstraatstenen met anorganische pigmenten."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BSSType>;
+  skos:notation "gekleurdeMetAnorganischePigmenten";
+  skos:prefLabel "BSSType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BSSType> .
+
+<https://data.vlaanderen.be/id/concept/BSSType/gekleurdeMetKleurondersteunendeGranulaten> a skos:Concept;
+  skos:definition "Gekleurde betonstraatstenen met kleurondersteunende granulaten."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BSSType>;
+  skos:notation "gekleurdeMetKleurondersteunendeGranulaten";
+  skos:prefLabel "BSSType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BSSType> .
+
+<https://data.vlaanderen.be/id/concept/BSSType/witteMetKleurondersteunendeGranulaten> a skos:Concept;
+  skos:definition "Witte betonstraatstenen met kleurondersteunende granulaten."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BSSType>;
+  skos:notation "witteMetKleurondersteunendeGranulaten";
+  skos:prefLabel "BSSType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BSSType> .

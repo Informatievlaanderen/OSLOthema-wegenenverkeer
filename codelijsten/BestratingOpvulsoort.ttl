@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de opvulsoort van de grasbetontegel te bepalen"@nl;
+  skos:prefLabel "bestratingOpvulsoort"@nl.
+
+<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bodemsubstraat> a skos:Concept;
+  skos:definition "Opgevuld met bodemsubstraat."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "bodemsubstraat";
+  skos:prefLabel "bestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+
+<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bodemsubstraatEnIngezaaid> a skos:Concept;
+  skos:definition "Opgevuld met bodemsubstraat en ingezaaid."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "bodemsubstraatEnIngezaaid";
+  skos:prefLabel "bestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+
+<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bomenzand> a skos:Concept;
+  skos:definition "Opgevuld met bomenzand."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "bomenzand";
+  skos:prefLabel "bestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+
+<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bomenzandEnIngezaaid> a skos:Concept;
+  skos:definition "Opgevuld met bomenzand en ingezaaid."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "bomenzandEnIngezaaid";
+  skos:prefLabel "bestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+
+<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/steenslag263> a skos:Concept;
+  skos:definition "Opgevuld met steenslag 2/6,3"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "steenslag263";
+  skos:prefLabel "bestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .

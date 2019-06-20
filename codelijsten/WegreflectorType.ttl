@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/WegreflectorType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van wegreflector te bepalen"@nl;
+  skos:prefLabel "wegreflectorType"@nl.
+
+<https://data.vlaanderen.be/id/concept/WegreflectorType/wegdekreflector> a skos:Concept;
+  skos:definition "Een wegreflector aangebracht op de rijbaan met als doel de zichtbaarheid van verkeerseilanden te verhogen en geleiding van de weggebruiker langs de weg"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WegreflectorType>;
+  skos:notation "wegdekreflector";
+  skos:prefLabel "wegreflectorType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WegreflectorType> .
+
+<https://data.vlaanderen.be/id/concept/WegreflectorType/glasbolreflector> a skos:Concept;
+  skos:definition "Een wegreflector in glas met als doel de geleiding van de weggebruiker langs de weg"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WegreflectorType>;
+  skos:notation "glasbolreflector";
+  skos:prefLabel "wegreflectorType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WegreflectorType> .

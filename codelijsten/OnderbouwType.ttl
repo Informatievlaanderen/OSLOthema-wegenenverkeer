@@ -1,0 +1,229 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:prefLabel "onderbouwType"@nl.
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Type I> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Type I";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Type II> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Type II";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Type III> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Type III";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Wortelruimte - bomenzand> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Wortelruimte - bomenzand";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Wortelruimte - bomengranulaat> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Wortelruimte - bomengranulaat";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Wortelruimte - groeiplaatsconstructie> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Wortelruimte - groeiplaatsconstructie";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/steenslagMetNietcontinueKorrelverdeling> a skos:Concept;
+  skos:definition "steenslagfundering met niet-continue korrelverdeling"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "steenslagMetNietcontinueKorrelverdeling";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/steenslagMetContinueKorrelverdelingZonderToevoegsel> a skos:Concept;
+  skos:definition "Steenslagfundering met continue korrelverdeling zonder toevoegsel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "steenslagMetContinueKorrelverdelingZonderToevoegsel";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/metToevoegselBehandeldeSteenslagMetContinueKorrelverdeling> a skos:Concept;
+  skos:definition "Met toevoegsel behandelde steenslagfundering met continue korrelverdeling"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "metToevoegselBehandeldeSteenslagMetContinueKorrelverdeling";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/teerhoudendAsfaltgranulaatcement> a skos:Concept;
+  skos:definition "Fundering in teerhoudend asfaltgranulaatcement"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "teerhoudendAsfaltgranulaatcement";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/ternairMengsel> a skos:Concept;
+  skos:definition "Fundering van ternair mengsel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "ternairMengsel";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/stabiliserenVanDeBestaandeVerhardingMetCementrecyclingInSitu> a skos:Concept;
+  skos:definition "Fundering door het stabiliseren van de bestaande verharding met cement (recycling in situ)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "stabiliserenVanDeBestaandeVerhardingMetCementrecyclingInSitu";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/schraalBeton> a skos:Concept;
+  skos:definition "Fundering van schraal beton."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "schraalBeton";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/drainerendSchraalBeton> a skos:Concept;
+  skos:definition "Fundering van drainerend schraal beton"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "drainerendSchraalBeton";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/walsbeton> a skos:Concept;
+  skos:definition "Fundering in walsbeton."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "walsbeton";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/schraalAsfalt> a skos:Concept;
+  skos:definition "Fundering van schraal asfalt"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "schraalAsfalt";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Waterdoorlatende steenslagfundering> a skos:Concept;
+  skos:definition "Waterdoorlatende steenslagfundering"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Waterdoorlatende steenslagfundering";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Zand> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Zand";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Zandcement> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Zandcement";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Granulaatmengsel 0/4> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Granulaatmengsel 0/4";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Granulaatmengsel 0/6,3> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Granulaatmengsel 0/6,3";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Mortel> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Mortel";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Steenslag 2/6,3> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Steenslag 2/6,3";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Bodemsubstraat met zand> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Bodemsubstraat met zand";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Bodemsubstraat met steenslag> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Bodemsubstraat met steenslag";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/Bodemsubstraat> a skos:Concept;
+  skos:definition "straatlaag
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "Bodemsubstraat";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/tijdelijkeSteenslagMivVerwijdering> a skos:Concept;
+  skos:definition "Fundering in tijdelijke steenslag met in begrip van verwijdering.
+
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "tijdelijkeSteenslagMivVerwijdering";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/skeletbodems> a skos:Concept;
+  skos:definition "Fundering van skeletbodems."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "skeletbodems";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/vliegasKalkmengsel> a skos:Concept;
+  skos:definition "Fundering van vliesgas-kalkmengsel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "vliegasKalkmengsel";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .
+
+<https://data.vlaanderen.be/id/concept/OnderbouwType/vliegasCementmengsel> a skos:Concept;
+  skos:definition "Fundering van vliesgas-cementmengsel."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType>;
+  skos:notation "vliegasCementmengsel";
+  skos:prefLabel "onderbouwType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnderbouwType> .

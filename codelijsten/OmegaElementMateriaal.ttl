@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van het gebruikte materiaal van het omega-element."@nl;
+  skos:prefLabel "omegaElementMateriaal"@nl.
+
+<https://data.vlaanderen.be/id/concept/OmegaElementMateriaal/verzinkt staal> a skos:Concept;
+  skos:definition "Omega-element vervaarigd uit verzinkt staal."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal>;
+  skos:notation "verzinkt staal";
+  skos:prefLabel "omegaElementMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/OmegaElementMateriaal/aluminium> a skos:Concept;
+  skos:definition "Omega-element vervaarigd uit aluminium."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal>;
+  skos:notation "aluminium";
+  skos:prefLabel "omegaElementMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/OmegaElementMateriaal/roestvrij staal> a skos:Concept;
+  skos:definition "Omega-element vervaarigd uit roestvrij staal."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal>;
+  skos:notation "roestvrij staal";
+  skos:prefLabel "omegaElementMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OmegaElementMateriaal> .

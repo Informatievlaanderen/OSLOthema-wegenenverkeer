@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om de aanpassingen voor de vleermuisverlichting te duiden."@nl;
+  skos:prefLabel "vleermuisAanpassing"@nl.
+
+<https://data.vlaanderen.be/id/concept/VleermuisAanpassing/kleur> a skos:Concept;
+  skos:definition "De kleur van de verlichting."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing>;
+  skos:notation "kleur";
+  skos:prefLabel "vleermuisAanpassing"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing> .
+
+<https://data.vlaanderen.be/id/concept/VleermuisAanpassing/lichtsterkte> a skos:Concept;
+  skos:definition "De lichtsterkte van de verlichting."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing>;
+  skos:notation "lichtsterkte";
+  skos:prefLabel "vleermuisAanpassing"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing> .
+
+<https://data.vlaanderen.be/id/concept/VleermuisAanpassing/golflengte> a skos:Concept;
+  skos:definition "De golflengtte van de verlichting."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing>;
+  skos:notation "golflengte";
+  skos:prefLabel "vleermuisAanpassing"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing> .
+
+<https://data.vlaanderen.be/id/concept/VleermuisAanpassing/verlichtingsregime> a skos:Concept;
+  skos:definition "Het verlichtingsregime van de verlichting."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing>;
+  skos:notation "verlichtingsregime";
+  skos:prefLabel "vleermuisAanpassing"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VleermuisAanpassing> .

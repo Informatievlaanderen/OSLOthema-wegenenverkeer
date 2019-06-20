@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het materiaal van de paal in het ecoraster te bepalen."@nl;
+  skos:prefLabel "ecoPaalmateriaal"@nl.
+
+<https://data.vlaanderen.be/id/concept/EcoPaalmateriaal/houtRobina> a skos:Concept;
+  skos:definition "Een houten paal van robina hout."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
+  skos:notation "houtRobina";
+  skos:prefLabel "ecoPaalmateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
+
+<https://data.vlaanderen.be/id/concept/EcoPaalmateriaal/houtKastanje> a skos:Concept;
+  skos:definition "Een houten paal van kastanje hout."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
+  skos:notation "houtKastanje";
+  skos:prefLabel "ecoPaalmateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
+
+<https://data.vlaanderen.be/id/concept/EcoPaalmateriaal/metaal> a skos:Concept;
+  skos:definition "Een metalen paal."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
+  skos:notation "metaal";
+  skos:prefLabel "ecoPaalmateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .

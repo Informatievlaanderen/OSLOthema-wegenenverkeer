@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/GeotextielType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van de het type geotextiel"@nl;
+  skos:prefLabel "geotextielType"@nl.
+
+<https://data.vlaanderen.be/id/concept/GeotextielType/erosiewerend> a skos:Concept;
+  skos:definition "erosiewerend"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GeotextielType>;
+  skos:notation "erosiewerend";
+  skos:prefLabel "geotextielType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GeotextielType> .
+
+<https://data.vlaanderen.be/id/concept/GeotextielType/bescherming> a skos:Concept;
+  skos:definition "bescherming/wapening"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GeotextielType>;
+  skos:notation "bescherming";
+  skos:prefLabel "geotextielType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GeotextielType> .
+
+<https://data.vlaanderen.be/id/concept/GeotextielType/niet-geweven geotextiel> a skos:Concept;
+  skos:definition "niet-geweven geotextiel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GeotextielType>;
+  skos:notation "niet-geweven geotextiel";
+  skos:prefLabel "geotextielType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GeotextielType> .
+
+<https://data.vlaanderen.be/id/concept/GeotextielType/anti-vraatdoek> a skos:Concept;
+  skos:definition "anti-vraatdoek"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GeotextielType>;
+  skos:notation "anti-vraatdoek";
+  skos:prefLabel "geotextielType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GeotextielType> .
+
+<https://data.vlaanderen.be/id/concept/GeotextielType/wapening> a skos:Concept;
+  skos:definition "bescherming/wapening"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GeotextielType>;
+  skos:notation "wapening";
+  skos:prefLabel "geotextielType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GeotextielType> .

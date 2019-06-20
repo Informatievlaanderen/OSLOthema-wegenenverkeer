@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> a skos:ConceptScheme;
+  skos:definition "keuzelijst standaard bevestigingen lichtmast"@nl;
+  skos:prefLabel "wvBevsToestellen"@nl.
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/kroon> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "kroon";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/mediaanbalk H> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "mediaanbalk H";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/mediaanbalk I> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "mediaanbalk I";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/mediaanbalk U> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "mediaanbalk U";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/ossenkop> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "ossenkop";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/plaat> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "plaat";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/T-stuk> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "T-stuk";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/paaltop_60mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "paaltop_60mm";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/paaltop_76mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "paaltop_76mm";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .
+
+<https://data.vlaanderen.be/id/concept/WvBevsToestellen/paaltop_108mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen>;
+  skos:notation "paaltop_108mm";
+  skos:prefLabel "wvBevsToestellen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WvBevsToestellen> .

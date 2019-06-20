@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het bindmiddel van de bitumineuze verharding te bepalen"@nl;
+  skos:prefLabel "BVBindmiddel"@nl.
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/niet gespecifieerd (keuze van de aannemer)> a skos:Concept;
+  skos:definition "niet gespecifieerd (keuze van de aannemer)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "niet gespecifieerd (keuze van de aannemer)";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/gewoon wegenbitumen> a skos:Concept;
+  skos:definition "gewoon wegenbitumen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "gewoon wegenbitumen";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/polymeerbitumen> a skos:Concept;
+  skos:definition "polymeerbitumen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "polymeerbitumen";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/hard bitumen B 10/20 of B15/25> a skos:Concept;
+  skos:definition "hard bitumen B 10/20 of B15/25"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "hard bitumen B 10/20 of B15/25";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/gewoon wegenbitumen met natuurbitumen> a skos:Concept;
+  skos:definition "gewoon wegenbitumen met natuurbitumen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "gewoon wegenbitumen met natuurbitumen";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/bindmiddel met positief indringingsgetal> a skos:Concept;
+  skos:definition "bindmiddel met positief indringingsgetal"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "bindmiddel met positief indringingsgetal";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/pigmenteerbaar bitumen> a skos:Concept;
+  skos:definition "pigmenteerbaar bitumen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "pigmenteerbaar bitumen";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/kleurloos synthetisch bindmiddel> a skos:Concept;
+  skos:definition "kleurloos synthetisch bindmiddel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "kleurloos synthetisch bindmiddel";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/met polymeren gemodificeerd kleurloos synthetisch bindmiddel> a skos:Concept;
+  skos:definition "met polymeren gemodificeerd kleurloos synthetisch bindmiddel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "met polymeren gemodificeerd kleurloos synthetisch bindmiddel";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .
+
+<https://data.vlaanderen.be/id/concept/BVBindmiddel/bindmiddel met additieven> a skos:Concept;
+  skos:definition "bindmiddel met additieven"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel>;
+  skos:notation "bindmiddel met additieven";
+  skos:prefLabel "BVBindmiddel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVBindmiddel> .

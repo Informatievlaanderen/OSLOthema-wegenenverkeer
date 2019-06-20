@@ -1,0 +1,64 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> a skos:ConceptScheme;
+  skos:definition "De verschillende opties van type boomspiegels"@nl;
+  skos:prefLabel "boomBoomspiegel"@nl.
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/gras> a skos:Concept;
+  skos:definition "De boomspiegel bestaat voornamelijk uit grazige vegetatie die gemaaid kan worden"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "gras";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/beplanting> a skos:Concept;
+  skos:definition "De boomspiegel bestaat voornamelijk uit sierbeplanting of houtige vegetatie"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "beplanting";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/rooster> a skos:Concept;
+  skos:definition "De boomspiegel is een rooster"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "rooster";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/verharding> a skos:Concept;
+  skos:definition "In de boomspiegel is verharding aanwezig tot op minder dan 30cm van de stamvoet"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "verharding";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/organische mulch> a skos:Concept;
+  skos:definition "De boomspiegel bestaat uit een bodembedekking van organisch materiaal (vb. houtsnippers)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "organische mulch";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/minerale mulch> a skos:Concept;
+  skos:definition "De boomspiegel bestaat uit een bodembedekking van minerale oorsprong (vb. grind, dolomiet)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "minerale mulch";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/kaal> a skos:Concept;
+  skos:definition "De boomspiegel is kaal of licht begroeid met onkruid (<25%) en word niet gemaaid"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "kaal";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .
+
+<https://data.vlaanderen.be/id/concept/BoomBoomspiegel/andere> a skos:Concept;
+  skos:definition "De boomspiegel bestaat uit ander materiaal dan opgelijst"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel>;
+  skos:notation "andere";
+  skos:prefLabel "boomBoomspiegel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomBoomspiegel> .

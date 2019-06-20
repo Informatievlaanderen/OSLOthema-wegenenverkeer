@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/PutType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van het type van put"@nl;
+  skos:prefLabel "putType"@nl.
+
+<https://data.vlaanderen.be/id/concept/PutType/Doorlooptoegangs- of verbindingsput (= DTP of DVP)> a skos:Concept;
+  skos:definition "Doorlooptoegangs- of verbindingsput (= DTP of DVP)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutType>;
+  skos:notation "Doorlooptoegangs- of verbindingsput (= DTP of DVP)";
+  skos:prefLabel "putType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutType> .
+
+<https://data.vlaanderen.be/id/concept/PutType/Begintoegangs- of verbindingsput (= BIP of DVP)> a skos:Concept;
+  skos:definition "Begintoegangs- of verbindingsput (= BIP of DVP)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutType>;
+  skos:notation "Begintoegangs- of verbindingsput (= BIP of DVP)";
+  skos:prefLabel "putType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutType> .
+
+<https://data.vlaanderen.be/id/concept/PutType/Putbuis of schachttoegangsput (= STP)> a skos:Concept;
+  skos:definition "Putbuis of schachttoegangsput (= STP)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutType>;
+  skos:notation "Putbuis of schachttoegangsput (= STP)";
+  skos:prefLabel "putType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutType> .
+
+<https://data.vlaanderen.be/id/concept/PutType/Hoektoegangsput (= HTP)> a skos:Concept;
+  skos:definition "Hoektoegangsput (= HTP)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutType>;
+  skos:notation "Hoektoegangsput (= HTP)";
+  skos:prefLabel "putType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutType> .
+
+<https://data.vlaanderen.be/id/concept/PutType/Aansluitingstoegangsput (= ATP)> a skos:Concept;
+  skos:definition "Knijpopening"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutType>;
+  skos:notation "Aansluitingstoegangsput (= ATP)";
+  skos:prefLabel "putType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutType> .
+
+<https://data.vlaanderen.be/id/concept/PutType/Vervaltoegangsput (= VTP)> a skos:Concept;
+  skos:definition "Vervaltoegangsput (= VTP)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutType>;
+  skos:notation "Vervaltoegangsput (= VTP)";
+  skos:prefLabel "putType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutType> .

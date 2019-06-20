@@ -1,0 +1,92 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> a skos:ConceptScheme;
+  skos:definition "infonetspecificaties"@nl;
+  skos:prefLabel "dekselMateriaal"@nl.
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/cementmortel> a skos:Concept;
+  skos:definition "cementmortel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "cementmortel";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/beton> a skos:Concept;
+  skos:definition "beton"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/gewapend beton> a skos:Concept;
+  skos:definition "gewapend beton"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "gewapend beton";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/betonnen segmenten> a skos:Concept;
+  skos:definition "betonnen segmenten"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "betonnen segmenten";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/gietijzer> a skos:Concept;
+  skos:definition "nodulair gietijzer"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "gietijzer";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/grijs gietijzer> a skos:Concept;
+  skos:definition "grijs gietijzer"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "grijs gietijzer";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/smeedijzer> a skos:Concept;
+  skos:definition "smeedijzer"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "smeedijzer";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/staal> a skos:Concept;
+  skos:definition "staal"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "staal";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/ongeÃ¯dentificeerd type ijzer of staal> a skos:Concept;
+  skos:definition "ongeïdentificeerd type ijzer of staal"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "ongeÃ¯dentificeerd type ijzer of staal";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/ongeÃ¯dentificeerd type kunststof> a skos:Concept;
+  skos:definition "ongeïdentificeerd type kunststof"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "ongeÃ¯dentificeerd type kunststof";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/ongeÃ¯dentificeerd materiaal> a skos:Concept;
+  skos:definition "ongeïdentificeerd materiaal"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "ongeÃ¯dentificeerd materiaal";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .
+
+<https://data.vlaanderen.be/id/concept/DekselMateriaal/anders> a skos:Concept;
+  skos:definition "anders"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal>;
+  skos:notation "anders";
+  skos:prefLabel "dekselMateriaal"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselMateriaal> .

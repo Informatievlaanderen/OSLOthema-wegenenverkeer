@@ -1,0 +1,92 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de afwerking van het onbegroeide voorkomen te bepalen"@nl;
+  skos:prefLabel "onbegroeidVoorkomen"@nl.
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/grindgazonTweelaags> a skos:Concept;
+  skos:definition "Afwerking van tweelaagse grindgazon."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "grindgazonTweelaags";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/kunstgras> a skos:Concept;
+  skos:definition "Afwerking van kunstgras."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "kunstgras";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/gesloten kunststofverharding> a skos:Concept;
+  skos:definition "Afwerking van gesloten kunststofverharding."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "gesloten kunststofverharding";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/schors> a skos:Concept;
+  skos:definition "Afwerking van schors."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "schors";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/tegels met groenvoeg> a skos:Concept;
+  skos:definition "Afwerking van tegels met groenvoeg."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "tegels met groenvoeg";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/steenslag rolgrind> a skos:Concept;
+  skos:definition "Afwerking van steenslag rolgrind."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "steenslag rolgrind";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/schelpen> a skos:Concept;
+  skos:definition "Afwerking van schelpen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "schelpen";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/rubberen matten tegels> a skos:Concept;
+  skos:definition "Afwerking van rubberen matten tegels."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "rubberen matten tegels";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/mulch> a skos:Concept;
+  skos:definition "Afwerking van mulch."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "mulch";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/gravel> a skos:Concept;
+  skos:definition "Afwerking van gravel."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "gravel";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/harsgebondenSiersplit> a skos:Concept;
+  skos:definition "Afwerking van eenlaagse grindgazon."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "harsgebondenSiersplit";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .
+
+<https://data.vlaanderen.be/id/concept/OnbegroeidVoorkomen/grindgazonEenlaags> a skos:Concept;
+  skos:definition "Afwerking van gesloten harsgebonden siersplit."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen>;
+  skos:notation "grindgazonEenlaags";
+  skos:prefLabel "onbegroeidVoorkomen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OnbegroeidVoorkomen> .

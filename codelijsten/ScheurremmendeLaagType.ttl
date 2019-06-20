@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van scheurremmende laag te bepalen"@nl;
+  skos:prefLabel "scheurremmendeLaagType"@nl.
+
+<https://data.vlaanderen.be/id/concept/ScheurremmendeLaagType/bitumineus membraan (SAMI)> a skos:Concept;
+  skos:definition "bitumineus membraan (SAMI)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType>;
+  skos:notation "bitumineus membraan (SAMI)";
+  skos:prefLabel "scheurremmendeLaagType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType> .
+
+<https://data.vlaanderen.be/id/concept/ScheurremmendeLaagType/grids> a skos:Concept;
+  skos:definition "grids"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType>;
+  skos:notation "grids";
+  skos:prefLabel "scheurremmendeLaagType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType> .
+
+<https://data.vlaanderen.be/id/concept/ScheurremmendeLaagType/geocomposiet> a skos:Concept;
+  skos:definition "geocomposiet"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType>;
+  skos:notation "geocomposiet";
+  skos:prefLabel "scheurremmendeLaagType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType> .
+
+<https://data.vlaanderen.be/id/concept/ScheurremmendeLaagType/stalen wapeningsnetten> a skos:Concept;
+  skos:definition "stalen wapeningsnetten"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType>;
+  skos:notation "stalen wapeningsnetten";
+  skos:prefLabel "scheurremmendeLaagType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ScheurremmendeLaagType> .

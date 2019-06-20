@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het soort van grondwerk te bepalen."@nl;
+  skos:prefLabel "grondwerksoorten"@nl.
+
+<https://data.vlaanderen.be/id/concept/Grondwerksoorten/afdekking> a skos:Concept;
+  skos:definition "Grond voor afdekking."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten>;
+  skos:notation "afdekking";
+  skos:prefLabel "grondwerksoorten"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten> .
+
+<https://data.vlaanderen.be/id/concept/Grondwerksoorten/afgraving> a skos:Concept;
+  skos:definition "Grond van afgraving."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten>;
+  skos:notation "afgraving";
+  skos:prefLabel "grondwerksoorten"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten> .
+
+<https://data.vlaanderen.be/id/concept/Grondwerksoorten/uitgraving> a skos:Concept;
+  skos:definition "Grond van uitgraving."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten>;
+  skos:notation "uitgraving";
+  skos:prefLabel "grondwerksoorten"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten> .
+
+<https://data.vlaanderen.be/id/concept/Grondwerksoorten/ophoging> a skos:Concept;
+  skos:definition "Grond voor ophoging."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten>;
+  skos:notation "ophoging";
+  skos:prefLabel "grondwerksoorten"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Grondwerksoorten> .

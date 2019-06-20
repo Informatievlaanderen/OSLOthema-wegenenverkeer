@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> a skos:ConceptScheme;
+  skos:definition "Het symbool op het pictogram."@nl;
+  skos:prefLabel "pictogramSymbool"@nl.
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/nooddeurnummer> a skos:Concept;
+  skos:definition "nooddeurnummer"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "nooddeurnummer";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/nummer veiligheidsnis> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "nummer veiligheidsnis";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/hydrant bovengronds (H)> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "hydrant bovengronds (H)";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/hydrant ondergronds (B)> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "hydrant ondergronds (B)";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/tunnelnaam> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "tunnelnaam";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/verbodsbord> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "verbodsbord";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .
+
+<https://data.vlaanderen.be/id/concept/PictogramSymbool/vluchtend persoon> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool>;
+  skos:notation "vluchtend persoon";
+  skos:prefLabel "pictogramSymbool"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PictogramSymbool> .

@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met de verschillende opties plantverband"@nl;
+  skos:prefLabel "vegetatiePlantverband"@nl.
+
+<https://data.vlaanderen.be/id/concept/VegetatiePlantverband/geschrankt> a skos:Concept;
+  skos:definition "De planten staan geschrankt"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband>;
+  skos:notation "geschrankt";
+  skos:prefLabel "vegetatiePlantverband"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband> .
+
+<https://data.vlaanderen.be/id/concept/VegetatiePlantverband/rijafstand> a skos:Concept;
+  skos:definition "De afstand tussen de rijen"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband>;
+  skos:notation "rijafstand";
+  skos:prefLabel "vegetatiePlantverband"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband> .

@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/DekselRegeling> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de regeling van het deksel te bepalen"@nl;
+  skos:prefLabel "dekselRegeling"@nl.
+
+<https://data.vlaanderen.be/id/concept/DekselRegeling/met ter plaatse gestorte ringbalk> a skos:Concept;
+  skos:definition "met ter plaatse gestorte ringbalk"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselRegeling>;
+  skos:notation "met ter plaatse gestorte ringbalk";
+  skos:prefLabel "dekselRegeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselRegeling> .
+
+<https://data.vlaanderen.be/id/concept/DekselRegeling/ingestort in de dakplaat van kunstwerken> a skos:Concept;
+  skos:definition "ingestort in de dakplaat van kunstwerken"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselRegeling>;
+  skos:notation "ingestort in de dakplaat van kunstwerken";
+  skos:prefLabel "dekselRegeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselRegeling> .
+
+<https://data.vlaanderen.be/id/concept/DekselRegeling/geprefabriceerd of ter plaatse gestorte regeling> a skos:Concept;
+  skos:definition "geprefabriceerd of ter plaatse gestorte regeling"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DekselRegeling>;
+  skos:notation "geprefabriceerd of ter plaatse gestorte regeling";
+  skos:prefLabel "dekselRegeling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DekselRegeling> .

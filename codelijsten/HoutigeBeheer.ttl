@@ -1,0 +1,83 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende beheersopties voor houtige vegetatie oplijst"@nl;
+  skos:prefLabel "houtigeBeheer"@nl.
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/hakhoutbeheer> a skos:Concept;
+  skos:definition "Alle stammen worden systematisch ingekort door schuin af te zagen op stomp 
+tot op een hoogte van 10 à 20 cm boven de grond."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "hakhoutbeheer";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/nietsDoen> a skos:Concept;
+  skos:definition "Er wordt geen beheer uitgevoerd"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "nietsDoen";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/scheren> a skos:Concept;
+  skos:definition "Het vlakvormig gelijkmatig kort afsnijden van takken van hagen, heesters en houtkanten."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "scheren";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/dunnen> a skos:Concept;
+  skos:definition "Het gelijkgronds afzagen van bomen ter bevordering van de groei van omstaande bomen of struiken."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "dunnen";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/snoeien> a skos:Concept;
+  skos:definition "Het inkorten of wegnemen van takken met snoeischaar of zaag"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "snoeien";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/wieden> a skos:Concept;
+  skos:definition "Het manueel uittrekken of uitsteken van ongewenste gewassen met
+inbegrip van het verwijderen van de ondergrondse plantendelen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "wieden";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/hakken> a skos:Concept;
+  skos:definition "Het met een hak weghakken van ongewenste gewassen (met wortel)
+juist onder het grondoppervlak en het oppervlakkig losmaken van de grond over de volledige
+oppervlakte, zelfs bij afwezigheid van ongewenste gewassen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "hakken";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/spitten> a skos:Concept;
+  skos:definition "Het met een spade of spitvork losmaken en omkeren van de grond tot
+op een diepte van 20 cm in de niet-gespitte grond"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "spitten";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/maaien> a skos:Concept;
+  skos:definition "Het maaien van de grazige vegetatie tussen de houtige vegetatie."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "maaien";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .
+
+<https://data.vlaanderen.be/id/concept/HoutigeBeheer/bestrijding> a skos:Concept;
+  skos:definition "Bestrijding van ongewenste onkruiden."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer>;
+  skos:notation "bestrijding";
+  skos:prefLabel "houtigeBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeBeheer> .

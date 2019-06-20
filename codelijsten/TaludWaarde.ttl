@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/TaludWaarde> a skos:ConceptScheme;
+  skos:definition "De verschillende mogelijke waardes van de hellingsgraad van de talud"@nl;
+  skos:prefLabel "taludWaarde"@nl.
+
+<https://data.vlaanderen.be/id/concept/TaludWaarde/tot_1_3> a skos:Concept;
+  skos:definition "tot 1:3"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde>;
+  skos:notation "tot_1_3";
+  skos:prefLabel "taludWaarde"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde> .
+
+<https://data.vlaanderen.be/id/concept/TaludWaarde/van_1_3_tot_1_2> a skos:Concept;
+  skos:definition "van 1:3 tot 1:2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde>;
+  skos:notation "van_1_3_tot_1_2";
+  skos:prefLabel "taludWaarde"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde> .
+
+<https://data.vlaanderen.be/id/concept/TaludWaarde/van_1_2_tot_1_1> a skos:Concept;
+  skos:definition "van 1:2 en steiler"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde>;
+  skos:notation "van_1_2_tot_1_1";
+  skos:prefLabel "taludWaarde"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde> .
+
+<https://data.vlaanderen.be/id/concept/TaludWaarde/van_1_1_en_steiler> a skos:Concept;
+  skos:definition "van 1:2 en steiler"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde>;
+  skos:notation "van_1_1_en_steiler";
+  skos:prefLabel "taludWaarde"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TaludWaarde> .

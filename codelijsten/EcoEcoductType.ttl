@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van ecoduct te bepalen."@nl;
+  skos:prefLabel "ecoEcoductType"@nl.
+
+<https://data.vlaanderen.be/id/concept/EcoEcoductType/ecoveloduct> a skos:Concept;
+  skos:definition "Een brug hoofdzakelijk in gebruik voor natuur, gecombineerd met een fietspad."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType>;
+  skos:notation "ecoveloduct";
+  skos:prefLabel "ecoEcoductType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType> .
+
+<https://data.vlaanderen.be/id/concept/EcoEcoductType/ecocreaduct> a skos:Concept;
+  skos:definition "Een brug hoofdzakelijk in gebruik voor natuur, gecombineerd met zachte recreatie (fietsers, wandelaars, ruiters)."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType>;
+  skos:notation "ecocreaduct";
+  skos:prefLabel "ecoEcoductType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType> .
+
+<https://data.vlaanderen.be/id/concept/EcoEcoductType/bermbrug> a skos:Concept;
+  skos:definition "Een bestaande, vaak smalle brug met beperkt verkeer waarop de natuur via groene bermen doorloopt."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType>;
+  skos:notation "bermbrug";
+  skos:prefLabel "ecoEcoductType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoEcoductType> .

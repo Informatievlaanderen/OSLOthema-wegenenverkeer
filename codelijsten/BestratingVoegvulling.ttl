@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de voegvulling van de bestrating te bepalen"@nl;
+  skos:prefLabel "bestratingVoegvulling"@nl.
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/zandcement> a skos:Concept;
+  skos:definition "zandcement"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "zandcement";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/split> a skos:Concept;
+  skos:definition "split"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "split";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/gemodificeerde mortel> a skos:Concept;
+  skos:definition "Heropvoegen van de bestrating."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "gemodificeerde mortel";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/mortel> a skos:Concept;
+  skos:definition "mortel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "mortel";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/granulaatmengsel04> a skos:Concept;
+  skos:definition "granulaatmengsel 0/4"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "granulaatmengsel04";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/granulaatmengsel063> a skos:Concept;
+  skos:definition "granulaatmengsel 0/63"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "granulaatmengsel063";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .
+
+<https://data.vlaanderen.be/id/concept/BestratingVoegvulling/heropvoeging> a skos:Concept;
+  skos:definition "gemodificeerde mortel"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling>;
+  skos:notation "heropvoeging";
+  skos:prefLabel "bestratingVoegvulling"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingVoegvulling> .

@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/PositieSoort> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de positie van het wegdek te bepalen"@nl;
+  skos:prefLabel "positieSoort"@nl.
+
+<https://data.vlaanderen.be/id/concept/PositieSoort/linkerrand> a skos:Concept;
+  skos:definition "linkerrand"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PositieSoort>;
+  skos:notation "linkerrand";
+  skos:prefLabel "positieSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PositieSoort> .
+
+<https://data.vlaanderen.be/id/concept/PositieSoort/rechterrand> a skos:Concept;
+  skos:definition "rechterrand"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PositieSoort>;
+  skos:notation "rechterrand";
+  skos:prefLabel "positieSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PositieSoort> .
+
+<https://data.vlaanderen.be/id/concept/PositieSoort/midden> a skos:Concept;
+  skos:definition "midden"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PositieSoort>;
+  skos:notation "midden";
+  skos:prefLabel "positieSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PositieSoort> .

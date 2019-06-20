@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/PutbekledingType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van putbekleding te bepalen."@nl;
+  skos:prefLabel "putbekledingType"@nl.
+
+<https://data.vlaanderen.be/id/concept/PutbekledingType/solventvrije vezelversterkte epoxyhars> a skos:Concept;
+  skos:definition "solventvrije vezelversterkte epoxyhars"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutbekledingType>;
+  skos:notation "solventvrije vezelversterkte epoxyhars";
+  skos:prefLabel "putbekledingType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutbekledingType> .
+
+<https://data.vlaanderen.be/id/concept/PutbekledingType/solventvrije kunsthars> a skos:Concept;
+  skos:definition "solventvrije kunsthars"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutbekledingType>;
+  skos:notation "solventvrije kunsthars";
+  skos:prefLabel "putbekledingType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutbekledingType> .

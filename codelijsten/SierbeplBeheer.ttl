@@ -1,0 +1,53 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende mogelijke beheeropties bij sierbeplanting oplijst"@nl;
+  skos:prefLabel "sierbeplBeheer"@nl.
+
+<https://data.vlaanderen.be/id/concept/SierbeplBeheer/niets doen> a skos:Concept;
+  skos:definition "Er wordt geen beheer uitgevoerd"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer>;
+  skos:notation "niets doen";
+  skos:prefLabel "sierbeplBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> .
+
+<https://data.vlaanderen.be/id/concept/SierbeplBeheer/scheren> a skos:Concept;
+  skos:definition "Het vlakvormig gelijkmatig kort afsnijden van takken van hagen, heesters en houtkanten."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer>;
+  skos:notation "scheren";
+  skos:prefLabel "sierbeplBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> .
+
+<https://data.vlaanderen.be/id/concept/SierbeplBeheer/snoeien> a skos:Concept;
+  skos:definition "Het inkorten of wegnemen van stengels met snoeischaar"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer>;
+  skos:notation "snoeien";
+  skos:prefLabel "sierbeplBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> .
+
+<https://data.vlaanderen.be/id/concept/SierbeplBeheer/wieden> a skos:Concept;
+  skos:definition "Het manueel uittrekken of uitsteken van ongewenste gewassen met
+inbegrip van het verwijderen van de ondergrondse plantendelen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer>;
+  skos:notation "wieden";
+  skos:prefLabel "sierbeplBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> .
+
+<https://data.vlaanderen.be/id/concept/SierbeplBeheer/hakken> a skos:Concept;
+  skos:definition "Het met een hak weghakken van ongewenste gewassen (met wortel)
+juist onder het grondoppervlak en het oppervlakkig losmaken van de grond over de volledige
+oppervlakte, zelfs bij afwezigheid van ongewenste gewassen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer>;
+  skos:notation "hakken";
+  skos:prefLabel "sierbeplBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> .
+
+<https://data.vlaanderen.be/id/concept/SierbeplBeheer/opschikken/knippen dood materiaal> a skos:Concept;
+  skos:definition "opschikken/knippen dood materiaal"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer>;
+  skos:notation "opschikken/knippen dood materiaal";
+  skos:prefLabel "sierbeplBeheer"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SierbeplBeheer> .

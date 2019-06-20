@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/WildreflectorDrager> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de drager van wildreflector te bepalen."@nl;
+  skos:prefLabel "wildreflectorDrager"@nl.
+
+<https://data.vlaanderen.be/id/concept/WildreflectorDrager/reflectorpaal> a skos:Concept;
+  skos:definition "reflectorpaal als drager."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WildreflectorDrager>;
+  skos:notation "reflectorpaal";
+  skos:prefLabel "wildreflectorDrager"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WildreflectorDrager> .
+
+<https://data.vlaanderen.be/id/concept/WildreflectorDrager/houtenpaal> a skos:Concept;
+  skos:definition "houtenpaal als drager."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WildreflectorDrager>;
+  skos:notation "houtenpaal";
+  skos:prefLabel "wildreflectorDrager"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WildreflectorDrager> .

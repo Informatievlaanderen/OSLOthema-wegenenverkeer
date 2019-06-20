@@ -1,0 +1,80 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van de schampkant te bepalen."@nl;
+  skos:prefLabel "LESchampkantType"@nl.
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/afgeknotte New Jersey eenzijdig> a skos:Concept;
+  skos:definition "betonnen veiligheidsstootband type New Jersey die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "afgeknotte New Jersey eenzijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/afgeknotte New Jersey tweezijdig> a skos:Concept;
+  skos:definition "betonnen veiligheidsstootband type New Jersey die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "afgeknotte New Jersey tweezijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/ander type schampkant, eenzijdig> a skos:Concept;
+  skos:definition "betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "ander type schampkant, eenzijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/ander type schampkant, tweezijdig> a skos:Concept;
+  skos:definition "betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "ander type schampkant, tweezijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/eindschikking voor type afgeknotte New Jersey eenzijdig> a skos:Concept;
+  skos:definition "eindschikking voor betonnen veiligheidsstootband type New Jersey die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd.
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "eindschikking voor type afgeknotte New Jersey eenzijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/eindschikking voor type afgeknotte New Jersey tweezijdig> a skos:Concept;
+  skos:definition "eindschikking voor betonnen veiligheidsstootband type New Jersey die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "eindschikking voor type afgeknotte New Jersey tweezijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/eindschikking voor ander type schampkant, eenzijdig> a skos:Concept;
+  skos:definition "eindschikking voor betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "eindschikking voor ander type schampkant, eenzijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/eindschikking voor ander type schampkant, tweezijdig> a skos:Concept;
+  skos:definition "eindschikking voor betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd.
+"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "eindschikking voor ander type schampkant, tweezijdig";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/varkensrugOfBiggenrug> a skos:Concept;
+  skos:definition "Geprefabriceerde zeer lage (betonnen) veiligheidsstootband die over haar gehele lengte in de bodem is ingewerkt. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd en worden individueel geplaatst."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "varkensrugOfBiggenrug";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .
+
+<https://data.vlaanderen.be/id/concept/LESchampkantType/stootbandDupuis> a skos:Concept;
+  skos:definition "Geprefabriceerde betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afgeraken. Deze zijn overwegend parallel aan de hartlijn van de wegbaan geori&#235;nteerd."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType>;
+  skos:notation "stootbandDupuis";
+  skos:prefLabel "LESchampkantType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LESchampkantType> .

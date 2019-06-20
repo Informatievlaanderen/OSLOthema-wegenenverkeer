@@ -1,0 +1,407 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/FiguratieType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van markering te bepalen."@nl;
+  skos:prefLabel "figuratieType"@nl.
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor (5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor + Links + Rechts (5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor + Links + Rechts (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor + Links + Rechts (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor + Links (5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor + Links (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor + Links (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor + Links (7,5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor + Links (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor + Links (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor + Rechts (5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor + Rechts (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor + Rechts (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor + Rechts (7,5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor + Rechts (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor + Rechts (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Links (5m)> a skos:Concept;
+  skos:definition "Pijl Links (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Links (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Links (7,5m)> a skos:Concept;
+  skos:definition "Pijl Links (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Links (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechts (5m)> a skos:Concept;
+  skos:definition "Pijl Rechts (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechts (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechts (7,5m)> a skos:Concept;
+  skos:definition "Pijl Rechts (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechts (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/2e afslag links (5m)> a skos:Concept;
+  skos:definition "Pijl 2e afslag links (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "2e afslag links (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/2e afslag links (7,5m)> a skos:Concept;
+  skos:definition "Pijl 2e afslag links (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "2e afslag links (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/2e afslag rechts (5m)> a skos:Concept;
+  skos:definition "Pijl 2e afslag rechts (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "2e afslag rechts (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/2e afslag rechts (7,5m)> a skos:Concept;
+  skos:definition "Pijl 2e afslag rechts (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "2e afslag rechts (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Links + Rechts (5m)> a skos:Concept;
+  skos:definition "Pijl Links + Rechts (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Links + Rechts (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Links + Rechts (7,5m)> a skos:Concept;
+  skos:definition "Pijl Links + Rechts (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Links + Rechts (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rechtdoor + Links + Rechts (7,5m)> a skos:Concept;
+  skos:definition "Pijl Rechtdoor + Links + Rechts (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rechtdoor + Links + Rechts (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Voorsortering Links (5m)> a skos:Concept;
+  skos:definition "Pijl Voorsortering Links (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Voorsortering Links (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Voorsortering Links (7,5m)> a skos:Concept;
+  skos:definition "Pijl Voorsortering Links (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Voorsortering Links (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Voorsortering Rechts (5m)> a skos:Concept;
+  skos:definition "Pijl Voorsortering Rechts (5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Voorsortering Rechts (5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Voorsortering Rechts (7,5m)> a skos:Concept;
+  skos:definition "Pijl Voorsortering Rechts (7,5m)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Voorsortering Rechts (7,5m)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rijstrook vermindering links> a skos:Concept;
+  skos:definition "Pijl Rijstrook vermindering links"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rijstrook vermindering links";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Rijstrook vermindering rechts> a skos:Concept;
+  skos:definition "Pijl Rijstrook vermindering rechts"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Rijstrook vermindering rechts";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Fietspadpijl (std)> a skos:Concept;
+  skos:definition "Pijl Fietspadpijl (std)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Fietspadpijl (std)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Fietspadpijl (klein - dubbele fietspadpijl)> a skos:Concept;
+  skos:definition "Pijl Fietspadpijl (klein - dubbele fietspadpijl)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Fietspadpijl (klein - dubbele fietspadpijl)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Fietsvoorsortering Links> a skos:Concept;
+  skos:definition "Pijl Fietsvoorsortering Links"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Fietsvoorsortering Links";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Turborotonde Links> a skos:Concept;
+  skos:definition "Pijl Turborotonde Links"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Turborotonde Links";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Turborotonde Rechtdoor en Links> a skos:Concept;
+  skos:definition "Pijl Turborotonde Rechtdoor en Links"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Turborotonde Rechtdoor en Links";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Turborotonde Rechtdoor, Links en rechts> a skos:Concept;
+  skos:definition "Pijl Turborotonde Rechtdoor, Links en rechts"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Turborotonde Rechtdoor, Links en rechts";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Turborotonde Rechtdoor> a skos:Concept;
+  skos:definition "Pijl Turborotonde Rechtdoor"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Turborotonde Rechtdoor";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Turborotonde Rechts> a skos:Concept;
+  skos:definition "Pijl Turborotonde Rechts"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Turborotonde Rechts";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Turborotonde Rechtdoor en Rechts> a skos:Concept;
+  skos:definition "Pijl Turborotonde Rechtdoor en Rechts"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Turborotonde Rechtdoor en Rechts";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/BUS (dwars op busstrook)> a skos:Concept;
+  skos:definition "Lettermarkering van bus (dwars op busstrook)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "BUS (dwars op busstrook)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/BUS (dwars op BOB)> a skos:Concept;
+  skos:definition "Lettermarkering van bus (dwars op BOB)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "BUS (dwars op BOB)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/BUS (langs op BOB)> a skos:Concept;
+  skos:definition "Lettermarkering van bus (langs op BOB)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "BUS (langs op BOB)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/TAXI (dwars)> a skos:Concept;
+  skos:definition "Lettermarkering van taxiplaats (dwars)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "TAXI (dwars)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/TAXI (langs)> a skos:Concept;
+  skos:definition "Lettermarkering van taxiplaats (langs)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "TAXI (langs)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/TRAM (dwars)> a skos:Concept;
+  skos:definition "Lettermarkering van tramhalte (dwars)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "TRAM (dwars)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/TRAM (langs)> a skos:Concept;
+  skos:definition "Lettermarkering van tramhalte (langs)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "TRAM (langs)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/STOP (smal)> a skos:Concept;
+  skos:definition "Lettermarkering STOP (smal)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "STOP (smal)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/STOP> a skos:Concept;
+  skos:definition "Lettermarkering STOP"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "STOP";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/per letter (A=>Z)> a skos:Concept;
+  skos:definition "Lettermarkering (A=>Z)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "per letter (A=>Z)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/STOP (smal schuin)> a skos:Concept;
+  skos:definition "Lettermarkering (smal schuin)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "STOP (smal schuin)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/(0=>9)> a skos:Concept;
+  skos:definition "Lettermarkering (0=>9)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "(0=>9)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/< 22,75 mÂ²> a skos:Concept;
+  skos:definition "Lettermarkering bus met arcering."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "< 22,75 mÂ²";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/< 22,75 mÂ²> a skos:Concept;
+  skos:definition "Lettermarkering bus met arcering."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "< 22,75 mÂ²";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Bushalte op de rijweg> a skos:Concept;
+  skos:definition "Lettermarkering bus zonder arcering."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Bushalte op de rijweg";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/parkeerverbod> a skos:Concept;
+  skos:definition "Verkeersbordmarkering parkeerverbod."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "parkeerverbod";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Schoolkinderen> a skos:Concept;
+  skos:definition "Verkeersbordmarkering Schoolkinderen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Schoolkinderen";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/blauwe zone (parkeerschijf)> a skos:Concept;
+  skos:definition "Verkeersbordmarkering blauwe zone (parkeerschijf)."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "blauwe zone (parkeerschijf)";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Fietslogo Groot> a skos:Concept;
+  skos:definition "Logomarkering fiestslogo Groot."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Fietslogo Groot";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Fietslogo Klein> a skos:Concept;
+  skos:definition "Logomarkering fiestslogo Klein."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Fietslogo Klein";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Mindervaliden logo klein> a skos:Concept;
+  skos:definition "Logomarkering Mindervaliden klein."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Mindervaliden logo klein";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Mindervaliden logo normaal> a skos:Concept;
+  skos:definition "Logomarkering Mindervaliden normaal."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Mindervaliden logo normaal";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Mindervaliden logo vergroot> a skos:Concept;
+  skos:definition "Logomarkering Mindervaliden vergroot."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Mindervaliden logo vergroot";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Groot> a skos:Concept;
+  skos:definition "Omgekeerde driehoek markering Groot."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Groot";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .
+
+<https://data.vlaanderen.be/id/concept/FiguratieType/Klein> a skos:Concept;
+  skos:definition "Omgekeerde driehoek markering Klein."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FiguratieType>;
+  skos:notation "Klein";
+  skos:prefLabel "figuratieType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FiguratieType> .

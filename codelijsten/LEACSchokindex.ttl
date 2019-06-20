@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met de verschillende schokindices"@nl;
+  skos:prefLabel "LEACSchokindex"@nl.
+
+<https://data.vlaanderen.be/id/concept/LEACSchokindex/A> a skos:Concept;
+  skos:definition "ASI <= 1.0 (zeer veilig)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex>;
+  skos:notation "A";
+  skos:prefLabel "LEACSchokindex"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex> .
+
+<https://data.vlaanderen.be/id/concept/LEACSchokindex/B> a skos:Concept;
+  skos:definition "ASI <= 1.4 (voldoende veilig)"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex>;
+  skos:notation "B";
+  skos:prefLabel "LEACSchokindex"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex> .
+
+<https://data.vlaanderen.be/id/concept/LEACSchokindex/C> a skos:Concept;
+  skos:definition "ASI <= 1.9"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex>;
+  skos:notation "C";
+  skos:prefLabel "LEACSchokindex"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindex> .

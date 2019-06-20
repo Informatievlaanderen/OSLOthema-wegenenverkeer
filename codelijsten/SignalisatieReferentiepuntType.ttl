@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/SignalisatieReferentiepuntType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het referentiepunt type te bepalen"@nl;
+  skos:prefLabel "signalisatieReferentiepuntType"@nl.
+
+<https://data.vlaanderen.be/id/concept/SignalisatieReferentiepuntType/Kilometerpalen in kunststof> a skos:Concept;
+  skos:definition "Een paal die op elke kilometer langs wegen staat en waarop de afstand tot een bepaald startpunt is aangegeven"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SignalisatieReferentiepuntType>;
+  skos:notation "Kilometerpalen in kunststof";
+  skos:prefLabel "signalisatieReferentiepuntType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SignalisatieReferentiepuntType> .
+
+<https://data.vlaanderen.be/id/concept/SignalisatieReferentiepuntType/Hectometerpalen in kunststof> a skos:Concept;
+  skos:definition "Een paal die op elke 100 meter langs wegen staat en waarop de afstand tot een bepaald startpunt is aangegeven"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SignalisatieReferentiepuntType>;
+  skos:notation "Hectometerpalen in kunststof";
+  skos:prefLabel "signalisatieReferentiepuntType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SignalisatieReferentiepuntType> .

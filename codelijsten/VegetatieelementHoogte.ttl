@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende ordes van hoogte van een vegetatie-element oplijst"@nl;
+  skos:prefLabel "vegetatieelementHoogte"@nl.
+
+<https://data.vlaanderen.be/id/concept/VegetatieelementHoogte/0 -7 meter> a skos:Concept;
+  skos:definition "0 -7 meter"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte>;
+  skos:notation "0 -7 meter";
+  skos:prefLabel "vegetatieelementHoogte"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte> .
+
+<https://data.vlaanderen.be/id/concept/VegetatieelementHoogte/7 - 20 meter> a skos:Concept;
+  skos:definition "7 - 20 meter"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte>;
+  skos:notation "7 - 20 meter";
+  skos:prefLabel "vegetatieelementHoogte"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte> .
+
+<https://data.vlaanderen.be/id/concept/VegetatieelementHoogte/> 20 meter> a skos:Concept;
+  skos:definition "> 20 meter"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte>;
+  skos:notation "> 20 meter";
+  skos:prefLabel "vegetatieelementHoogte"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatieelementHoogte> .

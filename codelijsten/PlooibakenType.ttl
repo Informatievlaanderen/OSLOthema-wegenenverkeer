@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/PlooibakenType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van plooibaken type."@nl;
+  skos:prefLabel "plooibakenType"@nl.
+
+<https://data.vlaanderen.be/id/concept/PlooibakenType/Plooibaken diameter 80 mm / M16> a skos:Concept;
+  skos:definition "Plooibaken diameter 80 mm – M16"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType>;
+  skos:notation "Plooibaken diameter 80 mm / M16";
+  skos:prefLabel "plooibakenType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType> .
+
+<https://data.vlaanderen.be/id/concept/PlooibakenType/Plooibaken diameter 80 mm / M24> a skos:Concept;
+  skos:definition "Plooibaken diameter 80 mm – M24"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType>;
+  skos:notation "Plooibaken diameter 80 mm / M24";
+  skos:prefLabel "plooibakenType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType> .
+
+<https://data.vlaanderen.be/id/concept/PlooibakenType/Plooibaken diameter 130 mm / M24> a skos:Concept;
+  skos:definition "Plooibaken diameter 130 mm – M24"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType>;
+  skos:notation "Plooibaken diameter 130 mm / M24";
+  skos:prefLabel "plooibakenType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType> .
+
+<https://data.vlaanderen.be/id/concept/PlooibakenType/Verkeerszuil> a skos:Concept;
+  skos:definition "Verkeerszuil"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType>;
+  skos:notation "Verkeerszuil";
+  skos:prefLabel "plooibakenType"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PlooibakenType> .

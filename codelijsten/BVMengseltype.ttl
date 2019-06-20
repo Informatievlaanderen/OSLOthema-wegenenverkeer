@@ -1,0 +1,337 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het mengseltype van de butimineuze verharding te bepalen"@nl;
+  skos:prefLabel "BVMengseltype"@nl.
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/APO-A> a skos:Concept;
+  skos:definition "APO-A"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "APO-A";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/APO-B> a skos:Concept;
+  skos:definition "APO-B"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "APO-B";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/APO-C> a skos:Concept;
+  skos:definition "APO-C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "APO-C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/APO-D> a skos:Concept;
+  skos:definition "APO-D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "APO-D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AVS-B> a skos:Concept;
+  skos:definition "AVS-B"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AVS-B";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/ABT-B> a skos:Concept;
+  skos:definition "ABT-B"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "ABT-B";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/toplaag van SMA-C> a skos:Concept;
+  skos:definition "toplaag van SMA-C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "toplaag van SMA-C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/toplaag van SMA-D> a skos:Concept;
+  skos:definition "toplaag van SMA-D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "toplaag van SMA-D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/toplaag van ZOA-B> a skos:Concept;
+  skos:definition "toplaag van ZOA-B"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "toplaag van ZOA-B";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/toplaag van ZOA-C> a skos:Concept;
+  skos:definition "toplaag van ZOA-C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "toplaag van ZOA-C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/onderlaag APO-B en toplaag AGT klasse I> a skos:Concept;
+  skos:definition "onderlaag APO-B en toplaag AGT klasse I"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "onderlaag APO-B en toplaag AGT klasse I";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/onderlaag APO-B en toplaag AGT klasse II> a skos:Concept;
+  skos:definition "onderlaag APO-B en toplaag AGT klasse II"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "onderlaag APO-B en toplaag AGT klasse II";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/GA-C> a skos:Concept;
+  skos:definition "GA-C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "GA-C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/GA-D> a skos:Concept;
+  skos:definition "GA-D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "GA-D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/GA-E> a skos:Concept;
+  skos:definition "GA-E"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "GA-E";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-1B> a skos:Concept;
+  skos:definition "AB-1B"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-1B";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-2C> a skos:Concept;
+  skos:definition "AB-2C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-2C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-4C> a skos:Concept;
+  skos:definition "AB-4C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-4C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-4D> a skos:Concept;
+  skos:definition "AB-4D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-4D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-5D> a skos:Concept;
+  skos:definition "AB-5D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-5D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/APT-C> a skos:Concept;
+  skos:definition "APT-C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "APT-C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/APT-D> a skos:Concept;
+  skos:definition "APT-D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "APT-D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/SMA-B1> a skos:Concept;
+  skos:definition "SMA-B1"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "SMA-B1";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/SMA-B2> a skos:Concept;
+  skos:definition "SMA-B2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "SMA-B2";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/SMA-C1> a skos:Concept;
+  skos:definition "SMA-C1"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "SMA-C1";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/SMA-C2> a skos:Concept;
+  skos:definition "SMA-C2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "SMA-C2";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/SMA-D1> a skos:Concept;
+  skos:definition "SMA-D1"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "SMA-D1";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/SMA-D2> a skos:Concept;
+  skos:definition "SMA-D2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "SMA-D2";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/ZOA-B1> a skos:Concept;
+  skos:definition "ZOA-B1"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "ZOA-B1";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/ZOA-B2> a skos:Concept;
+  skos:definition "ZOA-B2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "ZOA-B2";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/ZOA-C1> a skos:Concept;
+  skos:definition "ZOA-C1"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "ZOA-C1";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/ZOA-C2> a skos:Concept;
+  skos:definition "ZOA-C2"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "ZOA-C2";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AGT klasse I> a skos:Concept;
+  skos:definition "AGT klasse I"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AGT klasse I";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AGT klasse II> a skos:Concept;
+  skos:definition "AGT klasse II"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AGT klasse II";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IA> a skos:Concept;
+  skos:definition "IA"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IA";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IB> a skos:Concept;
+  skos:definition "IB"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IB";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IC> a skos:Concept;
+  skos:definition "IC"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IC";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/II> a skos:Concept;
+  skos:definition "II"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "II";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IV> a skos:Concept;
+  skos:definition "IV"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IV";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-3A> a skos:Concept;
+  skos:definition "AB-3A"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-3A";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-3B> a skos:Concept;
+  skos:definition "AB-3B"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-3B";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-3C> a skos:Concept;
+  skos:definition "AB-3C"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-3C";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/AB-3D> a skos:Concept;
+  skos:definition "AB-3D"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "AB-3D";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/gietasfalt> a skos:Concept;
+  skos:definition "gietasfalt"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "gietasfalt";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IIIA> a skos:Concept;
+  skos:definition "IIIA"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IIIA";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IIIB> a skos:Concept;
+  skos:definition "IIIB"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IIIB";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .
+
+<https://data.vlaanderen.be/id/concept/BVMengseltype/IIIC> a skos:Concept;
+  skos:definition "IIIC"@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype>;
+  skos:notation "IIIC";
+  skos:prefLabel "BVMengseltype"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BVMengseltype> .

@@ -1,0 +1,99 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de kantopsluiting soort te bepalen"@nl;
+  skos:prefLabel "LEKantopsluitingSoort"@nl.
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenKantstrokenEnWatergreppels> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen kantstroken en watergreppels."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenKantstrokenEnWatergreppels";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/Watergreppels in gietasfalt> a skos:Concept;
+  skos:definition "Watergreppels in gietasfalt."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "Watergreppels in gietasfalt";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/kantstrokenOfWatergreppelsInBetonstraatstenen> a skos:Concept;
+  skos:definition "Kantstroken en watergreppels in betonstraatstenen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "kantstrokenOfWatergreppelsInBetonstraatstenen";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenSchampkant> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde schampkant."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenSchampkant";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/trottoirbandenVanNatuursteen> a skos:Concept;
+  skos:definition "Trottoirbanden van natuursteen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "trottoirbandenVanNatuursteen";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenTrottoirbanden> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenTrottoirbanden";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenOvergangstrottoirbanden> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen overgangstrottoirbanden."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenOvergangstrottoirbanden";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/hoekstukkenVanBetonnenTrottoirbanden> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde hoekstukken van betonnen trottoirbanden."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "hoekstukkenVanBetonnenTrottoirbanden";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenTrottoirbandenVoorMinderValiden> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden voor minder_validen."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenTrottoirbandenVoorMinderValiden";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenTrottoirbandenWatergreppels> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden_watergreppels."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenTrottoirbandenWatergreppels";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/hoekstukkenVanBetonnenTrottoirbandenWatergreppels> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde hoekstukken van betonnen trottoirbanden_watergreppels."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "hoekstukkenVanBetonnenTrottoirbandenWatergreppels";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenKantstroken> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen kantstroken."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenKantstroken";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .
+
+<https://data.vlaanderen.be/id/concept/LEKantopsluitingSoort/betonnenWatergreppels> a skos:Concept;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde watergreppels."@nl;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort>;
+  skos:notation "betonnenWatergreppels";
+  skos:prefLabel "LEKantopsluitingSoort"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEKantopsluitingSoort> .

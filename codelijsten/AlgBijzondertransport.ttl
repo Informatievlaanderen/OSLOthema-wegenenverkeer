@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "AlgBijzondertransport"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AlgBijzondertransport/draaibaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport>;
+  skos:notation "draaibaar";
+  skos:prefLabel "AlgBijzondertransport"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AlgBijzondertransport/kantelbaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport>;
+  skos:notation "kantelbaar";
+  skos:prefLabel "AlgBijzondertransport"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AlgBijzondertransport/afkoppelbaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport>;
+  skos:notation "afkoppelbaar";
+  skos:prefLabel "AlgBijzondertransport"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AlgBijzondertransport/geen_voorziening> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport>;
+  skos:notation "geen_voorziening";
+  skos:prefLabel "AlgBijzondertransport"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AlgBijzondertransport> .

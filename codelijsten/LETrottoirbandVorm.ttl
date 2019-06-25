@@ -3,13 +3,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/LETrottoirbandVorm> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LETrottoirbandVorm> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de vorm van trottoirband te bepalen"@nl;
   skos:prefLabel "LETrottoirbandVorm"@nl.
 
-<https://data.vlaanderen.be/id/concept/LETrottoirbandVorm/Afgeschuind> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LETrottoirbandVorm/Afgeschuind> a skos:Concept;
   skos:definition "Afgeschuind"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LETrottoirbandVorm>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LETrottoirbandVorm>;
   skos:notation "Afgeschuind";
   skos:prefLabel "LETrottoirbandVorm"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LETrottoirbandVorm> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LETrottoirbandVorm> .

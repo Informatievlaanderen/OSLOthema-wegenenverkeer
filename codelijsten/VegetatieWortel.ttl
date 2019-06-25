@@ -3,28 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende opties van hoe de wortel was bij aanplanting"@nl;
-  skos:prefLabel "vegetatieWortel"@nl.
+  skos:prefLabel "VegetatieWortel"@nl.
 
-<https://data.vlaanderen.be/id/concept/VegetatieWortel/Naakt> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/VegetatieWortel/Naakt> a skos:Concept;
   skos:definition "Wortels waarrond geen grond aanwezig is"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel>;
   skos:notation "Naakt";
-  skos:prefLabel "vegetatieWortel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel> .
+  skos:prefLabel "VegetatieWortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel> .
 
-<https://data.vlaanderen.be/id/concept/VegetatieWortel/draadkluit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/VegetatieWortel/draadkluit> a skos:Concept;
   skos:definition "De wortels zitten in een met draad ingebonden kluit aarde"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel>;
   skos:notation "draadkluit";
-  skos:prefLabel "vegetatieWortel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel> .
+  skos:prefLabel "VegetatieWortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel> .
 
-<https://data.vlaanderen.be/id/concept/VegetatieWortel/container> a skos:Concept;
-  skos:definition "De wortels zitten in een container of pot vervaardigd uit kunststof of uit een doorwortelbaar,
-afbreekbaar materiaal, dat evenwel samenhangend moet blijven tot na de aanplanting."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/VegetatieWortel/container> a skos:Concept;
+  skos:definition "De wortels zitten in een container of pot vervaardigd uit kunststof of uit een doorwortelbaar,//afbreekbaar materiaal, dat evenwel samenhangend moet blijven tot na de aanplanting."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel>;
   skos:notation "container";
-  skos:prefLabel "vegetatieWortel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VegetatieWortel> .
+  skos:prefLabel "VegetatieWortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatieWortel> .

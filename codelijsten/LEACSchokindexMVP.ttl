@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP> a skos:ConceptScheme;
   skos:definition "Keuzelijst van head injury criterium (HIC) van een motorvangplank"@nl;
   skos:prefLabel "LEACSchokindexMVP"@nl.
 
-<https://data.vlaanderen.be/id/concept/LEACSchokindexMVP/Level 1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSchokindexMVP/Level%201> a skos:Concept;
   skos:definition "Krachten op hoofd en nek worden beperkt tijdens test"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP>;
   skos:notation "Level 1";
   skos:prefLabel "LEACSchokindexMVP"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP> .
 
-<https://data.vlaanderen.be/id/concept/LEACSchokindexMVP/Level 2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSchokindexMVP/Level%202> a skos:Concept;
   skos:definition "Krachten op hoofd en nek worden tot levensgevaarlijk tijdens test"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP>;
   skos:notation "Level 2";
   skos:prefLabel "LEACSchokindexMVP"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindexMVP> .

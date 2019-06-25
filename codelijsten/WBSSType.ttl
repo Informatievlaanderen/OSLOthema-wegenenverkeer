@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/WBSSType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het type van waterdoorlatende betonstraatstenen en betontegels"@nl;
   skos:prefLabel "WBSSType"@nl.
 
-<https://data.vlaanderen.be/id/concept/WBSSType/grijze waterdoorlatende betonstraatstenen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WBSSType/grijze> a skos:Concept;
   skos:definition "grijze waterdoorlatende betonstraatstenen"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WBSSType>;
-  skos:notation "grijze waterdoorlatende betonstraatstenen";
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType>;
+  skos:notation "grijze";
   skos:prefLabel "WBSSType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WBSSType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType> .
 
-<https://data.vlaanderen.be/id/concept/WBSSType/gekleurde waterdoorlatende betonstraatstenen met anorganische pigmenten> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WBSSType/gekleurde%20met%20anorganische%20pigmenten> a skos:Concept;
   skos:definition "gekleurde waterdoorlatende betonstraatstenen met anorganische pigmenten"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WBSSType>;
-  skos:notation "gekleurde waterdoorlatende betonstraatstenen met anorganische pigmenten";
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType>;
+  skos:notation "gekleurde met anorganische pigmenten";
   skos:prefLabel "WBSSType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WBSSType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType> .
 
-<https://data.vlaanderen.be/id/concept/WBSSType/gekleurde waterdoorlatende betonstraatstenen met kleurondersteunende granulaten> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WBSSType/gekleurde%20met%20kleurondersteunende%20granulaten> a skos:Concept;
   skos:definition "gekleurde waterdoorlatende betonstraatstenen met kleurondersteunende granulaten"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WBSSType>;
-  skos:notation "gekleurde waterdoorlatende betonstraatstenen met kleurondersteunende granulaten";
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType>;
+  skos:notation "gekleurde met kleurondersteunende granulaten";
   skos:prefLabel "WBSSType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WBSSType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType> .
 
-<https://data.vlaanderen.be/id/concept/WBSSType/witte waterdoorlatende betonstraatstenen met kleurondersteunende granulaten> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WBSSType/witte%20met%20kleurondersteunende%20granulaten> a skos:Concept;
   skos:definition "witte waterdoorlatende betonstraatstenen met kleurondersteunende granulaten"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WBSSType>;
-  skos:notation "witte waterdoorlatende betonstraatstenen met kleurondersteunende granulaten";
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType>;
+  skos:notation "witte met kleurondersteunende granulaten";
   skos:prefLabel "WBSSType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WBSSType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType> .
 
-<https://data.vlaanderen.be/id/concept/WBSSType/waterdoorlatende betontegel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WBSSType/waterdoorlatende%20betontegel> a skos:Concept;
   skos:definition "waterdoorlatende betontegel"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WBSSType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType>;
   skos:notation "waterdoorlatende betontegel";
   skos:prefLabel "WBSSType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WBSSType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WBSSType> .

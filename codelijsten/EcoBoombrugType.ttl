@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van boombrug te bepalen."@nl;
-  skos:prefLabel "ecoBoombrugType"@nl.
+  skos:prefLabel "EcoBoombrugType"@nl.
 
-<https://data.vlaanderen.be/id/concept/EcoBoombrugType/touwbrug> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoBoombrugType/touwbrug> a skos:Concept;
   skos:definition "Een boombrug bestaande uit een gedraaid touw van natuurlijke of kunstmatige vezels, dat strak over de weg wordt gespannen en voldoende dik is om er dieren op een stabiele wijze overheen te laten lopen."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
   skos:notation "touwbrug";
-  skos:prefLabel "ecoBoombrugType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
+  skos:prefLabel "EcoBoombrugType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
 
-<https://data.vlaanderen.be/id/concept/EcoBoombrugType/ladderbrug> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoBoombrugType/ladderbrug> a skos:Concept;
   skos:definition "Een boombrug waarbij de oversteek bestaat uit een laddervorm gemaakt uit touw (touwladder) of metaal-kunststof (kabelnet) of een weefsel van takken en nylon (Takkenmat)."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
   skos:notation "ladderbrug";
-  skos:prefLabel "ecoBoombrugType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
+  skos:prefLabel "EcoBoombrugType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
 
-<https://data.vlaanderen.be/id/concept/EcoBoombrugType/tunnelbrug> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoBoombrugType/tunnelbrug> a skos:Concept;
   skos:definition "Een boombrug bestaande uit een tunnelvormige oversteek gemaakt uit geweven touwen (touwtunnel) of een buisvormige draadkoker (kokerbrug)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
   skos:notation "tunnelbrug";
-  skos:prefLabel "ecoBoombrugType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
+  skos:prefLabel "EcoBoombrugType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
 
-<https://data.vlaanderen.be/id/concept/EcoBoombrugType/portaalBoomgoot> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoBoombrugType/portaal%20boomgoot> a skos:Concept;
   skos:definition "Een bestaande portaal voor signalisatie ingericht als boomrug door middel van een aluminium ladder of houten loopplank of goot."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
-  skos:notation "portaalBoomgoot";
-  skos:prefLabel "ecoBoombrugType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType>;
+  skos:notation "portaal boomgoot";
+  skos:prefLabel "EcoBoombrugType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoBoombrugType> .

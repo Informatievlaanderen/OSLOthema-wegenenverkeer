@@ -3,35 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het stelsel van de riool te bepalen"@nl;
-  skos:prefLabel "rioleringStelsel"@nl.
+  skos:prefLabel "RioleringStelsel"@nl.
 
-<https://data.vlaanderen.be/id/concept/RioleringStelsel/vuil> a skos:Concept;
-  skos:definition "Stelsel bedoeld voor de afvoer van vervuild water.
-"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/RioleringStelsel/vuil> a skos:Concept;
+  skos:definition "Stelsel bedoeld voor de afvoer van vervuild water.//"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
   skos:notation "vuil";
-  skos:prefLabel "rioleringStelsel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
+  skos:prefLabel "RioleringStelsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
 
-<https://data.vlaanderen.be/id/concept/RioleringStelsel/drain> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/RioleringStelsel/drain> a skos:Concept;
   skos:definition "stelsel om grondwater op te vangen en af te voeren."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
   skos:notation "drain";
-  skos:prefLabel "rioleringStelsel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
+  skos:prefLabel "RioleringStelsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
 
-<https://data.vlaanderen.be/id/concept/RioleringStelsel/n_vuil> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/RioleringStelsel/n_vuil> a skos:Concept;
   skos:definition "Stelsel bedoeld voor de afvoer van onvervuild water"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
   skos:notation "n_vuil";
-  skos:prefLabel "rioleringStelsel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
+  skos:prefLabel "RioleringStelsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
 
-<https://data.vlaanderen.be/id/concept/RioleringStelsel/onbekend> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/RioleringStelsel/onbekend> a skos:Concept;
   skos:definition "Stelsel waarvan afvoer onbekend is."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel>;
   skos:notation "onbekend";
-  skos:prefLabel "rioleringStelsel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .
+  skos:prefLabel "RioleringStelsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RioleringStelsel> .

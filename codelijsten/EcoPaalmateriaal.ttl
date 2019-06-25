@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het materiaal van de paal in het ecoraster te bepalen."@nl;
-  skos:prefLabel "ecoPaalmateriaal"@nl.
+  skos:prefLabel "EcoPaalmateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/EcoPaalmateriaal/houtRobina> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/hout%20Robina> a skos:Concept;
   skos:definition "Een houten paal van robina hout."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
-  skos:notation "houtRobina";
-  skos:prefLabel "ecoPaalmateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
+  skos:notation "hout Robina";
+  skos:prefLabel "EcoPaalmateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
 
-<https://data.vlaanderen.be/id/concept/EcoPaalmateriaal/houtKastanje> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/hout%20Kastanje> a skos:Concept;
   skos:definition "Een houten paal van kastanje hout."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
-  skos:notation "houtKastanje";
-  skos:prefLabel "ecoPaalmateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
+  skos:notation "hout Kastanje";
+  skos:prefLabel "EcoPaalmateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
 
-<https://data.vlaanderen.be/id/concept/EcoPaalmateriaal/metaal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/metaal> a skos:Concept;
   skos:definition "Een metalen paal."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
   skos:notation "metaal";
-  skos:prefLabel "ecoPaalmateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
+  skos:prefLabel "EcoPaalmateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .

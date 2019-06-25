@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/BoomGietrandtype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGietrandtype> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende gietrandtypes van bomen oplijst"@nl;
-  skos:prefLabel "boomGietrandtype"@nl.
+  skos:prefLabel "BoomGietrandtype"@nl.
 
-<https://data.vlaanderen.be/id/concept/BoomGietrandtype/kunstmatige gietrand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGietrandtype/kunstmatige%20gietrand> a skos:Concept;
   skos:definition "Een kunstmatige omwalling rond de stamvoet van de boom voor irrigatiedoeleinden"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGietrandtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGietrandtype>;
   skos:notation "kunstmatige gietrand";
-  skos:prefLabel "boomGietrandtype"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGietrandtype> .
+  skos:prefLabel "BoomGietrandtype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGietrandtype> .
 
-<https://data.vlaanderen.be/id/concept/BoomGietrandtype/gietrand uit overtollige grond> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGietrandtype/gietrand%20uit%20overtollige%20grond> a skos:Concept;
   skos:definition "Een aarden omwalling uit overtollige grond rond de stamvoet van de boom voor irrigatiedoeleinden"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGietrandtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGietrandtype>;
   skos:notation "gietrand uit overtollige grond";
-  skos:prefLabel "boomGietrandtype"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGietrandtype> .
+  skos:prefLabel "BoomGietrandtype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGietrandtype> .

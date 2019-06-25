@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/StraatkolkType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van straatkolk te bepalen."@nl;
-  skos:prefLabel "straatkolkType"@nl.
+  skos:prefLabel "StraatkolkType"@nl.
 
-<https://data.vlaanderen.be/id/concept/StraatkolkType/horizontaal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StraatkolkType/horizontaal> a skos:Concept;
   skos:definition "Een straatkolk die niet in een rij geplaatst werd maar bijvoorbeeld ergens solitair op een plein."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StraatkolkType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType>;
   skos:notation "horizontaal";
-  skos:prefLabel "straatkolkType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StraatkolkType> .
+  skos:prefLabel "StraatkolkType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType> .
 
-<https://data.vlaanderen.be/id/concept/StraatkolkType/verticaal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StraatkolkType/verticaal> a skos:Concept;
   skos:definition "Verticale afvoeropening die op regelmatige afstand geplaatst wordt langs of in een boordsteen van de weg, fietspad of voetpad."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StraatkolkType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType>;
   skos:notation "verticaal";
-  skos:prefLabel "straatkolkType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StraatkolkType> .
+  skos:prefLabel "StraatkolkType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType> .
 
-<https://data.vlaanderen.be/id/concept/StraatkolkType/geisoleerd> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StraatkolkType/geisoleerd> a skos:Concept;
   skos:definition "Een gietijzeren rooster met horizontale afvoeropening dat op regelmatige afstand geplaatst wordt langs of in een weg, fietspad of voetpad."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StraatkolkType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType>;
   skos:notation "geisoleerd";
-  skos:prefLabel "straatkolkType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StraatkolkType> .
+  skos:prefLabel "StraatkolkType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StraatkolkType> .

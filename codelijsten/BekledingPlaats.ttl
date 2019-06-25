@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/BekledingPlaats> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BekledingPlaats> a skos:ConceptScheme;
   skos:definition "locatie van de bekleding op de buis/put"@nl;
-  skos:prefLabel "bekledingPlaats"@nl.
+  skos:prefLabel "BekledingPlaats"@nl.
 
-<https://data.vlaanderen.be/id/concept/BekledingPlaats/inwendig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BekledingPlaats/inwendig> a skos:Concept;
   skos:definition "binnenzijde van de buis/put, waar deze in contact staat met het medium dat door de buis/put wordt getransporteerd"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BekledingPlaats>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BekledingPlaats>;
   skos:notation "inwendig";
-  skos:prefLabel "bekledingPlaats"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BekledingPlaats> .
+  skos:prefLabel "BekledingPlaats"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BekledingPlaats> .
 
-<https://data.vlaanderen.be/id/concept/BekledingPlaats/uitwendig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BekledingPlaats/uitwendig> a skos:Concept;
   skos:definition "buitenzijde van de buis/put, waar deze in contact staat met de omgeving"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BekledingPlaats>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BekledingPlaats>;
   skos:notation "uitwendig";
-  skos:prefLabel "bekledingPlaats"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BekledingPlaats> .
+  skos:prefLabel "BekledingPlaats"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BekledingPlaats> .

@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende materialen voor afschermende constructies"@nl;
   skos:prefLabel "LEACMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/LEACMateriaal/beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACMateriaal/beton> a skos:Concept;
   skos:definition "beton"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
   skos:notation "beton";
   skos:prefLabel "LEACMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/LEACMateriaal/staal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACMateriaal/staal> a skos:Concept;
   skos:definition "staal"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
   skos:notation "staal";
   skos:prefLabel "LEACMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/LEACMateriaal/hout> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACMateriaal/hout> a skos:Concept;
   skos:definition "hout"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
   skos:notation "hout";
   skos:prefLabel "LEACMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/LEACMateriaal/kunststof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACMateriaal/kunststof> a skos:Concept;
   skos:definition "kunststof"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal>;
   skos:notation "kunststof";
   skos:prefLabel "LEACMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACMateriaal> .

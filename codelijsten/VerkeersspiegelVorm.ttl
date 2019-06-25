@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de vorm van verkeersspiegel te bepalen"@nl;
-  skos:prefLabel "verkeersspiegelVorm"@nl.
+  skos:prefLabel "VerkeersspiegelVorm"@nl.
 
-<https://data.vlaanderen.be/id/concept/VerkeersspiegelVorm/rond> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/VerkeersspiegelVorm/rond> a skos:Concept;
   skos:definition "ronde verkeersspiegel"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm>;
   skos:notation "rond";
-  skos:prefLabel "verkeersspiegelVorm"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> .
+  skos:prefLabel "VerkeersspiegelVorm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> .
 
-<https://data.vlaanderen.be/id/concept/VerkeersspiegelVorm/rechthoekig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/VerkeersspiegelVorm/rechthoekig> a skos:Concept;
   skos:definition "rechthoekige verkeersspiegel"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm>;
   skos:notation "rechthoekig";
-  skos:prefLabel "verkeersspiegelVorm"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> .
+  skos:prefLabel "VerkeersspiegelVorm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> .

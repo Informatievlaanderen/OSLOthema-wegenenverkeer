@@ -3,55 +3,55 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/StatusType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van status te bepalen."@nl;
-  skos:prefLabel "statusType"@nl.
+  skos:prefLabel "StatusType"@nl.
 
-<https://data.vlaanderen.be/id/concept/StatusType/gepland> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/gepland> a skos:Concept;
   skos:definition "De status : gepland"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "gepland";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .
 
-<https://data.vlaanderen.be/id/concept/StatusType/in uitvoering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/in%20uitvoering> a skos:Concept;
   skos:definition "De status : in uitvoering"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "in uitvoering";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .
 
-<https://data.vlaanderen.be/id/concept/StatusType/gerealiseerd> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/gerealiseerd> a skos:Concept;
   skos:definition "De status : gerealiseerd"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "gerealiseerd";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .
 
-<https://data.vlaanderen.be/id/concept/StatusType/te vernieuwen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/te%20vernieuwen> a skos:Concept;
   skos:definition "De status : te vernieuwen"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "te vernieuwen";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .
 
-<https://data.vlaanderen.be/id/concept/StatusType/beschadigd> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/beschadigd> a skos:Concept;
   skos:definition "De status : beschadigd"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "beschadigd";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .
 
-<https://data.vlaanderen.be/id/concept/StatusType/schets> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/schets> a skos:Concept;
   skos:definition "De status : schets"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "schets";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .
 
-<https://data.vlaanderen.be/id/concept/StatusType/voorstel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/StatusType/voorstel> a skos:Concept;
   skos:definition "De status : voorstel"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/StatusType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType>;
   skos:notation "voorstel";
-  skos:prefLabel "statusType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/StatusType> .
+  skos:prefLabel "StatusType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/StatusType> .

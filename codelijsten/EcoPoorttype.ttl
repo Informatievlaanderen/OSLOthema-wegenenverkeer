@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/EcoPoorttype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van de poort te bepalen."@nl;
-  skos:prefLabel "ecoPoorttype"@nl.
+  skos:prefLabel "EcoPoorttype"@nl.
 
-<https://data.vlaanderen.be/id/concept/EcoPoorttype/enkel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPoorttype/enkel> a skos:Concept;
   skos:definition "Een enkele poort."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPoorttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype>;
   skos:notation "enkel";
-  skos:prefLabel "ecoPoorttype"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPoorttype> .
+  skos:prefLabel "EcoPoorttype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype> .
 
-<https://data.vlaanderen.be/id/concept/EcoPoorttype/dubbel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPoorttype/dubbel> a skos:Concept;
   skos:definition "Een dubble poort."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/EcoPoorttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype>;
   skos:notation "dubbel";
-  skos:prefLabel "ecoPoorttype"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/EcoPoorttype> .
+  skos:prefLabel "EcoPoorttype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype> .

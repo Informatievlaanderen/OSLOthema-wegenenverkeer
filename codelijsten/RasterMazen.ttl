@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/RasterMazen> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van de mazen in het ecoraster te bepalen."@nl;
-  skos:prefLabel "rasterMazen"@nl.
+  skos:prefLabel "RasterMazen"@nl.
 
-<https://data.vlaanderen.be/id/concept/RasterMazen/fijnmazig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/RasterMazen/fijnmazig> a skos:Concept;
   skos:definition "Een fijnmazig raster."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/RasterMazen>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen>;
   skos:notation "fijnmazig";
-  skos:prefLabel "rasterMazen"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/RasterMazen> .
+  skos:prefLabel "RasterMazen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen> .
 
-<https://data.vlaanderen.be/id/concept/RasterMazen/grofmazig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/RasterMazen/grofmazig> a skos:Concept;
   skos:definition "Een grofmazig raster."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/RasterMazen>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen>;
   skos:notation "grofmazig";
-  skos:prefLabel "rasterMazen"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/RasterMazen> .
+  skos:prefLabel "RasterMazen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen> .

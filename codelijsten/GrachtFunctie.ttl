@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de functie van de gracht te bepalen."@nl;
-  skos:prefLabel "grachtFunctie"@nl.
+  skos:prefLabel "GrachtFunctie"@nl.
 
-<https://data.vlaanderen.be/id/concept/GrachtFunctie/ontwatering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrachtFunctie/ontwatering> a skos:Concept;
   skos:definition "Ontwatering als functie van de gracht."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
   skos:notation "ontwatering";
-  skos:prefLabel "grachtFunctie"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
+  skos:prefLabel "GrachtFunctie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
 
-<https://data.vlaanderen.be/id/concept/GrachtFunctie/vesting> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrachtFunctie/vesting> a skos:Concept;
   skos:definition "Vesting als functie van de gracht."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
   skos:notation "vesting";
-  skos:prefLabel "grachtFunctie"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
+  skos:prefLabel "GrachtFunctie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
 
-<https://data.vlaanderen.be/id/concept/GrachtFunctie/baangracht> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrachtFunctie/baangracht> a skos:Concept;
   skos:definition "Baangracht als functie van de gracht."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
   skos:notation "baangracht";
-  skos:prefLabel "grachtFunctie"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
+  skos:prefLabel "GrachtFunctie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
 
-<https://data.vlaanderen.be/id/concept/GrachtFunctie/polder> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrachtFunctie/polder> a skos:Concept;
   skos:definition "Polder als functie van de gracht."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie>;
   skos:notation "polder";
-  skos:prefLabel "grachtFunctie"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .
+  skos:prefLabel "GrachtFunctie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrachtFunctie> .

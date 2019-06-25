@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de categorie van verkeersbord te bepalen."@nl;
+  skos:prefLabel "VerkeersbordCategorie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/gevaarsborden> a skos:Concept;
+  skos:definition "gevaarsborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
+  skos:notation "gevaarsborden";
+  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/voorrangsborden> a skos:Concept;
+  skos:definition "voorrangsborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
+  skos:notation "voorrangsborden";
+  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/gebodsborden> a skos:Concept;
+  skos:definition "gebodsborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
+  skos:notation "gebodsborden";
+  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/aanwijzingsborden> a skos:Concept;
+  skos:definition "aanwijzingsborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
+  skos:notation "aanwijzingsborden";
+  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/AfsluiterType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van de afsluiter te bepalen"@nl;
-  skos:prefLabel "afsluiterType"@nl.
+  skos:prefLabel "AfsluiterType"@nl.
 
-<https://data.vlaanderen.be/id/concept/AfsluiterType/Wandafsluiter> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AfsluiterType/Wandafsluiter> a skos:Concept;
   skos:definition "Een afsluiter voor de beheersing van water"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AfsluiterType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType>;
   skos:notation "Wandafsluiter";
-  skos:prefLabel "afsluiterType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AfsluiterType> .
+  skos:prefLabel "AfsluiterType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType> .
 
-<https://data.vlaanderen.be/id/concept/AfsluiterType/Steekschuif> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AfsluiterType/Steekschuif> a skos:Concept;
   skos:definition "De steekschuif is een verticaal bewegend afsluitorgaan, en kan rond, vierkant of rechthoekig zijn."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AfsluiterType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType>;
   skos:notation "Steekschuif";
-  skos:prefLabel "afsluiterType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AfsluiterType> .
+  skos:prefLabel "AfsluiterType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType> .

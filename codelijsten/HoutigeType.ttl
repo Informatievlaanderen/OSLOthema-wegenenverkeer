@@ -3,21 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/HoutigeType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/HoutigeType> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het type houtige vegetatie."@nl;
-  skos:prefLabel "houtigeType"@nl.
+  skos:prefLabel "HoutigeType"@nl.
 
-<https://data.vlaanderen.be/id/concept/HoutigeType/houtkant> a skos:Concept;
-  skos:definition "Ongeschoren haag of mantelvegetatie, die soms als hakhout wordt behandeld, maar niet op een door de mens aangelegde wal (verhoging).
-Dichte houtgewassen die breder zijn dan een bomenrij worden houtkanten genoemd. Ze bestaan vaak uit bomen die als hakhout beheerd worden, eventueel gecombineerd met enkele opgaande bomen. Wanneer houtkanten zijn aangeplant op een door de mens opgeworpen aarden wal, spreken we van een houtwal."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeType>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/HoutigeType/houtkant> a skos:Concept;
+  skos:definition "Ongeschoren haag of mantelvegetatie, die soms als hakhout wordt behandeld, maar niet op een door de mens aangelegde wal (verhoging).//Dichte houtgewassen die breder zijn dan een bomenrij worden houtkanten genoemd. Ze bestaan vaak uit bomen die als hakhout beheerd worden, eventueel gecombineerd met enkele opgaande bomen. Wanneer houtkanten zijn aangeplant op een door de mens opgeworpen aarden wal, spreken we van een houtwal."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/HoutigeType>;
   skos:notation "houtkant";
-  skos:prefLabel "houtigeType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeType> .
+  skos:prefLabel "HoutigeType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/HoutigeType> .
 
-<https://data.vlaanderen.be/id/concept/HoutigeType/bomenBos> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/HoutigeType/bomen%20-%20bos> a skos:Concept;
   skos:definition "Opgaande beplanting van houtachtige gewassen die boomvormend zijn."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/HoutigeType>;
-  skos:notation "bomenBos";
-  skos:prefLabel "houtigeType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/HoutigeType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/HoutigeType>;
+  skos:notation "bomen - bos";
+  skos:prefLabel "HoutigeType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/HoutigeType> .

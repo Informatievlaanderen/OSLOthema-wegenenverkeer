@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/PutMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het vervaardigingsmateriaal van de put"@nl;
-  skos:prefLabel "putMateriaal"@nl.
+  skos:prefLabel "PutMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/PutMateriaal/beton of gres> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/PutMateriaal/beton%20of%20gres> a skos:Concept;
   skos:definition "beton of gres"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
   skos:notation "beton of gres";
-  skos:prefLabel "putMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
+  skos:prefLabel "PutMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/PutMateriaal/PE of PP> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/PutMateriaal/PE%20of%20PP> a skos:Concept;
   skos:definition "PE of PP"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
   skos:notation "PE of PP";
-  skos:prefLabel "putMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
+  skos:prefLabel "PutMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/PutMateriaal/glasvezelversterkt polyesterhars> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/PutMateriaal/glasvezelversterkt%20polyesterhars> a skos:Concept;
   skos:definition "glasvezelversterkt polyesterhars"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
   skos:notation "glasvezelversterkt polyesterhars";
-  skos:prefLabel "putMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
+  skos:prefLabel "PutMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/PutMateriaal/ter plaatse gestort beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/PutMateriaal/ter%20plaatse%20gestort%20beton> a skos:Concept;
   skos:definition "ter plaatse gestort beton"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal>;
   skos:notation "ter plaatse gestort beton";
-  skos:prefLabel "putMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PutMateriaal> .
+  skos:prefLabel "PutMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PutMateriaal> .

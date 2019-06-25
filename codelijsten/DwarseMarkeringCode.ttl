@@ -3,111 +3,111 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de code van de dwarse markering."@nl;
-  skos:prefLabel "dwarseMarkeringCode"@nl.
+  skos:prefLabel "DwarseMarkeringCode"@nl.
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/STOPSTRP> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/STOPSTRP> a skos:Concept;
   skos:definition "Code voor de stopstreep"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "STOPSTRP";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/STOPSTRP-OFOS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/STOPSTRP-OFOS> a skos:Concept;
   skos:definition "Code voor de stopstreep OFOS"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "STOPSTRP-OFOS";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/VOP (var)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/VOP%20(var)> a skos:Concept;
   skos:definition "Voetgangers-oversteekplaats (te meten)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "VOP (var)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/VOP (3)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/VOP%20(3)> a skos:Concept;
   skos:definition "Voetgangers-oversteekplaats (3 meter)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "VOP (3)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/VOP (4)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/VOP%20(4)> a skos:Concept;
   skos:definition "Voetgangers-oversteekplaats (4 meter)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "VOP (4)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/VVA 1 (2)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/VVA%201%20(2)> a skos:Concept;
   skos:definition "Verdrijvingsvlak (33 % opp. v.h; vlak)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "VVA 1 (2)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/VVA 0,4 (0,6)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/VVA%200,4%20(0,6)> a skos:Concept;
   skos:definition "Verdrijvingsvlak (40 % opp. v.h; vlak)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "VVA 0,4 (0,6)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/DRH std (0,7)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/DRH%20std%20(0,7)> a skos:Concept;
   skos:definition "Driehoek standaard"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "DRH std (0,7)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/DRH fiets (0,3)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/DRH%20fiets%20(0,3)> a skos:Concept;
   skos:definition "Driehoek fiets"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "DRH fiets (0,3)";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/PARKEER> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/PARKEER> a skos:Concept;
   skos:definition "Parkeerstrook"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "PARKEER";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/RIBBELSTROOK / AFREMMINGSSTREPEN> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/RIBBELSTROOK%20/%20AFREMMINGSSTREPEN> a skos:Concept;
   skos:definition "Afremmingsstreep"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "RIBBELSTROOK / AFREMMINGSSTREPEN";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/DAMBRD> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/DAMBRD> a skos:Concept;
   skos:definition "Dambord"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "DAMBRD";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/FOP> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/FOP> a skos:Concept;
   skos:definition "Fietsoversteekplaats met blokken"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "FOP";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/FOP-sch> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/FOP-sch> a skos:Concept;
   skos:definition "Fietsoversteekplaats met blokken schuin"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "FOP-sch";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
 
-<https://data.vlaanderen.be/id/concept/DwarseMarkeringCode/DREMPEL 1,2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DwarseMarkeringCode/DREMPEL%201,2> a skos:Concept;
   skos:definition "Verkeersdrempel markering"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode>;
   skos:notation "DREMPEL 1,2";
-  skos:prefLabel "dwarseMarkeringCode"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .
+  skos:prefLabel "DwarseMarkeringCode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DwarseMarkeringCode> .

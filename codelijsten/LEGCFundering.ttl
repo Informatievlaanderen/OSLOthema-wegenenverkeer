@@ -3,21 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/LEGCFundering> a skos:ConceptScheme;
-  skos:definition "De funderingswijze van de geluidswerende constructie.
-"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCFundering> a skos:ConceptScheme;
+  skos:definition "De funderingswijze van de geluidswerende constructie.//"@nl;
   skos:prefLabel "LEGCFundering"@nl.
 
-<https://data.vlaanderen.be/id/concept/LEGCFundering/Fundering op staal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEGCFundering/Fundering%20op%20staal> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEGCFundering>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCFundering>;
   skos:notation "Fundering op staal";
   skos:prefLabel "LEGCFundering"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEGCFundering> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCFundering> .
 
-<https://data.vlaanderen.be/id/concept/LEGCFundering/Fundering op palen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEGCFundering/Fundering%20op%20palen> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEGCFundering>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCFundering>;
   skos:notation "Fundering op palen";
   skos:prefLabel "LEGCFundering"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEGCFundering> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCFundering> .

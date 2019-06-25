@@ -3,111 +3,111 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende mogelijke gebreken van een boom oplijst"@nl;
-  skos:prefLabel "boomGebreken"@nl.
+  skos:prefLabel "BoomGebreken"@nl.
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Zwammen/schimmels> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Zwammen/schimmels> a skos:Concept;
   skos:definition "Aanwezigheid van zwammen en/of schimmels"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Zwammen/schimmels";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Takschade> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Takschade> a skos:Concept;
   skos:definition "Schade aan tak of kroon"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Takschade";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Stamschade> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Stamschade> a skos:Concept;
   skos:definition "Schade aan stam"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Stamschade";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Maaischade> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Maaischade> a skos:Concept;
   skos:definition "Schade aan de stamvoet door maaien"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Maaischade";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Wortelschade> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Wortelschade> a skos:Concept;
   skos:definition "Schade aan wortels"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Wortelschade";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Plakoksel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Plakoksel> a skos:Concept;
   skos:definition "Een tak die niet vergroeid is met de stam of andere tak, waarbij de schors van beide tegen elkaar aangedrukt wordt en dus niet vasthangen aan elkaar."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Plakoksel";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Dood hout/afgestorven takken> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Dood%20hout/afgestorven%20takken> a skos:Concept;
   skos:definition "Dood hout of afgestorven takken"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Dood hout/afgestorven takken";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Bladverkleuring> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Bladverkleuring> a skos:Concept;
   skos:definition "Abnormale verkleuring van het blad in het groeiseizoen"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Bladverkleuring";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Verminderde bladbezetting> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Verminderde%20bladbezetting> a skos:Concept;
   skos:definition "Abnormale afname van de hoeveelheid bladeren verspreid over de kroon in het groeiseizoen"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Verminderde bladbezetting";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Holte> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Holte> a skos:Concept;
   skos:definition "Diepere opening in stam of tak"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Holte";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Houtscheuren> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Houtscheuren> a skos:Concept;
   skos:definition "Dwarse of lengtescheuren in de stam of takken"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Houtscheuren";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Waterloten/stamvoetopslag> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Waterloten/stamvoetopslag> a skos:Concept;
   skos:definition "Scheuten die, vaak massaal, gevormd worden aan de stamvoet. Waterloten zijn slapende knopen op stam of takken die uitlopen"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Waterloten/stamvoetopslag";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Kanker/bacterie> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Kanker/bacterie> a skos:Concept;
   skos:definition "Aantasting door een schimmelziekte of bacterie met een vergroeiing van de boom tot gevolg"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Kanker/bacterie";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Insecten> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Insecten> a skos:Concept;
   skos:definition "Insecten die de boom aantasten"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Insecten";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
 
-<https://data.vlaanderen.be/id/concept/BoomGebreken/Andere> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGebreken/Andere> a skos:Concept;
   skos:definition "Andere gebreken"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken>;
   skos:notation "Andere";
-  skos:prefLabel "boomGebreken"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGebreken> .
+  skos:prefLabel "BoomGebreken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGebreken> .

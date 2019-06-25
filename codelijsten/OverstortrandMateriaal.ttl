@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het materiaal van de overstortrand te bepalen."@nl;
-  skos:prefLabel "overstortrandMateriaal"@nl.
+  skos:prefLabel "OverstortrandMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/OverstortrandMateriaal/inox> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/OverstortrandMateriaal/inox> a skos:Concept;
   skos:definition "Een overstortrand uit inox."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal>;
   skos:notation "inox";
-  skos:prefLabel "overstortrandMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> .
+  skos:prefLabel "OverstortrandMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/OverstortrandMateriaal/metselwerk> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/OverstortrandMateriaal/metselwerk> a skos:Concept;
   skos:definition "Een overstortrand uit metselwerk."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal>;
   skos:notation "metselwerk";
-  skos:prefLabel "overstortrandMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> .
+  skos:prefLabel "OverstortrandMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/OverstortrandMateriaal/hout> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/OverstortrandMateriaal/hout> a skos:Concept;
   skos:definition "Een overstortrand uit hout."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal>;
   skos:notation "hout";
-  skos:prefLabel "overstortrandMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> .
+  skos:prefLabel "OverstortrandMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OverstortrandMateriaal> .

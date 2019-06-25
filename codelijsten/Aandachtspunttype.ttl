@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Aandachtspunttype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Aandachtspunttype/BOTSER_NODIG> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype>;
+  skos:notation "BOTSER_NODIG";
+  skos:prefLabel "Aandachtspunttype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Aandachtspunttype/ONVEILIG> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype>;
+  skos:notation "ONVEILIG";
+  skos:prefLabel "Aandachtspunttype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Aandachtspunttype/AAN_AUTOSNELWEG> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype>;
+  skos:notation "AAN_AUTOSNELWEG";
+  skos:prefLabel "Aandachtspunttype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Aandachtspunttype> .

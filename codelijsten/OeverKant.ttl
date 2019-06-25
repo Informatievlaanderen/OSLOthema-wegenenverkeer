@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/OeverKant> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OeverKant> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om de kant van de oever te bepalen."@nl;
-  skos:prefLabel "oeverKant"@nl.
+  skos:prefLabel "OeverKant"@nl.
 
-<https://data.vlaanderen.be/id/concept/OeverKant/rechteroever> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/OeverKant/rechteroever> a skos:Concept;
   skos:definition "De rechteroever."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OeverKant>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OeverKant>;
   skos:notation "rechteroever";
-  skos:prefLabel "oeverKant"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OeverKant> .
+  skos:prefLabel "OeverKant"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OeverKant> .
 
-<https://data.vlaanderen.be/id/concept/OeverKant/linkeroever> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/OeverKant/linkeroever> a skos:Concept;
   skos:definition "De linkeroever."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/OeverKant>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OeverKant>;
   skos:notation "linkeroever";
-  skos:prefLabel "oeverKant"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/OeverKant> .
+  skos:prefLabel "OeverKant"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/OeverKant> .

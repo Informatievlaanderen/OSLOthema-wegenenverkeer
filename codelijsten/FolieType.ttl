@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/FolieType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van folie te bepalen."@nl;
-  skos:prefLabel "folieType"@nl.
+  skos:prefLabel "FolieType"@nl.
 
-<https://data.vlaanderen.be/id/concept/FolieType/folietype 1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/FolieType/folietype%201> a skos:Concept;
   skos:definition "folietype 1"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FolieType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType>;
   skos:notation "folietype 1";
-  skos:prefLabel "folieType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FolieType> .
+  skos:prefLabel "FolieType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType> .
 
-<https://data.vlaanderen.be/id/concept/FolieType/folietype 2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/FolieType/folietype%202> a skos:Concept;
   skos:definition "folietype 2"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FolieType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType>;
   skos:notation "folietype 2";
-  skos:prefLabel "folieType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FolieType> .
+  skos:prefLabel "FolieType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType> .
 
-<https://data.vlaanderen.be/id/concept/FolieType/folietype 3 a> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/FolieType/folietype%203%20a> a skos:Concept;
   skos:definition "folietype 3 a"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FolieType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType>;
   skos:notation "folietype 3 a";
-  skos:prefLabel "folieType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FolieType> .
+  skos:prefLabel "FolieType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType> .
 
-<https://data.vlaanderen.be/id/concept/FolieType/folietype 3 b> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/FolieType/folietype%203%20b> a skos:Concept;
   skos:definition "folietype 3 b"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/FolieType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType>;
   skos:notation "folietype 3 b";
-  skos:prefLabel "folieType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/FolieType> .
+  skos:prefLabel "FolieType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/FolieType> .

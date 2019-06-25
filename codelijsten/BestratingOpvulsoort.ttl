@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de opvulsoort van de grasbetontegel te bepalen"@nl;
-  skos:prefLabel "bestratingOpvulsoort"@nl.
+  skos:prefLabel "BestratingOpvulsoort"@nl.
 
-<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bodemsubstraat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BestratingOpvulsoort/bodemsubstraat> a skos:Concept;
   skos:definition "Opgevuld met bodemsubstraat."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
   skos:notation "bodemsubstraat";
-  skos:prefLabel "bestratingOpvulsoort"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+  skos:prefLabel "BestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
 
-<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bodemsubstraatEnIngezaaid> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BestratingOpvulsoort/bodemsubstraat%20en%20ingezaaid> a skos:Concept;
   skos:definition "Opgevuld met bodemsubstraat en ingezaaid."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
-  skos:notation "bodemsubstraatEnIngezaaid";
-  skos:prefLabel "bestratingOpvulsoort"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "bodemsubstraat en ingezaaid";
+  skos:prefLabel "BestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
 
-<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bomenzand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BestratingOpvulsoort/bomenzand> a skos:Concept;
   skos:definition "Opgevuld met bomenzand."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
   skos:notation "bomenzand";
-  skos:prefLabel "bestratingOpvulsoort"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+  skos:prefLabel "BestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
 
-<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/bomenzandEnIngezaaid> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BestratingOpvulsoort/bomenzand%20en%20ingezaaid> a skos:Concept;
   skos:definition "Opgevuld met bomenzand en ingezaaid."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
-  skos:notation "bomenzandEnIngezaaid";
-  skos:prefLabel "bestratingOpvulsoort"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "bomenzand en ingezaaid";
+  skos:prefLabel "BestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
 
-<https://data.vlaanderen.be/id/concept/BestratingOpvulsoort/steenslag263> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BestratingOpvulsoort/steenslag%202/6,3> a skos:Concept;
   skos:definition "Opgevuld met steenslag 2/6,3"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
-  skos:notation "steenslag263";
-  skos:prefLabel "bestratingOpvulsoort"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort>;
+  skos:notation "steenslag 2/6,3";
+  skos:prefLabel "BestratingOpvulsoort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BestratingOpvulsoort> .

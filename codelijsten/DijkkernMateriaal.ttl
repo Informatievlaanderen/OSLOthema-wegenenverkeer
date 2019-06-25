@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het materiaal van de dijkkern te bepalen."@nl;
-  skos:prefLabel "dijkkernMateriaal"@nl.
+  skos:prefLabel "DijkkernMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/DijkkernMateriaal/beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DijkkernMateriaal/beton> a skos:Concept;
   skos:definition "Een betonnen dijkkern."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
   skos:notation "beton";
-  skos:prefLabel "dijkkernMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
+  skos:prefLabel "DijkkernMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/DijkkernMateriaal/damwand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DijkkernMateriaal/damwand> a skos:Concept;
   skos:definition "Een damwand als dijkkern."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
   skos:notation "damwand";
-  skos:prefLabel "dijkkernMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
+  skos:prefLabel "DijkkernMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/DijkkernMateriaal/bentoniet> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DijkkernMateriaal/bentoniet> a skos:Concept;
   skos:definition "Bentoniet als dijkkern."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
   skos:notation "bentoniet";
-  skos:prefLabel "dijkkernMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
+  skos:prefLabel "DijkkernMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/DijkkernMateriaal/klei> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DijkkernMateriaal/klei> a skos:Concept;
   skos:definition "Klei als dijkkern."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
   skos:notation "klei";
-  skos:prefLabel "dijkkernMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
+  skos:prefLabel "DijkkernMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/DijkkernMateriaal/plastic> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/DijkkernMateriaal/plastic> a skos:Concept;
   skos:definition "Plastic als dijkkern."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal>;
   skos:notation "plastic";
-  skos:prefLabel "dijkkernMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .
+  skos:prefLabel "DijkkernMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/DijkkernMateriaal> .

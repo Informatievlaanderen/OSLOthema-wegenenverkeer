@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/UitlaatType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/UitlaatType> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende types van uitlaat beschrijven"@nl;
-  skos:prefLabel "uitlaatType"@nl.
+  skos:prefLabel "UitlaatType"@nl.
 
-<https://data.vlaanderen.be/id/concept/UitlaatType/inlaat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/UitlaatType/inlaat> a skos:Concept;
   skos:definition "locatie waar water van een open profiel naar een inbuizing overgaat"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/UitlaatType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/UitlaatType>;
   skos:notation "inlaat";
-  skos:prefLabel "uitlaatType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/UitlaatType> .
+  skos:prefLabel "UitlaatType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/UitlaatType> .
 
-<https://data.vlaanderen.be/id/concept/UitlaatType/uitlaat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/UitlaatType/uitlaat> a skos:Concept;
   skos:definition "locatie waar water van een inbuizing naar een open profiel overgaat"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/UitlaatType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/UitlaatType>;
   skos:notation "uitlaat";
-  skos:prefLabel "uitlaatType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/UitlaatType> .
+  skos:prefLabel "UitlaatType"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/UitlaatType> .

@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> a skos:ConceptScheme;
+  skos:definition "keuzelijst standaard bevestigingen lichtmast"@nl;
+  skos:prefLabel "WvBevsToestellen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/kroon> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "kroon";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/mediaanbalk%20H> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "mediaanbalk H";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/mediaanbalk%20I> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "mediaanbalk I";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/mediaanbalk%20U> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "mediaanbalk U";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/ossenkop> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "ossenkop";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/plaat> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "plaat";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/T-stuk> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "T-stuk";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/paaltop_60mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "paaltop_60mm";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/paaltop_76mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "paaltop_76mm";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/WvBevsToestel/paaltop_108mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel>;
+  skos:notation "paaltop_108mm";
+  skos:prefLabel "WvBevsToestellen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WvBevsToestel> .

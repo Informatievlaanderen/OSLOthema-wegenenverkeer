@@ -3,62 +3,62 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de nauwkeurigheid waarmee objecten opgemeten worden hangt af van de meetmethode (terrestrisch of via luchtfotogrammetrie) en van de precisie waarmee objecten op het terrein kunnen aangeduid worden. Het GRB definieert 6 nauwkeurigheidsklassen van A tot en met F. Daarnaast werden op basis van het IMKL datamodel ook nog de waarden 'tot 50cm' en 'tot 100cm' opgenomen."@nl;
-  skos:prefLabel "nauwkeurigheid"@nl.
+  skos:prefLabel "Nauwkeurigheid"@nl.
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/a> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/a> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 4 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "a";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/b> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/b> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 5 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "b";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/c> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/c> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 7 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "c";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/d> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/d> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 15 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "d";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/e> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/e> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 30 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "e";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/f> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/f> a skos:Concept;
   skos:definition "Geen nauwkeurigheidsinformatie beschikbaar."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "f";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/h> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/h> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 100 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "h";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
 
-<https://data.vlaanderen.be/id/concept/Nauwkeurigheid/g> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Nauwkeurigheid/g> a skos:Concept;
   skos:definition "Relatieve nauwkeurigheid of standaardafwijking van 50 cm."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid>;
   skos:notation "g";
-  skos:prefLabel "nauwkeurigheid"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .
+  skos:prefLabel "Nauwkeurigheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Nauwkeurigheid> .

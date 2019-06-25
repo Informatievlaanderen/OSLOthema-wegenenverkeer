@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het materiaal van de terugslagklep te bepalen."@nl;
-  skos:prefLabel "tsklepAfsluiterMateriaal"@nl.
+  skos:prefLabel "TsklepAfsluiterMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/amGietijzer> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/am%20-%20Gietijzer> a skos:Concept;
   skos:definition "Een gietijzeren terugslagklep."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
-  skos:notation "amGietijzer";
-  skos:prefLabel "tsklepAfsluiterMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
+  skos:notation "am - Gietijzer";
+  skos:prefLabel "TsklepAfsluiterMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/avHdpe> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/av%20-%20Hdpe> a skos:Concept;
   skos:definition "Een terugslagklep uit HDPE."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
-  skos:notation "avHdpe";
-  skos:prefLabel "tsklepAfsluiterMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
+  skos:notation "av - Hdpe";
+  skos:prefLabel "TsklepAfsluiterMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/apStaal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/ap%20-%20Staal> a skos:Concept;
   skos:definition "Een stalen terugslagklep."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
-  skos:notation "apStaal";
-  skos:prefLabel "tsklepAfsluiterMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
+  skos:notation "ap - Staal";
+  skos:prefLabel "TsklepAfsluiterMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/zAnders> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/TsklepAfsluiterMateriaal/z%20-%20Anders> a skos:Concept;
   skos:definition "Een terugslagklep uit een ander materiaal."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
-  skos:notation "zAnders";
-  skos:prefLabel "tsklepAfsluiterMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal>;
+  skos:notation "z - Anders";
+  skos:prefLabel "TsklepAfsluiterMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TsklepAfsluiterMateriaal> .

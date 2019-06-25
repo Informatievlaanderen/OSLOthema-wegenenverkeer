@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende fases van beheer volgens de verschillende levensfases van de boom oplijst"@nl;
-  skos:prefLabel "boomGroeifase"@nl.
+  skos:prefLabel "BoomGroeifase"@nl.
 
-<https://data.vlaanderen.be/id/concept/BoomGroeifase/Plantfase> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGroeifase/Plantfase> a skos:Concept;
   skos:definition "De periode na de aanplant waarbij het beheer gericht is op het aanslaan van de boom (water geven, boompalen verwijderen,…)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
   skos:notation "Plantfase";
-  skos:prefLabel "boomGroeifase"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
+  skos:prefLabel "BoomGroeifase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
 
-<https://data.vlaanderen.be/id/concept/BoomGroeifase/Eindfase> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGroeifase/Eindfase> a skos:Concept;
   skos:definition "De periode waarbij regressie/aftakeling plaatsvindt – beheer gericht op instandhouding (kroonverzorging)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
   skos:notation "Eindfase";
-  skos:prefLabel "boomGroeifase"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
+  skos:prefLabel "BoomGroeifase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
 
-<https://data.vlaanderen.be/id/concept/BoomGroeifase/Dood> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGroeifase/Dood> a skos:Concept;
   skos:definition "Dood"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
   skos:notation "Dood";
-  skos:prefLabel "boomGroeifase"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
+  skos:prefLabel "BoomGroeifase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
 
-<https://data.vlaanderen.be/id/concept/BoomGroeifase/Jeugdfase> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGroeifase/Jeugdfase> a skos:Concept;
   skos:definition "De periode van de lengte-ontwikkeling van de boom – beheer gericht op tot stand brengen van de takvrije stamlengte (begeleidingssnoei,..)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
   skos:notation "Jeugdfase";
-  skos:prefLabel "boomGroeifase"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
+  skos:prefLabel "BoomGroeifase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
 
-<https://data.vlaanderen.be/id/concept/BoomGroeifase/Volwassenfase> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomGroeifase/Volwassenfase> a skos:Concept;
   skos:definition "De periode van de kroonontwikkeling – beheer gericht op in stand houden van de boom (onderhoudssnoei)"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase>;
   skos:notation "Volwassenfase";
-  skos:prefLabel "boomGroeifase"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .
+  skos:prefLabel "BoomGroeifase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomGroeifase> .

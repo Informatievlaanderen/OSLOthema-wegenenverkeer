@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het eventuele toevoegsel bij de grond te bepalen."@nl;
-  skos:prefLabel "grondtoevoegsel"@nl.
+  skos:prefLabel "Grondtoevoegsel"@nl.
 
-<https://data.vlaanderen.be/id/concept/Grondtoevoegsel/kalk> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Grondtoevoegsel/kalk> a skos:Concept;
   skos:definition "Kalk als toevoegsel bij de grond."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel>;
   skos:notation "kalk";
-  skos:prefLabel "grondtoevoegsel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel> .
+  skos:prefLabel "Grondtoevoegsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel> .
 
-<https://data.vlaanderen.be/id/concept/Grondtoevoegsel/cement> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/Grondtoevoegsel/cement> a skos:Concept;
   skos:definition "Cement als toevoegsel."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel>;
   skos:notation "cement";
-  skos:prefLabel "grondtoevoegsel"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel> .
+  skos:prefLabel "Grondtoevoegsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Grondtoevoegsel> .

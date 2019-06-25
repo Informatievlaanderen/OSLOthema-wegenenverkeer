@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> a skos:ConceptScheme;
   skos:definition "Het type van opening."@nl;
   skos:prefLabel "LEGCOpeningType"@nl.
 
-<https://data.vlaanderen.be/id/concept/LEGCOpeningType/sas> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEGCOpeningType/sas> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEGCOpeningType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType>;
   skos:notation "sas";
   skos:prefLabel "LEGCOpeningType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> .
 
-<https://data.vlaanderen.be/id/concept/LEGCOpeningType/nooddeur> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEGCOpeningType/nooddeur> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LEGCOpeningType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType>;
   skos:notation "nooddeur";
   skos:prefLabel "LEGCOpeningType"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> .

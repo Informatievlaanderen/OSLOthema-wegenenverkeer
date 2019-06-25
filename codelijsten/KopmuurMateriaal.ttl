@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het materiaal van de kopmuur"@nl;
-  skos:prefLabel "kopmuurMateriaal"@nl.
+  skos:prefLabel "KopmuurMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/KopmuurMateriaal/beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KopmuurMateriaal/beton> a skos:Concept;
   skos:definition "beton"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal>;
   skos:notation "beton";
-  skos:prefLabel "kopmuurMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> .
+  skos:prefLabel "KopmuurMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/KopmuurMateriaal/metselwerk> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KopmuurMateriaal/metselwerk> a skos:Concept;
   skos:definition "metselwerk"@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal>;
   skos:notation "metselwerk";
-  skos:prefLabel "kopmuurMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> .
+  skos:prefLabel "KopmuurMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> .

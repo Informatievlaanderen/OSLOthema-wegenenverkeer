@@ -3,21 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting> a skos:ConceptScheme;
-  skos:definition "De markeringsopvattingvan de markering.
-"@nl;
-  skos:prefLabel "signalisatieMarkeringOpvatting"@nl.
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting> a skos:ConceptScheme;
+  skos:definition "De markeringsopvattingvan de markering.//"@nl;
+  skos:prefLabel "SignalisatieMarkeringOpvatting"@nl.
 
-<https://data.vlaanderen.be/id/concept/SignalisatieMarkeringOpvatting/Middelenverbintenis> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/SignalisatieMarkeringOpvatting/Middelenverbintenis> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting>;
   skos:notation "Middelenverbintenis";
-  skos:prefLabel "signalisatieMarkeringOpvatting"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting> .
+  skos:prefLabel "SignalisatieMarkeringOpvatting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting> .
 
-<https://data.vlaanderen.be/id/concept/SignalisatieMarkeringOpvatting/Resultaatsverbintenis> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/SignalisatieMarkeringOpvatting/Resultaatsverbintenis> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting>;
   skos:notation "Resultaatsverbintenis";
-  skos:prefLabel "signalisatieMarkeringOpvatting"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting> .
+  skos:prefLabel "SignalisatieMarkeringOpvatting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/SignalisatieMarkeringOpvatting> .

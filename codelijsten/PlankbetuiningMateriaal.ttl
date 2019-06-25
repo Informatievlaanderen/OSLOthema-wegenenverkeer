@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal> a skos:ConceptScheme;
   skos:definition ""@nl;
-  skos:prefLabel "plankbetuiningMateriaal"@nl.
+  skos:prefLabel "PlankbetuiningMateriaal"@nl.
 
-<https://data.vlaanderen.be/id/concept/PlankbetuiningMateriaal/beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/PlankbetuiningMateriaal/beton> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal>;
   skos:notation "beton";
-  skos:prefLabel "plankbetuiningMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal> .
+  skos:prefLabel "PlankbetuiningMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal> .
 
-<https://data.vlaanderen.be/id/concept/PlankbetuiningMateriaal/hout> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/PlankbetuiningMateriaal/hout> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal>;
   skos:notation "hout";
-  skos:prefLabel "plankbetuiningMateriaal"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal> .
+  skos:prefLabel "PlankbetuiningMateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/PlankbetuiningMateriaal> .

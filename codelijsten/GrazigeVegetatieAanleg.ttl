@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende types van aanleg voor grazige vegetatie oplijst"@nl;
-  skos:prefLabel "grazigeVegetatieAanleg"@nl.
+  skos:prefLabel "GrazigeVegetatieAanleg"@nl.
 
-<https://data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/hydraulische bezaaiing> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/hydraulische%20bezaaiing> a skos:Concept;
   skos:definition "Het aanleggen van een grazige vegetatie door het openspreiden van het zaadmengsel met een spuitzaaimachine."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
   skos:notation "hydraulische bezaaiing";
-  skos:prefLabel "grazigeVegetatieAanleg"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
+  skos:prefLabel "GrazigeVegetatieAanleg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
 
-<https://data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/bezaaiing> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/bezaaiing> a skos:Concept;
   skos:definition "Het aanleggen van een grazige vegetatie door het inzaaien van het zaadmengsel."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
   skos:notation "bezaaiing";
-  skos:prefLabel "grazigeVegetatieAanleg"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
+  skos:prefLabel "GrazigeVegetatieAanleg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
 
-<https://data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/bloemenmengsel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/bloemenmengsel> a skos:Concept;
   skos:definition "Het aanleggen van een grazige vegetatie door het inzaaien van een bloemenmengsel."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
   skos:notation "bloemenmengsel";
-  skos:prefLabel "grazigeVegetatieAanleg"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
+  skos:prefLabel "GrazigeVegetatieAanleg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
 
-<https://data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/bezoding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/GrazigeVegetatieAanleg/bezoding> a skos:Concept;
   skos:definition "Het aanleggen van een grazige vegetatie door het naast elkaar leggen van graszoden."@nl;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg>;
   skos:notation "bezoding";
-  skos:prefLabel "grazigeVegetatieAanleg"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .
+  skos:prefLabel "GrazigeVegetatieAanleg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GrazigeVegetatieAanleg> .

@@ -5,25 +5,25 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het type van terugslagklep"@nl;
-  skos:prefLabel "TerugslagklepType"@nl.
+  skos:prefLabel "Terugslagklep type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/TerugslagklepType/vorm%20eendebek> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/TerugslagklepType/vorm_eendebek> a skos:Concept;
   skos:definition "Eendebek, bedoeld om terugstroom in het stelsel vanuit het oppervlaktewater te voorkomen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType>;
-  skos:notation "vorm eendebek";
-  skos:prefLabel "TerugslagklepType"@nl;
+  skos:notation "vorm_eendebek";
+  skos:prefLabel "vorm_eendebek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/TerugslagklepType/scharnierend> a skos:Concept;
   skos:definition "Klep bevestigd aan een scharnier, bedoeld om terugstroom in het stelsel vanuit het oppervlaktewater te voorkomen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType>;
   skos:notation "scharnierend";
-  skos:prefLabel "TerugslagklepType"@nl;
+  skos:prefLabel "scharnierend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/TerugslagklepType/balkeerklep> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType>;
   skos:notation "balkeerklep";
-  skos:prefLabel "TerugslagklepType"@nl;
+  skos:prefLabel "balkeerklep"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/TerugslagklepType> .

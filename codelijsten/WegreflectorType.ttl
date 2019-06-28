@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WegreflectorType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van wegreflector te bepalen"@nl;
-  skos:prefLabel "WegreflectorType"@nl.
+  skos:prefLabel "Wegreflector type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/WegreflectorType/wegdekreflector> a skos:Concept;
   skos:definition "Een wegreflector aangebracht op de rijbaan met als doel de zichtbaarheid van verkeerseilanden te verhogen en geleiding van de weggebruiker langs de weg"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WegreflectorType>;
   skos:notation "wegdekreflector";
-  skos:prefLabel "WegreflectorType"@nl;
+  skos:prefLabel "wegdekreflector"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WegreflectorType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/WegreflectorType/glasbolreflector> a skos:Concept;
   skos:definition "Een wegreflector in glas met als doel de geleiding van de weggebruiker langs de weg"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WegreflectorType>;
   skos:notation "glasbolreflector";
-  skos:prefLabel "WegreflectorType"@nl;
+  skos:prefLabel "glasbolreflector"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/WegreflectorType> .

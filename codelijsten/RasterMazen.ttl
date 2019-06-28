@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van de mazen in het ecoraster te bepalen."@nl;
-  skos:prefLabel "RasterMazen"@nl.
+  skos:prefLabel "Rastermazen"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/RasterMazen/fijnmazig> a skos:Concept;
   skos:definition "Een fijnmazig raster."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen>;
   skos:notation "fijnmazig";
-  skos:prefLabel "RasterMazen"@nl;
+  skos:prefLabel "fijnmazig"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/RasterMazen/grofmazig> a skos:Concept;
   skos:definition "Een grofmazig raster."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen>;
   skos:notation "grofmazig";
-  skos:prefLabel "RasterMazen"@nl;
+  skos:prefLabel "grofmazig"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/RasterMazen> .

@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van de afsluiter te bepalen"@nl;
-  skos:prefLabel "AfsluiterType"@nl.
+  skos:prefLabel "Afsluiter type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/AfsluiterType/Wandafsluiter> a skos:Concept;
   skos:definition "Een afsluiter voor de beheersing van water"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType>;
   skos:notation "Wandafsluiter";
-  skos:prefLabel "AfsluiterType"@nl;
+  skos:prefLabel "Wandafsluiter"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/AfsluiterType/Steekschuif> a skos:Concept;
   skos:definition "De steekschuif is een verticaal bewegend afsluitorgaan, en kan rond, vierkant of rechthoekig zijn."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType>;
   skos:notation "Steekschuif";
-  skos:prefLabel "AfsluiterType"@nl;
+  skos:prefLabel "Steekschuif"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AfsluiterType> .

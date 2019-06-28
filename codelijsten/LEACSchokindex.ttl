@@ -5,25 +5,25 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende schokindices"@nl;
-  skos:prefLabel "LEACSchokindex"@nl.
+  skos:prefLabel "Schokindex"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSchokindex/A> a skos:Concept;
   skos:definition "ASI <= 1.0 (zeer veilig)"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex>;
   skos:notation "A";
-  skos:prefLabel "LEACSchokindex"@nl;
+  skos:prefLabel "A"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSchokindex/B> a skos:Concept;
   skos:definition "ASI <= 1.4 (voldoende veilig)"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex>;
   skos:notation "B";
-  skos:prefLabel "LEACSchokindex"@nl;
+  skos:prefLabel "B"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSchokindex/C> a skos:Concept;
   skos:definition "ASI <= 1.9"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex>;
   skos:notation "C";
-  skos:prefLabel "LEACSchokindex"@nl;
+  skos:prefLabel "C"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSchokindex> .

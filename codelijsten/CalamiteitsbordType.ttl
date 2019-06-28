@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CalamiteitsbordType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van calamiteitsbord te bepalen."@nl;
-  skos:prefLabel "CalamiteitsbordType"@nl.
+  skos:prefLabel "Calamiteitsbord type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/CalamiteitsbordType/dragend%20bord> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/CalamiteitsbordType/dragend_bord> a skos:Concept;
   skos:definition "Een dragend calamiteitsbord."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CalamiteitsbordType>;
-  skos:notation "dragend bord";
-  skos:prefLabel "CalamiteitsbordType"@nl;
+  skos:notation "dragend_bord";
+  skos:prefLabel "dragend_bord"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CalamiteitsbordType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/CalamiteitsbordType/draaiend%20bord> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/CalamiteitsbordType/draaiend_bord> a skos:Concept;
   skos:definition "Een draaiend calamiteitsbord."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CalamiteitsbordType>;
-  skos:notation "draaiend bord";
-  skos:prefLabel "CalamiteitsbordType"@nl;
+  skos:notation "draaiend_bord";
+  skos:prefLabel "draaiend_bord"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CalamiteitsbordType> .

@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GCMeetMethode> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de locatie van de geluidstest proef te bepalen"@nl;
-  skos:prefLabel "GCMeetMethode"@nl.
+  skos:prefLabel "Meet methode"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/GCMeetMethode/inSitu> a skos:Concept;
   skos:definition "Proef uitgevoerd op de werf"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GCMeetMethode>;
   skos:notation "inSitu";
-  skos:prefLabel "GCMeetMethode"@nl;
+  skos:prefLabel "inSitu"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GCMeetMethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/GCMeetMethode/labo> a skos:Concept;
   skos:definition "Proef uitgevoerd in het labo"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GCMeetMethode>;
   skos:notation "labo";
-  skos:prefLabel "GCMeetMethode"@nl;
+  skos:prefLabel "labo"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/GCMeetMethode> .

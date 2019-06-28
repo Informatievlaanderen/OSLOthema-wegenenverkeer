@@ -5,32 +5,32 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de categorie van verkeersbord te bepalen."@nl;
-  skos:prefLabel "VerkeersbordCategorie"@nl.
+  skos:prefLabel "Verkeersbord categorie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/gevaarsborden> a skos:Concept;
   skos:definition "gevaarsborden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
   skos:notation "gevaarsborden";
-  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:prefLabel "gevaarsborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/voorrangsborden> a skos:Concept;
   skos:definition "voorrangsborden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
   skos:notation "voorrangsborden";
-  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:prefLabel "voorrangsborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/gebodsborden> a skos:Concept;
   skos:definition "gebodsborden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
   skos:notation "gebodsborden";
-  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:prefLabel "gebodsborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/Categorie/aanwijzingsborden> a skos:Concept;
   skos:definition "aanwijzingsborden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie>;
   skos:notation "aanwijzingsborden";
-  skos:prefLabel "VerkeersbordCategorie"@nl;
+  skos:prefLabel "aanwijzingsborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/Categorie> .

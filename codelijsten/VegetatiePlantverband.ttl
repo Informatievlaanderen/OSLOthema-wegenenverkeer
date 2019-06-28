@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende opties plantverband"@nl;
-  skos:prefLabel "VegetatiePlantverband"@nl.
+  skos:prefLabel "Vegetatie plantverband"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/VegetatiePlantverband/geschrankt> a skos:Concept;
   skos:definition "De planten staan geschrankt"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband>;
   skos:notation "geschrankt";
-  skos:prefLabel "VegetatiePlantverband"@nl;
+  skos:prefLabel "geschrankt"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/VegetatiePlantverband/rijafstand> a skos:Concept;
   skos:definition "De afstand tussen de rijen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband>;
   skos:notation "rijafstand";
-  skos:prefLabel "VegetatiePlantverband"@nl;
+  skos:prefLabel "rijafstand"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VegetatiePlantverband> .

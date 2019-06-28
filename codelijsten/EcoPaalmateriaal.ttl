@@ -5,25 +5,25 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het materiaal van de paal in het ecoraster te bepalen."@nl;
-  skos:prefLabel "EcoPaalmateriaal"@nl.
+  skos:prefLabel "Paalmateriaal"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/hout%20Robina> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/hout_Robina> a skos:Concept;
   skos:definition "Een houten paal van robina hout."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
-  skos:notation "hout Robina";
-  skos:prefLabel "EcoPaalmateriaal"@nl;
+  skos:notation "hout_Robina";
+  skos:prefLabel "hout_Robina"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/hout%20Kastanje> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/hout_Kastanje> a skos:Concept;
   skos:definition "Een houten paal van kastanje hout."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
-  skos:notation "hout Kastanje";
-  skos:prefLabel "EcoPaalmateriaal"@nl;
+  skos:notation "hout_Kastanje";
+  skos:prefLabel "hout_Kastanje"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPaalmateriaal/metaal> a skos:Concept;
   skos:definition "Een metalen paal."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal>;
   skos:notation "metaal";
-  skos:prefLabel "EcoPaalmateriaal"@nl;
+  skos:prefLabel "metaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPaalmateriaal> .

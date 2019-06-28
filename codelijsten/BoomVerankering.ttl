@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomVerankering> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor de verschillende manieren van verankering van een boom"@nl;
-  skos:prefLabel "BoomVerankering"@nl.
+  skos:prefLabel "Boom verankering"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomVerankering/ondergronds> a skos:Concept;
   skos:definition "De constructie voor de stabiliteit van de boom bevindt zich volledig onder de grond"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomVerankering>;
   skos:notation "ondergronds";
-  skos:prefLabel "BoomVerankering"@nl;
+  skos:prefLabel "ondergronds"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomVerankering> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/BoomVerankering/bovengronds> a skos:Concept;
   skos:definition "De constructie voor de stabiliteit van de boom bevindt zich boven de grond"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomVerankering>;
   skos:notation "bovengronds";
-  skos:prefLabel "BoomVerankering"@nl;
+  skos:prefLabel "bovengronds"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BoomVerankering> .

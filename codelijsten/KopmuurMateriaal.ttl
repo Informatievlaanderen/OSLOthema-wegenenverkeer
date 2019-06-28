@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het materiaal van de kopmuur"@nl;
-  skos:prefLabel "KopmuurMateriaal"@nl.
+  skos:prefLabel "Kopmuur materiaal"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KopmuurMateriaal/beton> a skos:Concept;
   skos:definition "beton"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal>;
   skos:notation "beton";
-  skos:prefLabel "KopmuurMateriaal"@nl;
+  skos:prefLabel "beton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KopmuurMateriaal/metselwerk> a skos:Concept;
   skos:definition "metselwerk"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal>;
   skos:notation "metselwerk";
-  skos:prefLabel "KopmuurMateriaal"@nl;
+  skos:prefLabel "metselwerk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KopmuurMateriaal> .

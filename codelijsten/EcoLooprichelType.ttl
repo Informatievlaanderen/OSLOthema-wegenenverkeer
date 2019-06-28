@@ -5,32 +5,32 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van looprichel te bepalen."@nl;
-  skos:prefLabel "EcoLooprichelType"@nl.
+  skos:prefLabel "Looprichel type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoLooprichelType/hout> a skos:Concept;
   skos:definition "Een houten looprichel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
   skos:notation "hout";
-  skos:prefLabel "EcoLooprichelType"@nl;
+  skos:prefLabel "hout"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoLooprichelType/beton> a skos:Concept;
-  skos:definition "Een betonnen loopruchel."@nl;
+  skos:definition "Een betonnen looprichel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
   skos:notation "beton";
-  skos:prefLabel "EcoLooprichelType"@nl;
+  skos:prefLabel "beton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoLooprichelType/schanskorven> a skos:Concept;
   skos:definition "Een oever bestaande uit schanskorven."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
   skos:notation "schanskorven";
-  skos:prefLabel "EcoLooprichelType"@nl;
+  skos:prefLabel "schanskorven"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoLooprichelType/doorlopende%20natuurlijke%20oever> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoLooprichelType/doorlopende_natuurlijke_oever> a skos:Concept;
   skos:definition "Een doorlopende natuurlijke oever."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType>;
-  skos:notation "doorlopende natuurlijke oever";
-  skos:prefLabel "EcoLooprichelType"@nl;
+  skos:notation "doorlopende_natuurlijke_oever";
+  skos:prefLabel "doorlopende_natuurlijke_oever"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoLooprichelType> .

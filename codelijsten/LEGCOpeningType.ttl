@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> a skos:ConceptScheme;
   skos:definition "Het type van opening."@nl;
-  skos:prefLabel "LEGCOpeningType"@nl.
+  skos:prefLabel "Opening type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEGCOpeningType/sas> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType>;
   skos:notation "sas";
-  skos:prefLabel "LEGCOpeningType"@nl;
+  skos:prefLabel "sas"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEGCOpeningType/nooddeur> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType>;
   skos:notation "nooddeur";
-  skos:prefLabel "LEGCOpeningType"@nl;
+  skos:prefLabel "nooddeur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEGCOpeningType> .

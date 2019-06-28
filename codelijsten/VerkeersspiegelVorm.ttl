@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de vorm van verkeersspiegel te bepalen"@nl;
-  skos:prefLabel "VerkeersspiegelVorm"@nl.
+  skos:prefLabel "Verkeersspiegel vorm"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/VerkeersspiegelVorm/rond> a skos:Concept;
   skos:definition "ronde verkeersspiegel"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm>;
   skos:notation "rond";
-  skos:prefLabel "VerkeersspiegelVorm"@nl;
+  skos:prefLabel "rond"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/VerkeersspiegelVorm/rechthoekig> a skos:Concept;
   skos:definition "rechthoekige verkeersspiegel"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm>;
   skos:notation "rechthoekig";
-  skos:prefLabel "VerkeersspiegelVorm"@nl;
+  skos:prefLabel "rechthoekig"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/VerkeersspiegelVorm> .

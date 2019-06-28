@@ -5,25 +5,25 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk> a skos:ConceptScheme;
   skos:definition "Keuzelijst van de verschillende types eindstukken"@nl;
-  skos:prefLabel "LEACTypeEindstuk"@nl.
+  skos:prefLabel "Type eindstuk"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACTypeEindstuk/uitgebogen> a skos:Concept;
   skos:definition "uitgebogen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk>;
   skos:notation "uitgebogen";
-  skos:prefLabel "LEACTypeEindstuk"@nl;
+  skos:prefLabel "uitgebogen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACTypeEindstuk/schelp> a skos:Concept;
   skos:definition "schelp"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk>;
   skos:notation "schelp";
-  skos:prefLabel "LEACTypeEindstuk"@nl;
+  skos:prefLabel "schelp"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACTypeEindstuk/naar%20beneden%20afgebogen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACTypeEindstuk/naar_beneden_afgebogen> a skos:Concept;
   skos:definition "naar beneden afgebogen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk>;
-  skos:notation "naar beneden afgebogen";
-  skos:prefLabel "LEACTypeEindstuk"@nl;
+  skos:notation "naar_beneden_afgebogen";
+  skos:prefLabel "naar_beneden_afgebogen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACTypeEindstuk> .

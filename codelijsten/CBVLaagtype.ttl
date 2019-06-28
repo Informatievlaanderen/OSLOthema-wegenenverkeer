@@ -5,32 +5,32 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om laagtype van de cement/beton verharding te bepalen"@nl;
-  skos:prefLabel "CBVLaagtype"@nl.
+  skos:prefLabel "CBV laagtype"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/eenlaagse%20betonverharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/eenlaagse_betonverharding> a skos:Concept;
   skos:definition "Betonverharding die in &#233;&#233;n laag aangelegd wordt. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype>;
-  skos:notation "eenlaagse betonverharding";
-  skos:prefLabel "CBVLaagtype"@nl;
+  skos:notation "eenlaagse_betonverharding";
+  skos:prefLabel "eenlaagse_betonverharding"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/Tweelaagse%20betonverharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/Tweelaagse_betonverharding> a skos:Concept;
   skos:definition "Betonverharding die in twee lagen aangelegd wordt. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype>;
-  skos:notation "Tweelaagse betonverharding";
-  skos:prefLabel "CBVLaagtype"@nl;
+  skos:notation "Tweelaagse_betonverharding";
+  skos:prefLabel "Tweelaagse_betonverharding"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/Platenbetonverharding> a skos:Concept;
-  skos:definition "Een- of tweelaagse betonverharding waarin op regelmatige afstand gedeuvelde of ongedeuvelde //dwarsvoegen zijn aangebracht. "@nl;
+  skos:definition "Een keuzelijst om laagtype van de cement/beton verharding te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype>;
   skos:notation "Platenbetonverharding";
-  skos:prefLabel "CBVLaagtype"@nl;
+  skos:prefLabel "Platenbetonverharding"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/Doorgaand%20gewapende%20betonverharding%20(Dgb)> a skos:Concept;
-  skos:definition "Een- of tweelaagse gewapende betonverharding zonder dwarsvoegen (behalve constructievoegen) al //dan niet met verankeringslandhoofden aan de uiteinden ervan. "@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/CBVLaagtype/Doorgaand_gewapende_betonverharding_(Dgb)> a skos:Concept;
+  skos:definition "Een keuzelijst om laagtype van de cement/beton verharding te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype>;
-  skos:notation "Doorgaand gewapende betonverharding (Dgb)";
-  skos:prefLabel "CBVLaagtype"@nl;
+  skos:notation "Doorgaand_gewapende_betonverharding_(Dgb)";
+  skos:prefLabel "Doorgaand_gewapende_betonverharding_(Dgb)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/CBVLaagtype> .

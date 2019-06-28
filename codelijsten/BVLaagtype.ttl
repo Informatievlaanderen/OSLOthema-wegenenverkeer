@@ -5,53 +5,53 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> a skos:ConceptScheme;
   skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
-  skos:prefLabel "BVLaagtype"@nl.
+  skos:prefLabel "BV laagtype"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/toplaag%20van%20asfaltbeton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/toplaag_van_asfaltbeton> a skos:Concept;
   skos:definition "Bovenste laag van een bitumineuze verharding, die direct in contact komt met het verkeer bestaande uit asfaltbeton."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
-  skos:notation "toplaag van asfaltbeton";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:notation "toplaag_van_asfaltbeton";
+  skos:prefLabel "toplaag_van_asfaltbeton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/onderlaag> a skos:Concept;
   skos:definition "Onderliggende laag van een bitumineuze verharding met een constante dikte. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
   skos:notation "onderlaag";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:prefLabel "onderlaag"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/tussenlaag> a skos:Concept;
   skos:definition "Bitumineuze laag die aangebracht wordt tussen een betonverharding en de fundering. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
   skos:notation "tussenlaag";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:prefLabel "tussenlaag"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/profileerlaag> a skos:Concept;
-  skos:definition "Onderliggende laag van een bitumineuze verharding met wisselende dikte, die wordt aangebracht om //het vereiste profiel te verkrijgen voor de aanbrenging van een toplaag of onderlaag. "@nl;
+  skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
   skos:notation "profileerlaag";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:prefLabel "profileerlaag"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/beschermingslaag> a skos:Concept;
   skos:definition "beschermingslaag"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
   skos:notation "beschermingslaag";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:prefLabel "beschermingslaag"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/toplaag%20van%20gietasfalt> a skos:Concept;
-  skos:definition "Bovenste laag van een bitumineuze verharding, die direct in contact komt met het verkeer bestaande uit gietasfalt.//"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/toplaag_van_gietasfalt> a skos:Concept;
+  skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
-  skos:notation "toplaag van gietasfalt";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:notation "toplaag_van_gietasfalt";
+  skos:prefLabel "toplaag_van_gietasfalt"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/andere%20toplagen> a skos:Concept;
-  skos:definition "Bovenste laag van een bitumineuze verharding, die direct in contact komt met het verkeer bestaande anders dan een toplaag van gietasfalt of asfaltbeton.//"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/BVLaagtype/andere_toplagen> a skos:Concept;
+  skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype>;
-  skos:notation "andere toplagen";
-  skos:prefLabel "BVLaagtype"@nl;
+  skos:notation "andere_toplagen";
+  skos:prefLabel "andere_toplagen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/BVLaagtype> .

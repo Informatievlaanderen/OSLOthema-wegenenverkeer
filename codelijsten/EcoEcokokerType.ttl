@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoEcokokerType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van ecokoker te bepalen."@nl;
-  skos:prefLabel "EcoEcokokerType"@nl.
+  skos:prefLabel "Ecokoker type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoEcokokerType/betonnen%20ecokoker> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoEcokokerType/betonnen_ecokoker> a skos:Concept;
   skos:definition "Een ecokoker uit beton."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoEcokokerType>;
-  skos:notation "betonnen ecokoker";
-  skos:prefLabel "EcoEcokokerType"@nl;
+  skos:notation "betonnen_ecokoker";
+  skos:prefLabel "betonnen_ecokoker"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoEcokokerType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoEcokokerType/amfibieenkoker> a skos:Concept;
   skos:definition "Een ecokoker voor amfibieën."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoEcokokerType>;
   skos:notation "amfibieenkoker";
-  skos:prefLabel "EcoEcokokerType"@nl;
+  skos:prefLabel "amfibieenkoker"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoEcokokerType> .

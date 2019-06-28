@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van de poort te bepalen."@nl;
-  skos:prefLabel "EcoPoorttype"@nl.
+  skos:prefLabel "Poorttype"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPoorttype/enkel> a skos:Concept;
   skos:definition "Een enkele poort."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype>;
   skos:notation "enkel";
-  skos:prefLabel "EcoPoorttype"@nl;
+  skos:prefLabel "enkel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/EcoPoorttype/dubbel> a skos:Concept;
   skos:definition "Een dubble poort."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype>;
   skos:notation "dubbel";
-  skos:prefLabel "EcoPoorttype"@nl;
+  skos:prefLabel "dubbel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/EcoPoorttype> .

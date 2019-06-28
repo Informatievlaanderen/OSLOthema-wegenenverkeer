@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSnelheidsklasse> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende snelheidsklasses van afschermende constructies"@nl;
-  skos:prefLabel "LEACSnelheidsklasse"@nl.
+  skos:prefLabel "Snelheidsklasse"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSnelheidsklasse/C60> a skos:Concept;
   skos:definition "Getest bij 60 km/h"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSnelheidsklasse>;
   skos:notation "C60";
-  skos:prefLabel "LEACSnelheidsklasse"@nl;
+  skos:prefLabel "C60"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSnelheidsklasse> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACSnelheidsklasse/C70> a skos:Concept;
   skos:definition "Getest bij 70 km/h"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSnelheidsklasse>;
   skos:notation "C70";
-  skos:prefLabel "LEACSnelheidsklasse"@nl;
+  skos:prefLabel "C70"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACSnelheidsklasse> .

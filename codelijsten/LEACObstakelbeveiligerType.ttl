@@ -5,18 +5,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACObstakelbeveiligerType> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende types van obstakelbeveiliger"@nl;
-  skos:prefLabel "LEACObstakelbeveiligerType"@nl.
+  skos:prefLabel "Obstakelbeveiliger type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACObstakelbeveiligerType/geleidend%20(R)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACObstakelbeveiligerType/geleidend_(R)> a skos:Concept;
   skos:definition "Obstakelbeveiliger brengt het voertuig niet tot stilstand maar terug in de juiste richting"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACObstakelbeveiligerType>;
-  skos:notation "geleidend (R)";
-  skos:prefLabel "LEACObstakelbeveiligerType"@nl;
+  skos:notation "geleidend_(R)";
+  skos:prefLabel "geleidend_(R)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACObstakelbeveiligerType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACObstakelbeveiligerType/afstoppend%20(NR)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/LEACObstakelbeveiligerType/afstoppend_(NR)> a skos:Concept;
   skos:definition "Obstakelbeveiliger brengt het voertuig tot stilstand maar zijn niet getest op zijdelingse aanrijdingen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACObstakelbeveiligerType>;
-  skos:notation "afstoppend (NR)";
-  skos:prefLabel "LEACObstakelbeveiligerType"@nl;
+  skos:notation "afstoppend_(NR)";
+  skos:prefLabel "afstoppend_(NR)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/LEACObstakelbeveiligerType> .

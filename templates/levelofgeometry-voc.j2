@@ -2,17 +2,41 @@
 
 {% block summary %}
 <p>
-Wegen en verkeer - levelofgeometry-voc.j2  (PLACEHOLDER)
+Het level of geometry vocabularium focust op de beschrijving van termen die verband houden met de geometrische representatie <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel"> onderdelen</a> en <a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie">installaties</a>. Elke installatie of onderdeel kan meerdere geometrische representaties gekoppeld hebben, deze worden aangeduid door een "niveau" wat weergeeft hoe gedetailleerd of uitgewerkt een geometrische representatie is. <br>
+</p><p>
+De verschillende niveaus worden aangeduid door een getal wat een indicatie is voor de complexiteit. <br>
+Niveau 0 is de minimumvereiste waaraan een geometrische representatie altijd moet voldoen. Dit niveau komt overeen met de specificaties in het AWV-legendeboek/GRB.<br>
+Niveau 1 tem n specifiëren meer gedetailleerde representaties zoals bij BIM 3D-modellen.<br>
+Niveaus aangeduid met een negatief getal zoals -1, -2, ... specifiëren afgeleide niveaus die voor bepaalde use-cases gebruikt kunnen worden. Voor een gebouw bv. is het niveau 0 in de AWV-legende gespecifieerd als een polygoon die de contour van het gebouw weergeeft. Voor bepaalde onderdelen (bv. een kast of rack) die in een gebouw zitten gaan we geen aparte geometrie inwinnen maar willen we dit koppelen aan de locatie van het gebouw. Hiervoor gebruiken we niet de polygoon van de countour maar een afgeleid punt dat overeenkomt met het middelpunt of zwaartepunt van de polygoon.<br>						   
+</p>
+<p>
+De verschillende niveaus kunnen representaties beschrijven zoals bv.:
+<ul>
+<li>3D-opmeting volgens het <a href="https://docs.wegenenverkeer.be/Templates%20&%20Legendeboek/Legendeboek%20-%20GRB-conform/MOW-AWV%20Topografische%20legende%20-%20GRB-conform_Versie%201.0.pdf">AWV-legendeboek</a></li>
+<li>3D-scans</li>
+<li>Vereenvoudigde 3D-blokkenmodellen (solids)</li>
+<li>Surface of mesh representatie</li>
+<li>...</li>
+</ul>
+</p>
+<p>
+Dit vocabularium is aanvullend op de termen die gedefinieerd staan in de volgende verwante vocabularia:
+<ul>
+<li>De basiscomponenten/onderdelen waaruit de (weg)infrastructuur is opgebouwd worden beschreven in het <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel">vocabularium onderdeel</a>.</li>
+<li>Installaties of thematische/functionele groeperingen van de onderdelen worden beschreven in het <a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie">vocabularium installatie</a>.</li>
+<li>Aanvullende termen op onderdeel en installatie worden gedefinieerd in het <a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten">vocabularium abstracten</a> dat een onlosmakelijk deel uitmaakt van deze vocabularia.</li>
+</ul>
+Vanuit het onderdeel, installatie en abstracten vocabularium kan de samenhang met implementatieelement gevonden worden door de heeftgeometrie associaties te volgen.<br>
+In een eerste fase wordt enkel het niveau 0 gedefineerd, in de komende maanden zullen gradueel extra niveaus toegevoegd worden voor de verschillende onderdelen en installaties.
 </p>
 {% endblock %}
 
-{% block status %}<p>Een lijst van de recentste vocabularia is terug te vinden op
-<a href="https://data.vlaanderen.be/ns">https://data.vlaanderen.be/ns</a>.</p><br />
-
-<p>Dit document is een offici&#235;le specificatie van een vocabularium en biedt een gedeeld begrippenkader voor bepaalde concepten. Deze specificatie dient om de definitie, gebruik, domein en bereik van de RDF termen binnen dit domein te verduidelijken. De termen gedefinieerd in dit vocabularium zijn persistent en zullen bijgevolg nooit verdwijnen, noch zullen de definities veranderen behalve dan om een bestaande definitie verder te verduidelijken. Termen kunnen echter wel als verouderd worden bestempeld en vervangen worden in nieuwere versies van deze specificatie.</p>
-
-<p>Dit document werd gepubliceerd door de werkgroep Datastandaarden OSLO van het stuurorgaan Vlaams Informatie- en ICT-beleid.
-Deze specificatie maakt geen onderdeel uit van een standaardisatietraject. De termen die opgenomen zijn in het OSLO-Generiek vocabularium werden bediscussieerd en erkend in andere OSLO thematische werkgroepen en vervolgens opgenomen in dit vocabularium wegens hun generiek herbruikbaar karakter.</p>
-
-<p>Feedback op deze specificatie kan gegeven worden als een topic in onze <a href="https://github.com/Informatievlaanderen/OSLO-Public-Discussion">publieke reviewdiscussielijst</a>.</p>
+{% block status %}
+<p>Een lijst van de recentste vocabularia is terug te vinden op <a href="https://wegenenverkeer.data.vlaanderen.be/">https://wegenenverkeer.data.vlaanderen.be/</a> en op <a href="https://data.vlaanderen.be/ns">https://data.vlaanderen.be/ns</a>.
+</p>
+<p>
+Dit document is een officiële specificatie van een vocabularium en biedt een gedeeld begrippenkader voor bepaalde concepten. Deze specificatie dient om de definitie, gebruik, domein en bereik van de RDF termen binnen dit domein te verduidelijken. De termen gedefinieerd in dit vocabularium zijn persistent en zullen bijgevolg nooit verdwijnen, noch zullen de definities veranderen behalve dan om een bestaande definitie verder te verduidelijken. Termen kunnen echter wel als verouderd worden bestempeld en vervangen worden in nieuwere versies van deze specificatie.
+</p>
+<p>Dit document werd gepubliceerd door de werkgroep OTL van het Agentschap Wegen en Verkeer. Vanuit het wegenenverkeer-vocabularium zal een OSLO standaard ontwikkeld worden die een maximaal hergebruik van gedefinieerde concepten zal toelaten.
+<br>De eventuele overeenkomst met de objectcatalogus OSLO-openbaar domein wordt beschreven in de <a href="https://test.data.vlaanderen.be/cms/openbaardomein/AWV_mapping.html">mapping OD-OTL</a></p>
 {% endblock %}

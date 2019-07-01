@@ -4,17 +4,22 @@
 <p>
 Dit is een implementatiemodel op bestaande vocabularia m.b.t. (weg)aanhorigheden waaronder:
 <ul>
-<li><a href="https://data.vlaanderen.be/ns/wegenenverkeer/onderdeel">Vocabularium onderdeel</a>.</li>
-<li><a href="https://data.vlaanderen.be/ns/wegenenverkeer/installatie">Vocabularium installatie</a>.</li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a>.</li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie">Vocabularium installatie</a>.</li>
 <li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement">Vocabularium implementatieelement</a>.</li>
-<li><a href="https://data.vlaanderen.be/ns/wegenenverkeer/levelofgeometry">Vocabularium level of geometry</a>.</li>
-<li><a href="https://data.vlaanderen.be/ns/wegenenverkeer/proefenmeting">Vocabularium proef en meting</a>.</li>
-<li><a href="https://data.vlaanderen.be/ns/wegenenverkeer/abstracten">Vocabularium abstracten</a></li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/levelofgeometry">Vocabularium level of geometry</a>.</li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/proefenmeting">Vocabularium proef en meting</a>.</li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
 </ul>
-Dit implementatiemodel maakt deel uit van de volledige set aan implementatiemodellen die horen bij het standaardbestek 250.
+Dit implementatiemodel maakt deel uit van de volledige set aan implementatiemodellen die horen bij de OTL data-aanleveringen voor AWV.
 
-eenvoudige-datatypes-ap.j2
-
+In dit implementatiemodel worden alle eenvoudige datatypes opgesomd.
+De eenvoudige datatypes zijn in 3 groepen op te delen:
+<ul>
+<li>Primitieven zoals bv. Decimal, Integer, String, ...</li>
+<li>Kwantitatieve waarden welke een waarde beschrijven die in een bepaalde eenheid moet aangeleverd worden zoals bv. KwantWrdInMeter, KwantWrdInVolt, ...</li>
+<li>Tekstwaarden met een constraint in de vorm van een reguliere expressie zoals bv. KleurRAL waar enkel een geldige RAL-kleur mag ingevuld worden.</li>
+</ul>
 </p>
 {% endblock %}
 
@@ -22,7 +27,7 @@ eenvoudige-datatypes-ap.j2
 <p>Dit implementatiemodel dient om het specifieke gebruik van de entiteiten relevant voor de beschreven applicatie te verduidelijken.</p>
 <p>Dit document werd gepubliceerd als Kandidaat-standaard. De specificatie zoals in dit document beschreven doorloopt momenteel een periode van publieke review, tijdens het welke geen wijzigingen aan deze specificatie worden doorgevoerd.<br/>
 Dit document is bedoeld om uit te groeien tot een standaard in het beschreven domein. Desalniettemin heeft het op dit ogenblik geen officieel statuut en vertegenwoordigt het geen consensus binnen OSLO.</p>
-<p>Feedback op deze specificatie kan gegeven worden als een topic in onze <a href="https://github.com/Informatievlaanderen/OSLO-Public-Discussion">publieke reviewdiscussielijst</a>.</p>
+<p>Feedback op deze specificatie kan gegeven worden als een topic in onze <a href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues">publieke reviewdiscussielijst</a>.</p>
 {% endblock %}
 
 {% block conformance %}

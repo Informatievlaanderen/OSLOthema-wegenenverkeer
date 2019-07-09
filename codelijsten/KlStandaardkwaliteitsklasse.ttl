@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor de bepaling van de standaardkwaliteitsklasse."@nl;
+  skos:prefLabel "Standaardkwaliteitsklasse"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/A> a skos:Concept;
+  skos:definition "A"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse>;
+  skos:notation "A";
+  skos:prefLabel "A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/B> a skos:Concept;
+  skos:definition "B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse>;
+  skos:notation "B";
+  skos:prefLabel "B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/C> a skos:Concept;
+  skos:definition "C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse>;
+  skos:notation "C";
+  skos:prefLabel "C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/D> a skos:Concept;
+  skos:definition "D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse>;
+  skos:notation "D";
+  skos:prefLabel "D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/E> a skos:Concept;
+  skos:definition "E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse>;
+  skos:notation "E";
+  skos:prefLabel "E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse> .

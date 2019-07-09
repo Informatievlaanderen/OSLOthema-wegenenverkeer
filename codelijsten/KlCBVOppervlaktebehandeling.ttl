@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de oppervlaktebehandeling van de cement/beton verharding te bepalen"@nl;
+  skos:prefLabel "CBV oppervlaktebehandeling"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/Uitwassen_van_het_steenslagskelet> a skos:Concept;
+  skos:definition "Uitwassen van het steenslagskelet"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
+  skos:notation "Uitwassen_van_het_steenslagskelet";
+  skos:prefLabel "Uitwassen_van_het_steenslagskelet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/Bezemen> a skos:Concept;
+  skos:definition "Bezemen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
+  skos:notation "Bezemen";
+  skos:prefLabel "Bezemen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/Eenvoudig_dwars_bezemen> a skos:Concept;
+  skos:definition "Eenvoudig dwars bezemen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
+  skos:notation "Eenvoudig_dwars_bezemen";
+  skos:prefLabel "Eenvoudig_dwars_bezemen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/Eenvoudig_langs_bezemen> a skos:Concept;
+  skos:definition "Eenvoudig langs bezemen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
+  skos:notation "Eenvoudig_langs_bezemen";
+  skos:prefLabel "Eenvoudig_langs_bezemen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/Figureren> a skos:Concept;
+  skos:definition "Figureren"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
+  skos:notation "Figureren";
+  skos:prefLabel "Figureren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .

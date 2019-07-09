@@ -1,0 +1,337 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het mengseltype van de butimineuze verharding te bepalen"@nl;
+  skos:prefLabel "BV mengseltype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APO-A> a skos:Concept;
+  skos:definition "APO-A"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "APO-A";
+  skos:prefLabel "APO-A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APO-B> a skos:Concept;
+  skos:definition "APO-B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "APO-B";
+  skos:prefLabel "APO-B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APO-C> a skos:Concept;
+  skos:definition "APO-C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "APO-C";
+  skos:prefLabel "APO-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APO-D> a skos:Concept;
+  skos:definition "APO-D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "APO-D";
+  skos:prefLabel "APO-D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AVS-B> a skos:Concept;
+  skos:definition "AVS-B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AVS-B";
+  skos:prefLabel "AVS-B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ABT-B> a skos:Concept;
+  skos:definition "ABT-B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "ABT-B";
+  skos:prefLabel "ABT-B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag_van_SMA-C> a skos:Concept;
+  skos:definition "toplaag van SMA-C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "toplaag_van_SMA-C";
+  skos:prefLabel "toplaag_van_SMA-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag_van_SMA-D> a skos:Concept;
+  skos:definition "toplaag van SMA-D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "toplaag_van_SMA-D";
+  skos:prefLabel "toplaag_van_SMA-D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag_van_ZOA-B> a skos:Concept;
+  skos:definition "toplaag van ZOA-B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "toplaag_van_ZOA-B";
+  skos:prefLabel "toplaag_van_ZOA-B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag_van_ZOA-C> a skos:Concept;
+  skos:definition "toplaag van ZOA-C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "toplaag_van_ZOA-C";
+  skos:prefLabel "toplaag_van_ZOA-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/onderlaag_APO-B_en_toplaag_AGT_klasse_I> a skos:Concept;
+  skos:definition "onderlaag APO-B en toplaag AGT klasse I"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "onderlaag_APO-B_en_toplaag_AGT_klasse_I";
+  skos:prefLabel "onderlaag_APO-B_en_toplaag_AGT_klasse_I"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/onderlaag_APO-B_en_toplaag_AGT_klasse_II> a skos:Concept;
+  skos:definition "onderlaag APO-B en toplaag AGT klasse II"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "onderlaag_APO-B_en_toplaag_AGT_klasse_II";
+  skos:prefLabel "onderlaag_APO-B_en_toplaag_AGT_klasse_II"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GA-C> a skos:Concept;
+  skos:definition "GA-C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "GA-C";
+  skos:prefLabel "GA-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GA-D> a skos:Concept;
+  skos:definition "GA-D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "GA-D";
+  skos:prefLabel "GA-D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GA-E> a skos:Concept;
+  skos:definition "GA-E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "GA-E";
+  skos:prefLabel "GA-E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-1B> a skos:Concept;
+  skos:definition "AB-1B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-1B";
+  skos:prefLabel "AB-1B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-2C> a skos:Concept;
+  skos:definition "AB-2C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-2C";
+  skos:prefLabel "AB-2C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-4C> a skos:Concept;
+  skos:definition "AB-4C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-4C";
+  skos:prefLabel "AB-4C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-4D> a skos:Concept;
+  skos:definition "AB-4D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-4D";
+  skos:prefLabel "AB-4D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-5D> a skos:Concept;
+  skos:definition "AB-5D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-5D";
+  skos:prefLabel "AB-5D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APT-C> a skos:Concept;
+  skos:definition "APT-C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "APT-C";
+  skos:prefLabel "APT-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APT-D> a skos:Concept;
+  skos:definition "APT-D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "APT-D";
+  skos:prefLabel "APT-D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-B1> a skos:Concept;
+  skos:definition "SMA-B1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "SMA-B1";
+  skos:prefLabel "SMA-B1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-B2> a skos:Concept;
+  skos:definition "SMA-B2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "SMA-B2";
+  skos:prefLabel "SMA-B2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-C1> a skos:Concept;
+  skos:definition "SMA-C1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "SMA-C1";
+  skos:prefLabel "SMA-C1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-C2> a skos:Concept;
+  skos:definition "SMA-C2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "SMA-C2";
+  skos:prefLabel "SMA-C2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-D1> a skos:Concept;
+  skos:definition "SMA-D1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "SMA-D1";
+  skos:prefLabel "SMA-D1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-D2> a skos:Concept;
+  skos:definition "SMA-D2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "SMA-D2";
+  skos:prefLabel "SMA-D2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ZOA-B1> a skos:Concept;
+  skos:definition "ZOA-B1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "ZOA-B1";
+  skos:prefLabel "ZOA-B1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ZOA-B2> a skos:Concept;
+  skos:definition "ZOA-B2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "ZOA-B2";
+  skos:prefLabel "ZOA-B2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ZOA-C1> a skos:Concept;
+  skos:definition "ZOA-C1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "ZOA-C1";
+  skos:prefLabel "ZOA-C1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ZOA-C2> a skos:Concept;
+  skos:definition "ZOA-C2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "ZOA-C2";
+  skos:prefLabel "ZOA-C2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AGT_klasse_I> a skos:Concept;
+  skos:definition "AGT klasse I"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AGT_klasse_I";
+  skos:prefLabel "AGT_klasse_I"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AGT_klasse_II> a skos:Concept;
+  skos:definition "AGT klasse II"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AGT_klasse_II";
+  skos:prefLabel "AGT_klasse_II"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IA> a skos:Concept;
+  skos:definition "IA"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IA";
+  skos:prefLabel "IA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IB> a skos:Concept;
+  skos:definition "IB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IB";
+  skos:prefLabel "IB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IC> a skos:Concept;
+  skos:definition "IC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IC";
+  skos:prefLabel "IC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/II> a skos:Concept;
+  skos:definition "II"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "II";
+  skos:prefLabel "II"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IV> a skos:Concept;
+  skos:definition "IV"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IV";
+  skos:prefLabel "IV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-3A> a skos:Concept;
+  skos:definition "AB-3A"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-3A";
+  skos:prefLabel "AB-3A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-3B> a skos:Concept;
+  skos:definition "AB-3B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-3B";
+  skos:prefLabel "AB-3B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-3C> a skos:Concept;
+  skos:definition "AB-3C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-3C";
+  skos:prefLabel "AB-3C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AB-3D> a skos:Concept;
+  skos:definition "AB-3D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "AB-3D";
+  skos:prefLabel "AB-3D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/gietasfalt> a skos:Concept;
+  skos:definition "gietasfalt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "gietasfalt";
+  skos:prefLabel "gietasfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IIIA> a skos:Concept;
+  skos:definition "IIIA"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IIIA";
+  skos:prefLabel "IIIA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IIIB> a skos:Concept;
+  skos:definition "IIIB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IIIB";
+  skos:prefLabel "IIIB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IIIC> a skos:Concept;
+  skos:definition "IIIC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "IIIC";
+  skos:prefLabel "IIIC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .

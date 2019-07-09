@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van watergreppel te bepalen"@nl;
+  skos:prefLabel "Watergreppel type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEWatergreppelType/type_II_A_2> a skos:Concept;
+  skos:definition "type II A 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType>;
+  skos:notation "type_II_A_2";
+  skos:prefLabel "type_II_A_2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEWatergreppelType/type_II_B_2> a skos:Concept;
+  skos:definition "type II B 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType>;
+  skos:notation "type_II_B_2";
+  skos:prefLabel "type_II_B_2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEWatergreppelType/type_II_C_2> a skos:Concept;
+  skos:definition "type II C 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType>;
+  skos:notation "type_II_C_2";
+  skos:prefLabel "type_II_C_2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEWatergreppelType/type_II_D_2> a skos:Concept;
+  skos:definition "type II D 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType>;
+  skos:notation "type_II_D_2";
+  skos:prefLabel "type_II_D_2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEWatergreppelType/type_II_E_2> a skos:Concept;
+  skos:definition "type II E 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType>;
+  skos:notation "type_II_E_2";
+  skos:prefLabel "type_II_E_2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEWatergreppelType> .

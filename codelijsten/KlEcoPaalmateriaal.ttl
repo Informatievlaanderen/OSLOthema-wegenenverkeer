@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het materiaal van de paal in het ecoraster te bepalen."@nl;
+  skos:prefLabel "Paalmateriaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoPaalmateriaal/hout_Robina> a skos:Concept;
+  skos:definition "Een houten paal van robina hout."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal>;
+  skos:notation "hout_Robina";
+  skos:prefLabel "hout_Robina"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoPaalmateriaal/hout_Kastanje> a skos:Concept;
+  skos:definition "Een houten paal van kastanje hout."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal>;
+  skos:notation "hout_Kastanje";
+  skos:prefLabel "hout_Kastanje"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoPaalmateriaal/metaal> a skos:Concept;
+  skos:definition "Een metalen paal."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal>;
+  skos:notation "metaal";
+  skos:prefLabel "metaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> .

@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van status te bepalen."@nl;
+  skos:prefLabel "Status type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/gepland> a skos:Concept;
+  skos:definition "De status : gepland"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "gepland";
+  skos:prefLabel "gepland"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/in_uitvoering> a skos:Concept;
+  skos:definition "De status : in uitvoering"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "in_uitvoering";
+  skos:prefLabel "in_uitvoering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/gerealiseerd> a skos:Concept;
+  skos:definition "De status : gerealiseerd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "gerealiseerd";
+  skos:prefLabel "gerealiseerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/te_vernieuwen> a skos:Concept;
+  skos:definition "De status : te vernieuwen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "te_vernieuwen";
+  skos:prefLabel "te_vernieuwen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/beschadigd> a skos:Concept;
+  skos:definition "De status : beschadigd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "beschadigd";
+  skos:prefLabel "beschadigd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/schets> a skos:Concept;
+  skos:definition "De status : schets"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "schets";
+  skos:prefLabel "schets"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStatusType/voorstel> a skos:Concept;
+  skos:definition "De status : voorstel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType>;
+  skos:notation "voorstel";
+  skos:prefLabel "voorstel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStatusType> .

@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGietrandtype> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende gietrandtypes van bomen oplijst"@nl;
+  skos:prefLabel "Boom gietrandtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGietrandtype/kunstmatige_gietrand> a skos:Concept;
+  skos:definition "Een kunstmatige omwalling rond de stamvoet van de boom voor irrigatiedoeleinden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGietrandtype>;
+  skos:notation "kunstmatige_gietrand";
+  skos:prefLabel "kunstmatige_gietrand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGietrandtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGietrandtype/gietrand_uit_overtollige_grond> a skos:Concept;
+  skos:definition "Een aarden omwalling uit overtollige grond rond de stamvoet van de boom voor irrigatiedoeleinden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGietrandtype>;
+  skos:notation "gietrand_uit_overtollige_grond";
+  skos:prefLabel "gietrand_uit_overtollige_grond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGietrandtype> .

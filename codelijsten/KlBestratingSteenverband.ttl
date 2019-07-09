@@ -1,0 +1,71 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het steenverband van de bestrating te bepalen"@nl;
+  skos:prefLabel "Bestrating steenverband"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Segmentverband> a skos:Concept;
+  skos:definition "Segmentverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Segmentverband";
+  skos:prefLabel "Segmentverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Schubbenverband> a skos:Concept;
+  skos:definition "Schubbenverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Schubbenverband";
+  skos:prefLabel "Schubbenverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Waaierverband> a skos:Concept;
+  skos:definition "Waaierverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Waaierverband";
+  skos:prefLabel "Waaierverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Schelpen-_of_pauwstaartverband> a skos:Concept;
+  skos:definition "Schelpen- of pauwstaartverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Schelpen-_of_pauwstaartverband";
+  skos:prefLabel "Schelpen-_of_pauwstaartverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Halfsteensverband> a skos:Concept;
+  skos:definition "Halfsteensverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Halfsteensverband";
+  skos:prefLabel "Halfsteensverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Elleboogverband> a skos:Concept;
+  skos:definition "Elleboogverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Elleboogverband";
+  skos:prefLabel "Elleboogverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Visgraatverband> a skos:Concept;
+  skos:definition "Visgraatverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Visgraatverband";
+  skos:prefLabel "Visgraatverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Keperverband> a skos:Concept;
+  skos:definition "Keperverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Keperverband";
+  skos:prefLabel "Keperverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/Blokverband> a skos:Concept;
+  skos:definition "Blokverband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
+  skos:notation "Blokverband";
+  skos:prefLabel "Blokverband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .

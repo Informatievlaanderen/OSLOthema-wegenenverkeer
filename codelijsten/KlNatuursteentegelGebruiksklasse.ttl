@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor de gebruiksklasse, vorm en afwerking te bepalen van de natuursteentegel"@nl;
+  skos:prefLabel "Natuursteentegel gebruiksklasse"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/0> a skos:Concept;
+  skos:definition "Keuzeoptie decoratie als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "0";
+  skos:prefLabel "0"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/1> a skos:Concept;
+  skos:definition "Keuzeoptie voetgangerszones als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "1";
+  skos:prefLabel "1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/2> a skos:Concept;
+  skos:definition "Keuzeoptie voetgangers- en fietszones als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "2";
+  skos:prefLabel "2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/3> a skos:Concept;
+  skos:definition "Keuzeoptie voetgangerszones, occasioneel belast door wagens en lichte voertuigen, inritten van garages als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "3";
+  skos:prefLabel "3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/4> a skos:Concept;
+  skos:definition "Keuzeoptie voetgangerszones en marktplaatsen, occasioneel belast voor leveringen en door hulpdiensten als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "4";
+  skos:prefLabel "4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/5> a skos:Concept;
+  skos:definition "Keuzeoptie voetgangerszones, regelmatig belast door zwaar verkeer als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "5";
+  skos:prefLabel "5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNatuursteentegelGebruiksklasse/6> a skos:Concept;
+  skos:definition "Keuzeoptie wegen als gebruiksklasse van natuursteentegels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse>;
+  skos:notation "6";
+  skos:prefLabel "6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNatuursteentegelGebruiksklasse> .

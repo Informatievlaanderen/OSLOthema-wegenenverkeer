@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType> a skos:ConceptScheme;
+  skos:definition "Het schermelement type."@nl;
+  skos:prefLabel "Schermelement type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/bloembakelement> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType>;
+  skos:notation "bloembakelement";
+  skos:prefLabel "bloembakelement"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/voertuigkerend> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType>;
+  skos:notation "voertuigkerend";
+  skos:prefLabel "voertuigkerend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/L-element> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType>;
+  skos:notation "L-element";
+  skos:prefLabel "L-element"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/schermelement_tussen_palen> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType>;
+  skos:notation "schermelement_tussen_palen";
+  skos:prefLabel "schermelement_tussen_palen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType> .

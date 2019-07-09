@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van de norm"@nl;
+  skos:prefLabel "Norm"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCNorm/NBN_EN1793-1> a skos:Concept;
+  skos:definition "Beproevingsmethode deel 1 'Intrinsieke kenmerken van de geluidabsorptie'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm>;
+  skos:notation "NBN_EN1793-1";
+  skos:prefLabel "NBN_EN1793-1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCNorm/NBN_EN1793-2> a skos:Concept;
+  skos:definition "Beproevingsmethode deel 2 'Intrinsieke kenmerken van de luchtgeluidisolatie'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm>;
+  skos:notation "NBN_EN1793-2";
+  skos:prefLabel "NBN_EN1793-2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCNorm/NBN_EN1793-5> a skos:Concept;
+  skos:definition "Beproevingsmethode deel 5 'Intrinsieke kenmerken - In situ waarden van geluidsisolatie onder directe geluidveld omstandigheden'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm>;
+  skos:notation "NBN_EN1793-5";
+  skos:prefLabel "NBN_EN1793-5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCNorm/NBN_EN1793-6> a skos:Concept;
+  skos:definition "Beproevingsmethode deel 6 'In-situ waarden van luchtgeluidisolatie onder directe geluidsveldcondities'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm>;
+  skos:notation "NBN_EN1793-6";
+  skos:prefLabel "NBN_EN1793-6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCNorm> .

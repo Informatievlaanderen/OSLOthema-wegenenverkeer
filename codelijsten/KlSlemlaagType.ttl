@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om het type van slemlaag te bepalen"@nl;
+  skos:prefLabel "Slemlaag type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemlaagType/0-2> a skos:Concept;
+  skos:definition "0/2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType>;
+  skos:notation "0-2";
+  skos:prefLabel "0-2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemlaagType/0-4> a skos:Concept;
+  skos:definition "0/4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType>;
+  skos:notation "0-4";
+  skos:prefLabel "0-4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemlaagType/0-6.3> a skos:Concept;
+  skos:definition "0/6,3"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType>;
+  skos:notation "0-6.3";
+  skos:prefLabel "0-6.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemlaagType/0-10> a skos:Concept;
+  skos:definition "0/10"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType>;
+  skos:notation "0-10";
+  skos:prefLabel "0-10"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemlaagType> .

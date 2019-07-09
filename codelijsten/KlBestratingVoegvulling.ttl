@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de voegvulling van de bestrating te bepalen"@nl;
+  skos:prefLabel "Bestrating voegvulling"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/zandcement> a skos:Concept;
+  skos:definition "zandcement"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "zandcement";
+  skos:prefLabel "zandcement"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/split> a skos:Concept;
+  skos:definition "split"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "split";
+  skos:prefLabel "split"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/gemodificeerde_mortel> a skos:Concept;
+  skos:definition "Heropvoegen van de bestrating."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "gemodificeerde_mortel";
+  skos:prefLabel "gemodificeerde_mortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/mortel> a skos:Concept;
+  skos:definition "mortel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "mortel";
+  skos:prefLabel "mortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/granulaatmengsel_0-4> a skos:Concept;
+  skos:definition "granulaatmengsel 0/4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "granulaatmengsel_0-4";
+  skos:prefLabel "granulaatmengsel_0-4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/granulaatmengsel_0-6.3> a skos:Concept;
+  skos:definition "granulaatmengsel 0/63"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "granulaatmengsel_0-6.3";
+  skos:prefLabel "granulaatmengsel_0-6.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingVoegvulling/heropvoeging> a skos:Concept;
+  skos:definition "gemodificeerde mortel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling>;
+  skos:notation "heropvoeging";
+  skos:prefLabel "heropvoeging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingVoegvulling> .

@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de opstelling van de geluidswerende constructie bepaalt"@nl;
+  skos:prefLabel "Opstelling"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpstelling/verticaal> a skos:Concept;
+  skos:definition "verticaal t.o.v. de weg"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling>;
+  skos:notation "verticaal";
+  skos:prefLabel "verticaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpstelling/schuin_naar_achter_hellend> a skos:Concept;
+  skos:definition "schuin naar achter hellend t.o.v. de weg"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling>;
+  skos:notation "schuin_naar_achter_hellend";
+  skos:prefLabel "schuin_naar_achter_hellend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpstelling/_schuin_naar_voor_hellend> a skos:Concept;
+  skos:definition "schuin naar voor hellend t.o.v. de weg"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling>;
+  skos:notation "_schuin_naar_voor_hellend";
+  skos:prefLabel "_schuin_naar_voor_hellend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpstelling/concaaf> a skos:Concept;
+  skos:definition "Concave opstelling t.o.v. de weg"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling>;
+  skos:notation "concaaf";
+  skos:prefLabel "concaaf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpstelling> .

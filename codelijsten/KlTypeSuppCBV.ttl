@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van de toegevoegde supplementen van de CBV te bepalen."@nl;
+  skos:prefLabel "Type suppCB v"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSuppCBV/figureren_betonoppervlak> a skos:Concept;
+  skos:definition "Supplementen als figuratie van het betonoppervlak."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV>;
+  skos:notation "figureren_betonoppervlak";
+  skos:prefLabel "figureren_betonoppervlak"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSuppCBV/gekleurde_deklaag_van_2_laagse_betonverharding> a skos:Concept;
+  skos:definition "Supplementen voor het bekomen van een gekleurde 2 laagse deklaag van CBV."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV>;
+  skos:notation "gekleurde_deklaag_van_2_laagse_betonverharding";
+  skos:prefLabel "gekleurde_deklaag_van_2_laagse_betonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSuppCBV/in_de_massa_gekleurde_betonverharding> a skos:Concept;
+  skos:definition "Supplementen voor het bekomen van een in de massa gekleurde CBV."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV>;
+  skos:notation "in_de_massa_gekleurde_betonverharding";
+  skos:prefLabel "in_de_massa_gekleurde_betonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSuppCBV> .

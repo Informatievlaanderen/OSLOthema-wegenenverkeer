@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype> a skos:ConceptScheme;
+  skos:definition "Een keuzelijst om laagtype van de cement/beton verharding te bepalen"@nl;
+  skos:prefLabel "CBV laagtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVLaagtype/eenlaagse_betonverharding> a skos:Concept;
+  skos:definition "Betonverharding die in &#233;&#233;n laag aangelegd wordt. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype>;
+  skos:notation "eenlaagse_betonverharding";
+  skos:prefLabel "eenlaagse_betonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVLaagtype/Tweelaagse_betonverharding> a skos:Concept;
+  skos:definition "Betonverharding die in twee lagen aangelegd wordt. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype>;
+  skos:notation "Tweelaagse_betonverharding";
+  skos:prefLabel "Tweelaagse_betonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVLaagtype/Platenbetonverharding> a skos:Concept;
+  skos:definition "Een keuzelijst om laagtype van de cement/beton verharding te bepalen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype>;
+  skos:notation "Platenbetonverharding";
+  skos:prefLabel "Platenbetonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVLaagtype/Doorgaand_gewapende_betonverharding_(Dgb)> a skos:Concept;
+  skos:definition "Een keuzelijst om laagtype van de cement/beton verharding te bepalen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype>;
+  skos:notation "Doorgaand_gewapende_betonverharding_(Dgb)";
+  skos:prefLabel "Doorgaand_gewapende_betonverharding_(Dgb)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVLaagtype> .

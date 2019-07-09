@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de plantmaat van de sierplant te bepalen."@nl;
+  skos:prefLabel "Sierbepl plantmaat"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplPlantmaat/20-30> a skos:Concept;
+  skos:definition "20/30"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat>;
+  skos:notation "20-30";
+  skos:prefLabel "20-30"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplPlantmaat/30-40> a skos:Concept;
+  skos:definition "30/40"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat>;
+  skos:notation "30-40";
+  skos:prefLabel "30-40"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplPlantmaat/40-60> a skos:Concept;
+  skos:definition "40/60"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat>;
+  skos:notation "40-60";
+  skos:prefLabel "40-60"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplPlantmaat> .

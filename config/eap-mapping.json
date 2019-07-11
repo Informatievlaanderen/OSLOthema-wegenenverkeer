@@ -3,7 +3,7 @@
   {
     "name": "grondwerken",
     "type": "ap",
-    "eap": "OSLO-Grondwerken-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Grondwerken",
     "template": "grondwerken-ap.j2",
     "title": "SB250 Grondwerken",
@@ -18,21 +18,87 @@
     "dependencies": 
     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "lijnvormige-elementen",
     "type": "ap",
-    "eap": "OSLO-Lijnvormige-elementen-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Lijnvormige-elementen",
     "template": "lijnvormige-elementen-ap.j2",
     "title": "SB250 Lijnvormige elementen",
@@ -45,23 +111,89 @@
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies":
-    [
+   [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "riolering",
     "type": "ap",
-    "eap": "OSLO-Riolering-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Riolering",
     "template": "riolering-ap.j2",
     "title": "SB250 Riolering",
@@ -76,21 +208,87 @@
     "dependencies": 
     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "signalisatie",
     "type": "ap",
-    "eap": "OSLO-Signalisatie-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Signalisatie",
     "template": "signalisatie-ap.j2",
     "title": "SB250 Signalisatie",
@@ -103,23 +301,89 @@
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": 
-    [
+     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "vegetatie",
     "type": "ap",
-    "eap": "OSLO-Vegetatie-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Vegetatie",
     "template": "vegetatie-ap.j2",
     "title": "SB250 Vegetatie",
@@ -132,23 +396,89 @@
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": 
-    [
+     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "verhardingen-funderingen",
     "type": "ap",
-    "eap": "OSLO-Verhardingen-funderingen-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Verhardingen-funderingen",
     "template": "verhardingen-funderingen-ap.j2",
     "title": "SB250 Verharding en Fundering",
@@ -161,23 +491,89 @@
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": 
-    [
+     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "waterlopen",
     "type": "ap",
-    "eap": "OSLO-Waterlopen-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Waterlopen",
     "template": "waterlopen-ap.j2",
     "title": "SB250 Waterlopen",
@@ -192,21 +588,87 @@
     "dependencies": 
     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "proeven-metingen",
     "type": "ap",
-    "eap": "OSLO-Proeven-metingen-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Proeven-metingen",
     "template": "proeven-metingen-ap.j2",
     "title": "SB250 Proeven en metingen",
@@ -219,18 +681,89 @@
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": 
-    [
+     [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
-			}
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
+			  "packagelabel": "Implementatiemodel Proeven-metingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "awv-object",
     "type": "ap",
-    "eap": "OSLO-AWV-Object-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-AWV-Object",
     "template": "awv-object-ap.j2",
     "title": "AWV Object",
@@ -242,12 +775,90 @@
     "site": "site-skeleton/awv-object",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
+    "dependencies": 
+	 [
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
+			  "packagelabel": "Implementatiemodel Proeven-metingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
+    ]
   },
   {
     "name": "rioleringsgroepering",
     "type": "ap",
-    "eap": "OSLO-Rioleringsgroepering-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Rioleringsgroepering",
     "template": "rioleringsgroepering-ap.j2",
     "title": "Rioleringsgroepering",
@@ -260,23 +871,89 @@
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": 
-    [
+   [
 			{
-			  "package": "OSLO-Implementatieelement",
-			  "packagelabel": "Implementatiemodel AWV-Object",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/"
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
 			},
 			{
-			  "package": "OSLO-Proefenmeting",
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
 			  "packagelabel": "Implementatiemodel Proeven-metingen",
-			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/"
-			}
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
     ]
   },
   {
     "name": "eenvoudige-datatypes",
     "type": "ap",
-    "eap": "OSLO-Eenvoudige-datatypes-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Eenvoudige-datatypes",
     "template": "eenvoudige-datatypes-ap.j2",
     "title": "Eenvoudige datatypes",
@@ -288,12 +965,90 @@
     "site": "site-skeleton/eenvoudige-datatypes",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
+    "dependencies": 
+	 [
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
+			  "packagelabel": "Implementatiemodel Proeven-metingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
+    ]
   },
   {
     "name": "relaties",
     "type": "ap",
-    "eap": "OSLO-Relaties-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Relaties",
     "template": "relaties-ap.j2",
     "title": "Relaties",
@@ -305,12 +1060,90 @@
     "site": "site-skeleton/relaties",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
+    "dependencies": 
+	 [
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
+			  "packagelabel": "Implementatiemodel Proeven-metingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
+    ]
   },
   {
     "name": "union-datatypes",
     "type": "ap",
-    "eap": "OSLO-Union-datatypes-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Union-datatypes",
     "template": "union-datatypes-ap.j2",
     "title": "Union datatypes",
@@ -322,12 +1155,90 @@
     "site": "site-skeleton/union-datatypes",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
+    "dependencies": 
+	 [
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
+			  "packagelabel": "Implementatiemodel Proeven-metingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
+    ]
   },
   {
     "name": "complexe-datatypes",
     "type": "ap",
-    "eap": "OSLO-Complexe-datatypes-AP.eap",
+    "eap": "OTLv23_alt.eap",
     "diagram": "OSLO-Complexe-datatypes",
     "template": "complexe-datatypes-ap.j2",
     "title": "Complexe datatypes",
@@ -339,6 +1250,84 @@
     "site": "site-skeleton/complexe-datatypes",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
+    "dependencies": 
+	 [
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Lijnvormige-elementen",
+			  "packagelabel": "Implementatiemodel Lijnvormige elementen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Riolering",
+			  "packagelabel": "Implementatiemodel Riolering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/riolering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Grondwerken",
+			  "packagelabel": "Implementatiemodel Grondwerken",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Signalisatie",
+			  "packagelabel": "Implementatiemodel Signalisatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/signalisatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Vegetatie",
+			  "packagelabel": "Implementatiemodel Vegetatie",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/vegetatie/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Verhardingen-funderingen",
+			  "packagelabel": "Implementatiemodel Verhardingen-funderingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verhardingen-funderingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Waterlopen",
+			  "packagelabel": "Implementatiemodel  Waterlopen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/waterlopen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Proeven-metingen",
+			  "packagelabel": "Implementatiemodel Proeven-metingen",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-AWV-Object",
+			  "packagelabel": "Implementatiemodel  AWV-Object",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/awv-object/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Rioleringsgroepering",
+			  "packagelabel": "Implementatiemodel Rioleringsgroepering",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/rioleringsgroepering/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Eenvoudige-datatypes",
+			  "packagelabel": "Implementatiemodel  Eenvoudige-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/eenvoudige-datatype/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Relaties",
+			  "packagelabel": "Implementatiemodel Relaties",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/relaties/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Union-datatypes",
+			  "packagelabel": "Implementatiemodel union-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/union-datatypes/ontwerpdocument/alt"
+			},
+			{
+			  "package": "OSLO-Complexe-datatypes",
+			  "packagelabel": "Implementatiemodel complexe-datatypes",
+			  "packageurl": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/grondwerken/ontwerpdocument/alt"
+			}	
+			
+    ]
   }
 ]

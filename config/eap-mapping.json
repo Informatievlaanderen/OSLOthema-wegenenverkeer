@@ -1,6 +1,6 @@
 [
   {
-    "name": "onderdeel",
+    "name": "wegenenverkeer-onderdeel",
     "type": "voc",
     "prefix": "wegenenverkeer",
     "title" : "Onderdeel",
@@ -54,25 +54,9 @@
     "dependencies": []
   },
   {
-    "name": "wegenenverkeer-levelofgeometry",
-    "type": "voc",
-    "prefix": "wegenenverkeer",
-    "title" : "Level of geometry",
-    "eap": "OSLO-AWV-VOC.eap",
-    "template": "levelofgeometry-voc.j2",
-    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "2019-07-18",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "OTL",
-    "site": "site-skeleton",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
-  },
-  {
     "name": "wegenenverkeer-levenscyclus",
     "type": "voc",
+    "prefix": "wegenenverkeer",
     "title" : "Levenscyclus",
     "eap": "OSLO-AWV-VOC.eap",
     "diagram": "OSLO-Levenscyclus",

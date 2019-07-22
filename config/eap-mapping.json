@@ -1,12 +1,10 @@
-[
-  {
-    "name": "wegenenverkeer-onderdeel",
+[{
+    "name": "wegenenverkeer-implementatieelement",
     "type": "voc",
-    "prefix": "wegenenverkeer",
-    "title" : "Onderdeel",
+    "title" : "Implementatieelement",
     "eap": "OSLO-AWV-VOC.eap",
-    "diagram": "OSLO-Onderdeel",
-    "template": "onderdeel-voc.j2",
+    "diagram": "OSLO-Implementatieelement",
+    "template": "implementatieelement-voc.j2",
     "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2019-07-22",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
@@ -18,13 +16,13 @@
     "dependencies": []
   },
   {
-    "name": "wegenenverkeer-abstracten",
+    "name": "wegenenverkeer-onderdeel",
     "type": "voc",
     "prefix": "wegenenverkeer",
-    "title" : "Abstracten",
+    "title" : "Onderdeel",
     "eap": "OSLO-AWV-VOC.eap",
-    "diagram": "OSLO-Abstracten",
-    "template": "abstracten-voc.j2",
+    "diagram": "OSLO-Onderdeel",
+    "template": "onderdeel-voc.j2",
     "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2019-07-22",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
@@ -71,8 +69,26 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
   },
-  {
-    "name": "proefenmeting",
+   {
+    "name": "wegenenverkeer-abstracten",
+    "type": "voc",
+    "prefix": "wegenenverkeer",
+    "title" : "Abstracten",
+    "eap": "OSLO-AWV-VOC.eap",
+    "diagram": "OSLO-Abstracten",
+    "template": "abstracten-voc.j2",
+    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "2019-07-22",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "OTL",
+    "site": "site-skeleton",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+    "dependencies": []
+  },
+  
+    "name": "wegenenverkeer-proefenmeting",
     "type": "voc",
     "title" : "Proef en meting",
     "eap": "OSLO-AWV-VOC.eap",
@@ -89,23 +105,23 @@
     "dependencies": []
   },
   {
-    "name": "wegenenverkeer-implementatieelement",
-    "type": "voc",
-    "title" : "Implementatieelement",
-    "eap": "OSLO-AWV-VOC.eap",
-    "diagram": "OSLO-Implementatieelement",
-    "template": "implementatieelement-voc.j2",
+    "name": "awv-object",
+    "type": "ap",
+    "eap": "OSLO-AWV-Object-AP.eap",
+    "diagram": "OSLO-AWV-Object",
+    "template": "awv-object-ap.j2",
+    "title": "AWV Object",
     "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2019-07-22",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OTL",
-    "site": "site-skeleton",
+    "site": "site-skeleton/awv-object",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
   },
-  {
+   {
     "name": "grondwerken",
     "type": "ap",
     "eap": "OSLO-Grondwerken-AP.eap",
@@ -122,25 +138,7 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
   },
-  {
-    "name": "otl",
-    "type": "ap",
-    "eap": "OSLO-OTL-AP.eap",
-    "diagram": "OSLO-OTL",
-    "template": "otl-ap.j2",
-    "title": "AWV Master OTL Implementatiemodel",
-    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "2019-07-22",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "OTL",
-    "site": "site-skeleton/otl",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
-   
-  },
-  {
+   {
     "name": "lijnvormige-elementen",
     "type": "ap",
     "eap": "OSLO-Lijnvormige-elementen-AP.eap",
@@ -157,7 +155,7 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies":[]
   },
-  {
+   {
     "name": "riolering",
     "type": "ap",
     "eap": "OSLO-Riolering-AP.eap",
@@ -225,7 +223,7 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
   },
-  {
+   {
     "name": "waterlopen",
     "type": "ap",
     "eap": "OSLO-Waterlopen-AP.eap",
@@ -243,40 +241,6 @@
     "dependencies": []
   },
   {
-    "name": "proeven-metingen",
-    "type": "ap",
-    "eap": "OSLO-Proeven-metingen-AP.eap",
-    "diagram": "OSLO-Proeven-metingen",
-    "template": "proeven-metingen-ap.j2",
-    "title": "SB250 Proeven en metingen",
-    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "2019-07-22",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "OTL",
-    "site": "site-skeleton/proeven-metingen",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
-  },
-  {
-    "name": "awv-object",
-    "type": "ap",
-    "eap": "OSLO-AWV-Object-AP.eap",
-    "diagram": "OSLO-AWV-Object",
-    "template": "awv-object-ap.j2",
-    "title": "AWV Object",
-    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "2019-07-22",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "OTL",
-    "site": "site-skeleton/awv-object",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
-  },
-  {
     "name": "rioleringsgroepering",
     "type": "ap",
     "eap": "OSLO-Rioleringsgroepering-AP.eap",
@@ -289,6 +253,40 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OTL",
     "site": "site-skeleton/rioleringsgroepering",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+    "dependencies": []
+  },
+   {
+    "name": "relaties",
+    "type": "ap",
+    "eap": "OSLO-Relaties-AP.eap",
+    "diagram": "OSLO-Relaties",
+    "template": "relaties-ap.j2",
+    "title": "Relaties",
+    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "2019-07-22",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "OTL",
+    "site": "site-skeleton/relaties",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+    "dependencies": []
+  },
+   {
+    "name": "union-datatypes",
+    "type": "ap",
+    "eap": "OSLO-Union-datatypes-AP.eap",
+    "diagram": "OSLO-Union-datatypes",
+    "template": "union-datatypes-ap.j2",
+    "title": "Union datatypes",
+    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "2019-07-22",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "OTL",
+    "site": "site-skeleton/union-datatypes",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
@@ -311,35 +309,18 @@
     "dependencies": []
   },
   {
-    "name": "relaties",
+    "name": "proeven-metingen",
     "type": "ap",
-    "eap": "OSLO-Relaties-AP.eap",
-    "diagram": "OSLO-Relaties",
-    "template": "relaties-ap.j2",
-    "title": "Relaties",
+    "eap": "OSLO-Proeven-metingen-AP.eap",
+    "diagram": "OSLO-Proeven-metingen",
+    "template": "proeven-metingen-ap.j2",
+    "title": "SB250 Proeven en metingen",
     "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2019-07-22",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OTL",
-    "site": "site-skeleton/relaties",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
-    "dependencies": []
-  },
-  {
-    "name": "union-datatypes",
-    "type": "ap",
-    "eap": "OSLO-Union-datatypes-AP.eap",
-    "diagram": "OSLO-Union-datatypes",
-    "template": "union-datatypes-ap.j2",
-    "title": "Union datatypes",
-    "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "2019-07-22",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "OTL",
-    "site": "site-skeleton/union-datatypes",
+    "site": "site-skeleton/proeven-metingen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
@@ -361,4 +342,4 @@
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
     "dependencies": []
   }
-]
+  ]

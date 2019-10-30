@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> a skos:ConceptScheme;
   skos:definition "Keuzelijst van de verschillende types eindstukken"@nl;
   skos:prefLabel "Type eindstuk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACTypeEindstuk/uitgebogen> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACTypeEindstukuitgebogen> a skos:Concept;
   skos:definition "uitgebogen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
   skos:notation "uitgebogen";
   skos:prefLabel "uitgebogen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACTypeEindstuk/schelp> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACTypeEindstukschelp> a skos:Concept;
   skos:definition "schelp"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
   skos:notation "schelp";
   skos:prefLabel "schelp"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACTypeEindstuk/naar_beneden_afgebogen> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACTypeEindstuknaar%20beneden%20afgebogen> a skos:Concept;
   skos:definition "naar beneden afgebogen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
   skos:notation "naar_beneden_afgebogen";
   skos:prefLabel "naar_beneden_afgebogen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .

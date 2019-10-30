@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de plaatsingswijze van straatmeubilair."@nl;
   skos:prefLabel "Plaatsingswijze"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlaatsingswijze/vast> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPlaatsingswijzevast> a skos:Concept;
   skos:definition "Vaste plaatsing van het straatmeubilair."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze>;
   skos:notation "vast";
   skos:prefLabel "vast"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlaatsingswijze/wegneembaar> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPlaatsingswijzewegneembaar> a skos:Concept;
   skos:definition "Wegneembare plaatsing van het straatmeubilair."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze>;
   skos:notation "wegneembaar";
   skos:prefLabel "wegneembaar"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> .

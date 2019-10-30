@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Patchpaneel capaciteit"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelCapaciteit12> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit>;
+  skos:notation "12";
+  skos:prefLabel "12"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelCapaciteit24> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit>;
+  skos:notation "24";
+  skos:prefLabel "24"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelCapaciteit48> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit>;
+  skos:notation "48";
+  skos:prefLabel "48"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelCapaciteit> .

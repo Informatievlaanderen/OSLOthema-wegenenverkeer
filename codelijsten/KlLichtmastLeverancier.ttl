@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Wv mast leverancier"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeverancierbaert> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "baert";
+  skos:prefLabel "baert"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeverancierpetitJean> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "petitJean";
+  skos:prefLabel "petitJean"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeveranciersafetyProducts> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "safetyProducts";
+  skos:prefLabel "safetyProducts"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeverancierandere> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeveranciervalmont> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "valmont";
+  skos:prefLabel "valmont"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeveranciermetalogalva> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "metalogalva";
+  skos:prefLabel "metalogalva"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastLeverancierindustrielle%20Borraine> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier>;
+  skos:notation "industrielle_Borraine";
+  skos:prefLabel "industrielle_Borraine"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastLeverancier> .

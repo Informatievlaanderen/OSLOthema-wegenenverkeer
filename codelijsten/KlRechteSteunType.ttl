@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Rechte steun type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRechteSteunTypea-paal> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "a-paal";
+  skos:prefLabel "a-paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRechteSteunTyped-paal> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "d-paal";
+  skos:prefLabel "d-paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRechteSteunTypevariabele%20Z30> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "variabele_Z30";
+  skos:prefLabel "variabele_Z30"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRechteSteunTypebi-flash> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "bi-flash";
+  skos:prefLabel "bi-flash"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRechteSteunTypeVRI%20met%20zwanehals> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "VRI_met_zwanehals";
+  skos:prefLabel "VRI_met_zwanehals"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .

@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Transformator isolatiemedium"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorIsolatiemediumgiethars> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium>;
+  skos:notation "giethars";
+  skos:prefLabel "giethars"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorIsolatiemediumsiliconenvloeistof> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium>;
+  skos:notation "siliconenvloeistof";
+  skos:prefLabel "siliconenvloeistof"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorIsolatiemediumvegetale%20olie> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium>;
+  skos:notation "vegetale_olie";
+  skos:prefLabel "vegetale_olie"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorIsolatiemediumesterolie> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium>;
+  skos:notation "esterolie";
+  skos:prefLabel "esterolie"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorIsolatiemediumminerale%20olie> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium>;
+  skos:notation "minerale_olie";
+  skos:prefLabel "minerale_olie"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorIsolatiemediumdroog> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium>;
+  skos:notation "droog";
+  skos:prefLabel "droog"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTransformatorIsolatiemedium> .

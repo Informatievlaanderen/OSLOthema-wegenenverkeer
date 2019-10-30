@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende types van sierbeplanting oplijst"@nl;
   skos:prefLabel "Sierbeplanting type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/Bodembedekkers> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSierbeplantingTypebodembedekkers> a skos:Concept;
   skos:definition "Aangelegd begroeiingstype, doorgaans met vaste planten, die bedoeld is om snel de bodem af te dekken."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
-  skos:notation "Bodembedekkers";
-  skos:prefLabel "Bodembedekkers"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
+  skos:notation "bodembedekkers";
+  skos:prefLabel "bodembedekkers"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/Siergrassen> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSierbeplantingTypesiergrassen> a skos:Concept;
   skos:definition "Grasachtige planten, doorgaans vaste planten, met een decoratieve waarde. Niet geplant als gazon"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
-  skos:notation "Siergrassen";
-  skos:prefLabel "Siergrassen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
+  skos:notation "siergrassen";
+  skos:prefLabel "siergrassen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/Vaste_planten> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSierbeplantingTypevaste%20planten> a skos:Concept;
   skos:definition "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn. Dus niet de eenjarige en tweejarige kruidachtige soorten."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
-  skos:notation "Vaste_planten";
-  skos:prefLabel "Vaste_planten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
+  skos:notation "vaste_planten";
+  skos:prefLabel "vaste_planten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .

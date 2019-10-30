@@ -3,90 +3,90 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de vorm van de riolering"@nl;
   skos:prefLabel "Riolering vorm"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Rechthoekig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormrechthoekig> a skos:Concept;
   skos:definition "Rechthoekig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Rechthoekig";
-  skos:prefLabel "Rechthoekig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "rechthoekig";
+  skos:prefLabel "rechthoekig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Cirkelvormig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormcirkelvormig> a skos:Concept;
   skos:definition "Cirkelvormig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Cirkelvormig";
-  skos:prefLabel "Cirkelvormig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "cirkelvormig";
+  skos:prefLabel "cirkelvormig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Andere> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormandere> a skos:Concept;
   skos:definition "Andere"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Andere";
-  skos:prefLabel "Andere"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Driehoekig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormdriehoekig> a skos:Concept;
   skos:definition "Driehoekig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Driehoekig";
-  skos:prefLabel "Driehoekig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "driehoekig";
+  skos:prefLabel "driehoekig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Ovaal> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormovaal> a skos:Concept;
   skos:definition "Ovaal"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Ovaal";
-  skos:prefLabel "Ovaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "ovaal";
+  skos:prefLabel "ovaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Zeshoekig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormzeshoekig> a skos:Concept;
   skos:definition "Zeshoekig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Zeshoekig";
-  skos:prefLabel "Zeshoekig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "zeshoekig";
+  skos:prefLabel "zeshoekig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Achthoekig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormachthoekig> a skos:Concept;
   skos:definition "Achthoekig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Achthoekig";
-  skos:prefLabel "Achthoekig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "achthoekig";
+  skos:prefLabel "achthoekig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Eivormig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormeivormig> a skos:Concept;
   skos:definition "Eivormig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Eivormig";
-  skos:prefLabel "Eivormig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "eivormig";
+  skos:prefLabel "eivormig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/U-vorm> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormu-vorm> a skos:Concept;
   skos:definition "U-vorm"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "U-vorm";
-  skos:prefLabel "U-vorm"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "u-vorm";
+  skos:prefLabel "u-vorm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Gewelf> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormgewelf> a skos:Concept;
   skos:definition "Gewelf"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Gewelf";
-  skos:prefLabel "Gewelf"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "gewelf";
+  skos:prefLabel "gewelf"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/Cunette> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormcunette> a skos:Concept;
   skos:definition "Cunette"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
-  skos:notation "Cunette";
-  skos:prefLabel "Cunette"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:notation "cunette";
+  skos:prefLabel "cunette"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringVorm/vierkant> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringVormvierkant> a skos:Concept;
   skos:definition "Vierkant"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm>;
   skos:notation "vierkant";
   skos:prefLabel "vierkant"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringVorm> .

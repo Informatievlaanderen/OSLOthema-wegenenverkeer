@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Vri selectieve lussoort"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoortbuslus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "buslus";
+  skos:prefLabel "buslus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoorttramlus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "tramlus";
+  skos:prefLabel "tramlus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoorttrambuslus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "trambuslus";
+  skos:prefLabel "trambuslus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoorttramlus%20magnetisch> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "tramlus_magnetisch";
+  skos:prefLabel "tramlus_magnetisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoorttramlus%20wisselcontact%20DeLijn> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "tramlus_wisselcontact_DeLijn";
+  skos:prefLabel "tramlus_wisselcontact_DeLijn"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoorttramlus%20virtueel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "tramlus_virtueel";
+  skos:prefLabel "tramlus_virtueel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSelLusSoorttrambuslus%20virtueel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort>;
+  skos:notation "trambuslus_virtueel";
+  skos:prefLabel "trambuslus_virtueel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSelLusSoort> .

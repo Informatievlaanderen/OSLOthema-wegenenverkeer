@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de functie van de riolering"@nl;
   skos:prefLabel "Rioleringsbuis functie"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/syphon> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctiesyphon> a skos:Concept;
   skos:definition "buis bedoeld voor gravitaire afvoer van water met omgekeerde hevelwerking"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
   skos:notation "syphon";
   skos:prefLabel "syphon"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/infiltratieleiding> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctieinfiltratieleiding> a skos:Concept;
   skos:definition "buis bedoeld voor gravitaire afvoer en infiltratie van niet vervuild water"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
   skos:notation "infiltratieleiding";
   skos:prefLabel "infiltratieleiding"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/bufferleiding> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctiebufferleiding> a skos:Concept;
   skos:definition "buis bedoeld voor gravitaire afvoer en tijdelijke buffering van water"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
   skos:notation "bufferleiding";
   skos:prefLabel "bufferleiding"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/gravitaire_leiding> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctiegravitaire%20leiding> a skos:Concept;
   skos:definition "buis bedoeld voor de gravitaire afvoer van water"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
   skos:notation "gravitaire_leiding";
   skos:prefLabel "gravitaire_leiding"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .

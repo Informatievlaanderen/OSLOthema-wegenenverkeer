@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Poort modelnaam"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortModelnaamUNI> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam>;
+  skos:notation "UNI";
+  skos:prefLabel "UNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortModelnaamNNI> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam>;
+  skos:notation "NNI";
+  skos:prefLabel "NNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortModelnaamother> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam>;
+  skos:notation "other";
+  skos:prefLabel "other"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortModelnaamnull> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam>;
+  skos:notation "null";
+  skos:prefLabel "null"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortModelnaam> .

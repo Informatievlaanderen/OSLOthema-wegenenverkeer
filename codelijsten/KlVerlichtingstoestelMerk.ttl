@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Wegverlichting toestel merk"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelMerkARC> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk>;
+  skos:notation "ARC";
+  skos:prefLabel "ARC"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelMerkHCI-TS> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk>;
+  skos:notation "HCI-TS";
+  skos:prefLabel "HCI-TS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelMerkPhilips> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk>;
+  skos:notation "Philips";
+  skos:prefLabel "Philips"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelMerkRombalux> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk>;
+  skos:notation "Rombalux";
+  skos:prefLabel "Rombalux"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelMerkSchreder> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk>;
+  skos:notation "Schreder";
+  skos:prefLabel "Schreder"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelMerkandere> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelMerk> .

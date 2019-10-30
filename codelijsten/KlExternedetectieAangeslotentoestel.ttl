@@ -1,0 +1,64 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Externedetectie aangeslotentoestel"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelbrug> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "brug";
+  skos:prefLabel "brug"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoesteltunnel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "tunnel";
+  skos:prefLabel "tunnel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelspoorweg> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "spoorweg";
+  skos:prefLabel "spoorweg"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelde%20Lijn> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "de_Lijn";
+  skos:prefLabel "de_Lijn"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelMIVB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "MIVB";
+  skos:prefLabel "MIVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelhulpdiensten> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "hulpdiensten";
+  skos:prefLabel "hulpdiensten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelmilitaire%20kazerne> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "militaire_kazerne";
+  skos:prefLabel "militaire_kazerne"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestelluchthaven> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
+  skos:notation "luchthaven";
+  skos:prefLabel "luchthaven"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .

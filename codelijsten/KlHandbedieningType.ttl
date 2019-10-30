@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Handbediening type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHandbedieningTypedrukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType>;
+  skos:notation "drukknop";
+  skos:prefLabel "drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHandbedieningTypeschakelaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType>;
+  skos:notation "schakelaar";
+  skos:prefLabel "schakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHandbedieningTypesleutelcontact> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType>;
+  skos:notation "sleutelcontact";
+  skos:prefLabel "sleutelcontact"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHandbedieningType> .

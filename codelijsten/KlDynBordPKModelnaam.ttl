@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Dyn bord PK modelnaam"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDynBordPKModelnaampK-Tidal> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam>;
+  skos:notation "pK-Tidal";
+  skos:prefLabel "pK-Tidal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDynBordPKModelnaampK-08J03> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam>;
+  skos:notation "pK-08J03";
+  skos:prefLabel "pK-08J03"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDynBordPKModelnaampK-LHT> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam>;
+  skos:notation "pK-LHT";
+  skos:prefLabel "pK-LHT"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordPKModelnaam> .

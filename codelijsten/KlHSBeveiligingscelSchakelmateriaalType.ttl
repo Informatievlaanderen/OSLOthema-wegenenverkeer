@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "HS beveiligingscel schakelmateriaal type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHSBeveiligingscelSchakelmateriaalTypeRMU%202KT> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType>;
+  skos:notation "RMU_2KT";
+  skos:prefLabel "RMU_2KT"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHSBeveiligingscelSchakelmateriaalTypemetal-clad%20schakelvelden> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType>;
+  skos:notation "metal-clad_schakelvelden";
+  skos:prefLabel "metal-clad_schakelvelden"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHSBeveiligingscelSchakelmateriaalTypemodulaire%20schakelvelden> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType>;
+  skos:notation "modulaire_schakelvelden";
+  skos:prefLabel "modulaire_schakelvelden"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHSBeveiligingscelSchakelmateriaalTypemetaalomsloten%20celstruktuur> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType>;
+  skos:notation "metaalomsloten_celstruktuur";
+  skos:prefLabel "metaalomsloten_celstruktuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHSBeveiligingscelSchakelmateriaalTypeopen%20celstruktuur> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType>;
+  skos:notation "open_celstruktuur";
+  skos:prefLabel "open_celstruktuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHSBeveiligingscelSchakelmateriaalTypeRMU%203KT> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType>;
+  skos:notation "RMU_3KT";
+  skos:prefLabel "RMU_3KT"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelSchakelmateriaalType> .

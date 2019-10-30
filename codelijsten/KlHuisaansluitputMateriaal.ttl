@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> a skos:ConceptScheme;
   skos:definition "materiaal huisaansluitputje"@nl;
   skos:prefLabel "Huisaansluitput materiaal"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaalbeton> a skos:Concept;
   skos:definition "betonnen huisaansluitputje"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal>;
   skos:notation "beton";
   skos:prefLabel "beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/kunststof> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaalkunststof> a skos:Concept;
   skos:definition "kunstof aansluitputje"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal>;
   skos:notation "kunststof";
   skos:prefLabel "kunststof"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/gr%C3%83%C2%A8s> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaalgres> a skos:Concept;
   skos:definition "aansluitputje in grès"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal>;
-  skos:notation "grÃ¨s";
-  skos:prefLabel "grÃ¨s"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal>;
+  skos:notation "gres";
+  skos:prefLabel "gres"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal> .

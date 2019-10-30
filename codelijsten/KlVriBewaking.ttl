@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Vri bewaking"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriBewakingbewaakt%20primair%20alarm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking>;
+  skos:notation "bewaakt_primair_alarm";
+  skos:prefLabel "bewaakt_primair_alarm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriBewakingbewaakt%20secundair%20alarm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking>;
+  skos:notation "bewaakt_secundair_alarm";
+  skos:prefLabel "bewaakt_secundair_alarm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriBewakingbewaakt%20zonder%20alarm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking>;
+  skos:notation "bewaakt_zonder_alarm";
+  skos:prefLabel "bewaakt_zonder_alarm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriBewakingniet%20bewaakt> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking>;
+  skos:notation "niet_bewaakt";
+  skos:prefLabel "niet_bewaakt"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriBewaking> .

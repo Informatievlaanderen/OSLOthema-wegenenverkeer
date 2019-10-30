@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie> a skos:ConceptScheme;
+  skos:definition "2-8.1"@nl;
+  skos:prefLabel "Weg categorie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegCategoriehoofdweg> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie>;
+  skos:notation "hoofdweg";
+  skos:prefLabel "hoofdweg"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegCategorieprimaire%20weg%20I> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie>;
+  skos:notation "primaire_weg_I";
+  skos:prefLabel "primaire_weg_I"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegCategorieprimaire%20weg%20II> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie>;
+  skos:notation "primaire_weg_II";
+  skos:prefLabel "primaire_weg_II"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegCategoriesecundaire%20weg> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie>;
+  skos:notation "secundaire_weg";
+  skos:prefLabel "secundaire_weg"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegCategorielokale%20weg> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie>;
+  skos:notation "lokale_weg";
+  skos:prefLabel "lokale_weg"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegCategorie> .

@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "WV LED aantal te verlichten rijstroken"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedAantalTeVerlichtenRijstrokenR1> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken>;
+  skos:notation "R1";
+  skos:prefLabel "R1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedAantalTeVerlichtenRijstrokenR2> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken>;
+  skos:notation "R2";
+  skos:prefLabel "R2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedAantalTeVerlichtenRijstrokenR3> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken>;
+  skos:notation "R3";
+  skos:prefLabel "R3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedAantalTeVerlichtenRijstrokenR4> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken>;
+  skos:notation "R4";
+  skos:prefLabel "R4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedAantalTeVerlichtenRijstrokenR5> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken>;
+  skos:notation "R5";
+  skos:prefLabel "R5"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedAantalTeVerlichtenRijstrokenR6> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken>;
+  skos:notation "R6";
+  skos:prefLabel "R6"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedAantalTeVerlichtenRijstroken> .

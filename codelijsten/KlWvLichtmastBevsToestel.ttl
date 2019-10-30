@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> a skos:ConceptScheme;
+  skos:definition "keuzelijst standaard bevestigingen lichtmast"@nl;
+  skos:prefLabel "Bevestiging voor wegverlichtingstoestellen"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelkroon> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "kroon";
+  skos:prefLabel "kroon"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelmediaanbalk%20H> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "mediaanbalk_H";
+  skos:prefLabel "mediaanbalk_H"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelmediaanbalk%20I> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "mediaanbalk_I";
+  skos:prefLabel "mediaanbalk_I"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelmediaanbalk%20U> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "mediaanbalk_U";
+  skos:prefLabel "mediaanbalk_U"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelossenkop> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "ossenkop";
+  skos:prefLabel "ossenkop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelplaat> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "plaat";
+  skos:prefLabel "plaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelt-stuk> a skos:Concept;
+  skos:definition "keuzelijst (Niet van toepassing, T-stuk, Mediaanbalk I, Mediaanbalk U, Mediaanbalk H, Ossenkop, Kroon, Andere)./ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "t-stuk";
+  skos:prefLabel "t-stuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelpaaltop%2060mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "paaltop_60mm";
+  skos:prefLabel "paaltop_60mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelpaaltop%2076mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "paaltop_76mm";
+  skos:prefLabel "paaltop_76mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastBevsToestelpaaltop%20108mm> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel>;
+  skos:notation "paaltop_108mm";
+  skos:prefLabel "paaltop_108mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastBevsToestel> .

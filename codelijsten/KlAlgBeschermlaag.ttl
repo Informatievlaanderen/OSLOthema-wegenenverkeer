@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "AlgBeschermlaag"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBeschermlaaggegalvaniseerd> a skos:Concept;
+  skos:definition "Een laag zink aangebracht om roest te voorkomen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag>;
+  skos:notation "gegalvaniseerd";
+  skos:prefLabel "gegalvaniseerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBeschermlaaggecoat> a skos:Concept;
+  skos:definition "Een mengsel van stoffen aangebracht om roest te voorkomen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag>;
+  skos:notation "gecoat";
+  skos:prefLabel "gecoat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBeschermlaaggeschilderd> a skos:Concept;
+  skos:definition "Een laag verf aangebracht om roest te voorkomen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag>;
+  skos:notation "geschilderd";
+  skos:prefLabel "geschilderd"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBeschermlaag> .

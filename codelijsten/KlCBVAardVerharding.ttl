@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om de aard van de cement/beton verharding te bepalen"@nl;
   skos:prefLabel "CBV aard verharding"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/ongewapend_beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVAardVerhardingongewapend%20beton> a skos:Concept;
   skos:definition "Verharding van ongewapend beton."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "ongewapend_beton";
   skos:prefLabel "ongewapend_beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/doorgaand_gewapend_beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVAardVerhardingdoorgaand%20gewapend%20beton> a skos:Concept;
   skos:definition "Verharding van doorgaand gewapend beton."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "doorgaand_gewapend_beton";
   skos:prefLabel "doorgaand_gewapend_beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/doorgaand_gewapend_beton._tweelaagse_uitvoering> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVAardVerhardingdoorgaand%20gewapend%20beton.%20tweelaagse%20uitvoering> a skos:Concept;
   skos:definition "Verharding van doorgaand gewapend beton, tweelaagse uitvoering."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "doorgaand_gewapend_beton._tweelaagse_uitvoering";
   skos:prefLabel "doorgaand_gewapend_beton._tweelaagse_uitvoering"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/doorgaand_gewapend_beton_voor_rotondes> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVAardVerhardingdoorgaand%20gewapend%20beton%20voor%20rotondes> a skos:Concept;
   skos:definition "Verharding van doorgaand gewapend beton voor rotondes."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "doorgaand_gewapend_beton_voor_rotondes";
   skos:prefLabel "doorgaand_gewapend_beton_voor_rotondes"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/staalvezelbeton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVAardVerhardingstaalvezelbeton> a skos:Concept;
   skos:definition "Verharding van staalvezelbeton."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "staalvezelbeton";
   skos:prefLabel "staalvezelbeton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .

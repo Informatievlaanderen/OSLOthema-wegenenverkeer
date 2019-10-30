@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende beheersopties voor houtige vegetatie oplijst"@nl;
+  skos:prefLabel "Beheer houtige vegetatie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiehakhoutbeheer> a skos:Concept;
+  skos:definition "Er wordt hakhoutbeheer uitgevoerd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "hakhoutbeheer";
+  skos:prefLabel "hakhoutbeheer"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatienietsDoen> a skos:Concept;
+  skos:definition "Er wordt geen beheer uitgevoerd"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "nietsDoen";
+  skos:prefLabel "nietsDoen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiescheren> a skos:Concept;
+  skos:definition "Het vlakvormig gelijkmatig kort afsnijden van takken van hagen, heesters en houtkanten."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "scheren";
+  skos:prefLabel "scheren"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiedunnen> a skos:Concept;
+  skos:definition "Het gelijkgronds afzagen van bomen ter bevordering van de groei van omstaande bomen of struiken."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "dunnen";
+  skos:prefLabel "dunnen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiesnoeien> a skos:Concept;
+  skos:definition "Het inkorten of wegnemen van takken met snoeischaar of zaag"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "snoeien";
+  skos:prefLabel "snoeien"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiewieden> a skos:Concept;
+  skos:definition "Keuzelijst die de verschillende beheersopties voor houtige vegetatie oplijst"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "wieden";
+  skos:prefLabel "wieden"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiehakken> a skos:Concept;
+  skos:definition "Keuzelijst die de verschillende beheersopties voor houtige vegetatie oplijst"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "hakken";
+  skos:prefLabel "hakken"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiespitten> a skos:Concept;
+  skos:definition "Keuzelijst die de verschillende beheersopties voor houtige vegetatie oplijst"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "spitten";
+  skos:prefLabel "spitten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiemaaien> a skos:Concept;
+  skos:definition "Het maaien van de grazige vegetatie tussen de houtige vegetatie."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "maaien";
+  skos:prefLabel "maaien"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatiebestrijding> a skos:Concept;
+  skos:definition "Bestrijding van ongewenste onkruiden."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "bestrijding";
+  skos:prefLabel "bestrijding"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .

@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de soort van markingsproduct te bepalen. Afgeleid van de COPRO_code."@nl;
   skos:prefLabel "Soort markeringsproduct"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/verf> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringSoortverf> a skos:Concept;
   skos:definition "Wegenverf die zich uitstekend leent tot de markering van openbare wegen. Wegenverf is een vloeibaar product dat vaste stoffen zoals bindmiddel, stoffen die kleuren reflecteren, vulstoffen en additieven bevat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
   skos:notation "verf";
   skos:prefLabel "verf"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/koudplastisch> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringSoortkoudplastisch> a skos:Concept;
   skos:definition "Een koudplast is een markeringssubstantie gevormd door de chemische reactie van 2 of meerdere componenten (minstens 1 verharder en 1 hoofdcomponent), waarvan geen oplosmiddelen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
   skos:notation "koudplastisch";
   skos:prefLabel "koudplastisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastisch_vlak> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringSoortthermoplastisch%20vlak> a skos:Concept;
   skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een ge&#235;igend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Een vlak systeem is een film met constante dosering."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
   skos:notation "thermoplastisch_vlak";
   skos:prefLabel "thermoplastisch_vlak"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/geprefabriceerd> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringSoortgeprefabriceerd> a skos:Concept;
   skos:definition "Voorgevormde wegmarkering."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
   skos:notation "geprefabriceerd";
   skos:prefLabel "geprefabriceerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastische_structuur> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringSoortthermoplastische%20structuur> a skos:Concept;
   skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een ge&#235;igend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reli&#235;f met een wisselende hoogte."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
   skos:notation "thermoplastische_structuur";
   skos:prefLabel "thermoplastische_structuur"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .

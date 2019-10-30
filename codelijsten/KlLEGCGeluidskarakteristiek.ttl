@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> a skos:ConceptScheme;
   skos:definition "Het geluidskarakteristiek van de geluidswerende constructie."@nl;
   skos:prefLabel "Geluidskarakteristiek"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/absorberend> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiekabsorberend> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
   skos:notation "absorberend";
   skos:prefLabel "absorberend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/reflecterend> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiekreflecterend> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
   skos:notation "reflecterend";
   skos:prefLabel "reflecterend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .

@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Kamer functie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctienatte%20pompkelder> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "natte_pompkelder";
+  skos:prefLabel "natte_pompkelder"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctieslib%20vang> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "slib_vang";
+  skos:prefLabel "slib_vang"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctieolie%20vang> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "olie_vang";
+  skos:prefLabel "olie_vang"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctiegrofvuil%20vang> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "grofvuil_vang";
+  skos:prefLabel "grofvuil_vang"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .

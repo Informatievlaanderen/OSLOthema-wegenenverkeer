@@ -1,0 +1,64 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Netwerk merk"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerknokia> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "nokia";
+  skos:prefLabel "nokia"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerkciena> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "ciena";
+  skos:prefLabel "ciena"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerkcisco> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "cisco";
+  skos:prefLabel "cisco"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerkHP> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "HP";
+  skos:prefLabel "HP"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerkproxim> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "proxim";
+  skos:prefLabel "proxim"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerkABB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "ABB";
+  skos:prefLabel "ABB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerkother> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "other";
+  skos:prefLabel "other"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkMerknull> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "null";
+  skos:prefLabel "null"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .

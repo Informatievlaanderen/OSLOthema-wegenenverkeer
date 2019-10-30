@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Vri drukknop soort"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortvoetganger%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "voetganger_drukknop";
+  skos:prefLabel "voetganger_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortWV%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "WV_drukknop";
+  skos:prefLabel "WV_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortcombi%20v%20f%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "combi_v_f_drukknop";
+  skos:prefLabel "combi_v_f_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortcombi%20v%20vg%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "combi_v_vg_drukknop";
+  skos:prefLabel "combi_v_vg_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortfietser%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "fietser_drukknop";
+  skos:prefLabel "fietser_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortruiter%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "ruiter_drukknop";
+  skos:prefLabel "ruiter_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoortvisueel%20gehandicapt%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
+  skos:notation "visueel_gehandicapt_drukknop";
+  skos:prefLabel "visueel_gehandicapt_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .

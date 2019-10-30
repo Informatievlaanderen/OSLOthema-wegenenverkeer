@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> a skos:ConceptScheme;
+  skos:definition "vb : Windows 10 SP1, Windows 10 SP2, unix"@nl;
+  skos:prefLabel "Hardware OS"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareOSwindows%2010%20SP1> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS>;
+  skos:notation "windows_10_SP1";
+  skos:prefLabel "windows_10_SP1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareOSwindows%2010%20SP2> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS>;
+  skos:notation "windows_10_SP2";
+  skos:prefLabel "windows_10_SP2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareOSunix> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS>;
+  skos:notation "unix";
+  skos:prefLabel "unix"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .

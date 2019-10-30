@@ -1,0 +1,260 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Wegverlichting toestel merknaam"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamARC> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "ARC";
+  skos:prefLabel "ARC"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamHCI-TS> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "HCI-TS";
+  skos:prefLabel "HCI-TS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamIridium> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Iridium";
+  skos:prefLabel "Iridium"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamMNF300> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "MNF300";
+  skos:prefLabel "MNF300"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamMWF230> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "MWF230";
+  skos:prefLabel "MWF230"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamSRS201> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "SRS201";
+  skos:prefLabel "SRS201"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamBelgica> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Belgica";
+  skos:prefLabel "Belgica"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaambrugleuning> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "brugleuning";
+  skos:prefLabel "brugleuning"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamCalypso> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Calypso";
+  skos:prefLabel "Calypso"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamCorus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Corus";
+  skos:prefLabel "Corus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamDTN> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "DTN";
+  skos:prefLabel "DTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamFocal> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Focal";
+  skos:prefLabel "Focal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamGema> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Gema";
+  skos:prefLabel "Gema"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamGSM> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "GSM";
+  skos:prefLabel "GSM"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamGTMB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "GTMB";
+  skos:prefLabel "GTMB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamGTNB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "GTNB";
+  skos:prefLabel "GTNB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamGZM> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "GZM";
+  skos:prefLabel "GZM"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamMY11> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "MY11";
+  skos:prefLabel "MY11"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamNeos> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Neos";
+  skos:prefLabel "Neos"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamprojector> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "projector";
+  skos:prefLabel "projector"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamZ21> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Z21";
+  skos:prefLabel "Z21"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamRXN> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "RXN";
+  skos:prefLabel "RXN"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamSafir> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Safir";
+  skos:prefLabel "Safir"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamSaturnus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Saturnus";
+  skos:prefLabel "Saturnus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamOnyx> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Onyx";
+  skos:prefLabel "Onyx"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamRT3NB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "RT3NB";
+  skos:prefLabel "RT3NB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamRT3SB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "RT3SB";
+  skos:prefLabel "RT3SB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamSqualo> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Squalo";
+  skos:prefLabel "Squalo"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamSyntra> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Syntra";
+  skos:prefLabel "Syntra"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamZ18> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Z18";
+  skos:prefLabel "Z18"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamRadial> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Radial";
+  skos:prefLabel "Radial"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamandere> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamZ2> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Z2";
+  skos:prefLabel "Z2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamVTP> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "VTP";
+  skos:prefLabel "VTP"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamRXS> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "RXS";
+  skos:prefLabel "RXS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaamEvolo> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Evolo";
+  skos:prefLabel "Evolo"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .

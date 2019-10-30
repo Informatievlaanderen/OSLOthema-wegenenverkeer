@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Vri regelaartype"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRegelaarRegelaartypetype%200> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype>;
+  skos:notation "type_0";
+  skos:prefLabel "type_0"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRegelaarRegelaartypetype%201> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype>;
+  skos:notation "type_1";
+  skos:prefLabel "type_1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRegelaarRegelaartypetype%202> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype>;
+  skos:notation "type_2";
+  skos:prefLabel "type_2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRegelaarRegelaartypetype%203> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype>;
+  skos:notation "type_3";
+  skos:prefLabel "type_3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRegelaarRegelaartype> .

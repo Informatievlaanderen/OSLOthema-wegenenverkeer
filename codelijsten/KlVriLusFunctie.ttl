@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Vri lusfunctie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusFunctiefilelus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "filelus";
+  skos:prefLabel "filelus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusFunctieafstandslus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "afstandslus";
+  skos:prefLabel "afstandslus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusFunctiehiaatlus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "hiaatlus";
+  skos:prefLabel "hiaatlus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusFunctieKAR%20inmeldlus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "KAR_inmeldlus";
+  skos:prefLabel "KAR_inmeldlus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusFunctieKAR%20uitmeldlus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "KAR_uitmeldlus";
+  skos:prefLabel "KAR_uitmeldlus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusFunctiestopstreeplus> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "stopstreeplus";
+  skos:prefLabel "stopstreeplus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .

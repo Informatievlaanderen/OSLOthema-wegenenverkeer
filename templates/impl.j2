@@ -400,7 +400,17 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SQLite download</h2>
                 (niet normatief)
                 {% block sqlite %}
-                <p>Een herbruikbare SQLite database van alle implementatiemodellen is terug te vinden op: <a href="{{ documentroot }}/html/OTL.db" target="_blank">{{ documentroot }}/html/OTL.db</a></p>
+                {% if "-test" in documentroot-%}
+			{% set documentrootSQLite= documentroot|truncate(70,True)%}
+			{% set documentrootSQLite= documentrootSQLite|replace("...", "master/html/OTL.db")%}
+			<p>Een herbruikbare SQLite database van alle implementatiemodellen is terug te vinden op: <a href="{{ documentrootSQLite }}" target="_blank">{{ documentrootSQLite }}</a></p>
+
+		{% else %}
+			{% set documentrootSQLite= documentroot|truncate(65,True)%}
+			{% set documentrootSQLite= documentrootSQLite|replace("...", "master/html/OTL.db")%}
+			<p>Een herbruikbare SQLite database van alle implementatiemodellen is terug te vinden op: <a href="{{ documentrootSQLite }}" target="_blank">{{ documentrootSQLite }}</a></p>
+
+		{%- endif %}
                 {% endblock %}
             </div>
             <div class="region region--no-space-top" id="jsonld">

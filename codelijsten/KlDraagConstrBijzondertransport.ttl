@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Draagconstructie bijzonder transport"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBijzondertransportdraaibaar> a skos:Concept;
+  skos:definition "Het object is draaibaar."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport>;
+  skos:notation "draaibaar";
+  skos:prefLabel "draaibaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBijzondertransportkantelbaar> a skos:Concept;
+  skos:definition "Het object is kantelbaar."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport>;
+  skos:notation "kantelbaar";
+  skos:prefLabel "kantelbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBijzondertransportafkoppelbaar> a skos:Concept;
+  skos:definition "Het object is afkoppelbaar."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport>;
+  skos:notation "afkoppelbaar";
+  skos:prefLabel "afkoppelbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgBijzondertransportgeen%20voorziening> a skos:Concept;
+  skos:definition "Geen voorziening."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport>;
+  skos:notation "geen_voorziening";
+  skos:prefLabel "geen_voorziening"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgBijzondertransport> .

@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Codeklavier werking"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCodeklavierWerkingcijfercodeslot> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking>;
+  skos:notation "cijfercodeslot";
+  skos:prefLabel "cijfercodeslot"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCodeklavierWerkingdrukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking>;
+  skos:notation "drukknop";
+  skos:prefLabel "drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCodeklavierWerkingcijfercodeslot%20met%20drukknop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking>;
+  skos:notation "cijfercodeslot_met_drukknop";
+  skos:prefLabel "cijfercodeslot_met_drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> .

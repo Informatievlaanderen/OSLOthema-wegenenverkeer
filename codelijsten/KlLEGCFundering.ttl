@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering> a skos:ConceptScheme;
   skos:definition "De funderingswijze van de geluidswerende constructie.//"@nl;
   skos:prefLabel "Fundering"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCFunderingfundering%20op%20staal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCFundering/fundering-op-staal> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering>;
-  skos:notation "fundering_op_staal";
-  skos:prefLabel "fundering_op_staal"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering>;
+  skos:notation "fundering op staal";
+  skos:prefLabel "fundering op staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCFunderingfundering%20op%20palen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCFundering/fundering-op-palen> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering>;
-  skos:notation "fundering_op_palen";
-  skos:prefLabel "fundering_op_palen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering>;
+  skos:notation "fundering op palen";
+  skos:prefLabel "fundering op palen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCFundering> .

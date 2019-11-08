@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP> a skos:ConceptScheme;
   skos:definition "Keuzelijst van head injury criterium (HIC) van een motorvangplank"@nl;
   skos:prefLabel "Schokindex MVP"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindexMVPlevel%201> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindexMVP/level-1> a skos: Concept;
   skos:definition "Krachten op hoofd en nek worden beperkt tijdens test"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP>;
-  skos:notation "level_1";
-  skos:prefLabel "level_1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP>;
+  skos:notation "level 1";
+  skos:prefLabel "level 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindexMVPlevel%202> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindexMVP/level-2> a skos: Concept;
   skos:definition "Krachten op hoofd en nek worden tot levensgevaarlijk tijdens test"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP>;
-  skos:notation "level_2";
-  skos:prefLabel "level_2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP>;
+  skos:notation "level 2";
+  skos:prefLabel "level 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindexMVP> .

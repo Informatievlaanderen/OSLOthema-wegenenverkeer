@@ -3,55 +3,55 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> a skos:ConceptScheme;
   skos:definition "Een keuzelijst die de rol van de laag aanduid (Onderfundering, fundering, verharding,...)"@nl;
   skos:prefLabel "Laag rol"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolonderfundering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/onderfundering> a skos: Concept;
   skos:definition "Een keuzelijst die de rol van de laag aanduid (Onderfundering, fundering, verharding,...)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
   skos:notation "onderfundering";
   skos:prefLabel "onderfundering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolfundering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/fundering> a skos: Concept;
   skos:definition "Een keuzelijst die de rol van de laag aanduid (Onderfundering, fundering, verharding,...)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
   skos:notation "fundering";
   skos:prefLabel "fundering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolverharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/verharding> a skos: Concept;
   skos:definition "De laag als verharding."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
   skos:notation "verharding";
   skos:prefLabel "verharding"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolomhulling> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/omhulling> a skos: Concept;
   skos:definition "De laag als omhulling."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
   skos:notation "omhulling";
   skos:prefLabel "omhulling"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolaanvulling> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/aanvulling> a skos: Concept;
   skos:definition "De laag als aanvulling."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
   skos:notation "aanvulling";
   skos:prefLabel "aanvulling"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolstraatlaag> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/straatlaag> a skos: Concept;
   skos:definition "De laag als straatlaag"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
   skos:notation "straatlaag";
   skos:prefLabel "straatlaag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLaagRolfundering%20voor%20lijnvormige%20elementen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLaagRol/fundering-voor-lijnvormige-elementen> a skos: Concept;
   skos:definition "De laag als fundering voor lijnvormige elementen."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
-  skos:notation "fundering_voor_lijnvormige_elementen";
-  skos:prefLabel "fundering_voor_lijnvormige_elementen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol>;
+  skos:notation "fundering voor lijnvormige elementen";
+  skos:prefLabel "fundering voor lijnvormige elementen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLaagRol> .

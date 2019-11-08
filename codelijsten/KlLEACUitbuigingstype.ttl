@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het uitbuigingstype"@nl;
   skos:prefLabel "Uitbuigingstype"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitbuigingstypetype%201> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACUitbuigingstype/type-1> a skos: Concept;
   skos:definition "Uitbuiging op wegen tot 90 km/h, straal R = 10 meter"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype>;
-  skos:notation "type_1";
-  skos:prefLabel "type_1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype>;
+  skos:notation "type 1";
+  skos:prefLabel "type 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitbuigingstypetype%202> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACUitbuigingstype/type-2> a skos: Concept;
   skos:definition "Uitbuiging op wegen vanaf 90 km/h, L = 25 meter"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype>;
-  skos:notation "type_2";
-  skos:prefLabel "type_2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype>;
+  skos:notation "type 2";
+  skos:prefLabel "type 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype> .

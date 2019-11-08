@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de bestemming of doel van de grond te duiden."@nl;
   skos:prefLabel "Grondbestemming"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondbestemminghergebruik> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondbestemming/hergebruik> a skos: Concept;
   skos:definition "Grond voor hergebruik."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
   skos:notation "hergebruik";
   skos:prefLabel "hergebruik"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondbestemmingtijdelijke%20opslagplaats%20(TOP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondbestemming/tijdelijke-opslagplaats-(TOP)> a skos: Concept;
   skos:definition "Grond voor tijdelijke opslag."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
-  skos:notation "tijdelijke_opslagplaats_(TOP)";
-  skos:prefLabel "tijdelijke_opslagplaats_(TOP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
+  skos:notation "tijdelijke opslagplaats (TOP)";
+  skos:prefLabel "tijdelijke opslagplaats (TOP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondbestemmingreiniging> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondbestemming/reiniging> a skos: Concept;
   skos:definition "Te reinigen grond."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
   skos:notation "reiniging";
   skos:prefLabel "reiniging"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .

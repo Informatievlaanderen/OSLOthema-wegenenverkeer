@@ -3,55 +3,55 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> a skos:ConceptScheme;
   skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
   skos:prefLabel "BV laagtype"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypetoplaag%20van%20asfaltbeton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/toplaag-van-asfaltbeton> a skos: Concept;
   skos:definition "Bovenste laag van een bitumineuze verharding, die direct in contact komt met het verkeer bestaande uit asfaltbeton."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
-  skos:notation "toplaag_van_asfaltbeton";
-  skos:prefLabel "toplaag_van_asfaltbeton"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:notation "toplaag van asfaltbeton";
+  skos:prefLabel "toplaag van asfaltbeton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypeonderlaag> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/onderlaag> a skos: Concept;
   skos:definition "Onderliggende laag van een bitumineuze verharding met een constante dikte. "@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
   skos:notation "onderlaag";
   skos:prefLabel "onderlaag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypetussenlaag> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/tussenlaag> a skos: Concept;
   skos:definition "Bitumineuze laag die aangebracht wordt tussen een betonverharding en de fundering. "@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
   skos:notation "tussenlaag";
   skos:prefLabel "tussenlaag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypeprofileerlaag> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/profileerlaag> a skos: Concept;
   skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
   skos:notation "profileerlaag";
   skos:prefLabel "profileerlaag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypebeschermingslaag> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/beschermingslaag> a skos: Concept;
   skos:definition "beschermingslaag"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
   skos:notation "beschermingslaag";
   skos:prefLabel "beschermingslaag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypetoplaag%20van%20gietasfalt> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/toplaag-van-gietasfalt> a skos: Concept;
   skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
-  skos:notation "toplaag_van_gietasfalt";
-  skos:prefLabel "toplaag_van_gietasfalt"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:notation "toplaag van gietasfalt";
+  skos:prefLabel "toplaag van gietasfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBVLaagtypeandere%20toplagen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVLaagtype/andere-toplagen> a skos: Concept;
   skos:definition "union type om het laagtype van bitumineuze verharding te bepalen"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
-  skos:notation "andere_toplagen";
-  skos:prefLabel "andere_toplagen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype>;
+  skos:notation "andere toplagen";
+  skos:prefLabel "andere toplagen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVLaagtype> .

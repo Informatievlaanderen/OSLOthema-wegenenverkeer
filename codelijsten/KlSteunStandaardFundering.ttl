@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Fundering"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteunStandaardFunderingvoetplaat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSteunStandaardFundering/voetplaat> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering>;
   skos:notation "voetplaat";
   skos:prefLabel "voetplaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteunStandaardFunderingin%20grond%20klassiek> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSteunStandaardFundering/in-grond-klassiek> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering>;
-  skos:notation "in_grond_klassiek";
-  skos:prefLabel "in_grond_klassiek"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering>;
+  skos:notation "in grond klassiek";
+  skos:prefLabel "in grond klassiek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteunStandaardFunderingin%20grond%20diep> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSteunStandaardFundering/in-grond-diep> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering>;
-  skos:notation "in_grond_diep";
-  skos:prefLabel "in_grond_diep"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering>;
+  skos:notation "in grond diep";
+  skos:prefLabel "in grond diep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunStandaardFundering> .

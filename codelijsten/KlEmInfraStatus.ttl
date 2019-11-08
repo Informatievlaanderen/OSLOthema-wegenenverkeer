@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "EM-infra status"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraStatusactief> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEmInfraStatus/actief> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus>;
   skos:notation "actief";
   skos:prefLabel "actief"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraStatuspassief> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEmInfraStatus/passief> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus>;
   skos:notation "passief";
   skos:prefLabel "passief"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEmInfraStatus> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> a skos:ConceptScheme;
   skos:definition "Proef : Keuzelijst om het test type te bepalen van het geluidswerend scherm"@nl;
   skos:prefLabel "Test type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCTestTypegeluidsabsorptie> a skos:Concept;
-  skos:definition "Proef : De Ã©Ã©ngetalsaanduiding als waarde voor de geluidsabsorptie"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCTestType/geluidsabsorptie> a skos: Concept;
+  skos:definition "Proef : De ééngetalsaanduiding als waarde voor de geluidsabsorptie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType>;
   skos:notation "geluidsabsorptie";
   skos:prefLabel "geluidsabsorptie"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCTestTypeluchtgeluidsisolatie> a skos:Concept;
-  skos:definition "Proef : De Ã©Ã©ngetalsaanduiding voor luchtgeluidsisolatie"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCTestType/luchtgeluidsisolatie> a skos: Concept;
+  skos:definition "Proef : De ééngetalsaanduiding voor luchtgeluidsisolatie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType>;
   skos:notation "luchtgeluidsisolatie";
   skos:prefLabel "luchtgeluidsisolatie"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Lus uitslijprichting"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLusUitslijprichtinglinks> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLusUitslijprichting/links> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting>;
   skos:notation "links";
   skos:prefLabel "links"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLusUitslijprichtingrechts> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLusUitslijprichting/rechts> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting>;
   skos:notation "rechts";
   skos:prefLabel "rechts"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLusUitslijprichting> .

@@ -3,48 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Verkeersregelaar coordinatiewijze"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijzemaster> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijze/master> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
   skos:notation "master";
   skos:prefLabel "master"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijzeslave> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijze/slave> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
   skos:notation "slave";
   skos:prefLabel "slave"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijzegeen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijze/geen> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
   skos:notation "geen";
   skos:prefLabel "geen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijzepulsen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijze/pulsen> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
   skos:notation "pulsen";
   skos:prefLabel "pulsen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijzeklok> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijze/klok> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
   skos:notation "klok";
   skos:prefLabel "klok"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijzecentraal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarCoordinatiewijze/centraal> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze>;
   skos:notation "centraal";
   skos:prefLabel "centraal"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarCoordinatiewijze> .

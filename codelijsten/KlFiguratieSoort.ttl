@@ -3,83 +3,83 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de soort van de figuratie markering (= de code_omschrijving)."@nl;
   skos:prefLabel "Figuratie soort"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortaanduiding%20bebouwde%20kom%20met%20blokken> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/aanduiding-bebouwde-kom-met-blokken> a skos: Concept;
   skos:definition "Aanduiding bebouwde kom met blokken."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
-  skos:notation "aanduiding_bebouwde_kom_met_blokken";
-  skos:prefLabel "aanduiding_bebouwde_kom_met_blokken"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:notation "aanduiding bebouwde kom met blokken";
+  skos:prefLabel "aanduiding bebouwde kom met blokken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortaanduiding%20bebouwde%20kom%20-%20snelheidsbeperking%20(50)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/aanduiding-bebouwde-kom---snelheidsbeperking-(50)> a skos: Concept;
   skos:definition "Aanduiding bebouwde kom met blokken met snelheidsbeperking van 50"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
-  skos:notation "aanduiding_bebouwde_kom_-_snelheidsbeperking_(50)";
-  skos:prefLabel "aanduiding_bebouwde_kom_-_snelheidsbeperking_(50)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:notation "aanduiding bebouwde kom - snelheidsbeperking (50)";
+  skos:prefLabel "aanduiding bebouwde kom - snelheidsbeperking (50)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortpijl> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/pijl> a skos: Concept;
   skos:definition "Een pijlvormige markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
   skos:notation "pijl";
   skos:prefLabel "pijl"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortlettermarkering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/lettermarkering> a skos: Concept;
   skos:definition "Een lettermarking."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
   skos:notation "lettermarkering";
   skos:prefLabel "lettermarkering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortcijfermarkering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/cijfermarkering> a skos: Concept;
   skos:definition "Een cijfermarkering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
   skos:notation "cijfermarkering";
   skos:prefLabel "cijfermarkering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortbushalte%20met%20arcering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/bushalte-met-arcering> a skos: Concept;
   skos:definition "Een lettermarkering BUS met arcering"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
-  skos:notation "bushalte_met_arcering";
-  skos:prefLabel "bushalte_met_arcering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:notation "bushalte met arcering";
+  skos:prefLabel "bushalte met arcering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortbushalte%20zonder%20arcering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/bushalte-zonder-arcering> a skos: Concept;
   skos:definition "Een lettermarkering BUS zonder arcering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
-  skos:notation "bushalte_zonder_arcering";
-  skos:prefLabel "bushalte_zonder_arcering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:notation "bushalte zonder arcering";
+  skos:prefLabel "bushalte zonder arcering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortverkeersbord> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/verkeersbord> a skos: Concept;
   skos:definition "Een markering in de vorm van een verkeersbord."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
   skos:notation "verkeersbord";
   skos:prefLabel "verkeersbord"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortlogo> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/logo> a skos: Concept;
   skos:definition "Een markering in de vorm van een logo."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
   skos:notation "logo";
   skos:prefLabel "logo"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortvisgraatmarkering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/visgraatmarkering> a skos: Concept;
   skos:definition "Een visgraat markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
   skos:notation "visgraatmarkering";
   skos:prefLabel "visgraatmarkering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieSoortomgekeerde%20driehoek> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFiguratieSoort/omgekeerde-driehoek> a skos: Concept;
   skos:definition "Een omgekeerde driehoek markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
-  skos:notation "omgekeerde_driehoek";
-  skos:prefLabel "omgekeerde_driehoek"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort>;
+  skos:notation "omgekeerde driehoek";
+  skos:prefLabel "omgekeerde driehoek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFiguratieSoort> .

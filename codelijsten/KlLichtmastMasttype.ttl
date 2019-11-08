@@ -3,76 +3,76 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Wv masttype"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeRM> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/RM> a skos: Concept;
   skos:definition "Rechte metalen paal"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "RM";
   skos:prefLabel "RM"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeRMS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/RMS> a skos: Concept;
   skos:definition "Rechte metalen paal op voet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "RMS";
   skos:prefLabel "RMS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypem> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/m> a skos: Concept;
   skos:definition "Metalen paal met arm"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "m";
   skos:prefLabel "m"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeMS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/MS> a skos: Concept;
   skos:definition "Metalen paal met arm en voet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "MS";
   skos:prefLabel "MS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeb> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/b> a skos: Concept;
   skos:definition "Betonnen paal"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "b";
   skos:prefLabel "b"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeBS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/BS> a skos: Concept;
   skos:definition "Betonnen paal op voet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "BS";
   skos:prefLabel "BS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypek> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/k> a skos: Concept;
   skos:definition "Kreukelpaal met arm"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "k";
   skos:prefLabel "k"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeKS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/KS> a skos: Concept;
   skos:definition "Kreukelpaal met arm op voet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "KS";
   skos:prefLabel "KS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeRK> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/RK> a skos: Concept;
   skos:definition "Kreukelpaal"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "RK";
   skos:prefLabel "RK"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtmastMasttypeRKS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/RKS> a skos: Concept;
   skos:definition "Kreukelpaal op voet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "RKS";
   skos:prefLabel "RKS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .

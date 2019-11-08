@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSATRackType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSATRackType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "SAT rack type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSATRackType19%22> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSATRackType/19-inch> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSATRackType>;
-  skos:notation "19"";
-  skos:prefLabel "19""@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSATRackType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSATRackType>;
+  skos:notation "19 inch";
+  skos:prefLabel "19 inch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSATRackType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSATRackTypestandaard> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSATRackType/standaard> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSATRackType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSATRackType>;
   skos:notation "standaard";
   skos:prefLabel "standaard"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSATRackType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSATRackType> .

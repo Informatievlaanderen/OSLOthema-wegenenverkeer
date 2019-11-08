@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Tunnelvoeg type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTunnelVoegTypemootvoeg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTunnelVoegType/mootvoeg> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType>;
   skos:notation "mootvoeg";
   skos:prefLabel "mootvoeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTunnelVoegTypeelementvoeg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTunnelVoegType/elementvoeg> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType>;
   skos:notation "elementvoeg";
   skos:prefLabel "elementvoeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelVoegType> .

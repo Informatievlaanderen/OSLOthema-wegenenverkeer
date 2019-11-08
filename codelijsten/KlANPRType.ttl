@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "ANPR type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlANPRTypetype%20I> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlANPRType/type-I> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType>;
-  skos:notation "type_I";
-  skos:prefLabel "type_I"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType>;
+  skos:notation "type I";
+  skos:prefLabel "type I"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlANPRTypetype%20III> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlANPRType/type-III> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType>;
-  skos:notation "type_III";
-  skos:prefLabel "type_III"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType>;
+  skos:notation "type III";
+  skos:prefLabel "type III"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlANPRTypedual> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlANPRType/dual> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType>;
   skos:notation "dual";
   skos:prefLabel "dual"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRType> .

@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de verschillende opties van hoe de wortel was bij aanplanting"@nl;
   skos:prefLabel "Vegetatie wortel"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortelnaakt> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/naakt> a skos: Concept;
   skos:definition "Wortels waarrond geen grond aanwezig is"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
   skos:notation "naakt";
   skos:prefLabel "naakt"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWorteldraadkluit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/draadkluit> a skos: Concept;
   skos:definition "De wortels zitten in een met draad ingebonden kluit aarde"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
   skos:notation "draadkluit";
   skos:prefLabel "draadkluit"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortelcontainer> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/container> a skos: Concept;
   skos:definition "Keuzelijst met de verschillende opties van hoe de wortel was bij aanplanting"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
   skos:notation "container";
   skos:prefLabel "container"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .

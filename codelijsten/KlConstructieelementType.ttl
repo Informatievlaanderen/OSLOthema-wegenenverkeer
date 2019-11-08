@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Constructieelement type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlConstructieelementTypewand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructieelementType/wand> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
   skos:notation "wand";
   skos:prefLabel "wand"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlConstructieelementTypebouwplaat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructieelementType/bouwplaat> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
   skos:notation "bouwplaat";
   skos:prefLabel "bouwplaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlConstructieelementTypeparalumen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructieelementType/paralumen> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
   skos:notation "paralumen";
   skos:prefLabel "paralumen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlConstructieelementTypefundering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructieelementType/fundering> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType>;
   skos:notation "fundering";
   skos:prefLabel "fundering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructieelementType> .

@@ -3,69 +3,69 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> a skos:ConceptScheme;
   skos:definition "Keuzelijst van verschillende mogelijke conflicten bij een boomvorm"@nl;
   skos:prefLabel "Boom conflicten"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenhinderende%20takken> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/hinderende-takken> a skos: Concept;
   skos:definition "Takken die hinderlijk zijn voor de zichtbaarheid en de vrije doorrijhoogte of die luchtleidingen raken"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
-  skos:notation "hinderende_takken";
-  skos:prefLabel "hinderende_takken"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:notation "hinderende takken";
+  skos:prefLabel "hinderende takken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenwortelopdruk> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/wortelopdruk> a skos: Concept;
   skos:definition "Boomwortels die (weg)verhardingselementen opdrukken"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
   skos:notation "wortelopdruk";
   skos:prefLabel "wortelopdruk"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenverharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/verharding> a skos: Concept;
   skos:definition "Een verhardingslaag bevindt zich zeer dicht tegen de boom"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
   skos:notation "verharding";
   skos:prefLabel "verharding"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenbodemverdichting> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/bodemverdichting> a skos: Concept;
   skos:definition "Verdichting van de bodem door belasting (voetgangers, fietsers, auto's, bouwmaterialen,...)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
   skos:notation "bodemverdichting";
   skos:prefLabel "bodemverdichting"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictente%20dicht%20bij%20rand%20verharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/te-dicht-bij-rand-verharding> a skos: Concept;
   skos:definition "Verharding ligt op minder dan 50 cm van de stamvoet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
-  skos:notation "te_dicht_bij_rand_verharding";
-  skos:prefLabel "te_dicht_bij_rand_verharding"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:notation "te dicht bij rand verharding";
+  skos:prefLabel "te dicht bij rand verharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenbeperkte%20doorwortelbare%20ruimte> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/beperkte-doorwortelbare-ruimte> a skos: Concept;
   skos:definition "Het bodemvolume met voldoende mineralen, water en zuurstof waar de wortels van de boom zich kunnen ontwikkelen is veel lager dan verwacht"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
-  skos:notation "beperkte_doorwortelbare_ruimte";
-  skos:prefLabel "beperkte_doorwortelbare_ruimte"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:notation "beperkte doorwortelbare ruimte";
+  skos:prefLabel "beperkte doorwortelbare ruimte"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenscheefstand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/scheefstand> a skos: Concept;
   skos:definition "Schuin gezakte/gegroeide boom waarbij de top van de boom in het verlengde van de stam ligt en niet vertikaal opgericht is"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
   skos:notation "scheefstand";
   skos:prefLabel "scheefstand"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflicteninstabiel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/instabiel> a skos: Concept;
   skos:definition "Een boom die niet stabiel in de grond staat"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
   skos:notation "instabiel";
   skos:prefLabel "instabiel"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomConflictenandere> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConflicten/andere> a skos: Concept;
   skos:definition "Andere mogelijke conflicten"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten>;
   skos:notation "andere";
   skos:prefLabel "andere"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConflicten> .

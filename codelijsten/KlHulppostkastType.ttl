@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Hulppostkast type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHulppostkastTypea> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulppostkastType/a> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType>;
   skos:notation "a";
   skos:prefLabel "a"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHulppostkastTypec> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulppostkastType/c> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType>;
   skos:notation "c";
   skos:prefLabel "c"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulppostkastType> .

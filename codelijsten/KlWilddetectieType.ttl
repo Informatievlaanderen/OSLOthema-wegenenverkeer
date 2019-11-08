@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Wilddetectie type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWilddetectieTypevlak%20detectie> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWilddetectieType/vlak-detectie> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType>;
-  skos:notation "vlak_detectie";
-  skos:prefLabel "vlak_detectie"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType>;
+  skos:notation "vlak detectie";
+  skos:prefLabel "vlak detectie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWilddetectieTypelijn%20detectie> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWilddetectieType/lijn-detectie> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType>;
-  skos:notation "lijn_detectie";
-  skos:prefLabel "lijn_detectie"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType>;
+  skos:notation "lijn detectie";
+  skos:prefLabel "lijn detectie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWilddetectieType> .

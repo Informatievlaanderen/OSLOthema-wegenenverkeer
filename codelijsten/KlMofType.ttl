@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMofType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMofType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Mof type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMofTypegietmof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMofType/gietmof> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMofType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMofType>;
   skos:notation "gietmof";
   skos:prefLabel "gietmof"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMofType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMofType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMofTypegeldoos> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMofType/geldoos> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMofType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMofType>;
   skos:notation "geldoos";
   skos:prefLabel "geldoos"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMofType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMofType> .

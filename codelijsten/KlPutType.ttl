@@ -3,48 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van het type van put"@nl;
   skos:prefLabel "Put type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutTypedoorlooptoegangs-%20of%20verbindingsput%20(=DTP%20of%20DVP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutType/doorlooptoegangs--of-verbindingsput-(=DTP-of-DVP)> a skos: Concept;
   skos:definition "Doorlooptoegangs- of verbindingsput (= DTP of DVP)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
-  skos:notation "doorlooptoegangs-_of_verbindingsput_(=DTP_of_DVP)";
-  skos:prefLabel "doorlooptoegangs-_of_verbindingsput_(=DTP_of_DVP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "doorlooptoegangs- of verbindingsput (=DTP of DVP)";
+  skos:prefLabel "doorlooptoegangs- of verbindingsput (=DTP of DVP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutTypebegintoegangs-%20of%20verbindingsput%20(=BIP%20of%20DVP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutType/begintoegangs--of-verbindingsput-(=BIP-of-DVP)> a skos: Concept;
   skos:definition "Begintoegangs- of verbindingsput (= BIP of DVP)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
-  skos:notation "begintoegangs-_of_verbindingsput_(=BIP_of_DVP)";
-  skos:prefLabel "begintoegangs-_of_verbindingsput_(=BIP_of_DVP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "begintoegangs- of verbindingsput (=BIP of DVP)";
+  skos:prefLabel "begintoegangs- of verbindingsput (=BIP of DVP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutTypeputbuis%20of%20schachttoegangsput%20(=STP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutType/putbuis-of-schachttoegangsput-(=STP)> a skos: Concept;
   skos:definition "Putbuis of schachttoegangsput (= STP)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
-  skos:notation "putbuis_of_schachttoegangsput_(=STP)";
-  skos:prefLabel "putbuis_of_schachttoegangsput_(=STP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "putbuis of schachttoegangsput (=STP)";
+  skos:prefLabel "putbuis of schachttoegangsput (=STP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutTypehoektoegangsput%20(=HTP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutType/hoektoegangsput-(=HTP)> a skos: Concept;
   skos:definition "Hoektoegangsput (= HTP)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
-  skos:notation "hoektoegangsput_(=HTP)";
-  skos:prefLabel "hoektoegangsput_(=HTP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "hoektoegangsput (=HTP)";
+  skos:prefLabel "hoektoegangsput (=HTP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutTypeaansluitingstoegangsput%20(=ATP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutType/aansluitingstoegangsput-(=ATP)> a skos: Concept;
   skos:definition "Knijpopening"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
-  skos:notation "aansluitingstoegangsput_(=ATP)";
-  skos:prefLabel "aansluitingstoegangsput_(=ATP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "aansluitingstoegangsput (=ATP)";
+  skos:prefLabel "aansluitingstoegangsput (=ATP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutTypevervaltoegangsput%20(=VTP)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutType/vervaltoegangsput-(=VTP)> a skos: Concept;
   skos:definition "Vervaltoegangsput (= VTP)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
-  skos:notation "vervaltoegangsput_(=VTP)";
-  skos:prefLabel "vervaltoegangsput_(=VTP)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "vervaltoegangsput (=VTP)";
+  skos:prefLabel "vervaltoegangsput (=VTP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutType> .

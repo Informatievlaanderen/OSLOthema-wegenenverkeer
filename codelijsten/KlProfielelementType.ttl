@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Profielelement type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlProfielelementTypehalve%20betonbuizen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielelementType/halve-betonbuizen> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType>;
-  skos:notation "halve_betonbuizen";
-  skos:prefLabel "halve_betonbuizen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType>;
+  skos:notation "halve betonbuizen";
+  skos:prefLabel "halve betonbuizen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlProfielelementTypebakprofiel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielelementType/bakprofiel> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType>;
   skos:notation "bakprofiel";
   skos:prefLabel "bakprofiel"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlProfielelementTypegrachtprofiel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielelementType/grachtprofiel> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType>;
   skos:notation "grachtprofiel";
   skos:prefLabel "grachtprofiel"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielelementType> .

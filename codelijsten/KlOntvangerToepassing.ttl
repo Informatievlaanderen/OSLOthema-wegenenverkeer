@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Ontvanger toepassing"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassingWIFI> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/WIFI> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
   skos:notation "WIFI";
   skos:prefLabel "WIFI"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassingKAR> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/KAR> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
   skos:notation "KAR";
   skos:prefLabel "KAR"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassingGPRS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/GPRS> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
   skos:notation "GPRS";
   skos:prefLabel "GPRS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassingGSM> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/GSM> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
   skos:notation "GSM";
   skos:prefLabel "GSM"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .

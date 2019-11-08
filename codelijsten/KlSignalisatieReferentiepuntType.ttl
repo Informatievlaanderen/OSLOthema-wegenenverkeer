@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het referentiepunt type te bepalen"@nl;
   skos:prefLabel "Signalisatie referentiepunt type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSignalisatieReferentiepuntTypekilometerpalen%20in%20kunststof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignalisatieReferentiepuntType/kilometerpalen-in-kunststof> a skos: Concept;
   skos:definition "Een paal die op elke kilometer langs wegen staat en waarop de afstand tot een bepaald startpunt is aangegeven"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType>;
-  skos:notation "kilometerpalen_in_kunststof";
-  skos:prefLabel "kilometerpalen_in_kunststof"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType>;
+  skos:notation "kilometerpalen in kunststof";
+  skos:prefLabel "kilometerpalen in kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSignalisatieReferentiepuntTypehectometerpalen%20in%20kunststof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignalisatieReferentiepuntType/hectometerpalen-in-kunststof> a skos: Concept;
   skos:definition "Een paal die op elke 100 meter langs wegen staat en waarop de afstand tot een bepaald startpunt is aangegeven"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType>;
-  skos:notation "hectometerpalen_in_kunststof";
-  skos:prefLabel "hectometerpalen_in_kunststof"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType>;
+  skos:notation "hectometerpalen in kunststof";
+  skos:prefLabel "hectometerpalen in kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignalisatieReferentiepuntType> .

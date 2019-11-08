@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Brandwerendeconstructie brandcurve"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandwerendeconstructieBrandcurveRWS> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeconstructieBrandcurve/RWS> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve>;
   skos:notation "RWS";
   skos:prefLabel "RWS"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandwerendeconstructieBrandcurveISO> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeconstructieBrandcurve/ISO> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve>;
   skos:notation "ISO";
   skos:prefLabel "ISO"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeconstructieBrandcurve> .

@@ -3,83 +3,83 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van dekselkader te bepalen"@nl;
   skos:prefLabel "Dekselkader type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%201> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-1> a skos: Concept;
   skos:definition "type 1"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_1";
-  skos:prefLabel "type_1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 1";
+  skos:prefLabel "type 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%202> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-2> a skos: Concept;
   skos:definition "type 2"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_2";
-  skos:prefLabel "type_2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 2";
+  skos:prefLabel "type 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%203> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-3> a skos: Concept;
   skos:definition "type 3"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_3";
-  skos:prefLabel "type_3"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 3";
+  skos:prefLabel "type 3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%204> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-4> a skos: Concept;
   skos:definition "type 4"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_4";
-  skos:prefLabel "type_4"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 4";
+  skos:prefLabel "type 4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%205> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-5> a skos: Concept;
   skos:definition "type 5"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_5";
-  skos:prefLabel "type_5"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 5";
+  skos:prefLabel "type 5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%206> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-6> a skos: Concept;
   skos:definition "type 6"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_6";
-  skos:prefLabel "type_6"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 6";
+  skos:prefLabel "type 6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%207> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-7> a skos: Concept;
   skos:definition "type 7"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_7";
-  skos:prefLabel "type_7"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 7";
+  skos:prefLabel "type 7"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%208> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-8> a skos: Concept;
   skos:definition "type 8"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_8";
-  skos:prefLabel "type_8"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 8";
+  skos:prefLabel "type 8"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypetype%209> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/type-9> a skos: Concept;
   skos:definition "type 9"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "type_9";
-  skos:prefLabel "type_9"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "type 9";
+  skos:prefLabel "type 9"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypeenkelvoudig%20gietijzeren%20controleluik> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/enkelvoudig-gietijzeren-controleluik> a skos: Concept;
   skos:definition "enkelvoudig gietijzeren controleluik"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "enkelvoudig_gietijzeren_controleluik";
-  skos:prefLabel "enkelvoudig_gietijzeren_controleluik"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "enkelvoudig gietijzeren controleluik";
+  skos:prefLabel "enkelvoudig gietijzeren controleluik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselKaderTypemeerdelige%20gietijzeren%20controleluik> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselKaderType/meerdelige-gietijzeren-controleluik> a skos: Concept;
   skos:definition "meerdelige gietijzeren controleluik"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
-  skos:notation "meerdelige_gietijzeren_controleluik";
-  skos:prefLabel "meerdelige_gietijzeren_controleluik"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType>;
+  skos:notation "meerdelige gietijzeren controleluik";
+  skos:prefLabel "meerdelige gietijzeren controleluik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselKaderType> .

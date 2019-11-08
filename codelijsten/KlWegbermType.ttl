@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Wegberm type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermTypemiddenberm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegbermType/middenberm> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
   skos:notation "middenberm";
   skos:prefLabel "middenberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermTypetussenberm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegbermType/tussenberm> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
   skos:notation "tussenberm";
   skos:prefLabel "tussenberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermTypebuitenberm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegbermType/buitenberm> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
   skos:notation "buitenberm";
   skos:prefLabel "buitenberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .

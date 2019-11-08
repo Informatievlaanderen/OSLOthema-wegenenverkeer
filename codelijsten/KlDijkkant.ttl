@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDijkkant> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkant> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de kant van de dijk te bepalen."@nl;
   skos:prefLabel "Dijkkant"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDijkkantlandzijde> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkant/landzijde> a skos: Concept;
   skos:definition "De kant van de dijk naar de landzijde."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDijkkant>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkant>;
   skos:notation "landzijde";
   skos:prefLabel "landzijde"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDijkkant> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkant> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDijkkantwaterzijde> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkant/waterzijde> a skos: Concept;
   skos:definition "De kant van de dijk naar de waterzijde."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDijkkant>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkant>;
   skos:notation "waterzijde";
   skos:prefLabel "waterzijde"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDijkkant> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkant> .

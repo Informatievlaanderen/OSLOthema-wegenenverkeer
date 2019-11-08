@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "VRI detector typeweggebruiker"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriTypeweggebruikervoertuig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriTypeweggebruiker/voertuig> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
   skos:notation "voertuig";
   skos:prefLabel "voertuig"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriTypeweggebruikerbus> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriTypeweggebruiker/bus> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
   skos:notation "bus";
   skos:prefLabel "bus"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriTypeweggebruikerfiets> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriTypeweggebruiker/fiets> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
   skos:notation "fiets";
   skos:prefLabel "fiets"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriTypeweggebruikervoetganger> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriTypeweggebruiker/voetganger> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
   skos:notation "voetganger";
   skos:prefLabel "voetganger"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriTypeweggebruikertram> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriTypeweggebruiker/tram> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
   skos:notation "tram";
   skos:prefLabel "tram"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .

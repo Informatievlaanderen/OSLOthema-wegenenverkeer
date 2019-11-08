@@ -3,132 +3,132 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de code van de overlangse markering."@nl;
   skos:prefLabel "Overlangse markering code"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAD%200.15> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAD-0.15> a skos: Concept;
   skos:definition "Doorlopende overlange markering (0.15 meter breedte)."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAD_0.15";
-  skos:prefLabel "RAD_0.15"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAD 0.15";
+  skos:prefLabel "RAD 0.15"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAD%200.20> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAD-0.20> a skos: Concept;
   skos:definition "Doorlopende overlange markering (0.2 meter breedte)."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAD_0.20";
-  skos:prefLabel "RAD_0.20"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAD 0.20";
+  skos:prefLabel "RAD 0.20"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAO%200.15%20x%202.50%20(10)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAO-0.15-x-2.50-(10)> a skos: Concept;
   skos:definition "Onderbroken overlangse aslijn markering (10 meter tussenruimte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAO_0.15_x_2.50_(10)";
-  skos:prefLabel "RAO_0.15_x_2.50_(10)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAO 0.15 x 2.50 (10)";
+  skos:prefLabel "RAO 0.15 x 2.50 (10)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAO%200.15%20x%201.00%20(1.5)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAO-0.15-x-1.00-(1.5)> a skos: Concept;
   skos:definition "Onderbroken overlangse aslijn markering (1.5 meter tussenruimte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAO_0.15_x_1.00_(1.5)";
-  skos:prefLabel "RAO_0.15_x_1.00_(1.5)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAO 0.15 x 1.00 (1.5)";
+  skos:prefLabel "RAO 0.15 x 1.00 (1.5)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAO%200.20%20x%202.50%20(10)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAO-0.20-x-2.50-(10)> a skos: Concept;
   skos:definition "Onderbroken overlangse aslijn markering (10 meter tussenruimte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAO_0.20_x_2.50_(10)";
-  skos:prefLabel "RAO_0.20_x_2.50_(10)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAO 0.20 x 2.50 (10)";
+  skos:prefLabel "RAO 0.20 x 2.50 (10)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAO%200.20%20x%201.00%20(1.5)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAO-0.20-x-1.00-(1.5)> a skos: Concept;
   skos:definition "Onderbroken overlangse aslijn markering (1.5 meter tussenruimte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAO_0.20_x_1.00_(1.5)";
-  skos:prefLabel "RAO_0.20_x_1.00_(1.5)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAO 0.20 x 1.00 (1.5)";
+  skos:prefLabel "RAO 0.20 x 1.00 (1.5)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRAO%200.30%20x%201.00%20(1.5)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RAO-0.30-x-1.00-(1.5)> a skos: Concept;
   skos:definition "Onderbroken overlangse aslijn markering (1.5 meter tussenruimte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RAO_0.30_x_1.00_(1.5)";
-  skos:prefLabel "RAO_0.30_x_1.00_(1.5)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RAO 0.30 x 1.00 (1.5)";
+  skos:prefLabel "RAO 0.30 x 1.00 (1.5)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRRD%200.15> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RRD-0.15> a skos: Concept;
   skos:definition "Onderbroken overlangse randlijn markering (0.15 meter breedte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RRD_0.15";
-  skos:prefLabel "RRD_0.15"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RRD 0.15";
+  skos:prefLabel "RRD 0.15"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRRD%200.20> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RRD-0.20> a skos: Concept;
   skos:definition "Onderbroken overlangse randlijn markering (0.20 meter breedte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RRD_0.20";
-  skos:prefLabel "RRD_0.20"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RRD 0.20";
+  skos:prefLabel "RRD 0.20"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRRD%200.25> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RRD-0.25> a skos: Concept;
   skos:definition "Onderbroken overlangse randlijn markering (0.25 meter breedte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RRD_0.25";
-  skos:prefLabel "RRD_0.25"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RRD 0.25";
+  skos:prefLabel "RRD 0.25"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeRRD%200.30> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/RRD-0.30> a skos: Concept;
   skos:definition "Onderbroken overlangse randlijn markering (0.30 meter breedte)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "RRD_0.30";
-  skos:prefLabel "RRD_0.30"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "RRD 0.30";
+  skos:prefLabel "RRD 0.30"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeFAD%200.15> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/FAD-0.15> a skos: Concept;
   skos:definition "Doorlopende overlangse fietspad aslijn markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "FAD_0.15";
-  skos:prefLabel "FAD_0.15"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "FAD 0.15";
+  skos:prefLabel "FAD 0.15"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeFAO%200.15%20x%201.25%20(1.25)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/FAO-0.15-x-1.25-(1.25)> a skos: Concept;
   skos:definition "Onderbroken overlangse fietspad aslijn markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "FAO_0.15_x_1.25_(1.25)";
-  skos:prefLabel "FAO_0.15_x_1.25_(1.25)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "FAO 0.15 x 1.25 (1.25)";
+  skos:prefLabel "FAO 0.15 x 1.25 (1.25)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeFRO%200.15%20x%201.25%20(1.25)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/FRO-0.15-x-1.25-(1.25)> a skos: Concept;
   skos:definition "Onderbroken overlangse fietspad randlijn markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "FRO_0.15_x_1.25_(1.25)";
-  skos:prefLabel "FRO_0.15_x_1.25_(1.25)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "FRO 0.15 x 1.25 (1.25)";
+  skos:prefLabel "FRO 0.15 x 1.25 (1.25)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeBAD%200.20> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/BAD-0.20> a skos: Concept;
   skos:definition "Doorlopende overlangse bushalte aslijn markering (0.2 meter breedte)."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "BAD_0.20";
-  skos:prefLabel "BAD_0.20"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "BAD 0.20";
+  skos:prefLabel "BAD 0.20"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeBAD%200.30> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/BAD-0.30> a skos: Concept;
   skos:definition "Doorlopende overlangse bushalte aslijn markering (0.3 meter breedte)."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "BAD_0.30";
-  skos:prefLabel "BAD_0.30"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "BAD 0.30";
+  skos:prefLabel "BAD 0.30"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodePRD%200.10> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/PRD-0.10> a skos: Concept;
   skos:definition "Doorlopende overlangse randlijn parkeerstrook markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "PRD_0.10";
-  skos:prefLabel "PRD_0.10"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "PRD 0.10";
+  skos:prefLabel "PRD 0.10"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCodeSAO%200.20%20x%2010%20(2.5)> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangseMarkeringCode/SAO-0.20-x-10-(2.5)> a skos: Concept;
   skos:definition "Onderbroken overlangse aslijn spitsstrook markering."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
-  skos:notation "SAO_0.20_x_10_(2.5)";
-  skos:prefLabel "SAO_0.20_x_10_(2.5)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode>;
+  skos:notation "SAO 0.20 x 10 (2.5)";
+  skos:prefLabel "SAO 0.20 x 10 (2.5)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangseMarkeringCode> .

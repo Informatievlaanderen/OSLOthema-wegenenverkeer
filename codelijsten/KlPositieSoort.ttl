@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> a skos:ConceptScheme;
   skos:definition "Keuzelijst om de positie van het wegdek te bepalen"@nl;
   skos:prefLabel "Positie soort"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPositieSoortlinkerrand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieSoort/linkerrand> a skos: Concept;
   skos:definition "linkerrand"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort>;
   skos:notation "linkerrand";
   skos:prefLabel "linkerrand"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPositieSoortrechterrand> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieSoort/rechterrand> a skos: Concept;
   skos:definition "rechterrand"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort>;
   skos:notation "rechterrand";
   skos:prefLabel "rechterrand"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPositieSoortmidden> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieSoort/midden> a skos: Concept;
   skos:definition "midden"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort>;
   skos:notation "midden";
   skos:prefLabel "midden"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieSoort> .

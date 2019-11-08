@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> a skos:ConceptScheme;
   skos:definition "2-1.2.3"@nl;
   skos:prefLabel "Steunberm type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteunbermTypeonderberm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSteunbermType/onderberm> a skos: Concept;
   skos:definition "2-1.2.3.2"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType>;
   skos:notation "onderberm";
   skos:prefLabel "onderberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteunbermTypetussensteunberm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSteunbermType/tussensteunberm> a skos: Concept;
   skos:definition "2-1.2.3.1"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType>;
   skos:notation "tussensteunberm";
   skos:prefLabel "tussensteunberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteunbermTypebovenberm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSteunbermType/bovenberm> a skos: Concept;
   skos:definition "2-1.2.3.3"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType>;
   skos:notation "bovenberm";
   skos:prefLabel "bovenberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSteunbermType> .

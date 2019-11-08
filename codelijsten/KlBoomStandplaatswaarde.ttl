@@ -3,41 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de verschillende opties van de standplaatswaarde van de boom oplijst"@nl;
   skos:prefLabel "Boom standplaatswaarde"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde1.0> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/1.0> a skos: Concept;
   skos:definition "Sterk verstedelijkte stads- of dorpskern"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
   skos:notation "1.0";
   skos:prefLabel "1.0"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde0.9> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.9> a skos: Concept;
   skos:definition "Gesloten bebouwing"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
   skos:notation "0.9";
   skos:prefLabel "0.9"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde0.8> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.8> a skos: Concept;
   skos:definition "Open en halfopen bebouwing"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
   skos:notation "0.8";
   skos:prefLabel "0.8"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde0.7> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.7> a skos: Concept;
   skos:definition "Overgangszone: bebouwde kom - landelijk gebied"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
   skos:notation "0.7";
   skos:prefLabel "0.7"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde0.6> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.6> a skos: Concept;
   skos:definition "Landelijk gebied"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde>;
   skos:notation "0.6";
   skos:prefLabel "0.6"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde> .

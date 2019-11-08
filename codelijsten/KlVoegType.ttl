@@ -3,62 +3,62 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van voeg type."@nl;
   skos:prefLabel "Voeg type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypeuitzettingsvoeg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/uitzettingsvoeg> a skos: Concept;
   skos:definition "Een voeg die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
   skos:notation "uitzettingsvoeg";
   skos:prefLabel "uitzettingsvoeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypedwarse%20werkvoeg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/dwarse-werkvoeg> a skos: Concept;
   skos:definition "Een dwarse voeg die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "dwarse_werkvoeg";
-  skos:prefLabel "dwarse_werkvoeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "dwarse werkvoeg";
+  skos:prefLabel "dwarse werkvoeg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypeDGB%20compoundvoeg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/DGB-compoundvoeg> a skos: Concept;
   skos:definition "Een voeg die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "DGB_compoundvoeg";
-  skos:prefLabel "DGB_compoundvoeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "DGB compoundvoeg";
+  skos:prefLabel "DGB compoundvoeg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypelangsvoeg%20tussen%20asfalt%20en%20beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/langsvoeg-tussen-asfalt-en-beton> a skos: Concept;
   skos:definition "Een doorgaande voeg in de lengterichting tussen asfalt en beton."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "langsvoeg_tussen_asfalt_en_beton";
-  skos:prefLabel "langsvoeg_tussen_asfalt_en_beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "langsvoeg tussen asfalt en beton";
+  skos:prefLabel "langsvoeg tussen asfalt en beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypelangsvoeg%20tussen%20lijnvormig%20element%20en%20betonverharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/langsvoeg-tussen-lijnvormig-element-en-betonverharding> a skos: Concept;
   skos:definition "Een doorgaande voeg in de lengterichting tussen een lijnvormig element en betonverharding."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "langsvoeg_tussen_lijnvormig_element_en_betonverharding";
-  skos:prefLabel "langsvoeg_tussen_lijnvormig_element_en_betonverharding"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "langsvoeg tussen lijnvormig element en betonverharding";
+  skos:prefLabel "langsvoeg tussen lijnvormig element en betonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypelangsvoeg%20tussen%20fietspad%20en%20betonverharding> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/langsvoeg-tussen-fietspad-en-betonverharding> a skos: Concept;
   skos:definition "Een doorgaande voeg in de lengterichting tussen een fietspad en betonverharding."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "langsvoeg_tussen_fietspad_en_betonverharding";
-  skos:prefLabel "langsvoeg_tussen_fietspad_en_betonverharding"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "langsvoeg tussen fietspad en betonverharding";
+  skos:prefLabel "langsvoeg tussen fietspad en betonverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypevoorgevormde%20voegband> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/voorgevormde-voegband> a skos: Concept;
   skos:definition "Een voorgevormde voegband die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "voorgevormde_voegband";
-  skos:prefLabel "voorgevormde_voegband"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "voorgevormde voegband";
+  skos:prefLabel "voorgevormde voegband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoegTypege%C3%ABxtrudeerde%20voegband> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoegType/geëxtrudeerde-voegband> a skos: Concept;
   skos:definition "Een ge&#235;xtrudeerde voegband die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
-  skos:notation "geÃ«xtrudeerde_voegband";
-  skos:prefLabel "geÃ«xtrudeerde_voegband"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoegType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType>;
+  skos:notation "geëxtrudeerde voegband";
+  skos:prefLabel "geëxtrudeerde voegband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoegType> .

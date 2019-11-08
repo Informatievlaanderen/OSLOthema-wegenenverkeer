@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Dienstdeur openingswijze"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDienstdeurOpeningswijzescharnierend> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDienstdeurOpeningswijze/scharnierend> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze>;
   skos:notation "scharnierend";
   skos:prefLabel "scharnierend"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDienstdeurOpeningswijzeschuifdeur> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDienstdeurOpeningswijze/schuifdeur> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze>;
   skos:notation "schuifdeur";
   skos:prefLabel "schuifdeur"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDienstdeurOpeningswijze> .

@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm> a skos:ConceptScheme;
   skos:definition "Keuzelijst met de vorm van opening van de terugslagklep"@nl;
   skos:prefLabel "Vorm"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormcirckelvormig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVorm/circkelvormig> a skos: Concept;
   skos:definition "circkelvormig"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm>;
   skos:notation "circkelvormig";
   skos:prefLabel "circkelvormig"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormrechthoekig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVorm/rechthoekig> a skos: Concept;
   skos:definition "rechthoekig"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm>;
   skos:notation "rechthoekig";
   skos:prefLabel "rechthoekig"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormandere> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVorm/andere> a skos: Concept;
   skos:definition "andere"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm>;
   skos:notation "andere";
   skos:prefLabel "andere"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVorm> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVorm> .

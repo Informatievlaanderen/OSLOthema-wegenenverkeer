@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het type van calamiteitsbord te bepalen."@nl;
   skos:prefLabel "Calamiteitsbord type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordTypedragend%20bord> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCalamiteitsbordType/dragend-bord> a skos: Concept;
   skos:definition "Een dragend calamiteitsbord."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType>;
-  skos:notation "dragend_bord";
-  skos:prefLabel "dragend_bord"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType>;
+  skos:notation "dragend bord";
+  skos:prefLabel "dragend bord"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordTypedraaiend%20bord> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCalamiteitsbordType/draaiend-bord> a skos: Concept;
   skos:definition "Een draaiend calamiteitsbord."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType>;
-  skos:notation "draaiend_bord";
-  skos:prefLabel "draaiend_bord"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType>;
+  skos:notation "draaiend bord";
+  skos:prefLabel "draaiend bord"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType> .

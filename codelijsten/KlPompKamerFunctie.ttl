@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Kamer functie"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctienatte%20pompkelder> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompKamerFunctie/natte-pompkelder> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
-  skos:notation "natte_pompkelder";
-  skos:prefLabel "natte_pompkelder"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "natte pompkelder";
+  skos:prefLabel "natte pompkelder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctieslib%20vang> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompKamerFunctie/slib-vang> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
-  skos:notation "slib_vang";
-  skos:prefLabel "slib_vang"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "slib vang";
+  skos:prefLabel "slib vang"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctieolie%20vang> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompKamerFunctie/olie-vang> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
-  skos:notation "olie_vang";
-  skos:prefLabel "olie_vang"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "olie vang";
+  skos:prefLabel "olie vang"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompKamerFunctiegrofvuil%20vang> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompKamerFunctie/grofvuil-vang> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
-  skos:notation "grofvuil_vang";
-  skos:prefLabel "grofvuil_vang"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "grofvuil vang";
+  skos:prefLabel "grofvuil vang"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .

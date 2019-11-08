@@ -3,48 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om de aard van huisaansluitput te bepalen"@nl;
   skos:prefLabel "Huisaansluitput type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputAardputje%20van%20beton%20met%20stankafsluiter%20volgens%203-38.1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputAard/putje-van-beton-met-stankafsluiter-volgens-3-38.1> a skos: Concept;
   skos:definition "putje van beton met stankafsluiter volgens 3-38.1"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
-  skos:notation "putje_van_beton_met_stankafsluiter_volgens_3-38.1";
-  skos:prefLabel "putje_van_beton_met_stankafsluiter_volgens_3-38.1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
+  skos:notation "putje van beton met stankafsluiter volgens 3-38.1";
+  skos:prefLabel "putje van beton met stankafsluiter volgens 3-38.1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputAardputje%20van%20beton%20zonder%20stankafsluiter%20volgens%203-38.1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputAard/putje-van-beton-zonder-stankafsluiter-volgens-3-38.1> a skos: Concept;
   skos:definition "putje van beton zonder stankafsluiter volgens 3-38.1"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
-  skos:notation "putje_van_beton_zonder_stankafsluiter_volgens_3-38.1";
-  skos:prefLabel "putje_van_beton_zonder_stankafsluiter_volgens_3-38.1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
+  skos:notation "putje van beton zonder stankafsluiter volgens 3-38.1";
+  skos:prefLabel "putje van beton zonder stankafsluiter volgens 3-38.1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputAardputje%20van%20kunststof%20met%20stankafsluiter%20volgens%203-38.2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputAard/putje-van-kunststof-met-stankafsluiter-volgens-3-38.2> a skos: Concept;
   skos:definition "putje van kunststof met stankafsluiter volgens 3-38.2"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
-  skos:notation "putje_van_kunststof_met_stankafsluiter_volgens_3-38.2";
-  skos:prefLabel "putje_van_kunststof_met_stankafsluiter_volgens_3-38.2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
+  skos:notation "putje van kunststof met stankafsluiter volgens 3-38.2";
+  skos:prefLabel "putje van kunststof met stankafsluiter volgens 3-38.2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputAardputje%20van%20kunststof%20zonder%20stankafsluiter%20volgens%203-38.2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputAard/putje-van-kunststof-zonder-stankafsluiter-volgens-3-38.2> a skos: Concept;
   skos:definition "putje van kunststof zonder stankafsluiter volgens 3-38.2"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
-  skos:notation "putje_van_kunststof_zonder_stankafsluiter_volgens_3-38.2";
-  skos:prefLabel "putje_van_kunststof_zonder_stankafsluiter_volgens_3-38.2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
+  skos:notation "putje van kunststof zonder stankafsluiter volgens 3-38.2";
+  skos:prefLabel "putje van kunststof zonder stankafsluiter volgens 3-38.2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputAardputje%20van%20gres%20met%20stankafsluiter%20voor%20afvalwater%20volgens%203-38.3> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputAard/putje-van-gres-met-stankafsluiter-voor-afvalwater-volgens-3-38.3> a skos: Concept;
   skos:definition "putje van gres met stankafsluiter voor afvalwater volgens 3-38.3"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
-  skos:notation "putje_van_gres_met_stankafsluiter_voor_afvalwater_volgens_3-38.3";
-  skos:prefLabel "putje_van_gres_met_stankafsluiter_voor_afvalwater_volgens_3-38.3"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
+  skos:notation "putje van gres met stankafsluiter voor afvalwater volgens 3-38.3";
+  skos:prefLabel "putje van gres met stankafsluiter voor afvalwater volgens 3-38.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputAardputje%20van%20gres%20zonder%20stankafsluiter%20volgens%203-38.3> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputAard/putje-van-gres-zonder-stankafsluiter-volgens-3-38.3> a skos: Concept;
   skos:definition "putje van gres zonder stankafsluiter volgens 3-38.3"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
-  skos:notation "putje_van_gres_zonder_stankafsluiter_volgens_3-38.3";
-  skos:prefLabel "putje_van_gres_zonder_stankafsluiter_volgens_3-38.3"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard>;
+  skos:notation "putje van gres zonder stankafsluiter volgens 3-38.3";
+  skos:prefLabel "putje van gres zonder stankafsluiter volgens 3-38.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputAard> .

@@ -3,13 +3,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGSMBeheerder> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGSMBeheerder> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "GSM beheerder"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGSMBeheerderKPN%20Groep> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGSMBeheerder/KPN-Groep> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGSMBeheerder>;
-  skos:notation "KPN_Groep";
-  skos:prefLabel "KPN_Groep"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGSMBeheerder> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGSMBeheerder>;
+  skos:notation "KPN Groep";
+  skos:prefLabel "KPN Groep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGSMBeheerder> .

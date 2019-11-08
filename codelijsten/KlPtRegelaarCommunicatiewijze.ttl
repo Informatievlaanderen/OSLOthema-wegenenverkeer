@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "Ptregelaar communicatiewijze"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijzecontact> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijze/contact> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
   skos:notation "contact";
   skos:prefLabel "contact"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijzeserieel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijze/serieel> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
   skos:notation "serieel";
   skos:prefLabel "serieel"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijzeprotocol> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijze/protocol> a skos: Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
   skos:notation "protocol";
   skos:prefLabel "protocol"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijzeVR%20PT-kaart> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPtRegelaarCommunicatiewijze/VR-PT-kaart> a skos: Concept;
   skos:definition "De PT kaart is een module die is ingebouwd in de verkeersregelaar"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
-  skos:notation "VR_PT-kaart";
-  skos:prefLabel "VR_PT-kaart"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze>;
+  skos:notation "VR PT-kaart";
+  skos:prefLabel "VR PT-kaart"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarCommunicatiewijze> .

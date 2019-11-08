@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> a skos:ConceptScheme;
   skos:definition "Een keuzelijst om het type van slemafdichting te bepalen"@nl;
   skos:prefLabel "Slemafdichting type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSlemafdichtingTypeenkelvoudige%20begrinding%204-6.3> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemafdichtingType/enkelvoudige-begrinding-4-6.3> a skos: Concept;
   skos:definition "enkelvoudige begrinding 4/6,3"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType>;
-  skos:notation "enkelvoudige_begrinding_4-6.3";
-  skos:prefLabel "enkelvoudige_begrinding_4-6.3"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType>;
+  skos:notation "enkelvoudige begrinding 4-6.3";
+  skos:prefLabel "enkelvoudige begrinding 4-6.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSlemafdichtingTypeenkelvoudige%20begrinding%206.3-10> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemafdichtingType/enkelvoudige-begrinding-6.3-10> a skos: Concept;
   skos:definition "enkelvoudige begrinding 6,3/10"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType>;
-  skos:notation "enkelvoudige_begrinding_6.3-10";
-  skos:prefLabel "enkelvoudige_begrinding_6.3-10"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType>;
+  skos:notation "enkelvoudige begrinding 6.3-10";
+  skos:prefLabel "enkelvoudige begrinding 6.3-10"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSlemafdichtingTypeslemlaag%200-6.3> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemafdichtingType/slemlaag-0-6.3> a skos: Concept;
   skos:definition "slemlaag 0/6,3"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType>;
-  skos:notation "slemlaag_0-6.3";
-  skos:prefLabel "slemlaag_0-6.3"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType>;
+  skos:notation "slemlaag 0-6.3";
+  skos:prefLabel "slemlaag 0-6.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemafdichtingType> .

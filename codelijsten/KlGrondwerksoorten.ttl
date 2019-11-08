@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> a skos:ConceptScheme;
   skos:definition "Keuzelijst om het soort van grondwerk te bepalen."@nl;
   skos:prefLabel "Grondwerksoorten"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondwerksoortenafdekking> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/afdekking> a skos: Concept;
   skos:definition "Grond voor afdekking."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
   skos:notation "afdekking";
   skos:prefLabel "afdekking"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondwerksoortenafgraving> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/afgraving> a skos: Concept;
   skos:definition "Grond van afgraving."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
   skos:notation "afgraving";
   skos:prefLabel "afgraving"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondwerksoortenuitgraving> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/uitgraving> a skos: Concept;
   skos:definition "Grond van uitgraving."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
   skos:notation "uitgraving";
   skos:prefLabel "uitgraving"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondwerksoortenophoging> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/ophoging> a skos: Concept;
   skos:definition "Grond voor ophoging."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
   skos:notation "ophoging";
   skos:prefLabel "ophoging"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .

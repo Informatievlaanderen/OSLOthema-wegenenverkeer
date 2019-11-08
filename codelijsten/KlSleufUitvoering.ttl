@@ -3,48 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> a skos:ConceptScheme;
   skos:definition "Keuzelijst voor het bepalen van de uitvoering van de sleuf"@nl;
   skos:prefLabel "Sleuf uitvoering"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSleufUitvoeringopen%20sleuf> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleufUitvoering/open-sleuf> a skos: Concept;
   skos:definition "open sleuf"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
-  skos:notation "open_sleuf";
-  skos:prefLabel "open_sleuf"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
+  skos:notation "open sleuf";
+  skos:prefLabel "open sleuf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSleufUitvoeringbeschoeide%20sleuf> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleufUitvoering/beschoeide-sleuf> a skos: Concept;
   skos:definition "beschoeide sleuf"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
-  skos:notation "beschoeide_sleuf";
-  skos:prefLabel "beschoeide_sleuf"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
+  skos:notation "beschoeide sleuf";
+  skos:prefLabel "beschoeide sleuf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSleufUitvoeringbeschoeide%20sleuf%20met%20voorafgraving> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleufUitvoering/beschoeide-sleuf-met-voorafgraving> a skos: Concept;
   skos:definition "beschoeide sleuf met voorafgraving"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
-  skos:notation "beschoeide_sleuf_met_voorafgraving";
-  skos:prefLabel "beschoeide_sleuf_met_voorafgraving"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
+  skos:notation "beschoeide sleuf met voorafgraving";
+  skos:prefLabel "beschoeide sleuf met voorafgraving"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSleufUitvoeringwaterdicht%20beschoeide%20sleuf%20met%20damplanken> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleufUitvoering/waterdicht-beschoeide-sleuf-met-damplanken> a skos: Concept;
   skos:definition "waterdicht beschoeide sleuf met damplanken"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
-  skos:notation "waterdicht_beschoeide_sleuf_met_damplanken";
-  skos:prefLabel "waterdicht_beschoeide_sleuf_met_damplanken"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
+  skos:notation "waterdicht beschoeide sleuf met damplanken";
+  skos:prefLabel "waterdicht beschoeide sleuf met damplanken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSleufUitvoeringonderdoorpersing> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleufUitvoering/onderdoorpersing> a skos: Concept;
   skos:definition "onderdoorpersing"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
   skos:notation "onderdoorpersing";
   skos:prefLabel "onderdoorpersing"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSleufUitvoeringdirectional%20drilling> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleufUitvoering/directional-drilling> a skos: Concept;
   skos:definition "directional drilling"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
-  skos:notation "directional_drilling";
-  skos:prefLabel "directional_drilling"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering>;
+  skos:notation "directional drilling";
+  skos:prefLabel "directional drilling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleufUitvoering> .

@@ -32,10 +32,10 @@ jobs:
           workdir: /tmp
           command: |
             rm -rf codelist-generated
-            git clone git@github.com:bertvannuffelen/codelist-generated.git
+            git clone git@github.com:Informatievlaanderen/OSLO-codelistgenerated.git
       - run:
           name: Switch to the target directory
-          workdir: /tmp/codelist-generated
+          workdir: /tmp/OSLO-codelistgenerated
           command: |
             git fetch origin
             git checkout -b "wegenenverkeer-${CIRCLE_BRANCH}" --track "origin/wegenenverkeer-${CIRCLE_BRANCH}"
@@ -43,10 +43,11 @@ jobs:
           name: Copy assets
           workdir: /tmp/workspace
           command: |
-            cp -R target/all.nt.gz /tmp/codelist-generated/
+            cp -R target/all.nt.gz /tmp/OSLO-codelistgenerated/
+            gunzip /tmp/OSLO-codelistgenerated/all.nt.gz
       - run:
           name: Push results to github
-          workdir: /tmp/codelist-generated
+          workdir: /tmp/OSLO-codelistgenerated
           command: |
             git config user.email "circleci@data.vlaanderen.be"
             git config user.name "Circle CI Builder"

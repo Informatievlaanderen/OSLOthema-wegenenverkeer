@@ -1,0 +1,22 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van het type houtige vegetatie."@nl;
+  skos:prefLabel "Type houtige vegetatie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHoutigeType/houtkant> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van het type houtige vegetatie."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType>;
+  skos:notation "houtkant";
+  skos:prefLabel "houtkant"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHoutigeType/bomen---bos> a skos:Concept;
+  skos:definition "Opgaande beplanting van houtachtige gewassen die boomvormend zijn."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType>;
+  skos:notation "bomen - bos";
+  skos:prefLabel "bomen - bos"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType> .

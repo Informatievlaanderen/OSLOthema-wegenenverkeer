@@ -1,0 +1,36 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van het vervaardigingsmateriaal van de put"@nl;
+  skos:prefLabel "Put materiaal"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/beton-of-gres> a skos:Concept;
+  skos:definition "beton of gres"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:notation "beton of gres";
+  skos:prefLabel "beton of gres"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/pE-of-PP> a skos:Concept;
+  skos:definition "PE of PP"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:notation "pE of PP";
+  skos:prefLabel "pE of PP"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/glasvezelversterkt-polyesterhars> a skos:Concept;
+  skos:definition "glasvezelversterkt polyesterhars"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:notation "glasvezelversterkt polyesterhars";
+  skos:prefLabel "glasvezelversterkt polyesterhars"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/ter-plaatse-gestort-beton> a skos:Concept;
+  skos:definition "ter plaatse gestort beton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:notation "ter plaatse gestort beton";
+  skos:prefLabel "ter plaatse gestort beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .

@@ -1,0 +1,57 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> a skos:ConceptScheme;
+  skos:definition "Het symbool op het pictogram."@nl;
+  skos:prefLabel "Pictogram symbool"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/nooddeurnummer> a skos:Concept;
+  skos:definition "nooddeurnummer"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "nooddeurnummer";
+  skos:prefLabel "nooddeurnummer"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/nummer-veiligheidsnis> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "nummer veiligheidsnis";
+  skos:prefLabel "nummer veiligheidsnis"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-bovengronds-(H)> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "hydrant bovengronds (H)";
+  skos:prefLabel "hydrant bovengronds (H)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-ondergronds-(B)> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "hydrant ondergronds (B)";
+  skos:prefLabel "hydrant ondergronds (B)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/tunnelnaam> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "tunnelnaam";
+  skos:prefLabel "tunnelnaam"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/verbodsbord> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "verbodsbord";
+  skos:prefLabel "verbodsbord"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtend-persoon> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "vluchtend persoon";
+  skos:prefLabel "vluchtend persoon"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .

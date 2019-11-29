@@ -1,0 +1,50 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> a skos:ConceptScheme;
+  skos:definition "2-1.3.5"@nl;
+  skos:prefLabel "Kruising type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKruisingType/ongelijkgrondse-kruising> a skos:Concept;
+  skos:definition "2-1.3.5.1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType>;
+  skos:notation "ongelijkgrondse kruising";
+  skos:prefLabel "ongelijkgrondse kruising"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKruisingType/verkeerswisselaar> a skos:Concept;
+  skos:definition "2-1.3.5.2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType>;
+  skos:notation "verkeerswisselaar";
+  skos:prefLabel "verkeerswisselaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKruisingType/op--en-afrittencomplex> a skos:Concept;
+  skos:definition "2-1.3.5.3"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType>;
+  skos:notation "op- en afrittencomplex";
+  skos:prefLabel "op- en afrittencomplex"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKruisingType/rotonde> a skos:Concept;
+  skos:definition "2-1.3.5.4"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType>;
+  skos:notation "rotonde";
+  skos:prefLabel "rotonde"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKruisingType/kruispunt-met-voorrangsregeling> a skos:Concept;
+  skos:definition "2-1.3.5.5"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType>;
+  skos:notation "kruispunt met voorrangsregeling";
+  skos:prefLabel "kruispunt met voorrangsregeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKruisingType/verkeerslichtengeregeld-kruispunt> a skos:Concept;
+  skos:definition "2-1.3.5.6"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType>;
+  skos:notation "verkeerslichtengeregeld kruispunt";
+  skos:prefLabel "verkeerslichtengeregeld kruispunt"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKruisingType> .

@@ -1,0 +1,22 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Seinbrug rijrichting"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/enkele-rijrichting> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting>;
+  skos:notation "enkele rijrichting";
+  skos:prefLabel "enkele rijrichting"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/dubbele-rijrichting> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting>;
+  skos:notation "dubbele rijrichting";
+  skos:prefLabel "dubbele rijrichting"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting> .

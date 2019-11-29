@@ -1,0 +1,36 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse> a skos:ConceptScheme;
+  skos:definition "Keuzelijst van de verschillende performantieklasses van de geteste beginconstructie"@nl;
+  skos:prefLabel "Performantieklasse"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACPerformantieklasse/P1> a skos:Concept;
+  skos:definition "Beginconstructie enkel frontaal getest met een lichte wagen aan 80km/h"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse>;
+  skos:notation "P1";
+  skos:prefLabel "P1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACPerformantieklasse/P2> a skos:Concept;
+  skos:definition "Beginconstructie zowel frontaal als zijwaarts getest, met een lichte en kleine gezinswagen aan 80km/h"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse>;
+  skos:notation "P2";
+  skos:prefLabel "P2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACPerformantieklasse/P3> a skos:Concept;
+  skos:definition "Beginconstructie zowel frontaal als zijwaarts getest, met een lichte en kleine gezinswagen aan 100km/h"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse>;
+  skos:notation "P3";
+  skos:prefLabel "P3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACPerformantieklasse/P4> a skos:Concept;
+  skos:definition "Beginconstructie zowel frontaal als zijwaarts getest, met een lichte en grote gezinswagen aan 110km/h"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse>;
+  skos:notation "P4";
+  skos:prefLabel "P4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieklasse> .

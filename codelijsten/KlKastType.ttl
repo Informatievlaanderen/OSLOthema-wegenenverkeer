@@ -1,0 +1,36 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Kast type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKastType/a> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType>;
+  skos:notation "a";
+  skos:prefLabel "a"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKastType/DD> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType>;
+  skos:notation "DD";
+  skos:prefLabel "DD"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKastType/e> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType>;
+  skos:notation "e";
+  skos:prefLabel "e"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKastType/f> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType>;
+  skos:notation "f";
+  skos:prefLabel "f"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKastType> .

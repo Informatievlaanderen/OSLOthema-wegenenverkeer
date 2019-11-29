@@ -1,0 +1,43 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van de het type geotextiel"@nl;
+  skos:prefLabel "Geotextiel type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/erosiewerend> a skos:Concept;
+  skos:definition "erosiewerend"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType>;
+  skos:notation "erosiewerend";
+  skos:prefLabel "erosiewerend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/bescherming> a skos:Concept;
+  skos:definition "bescherming/wapening"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType>;
+  skos:notation "bescherming";
+  skos:prefLabel "bescherming"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/niet-geweven-geotextiel> a skos:Concept;
+  skos:definition "niet-geweven geotextiel"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType>;
+  skos:notation "niet-geweven geotextiel";
+  skos:prefLabel "niet-geweven geotextiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/anti-vraatdoek> a skos:Concept;
+  skos:definition "anti-vraatdoek"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType>;
+  skos:notation "anti-vraatdoek";
+  skos:prefLabel "anti-vraatdoek"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/wapening> a skos:Concept;
+  skos:definition "bescherming/wapening"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType>;
+  skos:notation "wapening";
+  skos:prefLabel "wapening"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeotextielType> .

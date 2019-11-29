@@ -1,0 +1,43 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Patchpaneel type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelType/patchpaneel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType>;
+  skos:notation "patchpaneel";
+  skos:prefLabel "patchpaneel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelType/smallbox> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType>;
+  skos:notation "smallbox";
+  skos:prefLabel "smallbox"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelType/fist> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType>;
+  skos:notation "fist";
+  skos:prefLabel "fist"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelType/kabelkop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType>;
+  skos:notation "kabelkop";
+  skos:prefLabel "kabelkop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPatchpaneelType/fosc> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType>;
+  skos:notation "fosc";
+  skos:prefLabel "fosc"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPatchpaneelType> .

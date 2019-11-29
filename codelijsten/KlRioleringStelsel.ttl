@@ -1,0 +1,36 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het stelsel van de riool te bepalen"@nl;
+  skos:prefLabel "Riolering stelsel"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringStelsel/vuil> a skos:Concept;
+  skos:definition "Keuzelijst om het stelsel van de riool te bepalen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel>;
+  skos:notation "vuil";
+  skos:prefLabel "vuil"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringStelsel/drain> a skos:Concept;
+  skos:definition "stelsel om grondwater op te vangen en af te voeren."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel>;
+  skos:notation "drain";
+  skos:prefLabel "drain"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringStelsel/n-vuil> a skos:Concept;
+  skos:definition "Stelsel bedoeld voor de afvoer van onvervuild water"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel>;
+  skos:notation "n vuil";
+  skos:prefLabel "n vuil"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringStelsel/onbekend> a skos:Concept;
+  skos:definition "Stelsel waarvan afvoer onbekend is."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel>;
+  skos:notation "onbekend";
+  skos:prefLabel "onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> .

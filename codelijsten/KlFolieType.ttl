@@ -1,0 +1,36 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het type van folie te bepalen."@nl;
+  skos:prefLabel "Folie type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFolieType/folietype-1> a skos:Concept;
+  skos:definition "folietype 1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType>;
+  skos:notation "folietype 1";
+  skos:prefLabel "folietype 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFolieType/folietype-2> a skos:Concept;
+  skos:definition "folietype 2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType>;
+  skos:notation "folietype 2";
+  skos:prefLabel "folietype 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFolieType/folietype-3-a> a skos:Concept;
+  skos:definition "folietype 3 a"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType>;
+  skos:notation "folietype 3 a";
+  skos:prefLabel "folietype 3 a"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFolieType/folietype-3-b> a skos:Concept;
+  skos:definition "folietype 3 b"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType>;
+  skos:notation "folietype 3 b";
+  skos:prefLabel "folietype 3 b"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFolieType> .

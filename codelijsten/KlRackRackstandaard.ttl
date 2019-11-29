@@ -1,0 +1,22 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRackRackstandaard> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Rack rackstandaard"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRackRackstandaard/ITU> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRackRackstandaard>;
+  skos:notation "ITU";
+  skos:prefLabel "ITU"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRackRackstandaard> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRackRackstandaard/ETSI> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRackRackstandaard>;
+  skos:notation "ETSI";
+  skos:prefLabel "ETSI"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRackRackstandaard> .

@@ -1,0 +1,22 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieMarkeringOpvatting> a skos:ConceptScheme;
+  skos:definition "De markeringsopvattingvan de markering.//"@nl;
+  skos:prefLabel "Signalisatie markering opvatting"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSignalisatieMarkeringOpvatting/middelenverbintenis> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieMarkeringOpvatting>;
+  skos:notation "middelenverbintenis";
+  skos:prefLabel "middelenverbintenis"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieMarkeringOpvatting> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSignalisatieMarkeringOpvatting/resultaatsverbintenis> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieMarkeringOpvatting>;
+  skos:notation "resultaatsverbintenis";
+  skos:prefLabel "resultaatsverbintenis"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSignalisatieMarkeringOpvatting> .

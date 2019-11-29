@@ -1,0 +1,57 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Omvorming"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/UTP> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "UTP";
+  skos:prefLabel "UTP"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/COAX> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "COAX";
+  skos:prefLabel "COAX"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/poE> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "poE";
+  skos:prefLabel "poE"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/rS232> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "rS232";
+  skos:prefLabel "rS232"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/rS484> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "rS484";
+  skos:prefLabel "rS484"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/glasvezel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "glasvezel";
+  skos:prefLabel "glasvezel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmvorming/IP> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming>;
+  skos:notation "IP";
+  skos:prefLabel "IP"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOmvorming> .

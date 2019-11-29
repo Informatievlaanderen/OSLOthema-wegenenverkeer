@@ -1,0 +1,29 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Draagconstructie dwarsdoorsnede"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/rond> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede>;
+  skos:notation "rond";
+  skos:prefLabel "rond"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/vierkant> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede>;
+  skos:notation "vierkant";
+  skos:prefLabel "vierkant"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/octagonaal> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede>;
+  skos:notation "octagonaal";
+  skos:prefLabel "octagonaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede> .

@@ -1,0 +1,50 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende opties van de plantwijzewaarde weergeven"@nl;
+  skos:prefLabel "Boom plantwijzewaarde"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomPlantwijzewaarde/1> a skos:Concept;
+  skos:definition "solitaire plant"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde>;
+  skos:notation "1";
+  skos:prefLabel "1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomPlantwijzewaarde/0.8> a skos:Concept;
+  skos:definition "rijbeplanting met belangrijke uitval"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde>;
+  skos:notation "0.8";
+  skos:prefLabel "0.8"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomPlantwijzewaarde/0.6> a skos:Concept;
+  skos:definition "boom in groep van 6 - 10 stuks"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde>;
+  skos:notation "0.6";
+  skos:prefLabel "0.6"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomPlantwijzewaarde/0.4> a skos:Concept;
+  skos:definition "boom in grote dicht beplante groepen (&gt;10 stuks) (ook bosachtige beplantingen, bospark)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde>;
+  skos:notation "0.4";
+  skos:prefLabel "0.4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomPlantwijzewaarde/0.7> a skos:Concept;
+  skos:definition "boom in groep van 2 - 5 stuks"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde>;
+  skos:notation "0.7";
+  skos:prefLabel "0.7"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomPlantwijzewaarde/0.9> a skos:Concept;
+  skos:definition "perfecte rijbeplanting (zonder uitval)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde>;
+  skos:notation "0.9";
+  skos:prefLabel "0.9"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomPlantwijzewaarde> .

@@ -1,0 +1,50 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> a skos:ConceptScheme;
+  skos:definition "Verharde Zijstrook 2-1.3.2"@nl;
+  skos:prefLabel "VZ type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVZType/pechstrook> a skos:Concept;
+  skos:definition "2-1.3.2.1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType>;
+  skos:notation "pechstrook";
+  skos:prefLabel "pechstrook"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVZType/parkeerstrook> a skos:Concept;
+  skos:definition "2-1.3.2.2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType>;
+  skos:notation "parkeerstrook";
+  skos:prefLabel "parkeerstrook"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVZType/parkeerhaven> a skos:Concept;
+  skos:definition "2-1.3.2.3"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType>;
+  skos:notation "parkeerhaven";
+  skos:prefLabel "parkeerhaven"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVZType/uitwijkplaats> a skos:Concept;
+  skos:definition "2-1.3.2.4"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType>;
+  skos:notation "uitwijkplaats";
+  skos:prefLabel "uitwijkplaats"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVZType/wisselplaats> a skos:Concept;
+  skos:definition "2-1.3.2.4.A"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType>;
+  skos:notation "wisselplaats";
+  skos:prefLabel "wisselplaats"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVZType/bushaltehaven> a skos:Concept;
+  skos:definition "2-1.3.2.4.B"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType>;
+  skos:notation "bushaltehaven";
+  skos:prefLabel "bushaltehaven"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVZType> .

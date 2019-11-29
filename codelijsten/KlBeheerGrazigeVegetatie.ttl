@@ -1,0 +1,162 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende soorten van beheer voor grazige vegetatie oplijst"@nl;
+  skos:prefLabel "Beheer grazige vegetatie "@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/gazonbeheer> a skos:Concept;
+  skos:definition "Meermaals per jaar inkorten van het gras met grasmaaimachines, zodanig dat over de hele grasmat een gelijkmatige hoogte van 3 à 6 cm wordt verkregen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "gazonbeheer";
+  skos:prefLabel "gazonbeheer"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/1e-maaibeurt---mei> a skos:Concept;
+  skos:definition "In de maand mei wordt de vegetatie een eerste maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "1e maaibeurt - mei";
+  skos:prefLabel "1e maaibeurt - mei"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/2e-maaibeurt---niet-maaien> a skos:Concept;
+  skos:definition "Er wordt geen tweede maaibeurt uitgevoerd. De vegetatie wordt slechts éénmaal per jaar gemaaid."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "2e maaibeurt - niet maaien";
+  skos:prefLabel "2e maaibeurt - niet maaien"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/veiligheidsmaaien> a skos:Concept;
+  skos:definition "Het maaien van de vlakke grasbermen, tussenbermen en middenbermen, alleen op de plaatsen waar dit nodig is voor het vrijwaren van de zichtbaarheid en voor het vrijhouden van de bebakening en de signalisatie. Het veiligheidsmaaien mag ten vroegste starten op 15 april en wordt uitgevoerd en beëindigd vóór 15 juni. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "veiligheidsmaaien";
+  skos:prefLabel "veiligheidsmaaien"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/ruigtebeheer---2-jaarlijks> a skos:Concept;
+  skos:definition "De vegetatie wordt om de 2 jaar met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "ruigtebeheer - 2-jaarlijks";
+  skos:prefLabel "ruigtebeheer - 2-jaarlijks"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/begrazing> a skos:Concept;
+  skos:definition "De vegetatie wordt begraasd door dieren."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "begrazing";
+  skos:prefLabel "begrazing"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/niets-doen> a skos:Concept;
+  skos:definition "Er wordt geen beheer uitgevoerd"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "niets doen";
+  skos:prefLabel "niets doen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/aflagen> a skos:Concept;
+  skos:definition "Het verwijderen van de bovenste grondlaag met begroeiing om afwatering te garanderen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "aflagen";
+  skos:prefLabel "aflagen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/plaggen> a skos:Concept;
+  skos:definition "Plaggen is het verwijderen van de bovenste grondlaag met begroeiing om grond te verschralen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "plaggen";
+  skos:prefLabel "plaggen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/afboorden> a skos:Concept;
+  skos:definition "(is afranden in SB250) Het afsteken van de overgroeiende vegetatie langs de rand van de verharding."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "afboorden";
+  skos:prefLabel "afboorden"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/konijnenbeheer> a skos:Concept;
+  skos:definition "Het reduceren van konijnenpopulaties om de stabilietit van taluds te blijven garanderen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "konijnenbeheer";
+  skos:prefLabel "konijnenbeheer"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/reiten> a skos:Concept;
+  skos:definition "Het inkorten van het riet tot ongeveer 10 cm boven het wateroppervlak met maaikorf. Maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "reiten";
+  skos:prefLabel "reiten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/grachten-ruimen> a skos:Concept;
+  skos:definition "Keuzelijst die de verschillende soorten van beheer voor grazige vegetatie oplijst"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "grachten ruimen";
+  skos:prefLabel "grachten ruimen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maaisel-verwijderen-hooien-oprapen> a skos:Concept;
+  skos:definition "het maaisel wordt gehooid en binnen de 10 dagen opgeraapt en verwijderd"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "maaisel verwijderen hooien-oprapen";
+  skos:prefLabel "maaisel verwijderen hooien-oprapen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maaisel-verwijderen-directe-opzuig> a skos:Concept;
+  skos:definition "het verwijderen van het maaisel met een maaizuigcombinatie"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "maaisel verwijderen directe opzuig";
+  skos:prefLabel "maaisel verwijderen directe opzuig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/1e-maaibeurt---juni> a skos:Concept;
+  skos:definition "In de maand juni wordt de vegetatie een eerste maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "1e maaibeurt - juni";
+  skos:prefLabel "1e maaibeurt - juni"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/1e-maaibeurt---juli> a skos:Concept;
+  skos:definition "In de maand juli wordt de vegetatie een eerste maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "1e maaibeurt - juli";
+  skos:prefLabel "1e maaibeurt - juli"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/1e-maaibeurt---augustus> a skos:Concept;
+  skos:definition "In de maand augustus wordt de vegetatie een eerste maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "1e maaibeurt - augustus";
+  skos:prefLabel "1e maaibeurt - augustus"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/1e-maaibeurt---september> a skos:Concept;
+  skos:definition "In de maand september wordt de vegetatie een eerste maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "1e maaibeurt - september";
+  skos:prefLabel "1e maaibeurt - september"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/2e-maaibeurt---september> a skos:Concept;
+  skos:definition "In de maand september wordt de vegetatie een tweede maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "2e maaibeurt - september";
+  skos:prefLabel "2e maaibeurt - september"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/2e-maaibeurt---oktober> a skos:Concept;
+  skos:definition "In de maand oktober wordt de vegetatie een tweede maal met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "2e maaibeurt - oktober";
+  skos:prefLabel "2e maaibeurt - oktober"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/ruigtebeheer---3-jaarlijks> a skos:Concept;
+  skos:definition "De vegetatie wordt om de 3 jaar met grasmaaimachines ingekort, zodanig dat over de volledige gemaaide oppervlakte een gelijkmatige hoogte van 10 à 12 cm verkregen wordt. Het maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "ruigtebeheer - 3-jaarlijks";
+  skos:prefLabel "ruigtebeheer - 3-jaarlijks"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .

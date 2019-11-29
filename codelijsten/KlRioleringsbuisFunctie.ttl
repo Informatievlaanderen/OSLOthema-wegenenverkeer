@@ -1,0 +1,36 @@
+﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van de functie van de riolering"@nl;
+  skos:prefLabel "Rioleringsbuis functie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/syphon> a skos:Concept;
+  skos:definition "buis bedoeld voor gravitaire afvoer van water met omgekeerde hevelwerking"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:notation "syphon";
+  skos:prefLabel "syphon"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/infiltratieleiding> a skos:Concept;
+  skos:definition "buis bedoeld voor gravitaire afvoer en infiltratie van niet vervuild water"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:notation "infiltratieleiding";
+  skos:prefLabel "infiltratieleiding"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/bufferleiding> a skos:Concept;
+  skos:definition "buis bedoeld voor gravitaire afvoer en tijdelijke buffering van water"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:notation "bufferleiding";
+  skos:prefLabel "bufferleiding"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/gravitaire-leiding> a skos:Concept;
+  skos:definition "buis bedoeld voor de gravitaire afvoer van water"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie>;
+  skos:notation "gravitaire leiding";
+  skos:prefLabel "gravitaire leiding"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie> .

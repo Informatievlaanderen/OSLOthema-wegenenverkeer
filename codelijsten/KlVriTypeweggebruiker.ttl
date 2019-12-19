@@ -41,3 +41,10 @@
   skos:notation "tram";
   skos:prefLabel "tram"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriTypeweggebruiker/vrachtwagen> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker>;
+  skos:notation "vrachtwagen";
+  skos:prefLabel "vrachtwagen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriTypeweggebruiker> .

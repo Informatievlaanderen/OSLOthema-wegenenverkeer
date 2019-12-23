@@ -3,62 +3,62 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> a skos:ConceptScheme;
   skos:definition ""@nl;
   skos:prefLabel "AIMS toestand"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/in-ontwerp> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/in-ontwerp> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "in ontwerp";
   skos:prefLabel "in ontwerp"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/gepland> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/gepland> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "gepland";
   skos:prefLabel "gepland"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/in-opbouw> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/in-opbouw> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "in opbouw";
   skos:prefLabel "in opbouw"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/geannuleerd> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/geannuleerd> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "geannuleerd";
   skos:prefLabel "geannuleerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/in-gebruik> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/in-gebruik> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "in gebruik";
   skos:prefLabel "in gebruik"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/overgedragen> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/overgedragen> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "overgedragen";
   skos:prefLabel "overgedragen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/uit-gebruik> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/uit-gebruik> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "uit gebruik";
   skos:prefLabel "uit gebruik"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEmInfraToestand/verwijderd> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAIMSToestand/verwijderd> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand>;
   skos:notation "verwijderd";
   skos:prefLabel "verwijderd"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEmInfraToestand> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAIMSToestand> .

@@ -78,7 +78,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/2e-afslag-links-(5m)> a skos:Concept;
-  skos:definition "Pijl 2e afslag links (5m)"@nl;
+  skos:definition "Pijl 2e afslag links (5m)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "2e afslag links (5m)";
   skos:prefLabel "2e afslag links (5m)"@nl;
@@ -148,7 +148,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/voorsortering-Rechts-(7.5m)> a skos:Concept;
-  skos:definition "Pijl Voorsortering Rechts (7,5m)"@nl;
+  skos:definition "Aanduiding A49 kruising van een openbare weg door &#233;&#233;n of meer in de rijbaan aangelegde sporen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "voorsortering Rechts (7.5m)";
   skos:prefLabel "voorsortering Rechts (7.5m)"@nl;
@@ -294,27 +294,6 @@
   skos:prefLabel "STOP"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/per-letter-(A-tot-Z)> a skos:Concept;
-  skos:definition "Lettermarkering (A=>Z)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "per letter (A tot Z)";
-  skos:prefLabel "per letter (A tot Z)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/STOP-(smal-schuin)> a skos:Concept;
-  skos:definition "Lettermarkering (smal schuin)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "STOP (smal schuin)";
-  skos:prefLabel "STOP (smal schuin)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/0> a skos:Concept;
-  skos:definition "Cijfer 0"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "0";
-  skos:prefLabel "0"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
-
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kleiner-dan-22.75-m²> a skos:Concept;
   skos:definition "Lettermarkering bus met arcering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
@@ -393,85 +372,99 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/groot> a skos:Concept;
-  skos:definition "Omgekeerde driehoek markering Groot."@nl;
+  skos:definition "Omgekeerde driehoek markering groot type."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "groot";
   skos:prefLabel "groot"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/klein> a skos:Concept;
-  skos:definition "Omgekeerde driehoek markering Klein."@nl;
+  skos:definition "Omgekeerde driehoek markering klein type."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "klein";
   skos:prefLabel "klein"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/groot-(schuin)> a skos:Concept;
-  skos:definition ""@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/null> a skos:Concept;
+  skos:definition "Geen aanduiding."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "groot (schuin)";
-  skos:prefLabel "groot (schuin)"@nl;
+  skos:notation "null";
+  skos:prefLabel "null"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/1> a skos:Concept;
-  skos:definition "Cijfer 1"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kruising-sporen> a skos:Concept;
+  skos:definition "Aanduiding A49 kruising van een openbare weg door &#233;&#233;n of meer in de rijbaan aangelegde sporen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "1";
-  skos:prefLabel "1"@nl;
+  skos:notation "kruising sporen";
+  skos:prefLabel "kruising sporen"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/2> a skos:Concept;
-  skos:definition "Cijfer 2"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/oversteekplaats-voor-voetgangers> a skos:Concept;
+  skos:definition "Aanduiding A21 oversteekplaats voor voetgangers."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "2";
-  skos:prefLabel "2"@nl;
+  skos:notation "oversteekplaats voor voetgangers";
+  skos:prefLabel "oversteekplaats voor voetgangers"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/3> a skos:Concept;
-  skos:definition "Cijfer 3"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietsstraat-einde> a skos:Concept;
+  skos:definition "<font color="#383739">Verkeersbord F113 dat het einde van de fietsstraat aanduidt.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "3";
-  skos:prefLabel "3"@nl;
+  skos:notation "fietsstraat einde";
+  skos:prefLabel "fietsstraat einde"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/4> a skos:Concept;
-  skos:definition "Cijfer 4"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietsstraat-begin> a skos:Concept;
+  skos:definition "<font color="#383739">Verkeersbord F111 dat het einde van de fietsstraat aanduidt.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "4";
-  skos:prefLabel "4"@nl;
+  skos:notation "fietsstraat begin";
+  skos:prefLabel "fietsstraat begin"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/5> a skos:Concept;
-  skos:definition "Cijfer 5"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/bromfiets-groot> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool bromfiets groot.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "5";
-  skos:prefLabel "5"@nl;
+  skos:notation "bromfiets groot";
+  skos:prefLabel "bromfiets groot"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/6> a skos:Concept;
-  skos:definition "Cijfer 6"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/bromfiets-klein> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool bromfiets klein.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "6";
-  skos:prefLabel "6"@nl;
+  skos:notation "bromfiets klein";
+  skos:prefLabel "bromfiets klein"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/7> a skos:Concept;
-  skos:definition "Cijfer 7"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/autocar> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool autocar.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "7";
-  skos:prefLabel "7"@nl;
+  skos:notation "autocar";
+  skos:prefLabel "autocar"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/8> a skos:Concept;
-  skos:definition "Cijfer 8"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/woon-werkverkeer> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool woon-werkverkeer.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "8";
-  skos:prefLabel "8"@nl;
+  skos:notation "woon-werkverkeer";
+  skos:prefLabel "woon-werkverkeer"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/9> a skos:Concept;
-  skos:definition "Cijfer 9"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/elektrische-voertuigen-verkleind> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool elektrische voertuigen verkleind.</font>"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "9";
-  skos:prefLabel "9"@nl;
+  skos:notation "elektrische voertuigen verkleind";
+  skos:prefLabel "elektrische voertuigen verkleind"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/elektrische-voertuigen-normaal> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool elektrische voertuigen normaal.</font>"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
+  skos:notation "elektrische voertuigen normaal";
+  skos:prefLabel "elektrische voertuigen normaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/elektrische-voertuigen-vergroot> a skos:Concept;
+  skos:definition "<font color="#383739">Symbool elektrische voertuigen vergroot.</font>"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
+  skos:notation "elektrische voertuigen vergroot";
+  skos:prefLabel "elektrische voertuigen vergroot"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .

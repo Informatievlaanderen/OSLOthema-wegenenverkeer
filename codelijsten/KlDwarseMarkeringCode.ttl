@@ -98,16 +98,16 @@
   skos:prefLabel "FOP"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringCode/FOP-sch> a skos:Concept;
-  skos:definition "Fietsoversteekplaats met blokken schuin"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode>;
-  skos:notation "FOP-sch";
-  skos:prefLabel "FOP-sch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode> .
-
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringCode/DREMPEL-1.2> a skos:Concept;
   skos:definition "Verkeersdrempel markering"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode>;
   skos:notation "DREMPEL 1.2";
   skos:prefLabel "DREMPEL 1.2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringCode/FLV> a skos:Concept;
+  skos:definition "Verbindingsmarkering voor fietsers."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode>;
+  skos:notation "FLV";
+  skos:prefLabel "FLV"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringCode> .

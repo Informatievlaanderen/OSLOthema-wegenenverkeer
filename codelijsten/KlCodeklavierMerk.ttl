@@ -3,45 +3,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCodeklavierMerk> a skos:ConceptScheme;
   skos:definition ""@nl;
-  skos:prefLabel "Z-pad type"@nl.
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Ethernet> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Ethernet";
-  skos:prefLabel "Ethernet"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/FC> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "FC";
-  skos:prefLabel "FC"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/E1> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "E1";
-  skos:prefLabel "E1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Other> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/NULL> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
-
-
-
-
+  skos:prefLabel "Codeklavier merk"@nl.

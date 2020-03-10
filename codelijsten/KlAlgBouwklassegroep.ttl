@@ -3,45 +3,83 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> a skos:ConceptScheme;
-  skos:definition ""@nl;
-  skos:prefLabel "Z-pad type"@nl.
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van de bouwklassegroep"@nl;
+  skos:prefLabel "Alg bouwklassegroep"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Ethernet> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Ethernet";
-  skos:prefLabel "Ethernet"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B1> a skos:Concept;
+  skos:definition "B1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B1";
+  skos:prefLabel "B1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/FC> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "FC";
-  skos:prefLabel "FC"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B2> a skos:Concept;
+  skos:definition "B2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B2";
+  skos:prefLabel "B2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/E1> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "E1";
-  skos:prefLabel "E1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B3> a skos:Concept;
+  skos:definition "B3"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B3";
+  skos:prefLabel "B3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Other> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B4> a skos:Concept;
+  skos:definition "B4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B4";
+  skos:prefLabel "B4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/NULL> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B5> a skos:Concept;
+  skos:definition "B5"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B5";
+  skos:prefLabel "B5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B6> a skos:Concept;
+  skos:definition "B6"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B6";
+  skos:prefLabel "B6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B7> a skos:Concept;
+  skos:definition "B7"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B7";
+  skos:prefLabel "B7"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B8> a skos:Concept;
+  skos:definition "B8"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B8";
+  skos:prefLabel "B8"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B9> a skos:Concept;
+  skos:definition "B9"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B9";
+  skos:prefLabel "B9"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/B10> a skos:Concept;
+  skos:definition "B10"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "B10";
+  skos:prefLabel "B10"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgBouwklassegroep/BF> a skos:Concept;
+  skos:definition "BF"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep>;
+  skos:notation "BF";
+  skos:prefLabel "BF"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgBouwklassegroep> .

@@ -3,45 +3,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> a skos:ConceptScheme;
-  skos:definition ""@nl;
-  skos:prefLabel "Z-pad type"@nl.
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> a skos:ConceptScheme;
+  skos:definition "Keuzelijst die de verschillende fases van beheer volgens de verschillende levensfases van de boom oplijst"@nl;
+  skos:prefLabel "Groeifasen"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Ethernet> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Ethernet";
-  skos:prefLabel "Ethernet"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGroeifase/plantfase> a skos:Concept;
+  skos:definition "De periode na de aanplant waarbij het beheer gericht is op het aanslaan van de boom (water geven, boompalen verwijderen,…)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
+  skos:notation "plantfase";
+  skos:prefLabel "plantfase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/FC> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "FC";
-  skos:prefLabel "FC"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGroeifase/eindfase> a skos:Concept;
+  skos:definition "De periode waarbij regressie/aftakeling plaatsvindt – beheer gericht op instandhouding (kroonverzorging)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
+  skos:notation "eindfase";
+  skos:prefLabel "eindfase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/E1> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "E1";
-  skos:prefLabel "E1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGroeifase/dood> a skos:Concept;
+  skos:definition "Dood"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
+  skos:notation "dood";
+  skos:prefLabel "dood"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Other> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGroeifase/jeugdfase> a skos:Concept;
+  skos:definition "De periode van de lengte-ontwikkeling van de boom – beheer gericht op tot stand brengen van de takvrije stamlengte (begeleidingssnoei,..)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
+  skos:notation "jeugdfase";
+  skos:prefLabel "jeugdfase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/NULL> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
-
-
-
-
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomGroeifase/volwassenfase> a skos:Concept;
+  skos:definition "De periode van de kroonontwikkeling – beheer gericht op in stand houden van de boom (onderhoudssnoei)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
+  skos:notation "volwassenfase";
+  skos:prefLabel "volwassenfase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> .

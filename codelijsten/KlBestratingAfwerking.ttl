@@ -3,45 +3,118 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> a skos:ConceptScheme;
-  skos:definition ""@nl;
-  skos:prefLabel "Z-pad type"@nl.
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om de manier van afwerking van de bestrating te bepalen"@nl;
+  skos:prefLabel "Bestrating afwerking"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Ethernet> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Ethernet";
-  skos:prefLabel "Ethernet"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gezaagd> a skos:Concept;
+  skos:definition "gezaagd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gezaagd";
+  skos:prefLabel "gezaagd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/FC> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "FC";
-  skos:prefLabel "FC"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/onbehandeld> a skos:Concept;
+  skos:definition "onbehandeld"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "onbehandeld";
+  skos:prefLabel "onbehandeld"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/E1> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "E1";
-  skos:prefLabel "E1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/poreus> a skos:Concept;
+  skos:definition "poreus"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "poreus";
+  skos:prefLabel "poreus"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/Other> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/getrommeld> a skos:Concept;
+  skos:definition "getrommeld"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "getrommeld";
+  skos:prefLabel "getrommeld"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZpadType/NULL> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZpadType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/geschuurd> a skos:Concept;
+  skos:definition "geschuurd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "geschuurd";
+  skos:prefLabel "geschuurd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gestaaldstraald> a skos:Concept;
+  skos:definition "gestaaldstraald"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gestaaldstraald";
+  skos:prefLabel "gestaaldstraald"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gewassen> a skos:Concept;
+  skos:definition "gewassen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gewassen";
+  skos:prefLabel "gewassen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/geslepen> a skos:Concept;
+  skos:definition "geslepen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "geslepen";
+  skos:prefLabel "geslepen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gezanstraald> a skos:Concept;
+  skos:definition "gezanstraald"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gezanstraald";
+  skos:prefLabel "gezanstraald"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gebouchardeerd> a skos:Concept;
+  skos:definition "gebouchardeerd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gebouchardeerd";
+  skos:prefLabel "gebouchardeerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/geslepen-en-gestraald> a skos:Concept;
+  skos:definition "geslepen en gestraald"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "geslepen en gestraald";
+  skos:prefLabel "geslepen en gestraald"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gevlamd> a skos:Concept;
+  skos:definition "gevlamd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gevlamd";
+  skos:prefLabel "gevlamd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gekliefd> a skos:Concept;
+  skos:definition "gekliefd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gekliefd";
+  skos:prefLabel "gekliefd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gefrijnd> a skos:Concept;
+  skos:definition "gefrijnd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gefrijnd";
+  skos:prefLabel "gefrijnd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/gehamerd> a skos:Concept;
+  skos:definition "gehamerd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "gehamerd";
+  skos:prefLabel "gehamerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingAfwerking/afwerking-volgens-de-opdrachtdocumenten> a skos:Concept;
+  skos:definition "afwerking volgens de opdrachtdocumenten"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking>;
+  skos:notation "afwerking volgens de opdrachtdocumenten";
+  skos:prefLabel "afwerking volgens de opdrachtdocumenten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> .

@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Elektrische beveiliging"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWVDraagconstructieElekBeveiliging/automaat> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging>;
+  skos:notation "automaat";
+  skos:prefLabel "automaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWVDraagconstructieElekBeveiliging/smeltzekering> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging>;
+  skos:notation "smeltzekering";
+  skos:prefLabel "smeltzekering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWVDraagconstructieElekBeveiliging/differentieelautomaat> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging>;
+  skos:notation "differentieelautomaat";
+  skos:prefLabel "differentieelautomaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWVDraagconstructieElekBeveiliging> .
+
+
+
+

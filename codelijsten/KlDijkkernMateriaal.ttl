@@ -1,0 +1,47 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het materiaal van de dijkkern te bepalen."@nl;
+  skos:prefLabel "Dijkkern materiaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkernMateriaal/beton> a skos:Concept;
+  skos:definition "Een betonnen dijkkern."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkernMateriaal/damwand> a skos:Concept;
+  skos:definition "Een damwand als dijkkern."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal>;
+  skos:notation "damwand";
+  skos:prefLabel "damwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkernMateriaal/bentoniet> a skos:Concept;
+  skos:definition "Bentoniet als dijkkern."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal>;
+  skos:notation "bentoniet";
+  skos:prefLabel "bentoniet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkernMateriaal/klei> a skos:Concept;
+  skos:definition "Klei als dijkkern."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal>;
+  skos:notation "klei";
+  skos:prefLabel "klei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDijkkernMateriaal/plastic> a skos:Concept;
+  skos:definition "Plastic als dijkkern."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal>;
+  skos:notation "plastic";
+  skos:prefLabel "plastic"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDijkkernMateriaal> .
+
+
+
+

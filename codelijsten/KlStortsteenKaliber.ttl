@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> a skos:ConceptScheme;
+  skos:definition "Keuzelijst om het kaliber van stortsteen te bepalen."@nl;
+  skos:prefLabel "Stortsteen kaliber"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenKaliber/kleiner-dan-0.063-mm> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
+  skos:notation "kleiner dan 0.063 mm";
+  skos:prefLabel "kleiner dan 0.063 mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenKaliber/groter-dan-125-mm> a skos:Concept;
+  skos:definition "> 125 mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
+  skos:notation "groter dan 125 mm";
+  skos:prefLabel "groter dan 125 mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenKaliber/CP-90180A> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
+  skos:notation "CP 90180A";
+  skos:prefLabel "CP 90180A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenKaliber/CP-90250> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
+  skos:notation "CP 90250";
+  skos:prefLabel "CP 90250"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA540> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
+  skos:notation "LMA540";
+  skos:prefLabel "LMA540"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenKaliber/IMA-1060> a skos:Concept;
+  skos:definition "< 0,063 mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
+  skos:notation "IMA 1060";
+  skos:prefLabel "IMA 1060"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
+
+
+
+

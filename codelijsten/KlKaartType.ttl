@@ -1,0 +1,411 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> a skos:ConceptScheme;
+  skos:definition ""@nl;
+  skos:prefLabel "Kaart type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/ASC105> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "ASC105";
+  skos:prefLabel "ASC105"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/ASC108> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "ASC108";
+  skos:prefLabel "ASC108"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/ASC109> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "ASC109";
+  skos:prefLabel "ASC109"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/ASC110> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "ASC110";
+  skos:prefLabel "ASC110"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CL-DUAL-FC8> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CL-DUAL-FC8";
+  skos:prefLabel "CL-DUAL-FC8"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CMC410> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CMC410";
+  skos:prefLabel "CMC410"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CMC418> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CMC418";
+  skos:prefLabel "CMC418"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-100-C4L> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-100-C4L";
+  skos:prefLabel "CN-100-C4L"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-100-C80> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-100-C80";
+  skos:prefLabel "CN-100-C80"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-200-B80> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-200-B80";
+  skos:prefLabel "CN-200-B80"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-200-R80> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-200-R80";
+  skos:prefLabel "CN-200-R80"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-200-RBS> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-200-RBS";
+  skos:prefLabel "CN-200-RBS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-C4L-00> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-C4L-00";
+  skos:prefLabel "CN-C4L-00"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-C80-13> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-C80-13";
+  skos:prefLabel "CN-C80-13"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/CN-OPS-2> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "CN-OPS-2";
+  skos:prefLabel "CN-OPS-2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/F10-A90-33> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "F10-A90-33";
+  skos:prefLabel "F10-A90-33"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/F10-A90-34> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "F10-A90-34";
+  skos:prefLabel "F10-A90-34"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/F10-A90-35> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "F10-A90-35";
+  skos:prefLabel "F10-A90-35"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/F10E-A90-TN> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "F10E-A90-TN";
+  skos:prefLabel "F10E-A90-TN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/F10E-T90-TN> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "F10E-T90-TN";
+  skos:prefLabel "F10E-T90-TN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/F10-T90-T31> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "F10-T90-T31";
+  skos:prefLabel "F10-T90-T31"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/FC4-T90-TN> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "FC4-T90-TN";
+  skos:prefLabel "FC4-T90-TN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA146> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA146";
+  skos:prefLabel "LKA146"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA39> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA39";
+  skos:prefLabel "LKA39"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA412> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA412";
+  skos:prefLabel "LKA412"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA48> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA48";
+  skos:prefLabel "LKA48"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA53> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA53";
+  skos:prefLabel "LKA53"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA58> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA58";
+  skos:prefLabel "LKA58"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/LKA62> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "LKA62";
+  skos:prefLabel "LKA62"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/M6> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "M6";
+  skos:prefLabel "M6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK505DA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK505DA";
+  skos:prefLabel "NTK505DA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK505FB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK505FB";
+  skos:prefLabel "NTK505FB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK505QA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK505QA";
+  skos:prefLabel "NTK505QA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK505RA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK505RA";
+  skos:prefLabel "NTK505RA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK505SB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK505SB";
+  skos:prefLabel "NTK505SB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK505YA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK505YA";
+  skos:prefLabel "NTK505YA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK507LD> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK507LD";
+  skos:prefLabel "NTK507LD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK507MD> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK507MD";
+  skos:prefLabel "NTK507MD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK507NA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK507NA";
+  skos:prefLabel "NTK507NA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK507PB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK507PB";
+  skos:prefLabel "NTK507PB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK529AC> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK529AC";
+  skos:prefLabel "NTK529AC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK529BA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK529BA";
+  skos:prefLabel "NTK529BA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK530PM> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK530PM";
+  skos:prefLabel "NTK530PM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK530QA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK530QA";
+  skos:prefLabel "NTK530QA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK532DA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK532DA";
+  skos:prefLabel "NTK532DA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK536BE> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK536BE";
+  skos:prefLabel "NTK536BE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK536FB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK536FB";
+  skos:prefLabel "NTK536FB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK538BM> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK538BM";
+  skos:prefLabel "NTK538BM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK539UD> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK539UD";
+  skos:prefLabel "NTK539UD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK552AB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK552AB";
+  skos:prefLabel "NTK552AB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK555CA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK555CA";
+  skos:prefLabel "NTK555CA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK555NA> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK555NA";
+  skos:prefLabel "NTK555NA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NTK555NB> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NTK555NB";
+  skos:prefLabel "NTK555NB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/NULL> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "NULL";
+  skos:prefLabel "NULL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/Other> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "Other";
+  skos:prefLabel "Other"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/PSM-12V> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "PSM-12V";
+  skos:prefLabel "PSM-12V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKaartType/RS-10G-4P> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType>;
+  skos:notation "RS-10G-4P";
+  skos:prefLabel "RS-10G-4P"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKaartType> .
+
+
+
+

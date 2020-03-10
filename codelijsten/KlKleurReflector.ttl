@@ -1,0 +1,40 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector> a skos:ConceptScheme;
+  skos:definition "Keuzelijst voor het bepalen van de kleur van reflector"@nl;
+  skos:prefLabel "Kleur reflector"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurReflector/wit> a skos:Concept;
+  skos:definition "wit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector>;
+  skos:notation "wit";
+  skos:prefLabel "wit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurReflector/rood> a skos:Concept;
+  skos:definition "rood"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector>;
+  skos:notation "rood";
+  skos:prefLabel "rood"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurReflector/groen> a skos:Concept;
+  skos:definition "groen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector>;
+  skos:notation "groen";
+  skos:prefLabel "groen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurReflector/amber> a skos:Concept;
+  skos:definition "amber"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector>;
+  skos:notation "amber";
+  skos:prefLabel "amber"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector> .
+
+
+
+

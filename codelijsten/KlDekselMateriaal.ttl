@@ -1,0 +1,96 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> a skos:ConceptScheme;
+  skos:definition "infonetspecificaties"@nl;
+  skos:prefLabel "Dekselmateriaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/cementmortel> a skos:Concept;
+  skos:definition "cementmortel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "cementmortel";
+  skos:prefLabel "cementmortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/beton> a skos:Concept;
+  skos:definition "beton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/gewapend-beton> a skos:Concept;
+  skos:definition "gewapend beton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "gewapend beton";
+  skos:prefLabel "gewapend beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/betonnen-segmenten> a skos:Concept;
+  skos:definition "betonnen segmenten"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "betonnen segmenten";
+  skos:prefLabel "betonnen segmenten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/gietijzer> a skos:Concept;
+  skos:definition "nodulair gietijzer"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "gietijzer";
+  skos:prefLabel "gietijzer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/grijs-gietijzer> a skos:Concept;
+  skos:definition "grijs gietijzer"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "grijs gietijzer";
+  skos:prefLabel "grijs gietijzer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/smeedijzer> a skos:Concept;
+  skos:definition "smeedijzer"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "smeedijzer";
+  skos:prefLabel "smeedijzer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/staal> a skos:Concept;
+  skos:definition "staal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeïdentificeerd-type-ijzer-of-staal> a skos:Concept;
+  skos:definition "ongeïdentificeerd type ijzer of staal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "ongeïdentificeerd type ijzer of staal";
+  skos:prefLabel "ongeïdentificeerd type ijzer of staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeïdentificeerd-type-kunststof> a skos:Concept;
+  skos:definition "ongeïdentificeerd type kunststof"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "ongeïdentificeerd type kunststof";
+  skos:prefLabel "ongeïdentificeerd type kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeïdentificeerd-materiaal> a skos:Concept;
+  skos:definition "ongeïdentificeerd materiaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "ongeïdentificeerd materiaal";
+  skos:prefLabel "ongeïdentificeerd materiaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselMateriaal/anders> a skos:Concept;
+  skos:definition "anders"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
+  skos:notation "anders";
+  skos:prefLabel "anders"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+
+
+

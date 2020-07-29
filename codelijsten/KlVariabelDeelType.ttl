@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVariabelDeelType> a skos:ConceptScheme;
+  skos:definition "Types van het variabel deel van een overtortrand."@nl;
+  skos:prefLabel "Variabel deel type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVariabelDeelType/schotbalk> a skos:Concept;
+  skos:definition "schotbalk"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVariabelDeelType>;
+  skos:notation "schotbalk";
+  skos:prefLabel "schotbalk"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVariabelDeelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVariabelDeelType/overstortplaat> a skos:Concept;
+  skos:definition "overstortplaat"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVariabelDeelType>;
+  skos:notation "overstortplaat";
+  skos:prefLabel "overstortplaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVariabelDeelType> .

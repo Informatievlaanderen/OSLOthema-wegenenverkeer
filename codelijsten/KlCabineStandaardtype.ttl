@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> a skos:ConceptScheme;
+  skos:definition "TODO"@nl;
+  skos:prefLabel "Cabine standaardtype"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineStandaardtype/lokaal-in-een-gebouw> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype>;
+  skos:notation "lokaal in een gebouw";
+  skos:prefLabel "lokaal in een gebouw"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineStandaardtype/gemetst-betreedbaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype>;
+  skos:notation "gemetst betreedbaar";
+  skos:prefLabel "gemetst betreedbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineStandaardtype/aluminium-niet-betreedbaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype>;
+  skos:notation "aluminium niet betreedbaar";
+  skos:prefLabel "aluminium niet betreedbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineStandaardtype/aluminium-betreedbaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype>;
+  skos:notation "aluminium betreedbaar";
+  skos:prefLabel "aluminium betreedbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineStandaardtype/beton-niet-betreedbaar-(compactstation)> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype>;
+  skos:notation "beton niet betreedbaar (compactstation)";
+  skos:prefLabel "beton niet betreedbaar (compactstation)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineStandaardtype/beton-betreedbaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype>;
+  skos:notation "beton betreedbaar";
+  skos:prefLabel "beton betreedbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineStandaardtype> .

@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> a skos:ConceptScheme;
+  skos:definition "Codes van de markering op lijnvormige elementen."@nl;
+  skos:prefLabel "Markering code"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-NJ> a skos:Concept;
+  skos:definition "De code voor LE markering New Jersey"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
+  skos:notation "DIV-NJ";
+  skos:prefLabel "DIV-NJ"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN> a skos:Concept;
+  skos:definition "De code voor LE markering boordsteen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
+  skos:notation "DIV-BRDSTN";
+  skos:prefLabel "DIV-BRDSTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN-PV> a skos:Concept;
+  skos:definition "De code voor LE markering boordsteen parkeerverbod"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
+  skos:notation "DIV-BRDSTN-PV";
+  skos:prefLabel "DIV-BRDSTN-PV"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BIG> a skos:Concept;
+  skos:definition "De code voor LE markering biggenrug"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
+  skos:notation "DIV-BIG";
+  skos:prefLabel "DIV-BIG"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .

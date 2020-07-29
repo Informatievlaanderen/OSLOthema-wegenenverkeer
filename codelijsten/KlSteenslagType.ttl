@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType> a skos:ConceptScheme;
+  skos:definition "Steenslag types."@nl;
+  skos:prefLabel "Steenslag type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteenslagType/type-IA> a skos:Concept;
+  skos:definition "type IA"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType>;
+  skos:notation "type IA";
+  skos:prefLabel "type IA"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteenslagType/type-IIA> a skos:Concept;
+  skos:definition "type IIA"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType>;
+  skos:notation "type IIA";
+  skos:prefLabel "type IIA"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteenslagType/type-IB> a skos:Concept;
+  skos:definition "type IB"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType>;
+  skos:notation "type IB";
+  skos:prefLabel "type IB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSteenslagType/type-IIB> a skos:Concept;
+  skos:definition "type IIB"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType>;
+  skos:notation "type IIB";
+  skos:prefLabel "type IIB"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSteenslagType> .

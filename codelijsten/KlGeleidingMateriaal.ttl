@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal> a skos:ConceptScheme;
+  skos:definition "Materialen voor de geleidingwand om kleinere wilde dieren te geleiden."@nl;
+  skos:prefLabel "Geleiding materiaal"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeleidingMateriaal/beton> a skos:Concept;
+  skos:definition "Geleiding bestaande uit een betonnen wand."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeleidingMateriaal/kunststof> a skos:Concept;
+  skos:definition "Geleiding bestaande uit een kunststoffen wand."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeleidingMateriaal/metaal> a skos:Concept;
+  skos:definition "Geleiding bestaande uit een metalen wand."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal>;
+  skos:notation "metaal";
+  skos:prefLabel "metaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGeleidingMateriaal> .

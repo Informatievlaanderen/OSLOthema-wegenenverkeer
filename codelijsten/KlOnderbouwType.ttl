@@ -1,0 +1,218 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> a skos:ConceptScheme;
+  skos:definition "Types van onderbouw."@nl;
+  skos:prefLabel "Onderbouw type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/type-I> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "type I";
+  skos:prefLabel "type I"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/type-II> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "type II";
+  skos:prefLabel "type II"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/type-III> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "type III";
+  skos:prefLabel "type III"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/wortelruimte---bomenzand> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "wortelruimte - bomenzand";
+  skos:prefLabel "wortelruimte - bomenzand"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/wortelruimte---bomengranulaat> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "wortelruimte - bomengranulaat";
+  skos:prefLabel "wortelruimte - bomengranulaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/wortelruimte---groeiplaatsconstructie> a skos:Concept;
+  skos:definition "Keuzeoptie voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "wortelruimte - groeiplaatsconstructie";
+  skos:prefLabel "wortelruimte - groeiplaatsconstructie"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/steenslag-met-niet-continue-korrelverdeling> a skos:Concept;
+  skos:definition "steenslagfundering met niet-continue korrelverdeling"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "steenslag met niet-continue korrelverdeling";
+  skos:prefLabel "steenslag met niet-continue korrelverdeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/steenslag-met-continue-korrelverdeling-zonder-toevoegsel> a skos:Concept;
+  skos:definition "Steenslagfundering met continue korrelverdeling zonder toevoegsel"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "steenslag met continue korrelverdeling zonder toevoegsel";
+  skos:prefLabel "steenslag met continue korrelverdeling zonder toevoegsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/met-toevoegsel-behandelde-steenslag-met-continue-korrelverdeling> a skos:Concept;
+  skos:definition "Met toevoegsel behandelde steenslagfundering met continue korrelverdeling"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "met toevoegsel behandelde steenslag met continue korrelverdeling";
+  skos:prefLabel "met toevoegsel behandelde steenslag met continue korrelverdeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/teerhoudend-asfaltgranulaatcement> a skos:Concept;
+  skos:definition "Fundering in teerhoudend asfaltgranulaatcement"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "teerhoudend asfaltgranulaatcement";
+  skos:prefLabel "teerhoudend asfaltgranulaatcement"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/ternair-mengsel> a skos:Concept;
+  skos:definition "Fundering van ternair mengsel"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "ternair mengsel";
+  skos:prefLabel "ternair mengsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/stabiliseren-van-de-bestaande-verharding-met-cementrecycling-in-situ> a skos:Concept;
+  skos:definition "Fundering door het stabiliseren van de bestaande verharding met cement (recycling in situ)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "stabiliseren van de bestaande verharding met cementrecycling in situ";
+  skos:prefLabel "stabiliseren van de bestaande verharding met cementrecycling in situ"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/schraal-beton> a skos:Concept;
+  skos:definition "Fundering van schraal beton."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "schraal beton";
+  skos:prefLabel "schraal beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/drainerend-schraal-beton> a skos:Concept;
+  skos:definition "Fundering van drainerend schraal beton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "drainerend schraal beton";
+  skos:prefLabel "drainerend schraal beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/walsbeton> a skos:Concept;
+  skos:definition "Fundering in walsbeton."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "walsbeton";
+  skos:prefLabel "walsbeton"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/schraal-asfalt> a skos:Concept;
+  skos:definition "Fundering van schraal asfalt"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "schraal asfalt";
+  skos:prefLabel "schraal asfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/waterdoorlatende-steenslagfundering> a skos:Concept;
+  skos:definition "Waterdoorlatende steenslagfundering"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "waterdoorlatende steenslagfundering";
+  skos:prefLabel "waterdoorlatende steenslagfundering"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/zand> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "zand";
+  skos:prefLabel "zand"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/zandcement> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "zandcement";
+  skos:prefLabel "zandcement"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/granulaatmengsel-0-4> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "granulaatmengsel 0-4";
+  skos:prefLabel "granulaatmengsel 0-4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/granulaatmengsel-0-6.3> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "granulaatmengsel 0-6.3";
+  skos:prefLabel "granulaatmengsel 0-6.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/mortel> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "mortel";
+  skos:prefLabel "mortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/steenslag-2-6.3> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "steenslag 2-6.3";
+  skos:prefLabel "steenslag 2-6.3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/bodemsubstraat-met-zand> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "bodemsubstraat met zand";
+  skos:prefLabel "bodemsubstraat met zand"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/bodemsubstraat-met-steenslag> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "bodemsubstraat met steenslag";
+  skos:prefLabel "bodemsubstraat met steenslag"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/bodemsubstraat> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "bodemsubstraat";
+  skos:prefLabel "bodemsubstraat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/tijdelijke-steenslag-miv-verwijdering> a skos:Concept;
+  skos:definition "Keuzelijst voor het bepalen van type onderbouw."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "tijdelijke steenslag miv verwijdering";
+  skos:prefLabel "tijdelijke steenslag miv verwijdering"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/skeletbodems> a skos:Concept;
+  skos:definition "Fundering van skeletbodems."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "skeletbodems";
+  skos:prefLabel "skeletbodems"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/vliegas-kalkmengsel> a skos:Concept;
+  skos:definition "Fundering van vliesgas-kalkmengsel"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "vliegas kalkmengsel";
+  skos:prefLabel "vliegas kalkmengsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOnderbouwType/vliegas-cementmengsel> a skos:Concept;
+  skos:definition "Fundering van vliesgas-cementmengsel."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType>;
+  skos:notation "vliegas cementmengsel";
+  skos:prefLabel "vliegas cementmengsel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOnderbouwType> .

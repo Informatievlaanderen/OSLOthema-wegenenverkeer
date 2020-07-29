@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype> a skos:ConceptScheme;
+  skos:definition "Types van terugkeer voor wild."@nl;
+  skos:prefLabel "Overstaptype"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoOverstaptype/dassenpoort> a skos:Concept;
+  skos:definition "Een dassenpoortje is een luikje dat schuin in het raster bevestigd is. Dat luikje gaat maar langs één kant open en valt automatisch terug dicht."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype>;
+  skos:notation "dassenpoort";
+  skos:prefLabel "dassenpoort"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoOverstaptype/ree-overstap> a skos:Concept;
+  skos:definition "Een verhoging aan de buitenzijde (aan de kant van de weg) met een steile afsprong naar de binnenzijde om dieren die toch aan de wegkant verzeild zijn geraakt terug naar de veilige kant te laten begeven. Door de steile afsprong kan het dier niet in de richting van de weg gaan."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype>;
+  skos:notation "ree overstap";
+  skos:prefLabel "ree overstap"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype> .

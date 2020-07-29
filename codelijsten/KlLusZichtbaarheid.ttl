@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusZichtbaarheid> a skos:ConceptScheme;
+  skos:definition "TODO"@nl;
+  skos:prefLabel "Lus zichtbaarheid"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLusZichtbaarheid/onderlaag> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusZichtbaarheid>;
+  skos:notation "onderlaag";
+  skos:prefLabel "onderlaag"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusZichtbaarheid> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLusZichtbaarheid/toplaag> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusZichtbaarheid>;
+  skos:notation "toplaag";
+  skos:prefLabel "toplaag"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLusZichtbaarheid> .

@@ -1,0 +1,526 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> a skos:ConceptScheme;
+  skos:definition "Codes voor de figuratie markering."@nl;
+  skos:prefLabel "Figuratie code"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BBK-BLOK> a skos:Concept;
+  skos:definition "Aanduiding bebouwde kom met blokken."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BBK BLOK";
+  skos:prefLabel "BBK BLOK"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BBK-50> a skos:Concept;
+  skos:definition "Aanduiding bebouwde kom met blokken met snelheidsbeperking van 50"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BBK-50";
+  skos:prefLabel "BBK-50"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-A> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-A";
+  skos:prefLabel "PL-A"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-A'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-A'";
+  skos:prefLabel "PL-A'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-B1'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor + links waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-B1'";
+  skos:prefLabel "PL-B1'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-B1> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor + links waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-B1";
+  skos:prefLabel "PL-B1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-B2'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor + rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-B2'";
+  skos:prefLabel "PL-B2'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-B2> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor + rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-B2";
+  skos:prefLabel "PL-B2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C1> a skos:Concept;
+  skos:definition "Een voorsorteringspijl links waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C1";
+  skos:prefLabel "PL-C1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C1'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl links waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C1'";
+  skos:prefLabel "PL-C1'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C2> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C2";
+  skos:prefLabel "PL-C2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C2'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C2'";
+  skos:prefLabel "PL-C2'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C3> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de links waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C3";
+  skos:prefLabel "PL-C3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C3'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de links waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C3'";
+  skos:prefLabel "PL-C3'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C4> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C4";
+  skos:prefLabel "PL-C4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C4'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C4'";
+  skos:prefLabel "PL-C4'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C3-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de links waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C3 oud";
+  skos:prefLabel "PL-C3 oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C3'-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de links waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C3' oud";
+  skos:prefLabel "PL-C3' oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C4-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C4 oud";
+  skos:prefLabel "PL-C4 oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-C4'-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl 2de rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-C4' oud";
+  skos:prefLabel "PL-C4' oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-D> a skos:Concept;
+  skos:definition "Een voorsorteringspijl links + rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-D";
+  skos:prefLabel "PL-D"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-D'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl links + rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-D'";
+  skos:prefLabel "PL-D'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-E> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor + links + rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-E";
+  skos:prefLabel "PL-E"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-E'> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechtdoor + links + rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-E'";
+  skos:prefLabel "PL-E'"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F1-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl links waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F1-oud";
+  skos:prefLabel "PL-F1-oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F1'-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl links waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F1'-oud";
+  skos:prefLabel "PL-F1'-oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F2-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechts waar een snelheidsbeperking <= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F2-oud";
+  skos:prefLabel "PL-F2-oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F2'-oud> a skos:Concept;
+  skos:definition "Een voorsorteringspijl rechts waar een snelheidsbeperking >= 70 km/h geldt."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F2'-oud";
+  skos:prefLabel "PL-F2'-oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-G1> a skos:Concept;
+  skos:definition "Een rijstrookverminderingspijl links voor autosnelwegen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-G1";
+  skos:prefLabel "PL-G1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-G2> a skos:Concept;
+  skos:definition "Een rijstrookverminderingspijl rechts voor autosnelwegen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-G2";
+  skos:prefLabel "PL-G2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-G3> a skos:Concept;
+  skos:definition "Een rijstrookverminderingspijl links voor niet-autosnelwegen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-G3";
+  skos:prefLabel "PL-G3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-oud> a skos:Concept;
+  skos:definition "Een fietspadpijl."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-oud";
+  skos:prefLabel "PL-oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-h> a skos:Concept;
+  skos:definition "Een kleine dubbele fietspadpijl."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-h";
+  skos:prefLabel "PL-h"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-c1> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor fietsers links."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-c1";
+  skos:prefLabel "PL-c1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F1> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor rotonde links."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F1";
+  skos:prefLabel "PL-F1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F4> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor rotonde rechtdoor + links."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F4";
+  skos:prefLabel "PL-F4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F6> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor rotonde rechtdoor + links + rechts."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F6";
+  skos:prefLabel "PL-F6"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F2> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor rotonde rechtdoor."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F2";
+  skos:prefLabel "PL-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F3> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor rotonde rechts."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F3";
+  skos:prefLabel "PL-F3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/PL-F5> a skos:Concept;
+  skos:definition "Een voorsorteringspijl voor rotonde rechtdoor + rechts."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "PL-F5";
+  skos:prefLabel "PL-F5"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BUS-DW> a skos:Concept;
+  skos:definition "Een dwarse lettermarkering BUS op de busstrook."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BUS DW";
+  skos:prefLabel "BUS DW"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BUS-BOB-DW> a skos:Concept;
+  skos:definition "Een dwarse lettermarkering BUS op BOB."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BUS BOB DW";
+  skos:prefLabel "BUS BOB DW"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BUS-BOB-LS> a skos:Concept;
+  skos:definition "Een overlangse lettermarkering BUS op BOB."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BUS BOB LS";
+  skos:prefLabel "BUS BOB LS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/TAXI-DW> a skos:Concept;
+  skos:definition "Een dwarse lettermarkering TAXI."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "TAXI DW";
+  skos:prefLabel "TAXI DW"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/TAXI-LS> a skos:Concept;
+  skos:definition "Een overlangse lettermarkering TAXI."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "TAXI LS";
+  skos:prefLabel "TAXI LS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/TRAM-DW> a skos:Concept;
+  skos:definition "Een dwarse lettermarkering TRAM."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "TRAM DW";
+  skos:prefLabel "TRAM DW"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/TRAM-LS> a skos:Concept;
+  skos:definition "Een overlangse lettermarkering TRAM."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "TRAM LS";
+  skos:prefLabel "TRAM LS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/STOP-DW> a skos:Concept;
+  skos:definition "Een dwarse lettermarkering STOP."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "STOP DW";
+  skos:prefLabel "STOP DW"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/STOP-DW-oud> a skos:Concept;
+  skos:definition "Een dwarse lettermarkering STOP."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "STOP DW-oud";
+  skos:prefLabel "STOP DW-oud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BHALTE-GR> a skos:Concept;
+  skos:definition "Een lettermarkering BUS met arcering > 22.75 m²."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BHALTE-GR";
+  skos:prefLabel "BHALTE-GR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BHALTE-KL> a skos:Concept;
+  skos:definition "Een lettermarkering BUS met arcering < 22.75 m²."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BHALTE-KL";
+  skos:prefLabel "BHALTE-KL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/BHALTE-WEG> a skos:Concept;
+  skos:definition "Een lettermarkering BUS zonder arcering"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "BHALTE-WEG";
+  skos:prefLabel "BHALTE-WEG"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-E1> a skos:Concept;
+  skos:definition "Een verkeersbordmarkering parkeerverbod (OFF)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-E1";
+  skos:prefLabel "VB-E1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-A23> a skos:Concept;
+  skos:definition "Een verkeersbordmarkering schoolkinderen (OFF)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-A23";
+  skos:prefLabel "VB-A23"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-E9i> a skos:Concept;
+  skos:definition "Een verkeersbordmarkering parkeerschijf (OFF)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-E9i";
+  skos:prefLabel "VB-E9i"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-FIETS-GR> a skos:Concept;
+  skos:definition "Een fietslogomarkering groot."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-FIETS-GR";
+  skos:prefLabel "LG-FIETS-GR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-FIETS-KL> a skos:Concept;
+  skos:definition "Een fietslogomarkering klein."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-FIETS-KL";
+  skos:prefLabel "LG-FIETS-KL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-MV-KL> a skos:Concept;
+  skos:definition "Een mindervalidenlogo klein."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-MV-KL";
+  skos:prefLabel "LG-MV-KL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-MV-N> a skos:Concept;
+  skos:definition "Een mindervalidenlogo normaal."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-MV-N";
+  skos:prefLabel "LG-MV-N"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-MV-GR> a skos:Concept;
+  skos:definition "Een mindervalidenlogo groot."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-MV-GR";
+  skos:prefLabel "LG-MV-GR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/visgraat> a skos:Concept;
+  skos:definition "Een visgraatmarkering om de verkeersveiligheid te vergroten en kop-staartbotsingen te vermijden (bij mist)."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "visgraat";
+  skos:prefLabel "visgraat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-B1-GR> a skos:Concept;
+  skos:definition "Een omgekeerde driehoekmarkering groot."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-B1-GR";
+  skos:prefLabel "VB-B1-GR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-B1-KL> a skos:Concept;
+  skos:definition "Een omgekeerde driehoekmarkering klein."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-B1-KL";
+  skos:prefLabel "VB-B1-KL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-A49> a skos:Concept;
+  skos:definition "Kruising sporen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-A49";
+  skos:prefLabel "VB-A49"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-A21> a skos:Concept;
+  skos:definition "Oversteekplaats voor voetgangers."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-A21";
+  skos:prefLabel "VB-A21"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-F113> a skos:Concept;
+  skos:definition "Fietsstraat einde."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-F113";
+  skos:prefLabel "VB-F113"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/VB-F111> a skos:Concept;
+  skos:definition "Fietsstraat begin."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "VB-F111";
+  skos:prefLabel "VB-F111"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Brfiets-KL> a skos:Concept;
+  skos:definition "Logo bromfiets klein."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Brfiets-KL";
+  skos:prefLabel "LG-Brfiets-KL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Brfiets-GR> a skos:Concept;
+  skos:definition "Logo bromfiets groot."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Brfiets-GR";
+  skos:prefLabel "LG-Brfiets-GR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Autocar> a skos:Concept;
+  skos:definition "Logo autocar"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Autocar";
+  skos:prefLabel "LG-Autocar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Woonwrk> a skos:Concept;
+  skos:definition "Logo woon-werkverkeer."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Woonwrk";
+  skos:prefLabel "LG-Woonwrk"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Elek-KL> a skos:Concept;
+  skos:definition "Elektrische voertuigen logo verkleind."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Elek-KL";
+  skos:prefLabel "LG-Elek-KL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Elek-N> a skos:Concept;
+  skos:definition "Elektrische voertuigen logo normaal."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Elek-N";
+  skos:prefLabel "LG-Elek-N"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCode/LG-Elek-GR> a skos:Concept;
+  skos:definition "Elektrische voertuigen logo vergroot."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode>;
+  skos:notation "LG-Elek-GR";
+  skos:prefLabel "LG-Elek-GR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCode> .

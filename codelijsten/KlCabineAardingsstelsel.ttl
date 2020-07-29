@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineAardingsstelsel> a skos:ConceptScheme;
+  skos:definition "TODO"@nl;
+  skos:prefLabel "Cabine aardingsstelsel"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineAardingsstelsel/gescheiden> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineAardingsstelsel>;
+  skos:notation "gescheiden";
+  skos:prefLabel "gescheiden"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineAardingsstelsel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineAardingsstelsel/globaal> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineAardingsstelsel>;
+  skos:notation "globaal";
+  skos:prefLabel "globaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCabineAardingsstelsel> .

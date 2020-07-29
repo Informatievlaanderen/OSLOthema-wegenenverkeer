@@ -1,0 +1,92 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> a skos:ConceptScheme;
+  skos:definition "Materialen van de persleiding"@nl;
+  skos:prefLabel "Persleiding materiaal"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-nodulair-gietijzer-voor-drukleidingen> a skos:Concept;
+  skos:definition "Buizen van nodulair gietijzer voor drukleidingen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van nodulair gietijzer voor drukleidingen";
+  skos:prefLabel "buizen van nodulair gietijzer voor drukleidingen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-PVC-voor-drukleidingen.-PN-6> a skos:Concept;
+  skos:definition "Buizen van PVC voor drukleidingen, PN 6"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van PVC voor drukleidingen. PN 6";
+  skos:prefLabel "buizen van PVC voor drukleidingen. PN 6"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-PVC-voor-drukleidingen.-PN-10> a skos:Concept;
+  skos:definition "Buizen van PVC voor drukleidingen, PN 10"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van PVC voor drukleidingen. PN 10";
+  skos:prefLabel "buizen van PVC voor drukleidingen. PN 10"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-PVC-voor-drukleidingen.-PN-16> a skos:Concept;
+  skos:definition "Buizen van PVC voor drukleidingen, PN 16"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van PVC voor drukleidingen. PN 16";
+  skos:prefLabel "buizen van PVC voor drukleidingen. PN 16"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-voor-polyethyleen-voor-drukleidingen.-PN-6> a skos:Concept;
+  skos:definition "Buizen voor polyethyleen voor drukleidingen, PN 6"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen voor polyethyleen voor drukleidingen. PN 6";
+  skos:prefLabel "buizen voor polyethyleen voor drukleidingen. PN 6"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-voor-polyethyleen-voor-drukleidingen.-PN-10> a skos:Concept;
+  skos:definition "Buizen voor polyethyleen voor drukleidingen, PN 10"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen voor polyethyleen voor drukleidingen. PN 10";
+  skos:prefLabel "buizen voor polyethyleen voor drukleidingen. PN 10"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-voor-polyethyleen-voor-drukleidingen.-PN-16> a skos:Concept;
+  skos:definition "Buizen voor polyethyleen voor drukleidingen, PN 16"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen voor polyethyleen voor drukleidingen. PN 16";
+  skos:prefLabel "buizen voor polyethyleen voor drukleidingen. PN 16"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-voor-leidingen-onder-druk.-PN-6.-SN-5000-N-m²> a skos:Concept;
+  skos:definition "Buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk, PN 6, SN 5000 N/m²"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 6. SN 5000 N-m²";
+  skos:prefLabel "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 6. SN 5000 N-m²"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-voor-leidingen-onder-druk.-PN-6.-SN-10000-N-m²> a skos:Concept;
+  skos:definition "Buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk, PN 6, SN 10000 N/m²"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 6. SN 10000 N-m²";
+  skos:prefLabel "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 6. SN 10000 N-m²"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-voor-leidingen-onder-druk.-PN-10.-SN-5000-N-m²> a skos:Concept;
+  skos:definition "Buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk, PN 10, SN 5000 N/m²"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 10. SN 5000 N-m²";
+  skos:prefLabel "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 10. SN 5000 N-m²"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-voor-leidingen-onder-druk.-PN-10.-SN-10000-N-m²> a skos:Concept;
+  skos:definition "Buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk, PN 10, SN 10000 N/m²"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 10. SN 10000 N-m²";
+  skos:prefLabel "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 10. SN 10000 N-m²"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPersleidingMateriaal/buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-voor-leidingen-onder-druk.-PN-16.-SN-10000-N-m²> a skos:Concept;
+  skos:definition "Buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk, PN 16, SN 10000 N/m²"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal>;
+  skos:notation "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 16. SN 10000 N-m²";
+  skos:prefLabel "buizen van gevuld en glasvezelversterkt polyesterhars voor leidingen onder druk. PN 16. SN 10000 N-m²"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPersleidingMateriaal> .

@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor> a skos:ConceptScheme;
+  skos:definition "NAS/SAN//Webserver//..."@nl;
+  skos:prefLabel "Hardware vormfactor"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareVormfactor/server> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor>;
+  skos:notation "server";
+  skos:prefLabel "server"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareVormfactor/desktop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor>;
+  skos:notation "desktop";
+  skos:prefLabel "desktop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareVormfactor/laptop> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor>;
+  skos:notation "laptop";
+  skos:prefLabel "laptop"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareVormfactor> .

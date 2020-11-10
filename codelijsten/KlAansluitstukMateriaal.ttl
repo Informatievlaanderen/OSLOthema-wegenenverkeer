@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> a skos:ConceptScheme;
+  skos:definition "Het materiaal van het aansluitstuk."@nl;
+  skos:prefLabel "Aansluitstuk materiaal"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/gres> a skos:Concept;
+  skos:definition "Gres"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "gres";
+  skos:prefLabel "gres"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/polyethyleen> a skos:Concept;
+  skos:definition "polyethyleen//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "polyethyleen";
+  skos:prefLabel "polyethyleen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc> a skos:Concept;
+  skos:definition "Polyvinylchloride"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "pvc";
+  skos:prefLabel "pvc"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc-u-composiet> a skos:Concept;
+  skos:definition "pvc-u-composiet"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "pvc-u-composiet";
+  skos:prefLabel "pvc-u-composiet"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pp> a skos:Concept;
+  skos:definition "Polypropyleen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "pp";
+  skos:prefLabel "pp"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .

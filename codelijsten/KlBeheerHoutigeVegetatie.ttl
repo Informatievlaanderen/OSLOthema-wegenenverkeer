@@ -14,11 +14,11 @@
   skos:prefLabel "hakhoutbeheer"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/nietsDoen> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/niets-doen> a skos:Concept;
   skos:definition "Er wordt geen beheer uitgevoerd"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
-  skos:notation "nietsDoen";
-  skos:prefLabel "nietsDoen"@nl;
+  skos:notation "niets doen";
+  skos:prefLabel "niets doen"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/scheren> a skos:Concept;
@@ -75,4 +75,39 @@
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
   skos:notation "bestrijding";
   skos:prefLabel "bestrijding"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/afpalingswerken> a skos:Concept;
+  skos:definition "Het afpalen van bepaalde oppervlaktes met vegetatie."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "afpalingswerken";
+  skos:prefLabel "afpalingswerken"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/begieten> a skos:Concept;
+  skos:definition "Periodisch begieten van vegetatie. "@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "begieten";
+  skos:prefLabel "begieten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/rooien> a skos:Concept;
+  skos:definition "Wegnemen van vegetatie dmv rooien. "@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "rooien";
+  skos:prefLabel "rooien"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/ontstronken> a skos:Concept;
+  skos:definition "Ontstronken van bomen. "@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "ontstronken";
+  skos:prefLabel "ontstronken"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/gedeeltelijk-ontstronken> a skos:Concept;
+  skos:definition "Gedeeltelijk ontstronken van bomen. "@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
+  skos:notation "gedeeltelijk ontstronken";
+  skos:prefLabel "gedeeltelijk ontstronken"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .

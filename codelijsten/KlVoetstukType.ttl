@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType> a skos:ConceptScheme;
+  skos:definition "Types voor voetstukken van draagconstructies en behuizingen."@nl;
+  skos:prefLabel "Voetstuk type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoetstukType/funderingsvoet> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType>;
+  skos:notation "funderingsvoet";
+  skos:prefLabel "funderingsvoet"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoetstukType/strookfundering> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType>;
+  skos:notation "strookfundering";
+  skos:prefLabel "strookfundering"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoetstukType/sokkel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType>;
+  skos:notation "sokkel";
+  skos:prefLabel "sokkel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoetstukType/kastvoet> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType>;
+  skos:notation "kastvoet";
+  skos:prefLabel "kastvoet"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoetstukType> .

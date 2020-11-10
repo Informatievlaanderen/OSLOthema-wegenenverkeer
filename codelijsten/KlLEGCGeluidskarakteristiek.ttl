@@ -15,8 +15,15 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/reflecterend> a skos:Concept;
-  skos:definition ""@nl;
+  skos:definition "reflecterend//"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
   skos:notation "reflecterend";
   skos:prefLabel "reflecterend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/bi-absorberend> a skos:Concept;
+  skos:definition "De geluidsgolven worden gedeeltelijk niet weerkaatst door de geluidswerende constructie (langs beide zijden)."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
+  skos:notation "bi-absorberend";
+  skos:prefLabel "bi-absorberend"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .

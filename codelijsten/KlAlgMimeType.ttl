@@ -49,11 +49,11 @@
   skos:prefLabel "application-pdf"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgMimeType/applicatio-rtf> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgMimeType/application-rtf> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
-  skos:notation "applicatio-rtf";
-  skos:prefLabel "applicatio-rtf"@nl;
+  skos:notation "application-rtf";
+  skos:prefLabel "application-rtf"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgMimeType/image-tiff> a skos:Concept;
@@ -110,4 +110,18 @@
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
   skos:notation "text-xml";
   skos:prefLabel "text-xml"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgMimeType/image-dxf> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
+  skos:notation "image-dxf";
+  skos:prefLabel "image-dxf"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgMimeType/image-svg> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
+  skos:notation "image-svg";
+  skos:prefLabel "image-svg"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .

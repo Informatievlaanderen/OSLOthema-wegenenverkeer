@@ -1,0 +1,92 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met mogelijke waarden voor de rol waarmee een agent betrokken is bij een object."@nl;
+  skos:prefLabel "Betrokkenheid rol"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/eigenaar> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "eigenaar";
+  skos:prefLabel "eigenaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/toezichter> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "toezichter";
+  skos:prefLabel "toezichter"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/beheerder> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "beheerder";
+  skos:prefLabel "beheerder"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/lid> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "lid";
+  skos:prefLabel "lid"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/leidinggevende> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "leidinggevende";
+  skos:prefLabel "leidinggevende"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/klant> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "klant";
+  skos:prefLabel "klant"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/berekende-beheerder> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "berekende beheerder";
+  skos:prefLabel "berekende beheerder"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/suborganisatie-van> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "suborganisatie van";
+  skos:prefLabel "suborganisatie van"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/verantwoordelijke-reiniging> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "verantwoordelijke reiniging";
+  skos:prefLabel "verantwoordelijke reiniging"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/schadebeheerder> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "schadebeheerder";
+  skos:prefLabel "schadebeheerder"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/toezichtsgroep> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "toezichtsgroep";
+  skos:prefLabel "toezichtsgroep"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetrokkenheidRol/toezicht-onderhoud> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol>;
+  skos:notation "toezicht onderhoud";
+  skos:prefLabel "toezicht onderhoud"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetrokkenheidRol> .

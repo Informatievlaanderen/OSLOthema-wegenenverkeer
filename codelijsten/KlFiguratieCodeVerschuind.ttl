@@ -7,6 +7,13 @@
   skos:definition "Codes voor de verschuinde figuratie markering."@nl;
   skos:prefLabel "Figuratie code verschuind"@nl.
 
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCodeVerschuind/STOP-SmSc> a skos:Concept;
+  skos:definition "Een STOP markering smal en schuin."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCodeVerschuind>;
+  skos:notation "STOP-SmSc";
+  skos:prefLabel "STOP-SmSc"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCodeVerschuind> .
+
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieCodeVerschuind/VB-B1-GRsch> a skos:Concept;
   skos:definition "Een omgekeerde driehoekmarkering groot en schuin."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieCodeVerschuind>;

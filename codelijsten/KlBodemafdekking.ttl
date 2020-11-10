@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking> a skos:ConceptScheme;
+  skos:definition "Middelen om concurrentie van ongewenste vegetatie en verdamping tegen te gaan."@nl;
+  skos:prefLabel "Bodemafdekking"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBodemafdekking/groencompost> a skos:Concept;
+  skos:definition "Afdekking van de bodem rond de boom met groencompost.//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking>;
+  skos:notation "groencompost";
+  skos:prefLabel "groencompost"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBodemafdekking/houtsnippers> a skos:Concept;
+  skos:definition "Afdekking van de bodem rond de boom met houtsnippers.//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking>;
+  skos:notation "houtsnippers";
+  skos:prefLabel "houtsnippers"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBodemafdekking/boomschors> a skos:Concept;
+  skos:definition "Afdekking van de bodem rond de boom met boomschors.//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking>;
+  skos:notation "boomschors";
+  skos:prefLabel "boomschors"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBodemafdekking/biologisch-afbreekbaar-doek-PLA> a skos:Concept;
+  skos:definition "Afdekking van de bodem rond de boom met een biologisch afbreekbaar doek in PLA.//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking>;
+  skos:notation "biologisch afbreekbaar doek PLA";
+  skos:prefLabel "biologisch afbreekbaar doek PLA"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBodemafdekking/biologisch-afbreekbaar-doek-jute> a skos:Concept;
+  skos:definition "Afdekking van de bodem rond de boom met een biologisch afbreekbaar doek in jute."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking>;
+  skos:notation "biologisch afbreekbaar doek jute";
+  skos:prefLabel "biologisch afbreekbaar doek jute"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBodemafdekking> .

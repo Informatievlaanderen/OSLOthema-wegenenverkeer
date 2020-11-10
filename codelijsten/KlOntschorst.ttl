@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst> a skos:ConceptScheme;
+  skos:definition "Aanduiding of de schors van de perkoenpaal al dan niet verwijderd is."@nl;
+  skos:prefLabel "Ontschorst"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntschorst/gedeeltelijk> a skos:Concept;
+  skos:definition "gedeeltelijk//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst>;
+  skos:notation "gedeeltelijk";
+  skos:prefLabel "gedeeltelijk"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntschorst/volledig> a skos:Concept;
+  skos:definition "volledig//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst>;
+  skos:notation "volledig";
+  skos:prefLabel "volledig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntschorst/niet> a skos:Concept;
+  skos:definition "niet"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst>;
+  skos:notation "niet";
+  skos:prefLabel "niet"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntschorst> .

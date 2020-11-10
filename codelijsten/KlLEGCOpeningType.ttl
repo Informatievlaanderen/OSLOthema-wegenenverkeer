@@ -8,15 +8,29 @@
   skos:prefLabel "Opening type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/sas> a skos:Concept;
-  skos:definition ""@nl;
+  skos:definition "sas"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType>;
   skos:notation "sas";
   skos:prefLabel "sas"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/nooddeur> a skos:Concept;
-  skos:definition ""@nl;
+  skos:definition "nooddeur"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType>;
   skos:notation "nooddeur";
   skos:prefLabel "nooddeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/dienstopening> a skos:Concept;
+  skos:definition "dienstopening//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType>;
+  skos:notation "dienstopening";
+  skos:prefLabel "dienstopening"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/vluchtopening> a skos:Concept;
+  skos:definition "vluchtopening"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType>;
+  skos:notation "vluchtopening";
+  skos:prefLabel "vluchtopening"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType> .

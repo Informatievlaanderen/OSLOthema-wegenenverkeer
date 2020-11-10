@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> a skos:ConceptScheme;
+  skos:definition "Het type van bak van de straatkolk."@nl;
+  skos:prefLabel "Straatkolk bak type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/geprefabriceerde-betonnen-bak-type-I> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
+  skos:notation "geprefabriceerde betonnen bak type I";
+  skos:prefLabel "geprefabriceerde betonnen bak type I"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/geprefabriceerde-betonnen-bak-type-II> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
+  skos:notation "geprefabriceerde betonnen bak type II";
+  skos:prefLabel "geprefabriceerde betonnen bak type II"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/gietijzeren-bak> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
+  skos:notation "gietijzeren bak";
+  skos:prefLabel "gietijzeren bak"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .

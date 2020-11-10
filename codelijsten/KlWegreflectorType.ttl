@@ -4,19 +4,33 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType> a skos:ConceptScheme;
-  skos:definition "Types van wegreflector."@nl;
+  skos:definition "De vormen van een wegreflector."@nl;
   skos:prefLabel "Wegreflector type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegreflectorType/wegdekreflector> a skos:Concept;
-  skos:definition "Een wegreflector aangebracht op de rijbaan met als doel de zichtbaarheid van verkeerseilanden te verhogen en geleiding van de weggebruiker langs de weg"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegreflectorType/kunststof-wegdekreflector> a skos:Concept;
+  skos:definition "Een kunststoffen wegreflector aangebracht op de rijbaan met als doel de zichtbaarheid van verkeerseilanden te verhogen en geleiding van de weggebruiker langs de weg"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType>;
-  skos:notation "wegdekreflector";
-  skos:prefLabel "wegdekreflector"@nl;
+  skos:notation "kunststof wegdekreflector";
+  skos:prefLabel "kunststof wegdekreflector"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegreflectorType/glasbolreflector> a skos:Concept;
-  skos:definition "Een wegreflector in glas met als doel de geleiding van de weggebruiker langs de weg"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegreflectorType/glasbolreflector-50-mm-diameter> a skos:Concept;
+  skos:definition "Een wegreflector in glas en diameter 50 millimeter met als doel de geleiding van de weggebruiker langs de weg"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType>;
-  skos:notation "glasbolreflector";
-  skos:prefLabel "glasbolreflector"@nl;
+  skos:notation "glasbolreflector 50 mm diameter";
+  skos:prefLabel "glasbolreflector 50 mm diameter"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegreflectorType/metalen-wegdekreflector> a skos:Concept;
+  skos:definition "Een metalen wegreflector aangebracht op de rijbaan met als doel de zichtbaarheid van verkeerseilanden te verhogen en geleiding van de weggebruiker langs de weg"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType>;
+  skos:notation "metalen wegdekreflector";
+  skos:prefLabel "metalen wegdekreflector"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegreflectorType/glasbolreflector-100-mm-diameter> a skos:Concept;
+  skos:definition "Een wegreflector in glas en diameter 100 millimeter met als doel de geleiding van de weggebruiker langs de weg"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType>;
+  skos:notation "glasbolreflector 100 mm diameter";
+  skos:prefLabel "glasbolreflector 100 mm diameter"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegreflectorType> .

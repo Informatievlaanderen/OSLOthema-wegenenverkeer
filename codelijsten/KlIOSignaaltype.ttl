@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIOSignaaltype> a skos:ConceptScheme;
-  skos:definition "Lijst met mogelijke signaaltypes voor een invoer-uitvoer kaart of module."@nl;
-  skos:prefLabel "IO signaaltype"@nl.
+  skos:definition "Geeft aan of de IO-kaart werkt met een digitaal of met een analoog signaal."@nl;
+  skos:prefLabel "IO-kaart signaaltype"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIOSignaaltype/analoog> a skos:Concept;
   skos:definition ""@nl;

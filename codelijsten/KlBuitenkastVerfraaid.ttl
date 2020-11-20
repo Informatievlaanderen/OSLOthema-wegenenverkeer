@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid> a skos:ConceptScheme;
+  skos:definition "Mogelijke types voor verfraaiing als combinatie van aan- en afwezigheid en al dan niet vegund."@nl;
+  skos:prefLabel "Verfraaing buitenkast"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/ja> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid>;
+  skos:notation "ja";
+  skos:prefLabel "ja"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/nee> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid>;
+  skos:notation "nee";
+  skos:prefLabel "nee"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/ja.-niet-vergund> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid>;
+  skos:notation "ja. niet vergund";
+  skos:prefLabel "ja. niet vergund"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid> .

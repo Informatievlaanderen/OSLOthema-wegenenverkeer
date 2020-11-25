@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEleAansluitvermogen> a skos:ConceptScheme;
-  skos:definition "Vermogen van de aansluiting"@nl;
+  skos:definition "Keuzelijst met gangbare waarden voor elektrisch aansluitvermogen."@nl;
   skos:prefLabel "Elektrisch aansluitvermogen"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEleAansluitvermogen/20A-230Veenfasig-4.6kVA> a skos:Concept;
@@ -108,8 +108,8 @@
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEleAansluitvermogen/25A-230Veenfasig-5.8kVA> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEleAansluitvermogen>;
-  skos:notation "25A 230Veenfasig-5.8 kVA";
-  skos:prefLabel "25A 230Veenfasig-5.8 kVA"@nl;
+  skos:notation "25A 230Veenfasig-5.8kVA";
+  skos:prefLabel "25A 230Veenfasig-5.8kVA"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEleAansluitvermogen> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEleAansluitvermogen/50A-230Veenfasig-11.5kVA> a skos:Concept;

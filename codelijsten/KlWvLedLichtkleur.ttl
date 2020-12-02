@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> a skos:ConceptScheme;
-  skos:definition ""@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> a skos:ConceptScheme;
+  skos:definition "Beschrijving van de kleur van het licht adhv de naam van de kleur."@nl;
   skos:prefLabel "WV LED lichtkleur"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/amber> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/amber> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
   skos:notation "amber";
   skos:prefLabel "amber"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/wit> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/wit> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
   skos:notation "wit";
   skos:prefLabel "wit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/rood> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/rood> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
   skos:notation "rood";
   skos:prefLabel "rood"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/blauw> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedLichtkleur/blauw> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur>;
   skos:notation "blauw";
   skos:prefLabel "blauw"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedLichtkleur> .

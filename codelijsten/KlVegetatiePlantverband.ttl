@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband> a skos:ConceptScheme;
-  skos:definition "Keuzelijst met de verschillende opties plantverband"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband> a skos:ConceptScheme;
+  skos:definition "De verschillende opties voor het plantverband."@nl;
   skos:prefLabel "Vegetatie plantverband"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatiePlantverband/geschrankt> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatiePlantverband/geschrankt> a skos:Concept;
   skos:definition "De planten staan geschrankt"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband>;
   skos:notation "geschrankt";
   skos:prefLabel "geschrankt"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatiePlantverband/rijafstand> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatiePlantverband/rijafstand> a skos:Concept;
   skos:definition "De afstand tussen de rijen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband>;
   skos:notation "rijafstand";
   skos:prefLabel "rijafstand"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatiePlantverband> .

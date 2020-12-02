@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> a skos:ConceptScheme;
   skos:definition "Keuzeijst voor het bepalen van folietype van de retroreflecterende koker"@nl;
   skos:prefLabel "Retroreflecterende koker folie type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRetroreflecterendeKokerFolieType/folie-type-2> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRetroreflecterendeKokerFolieType/type-2> a skos:Concept;
   skos:definition "Keuze folie type 2 (geel) als folietype van de retroreflecterende koker"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType>;
-  skos:notation "folie type 2";
-  skos:prefLabel "folie type 2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType>;
+  skos:notation "type 2";
+  skos:prefLabel "type 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRetroreflecterendeKokerFolieType/folie-type-3> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRetroreflecterendeKokerFolieType/type-3> a skos:Concept;
   skos:definition "Keuze folie type 3 als folietype (geel - fluorescerend) van de retroreflecterende koker"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType>;
-  skos:notation "folie type 3";
-  skos:prefLabel "folie type 3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> .
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType>;
+  skos:notation "type 3";
+  skos:prefLabel "type 3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> .

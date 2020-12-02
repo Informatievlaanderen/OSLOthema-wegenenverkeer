@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> a skos:ConceptScheme;
-  skos:definition ""@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> a skos:ConceptScheme;
+  skos:definition "Keuzelist met de voorkomende communicatieprotocollen voor VRIstuurkaarten."@nl;
   skos:prefLabel "VRI-communicatieprotocol"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/ocit> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/ocit> a skos:Concept;
   skos:definition "nog in te vullen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol>;
   skos:notation "ocit";
   skos:prefLabel "ocit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/canto> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/canto> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol>;
   skos:notation "canto";
   skos:prefLabel "canto"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/gecombineerd> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/gecombineerd> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol>;
   skos:notation "gecombineerd";
   skos:prefLabel "gecombineerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol> .

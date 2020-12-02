@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType> a skos:ConceptScheme;
-  skos:definition "Keuzelijst om het type van putbekleding te bepalen."@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType> a skos:ConceptScheme;
+  skos:definition "Types van putbekleding."@nl;
   skos:prefLabel "Putbekleding type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-vezelversterkte-epoxyhars> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-vezelversterkte-epoxyhars> a skos:Concept;
   skos:definition "solventvrije vezelversterkte epoxyhars"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType>;
   skos:notation "solventvrije vezelversterkte epoxyhars";
   skos:prefLabel "solventvrije vezelversterkte epoxyhars"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-kunsthars> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-kunsthars> a skos:Concept;
   skos:definition "solventvrije kunsthars"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType>;
   skos:notation "solventvrije kunsthars";
   skos:prefLabel "solventvrije kunsthars"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType> .

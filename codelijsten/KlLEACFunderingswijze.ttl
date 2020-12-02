@@ -3,90 +3,90 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> a skos:ConceptScheme;
-  skos:definition "De manier waarop de aansluitende constructie is gefundeerd."@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> a skos:ConceptScheme;
+  skos:definition "Manieren waarop de aansluitende constructie is gefundeerd."@nl;
   skos:prefLabel "Funderingswijze"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/standaardpaal> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/standaardpaal> a skos:Concept;
   skos:definition "Een standaardpaal ter bevestiging van de aansluitende constructie."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "standaardpaal";
   skos:prefLabel "standaardpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/verlengde-paal-type-1-(standaardpaal-+30-pct)> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/verlengde-paal-type-1-(standaardpaal-+30-pct)> a skos:Concept;
   skos:definition "Een verlengde paal type 1 ter bevestiging van de aansluitende constructie."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "verlengde paal type 1 (standaardpaal +30 pct)";
   skos:prefLabel "verlengde paal type 1 (standaardpaal +30 pct)"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/verlengde-paal-type-2-(standaardpaal-+60-pct)> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/verlengde-paal-type-2-(standaardpaal-+60-pct)> a skos:Concept;
   skos:definition "Een verlengde paal type 2 ter bevestiging van de aansluitende constructie."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "verlengde paal type 2 (standaardpaal +60 pct)";
   skos:prefLabel "verlengde paal type 2 (standaardpaal +60 pct)"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/fundering-op-voetplaat> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/fundering-op-voetplaat> a skos:Concept;
   skos:definition "De fundering van de paal op een voetplaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "fundering op voetplaat";
   skos:prefLabel "fundering op voetplaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/fundering-in-asfalt-(paal-in-asfalt)> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/fundering-in-asfalt-(paal-in-asfalt)> a skos:Concept;
   skos:definition "De fundering in asfalt (paal in asfalt)."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "fundering in asfalt (paal in asfalt)";
   skos:prefLabel "fundering in asfalt (paal in asfalt)"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/fundering-in-beton-(paal-ingebetonneerd)> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/fundering-in-beton-(paal-ingebetonneerd)> a skos:Concept;
   skos:definition "De fundering in beton (paal ingebetonneerd)."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "fundering in beton (paal ingebetonneerd)";
   skos:prefLabel "fundering in beton (paal ingebetonneerd)"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/losstaand-op-asfalt> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/losstaand-op-asfalt> a skos:Concept;
   skos:definition "De paal losstaand op asfalt."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "losstaand op asfalt";
   skos:prefLabel "losstaand op asfalt"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/losstaand-op-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/losstaand-op-beton> a skos:Concept;
   skos:definition "De paal losstaand op beton."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "losstaand op beton";
   skos:prefLabel "losstaand op beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/losstaand-op-mager-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/losstaand-op-mager-beton> a skos:Concept;
   skos:definition "De paal losstaand op mager beton."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "losstaand op mager beton";
   skos:prefLabel "losstaand op mager beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/tand-groef-op-asfalt> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/tand-groef-op-asfalt> a skos:Concept;
   skos:definition "De paal tand-groef op asfalt"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "tand-groef op asfalt";
   skos:prefLabel "tand-groef op asfalt"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/tand-groef-op-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/tand-groef-op-beton> a skos:Concept;
   skos:definition "De paal tand-groef op beton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "tand-groef op beton";
   skos:prefLabel "tand-groef op beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/tand-groef-op-mager-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACFunderingswijze/tand-groef-op-mager-beton> a skos:Concept;
   skos:definition "De paal tand-groef op mager beton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze>;
   skos:notation "tand-groef op mager beton";
   skos:prefLabel "tand-groef op mager beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACFunderingswijze> .

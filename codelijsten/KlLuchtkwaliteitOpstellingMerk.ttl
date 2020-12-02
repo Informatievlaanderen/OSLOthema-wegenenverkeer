@@ -3,13 +3,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuchtkwaliteitOpstellingMerk> a skos:ConceptScheme;
-  skos:definition ""@nl;
-  skos:prefLabel "Luchtkwaliteit opstelling merk"@nl.
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLuchtkwaliteitOpstellingMerk> a skos:ConceptScheme;
+  skos:definition "Het merk van een onderdeel uit een luchtkwaliteitsinstallatie."@nl;
+  skos:prefLabel "Luchtkwaliteitsopstelling merk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLuchtkwaliteitOpstellingMerk/sick> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLuchtkwaliteitOpstellingMerk/sick> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuchtkwaliteitOpstellingMerk>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLuchtkwaliteitOpstellingMerk>;
   skos:notation "sick";
   skos:prefLabel "sick"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuchtkwaliteitOpstellingMerk> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLuchtkwaliteitOpstellingMerk> .

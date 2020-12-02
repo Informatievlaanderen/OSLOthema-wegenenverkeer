@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> a skos:ConceptScheme;
-  skos:definition ""@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> a skos:ConceptScheme;
+  skos:definition "TODO"@nl;
   skos:prefLabel "Z30 CPU type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZ30CPUType/diamond> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZ30CPUType/diamond> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType>;
   skos:notation "diamond";
   skos:prefLabel "diamond"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZ30CPUType/moxa> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZ30CPUType/moxa> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType>;
   skos:notation "moxa";
   skos:prefLabel "moxa"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZ30CPUType/ixor> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZ30CPUType/ixor> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType>;
   skos:notation "ixor";
   skos:prefLabel "ixor"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlZ30CPUType> .

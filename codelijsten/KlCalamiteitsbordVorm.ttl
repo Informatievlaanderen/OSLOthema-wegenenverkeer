@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> a skos:ConceptScheme;
-  skos:definition "Keuzelijst om de vorm van het calamiteitsbord te bepalen."@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> a skos:ConceptScheme;
+  skos:definition "Vormen van het calamiteitsbord."@nl;
   skos:prefLabel "Calamiteitsbord vorm"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCalamiteitsbordVorm/rechthoekig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordVorm/rechthoekig> a skos:Concept;
   skos:definition "Een rechthoekig calamiteitsbord."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm>;
   skos:notation "rechthoekig";
   skos:prefLabel "rechthoekig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCalamiteitsbordVorm/ruitvormig> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordVorm/ruitvormig> a skos:Concept;
   skos:definition "Een ruitvormig calamiteitsbord."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm>;
   skos:notation "ruitvormig";
   skos:prefLabel "ruitvormig"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> .

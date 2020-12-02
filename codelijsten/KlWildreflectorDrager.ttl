@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> a skos:ConceptScheme;
-  skos:definition "Keuzelijst om de drager van wildreflector te bepalen."@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> a skos:ConceptScheme;
+  skos:definition "Mogelijke dragers van een wildreflector."@nl;
   skos:prefLabel "Wildreflector drager"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWildreflectorDrager/reflectorpaal> a skos:Concept;
-  skos:definition "reflectorpaal als drager."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager>;
-  skos:notation "reflectorpaal";
-  skos:prefLabel "reflectorpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWildreflectorDrager/houten-paal> a skos:Concept;
+  skos:definition "houten paal als drager."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager>;
+  skos:notation "houten paal";
+  skos:prefLabel "houten paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWildreflectorDrager/houtenpaal> a skos:Concept;
-  skos:definition "houtenpaal als drager."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager>;
-  skos:notation "houtenpaal";
-  skos:prefLabel "houtenpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWildreflectorDrager/metalen-paal> a skos:Concept;
+  skos:definition "metalen paal als drager."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager>;
+  skos:notation "metalen paal";
+  skos:prefLabel "metalen paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> .

@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType> a skos:ConceptScheme;
+  skos:definition "De afmetingen en materiaaleigenschappen van de perkoenpaal."@nl;
+  skos:prefLabel "Perkoen type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPerkoenType/type-I.-dikteklasse-9-10> a skos:Concept;
+  skos:definition "Type I"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType>;
+  skos:notation "type I, dikteklasse 9/10";
+  skos:prefLabel "type I, dikteklasse 9/10"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPerkoenType/type-II.-dikteklasse-11-12> a skos:Concept;
+  skos:definition "Type II//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType>;
+  skos:notation "type II, dikteklasse 11/12";
+  skos:prefLabel "type II, dikteklasse 11/12"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPerkoenType/type-III.-dikteklasse-15-16> a skos:Concept;
+  skos:definition "Type III"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType>;
+  skos:notation "type III, dikteklasse 15/16";
+  skos:prefLabel "type III, dikteklasse 15/16"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPerkoenType/type-IV.-dikteklasse-17-18> a skos:Concept;
+  skos:definition "Type IV"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType>;
+  skos:notation "type IV, dikteklasse 17/18";
+  skos:prefLabel "type IV, dikteklasse 17/18"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPerkoenType/type-V.-dikteklasse-20-21> a skos:Concept;
+  skos:definition "type V"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType>;
+  skos:notation "type V, dikteklasse 20/21";
+  skos:prefLabel "type V, dikteklasse 20/21"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPerkoenType> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType> a skos:ConceptScheme;
-  skos:definition ""@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType> a skos:ConceptScheme;
+  skos:definition "Lijst met mogelijke types voor transport van audio over een medium."@nl;
   skos:prefLabel "Audio transport type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAudioTransportType/voip> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAudioTransportType/voip> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType>;
   skos:notation "voip";
   skos:prefLabel "voip"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAudioTransportType/analoog> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAudioTransportType/analoog> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType>;
   skos:notation "analoog";
   skos:prefLabel "analoog"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAudioTransportType> .

@@ -3,13 +3,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindCode> a skos:ConceptScheme;
-  skos:definition "Keuzelijst voor het bepalen van de code van de dwarse markering."@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindCode> a skos:ConceptScheme;
+  skos:definition "Codes van de schuine dwarse markering."@nl;
   skos:prefLabel "Dwarse markering code verschuind"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDwarseMarkeringVerschuindCode/FOP-sch> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringVerschuindCode/FOP-sch> a skos:Concept;
   skos:definition "Fietsoversteekplaats met blokken schuin"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindCode>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindCode>;
   skos:notation "FOP-sch";
   skos:prefLabel "FOP-sch"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindCode> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindCode> .

@@ -3,34 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType> a skos:ConceptScheme;
-  skos:definition ""@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType> a skos:ConceptScheme;
+  skos:definition "TODO"@nl;
   skos:prefLabel "Poort type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoortType/UNI> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortType/UNI> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
   skos:notation "UNI";
   skos:prefLabel "UNI"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoortType/NNI> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortType/NNI> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
   skos:notation "NNI";
   skos:prefLabel "NNI"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoortType/Other> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortType/Other> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
   skos:notation "Other";
   skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoortType/NULL> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPoortType/NULL> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType>;
   skos:notation "NULL";
   skos:prefLabel "NULL"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoortType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPoortType> .

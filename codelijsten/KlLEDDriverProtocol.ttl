@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> a skos:ConceptScheme;
   skos:definition "Protocol gebruikt door de LED driver voor het aansturen van de LED's."@nl;
   skos:prefLabel "LED stuurprotocol"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/dali> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/dali> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
   skos:notation "dali";
   skos:prefLabel "dali"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/daliv2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/daliv2> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
   skos:notation "daliv2";
   skos:prefLabel "daliv2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/1-10v> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/1-10v> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
   skos:notation "1-10v";
   skos:prefLabel "1-10v"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .

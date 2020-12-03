@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype> a skos:ConceptScheme;
   skos:definition "Type meter (mechanisch,elektronisch)."@nl;
   skos:prefLabel "Elektrisch metertype"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterMetertype/mechanisch> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEnergiemeterMetertype/mechanisch> a skos:Concept;
   skos:definition "Nakijken bij EVT"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype>;
   skos:notation "mechanisch";
   skos:prefLabel "mechanisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterMetertype/elektronisch> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEnergiemeterMetertype/elektronisch> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype>;
   skos:notation "elektronisch";
   skos:prefLabel "elektronisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterMetertype> .

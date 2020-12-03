@@ -3,111 +3,111 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> a skos:ConceptScheme;
   skos:definition "Het gebied op de wegbaan of het object dat verlicht wordt door het verlichtingstoestel."@nl;
   skos:prefLabel "Verlichtingstoestel verlicht gebied."@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/doorlopende-straatverlichting> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/doorlopende-straatverlichting> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "doorlopende straatverlichting";
   skos:prefLabel "doorlopende straatverlichting"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/rotonde> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/rotonde> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "rotonde";
   skos:prefLabel "rotonde"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/punctuele-verlichting> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/punctuele-verlichting> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "punctuele verlichting";
   skos:prefLabel "punctuele verlichting"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/projector> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/projector> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "projector";
   skos:prefLabel "projector"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/tunnelverlichting> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/tunnelverlichting> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "tunnelverlichting";
   skos:prefLabel "tunnelverlichting"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/parking> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/parking> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "parking";
   skos:prefLabel "parking"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/fietspad> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/fietspad> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "fietspad";
   skos:prefLabel "fietspad"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/hoofdweg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/hoofdweg> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "hoofdweg";
   skos:prefLabel "hoofdweg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/oprit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/oprit> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "oprit";
   skos:prefLabel "oprit"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/afrit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/afrit> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "afrit";
   skos:prefLabel "afrit"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/kruispunt> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/kruispunt> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "kruispunt";
   skos:prefLabel "kruispunt"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/monument> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/monument> a skos:Concept;
   skos:definition "Alle niet-functie verlichting, dus alle verlichting die nodig is om je weg te vinden.//Verlichting voor artistieke creaties op (bv. rotonde) of rond de openbare weg (bv. ecoduct dat onderaan een schilderij heeft) of voor artistieke belichting (niet verlichting) te geven, bv een hangbrug waarbij de kabels aangelicht worden. Soms//kan dit ook zijn voor het aanlichten of belichten van gebouwen.//"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "monument";
   skos:prefLabel "monument"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/onderdoorgang> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/onderdoorgang> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "onderdoorgang";
   skos:prefLabel "onderdoorgang"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/wisselaar> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/wisselaar> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "wisselaar";
   skos:prefLabel "wisselaar"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/bebakening> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelVerlichtGebied/bebakening> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied>;
   skos:notation "bebakening";
   skos:prefLabel "bebakening"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelVerlichtGebied> .

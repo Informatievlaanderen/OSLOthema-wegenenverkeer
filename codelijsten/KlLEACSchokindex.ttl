@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> a skos:ConceptScheme;
   skos:definition "De verschillende schokindices."@nl;
   skos:prefLabel "Schokindex"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindex/a> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindex/a> a skos:Concept;
   skos:definition "ASI <= 1.0 (zeer veilig)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex>;
   skos:notation "a";
   skos:prefLabel "a"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindex/b> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindex/b> a skos:Concept;
   skos:definition "ASI <= 1.4 (voldoende veilig)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex>;
   skos:notation "b";
   skos:prefLabel "b"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindex/c> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindex/c> a skos:Concept;
   skos:definition "ASI <= 1.9"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex>;
   skos:notation "c";
   skos:prefLabel "c"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex> .

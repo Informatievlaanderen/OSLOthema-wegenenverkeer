@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> a skos:ConceptScheme;
   skos:definition "De mogelijke manieren van aanplanten van sierbeplanting."@nl;
   skos:prefLabel "aanplantingswijze sierbeplanting"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-helm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-helm> a skos:Concept;
   skos:definition "Aanplanting via helm////"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
   skos:notation "aanplanting helm";
   skos:prefLabel "aanplanting helm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-zonder-helm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-zonder-helm> a skos:Concept;
   skos:definition "Aanplanting zonder helm//"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
   skos:notation "aanplanting zonder helm";
   skos:prefLabel "aanplanting zonder helm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-bol--en-knolgewassen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-bol--en-knolgewassen> a skos:Concept;
   skos:definition "Aanplanting via bol- en knolgewassen//"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
   skos:notation "aanplanting bol- en knolgewassen";
   skos:prefLabel "aanplanting bol- en knolgewassen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .

@@ -3,48 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> a skos:ConceptScheme;
   skos:definition "De licentievorm van de software."@nl;
   skos:prefLabel "Software licentie"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/commercieel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/commercieel> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
   skos:notation "commercieel";
   skos:prefLabel "commercieel"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/shareware> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/shareware> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
   skos:notation "shareware";
   skos:prefLabel "shareware"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/freeware> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/freeware> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
   skos:notation "freeware";
   skos:prefLabel "freeware"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-BSD> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-BSD> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
   skos:notation "open source BSD";
   skos:prefLabel "open source BSD"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-Apache> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-Apache> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
   skos:notation "open source Apache";
   skos:prefLabel "open source Apache"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-GPL> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-GPL> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie>;
   skos:notation "open source GPL";
   skos:prefLabel "open source GPL"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie> .

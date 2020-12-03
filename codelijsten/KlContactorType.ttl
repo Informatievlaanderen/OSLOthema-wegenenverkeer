@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlContactorType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorType> a skos:ConceptScheme;
   skos:definition "Geeft aan of het een K of Q contactor betreft."@nl;
   skos:prefLabel "contactor type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlContactorType/K> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactorType/K> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlContactorType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorType>;
   skos:notation "K";
   skos:prefLabel "K"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlContactorType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlContactorType/Q> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactorType/Q> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlContactorType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorType>;
   skos:notation "Q";
   skos:prefLabel "Q"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlContactorType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorType> .

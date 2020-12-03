@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> a skos:ConceptScheme;
   skos:definition "De mate van drassigheid.."@nl;
   skos:prefLabel "Vegetatie drassigheid"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/matig-drassig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/matig-drassig> a skos:Concept;
   skos:definition "De ondergrond is matig drassig"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid>;
   skos:notation "matig drassig";
   skos:prefLabel "matig drassig"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/niet-drassig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/niet-drassig> a skos:Concept;
   skos:definition "De ondergrond is niet drassig"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid>;
   skos:notation "niet drassig";
   skos:prefLabel "niet drassig"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/sterk-drassig> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/sterk-drassig> a skos:Concept;
   skos:definition "De ondergrond is sterk drassig"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid>;
   skos:notation "sterk drassig";
   skos:prefLabel "sterk drassig"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid> .

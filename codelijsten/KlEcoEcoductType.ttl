@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> a skos:ConceptScheme;
   skos:definition "Types van ecoduct."@nl;
   skos:prefLabel "Ecoduct type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoEcoductType/ecoveloduct> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoEcoductType/ecoveloduct> a skos:Concept;
   skos:definition "Een brug hoofdzakelijk in gebruik voor natuur, gecombineerd met een fietspad."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType>;
   skos:notation "ecoveloduct";
   skos:prefLabel "ecoveloduct"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoEcoductType/ecocreaduct> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoEcoductType/ecocreaduct> a skos:Concept;
   skos:definition "Een brug hoofdzakelijk in gebruik voor natuur, gecombineerd met zachte recreatie (fietsers, wandelaars, ruiters)."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType>;
   skos:notation "ecocreaduct";
   skos:prefLabel "ecocreaduct"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoEcoductType/bermbrug> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoEcoductType/bermbrug> a skos:Concept;
   skos:definition "Een bestaande, vaak smalle brug met beperkt verkeer waarop de natuur via groene bermen doorloopt."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType>;
   skos:notation "bermbrug";
   skos:prefLabel "bermbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoEcoductType> .

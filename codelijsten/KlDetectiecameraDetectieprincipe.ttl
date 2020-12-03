@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe> a skos:ConceptScheme;
   skos:definition "Keuzelijst met detectieprincipes voor Detectiecamera."@nl;
   skos:prefLabel "Detectiecamera detectieprincipe"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDetectiecameraDetectieprincipe/optisch> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectiecameraDetectieprincipe/optisch> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe>;
   skos:notation "optisch";
   skos:prefLabel "optisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDetectiecameraDetectieprincipe/thermografisch> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectiecameraDetectieprincipe/thermografisch> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe>;
   skos:notation "thermografisch";
   skos:prefLabel "thermografisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraDetectieprincipe> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse> a skos:ConceptScheme;
   skos:definition "De verschillende snelheidsklasses van afschermende constructies"@nl;
   skos:prefLabel "Snelheidsklasse"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSnelheidsklasse/C60> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSnelheidsklasse/C60> a skos:Concept;
   skos:definition "Getest bij 60 km/h"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse>;
   skos:notation "C60";
   skos:prefLabel "C60"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSnelheidsklasse/C70> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSnelheidsklasse/C70> a skos:Concept;
   skos:definition "Getest bij 70 km/h"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse>;
   skos:notation "C70";
   skos:prefLabel "C70"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSnelheidsklasse> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse> a skos:ConceptScheme;
   skos:definition "De stabiliteitsklasse van de kamer."@nl;
   skos:prefLabel "Kamer klasse"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKamerKlasse/klasse-1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKamerKlasse/klasse-1> a skos:Concept;
   skos:definition "klasse 1//"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse>;
   skos:notation "klasse 1";
   skos:prefLabel "klasse 1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKamerKlasse/klasse-2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKamerKlasse/klasse-2> a skos:Concept;
   skos:definition "klasse 2"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse>;
   skos:notation "klasse 2";
   skos:prefLabel "klasse 2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKamerKlasse> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein> a skos:ConceptScheme;
   skos:definition "Lijst met gebruikte administratieve groeperingen van meerdere particuliere computernetwerken of hosts binnen dezelfde infrastructuur."@nl;
   skos:prefLabel "Hardware domein"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareDomein/belfla> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareDomein/belfla> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein>;
   skos:notation "belfla";
   skos:prefLabel "belfla"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareDomein/alfa> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareDomein/alfa> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein>;
   skos:notation "alfa";
   skos:prefLabel "alfa"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein> .

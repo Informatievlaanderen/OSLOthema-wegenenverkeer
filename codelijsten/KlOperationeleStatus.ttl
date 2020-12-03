@@ -3,48 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> a skos:ConceptScheme;
   skos:definition "Operationele status codes."@nl;
   skos:prefLabel "Keuzelijst operationele status"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
   skos:notation "actief";
   skos:prefLabel "actief"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOperationeleStatus/tijdelijk-actief> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOperationeleStatus/tijdelijk-actief> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
   skos:notation "tijdelijk actief";
   skos:prefLabel "tijdelijk actief"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOperationeleStatus/tijdelijk-inactief> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOperationeleStatus/tijdelijk-inactief> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
   skos:notation "tijdelijk inactief";
   skos:prefLabel "tijdelijk inactief"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief-met-tijdelijke-wijziging> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief-met-tijdelijke-wijziging> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
   skos:notation "actief met tijdelijke wijziging";
   skos:prefLabel "actief met tijdelijke wijziging"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief-met-geplande-verwijdering> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief-met-geplande-verwijdering> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
   skos:notation "actief met geplande verwijdering";
   skos:prefLabel "actief met geplande verwijdering"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief-met-geplande-wijziging> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOperationeleStatus/actief-met-geplande-wijziging> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus>;
   skos:notation "actief met geplande wijziging";
   skos:prefLabel "actief met geplande wijziging"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOperationeleStatus> .

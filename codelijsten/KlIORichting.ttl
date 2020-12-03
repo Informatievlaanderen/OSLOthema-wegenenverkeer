@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIORichting> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIORichting> a skos:ConceptScheme;
   skos:definition "Geeft aan of de IO-kaart dient voor input of output."@nl;
   skos:prefLabel "IO richting"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIORichting/input> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIORichting/input> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIORichting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIORichting>;
   skos:notation "input";
   skos:prefLabel "input"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIORichting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIORichting> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIORichting/output> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIORichting/output> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIORichting>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIORichting>;
   skos:notation "output";
   skos:prefLabel "output"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIORichting> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIORichting> .

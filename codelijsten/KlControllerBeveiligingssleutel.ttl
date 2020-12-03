@@ -3,13 +3,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlControllerBeveiligingssleutel> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlControllerBeveiligingssleutel> a skos:ConceptScheme;
   skos:definition "De encryptie die wordt toegepast om de verbinding tussen lokaal en centraal te beveiligen."@nl;
   skos:prefLabel "Controller beveiligingssleutel."@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlControllerBeveiligingssleutel/AES-256> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlControllerBeveiligingssleutel/AES-256> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlControllerBeveiligingssleutel>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlControllerBeveiligingssleutel>;
   skos:notation "AES-256";
   skos:prefLabel "AES-256"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlControllerBeveiligingssleutel> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlControllerBeveiligingssleutel> .

@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> a skos:ConceptScheme;
   skos:definition "Type doorschijnende kap ter bescherming van de LED's (vlak glas,polycarbonaat,...)."@nl;
   skos:prefLabel "WV protector"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedProtector/vlak-glas> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedProtector/vlak-glas> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector>;
   skos:notation "vlak glas";
   skos:prefLabel "vlak glas"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedProtector/gebogen-glas> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedProtector/gebogen-glas> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector>;
   skos:notation "gebogen glas";
   skos:prefLabel "gebogen glas"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedProtector/polycarbonaat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedProtector/polycarbonaat> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector>;
   skos:notation "polycarbonaat";
   skos:prefLabel "polycarbonaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedProtector> .

@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> a skos:ConceptScheme;
   skos:definition "De mogelijke schermtypes (vlak,niet-vlak)"@nl;
   skos:prefLabel "Schermtype"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermtype/vlak> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermtype/vlak> a skos:Concept;
   skos:definition "De vlakke schermen zijn de schermen die kunnen getest worden volgens de normen NBN EN 1793-1 NBN EN 1793-2.////"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype>;
   skos:notation "vlak";
   skos:prefLabel "vlak"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermtype/niet-vlak> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermtype/niet-vlak> a skos:Concept;
   skos:definition "De niet-vlakke schermen zijn de schermen die niet kunnen getest worden volgens de normen NBN EN 1793-1 NBN EN 1793-2."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype>;
   skos:notation "niet-vlak";
   skos:prefLabel "niet-vlak"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> .

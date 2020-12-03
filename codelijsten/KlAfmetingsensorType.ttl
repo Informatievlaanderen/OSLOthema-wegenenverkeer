@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> a skos:ConceptScheme;
   skos:definition "Het type van de afmetingsensor."@nl;
   skos:prefLabel "Afmetingsensor type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfmetingsensorType/2D-LIDAR> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorType/2D-LIDAR> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType>;
   skos:notation "2D-LIDAR";
   skos:prefLabel "2D-LIDAR"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfmetingsensorType/radar> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorType/radar> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType>;
   skos:notation "radar";
   skos:prefLabel "radar"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfmetingsensorType/lussen-en-laserogen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorType/lussen-en-laserogen> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType>;
   skos:notation "lussen en laserogen";
   skos:prefLabel "lussen en laserogen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorType> .

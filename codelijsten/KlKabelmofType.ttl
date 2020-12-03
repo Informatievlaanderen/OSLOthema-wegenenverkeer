@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelmofType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmofType> a skos:ConceptScheme;
   skos:definition "Types voor kabel- en leidingmoffen"@nl;
   skos:prefLabel "Kabelmof type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelmofType/gietmof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmofType/gietmof> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelmofType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmofType>;
   skos:notation "gietmof";
   skos:prefLabel "gietmof"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelmofType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmofType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelmofType/geldoos> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmofType/geldoos> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelmofType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmofType>;
   skos:notation "geldoos";
   skos:prefLabel "geldoos"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelmofType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmofType> .

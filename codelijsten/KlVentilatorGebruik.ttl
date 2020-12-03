@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> a skos:ConceptScheme;
   skos:definition "Keuzelijst die de types van gebruik voor de ventilator aangeeft."@nl;
   skos:prefLabel "Gebruikstypes ventilator"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-aanzuigunit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-aanzuigunit> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
   skos:notation "dwarsventilatie aanzuigunit";
   skos:prefLabel "dwarsventilatie aanzuigunit"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-inblaasunit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-inblaasunit> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
   skos:notation "dwarsventilatie inblaasunit";
   skos:prefLabel "dwarsventilatie inblaasunit"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVentilatorGebruik/langsventilator> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/langsventilator> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
   skos:notation "langsventilator";
   skos:prefLabel "langsventilator"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .

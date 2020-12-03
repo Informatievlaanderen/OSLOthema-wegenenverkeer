@@ -3,20 +3,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRMerk> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRMerk> a skos:ConceptScheme;
   skos:definition "Het merk van de ANPR-camera."@nl;
   skos:prefLabel "ANPR-camera merk"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlANPRMerk/Macq> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlANPRMerk/Macq> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRMerk>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRMerk>;
   skos:notation "Macq";
   skos:prefLabel "Macq"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRMerk> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRMerk> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlANPRMerk/Tattile> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlANPRMerk/Tattile> a skos:Concept;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRMerk>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRMerk>;
   skos:notation "Tattile";
   skos:prefLabel "Tattile"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlANPRMerk> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlANPRMerk> .

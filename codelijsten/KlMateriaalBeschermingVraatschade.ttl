@@ -3,27 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> a skos:ConceptScheme;
   skos:definition "De middelen als bescherming tegen vraatschade."@nl;
   skos:prefLabel "Materiaal bescherming vraatschade"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/wildafwerend-product> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/wildafwerend-product> a skos:Concept;
   skos:definition "Wildafwerend product wordt gebruikt als bescherming tegen vraatschade.//"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade>;
   skos:notation "wildafwerend product";
   skos:prefLabel "wildafwerend product"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/kunststof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/kunststof> a skos:Concept;
   skos:definition "Materiaal dat gebruikt wordt als bescherming vraatschade is kunststof.//"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade>;
   skos:notation "kunststof";
   skos:prefLabel "kunststof"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/juteband> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/juteband> a skos:Concept;
   skos:definition "Materiaal dat gebruikt wordt als bescherming vraatschade is een juteband."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade>;
   skos:notation "juteband";
   skos:prefLabel "juteband"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade> .

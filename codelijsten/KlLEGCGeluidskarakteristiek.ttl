@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> a skos:ConceptScheme;
+  skos:definition "De geluidskarakteristieken van de geluidswerende constructie."@nl;
+  skos:prefLabel "Geluidskarakteristiek"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/absorberend> a skos:Concept;
+  skos:definition "De geluidsgolven worden gedeeltelijk niet weerkaatst door de geluidswerende constructie."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
+  skos:notation "absorberend";
+  skos:prefLabel "absorberend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/reflecterend> a skos:Concept;
+  skos:definition "reflecterend//"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
+  skos:notation "reflecterend";
+  skos:prefLabel "reflecterend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/bi-absorberend> a skos:Concept;
+  skos:definition "De geluidsgolven worden gedeeltelijk niet weerkaatst door de geluidswerende constructie (langs beide zijden)."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek>;
+  skos:notation "bi-absorberend";
+  skos:prefLabel "bi-absorberend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek> .

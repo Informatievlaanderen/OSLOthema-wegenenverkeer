@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> a skos:ConceptScheme;
+  skos:definition "Lijst van types voor Netwerkpoort."@nl;
+  skos:prefLabel "Netwerkpoort type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkpoortType/UNI> a skos:Concept;
+  skos:definition "User-Network-Interface: deze poort verbindt het netwerk toestel met de poort van een gebruiker."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "UNI";
+  skos:prefLabel "UNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NNI> a skos:Concept;
+  skos:definition "Network-Network-Interface: deze poort verbindt het netwerk toestel met een poort van een ander netwerk toestel."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "NNI";
+  skos:prefLabel "NNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkpoortType/Other> a skos:Concept;
+  skos:definition "Ander, onbekend type interface."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "Other";
+  skos:prefLabel "Other"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NULL> a skos:Concept;
+  skos:definition "Geen interface."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "NULL";
+  skos:prefLabel "NULL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .

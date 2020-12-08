@@ -1,0 +1,8 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDynBordRVMSMerk> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met de gangbare merken van RVMS borden. De merken verwijzen doorgaans naar de fabrikant of leverancier."@nl;
+  skos:prefLabel "Dyn bord RVMS merk"@nl.

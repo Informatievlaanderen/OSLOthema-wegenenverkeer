@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> a skos:ConceptScheme;
+  skos:definition "Types van dunne overlaging."@nl;
+  skos:prefLabel "Dunne overlaging type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/SME-D1> a skos:Concept;
+  skos:definition "SME-D1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:notation "SME-D1";
+  skos:prefLabel "SME-D1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/SME-D2> a skos:Concept;
+  skos:definition "SMA-D2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:notation "SME-D2";
+  skos:prefLabel "SME-D2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/antisliplaag> a skos:Concept;
+  skos:definition "antisliplaag"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:notation "antisliplaag";
+  skos:prefLabel "antisliplaag"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .

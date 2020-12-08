@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met verschillende types voertuigen die een detectielus volgens diens instellingen kan detecteren."@nl;
+  skos:prefLabel "VRI-lus soort voertuig"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/voertuig> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig>;
+  skos:notation "voertuig";
+  skos:prefLabel "voertuig"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/fiets> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig>;
+  skos:notation "fiets";
+  skos:prefLabel "fiets"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/motor> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig>;
+  skos:notation "motor";
+  skos:prefLabel "motor"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> .

@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> a skos:ConceptScheme;
+  skos:definition "Mogelijke manieren van plaatsing van het straatmeubilair."@nl;
+  skos:prefLabel "Plaatsingswijze"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPlaatsingswijze/vast> a skos:Concept;
+  skos:definition "Vaste plaatsing van het straatmeubilair."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze>;
+  skos:notation "vast";
+  skos:prefLabel "vast"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPlaatsingswijze/wegneembaar> a skos:Concept;
+  skos:definition "Wegneembare plaatsing van het straatmeubilair."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze>;
+  skos:notation "wegneembaar";
+  skos:prefLabel "wegneembaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPlaatsingswijze> .

@@ -28,13 +28,6 @@
   skos:prefLabel "Laatste(vraag)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/ra-re-tekens-ok> a skos:Concept;
-  skos:definition "test"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
-  skos:notation "ra-re-tekens-ok";
-  skos:prefLabel "raRe./tekens@#. ok"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/25-31> a skos:Concept;
   skos:definition "twee"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
@@ -61,6 +54,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
   skos:notation "eens-effe-testje-doen";
   skos:prefLabel "eens effe testje-doen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/da-tis-raar> a skos:Concept;
+  skos:definition "jo"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
+  skos:notation "da-tis-raar";
+  skos:prefLabel "daTisRaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/ra-re-tekens-ok> a skos:Concept;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
+  skos:notation "ra-re-tekens-ok";
+  skos:prefLabel "raRe./tekens@#. ok"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/goede-vraag> a skos:Concept;

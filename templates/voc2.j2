@@ -161,9 +161,8 @@
                                     {% endif %}
                                     </p>
                                     <br />
-                             <!--      <p><a href="http://visualdataweb.de/webvowl/#iri={{ metadata.uri }}/voc/{{ metadata.name }}.ttl">Verken het vocabularium</a></p> -->
-                               <p><a onclick="redirectTo();" href="#">Verken het vocabularium</a></p>
-							   </div>
+                                   <p><a href="http://visualdataweb.de/webvowl/#iri={{ metadata.uri }}/voc/{{ metadata.filename }}.ttl">Verken het vocabularium</a></p>
+                                </div>
 
                                 {% if ( ( classes | length) > 0 )%}
                                 <div class="region region--no-space-top">
@@ -504,15 +503,6 @@
     </div>
 
     <script src="https://dij151upo6vad.cloudfront.net/2.latest/js/vlaanderen-ui.js"></script>
-	<script>
-
-		  function redirectTo(){
-			var str = {{ metadata.title[language]}};
-			var res = str.toLowerCase();
-			var loc = {{ metadata.uri }}
-			window.open("http://visualdataweb.de/webvowl/#iri="+loc+"/voc/wegenenverkeer-"+res)
-		}
-	</script>
 
     <style>
       @media screen {  /* hide from IE3 */

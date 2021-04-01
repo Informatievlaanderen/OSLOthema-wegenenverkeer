@@ -42,13 +42,6 @@
   skos:prefLabel "25-30"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/tussen-vraag> a skos:Concept;
-  skos:definition "drie"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
-  skos:notation "Tussen.vraag";
-  skos:prefLabel "Tussen.vraag"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/25-31> a skos:Concept;
   skos:definition "twee"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
@@ -82,4 +75,18 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
   skos:notation "eens effe Teestje-doen";
   skos:prefLabel "eens effe Teestje-doen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/grote-poging-kleine-weet-ik-veel> a skos:Concept;
+  skos:definition "test "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
+  skos:notation "Grote poging&kleine.weet ik veel";
+  skos:prefLabel "Grote poging&kleine.weet ik veel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002/tussen-vraag> a skos:Concept;
+  skos:definition "drie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002>;
+  skos:notation "Tussen.vraag";
+  skos:prefLabel "Tussen.vraag"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrisTest002> .

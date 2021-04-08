@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestFromTooling> a skos:ConceptScheme;
   skos:definition "Definitie test from tooling"@nl;
   skos:prefLabel "Test from tooling"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestFromTooling/optie1-test> a skos:Concept;
+  skos:definition "svsfvsdfvdfv"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestFromTooling>;
+  skos:notation "optie1-test";
+  skos:prefLabel "optie1test"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestFromTooling> .

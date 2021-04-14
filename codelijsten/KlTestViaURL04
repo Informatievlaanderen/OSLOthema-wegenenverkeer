@@ -13,3 +13,10 @@
   skos:notation "test-maxim";
   skos:prefLabel "Test Maxim"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/goede-vraag> a skos:Concept;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
+  skos:notation "goede-vraag";
+  skos:prefLabel "goede---vraag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .

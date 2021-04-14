@@ -7,6 +7,20 @@
   skos:definition "Definitie test ViaURL04"@nl;
   skos:prefLabel "Test ViaURL04"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/goede-vraag> a skos:Concept;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
+  skos:notation "goede-vraag";
+  skos:prefLabel "goede---vraag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/l-b> a skos:Concept;
+  skos:definition "kleinerdan"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
+  skos:notation "l-b";
+  skos:prefLabel "L<B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/test-maxim> a skos:Concept;
   skos:definition "Poging 1"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
@@ -14,9 +28,16 @@
   skos:prefLabel "Test Maxim"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/goede-vraag> a skos:Concept;
-  skos:definition "test"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/l-b-3> a skos:Concept;
+  skos:definition "groterdan"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
-  skos:notation "goede-vraag";
-  skos:prefLabel "goede---vraag"@nl;
+  skos:notation "l-b-3";
+  skos:prefLabel "L>B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/l-b-2> a skos:Concept;
+  skos:definition "gelijk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
+  skos:notation "l-b-2";
+  skos:prefLabel "L=B"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .

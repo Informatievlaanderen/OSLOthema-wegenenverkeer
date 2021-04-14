@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> a skos:ConceptScheme;
   skos:definition "Definitie test ViaURL04"@nl;
   skos:prefLabel "Test ViaURL04"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04/test-maxim> a skos:Concept;
+  skos:definition "Poging 1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04>;
+  skos:notation "test-maxim";
+  skos:prefLabel "Test Maxim"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTestViaURL04> .

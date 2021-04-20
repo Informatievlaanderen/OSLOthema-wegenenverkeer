@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingWapeningType> a skos:ConceptScheme;
-  skos:definition "De mogelijke wapeningen gebruikt bij de oa. fundering (wapeningsnet,geotextiel,geogrids)"@nl;
+  skos:definition "De mogelijke wapeningen gebruikt bij de oa. fundering (wapeningsnet,geotextiel,geogrids)."@nl;
   skos:prefLabel "Bescherming wapening type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermingWapeningType/wapeningsnet> a skos:Concept;
@@ -17,7 +17,7 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermingWapeningType/gelast-geplastificeerd-gaas> a skos:Concept;
   skos:definition "gelast geplastificeerd gaas"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingWapeningType>;
-  skos:notation "gelast geplastificeerd gaas";
+  skos:notation "gelast-geplastificeerd-gaas";
   skos:prefLabel "gelast geplastificeerd gaas"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingWapeningType> .
 

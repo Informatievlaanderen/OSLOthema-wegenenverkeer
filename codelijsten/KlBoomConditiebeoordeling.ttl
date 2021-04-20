@@ -4,11 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConditiebeoordeling> a skos:ConceptScheme;
-  skos:definition "De conditiebeoordeling voor een boom."@nl;
+  skos:definition "De conditie beoordeeld volgens de kronenstructuur van Dr. A. Roloff, gelet op de scheutlengte ontwikkeling en vorming van dood hout."@nl;
   skos:prefLabel "Boom conditiebeoordeling"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomConditiebeoordeling/1> a skos:Concept;
-  skos:definition "De conditie is verminderd, maar op korte termijn (&lt; 5 jaar) worden ten aanzien van de fysiologische toestand van de boom geen problemen verwacht."@nl;
+  skos:definition "De conditie is verminderd, maar op korte termijn (< 5 jaar) worden ten aanzien van de fysiologische toestand van de boom geen problemen verwacht."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomConditiebeoordeling>;
   skos:notation "1";
   skos:prefLabel "1"@nl;

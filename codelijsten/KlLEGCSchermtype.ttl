@@ -4,11 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype> a skos:ConceptScheme;
-  skos:definition "De mogelijke schermtypes (vlak,niet-vlak)"@nl;
+  skos:definition "De mogelijke schermtypes (vlak, niet-vlak)."@nl;
   skos:prefLabel "Schermtype"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermtype/vlak> a skos:Concept;
-  skos:definition "De vlakke schermen zijn de schermen die kunnen getest worden volgens de normen NBN EN 1793-1 NBN EN 1793-2.////"@nl;
+  skos:definition "De vlakke schermen zijn de schermen die kunnen getest worden volgens de normen NBN EN 1793-1 NBN EN 1793-2."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype>;
   skos:notation "vlak";
   skos:prefLabel "vlak"@nl;

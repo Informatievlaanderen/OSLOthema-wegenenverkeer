@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> a skos:ConceptScheme;
-  skos:definition "Keuzelijst met de voorkomende types van aangesloten toestellen (trein,brug,FCD) aan een externe detectie."@nl;
+  skos:definition "Keuzelijst met de voorkomende types van aangesloten toestellen (trein, brug, FCD) aan een externe detectie."@nl;
   skos:prefLabel "Externedetectie aangeslotentoestel"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestel/brug> a skos:Concept;
@@ -31,7 +31,7 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestel/de-Lijn> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
-  skos:notation "de Lijn";
+  skos:notation "de-Lijn";
   skos:prefLabel "de Lijn"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
 
@@ -52,7 +52,7 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlExternedetectieAangeslotentoestel/militaire-kazerne> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel>;
-  skos:notation "militaire kazerne";
+  skos:notation "militaire-kazerne";
   skos:prefLabel "militaire kazerne"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlExternedetectieAangeslotentoestel> .
 

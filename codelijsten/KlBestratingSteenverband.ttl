@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> a skos:ConceptScheme;
-  skos:definition "De steenverbanden van de bestrating"@nl;
+  skos:definition "De steenverbanden van de bestrating."@nl;
   skos:prefLabel "Bestrating steenverband"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/segmentverband> a skos:Concept;
@@ -31,7 +31,7 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestratingSteenverband/schelpen--of-pauwstaartverband> a skos:Concept;
   skos:definition "Schelpen- of pauwstaartverband"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
-  skos:notation "schelpen- of pauwstaartverband";
+  skos:notation "schelpen--of-pauwstaartverband";
   skos:prefLabel "schelpen- of pauwstaartverband"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 

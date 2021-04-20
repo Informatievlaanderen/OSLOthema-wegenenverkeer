@@ -4,26 +4,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort> a skos:ConceptScheme;
-  skos:definition "Soorten van bestrijking"@nl;
+  skos:definition "Soorten van bestrijking."@nl;
   skos:prefLabel "Bestrijkingsoort"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestrijkingsoort/eenlaagse-met-enkele-begrinding-(EBEB)> a skos:Concept;
   skos:definition "éénlaagse bestrijking met enkele begrinding (EBEB)"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort>;
-  skos:notation "eenlaagse met enkele begrinding (EBEB)";
+  skos:notation "eenlaagse-met-enkele-begrinding-(EBEB)";
   skos:prefLabel "eenlaagse met enkele begrinding (EBEB)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestrijkingsoort/eenlaagse-met-dubbele-begrinding-(EBDB)> a skos:Concept;
   skos:definition "éénlaagse bestrijking met dubbele begrinding (EBDB)"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort>;
-  skos:notation "eenlaagse met dubbele begrinding (EBDB)";
+  skos:notation "eenlaagse-met-dubbele-begrinding-(EBDB)";
   skos:prefLabel "eenlaagse met dubbele begrinding (EBDB)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBestrijkingsoort/tweelaagse-(TB)> a skos:Concept;
   skos:definition "tweelaagse bestrijking (TB)"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort>;
-  skos:notation "tweelaagse (TB)";
+  skos:notation "tweelaagse-(TB)";
   skos:prefLabel "tweelaagse (TB)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestrijkingsoort> .

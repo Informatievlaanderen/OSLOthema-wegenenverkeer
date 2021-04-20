@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> a skos:ConceptScheme;
-  skos:definition "De verschillende types eindstukken"@nl;
+  skos:definition "De verschillende types eindstukken."@nl;
   skos:prefLabel "Type eindstuk"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACTypeEindstuk/uitgebogen> a skos:Concept;
@@ -24,6 +24,6 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACTypeEindstuk/naar-beneden-afgebogen> a skos:Concept;
   skos:definition "naar beneden afgebogen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk>;
-  skos:notation "naar beneden afgebogen";
+  skos:notation "naar-beneden-afgebogen";
   skos:prefLabel "naar beneden afgebogen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACTypeEindstuk> .

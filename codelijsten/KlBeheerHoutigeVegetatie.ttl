@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> a skos:ConceptScheme;
-  skos:definition "De verschillende beheersopties voor houtige vegetatie"@nl;
+  skos:definition "De verschillende beheersopties voor houtige vegetatie."@nl;
   skos:prefLabel "Beheer houtige vegetatie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/hakhoutbeheer> a skos:Concept;
@@ -17,7 +17,7 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/niets-doen> a skos:Concept;
   skos:definition "Er wordt geen beheer uitgevoerd."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
-  skos:notation "niets doen";
+  skos:notation "niets-doen";
   skos:prefLabel "niets doen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .
 
@@ -108,6 +108,6 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerHoutigeVegetatie/gedeeltelijk-ontstronken> a skos:Concept;
   skos:definition "Gedeeltelijk ontstronken van bomen. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie>;
-  skos:notation "gedeeltelijk ontstronken";
+  skos:notation "gedeeltelijk-ontstronken";
   skos:prefLabel "gedeeltelijk ontstronken"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerHoutigeVegetatie> .

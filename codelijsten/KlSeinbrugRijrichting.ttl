@@ -4,19 +4,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting> a skos:ConceptScheme;
-  skos:definition "Mogelijke rijrichtingen bij een seinbrug (enkele of dubbele)"@nl;
+  skos:definition "Mogelijke rijrichtingen bij een seinbrug (enkele of dubbele)."@nl;
   skos:prefLabel "Seinbrug rijrichting"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/enkele-rijrichting> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting>;
-  skos:notation "enkele rijrichting";
+  skos:notation "enkele-rijrichting";
   skos:prefLabel "enkele rijrichting"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/dubbele-rijrichting> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting>;
-  skos:notation "dubbele rijrichting";
+  skos:notation "dubbele-rijrichting";
   skos:prefLabel "dubbele rijrichting"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting> .

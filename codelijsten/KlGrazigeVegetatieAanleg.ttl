@@ -4,13 +4,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> a skos:ConceptScheme;
-  skos:definition "Types van aanleg voor de grazige vegetatie"@nl;
+  skos:definition "Types van aanleg voor de grazige vegetatie."@nl;
   skos:prefLabel "Grazige vegetatie aanleg"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrazigeVegetatieAanleg/hydraulische-bezaaiing> a skos:Concept;
   skos:definition "Het aanleggen van een grazige vegetatie door het openspreiden van het zaadmengsel met een spuitzaaimachine."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg>;
-  skos:notation "hydraulische bezaaiing";
+  skos:notation "hydraulische-bezaaiing";
   skos:prefLabel "hydraulische bezaaiing"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> .
 
@@ -36,16 +36,16 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrazigeVegetatieAanleg/aanplanting-wortelstokken> a skos:Concept;
-  skos:definition "Het aanleggen van een grazige vegetatie dmv de aanplant van wortelstokken.//"@nl;
+  skos:definition "Het aanleggen van een grazige vegetatie dmv de aanplant van wortelstokken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg>;
-  skos:notation "aanplanting wortelstokken";
+  skos:notation "aanplanting-wortelstokken";
   skos:prefLabel "aanplanting wortelstokken"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrazigeVegetatieAanleg/aanplanting-container-planten> a skos:Concept;
-  skos:definition "Het aanleggen van een grazige vegetatie dmv de aanplant van container planten.//"@nl;
+  skos:definition "Het aanleggen van een grazige vegetatie dmv de aanplant van container planten."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg>;
-  skos:notation "aanplanting container planten";
+  skos:notation "aanplanting-container-planten";
   skos:prefLabel "aanplanting container planten"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> .
 
@@ -59,13 +59,13 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrazigeVegetatieAanleg/natuurlijke-vegetatie-ontwikkeling-door-overbrengen-maaisel> a skos:Concept;
   skos:definition "Het ontstaan van natuurlijke grazige vegetatie door overbrengen van maaisel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg>;
-  skos:notation "natuurlijke vegetatie ontwikkeling door overbrengen maaisel";
+  skos:notation "natuurlijke-vegetatie-ontwikkeling-door-overbrengen-maaisel";
   skos:prefLabel "natuurlijke vegetatie ontwikkeling door overbrengen maaisel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrazigeVegetatieAanleg/natuurlijke-vegetatie-ontwikkeling-door-behoud-zaadbank> a skos:Concept;
-  skos:definition "Het ontstaan van natuurlijke grazige vegetatie door behoud van de zaadbank.//"@nl;
+  skos:definition "Het ontstaan van natuurlijke grazige vegetatie door behoud van de zaadbank."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg>;
-  skos:notation "natuurlijke vegetatie ontwikkeling door behoud zaadbank";
+  skos:notation "natuurlijke-vegetatie-ontwikkeling-door-behoud-zaadbank";
   skos:prefLabel "natuurlijke vegetatie ontwikkeling door behoud zaadbank"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrazigeVegetatieAanleg> .

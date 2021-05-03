@@ -64,8 +64,9 @@
 			  -->
 			  
 			<dl>
+			  <dt>Uitgegeven op</dt> " " {{metadata.issued}}
               <dt></dt><dd><a href="{{metadata.status}}">Status</a></dd>
-              <dt>Uitgegeven op</dt><dd>{{metadata.issued}}</dd>
+    
               <dt></dt><dd><a href="{{metadata.navigation.self}}">Deze versie</a></dd>
 			  <dt></dt><dd><a href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes deze versie</a></dd>
               {% if metadata.navigation.next %}
@@ -510,6 +511,21 @@
   </div>
 
   <script src="https://dij151upo6vad.cloudfront.net/2.latest/js/vlaanderen-ui.js"></script>
+  
+  <script>
+
+		var h1Array = document.getElementsByClassName("h1");
+
+		var title = h1Array[0].innerHTML;
+		var version = getVersionByFullURL({{metadata.navigation.self}});
+
+		h1Array[0].innerHTML = title.concat(" ",version);
+
+		function getVersionByFullURL(url){
+			return url.split('/').pop();
+			
+		}
+	</script>
 
   <style>
     @media screen {  /* hide from IE3 */

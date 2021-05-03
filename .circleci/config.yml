@@ -46,6 +46,7 @@ jobs:
             cp -R target/all.nt.gz /tmp/OSLO-codelistgenerated/
             gunzip -f /tmp/OSLO-codelistgenerated/all.nt.gz
             cp -R target/all.ttl /tmp/OSLO-codelistgenerated/
+            cp -R target/muuid.nt /tmp/OSLO-codelistgenerated/
       - run:
           name: Push results to github
           workdir: /tmp/OSLO-codelistgenerated

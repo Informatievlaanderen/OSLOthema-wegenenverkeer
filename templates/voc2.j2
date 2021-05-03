@@ -44,6 +44,7 @@
                     {% endif %}
 
               <div class="head" role="status" id="status">
+			  <!--
               <dl>
               <dt>Status</dt><dd><a href="{{metadata.status}}">{{metadata.status}}</a></dd>
               <dt>Uitgegeven op</dt><dd>{{metadata.issued}}</dd>
@@ -55,10 +56,26 @@
               <dt>Vorige versie</dt><dd><a href="{{metadata.navigation.prev}}">{{metadata.navigation.prev}}</a></dd>
               {% endif %}
               </dl>
+			  -->
+			  <dl>
+              <dt></dt><dd><a href="{{metadata.status}}">Status</a></dd>
+              <dt>Uitgegeven op</dt><dd>{{metadata.issued}}</dd>
+              <dt></dt><dd><a href="{{metadata.navigation.self}}">Deze versie</a></dd>
+			  <dt></dt><dd><a href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes deze versie</a></dd>
+              {% if metadata.navigation.next %}
+              <dt></dt><dd><a href="{{metadata.navigation.next}}">Volgende versie</a></dd>
+              {% endif %}
+              {% if metadata.navigation.prev %}
+              <dt></dt><dd><a href="{{metadata.navigation.prev}}">Vorige versie</a></dd>
+              {% endif %}
+              </dl>
+			  
+			  
               </div>
                     </div>
                 </div>
               <div class="head" role="metainfo" id="metainfo">
+			  <!--
               <dl>
               <dt>Brondata</dt><dd><a href="{{metadata.repositoryurl}}">{{metadata.repositoryurl}}</a></dd>
               <dt>Changelog</dt><dd><a href="{{metadata.changelogurl}}">{{metadata.changelogurl}}</a></dd>
@@ -71,6 +88,18 @@
                 {% endfor %}
 		</dd>
               </dl>
+			  -->
+			  <dl>
+              <dt></dt><dd><a href="{{metadata.repositoryurl}}">Brondata</a></dd>
+              <dt></dt><dd><a href="{{metadata.changelogurl}}">Changelog</a></dd>          
+              <dt></dt><dd><a href="{{metadata.standaardregisterurl}}">Standaardenregister</a></dd>
+
+              <dt>Afhankelijkheden</dt><dd>
+                {% for dep in metadata.dependencies %}
+		<a href="{{ dep.packageurl }}">{{ dep.packagelabel }}</a>
+                {% endfor %}
+		</dd>
+			  
               </div>
              </div>
                 <!-- <p class="copyright">{{ metadata.rights }}</p> -->

@@ -4,5 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> a skos:ConceptScheme;
-  skos:definition "Ghnfgnn"@nl;
+  skos:definition "Ghnfgnnddfv"@nl;
   skos:prefLabel "504"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504/test> a skos:Concept;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test";
+  skos:prefLabel "test"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .

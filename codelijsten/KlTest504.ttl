@@ -7,16 +7,16 @@
   skos:definition "ff dsfqsqdf dfsfq"@nl;
   skos:prefLabel "504"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test> a skos:Concept;
-  skos:definition "test"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "test";
-  skos:prefLabel "test"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test2> a skos:Concept;
   skos:definition "test2def2"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "test2";
   skos:prefLabel "test2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test> a skos:Concept;
+  skos:definition "test2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test";
+  skos:prefLabel "test"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .

@@ -7,6 +7,13 @@
   skos:definition "Het type van de AID-module..."@nl;
   skos:prefLabel "AID-module type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIDModuleType/kris> a skos:Concept;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIDModuleType>;
+  skos:notation "kris";
+  skos:prefLabel "kris"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIDModuleType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIDModuleType/test2> a skos:Concept;
   skos:definition "qsdfq"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIDModuleType>;

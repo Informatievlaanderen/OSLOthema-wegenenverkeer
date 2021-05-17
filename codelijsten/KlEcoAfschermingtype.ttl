@@ -7,6 +7,13 @@
   skos:definition "Types van afscherming"@nl;
   skos:prefLabel "Afschermingtype"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/test-toevoegen> a skos:Concept;
+  skos:definition "Idem"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
+  skos:notation "test-toevoegen";
+  skos:prefLabel "Test toevoegen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/heidematten> a skos:Concept;
   skos:definition "Een afscherming bestaande uit heidematten."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;

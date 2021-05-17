@@ -1,0 +1,15 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGPUMerk> a skos:ConceptScheme;
+  skos:definition "Het merk van de GPU."@nl;
+  skos:prefLabel "GPU merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGPUMerk/nvidia> a skos:Concept;
+  skos:definition "Nvidia"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGPUMerk>;
+  skos:notation "nvidia";
+  skos:prefLabel "nvidia"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGPUMerk> .

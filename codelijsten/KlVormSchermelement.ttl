@@ -6,3 +6,17 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormSchermelement> a skos:ConceptScheme;
   skos:definition "Deze keuzelijst geeft aan of het schermelement recht of gebogen is."@nl;
   skos:prefLabel "Vorm schermelement"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormSchermelement/gebogen> a skos:Concept;
+  skos:definition "gebogen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormSchermelement>;
+  skos:notation "gebogen";
+  skos:prefLabel "gebogen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormSchermelement> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormSchermelement/recht> a skos:Concept;
+  skos:definition "recht"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormSchermelement>;
+  skos:notation "recht";
+  skos:prefLabel "recht"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormSchermelement> .

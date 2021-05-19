@@ -6,3 +6,24 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype> a skos:ConceptScheme;
   skos:definition "Het type vlak-schermelement."@nl;
   skos:prefLabel "Vlak geluidsschermelementtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-zonder-profielen> a skos:Concept;
+  skos:definition "schermelement zonder profielen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype>;
+  skos:notation "schermelement-zonder-profielen";
+  skos:prefLabel "schermelement zonder profielen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-geplaatst-tussen-profielen> a skos:Concept;
+  skos:definition "schermelement geplaatst tussen profielen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype>;
+  skos:notation "schermelement-geplaatst-tussen-profielen";
+  skos:prefLabel "schermelement geplaatst tussen profielen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-bevestigd-tegen-de-profielen> a skos:Concept;
+  skos:definition "schermelement bevestigd tegen de profielen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype>;
+  skos:notation "schermelement-bevestigd-tegen-de-profielen";
+  skos:prefLabel "schermelement bevestigd tegen de profielen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype> .

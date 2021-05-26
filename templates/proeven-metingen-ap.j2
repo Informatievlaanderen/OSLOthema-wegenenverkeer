@@ -4,23 +4,23 @@
 <p>
 Dit is een implementatiemodel op bestaande vocabularia m.b.t. (weg)aanhorigheden waaronder:
 <ul>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie">Vocabularium installatie</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement">Vocabularium implementatieelement</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/levelofgeometry">Vocabularium level of geometry</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/proefenmeting">Vocabularium proef en meting</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/installatie">Vocabularium installatie</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/implementatieelement">Vocabularium implementatie-element</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/proefenmeting">Vocabularium proef en meting</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
 </ul>
 Dit implementatiemodel maakt deel uit van de volledige set aan implementatiemodellen die horen bij het standaardbestek 250.
 
 In dit implementatiemodel zijn alle proeven en metingen opgenomen die horen bij de verschillende onderdelen en installaties.<br>
-Het profiel legt ook vast welke codelijsten moeten worden gebruikt. 
+Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. De keuzeopties in deze lijsten worden evenwel buiten de OTL beheerd.  
 </p>
+
 {% endblock %}
 
 {% block status %}
 <p>Dit implementatiemodel dient om het specifieke gebruik van de entiteiten relevant voor de beschreven applicatie te verduidelijken.</p>
-<p>Dit document werd gepubliceerd als Kandidaat-standaard. De specificatie zoals in dit document beschreven doorloopt momenteel een periode van publieke review, tijdens het welke geen wijzigingen aan deze specificatie worden doorgevoerd.<br/>
+<p>Dit document werd gepubliceerd als Kandidaat-standaard. De specificatie zoals in dit document beschreven doorloopt momenteel een periode van publieke review, tijdens welke geen wijzigingen aan deze specificatie worden doorgevoerd.<br/>
 Dit document is bedoeld om uit te groeien tot een standaard in het beschreven domein. Desalniettemin heeft het op dit ogenblik geen officieel statuut en vertegenwoordigt het geen consensus binnen OSLO.</p>
 <p>Feedback, een vraag of een melding van een probleem op deze specificatie kan gegeven worden via ons <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaxOnrCkcarNHWI21YfPJ7sZChHVzOB2-P9ptzxkD9YX69-g/viewform">contactformulier</a>.</p>
 {% endblock %}
@@ -49,16 +49,25 @@ Dit document is bedoeld om uit te groeien tot een standaard in het beschreven do
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
    <ul>
+     <li><a href="{{ documentroot }}/html/Proeven-metingen.pdf">Proeven</a></li>
+	 <li><a href="{{ documentroot }}/html/Proeven-metingen-Onderbouw.pdf">Proeven Onderbouw</a></li>
+	 <li><a href="{{ documentroot }}/html/Proeven-metingen-BitumineuzeLaag.pdf">Proeven Bitumineuze laag</a></li>
+	 <li><a href="{{ documentroot }}/html/Proeven-metingen-CementBetonVerharding.pdf">Proeven CementBeton verharding</a></li>
+	 <li><a href="{{ documentroot }}/html/Proeven-metingen-AndereLaag.pdf">Proeven Andere laag</a></li>
+	 <li><a href="{{ documentroot }}/html/Proeven-metingen-AndereVerharding.pdf">Proeven Andere verharding</a></li>
+	 <li><a href="{{ documentroot }}/html/Proeven-metingen-Bestrating.pdf">Proeven Bestrating</a></li>
      <li><a href="{{ documentroot }}/html/Proeven-LijnvormigeElementen.pdf">Proeven LijnvormigeElementen</a></li>
      <li><a href="{{ documentroot }}/html/Proeven-Rioleringen.pdf">Proeven Rioleringen</a></li>
      <li><a href="{{ documentroot }}/html/Proeven-Signalisatie.pdf">Proeven Signalisatie</a></li>
      <li><a href="{{ documentroot }}/html/Proeven-Vegetatie.pdf">Proeven Vegetatie</a></li>
-     <li><a href="{{ documentroot }}/html/Proeven-Verhardingen.pdf">Proeven Verhardingen</a></li>
-     <li><a href="{{ documentroot }}/html/Proeven-Verhardingen-technisch.pdf">Proeven Verhardingen technisch</a></li>
-     <li><a href="{{ documentroot }}/html/Proeven-Waterlopen.pdf">Proeven Waterlopen</a></li>
-   
  </ul>
 {% endblock %}
+
+
+
+
+
+
 
 
 

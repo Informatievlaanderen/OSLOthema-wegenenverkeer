@@ -4,15 +4,14 @@
 <p>
 Dit is een implementatiemodel op bestaande vocabularia m.b.t. (weg)aanhorigheden waaronder:
 <ul>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie">Vocabularium installatie</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement">Vocabularium implementatieelement</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/levelofgeometry">Vocabularium level of geometry</a>.</li>
-<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/installatie">Vocabularium installatie</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/implementatieelement">Vocabularium implementatie-element</a></li>
+<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
 </ul>
 Dit implementatiemodel maakt deel uit van de volledige set aan implementatiemodellen die horen bij de elektromechanische installaties.
 
-In dit implementatiemodel zijn alle onderdelen opgenomen die deel kunnen uitmaken van een elektrische keten zoals beschreven in de SB270.<br>
+In dit implementatiemodel zijn alle onderdelen opgenomen die deel kunnen uitmaken van een elektrische keten zoals beschreven in het standaardbestek 270.<br>
 Dit omvat thema's zoals:
 <ul> 
 <li>Distributienetbeheerder</li>
@@ -21,13 +20,14 @@ Dit omvat thema's zoals:
 <li>HS en LS</li>
 <li>...</li>
 </ul>
-Het profiel legt ook vast welke codelijsten moeten worden gebruikt. 
-</p>  														
+Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. De keuzeopties in deze lijsten worden evenwel buiten de OTL beheerd.  
+</p>  
+													
 {% endblock %}
 
 {% block status %}
 <p>Dit implementatiemodel dient om het specifieke gebruik van de entiteiten relevant voor de beschreven applicatie te verduidelijken.</p>
-<p>Dit document werd gepubliceerd als Kandidaat-standaard. De specificatie zoals in dit document beschreven doorloopt momenteel een periode van publieke review, tijdens het welke geen wijzigingen aan deze specificatie worden doorgevoerd.<br/>
+<p>Dit document werd gepubliceerd als Kandidaat-standaard. De specificatie zoals in dit document beschreven doorloopt momenteel een periode van publieke review, tijdens welke geen wijzigingen aan deze specificatie worden doorgevoerd.<br/>
 Dit document is bedoeld om uit te groeien tot een standaard in het beschreven domein. Desalniettemin heeft het op dit ogenblik geen officieel statuut en vertegenwoordigt het geen consensus binnen OSLO.</p>
 <p>Feedback, een vraag of een melding van een probleem op deze specificatie kan gegeven worden via ons <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaxOnrCkcarNHWI21YfPJ7sZChHVzOB2-P9ptzxkD9YX69-g/viewform">contactformulier</a>.</p>
 {% endblock %}
@@ -52,3 +52,23 @@ Dit document is bedoeld om uit te groeien tot een standaard in het beschreven do
         </ul>
         </p> 
 {% endblock %}
+
+{% block images %}
+   Extra figuren met gerichte selectie uit bovenstaande figuur:
+   <ul>
+     <li><a href="{{ documentroot }}/html/HS-metingOpHS.pdf">Meting op HS</a></li>
+     <li><a href="{{ documentroot }}/html/HS-metingOpHS-meerdereTrafo.pdf">Meting op HS meerdere trafo</a></li>
+     <li><a href="{{ documentroot }}/html/HS-metingOpLS.pdf">Meting op LS</a></li>
+	 <li><a href="{{ documentroot }}/html/LS-Aftakking-DNB.pdf">Meting op LS aftakking DNB</a></li>
+     <li><a href="{{ documentroot }}/html/LS-DNB.pdf">Meting op LS DNB</a></li>
+	 <li><a href="{{ documentroot }}/html/LS-Derden.pdf">Meting op LS derden</a></li>
+	 <li><a href="{{ documentroot }}/html/LS-op-HS-meting-HS.pdf">Meting op LS op HS cabine aan HS zijde</a></li>
+	 <li><a href="{{ documentroot }}/html/LS-op-HS-meting-LS.pdf">Meting op LS op HS cabine aan LS zijde</a></li>
+     
+ </ul>
+{% endblock %}
+
+
+
+
+

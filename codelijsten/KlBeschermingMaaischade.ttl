@@ -6,3 +6,17 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade> a skos:ConceptScheme;
   skos:definition "De middelen als bescherming tegen maaischade."@nl;
   skos:prefLabel "Bescherming maaischade"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermingMaaischade/kunststof> a skos:Concept;
+  skos:definition "Bescherming in kunststof."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermingMaaischade/houten-paal> a skos:Concept;
+  skos:definition "Bescherming dmv een houten paal."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade>;
+  skos:notation "houten-paal";
+  skos:prefLabel "houten paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade> .

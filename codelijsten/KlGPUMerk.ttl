@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGPUMerk> a skos:ConceptScheme;
   skos:definition "Het merk van de GPU."@nl;
   skos:prefLabel "GPU merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGPUMerk/nvidia> a skos:Concept;
+  skos:definition "Nvidia"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGPUMerk>;
+  skos:notation "nvidia";
+  skos:prefLabel "Nvidia"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGPUMerk> .

@@ -7,46 +7,11 @@
   skos:definition "Materialen van de geluidswerende constructie."@nl;
   skos:prefLabel "Materiaal"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/metaal---aluminium> a skos:Concept;
-  skos:definition "Metaal - aluminium"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "metaal---aluminium";
-  skos:prefLabel "metaal - aluminium"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/metaal---staal> a skos:Concept;
-  skos:definition "metaal - staal"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "metaal---staal";
-  skos:prefLabel "metaal - staal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/metaal---aluminium-en-staal> a skos:Concept;
   skos:definition "Metaal - aluminium en staal"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
   skos:notation "metaal---aluminium-en-staal";
   skos:prefLabel "metaal - aluminium en staal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/hout> a skos:Concept;
-  skos:definition "hout"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "hout";
-  skos:prefLabel "hout"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton---houtvezelbeton> a skos:Concept;
-  skos:definition "beton - houtvezelbeton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "beton---houtvezelbeton";
-  skos:prefLabel "beton - houtvezelbeton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton---lichtgewichtbeton> a skos:Concept;
-  skos:definition "beton - lichtgewichtbeton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "beton---lichtgewichtbeton";
-  skos:prefLabel "beton - lichtgewichtbeton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton---steenparament> a skos:Concept;
@@ -56,11 +21,39 @@
   skos:prefLabel "beton - steenparament"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton> a skos:Concept;
-  skos:definition "beton"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/metaal---aluminium> a skos:Concept;
+  skos:definition "Metaal - aluminium"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "beton";
-  skos:prefLabel "beton"@nl;
+  skos:notation "metaal---aluminium";
+  skos:prefLabel "metaal - aluminium"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/tunnelplaat> a skos:Concept;
+  skos:definition "tunnelplaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "tunnelplaat";
+  skos:prefLabel "tunnelplaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/glas> a skos:Concept;
+  skos:definition "glas"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "glas";
+  skos:prefLabel "glas"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton---lichtgewichtbeton> a skos:Concept;
+  skos:definition "beton - lichtgewichtbeton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "beton---lichtgewichtbeton";
+  skos:prefLabel "beton - lichtgewichtbeton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/hout> a skos:Concept;
+  skos:definition "hout"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "hout";
+  skos:prefLabel "hout"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/kunststof---PMMA> a skos:Concept;
@@ -77,18 +70,11 @@
   skos:prefLabel "kunststof - PVC"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/groenscherm> a skos:Concept;
-  skos:definition "groenscherm"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/stalen-raster-met-beschermnet-in-kunststof> a skos:Concept;
+  skos:definition "stalen raster met beschermnet in kunststof"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "groenscherm";
-  skos:prefLabel "groenscherm"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/bakstenen> a skos:Concept;
-  skos:definition "bakstenen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "bakstenen";
-  skos:prefLabel "bakstenen"@nl;
+  skos:notation "stalen-raster-met-beschermnet-in-kunststof";
+  skos:prefLabel "stalen raster met beschermnet in kunststof"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/kokospanelen> a skos:Concept;
@@ -98,16 +84,37 @@
   skos:prefLabel "kokospanelen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/stalen-raster-met-beschermnet-in-kunststof> a skos:Concept;
-  skos:definition "stalen raster met beschermnet in kunststof"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/bakstenen> a skos:Concept;
+  skos:definition "bakstenen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "stalen-raster-met-beschermnet-in-kunststof";
-  skos:prefLabel "stalen raster met beschermnet in kunststof"@nl;
+  skos:notation "bakstenen";
+  skos:prefLabel "bakstenen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/tunnelplaat> a skos:Concept;
-  skos:definition "tunnelplaat"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/metaal---staal> a skos:Concept;
+  skos:definition "metaal - staal"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
-  skos:notation "tunnelplaat";
-  skos:prefLabel "tunnelplaat"@nl;
+  skos:notation "metaal---staal";
+  skos:prefLabel "metaal - staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/groenscherm> a skos:Concept;
+  skos:definition "groenscherm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "groenscherm";
+  skos:prefLabel "groenscherm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton> a skos:Concept;
+  skos:definition "beton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCMateriaal/beton---houtvezelbeton> a skos:Concept;
+  skos:definition "beton - houtvezelbeton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal>;
+  skos:notation "beton---houtvezelbeton";
+  skos:prefLabel "beton - houtvezelbeton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCMateriaal> .

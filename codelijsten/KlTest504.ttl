@@ -14,11 +14,11 @@
   skos:prefLabel "De $label_zo/tonen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test3> a skos:Concept;
-  skos:definition "test3"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test2> a skos:Concept;
+  skos:definition "test2def2ff"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "test3";
-  skos:prefLabel "test3"@nl;
+  skos:notation "test2";
+  skos:prefLabel "test2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test> a skos:Concept;
@@ -28,9 +28,16 @@
   skos:prefLabel "test"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test2> a skos:Concept;
-  skos:definition "test2def2ff"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/het-label-zo-tonen> a skos:Concept;
+  skos:definition "De $label_zo/tonen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "test2";
-  skos:prefLabel "test2"@nl;
+  skos:notation "het-label-zo-tonen";
+  skos:prefLabel "Het $label_zo/tonen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test3> a skos:Concept;
+  skos:definition "test3"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test3";
+  skos:prefLabel "test3"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .

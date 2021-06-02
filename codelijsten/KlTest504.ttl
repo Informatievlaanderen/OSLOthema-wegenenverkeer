@@ -35,6 +35,13 @@
   skos:prefLabel "Het $label_zo/tonen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test-bug> a skos:Concept;
+  skos:definition "dfqdf"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test-bug";
+  skos:prefLabel "test bug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test3> a skos:Concept;
   skos:definition "test3"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;

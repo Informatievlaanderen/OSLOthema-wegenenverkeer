@@ -8,7 +8,7 @@
   skos:prefLabel "Verkeersbordsteuntype"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/seinbrug> a skos:Concept;
-  skos:definition "Deze opties mag niet aangeduid worden!
+  skos:definition "Deze optie mag niet aangeduid worden!
 Bij instantiëren van seinbruggen moet je het onderdeel 'Seinbrug' gebruiken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "seinbrug";
@@ -22,18 +22,18 @@ Bij instantiëren van seinbruggen moet je het onderdeel 'Seinbrug' gebruiken."@n
   skos:prefLabel "rechte paal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun> a skos:Concept;
+  skos:definition "Constructie die na aanrijding zijn oorspronkelijke positie hersteld"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
+  skos:notation "botsvriendelijke-steun";
+  skos:prefLabel "botsvriendelijke steun"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/vakwerksteun> a skos:Concept;
   skos:definition "Een keuzelijst om het type verkeersbordpaal te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "vakwerksteun";
   skos:prefLabel "vakwerksteun"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE3> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
-  skos:notation "botsvriendelijke-steun-type-100NE3";
-  skos:prefLabel "botsvriendelijke steun type 100NE3"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE2> a skos:Concept;
@@ -43,17 +43,17 @@ Bij instantiëren van seinbruggen moet je het onderdeel 'Seinbrug' gebruiken."@n
   skos:prefLabel "botsvriendelijke steun type 100NE2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE3> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
+  skos:notation "botsvriendelijke-steun-type-100NE3";
+  skos:prefLabel "botsvriendelijke steun type 100NE3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/galgpaal> a skos:Concept;
-  skos:definition "Deze opties mag niet aangeduid worden!
+  skos:definition "Deze optie mag niet aangeduid worden!
 Bij instantiëren van galgpalen moet je het onderdeel 'Galgpaal' gebruiken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "galgpaal";
   skos:prefLabel "galgpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun> a skos:Concept;
-  skos:definition "Constructie die na aanrijding zijn oorspronkelijke positie hersteld"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
-  skos:notation "botsvriendelijke-steun";
-  skos:prefLabel "botsvriendelijke steun"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .

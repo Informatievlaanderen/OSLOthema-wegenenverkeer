@@ -14,8 +14,36 @@
   skos:prefLabel "seinbrug"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/galgpaal> a skos:Concept;
+  skos:definition "Deze optie mag niet aangeduid worden! Bij instantiëren van galgpalen moet je het onderdeel 'Galgpaal' gebruiken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
+  skos:notation "galgpaal";
+  skos:prefLabel "galgpaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/vakwerksteun> a skos:Concept;
+  skos:definition "Een keuzelijst om het type verkeersbordpaal te bepalen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
+  skos:notation "vakwerksteun";
+  skos:prefLabel "vakwerksteun"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE3> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
+  skos:notation "botsvriendelijke-steun-type-100NE3";
+  skos:prefLabel "botsvriendelijke steun type 100NE3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE2> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
+  skos:notation "botsvriendelijke-steun-type-100NE2";
+  skos:prefLabel "botsvriendelijke steun type 100NE2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/rechte-paal> a skos:Concept;
-  skos:definition "Een rechte paal met als doel een verkeersbord te bevestigen"@nl;
+  skos:definition "Een rechte paal met als doel een verkeersbord te bevestigen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "rechte-paal";
   skos:prefLabel "rechte paal"@nl;
@@ -26,33 +54,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "botsvriendelijke-steun";
   skos:prefLabel "botsvriendelijke steun"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/vakwerksteun> a skos:Concept;
-  skos:definition "Een keuzelijst om het type verkeersbordpaal te bepalen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
-  skos:notation "vakwerksteun";
-  skos:prefLabel "vakwerksteun"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE2> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
-  skos:notation "botsvriendelijke-steun-type-100NE2";
-  skos:prefLabel "botsvriendelijke steun type 100NE2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE3> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
-  skos:notation "botsvriendelijke-steun-type-100NE3";
-  skos:prefLabel "botsvriendelijke steun type 100NE3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/galgpaal> a skos:Concept;
-  skos:definition "Deze optie mag niet aangeduid worden!
-Bij instantiëren van galgpalen moet je het onderdeel 'Galgpaal' gebruiken."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
-  skos:notation "galgpaal";
-  skos:prefLabel "galgpaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .

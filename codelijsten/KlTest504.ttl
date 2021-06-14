@@ -14,6 +14,13 @@
   skos:prefLabel "De $label_zo/tonen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/ip65> a skos:Concept;
+  skos:definition "test 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "ip65";
+  skos:prefLabel "Ip65"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test2> a skos:Concept;
   skos:definition "test2def2ff"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;

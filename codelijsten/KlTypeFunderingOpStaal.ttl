@@ -6,3 +6,17 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingOpStaal> a skos:ConceptScheme;
   skos:definition "Manier waarop de fundering uitgevoerd is."@nl;
   skos:prefLabel "Type fundering op staal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFunderingOpStaal/zool> a skos:Concept;
+  skos:definition "Rechthoekig of vierkant betonblok, meestal ter hoogte van kolommen, soms ook funderingssokkel en funderingspoer genoemd. Heeft als primaire functie de belastingen vanuit een constructie te kunnen overdragen naar een draagkrachtige ondergrond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingOpStaal>;
+  skos:notation "zool";
+  skos:prefLabel "Zool"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingOpStaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFunderingOpStaal/strook> a skos:Concept;
+  skos:definition "Strook gewapend beton, waarop (meestal) dragende muren komen. Heeft als primaire functie de belastingen vanuit een constructie te kunnen overdragen naar een draagkrachtige ondergrond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingOpStaal>;
+  skos:notation "strook";
+  skos:prefLabel "Strook"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingOpStaal> .

@@ -6,3 +6,24 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal> a skos:ConceptScheme;
   skos:definition "De soort van de micropaal."@nl;
   skos:prefLabel "Type micropaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMicropaal/titan> a skos:Concept;
+  skos:definition "Micropaal vervaardigd door Ischebeck TITAN."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal>;
+  skos:notation "titan";
+  skos:prefLabel "Titan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMicropaal/pds> a skos:Concept;
+  skos:definition "Micropaal vervaardigd door Penen Drilling System (PDS)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal>;
+  skos:notation "pds";
+  skos:prefLabel "PDS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMicropaal/andere> a skos:Concept;
+  skos:definition "Een ander type van micropaal. Details zijn terug te vinden in de technische fiche."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal>;
+  skos:notation "andere";
+  skos:prefLabel "Andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal> .

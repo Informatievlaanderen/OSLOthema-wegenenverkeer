@@ -6,3 +6,17 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeCFAPaal> a skos:ConceptScheme;
   skos:definition "De soort van de CFA-paal."@nl;
   skos:prefLabel "Type CFA-paal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeCFAPaal/met-beperkte-grondverdringing-beperkte-grondontspanning> a skos:Concept;
+  skos:definition "CFA-paal met speciale voorzieningen om grondontspanning te voorkomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeCFAPaal>;
+  skos:notation "met-beperkte-grondverdringing-beperkte-grondontspanning";
+  skos:prefLabel "Met beperkte grondverdringing/beperkte grondontspanning"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeCFAPaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeCFAPaal/met-uitgraving-van-de-grond-grondontspanning> a skos:Concept;
+  skos:definition "CFA-paal zonder speciale voorzieningen om grondontspanning te voorkomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeCFAPaal>;
+  skos:notation "met-uitgraving-van-de-grond-grondontspanning";
+  skos:prefLabel "Met uitgraving van de grond (grondontspanning)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeCFAPaal> .

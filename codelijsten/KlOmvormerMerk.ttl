@@ -6,3 +6,17 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> a skos:ConceptScheme;
   skos:definition "Het merk van de omvormer."@nl;
   skos:prefLabel "Omvormer merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/bosch> a skos:Concept;
+  skos:definition "Bosch"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "bosch";
+  skos:prefLabel "Bosch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/axis> a skos:Concept;
+  skos:definition "Axis"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "axis";
+  skos:prefLabel "Axis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .

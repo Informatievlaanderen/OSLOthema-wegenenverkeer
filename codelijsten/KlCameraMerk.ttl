@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> a skos:ConceptScheme;
   skos:definition "Het merk van de camera."@nl;
   skos:prefLabel "Camera merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/bosch> a skos:Concept;
+  skos:definition "Bosch"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "bosch";
+  skos:prefLabel "Bosch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .

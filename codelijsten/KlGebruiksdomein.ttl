@@ -6,3 +6,24 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein> a skos:ConceptScheme;
   skos:definition "De omstandigheden waarin het beton gebruikt zal worden."@nl;
   skos:prefLabel "Gebruiksdomein"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/ob-ongewapend> a skos:Concept;
+  skos:definition "Ongewapend beton."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein>;
+  skos:notation "ob-ongewapend";
+  skos:prefLabel "OB (ongewapend)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/gb-gewapend> a skos:Concept;
+  skos:definition "Gewapend beton."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein>;
+  skos:notation "gb-gewapend";
+  skos:prefLabel "GB (gewapend)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/vb-voorgespannen> a skos:Concept;
+  skos:definition "Voorgespannen beton."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein>;
+  skos:notation "vb-voorgespannen";
+  skos:prefLabel "VB (voorgespannen)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein> .

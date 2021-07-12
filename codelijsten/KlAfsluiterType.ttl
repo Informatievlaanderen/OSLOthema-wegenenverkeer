@@ -7,6 +7,13 @@
   skos:definition "eeee"@nl;
   skos:prefLabel "Afsluiter type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/vw> a skos:Concept;
+  skos:definition "test op 'VW'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
+  skos:notation "vw";
+  skos:prefLabel "VW"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/steekschuif> a skos:Concept;
   skos:definition "De steekschuif is een verticaal bewegend afsluitorgaan, en kan rond, vierkant of rechthoekig zijn."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;

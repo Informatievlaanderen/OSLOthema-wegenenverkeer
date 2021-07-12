@@ -28,13 +28,6 @@
   skos:prefLabel "E"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test> a skos:Concept;
-  skos:definition "test2"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "test";
-  skos:prefLabel "test"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/het-label-zo-tonen> a skos:Concept;
   skos:definition "De $label_zo/tonen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
@@ -47,6 +40,13 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "test-bug";
   skos:prefLabel "test bug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/i-p-45> a skos:Concept;
+  skos:definition "Test op IP hoofdletters"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "i-p-45";
+  skos:prefLabel "IP45"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/i-p-44> a skos:Concept;
@@ -82,4 +82,25 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "test2";
   skos:prefLabel "test2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/nokia> a skos:Concept;
+  skos:definition "Test op 'NOKIA'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "nokia";
+  skos:prefLabel "NOKIA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/ip46> a skos:Concept;
+  skos:definition "Test op 'Ip'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "ip46";
+  skos:prefLabel "Ip46"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test> a skos:Concept;
+  skos:definition "test2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test";
+  skos:prefLabel "test"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .

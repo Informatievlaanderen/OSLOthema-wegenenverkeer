@@ -28,13 +28,6 @@
   skos:prefLabel "K"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/wandafsluiter> a skos:Concept;
-  skos:definition "Een afsluiter voor de beheersing van water."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
-  skos:notation "wandafsluiter";
-  skos:prefLabel "wandafsluiter"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/nieuw> a skos:Concept;
   skos:definition "Nieuw yes"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
@@ -47,4 +40,18 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
   skos:notation "w-3";
   skos:prefLabel "W"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/wandafsluiter> a skos:Concept;
+  skos:definition "Een afsluiter voor de beheersing van water."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
+  skos:notation "wandafsluiter";
+  skos:prefLabel "wandafsluiter"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/v-2> a skos:Concept;
+  skos:definition "Test op 'V'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
+  skos:notation "v-2";
+  skos:prefLabel "'V'"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .

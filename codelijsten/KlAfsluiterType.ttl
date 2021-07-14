@@ -7,6 +7,13 @@
   skos:definition "eeee"@nl;
   skos:prefLabel "Afsluiter type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/u-4> a skos:Concept;
+  skos:definition "Test op 'U'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;
+  skos:notation "u-4";
+  skos:prefLabel "U"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluiterType/vw> a skos:Concept;
   skos:definition "test op 'VW'"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluiterType>;

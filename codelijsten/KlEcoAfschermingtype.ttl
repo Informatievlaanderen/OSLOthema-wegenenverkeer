@@ -7,13 +7,6 @@
   skos:definition "Types van afscherming"@nl;
   skos:prefLabel "Afschermingtype"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/metalen> a skos:Concept;
-  skos:definition "Een afscherming bestaande uit metalen schermen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
-  skos:notation "metalen";
-  skos:prefLabel "metalen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/heidematten> a skos:Concept;
   skos:definition "Een afscherming bestaande uit heidematten."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
@@ -40,4 +33,18 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
   skos:notation "test-toevoegen";
   skos:prefLabel "Test toevoegen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/metalen> a skos:Concept;
+  skos:definition "Een afscherming bestaande uit metalen schermen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
+  skos:notation "metalen";
+  skos:prefLabel "metalen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/c-a> a skos:Concept;
+  skos:definition "test op 'C&A'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
+  skos:notation "c-a";
+  skos:prefLabel "C&A"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .

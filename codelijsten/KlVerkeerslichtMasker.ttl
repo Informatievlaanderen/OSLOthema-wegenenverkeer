@@ -7,18 +7,11 @@
   skos:definition "Keuzelijst met de gangbare types masker die op een verkeerslicht zijn aangebracht."@nl;
   skos:prefLabel "Verkeerslicht masker"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/volle-lens> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/voetganger> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "volle-lens";
-  skos:prefLabel "volle lens"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/fietser> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "fietser";
-  skos:prefLabel "fietser"@nl;
+  skos:notation "voetganger";
+  skos:prefLabel "voetganger"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-links> a skos:Concept;
@@ -28,67 +21,11 @@
   skos:prefLabel "pijl links"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechts> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/fietser> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "pijl-rechts";
-  skos:prefLabel "pijl rechts"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechtdoor-links> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "pijl-rechtdoor-links";
-  skos:prefLabel "pijl rechtdoor links"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechtdoor-rechts> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "pijl-rechtdoor-rechts";
-  skos:prefLabel "pijl rechtdoor rechts"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/kruis> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "kruis";
-  skos:prefLabel "kruis"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/horizontale-balk> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "horizontale-balk";
-  skos:prefLabel "horizontale balk"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/verticale-balk> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "verticale-balk";
-  skos:prefLabel "verticale balk"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/driehoek> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "driehoek";
-  skos:prefLabel "driehoek"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/schuine-balk-+45°> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "schuine-balk-+45°";
-  skos:prefLabel "schuine balk +45°"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/schuine-balk--45°> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "schuine-balk--45°";
-  skos:prefLabel "schuine balk -45°"@nl;
+  skos:notation "fietser";
+  skos:prefLabel "fietser"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/kleine-cirkel> a skos:Concept;
@@ -98,18 +35,18 @@
   skos:prefLabel "kleine cirkel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/niet-gekend> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechtdoor-links> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "niet-gekend";
-  skos:prefLabel "niet gekend"@nl;
+  skos:notation "pijl-rechtdoor-links";
+  skos:prefLabel "pijl rechtdoor links"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/voetganger> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/driehoek> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
-  skos:notation "voetganger";
-  skos:prefLabel "voetganger"@nl;
+  skos:notation "driehoek";
+  skos:prefLabel "driehoek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/vierkant-groen> a skos:Concept;
@@ -117,4 +54,74 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
   skos:notation "vierkant-groen";
   skos:prefLabel "vierkant groen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/schuine-balk--45°> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "schuine-balk--45°";
+  skos:prefLabel "schuine balk -45°"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/volle-lens> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "volle-lens";
+  skos:prefLabel "volle lens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/niet-gekend> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "niet-gekend";
+  skos:prefLabel "niet gekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/schuine-balk-+45°> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "schuine-balk-+45°";
+  skos:prefLabel "schuine balk +45°"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/kruis> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "kruis";
+  skos:prefLabel "kruis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechts> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "pijl-rechts";
+  skos:prefLabel "pijl rechts"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechtdoor-rechts> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "pijl-rechtdoor-rechts";
+  skos:prefLabel "pijl rechtdoor rechts"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/verticale-balk> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "verticale-balk";
+  skos:prefLabel "verticale balk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/horizontale-balk> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "horizontale-balk";
+  skos:prefLabel "horizontale balk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerslichtMasker/pijl-rechtdoor> a skos:Concept;
+  skos:definition "Pijl rechtdoor"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker>;
+  skos:notation "pijl-rechtdoor";
+  skos:prefLabel "pijl rechtdoor"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMasker> .

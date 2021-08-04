@@ -7,11 +7,18 @@
   skos:definition "vb : Windows 10 SP1, Windows 10 SP2, unix."@nl;
   skos:prefLabel "Hardware OS"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareOS/windows-10-SP1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareOS/cent-os-linux-7-core> a skos:Concept;
+  skos:definition "CentOS Linux 7 (Core)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS>;
+  skos:notation "cent-os-linux-7-core";
+  skos:prefLabel "CentOS Linux 7 (Core)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareOS/unix> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS>;
-  skos:notation "windows-10-SP1";
-  skos:prefLabel "windows 10 SP1"@nl;
+  skos:notation "unix";
+  skos:prefLabel "unix"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareOS/windows-10-SP2> a skos:Concept;
@@ -21,9 +28,9 @@
   skos:prefLabel "windows 10 SP2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareOS/unix> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareOS/windows-10-SP1> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS>;
-  skos:notation "unix";
-  skos:prefLabel "unix"@nl;
+  skos:notation "windows-10-SP1";
+  skos:prefLabel "windows 10 SP1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareOS> .

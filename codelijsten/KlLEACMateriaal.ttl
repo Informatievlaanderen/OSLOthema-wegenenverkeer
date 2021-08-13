@@ -7,11 +7,18 @@
   skos:definition "De verschillende materialen voor afschermende constructies."@nl;
   skos:prefLabel "Materiaal"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/in-situ-beton> a skos:Concept;
-  skos:definition "in situ beton"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/geprefabriceerde-beton> a skos:Concept;
+  skos:definition "geleideconstructie bestaande uit geprefabriceerde betonnen elementen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal>;
-  skos:notation "in-situ-beton";
-  skos:prefLabel "in situ beton"@nl;
+  skos:notation "geprefabriceerde-beton";
+  skos:prefLabel "geprefabriceerde beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/kunststof> a skos:Concept;
+  skos:definition "kunststof"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/staal> a skos:Concept;
@@ -28,16 +35,9 @@
   skos:prefLabel "hout-staal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/kunststof> a skos:Concept;
-  skos:definition "kunststof"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/in-situ-beton> a skos:Concept;
+  skos:definition "in situ beton"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal>;
-  skos:notation "kunststof";
-  skos:prefLabel "kunststof"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/geprefabriceerde-beton> a skos:Concept;
-  skos:definition "geprefabriceerde beton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal>;
-  skos:notation "geprefabriceerde-beton";
-  skos:prefLabel "geprefabriceerde beton"@nl;
+  skos:notation "in-situ-beton";
+  skos:prefLabel "in situ beton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal> .

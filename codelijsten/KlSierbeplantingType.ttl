@@ -7,11 +7,11 @@
   skos:definition "Verschillende types van sierbeplanting."@nl;
   skos:prefLabel "Sierbeplanting type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/bodembedekkers> a skos:Concept;
-  skos:definition "Aangelegd begroeiingstype, doorgaans met vaste planten, die bedoeld is om snel de bodem af te dekken."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/vaste-planten> a skos:Concept;
+  skos:definition "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn. Dus niet de eenjarige en tweejarige kruidachtige soorten."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
-  skos:notation "bodembedekkers";
-  skos:prefLabel "bodembedekkers"@nl;
+  skos:notation "vaste-planten";
+  skos:prefLabel "vaste planten"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/siergrassen> a skos:Concept;
@@ -21,9 +21,16 @@
   skos:prefLabel "siergrassen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/vaste-planten> a skos:Concept;
-  skos:definition "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn. Dus niet de eenjarige en tweejarige kruidachtige soorten."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/bodembedekkers> a skos:Concept;
+  skos:definition "Aangelegd begroeiingstype, doorgaans met vaste planten, die bedoeld is om snel de bodem af te dekken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
-  skos:notation "vaste-planten";
-  skos:prefLabel "vaste planten"@nl;
+  skos:notation "bodembedekkers";
+  skos:prefLabel "bodembedekkers"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/bol-en-knolgewassen> a skos:Concept;
+  skos:definition "Bol- en knolgewassen beschikken over boven- of ondergrondse delen waarin voedsel voor ‘barre’ tijden kan worden opgeslagen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
+  skos:notation "bol-en-knolgewassen";
+  skos:prefLabel "bol- en knolgewassen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .

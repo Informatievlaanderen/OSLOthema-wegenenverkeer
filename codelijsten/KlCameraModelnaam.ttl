@@ -3,6 +3,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> a skos:ConceptScheme;
   skos:definition "De modelnaam van de camera."@nl;
   skos:prefLabel "Camera modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/ulisse-hd> a skos:Concept;
+  skos:definition "Ulisse HD"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "ulisse-hd";
+  skos:prefLabel "Ulisse HD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .

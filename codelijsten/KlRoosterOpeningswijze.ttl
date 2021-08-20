@@ -6,3 +6,24 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> a skos:ConceptScheme;
   skos:definition "Deze keuzelijst geeft de manier aan hoe het rooster geopend kan worden."@nl;
   skos:prefLabel "Rooster openingswijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/scharnierend> a skos:Concept;
+  skos:definition "scharnierend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
+  skos:notation "scharnierend";
+  skos:prefLabel "scharnierend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/uitneembaar> a skos:Concept;
+  skos:definition "uitneembaar"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
+  skos:notation "uitneembaar";
+  skos:prefLabel "uitneembaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/ovaal-deksel> a skos:Concept;
+  skos:definition "ovaal deksel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
+  skos:notation "ovaal-deksel";
+  skos:prefLabel "ovaal deksel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .

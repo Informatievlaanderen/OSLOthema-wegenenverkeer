@@ -21,16 +21,16 @@
   skos:prefLabel "optische vezel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/koperpaar-kabel> a skos:Concept;
-  skos:definition "De telecomkabel is een koperpaar kabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
-  skos:notation "koperpaar-kabel";
-  skos:prefLabel "koperpaar kabel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/andere> a skos:Concept;
   skos:definition "De telecomkabel is van een type dat niet in deze lijst is opgenomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
   skos:notation "andere";
   skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/koperpaar-kabel> a skos:Concept;
+  skos:definition "De telecomkabel is een koperpaar kabel. In het Engels spreekt men van een Twisted Pair (TP). Deze kan shielded (STP) of unprotected (UTP) zijn. Een Ethernet kabel is een voorbeeld van een TP kabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
+  skos:notation "koperpaar-kabel";
+  skos:prefLabel "koperpaar kabel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .

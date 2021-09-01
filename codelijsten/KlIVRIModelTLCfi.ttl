@@ -6,3 +6,24 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> a skos:ConceptScheme;
   skos:definition "De modelnaam van de TLC-fi poort."@nl;
   skos:prefLabel "iVRIModelTLCfi"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/civa-2020> a skos:Concept;
+  skos:definition "CIVA 2020"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
+  skos:notation "civa-2020";
+  skos:prefLabel "CIVA 2020"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/flownode> a skos:Concept;
+  skos:definition "FlowNode"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
+  skos:notation "flownode";
+  skos:prefLabel "FlowNode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/tlc-fi-broker> a skos:Concept;
+  skos:definition "TLC-FI broker"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
+  skos:notation "tlc-fi-broker";
+  skos:prefLabel "TLC-FI broker"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .

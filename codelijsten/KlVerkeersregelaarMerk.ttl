@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met merknamen voor Verkeersregelaar."@nl;
+  skos:prefLabel "verkeersregelaar merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/dynniq> a skos:Concept;
+  skos:definition "Dynniq"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "dynniq";
+  skos:prefLabel "Dynniq"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/siemens> a skos:Concept;
+  skos:definition "Siemens"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "siemens";
+  skos:prefLabel "Siemens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/peek> a skos:Concept;
+  skos:definition "Peek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "peek";
+  skos:prefLabel "Peek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/ko-hartog> a skos:Concept;
+  skos:definition "Ko Hartog"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "ko-hartog";
+  skos:prefLabel "Ko Hartog"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .

@@ -21,13 +21,6 @@
   skos:prefLabel "3"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen2/een-waarde-met-d> a skos:Concept;
-  skos:definition "een waarde met"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2>;
-  skos:notation "een-waarde-met-d";
-  skos:prefLabel "een waarde"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen2/12> a skos:Concept;
   skos:definition "De constructie bestaat uit 1 boompaal."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2>;
@@ -40,4 +33,18 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2>;
   skos:notation "het-label-zo-tonen";
   skos:prefLabel "Het $label_zo/tonen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen2/kunststof> a skos:Concept;
+  skos:definition "dit is kunststof"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2>;
+  skos:notation "kunststof";
+  skos:prefLabel "Kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen2/een-waarde-met-d> a skos:Concept;
+  skos:definition "een waarde met"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2>;
+  skos:notation "een-waarde-met-d";
+  skos:prefLabel "een waarde"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen2> .

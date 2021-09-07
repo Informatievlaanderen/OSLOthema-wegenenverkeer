@@ -7,11 +7,11 @@
   skos:definition "Het type van bouwput."@nl;
   skos:prefLabel "Bouwput type."@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/persput> a skos:Concept;
-  skos:definition "persput"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/bouwput> a skos:Concept;
+  skos:definition "bouwput"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType>;
-  skos:notation "persput";
-  skos:prefLabel "persput"@nl;
+  skos:notation "bouwput";
+  skos:prefLabel "bouwput"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/ontvangstput> a skos:Concept;
@@ -21,9 +21,16 @@
   skos:prefLabel "ontvangstput"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/bouwput> a skos:Concept;
-  skos:definition "bouwput"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/persput> a skos:Concept;
+  skos:definition "persput"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType>;
-  skos:notation "bouwput";
-  skos:prefLabel "bouwput"@nl;
+  skos:notation "persput";
+  skos:prefLabel "persput"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/intredeput> a skos:Concept;
+  skos:definition "intredeput"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType>;
+  skos:notation "intredeput";
+  skos:prefLabel "intredeput"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType> .

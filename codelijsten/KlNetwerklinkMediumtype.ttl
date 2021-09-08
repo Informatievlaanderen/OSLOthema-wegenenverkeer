@@ -6,3 +6,38 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype> a skos:ConceptScheme;
   skos:definition "Mogelijke waarden voor het type drager waarlangs data door de link getransporteerd wordt."@nl;
   skos:prefLabel "Netwerklink mediumtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/dsl> a skos:Concept;
+  skos:definition "De link tussen de netwerkpoorten wordt gerealiseerd via een DSL verbinding."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype>;
+  skos:notation "dsl";
+  skos:prefLabel "DSL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/transportnetwerk> a skos:Concept;
+  skos:definition "De link tussen de netwerkpoorten wordt gerealiseerd via het optisch transportnetwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype>;
+  skos:notation "transportnetwerk";
+  skos:prefLabel "transportnetwerk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/utp> a skos:Concept;
+  skos:definition "De link tussen de netwerkpoorten wordt gerealiseerd via een UTP kabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype>;
+  skos:notation "utp";
+  skos:prefLabel "UTP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/optisch> a skos:Concept;
+  skos:definition "De link tussen de netwerkpoorten wordt gerealiseerd via een glasvezelkabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype>;
+  skos:notation "optisch";
+  skos:prefLabel "optisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/andere> a skos:Concept;
+  skos:definition "De link tussen de netwerkpoorten wordt gerealiseerd via een andere dan een optische, UTP, DSL of transportnetwerk verbinding."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype> .

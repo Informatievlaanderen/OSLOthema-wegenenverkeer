@@ -49,13 +49,6 @@
   skos:prefLabel "roestvrijstaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/beton> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "beton";
-  skos:prefLabel "beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/hout> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
@@ -68,4 +61,18 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
   skos:notation "staal";
   skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/beton> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/koper> a skos:Concept;
+  skos:definition "koper"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "koper";
+  skos:prefLabel "koper"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .

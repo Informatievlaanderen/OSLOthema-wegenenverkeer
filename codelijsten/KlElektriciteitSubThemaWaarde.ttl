@@ -1,0 +1,64 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met waardes uit de IMKL1.0 subthema lijst voor het thema elektriciteit."@nl;
+  skos:prefLabel "Elektriciteit subthema waarde"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-distributie-laagspanning> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in de distributie van laagspanning."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-distributie-laagspanning";
+  skos:prefLabel "elektriciteit distributie laagspanning"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-distributie-hoogspanning> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in de distributie van hoogspanning."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-distributie-hoogspanning";
+  skos:prefLabel "elektriciteit distributie hoogspanning"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-verkeershandhavingssystemen> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in een elektriciteitscircuit dat instaat voor het voorzien van elektriciteit aan verkeershandhavingssystemen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-verkeershandhavingssystemen";
+  skos:prefLabel "elektriciteit verkeershandhavingssystemen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-openbare-verlichting> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in een elektriciteitscircuit dat instaat voor het voorzien van elektriciteit aan installaties voor openbare verlichting."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-openbare-verlichting";
+  skos:prefLabel "elektriciteit openbare verlichting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-transport> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in het transport van elektriciteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-transport";
+  skos:prefLabel "elektriciteit transport"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-verkeerslichten> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in een elektriciteitscircuit dat instaat voor het voorzien van elektriciteit aan verkeerslichten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-verkeerslichten";
+  skos:prefLabel "elektriciteit verkeerslichten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-transport-plaatselijk> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet in het plaatselijke transport van elektriciteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-transport-plaatselijk";
+  skos:prefLabel "elektriciteit transport plaatselijk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektriciteitSubThemaWaarde/elektriciteit-kathodische-bescherming> a skos:Concept;
+  skos:definition "Het elektrisch element wordt ingezet als kathodische bescherming."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde>;
+  skos:notation "elektriciteit-kathodische-bescherming";
+  skos:prefLabel "elektriciteit kathodische bescherming"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektriciteitSubThemaWaarde> .

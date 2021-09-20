@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLocatiePrecisie> a skos:ConceptScheme;
+  skos:definition "De precisie van de locatie gegevens."@nl;
+  skos:prefLabel "Locatie precisie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLocatiePrecisie/meter> a skos:Concept;
+  skos:definition "1 meter of minder"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLocatiePrecisie>;
+  skos:notation "meter";
+  skos:prefLabel "1 meter of minder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLocatiePrecisie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLocatiePrecisie/plus_meter> a skos:Concept;
+  skos:definition "meer dan 1 meter"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLocatiePrecisie>;
+  skos:notation "plus_meter";
+  skos:prefLabel "meer dan 1 meter"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLocatiePrecisie> .

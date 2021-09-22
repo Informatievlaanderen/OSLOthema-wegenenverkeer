@@ -42,11 +42,25 @@
   skos:prefLabel "C&A"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/a-3> a skos:Concept;
+  skos:definition "Test kris"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "a-3";
+  skos:prefLabel "A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/het-label-zo-tonen> a skos:Concept;
   skos:definition "De $label_zo/tonen jawel"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "het-label-zo-tonen";
   skos:prefLabel "Het $label_zo/tonen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test2> a skos:Concept;
+  skos:definition "test2def2ff -terug"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test2";
+  skos:prefLabel "test2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/tweede-test-op-spaties> a skos:Concept;
@@ -131,20 +145,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "poging1";
   skos:prefLabel "Poging1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/a-3> a skos:Concept;
-  skos:definition "Test kris"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "a-3";
-  skos:prefLabel "A"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test2> a skos:Concept;
-  skos:definition "test2def2ff"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "test2";
-  skos:prefLabel "test2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/nokia> a skos:Concept;

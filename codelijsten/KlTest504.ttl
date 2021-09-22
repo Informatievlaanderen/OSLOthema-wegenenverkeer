@@ -84,6 +84,13 @@
   skos:prefLabel "IP45"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test3> a skos:Concept;
+  skos:definition "test3 blijft boven ?"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "test3";
+  skos:prefLabel "test3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/waarde-met-en-spat-ie> a skos:Concept;
   skos:definition "waarde met - en . spat ie"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
@@ -194,13 +201,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "ab-12";
   skos:prefLabel "AB -12"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test3> a skos:Concept;
-  skos:definition "test3"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "test3";
-  skos:prefLabel "test3"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/u-3> a skos:Concept;

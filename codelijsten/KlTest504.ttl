@@ -196,6 +196,13 @@
   skos:prefLabel "IP44"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/nieuw-label> a skos:Concept;
+  skos:definition "met definitie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "nieuw-label";
+  skos:prefLabel "nieuw label"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/ab-12> a skos:Concept;
   skos:definition "tiens 'AB -12'"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;

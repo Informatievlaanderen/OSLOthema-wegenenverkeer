@@ -35,6 +35,13 @@
   skos:prefLabel "onbekend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringStelsel/vies> a skos:Concept;
+  skos:definition "vuil"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel>;
+  skos:notation "vies";
+  skos:prefLabel "vies"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringStelsel/n-vuil> a skos:Concept;
   skos:definition "Stelsel bedoeld voor de afvoer van onvervuild water"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringStelsel>;

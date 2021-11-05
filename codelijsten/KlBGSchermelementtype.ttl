@@ -20,3 +20,10 @@
   skos:notation "l-element";
   skos:prefLabel "L-element"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBGSchermelementtype/testgeert> a skos:Concept;
+  skos:definition "bla"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype>;
+  skos:notation "testgeert";
+  skos:prefLabel "testgeert"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype> .

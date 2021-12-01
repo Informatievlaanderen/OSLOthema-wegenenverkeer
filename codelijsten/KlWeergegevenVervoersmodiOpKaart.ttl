@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> a skos:ConceptScheme;
   skos:definition "De verschillende beschikbare vervoersmodi die op de bijhorende kaart worden meegegeven."@nl;
   skos:prefLabel "Weergegeven vervoersmodi op kaart"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/treinnet> a skos:Concept;
+  skos:definition "TODO"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
+  skos:notation "treinnet";
+  skos:prefLabel "Treinnet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .

@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -7,32 +7,11 @@
   skos:definition "De verschillende beschikbare vervoersmodi die op de bijhorende kaart worden meegegeven."@nl;
   skos:prefLabel "Weergegeven vervoersmodi op kaart"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/kernnet-aanvullend-net> a skos:Concept;
-  skos:definition "TODO"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
-  skos:notation "kernnet-aanvullend-net";
-  skos:prefLabel "Kernnet - aanvullend net"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/deelfiets> a skos:Concept;
-  skos:definition "TODO"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
-  skos:notation "deelfiets";
-  skos:prefLabel "Deelfiets"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
-
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/treinnet> a skos:Concept;
   skos:definition "TODO"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
   skos:notation "treinnet";
   skos:prefLabel "Treinnet"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/deelauto> a skos:Concept;
-  skos:definition "TODO"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
-  skos:notation "deelauto";
-  skos:prefLabel "Deelauto"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/flexvervoer> a skos:Concept;
@@ -42,6 +21,13 @@
   skos:prefLabel "Flexvervoer"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
 
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/deelauto> a skos:Concept;
+  skos:definition "TODO"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
+  skos:notation "deelauto";
+  skos:prefLabel "Deelauto"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
+
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/vast-en-semiflex> a skos:Concept;
   skos:definition "TODO"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
@@ -49,3 +35,16 @@
   skos:prefLabel "Vast en semiflex"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
 
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/deelfiets> a skos:Concept;
+  skos:definition "TODO"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
+  skos:notation "deelfiets";
+  skos:prefLabel "Deelfiets"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeergegevenVervoersmodiOpKaart/kernnet-aanvullend-net> a skos:Concept;
+  skos:definition "TODO"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart>;
+  skos:notation "kernnet-aanvullend-net";
+  skos:prefLabel "Kernnet - aanvullend net"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeergegevenVervoersmodiOpKaart> .

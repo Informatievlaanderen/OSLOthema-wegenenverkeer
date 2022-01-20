@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> a skos:ConceptScheme;
   skos:definition "De modelnaam van de UPS."@nl;
   skos:prefLabel "UPS modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/keuzelijstwaarde-onbekend> a skos:Concept;
+  skos:definition "keuzelijstwaarde onbekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam>;
+  skos:notation "keuzelijstwaarde-onbekend";
+  skos:prefLabel "keuzelijstwaarde onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .

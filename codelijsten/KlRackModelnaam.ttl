@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRackModelnaam> a skos:ConceptScheme;
   skos:definition "Modelnamen voor racks."@nl;
   skos:prefLabel "Rack modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRackModelnaam/keuzelijstwaarde-onbekend> a skos:Concept;
+  skos:definition "keuzelijstwaarde onbekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRackModelnaam>;
+  skos:notation "keuzelijstwaarde-onbekend";
+  skos:prefLabel "keuzelijstwaarde onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRackModelnaam> .

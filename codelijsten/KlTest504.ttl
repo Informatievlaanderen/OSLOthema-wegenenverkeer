@@ -21,13 +21,6 @@
   skos:prefLabel "E"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/1-x-2-5-mm> a skos:Concept;
-  skos:definition "1 x 2.5 mm²"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "1-x-2-5-mm";
-  skos:prefLabel "1 x 2.5 mm²"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/ip52> a skos:Concept;
   skos:definition "test op 'ip52'"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
@@ -250,6 +243,13 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "k-2";
   skos:prefLabel "K"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/1-x-2-5-mm> a skos:Concept;
+  skos:definition "1 x 2 5 mm²"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "1-x-2-5-mm";
+  skos:prefLabel "1 x 2.5 mm²"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test-bug> a skos:Concept;

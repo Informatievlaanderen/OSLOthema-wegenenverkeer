@@ -7,11 +7,25 @@
   skos:definition "Keuzelijst voor gangbare types voor wegkantkasten."@nl;
   skos:prefLabel "Wegkantkast type"@nl.
 
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/F> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType>;
+  skos:notation "F";
+  skos:prefLabel "F"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType> .
+
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/A> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType>;
   skos:notation "A";
   skos:prefLabel "A"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/D> a skos:Concept;
+  skos:definition "Wegkantkast type D"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType>;
+  skos:notation "D";
+  skos:prefLabel "D"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/DD> a skos:Concept;
@@ -26,11 +40,4 @@
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType>;
   skos:notation "E";
   skos:prefLabel "E"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/F> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType>;
-  skos:notation "F";
-  skos:prefLabel "F"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType> .

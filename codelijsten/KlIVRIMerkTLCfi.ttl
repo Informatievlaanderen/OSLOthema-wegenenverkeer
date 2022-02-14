@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> a skos:ConceptScheme;
+  skos:definition "Het merk van de TLC-fi poort."@nl;
+  skos:prefLabel "iVRIMerkTLCfi"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/dynniq> a skos:Concept;
+  skos:definition "Dynniq"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
+  skos:notation "dynniq";
+  skos:prefLabel "Dynniq"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/ko-hartogs> a skos:Concept;
+  skos:definition "Ko Hartogs"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
+  skos:notation "ko-hartogs";
+  skos:prefLabel "Ko Hartogs"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/siemens> a skos:Concept;
+  skos:definition "Siemens"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
+  skos:notation "siemens";
+  skos:prefLabel "Siemens"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .

@@ -4,5 +4,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam> a skos:ConceptScheme;
-  skos:definition "Keuzelijst met modelnamen voor Verkeersregelaar."@nl;
+  skos:definition "Keuzelijst met modelnamen voor verkeersregelaar."@nl;
   skos:prefLabel "verkeersregelaar modelnaam"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarModelnaam/flow-nodes> a skos:Concept;
+  skos:definition "FlowNodes"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam>;
+  skos:notation "flow-nodes";
+  skos:prefLabel "FlowNodes"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarModelnaam/civa-2020> a skos:Concept;
+  skos:definition "CIVA 2020"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam>;
+  skos:notation "civa-2020";
+  skos:prefLabel "CIVA 2020"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam> .

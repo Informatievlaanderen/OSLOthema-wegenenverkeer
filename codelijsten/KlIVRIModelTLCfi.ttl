@@ -14,6 +14,13 @@
   skos:prefLabel "CIVA 2020s"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .
 
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/tlc-fi-broker> a skos:Concept;
+  skos:definition "TLC-FI broker"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
+  skos:notation "tlc-fi-broker";
+  skos:prefLabel "TLC-FI broker"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .
+
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/flownodes> a skos:Concept;
   skos:definition "FlowNodes"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
@@ -21,9 +28,16 @@
   skos:prefLabel "FlowNodes"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/tlc-fi-broker> a skos:Concept;
-  skos:definition "TLC-FI broker"@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/civa-2020> a skos:Concept;
+  skos:definition "CIVA 2020"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
-  skos:notation "tlc-fi-broker";
-  skos:prefLabel "TLC-FI broker"@nl;
+  skos:notation "civa-2020";
+  skos:prefLabel "CIVA 2020"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelTLCfi/flownode> a skos:Concept;
+  skos:definition "FlowNode"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi>;
+  skos:notation "flownode";
+  skos:prefLabel "FlowNode"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIVRIModelTLCfi> .

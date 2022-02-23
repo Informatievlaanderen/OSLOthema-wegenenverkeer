@@ -1,0 +1,32 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> a skos:ConceptScheme;
+  skos:definition "Deze keuzelijst geeft de manier aan hoe het rooster geopend kan worden."@nl;
+  skos:prefLabel "Rooster openingswijze"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/scharnierend> a skos:Concept;
+  skos:definition "scharnierend"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
+  skos:notation "scharnierend";
+  skos:prefLabel "scharnierend"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/uitneembaar> a skos:Concept;
+  skos:definition "uitneembaar"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
+  skos:notation "uitneembaar";
+  skos:prefLabel "uitneembaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/ovaal-deksel> a skos:Concept;
+  skos:definition "ovaal deksel"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
+  skos:notation "ovaal-deksel";
+  skos:prefLabel "ovaal deksel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
+
+
+

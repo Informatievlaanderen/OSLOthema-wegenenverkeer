@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade> a skos:ConceptScheme;
+  skos:definition "De middelen als bescherming tegen maaischade."@nl;
+  skos:prefLabel "Bescherming maaischade"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeschermingMaaischade/kunststof> a skos:Concept;
+  skos:definition "Bescherming in kunststof."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeschermingMaaischade/houten-paal> a skos:Concept;
+  skos:definition "Bescherming dmv een houten paal."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade>;
+  skos:notation "houten-paal";
+  skos:prefLabel "houten paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeschermingMaaischade> .
+
+
+

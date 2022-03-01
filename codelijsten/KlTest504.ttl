@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> a skos:ConceptScheme;
-  skos:definition "ff dsfqsqdf dfsfq....."@nl;
-  skos:prefLabel "504"@nl.
+  skos:definition "Poging04."@nl;
+  skos:prefLabel "Lijst504"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/test-op> a skos:Concept;
   skos:definition "test- op"@nl;
@@ -61,13 +61,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "proximus";
   skos:prefLabel "Proximus"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/ip61> a skos:Concept;
-  skos:definition "test op 'iP61'"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
-  skos:notation "ip61";
-  skos:prefLabel "iP61"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/i-p-45> a skos:Concept;
@@ -180,6 +173,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
   skos:notation "de-label-zo-tonen";
   skos:prefLabel "De $label_zo/tonen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/string> a skos:Concept;
+  skos:definition "string"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "string";
+  skos:prefLabel "string"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/ip61> a skos:Concept;
+  skos:definition "test op 'iP61'"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504>;
+  skos:notation "ip61";
+  skos:prefLabel "iP61"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest504> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest504/nok-i-a-45> a skos:Concept;

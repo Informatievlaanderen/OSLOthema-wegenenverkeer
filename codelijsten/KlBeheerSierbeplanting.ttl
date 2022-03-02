@@ -7,25 +7,32 @@
   skos:definition "Verschillende mogelijke beheeropties bij sierbeplanting."@nl;
   skos:prefLabel "Beheer sierbeplanting"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/niets-doen> a skos:Concept;
-  skos:definition "Er wordt geen beheer uitgevoerd."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/opschikken-knippen-dood-materiaal> a skos:Concept;
+  skos:definition "Opschikken/knippen van dood materiaal."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
-  skos:notation "niets-doen";
-  skos:prefLabel "niets doen"@nl;
+  skos:notation "opschikken-knippen-dood-materiaal";
+  skos:prefLabel "opschikken-knippen dood materiaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/scheren> a skos:Concept;
-  skos:definition "Het vlakvormig gelijkmatig kort afsnijden van takken van hagen, heesters en houtkanten."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/bodemafdekking-boomschors> a skos:Concept;
+  skos:definition "De bodem wordt afgedekt met boomschors."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
-  skos:notation "scheren";
-  skos:prefLabel "scheren"@nl;
+  skos:notation "bodemafdekking-boomschors";
+  skos:prefLabel "bodemafdekking - boomschors"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/snoeien> a skos:Concept;
-  skos:definition "Het inkorten of wegnemen van stengels met snoeischaar."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/bodemafdekking-houtsnippers> a skos:Concept;
+  skos:definition "De bodem wordt afgedekt met houtsnippers."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
-  skos:notation "snoeien";
-  skos:prefLabel "snoeien"@nl;
+  skos:notation "bodemafdekking-houtsnippers";
+  skos:prefLabel "bodemafdekking - houtsnippers"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/bodemafdekking-groencompost> a skos:Concept;
+  skos:definition "De bodem wordt afgedekt met groencompost."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
+  skos:notation "bodemafdekking-groencompost";
+  skos:prefLabel "bodemafdekking - groencompost"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/wieden> a skos:Concept;
@@ -42,9 +49,37 @@
   skos:prefLabel "hakken"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/opschikken-knippen-dood-materiaal> a skos:Concept;
-  skos:definition "Opschikken/knippen van dood materiaal."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/niets-doen> a skos:Concept;
+  skos:definition "Er wordt geen beheer uitgevoerd."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
-  skos:notation "opschikken-knippen-dood-materiaal";
-  skos:prefLabel "opschikken-knippen dood materiaal"@nl;
+  skos:notation "niets-doen";
+  skos:prefLabel "niets doen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/snoeien> a skos:Concept;
+  skos:definition "Het inkorten of wegnemen van stengels met snoeischaar."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
+  skos:notation "snoeien";
+  skos:prefLabel "snoeien"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/bodemafdekking-doek-in-jute-pla-folie> a skos:Concept;
+  skos:definition "De bodem wordt afgedekt met een doek in jute en PLA-folie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
+  skos:notation "bodemafdekking-doek-in-jute-pla-folie";
+  skos:prefLabel "bodemafdekking - doek in jute & PLA folie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/bodemafdekking-pla-doek> a skos:Concept;
+  skos:definition "De bodem wordt afgedekt met een PLA-doek."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
+  skos:notation "bodemafdekking-pla-doek";
+  skos:prefLabel "bodemafdekking - PLA doek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerSierbeplanting/scheren> a skos:Concept;
+  skos:definition "Het vlakvormig gelijkmatig kort afsnijden van takken van hagen, heesters en houtkanten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting>;
+  skos:notation "scheren";
+  skos:prefLabel "scheren"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerSierbeplanting> .

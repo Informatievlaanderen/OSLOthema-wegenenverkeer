@@ -7,123 +7,18 @@
   skos:definition "Behandelingswijzen van bomen."@nl;
   skos:prefLabel "Beheer boomvorm"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/begieten> a skos:Concept;
-  skos:definition "Periodisch begieten van bomen."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/verwijderen-boompalen> a skos:Concept;
+  skos:definition "Verwijderen van boompalen van boompaalconstructies."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "begieten";
-  skos:prefLabel "begieten"@nl;
+  skos:notation "verwijderen-boompalen";
+  skos:prefLabel "verwijderen boompalen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/verplanten> a skos:Concept;
-  skos:definition "Verplanten van bomen."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/meststoffen> a skos:Concept;
+  skos:definition "Leggen van meststoffen op de grond rond bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "verplanten";
-  skos:prefLabel "verplanten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/bodemafdekking> a skos:Concept;
-  skos:definition "Bodemafdekking van de grond rond bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "bodemafdekking";
-  skos:prefLabel "bodemafdekking"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/begeleidingssnoei> a skos:Concept;
-  skos:definition "Begeleidingssnoei van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "begeleidingssnoei";
-  skos:prefLabel "begeleidingssnoei"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/onderhoudssnoei> a skos:Concept;
-  skos:definition "Onderhoudssnoei van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "onderhoudssnoei";
-  skos:prefLabel "onderhoudssnoei"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/kroonreductie> a skos:Concept;
-  skos:definition "Kroonreductie van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "kroonreductie";
-  skos:prefLabel "kroonreductie"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/kandelaren> a skos:Concept;
-  skos:definition "Kandelaren van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "kandelaren";
-  skos:prefLabel "kandelaren"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/knotten> a skos:Concept;
-  skos:definition "Knotten van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "knotten";
-  skos:prefLabel "knotten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/wegnemen-waterloten-en-wortelopslag> a skos:Concept;
-  skos:definition "Wegnemen van waterloten en wortelopslag van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "wegnemen-waterloten-en-wortelopslag";
-  skos:prefLabel "wegnemen waterloten en wortelopslag"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/leiboomsnoei> a skos:Concept;
-  skos:definition "Leiboomsnoei van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "leiboomsnoei";
-  skos:prefLabel "leiboomsnoei"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/scheren> a skos:Concept;
-  skos:definition "Scheren van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "scheren";
-  skos:prefLabel "scheren"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/vellen> a skos:Concept;
-  skos:definition "Vellen van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "vellen";
-  skos:prefLabel "vellen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/gedeeltelijk-ontstronken> a skos:Concept;
-  skos:definition "Gedeeltelijk ontstronken van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "gedeeltelijk-ontstronken";
-  skos:prefLabel "gedeeltelijk ontstronken"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/volledig-ontstronken> a skos:Concept;
-  skos:definition "Volledig ontstronken van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "volledig-ontstronken";
-  skos:prefLabel "volledig ontstronken"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/rooien> a skos:Concept;
-  skos:definition "Rooien van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "rooien";
-  skos:prefLabel "rooien"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/stam--en-takbescherming> a skos:Concept;
-  skos:definition "Stam- en takbescherming van bomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "stam--en-takbescherming";
-  skos:prefLabel "stam- en takbescherming"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/stambescherming-zonnebrand> a skos:Concept;
-  skos:definition "Bescherming van de stam van bomen tegen zonnebrand."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "stambescherming-zonnebrand";
-  skos:prefLabel "stambescherming zonnebrand"@nl;
+  skos:notation "meststoffen";
+  skos:prefLabel "meststoffen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/verwijderen-gietrand> a skos:Concept;
@@ -133,18 +28,25 @@
   skos:prefLabel "verwijderen gietrand"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/afzagen-boompalen> a skos:Concept;
-  skos:definition "Afzagen van boompalen van boompaalconstructies."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/bodembeluchting-luchtinjectie> a skos:Concept;
+  skos:definition "Bodembeluchting-luchtinjectie van de grond rond bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "afzagen-boompalen";
-  skos:prefLabel "afzagen boompalen"@nl;
+  skos:notation "bodembeluchting-luchtinjectie";
+  skos:prefLabel "bodembeluchting-luchtinjectie"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/verwijderen-boompalen> a skos:Concept;
-  skos:definition "Verwijderen van boompalen van boompaalconstructies."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/leiboomsnoei> a skos:Concept;
+  skos:definition "Leiboomsnoei van bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "verwijderen-boompalen";
-  skos:prefLabel "verwijderen boompalen"@nl;
+  skos:notation "leiboomsnoei";
+  skos:prefLabel "leiboomsnoei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/onderhoudssnoei> a skos:Concept;
+  skos:definition "Onderhoudssnoei van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "onderhoudssnoei";
+  skos:prefLabel "onderhoudssnoei"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/vormsnoei> a skos:Concept;
@@ -154,18 +56,88 @@
   skos:prefLabel "vormsnoei"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/bodembeluchting-luchtinjectie> a skos:Concept;
-  skos:definition "Bodembeluchting-luchtinjectie van de grond rond bomen."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/bodemafdekking> a skos:Concept;
+  skos:definition "Bodemafdekking van de grond rond bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "bodembeluchting-luchtinjectie";
-  skos:prefLabel "bodembeluchting-luchtinjectie"@nl;
+  skos:notation "bodemafdekking";
+  skos:prefLabel "bodemafdekking"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/gronduitwisseling-wortelzone> a skos:Concept;
-  skos:definition "Gronduitwisseling wortelzone van de grond rond bomen."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/volledig-ontstronken> a skos:Concept;
+  skos:definition "Volledig ontstronken van bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "gronduitwisseling-wortelzone";
-  skos:prefLabel "gronduitwisseling wortelzone"@nl;
+  skos:notation "volledig-ontstronken";
+  skos:prefLabel "volledig ontstronken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/aanpassen-beschermingselementen-tegen-vraatschade> a skos:Concept;
+  skos:definition "Aanpassen van beschermingselementen tegen vraatschade bij bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "aanpassen-beschermingselementen-tegen-vraatschade";
+  skos:prefLabel "Aanpassen beschermingselementen tegen vraatschade"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/wegnemen-waterloten-en-wortelopslag> a skos:Concept;
+  skos:definition "Wegnemen van waterloten en wortelopslag van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "wegnemen-waterloten-en-wortelopslag";
+  skos:prefLabel "wegnemen waterloten en wortelopslag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/rooien> a skos:Concept;
+  skos:definition "Rooien van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "rooien";
+  skos:prefLabel "rooien"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/begieten> a skos:Concept;
+  skos:definition "Periodisch begieten van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "begieten";
+  skos:prefLabel "begieten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/gft-compost> a skos:Concept;
+  skos:definition "Leggen van GFT-compost op de grond rond bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "gft-compost";
+  skos:prefLabel "GFT-compost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/groencompost> a skos:Concept;
+  skos:definition "Leggen van groencompost op de grond rond bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "groencompost";
+  skos:prefLabel "groencompost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/scheren> a skos:Concept;
+  skos:definition "Scheren van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "scheren";
+  skos:prefLabel "scheren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/anti-wortelscherm> a skos:Concept;
+  skos:definition "Plaatsen van anti-wortel scherm in de grond onder een boom."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "anti-wortelscherm";
+  skos:prefLabel "anti-wortelscherm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/kandelaren> a skos:Concept;
+  skos:definition "Kandelaren van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "kandelaren";
+  skos:prefLabel "kandelaren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/vellen> a skos:Concept;
+  skos:definition "Vellen van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "vellen";
+  skos:prefLabel "vellen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/boren-grondpijler> a skos:Concept;
@@ -175,11 +147,53 @@
   skos:prefLabel "boren grondpijler"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/statische-kroonverankering> a skos:Concept;
-  skos:definition "Statische kroonverankering van een boom."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/begeleidingssnoei> a skos:Concept;
+  skos:definition "Begeleidingssnoei van bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "statische-kroonverankering";
-  skos:prefLabel "statische kroonverankering"@nl;
+  skos:notation "begeleidingssnoei";
+  skos:prefLabel "begeleidingssnoei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/meststoftabletten> a skos:Concept;
+  skos:definition "Leggen van meststoftabletten op de grond rond bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "meststoftabletten";
+  skos:prefLabel "meststoftabletten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/stambescherming-zonnebrand> a skos:Concept;
+  skos:definition "Bescherming van de stam van bomen tegen zonnebrand."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "stambescherming-zonnebrand";
+  skos:prefLabel "stambescherming zonnebrand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/gedeeltelijk-ontstronken> a skos:Concept;
+  skos:definition "Gedeeltelijk ontstronken van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "gedeeltelijk-ontstronken";
+  skos:prefLabel "gedeeltelijk ontstronken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/stam--en-takbescherming> a skos:Concept;
+  skos:definition "Stam- en takbescherming van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "stam--en-takbescherming";
+  skos:prefLabel "stam- en takbescherming"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/verplanten> a skos:Concept;
+  skos:definition "Verplanten van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "verplanten";
+  skos:prefLabel "verplanten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/verwijderen-beschermingselementen-tegen-vraatschade> a skos:Concept;
+  skos:definition "Verwijderen van beschermingselementen tegen vraatschade bij bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "verwijderen-beschermingselementen-tegen-vraatschade";
+  skos:prefLabel "Verwijderen beschermingselementen tegen vraatschade"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/dynamische-kroonverankering> a skos:Concept;
@@ -189,9 +203,37 @@
   skos:prefLabel "dynamische kroonverankering"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/anti-wortelscherm> a skos:Concept;
-  skos:definition "Plaatsen van anti-wortel scherm in de grond onder een boom."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/knotten> a skos:Concept;
+  skos:definition "Knotten van bomen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
-  skos:notation "anti-wortelscherm";
-  skos:prefLabel "anti-wortelscherm"@nl;
+  skos:notation "knotten";
+  skos:prefLabel "knotten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/afzagen-boompalen> a skos:Concept;
+  skos:definition "Afzagen van boompalen van boompaalconstructies."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "afzagen-boompalen";
+  skos:prefLabel "afzagen boompalen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/statische-kroonverankering> a skos:Concept;
+  skos:definition "Statische kroonverankering van een boom."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "statische-kroonverankering";
+  skos:prefLabel "statische kroonverankering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/gronduitwisseling-wortelzone> a skos:Concept;
+  skos:definition "Gronduitwisseling wortelzone van de grond rond bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "gronduitwisseling-wortelzone";
+  skos:prefLabel "gronduitwisseling wortelzone"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerBoomvorm/kroonreductie> a skos:Concept;
+  skos:definition "Kroonreductie van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm>;
+  skos:notation "kroonreductie";
+  skos:prefLabel "kroonreductie"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerBoomvorm> .

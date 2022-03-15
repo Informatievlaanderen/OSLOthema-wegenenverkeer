@@ -4,15 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> a skos:ConceptScheme;
-  skos:definition "Types van afscherming."@nl;
+  skos:definition "Types van afscherming"@nl;
   skos:prefLabel "Afschermingtype"@nl.
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/houten> a skos:Concept;
-  skos:definition "Een afscherming bestaande uit houten schermen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
-  skos:notation "houten";
-  skos:prefLabel "houten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/metalen> a skos:Concept;
   skos:definition "Een afscherming bestaande uit metalen schermen."@nl;
@@ -26,4 +19,11 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
   skos:notation "heidematten";
   skos:prefLabel "heidematten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/houten> a skos:Concept;
+  skos:definition "Een afscherming bestaande uit houten schermen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype>;
+  skos:notation "houten";
+  skos:prefLabel "houten"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype> .

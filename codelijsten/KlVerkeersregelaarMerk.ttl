@@ -14,18 +14,18 @@
   skos:prefLabel "Ko Hartog"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/swarco> a skos:Concept;
-  skos:definition "Swarco"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
-  skos:notation "swarco";
-  skos:prefLabel "Swarco"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/peek> a skos:Concept;
   skos:definition "Peek"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
   skos:notation "peek";
   skos:prefLabel "Peek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/swarco> a skos:Concept;
+  skos:definition "Swarco (voorheen Dynniq)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "swarco";
+  skos:prefLabel "Swarco"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/siemens> a skos:Concept;

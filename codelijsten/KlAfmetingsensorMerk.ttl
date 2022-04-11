@@ -4,12 +4,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorMerk> a skos:ConceptScheme;
-  skos:definition "-"@nl;
+  skos:definition "Het merk van de afmetingsensor"@nl;
   skos:prefLabel "Afmetingsensor merk"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorMerk/Sick> a skos:Concept;
-  skos:definition ""@nl;
+  skos:definition "merknaam"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorMerk>;
   skos:notation "Sick";
   skos:prefLabel "Sick"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorMerk/ander-merk> a skos:Concept;
+  skos:definition "merknaam"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorMerk>;
+  skos:notation "ander-merk";
+  skos:prefLabel "Ander merk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorMerk> .

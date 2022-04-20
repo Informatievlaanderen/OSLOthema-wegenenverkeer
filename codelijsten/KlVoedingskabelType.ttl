@@ -1,0 +1,99 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> a skos:ConceptScheme;
+  skos:definition "De types van de voedingskabel."@nl;
+  skos:prefLabel "Voedingskabel type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/exavb> a skos:Concept;
+  skos:definition "EXAVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "exavb";
+  skos:prefLabel "EXAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xgb> a skos:Concept;
+  skos:definition "XGB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xgb";
+  skos:prefLabel "XGB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/cu> a skos:Concept;
+  skos:definition "CU"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "cu";
+  skos:prefLabel "CU"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/vvb> a skos:Concept;
+  skos:definition "VVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "vvb";
+  skos:prefLabel "VVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/twab> a skos:Concept;
+  skos:definition "TWAB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "twab";
+  skos:prefLabel "TWAB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/eaxecwb> a skos:Concept;
+  skos:definition "EAXeCWB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "eaxecwb";
+  skos:prefLabel "EAXeCWB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/evavb> a skos:Concept;
+  skos:definition "EVAVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "evavb";
+  skos:prefLabel "EVAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/emxgb> a skos:Concept;
+  skos:definition "EmXGB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "emxgb";
+  skos:prefLabel "EmXGB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xvb> a skos:Concept;
+  skos:definition "XVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xvb";
+  skos:prefLabel "XVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xvg> a skos:Concept;
+  skos:definition "XVG"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xvg";
+  skos:prefLabel "XVG"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/elec> a skos:Concept;
+  skos:definition "ELEC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "elec";
+  skos:prefLabel "ELEC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/exvb> a skos:Concept;
+  skos:definition "EXVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "exvb";
+  skos:prefLabel "EXVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/vob> a skos:Concept;
+  skos:definition "VOB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "vob";
+  skos:prefLabel "VOB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .

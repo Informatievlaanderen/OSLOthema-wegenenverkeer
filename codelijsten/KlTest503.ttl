@@ -1,0 +1,15 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest503> a skos:ConceptScheme;
+  skos:definition "Fgbfgb"@nl;
+  skos:prefLabel "Test 503"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTest503/testje-145> a skos:Concept;
+  skos:definition "testje.145"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest503>;
+  skos:notation "testje-145";
+  skos:prefLabel "testje.145"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTest503> .

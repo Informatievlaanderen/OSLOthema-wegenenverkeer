@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> a skos:ConceptScheme;
+  skos:definition "Telecomkabel type"@nl;
+  skos:prefLabel "Telecomkabel type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/glasvezel> a skos:Concept;
+  skos:definition "glasvezel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "glasvezel";
+  skos:prefLabel "glasvezel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/f.o.> a skos:Concept;
+  skos:definition "F.O."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "f.o.";
+  skos:prefLabel "F.O."@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/app> a skos:Concept;
+  skos:definition "APP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "app";
+  skos:prefLabel "APP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/cu> a skos:Concept;
+  skos:definition "CU"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "cu";
+  skos:prefLabel "CU"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/onbekend> a skos:Concept;
+  skos:definition "onbekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "onbekend";
+  skos:prefLabel "onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/alupet> a skos:Concept;
+  skos:definition "ALUPET"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "alupet";
+  skos:prefLabel "ALUPET"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .

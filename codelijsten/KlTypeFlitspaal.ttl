@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal> a skos:ConceptScheme;
+  skos:definition "De mogelijke types van flitspalen gebruikt in een zone."@nl;
+  skos:prefLabel "Types flitspalen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFlitspaal/hybride-en-digitaal> a skos:Concept;
+  skos:definition "hybride en digitaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal>;
+  skos:notation "hybride-en-digitaal";
+  skos:prefLabel "hybride en digitaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFlitspaal/analoog-en-digitaal> a skos:Concept;
+  skos:definition "analoog en digitaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal>;
+  skos:notation "analoog-en-digitaal";
+  skos:prefLabel "analoog en digitaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFlitspaal/digitaal> a skos:Concept;
+  skos:definition "digitaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal>;
+  skos:notation "digitaal";
+  skos:prefLabel "digitaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFlitspaal> .

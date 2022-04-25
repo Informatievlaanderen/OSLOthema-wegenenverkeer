@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> a skos:ConceptScheme;
+  skos:definition "Lijst van voorkomende types aardingsnet"@nl;
+  skos:prefLabel "Aardingsinstallatie aardingsnet"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tnc> a skos:Concept;
+  skos:definition "TNC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet>;
+  skos:notation "tnc";
+  skos:prefLabel "TNC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tncs> a skos:Concept;
+  skos:definition "TNCS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet>;
+  skos:notation "tncs";
+  skos:prefLabel "TNCS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tt> a skos:Concept;
+  skos:definition "TT"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet>;
+  skos:notation "tt";
+  skos:prefLabel "TT"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tns> a skos:Concept;
+  skos:definition "TNS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet>;
+  skos:notation "tns";
+  skos:prefLabel "TNS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tns-tncs> a skos:Concept;
+  skos:definition "TNS-TNCS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet>;
+  skos:notation "tns-tncs";
+  skos:prefLabel "TNS-TNCS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/it> a skos:Concept;
+  skos:definition "IT"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet>;
+  skos:notation "it";
+  skos:prefLabel "IT"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet> .

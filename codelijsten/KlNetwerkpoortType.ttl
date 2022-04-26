@@ -7,11 +7,25 @@
   skos:definition "Lijst van types voor Netwerkpoort."@nl;
   skos:prefLabel "Netwerkpoort type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/ncni> a skos:Concept;
+  skos:definition "Een Not Configured Network Interface."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "ncni";
+  skos:prefLabel "NCNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/UNI> a skos:Concept;
   skos:definition "User-Network-Interface: deze poort verbindt het netwerk toestel met de poort van een gebruiker."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
   skos:notation "UNI";
   skos:prefLabel "UNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NULL> a skos:Concept;
+  skos:definition "Geen interface."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "NULL";
+  skos:prefLabel "NULL"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NNI> a skos:Concept;
@@ -26,11 +40,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
   skos:notation "Other";
   skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NULL> a skos:Concept;
-  skos:definition "Geen interface."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .

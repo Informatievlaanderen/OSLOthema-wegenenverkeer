@@ -7,11 +7,32 @@
   skos:definition "Het merk van de TLC-fi poort."@nl;
   skos:prefLabel "iVRIMerkTLCfi"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/yunex> a skos:Concept;
+  skos:definition "Yunex"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
+  skos:notation "yunex";
+  skos:prefLabel "Yunex"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/swarco> a skos:Concept;
+  skos:definition "Swarco (voorheen Dynniq)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
+  skos:notation "swarco";
+  skos:prefLabel "Swarco"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/siemens> a skos:Concept;
   skos:definition "Siemens"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
   skos:notation "siemens";
   skos:prefLabel "Siemens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/ko-hartogs> a skos:Concept;
+  skos:definition "Ko Hartogs"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
+  skos:notation "ko-hartogs";
+  skos:prefLabel "Ko Hartogs"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/ko-hartog> a skos:Concept;
@@ -26,11 +47,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
   skos:notation "dynniq";
   skos:prefLabel "Dynniq"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkTLCfi/ko-hartogs> a skos:Concept;
-  skos:definition "Ko Hartogs"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi>;
-  skos:notation "ko-hartogs";
-  skos:prefLabel "Ko Hartogs"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkTLCfi> .

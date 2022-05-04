@@ -3,34 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> a skos:ConceptScheme;
   skos:definition "Keuzelijst met merknamen voor Verkeersregelaar."@nl;
   skos:prefLabel "verkeersregelaar merk"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/ko-hartog> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/ko-hartog> a skos:Concept;
   skos:definition "Ko Hartog"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
   skos:notation "ko-hartog";
   skos:prefLabel "Ko Hartog"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/peek> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/peek> a skos:Concept;
   skos:definition "Peek"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
   skos:notation "peek";
   skos:prefLabel "Peek"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/siemens> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/swarco> a skos:Concept;
+  skos:definition "Swarco (voorheen Dynniq)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "swarco";
+  skos:prefLabel "Swarco"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/siemens> a skos:Concept;
   skos:definition "Siemens"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
   skos:notation "siemens";
   skos:prefLabel "Siemens"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/dynniq> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/yunex> a skos:Concept;
+  skos:definition "Yunex"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:notation "yunex";
+  skos:prefLabel "Yunex"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarMerk/dynniq> a skos:Concept;
   skos:definition "Dynniq"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk>;
   skos:notation "dynniq";
   skos:prefLabel "Dynniq"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarMerk> .

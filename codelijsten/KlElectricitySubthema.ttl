@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> a skos:ConceptScheme;
+  skos:definition "Lijst voor classificatie van elektrische kabels en appurtenances."@nl;
+  skos:prefLabel "Electricity subthema"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteitdistributiehoogspanning> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteitdistributiehoogspanning";
+  skos:prefLabel "elektriciteitDistributieHoogspanning"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteittransportplaatselijk> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteittransportplaatselijk";
+  skos:prefLabel "elektriciteitTransportPlaatselijk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteitverkeershandhavingssystemen> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteitverkeershandhavingssystemen";
+  skos:prefLabel "elektriciteitVerkeershandhavingssystemen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteitdistributielaagspanning> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteitdistributielaagspanning";
+  skos:prefLabel "elektriciteitDistributieLaagspanning"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteitverkeerslichten> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteitverkeerslichten";
+  skos:prefLabel "elektriciteitVerkeerslichten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteitopenbareverlichting> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteitopenbareverlichting";
+  skos:prefLabel "elektriciteitOpenbareVerlichting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricitySubthema/elektriciteittransport> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema>;
+  skos:notation "elektriciteittransport";
+  skos:prefLabel "elektriciteitTransport"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricitySubthema> .

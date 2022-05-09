@@ -1,0 +1,99 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> a skos:ConceptScheme;
+  skos:definition "Omgevingsklasse waaraan het beton wordt blootgesteld."@nl;
+  skos:prefLabel "Betonomgevingsklasse"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-s-4> a skos:Concept;
+  skos:definition "Zeeomgeving : contact met zeewater en getijden- en spatzone."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-s-4";
+  skos:prefLabel "ES4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-s-2> a skos:Concept;
+  skos:definition "Zeeomgeving : geen contact met zeewater, wel contact met zeelucht (tot 3 km van de kust) en/of brak water, en wel contact met vorst."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-s-2";
+  skos:prefLabel "ES2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-a-2> a skos:Concept;
+  skos:definition "Middelmatig agressieve chemische omgeving volgens tabel 2 van NBN EN 206-1:2001."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-a-2";
+  skos:prefLabel "EA2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-e-2> a skos:Concept;
+  skos:definition "Buitenomgeving : vorst, geen contact met regen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-e-2";
+  skos:prefLabel "EE2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-a-3> a skos:Concept;
+  skos:definition "Sterk agressieve chemische omgeving volgens tabel 2 van NBN EN 206-1:2001."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-a-3";
+  skos:prefLabel "EA3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/ei> a skos:Concept;
+  skos:definition "Binnenomgeving."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "ei";
+  skos:prefLabel "EI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-s-1> a skos:Concept;
+  skos:definition "Zeeomgeving : geen contact met zeewater, wel contact met zeelucht (tot 3 km van de kust) en/of brak water, en geen contact met vorst."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-s-1";
+  skos:prefLabel "ES1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-e-3> a skos:Concept;
+  skos:definition "Buitenomgeving : vorst, contact met regen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-e-3";
+  skos:prefLabel "EE3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-0> a skos:Concept;
+  skos:definition "Niet schadelijk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-0";
+  skos:prefLabel "E0"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-e-1> a skos:Concept;
+  skos:definition "Buitenomgeving : geen vorst."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-e-1";
+  skos:prefLabel "EE1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-a-1> a skos:Concept;
+  skos:definition "Zwak agressieve chemische omgeving volgens tabel 2 van NBN EN 206-1:2001."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-a-1";
+  skos:prefLabel "EA1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-e-4> a skos:Concept;
+  skos:definition "Buitenomgeving : vorst en dooizouten (aanwezigheid van ter plaatse ontdooid of opspattend of aflopend dooizouthoudend water)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-e-4";
+  skos:prefLabel "EE4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonomgevingsklasse/e-s-3> a skos:Concept;
+  skos:definition "Zeeomgeving : contact met zeewater en ondergedompeld."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse>;
+  skos:notation "e-s-3";
+  skos:prefLabel "ES3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonomgevingsklasse> .

@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput> a skos:ConceptScheme;
+  skos:definition "Soort van funderingsput."@nl;
+  skos:prefLabel "Type funderingsput"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFunderingsput/beschoeide-put> a skos:Concept;
+  skos:definition "Een put waarbij de grond laagsgewijs wordt weggegraven en de putwanden systematisch worden beschoeid met houten balken, met betonplaatjes of met stalen plaatjes."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput>;
+  skos:notation "beschoeide-put";
+  skos:prefLabel "Beschoeide put"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFunderingsput/valse-put> a skos:Concept;
+  skos:definition "Een cirkelvormige put waarbij de grond mechanisch wordt uitgegraven, al dan niet binnen een recupereerbare cirkelvormige mantelbuis."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput>;
+  skos:notation "valse-put";
+  skos:prefLabel "Valse put"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeFunderingsput/zinkput-of-caisson> a skos:Concept;
+  skos:definition "Een put waarbij de grond wordt uitgegraven binnen gewapende betonringen die in de grond worden achtergelaten. Het verschil tussen zinkputten en valse putten is de grootte van de put."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput>;
+  skos:notation "zinkput-of-caisson";
+  skos:prefLabel "Zinkput of caisson"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeFunderingsput> .

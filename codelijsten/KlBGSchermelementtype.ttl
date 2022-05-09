@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype> a skos:ConceptScheme;
+  skos:definition "Het type bijzonder-schermelement."@nl;
+  skos:prefLabel "Bijzonder geluidsschermelementtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBGSchermelementtype/bloembakelement> a skos:Concept;
+  skos:definition "bloembakelement"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype>;
+  skos:notation "bloembakelement";
+  skos:prefLabel "bloembakelement"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBGSchermelementtype/l-element> a skos:Concept;
+  skos:definition "L-element"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype>;
+  skos:notation "l-element";
+  skos:prefLabel "L-element"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBGSchermelementtype> .

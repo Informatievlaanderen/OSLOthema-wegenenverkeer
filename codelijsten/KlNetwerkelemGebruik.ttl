@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> a skos:ConceptScheme;
+  skos:definition "Keuzelijst met de verschillende mogelijke netwerkstructuren waarbinnen een netwerkelement kan ingezet worden."@nl;
+  skos:prefLabel "Netwerkelement gebruik"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/4g-wireless-router> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen een 4G draadloos netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "4g-wireless-router";
+  skos:prefLabel "4G wireless router"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/cen> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen het CEN netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "cen";
+  skos:prefLabel "CEN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/sdh> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen het SDH netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "sdh";
+  skos:prefLabel "SDH"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/otn> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen het optisch transport netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "otn";
+  skos:prefLabel "OTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/l2-switch> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen de L2 netwerkstructuur."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "l2-switch";
+  skos:prefLabel "L2-switch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/l3-switch> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen de L3 netwerkstructuur."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "l3-switch";
+  skos:prefLabel "L3-switch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .

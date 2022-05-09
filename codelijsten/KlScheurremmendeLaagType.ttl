@@ -3,41 +3,111 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> a skos:ConceptScheme;
   skos:definition "Types van scheurremmende laag."@nl;
   skos:prefLabel "Scheurremmende laag type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/bitumineus-membraan-(SAMI)> a skos:Concept;
-  skos:definition "bitumineus membraan (SAMI)"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
-  skos:notation "bitumineus-membraan-(SAMI)";
-  skos:prefLabel "bitumineus membraan (SAMI)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet-klasse-c> a skos:Concept;
+  skos:definition "geocomposiet klasse C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "geocomposiet-klasse-c";
+  skos:prefLabel "geocomposiet klasse C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids> a skos:Concept;
-  skos:definition "grids"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
-  skos:notation "grids";
-  skos:prefLabel "grids"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet-klasse-cd> a skos:Concept;
+  skos:definition "geocomposiet klasse CD"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "geocomposiet-klasse-cd";
+  skos:prefLabel "geocomposiet klasse CD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet> a skos:Concept;
   skos:definition "geocomposiet"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
   skos:notation "geocomposiet";
   skos:prefLabel "geocomposiet"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/stalen-wapeningsnet-type-1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet-klasse-e-1> a skos:Concept;
+  skos:definition "geocomposiet klasse E1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "geocomposiet-klasse-e-1";
+  skos:prefLabel "geocomposiet klasse E1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids-klasse-e-2> a skos:Concept;
+  skos:definition "grids klasse E2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "grids-klasse-e-2";
+  skos:prefLabel "grids klasse E2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids-klasse-c> a skos:Concept;
+  skos:definition "grids klasse C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "grids-klasse-c";
+  skos:prefLabel "grids klasse C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/stalen-wapeningsnet-type-1> a skos:Concept;
   skos:definition "stalen wapeningsnet type 1"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
   skos:notation "stalen-wapeningsnet-type-1";
   skos:prefLabel "stalen wapeningsnet type 1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/stalen-wapeningsnet-type-2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet-klasse-e-2> a skos:Concept;
+  skos:definition "geocomposiet klasse E2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "geocomposiet-klasse-e-2";
+  skos:prefLabel "geocomposiet klasse E2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids-klasse-e-1> a skos:Concept;
+  skos:definition "grids klasse E1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "grids-klasse-e-1";
+  skos:prefLabel "grids klasse E1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids-klasse-d> a skos:Concept;
+  skos:definition "grids klasse D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "grids-klasse-d";
+  skos:prefLabel "grids klasse D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/geocomposiet-klasse-d> a skos:Concept;
+  skos:definition "geocomposiet klasse D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "geocomposiet-klasse-d";
+  skos:prefLabel "geocomposiet klasse D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/bitumineus-membraan-(SAMI)> a skos:Concept;
+  skos:definition "bitumineus membraan (SAMI)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "bitumineus-membraan-(SAMI)";
+  skos:prefLabel "bitumineus membraan (SAMI)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/stalen-wapeningsnet-type-2> a skos:Concept;
   skos:definition "stalen wapeningsnet type 2"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
   skos:notation "stalen-wapeningsnet-type-2";
   skos:prefLabel "stalen wapeningsnet type 2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids> a skos:Concept;
+  skos:definition "grids"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "grids";
+  skos:prefLabel "grids"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlScheurremmendeLaagType/grids-klasse-cd> a skos:Concept;
+  skos:definition "grids klasse CD"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType>;
+  skos:notation "grids-klasse-cd";
+  skos:prefLabel "grids klasse CD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlScheurremmendeLaagType> .

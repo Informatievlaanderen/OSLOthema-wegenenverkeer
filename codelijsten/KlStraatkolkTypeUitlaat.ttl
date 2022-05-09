@@ -3,20 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> a skos:ConceptScheme;
   skos:definition "Het type van uitlaat van de straatkolk."@nl;
   skos:prefLabel "straatkolk type uitlaat "@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/zij-uitlaat> a skos:Concept;
-  skos:definition "zij uitlaat"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat>;
-  skos:notation "zij-uitlaat";
-  skos:prefLabel "zij uitlaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/kop-uitlaat> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/kop-uitlaat> a skos:Concept;
   skos:definition "kop uitlaat"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat>;
   skos:notation "kop-uitlaat";
   skos:prefLabel "kop uitlaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/zij-uitlaat> a skos:Concept;
+  skos:definition "zij uitlaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat>;
+  skos:notation "zij-uitlaat";
+  skos:prefLabel "zij uitlaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/onderuitlaat> a skos:Concept;
+  skos:definition "onderuitlaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat>;
+  skos:notation "onderuitlaat";
+  skos:prefLabel "onderuitlaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat> .

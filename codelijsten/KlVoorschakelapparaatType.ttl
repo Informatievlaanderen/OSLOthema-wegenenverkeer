@@ -3,20 +3,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> a skos:ConceptScheme;
   skos:definition "Type van het voorschakelapparaat."@nl;
   skos:prefLabel "Voorschakelapparaat type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektromechanisch> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektronisch> a skos:Concept;
   skos:definition "/ CLASS : IVSB"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType>;
-  skos:notation "elektromechanisch";
-  skos:prefLabel "elektromechanisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektronisch> a skos:Concept;
-  skos:definition "/ CLASS : IVSB"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType>;
   skos:notation "elektronisch";
   skos:prefLabel "elektronisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektromechanisch> a skos:Concept;
+  skos:definition "/ CLASS : IVSB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType>;
+  skos:notation "elektromechanisch";
+  skos:prefLabel "elektromechanisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/niet-gekend> a skos:Concept;
+  skos:definition "Type niet gekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType>;
+  skos:notation "niet-gekend";
+  skos:prefLabel "Niet gekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType> .

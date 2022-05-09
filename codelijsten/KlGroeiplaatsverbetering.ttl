@@ -3,48 +3,118 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> a skos:ConceptScheme;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> a skos:ConceptScheme;
   skos:definition "De techniek waarmee de groeiplaats wordt verbeterd met als doel de levensverwachting en de conditie van de vegetatie te verbeteren."@nl;
   skos:prefLabel "Groeiplaatsverbetering"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/horizontale-drainage> a skos:Concept;
-  skos:definition "Groeiplaatsverbetering dmv horizontale drainage."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
-  skos:notation "horizontale-drainage";
-  skos:prefLabel "horizontale drainage"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/verticale-drainage> a skos:Concept;
-  skos:definition "Groeiplaatsverbetering dmv verticale drainage."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
-  skos:notation "verticale-drainage";
-  skos:prefLabel "verticale drainage"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/bodembeluchting-luchtinjectie> a skos:Concept;
-  skos:definition "Groeiplaatsverbetering dmv bodembeluchting-luchtinjectie."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
-  skos:notation "bodembeluchting-luchtinjectie";
-  skos:prefLabel "bodembeluchting-luchtinjectie"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/irrgatie-drainagebuis> a skos:Concept;
-  skos:definition "Groeiplaatsverbetering dmv irrigatie met een drainagebuis."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
-  skos:notation "irrgatie-drainagebuis";
-  skos:prefLabel "irrgatie drainagebuis"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/irrigatie-kunstmatige-gietrand> a skos:Concept;
-  skos:definition "Groeiplaatsverbetering dmv irrigatie met een kunstmatige gietrand."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/irrigatie-kunstmatige-gietrand> a skos:Concept;
+  skos:definition "NIET GEBRUIKEN - Groeiplaatsverbetering dmv irrigatie met een kunstmatige gietrand."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
   skos:notation "irrigatie-kunstmatige-gietrand";
   skos:prefLabel "irrigatie kunstmatige gietrand"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/irrigatie-gietrand-overtollige-grond> a skos:Concept;
-  skos:definition "Groeiplaatsverbetering dmv irrigatie met een overtollige grond."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/irrgatie-drainagebuis> a skos:Concept;
+  skos:definition "NIET GEBRUIKEN - Groeiplaatsverbetering dmv irrigatie met een drainagebuis."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "irrgatie-drainagebuis";
+  skos:prefLabel "irrgatie drainagebuis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/beluchtingssysteem> a skos:Concept;
+  skos:definition "Een beluchtingssysteem is een groeiplaatsverbetering voor bomen door middel van een draineerbuis onder het wortelgestel of de kluit van een boom te plaatsen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "beluchtingssysteem";
+  skos:prefLabel "beluchtingssysteem"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/aanleg-drainagebuis> a skos:Concept;
+  skos:definition "Groeiplaatsverbetering dmv aanleg met een drainagebuis."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "aanleg-drainagebuis";
+  skos:prefLabel "aanleg drainagebuis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/aanleg-gietrand-overtollige-grond> a skos:Concept;
+  skos:definition "Groeiplaatsverbetering dmv aanleg met een overtollige grond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "aanleg-gietrand-overtollige-grond";
+  skos:prefLabel "aanleg gietrand overtollige grond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/gft-compost> a skos:Concept;
+  skos:definition "GFT-compost is het product verkregen door een gecontroleerde aërobe compostering (anaërobe vergisting met een aërobe nacompostering in het geval van humotex) van het gescheiden ingezamelde organische deel van het huishoudelijk afval (bestaande hoofdzakelijk uit keukenafval en het fijne, niethoutige, gedeelte van het tuinafval) tot volledige rijping."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "gft-compost";
+  skos:prefLabel "GFT-compost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/bezanden> a skos:Concept;
+  skos:definition "Het bezanden omvat het gelijkmatig spreiden van zand op bepaalde grondoppervlakken en het inwerken ervan."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "bezanden";
+  skos:prefLabel "bezanden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/meststoftabletten> a skos:Concept;
+  skos:definition "Tabletten van meststof."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "meststoftabletten";
+  skos:prefLabel "meststoftabletten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/horizontale-drainage> a skos:Concept;
+  skos:definition "Groeiplaatsverbetering dmv horizontale drainage."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "horizontale-drainage";
+  skos:prefLabel "horizontale drainage"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/bodembeluchting-luchtinjectie> a skos:Concept;
+  skos:definition "NIET GEBRUIKEN - Groeiplaatsverbetering dmv bodembeluchting-luchtinjectie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "bodembeluchting-luchtinjectie";
+  skos:prefLabel "bodembeluchting-luchtinjectie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/meststof> a skos:Concept;
+  skos:definition "een meststof is een scheikundig of organisch product dat ter verbetering van de vruchtbaarheid aan de grond wordt toegevoegd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "meststof";
+  skos:prefLabel "meststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/groencompost> a skos:Concept;
+  skos:definition "Groencompost is een product verkregen door een gecontroleerde aerobe compostering van groenafval (bestaande hoofdzakelijk uit snoeihout met een diameter van max. 10 cm, planten (resten), haagscheersel, bladeren, gazon- en wegbermmaaisel) tot volledige rijping, voorafgegaan of gevolgd door mechanische behandelingen (verkleining, zeving, …)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "groencompost";
+  skos:prefLabel "groencompost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/verticale-drainage> a skos:Concept;
+  skos:definition "Groeiplaatsverbetering dmv verticale drainage."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "verticale-drainage";
+  skos:prefLabel "verticale drainage"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/irrigatie-gietrand-overtollige-grond> a skos:Concept;
+  skos:definition "NIET GEBRUIKEN - Groeiplaatsverbetering dmv irrigatie met een overtollige grond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
   skos:notation "irrigatie-gietrand-overtollige-grond";
   skos:prefLabel "irrigatie gietrand overtollige grond"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/aanleg-kunstmatige-gietrand> a skos:Concept;
+  skos:definition "Groeiplaatsverbetering dmv aanleg met een kunstmatige gietrand."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "aanleg-kunstmatige-gietrand";
+  skos:prefLabel "aanleg kunstmatige gietrand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/bodemverbeteraar> a skos:Concept;
+  skos:definition "Een bodemverbeteraar is een organisch of fysisch middel die inzonderheid ter verbetering van de structuur aan de grond wordt toegevoegd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
+  skos:notation "bodemverbeteraar";
+  skos:prefLabel "bodemverbeteraar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .

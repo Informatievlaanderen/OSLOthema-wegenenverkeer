@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> a skos:ConceptScheme;
-  skos:definition "Lijst van mogelijke waarden vffoor bots normering van lichtmastend"@nl;
+  skos:definition "Lijst van mogelijke waarden voor botsnormering van lichtmasten"@nl;
   skos:prefLabel "Lichtmast botsnormering"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/100LE3> a skos:Concept;
@@ -12,6 +12,13 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
   skos:notation "100LE3";
   skos:prefLabel "100LE3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/100HE1> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
+  skos:notation "100HE1";
+  skos:prefLabel "100HE1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/50NE2> a skos:Concept;
@@ -54,13 +61,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
   skos:notation "50LE1";
   skos:prefLabel "50LE1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/70NE3> a skos:Concept;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
-  skos:notation "70NE3";
-  skos:prefLabel "70NE3"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/70HE3> a skos:Concept;
@@ -175,6 +175,20 @@
   skos:prefLabel "100KE1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/70NE3> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
+  skos:notation "70NE3";
+  skos:prefLabel "70NE3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/niet-botsvriendelijke-mast> a skos:Concept;
+  skos:definition "Mast heeft geen botsvriendelijke normering."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
+  skos:notation "niet-botsvriendelijke-mast";
+  skos:prefLabel "Niet-botsvriendelijke mast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/50LE3> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
@@ -208,13 +222,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
   skos:notation "50HE1";
   skos:prefLabel "50HE1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/100HE1> a skos:Concept;
-  skos:definition "test Maxim"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering>;
-  skos:notation "100HE1";
-  skos:prefLabel "100HE1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastBotsNormering> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastBotsNormering/50NE1> a skos:Concept;

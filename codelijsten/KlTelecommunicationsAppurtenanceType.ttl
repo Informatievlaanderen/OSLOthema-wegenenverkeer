@@ -4,5 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecommunicationsAppurtenanceType> a skos:ConceptScheme;
-  skos:definition "Lijst van types voor telecommunications appurtenance."@nl;
+  skos:definition "Telecommunications appurtenance type"@nl;
   skos:prefLabel "Telecommunications appurtenance type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecommunicationsAppurtenanceType/termination> a skos:Concept;
+  skos:definition "termination"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecommunicationsAppurtenanceType>;
+  skos:notation "termination";
+  skos:prefLabel "termination"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecommunicationsAppurtenanceType> .

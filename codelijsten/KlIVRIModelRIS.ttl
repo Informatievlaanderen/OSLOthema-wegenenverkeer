@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS> a skos:ConceptScheme;
   skos:definition "De modelnaam van de RIS."@nl;
   skos:prefLabel "iVRIModelRIS"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelRIS/virtualacu> a skos:Concept;
+  skos:definition "VirtualACU"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS>;
+  skos:notation "virtualacu";
+  skos:prefLabel "VirtualACU"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS> .

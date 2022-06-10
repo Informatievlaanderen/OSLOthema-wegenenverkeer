@@ -6,3 +6,10 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerMerk> a skos:ConceptScheme;
   skos:definition "Het merk van de virtuele server."@nl;
   skos:prefLabel "Virtuele server merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/ram> a skos:Concept;
+  skos:definition "RAM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerMerk>;
+  skos:notation "ram";
+  skos:prefLabel "RAM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerMerk> .

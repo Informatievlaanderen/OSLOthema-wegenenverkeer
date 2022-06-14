@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> a skos:ConceptScheme;
+  skos:definition "Lijst met types voor signalisatiekabels volgens de gebruikte materialen zoals opgenomen in het Standaarbestek 270."@nl;
+  skos:prefLabel "Signalisatiekabel types"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/koperkabel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "koperkabel";
+  skos:prefLabel "koperkabel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/sxag-f2> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "sxag-f2";
+  skos:prefLabel "SXAG-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svv-f2> a skos:Concept;
+  skos:definition "Niet-gewapende signaalkabel voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "svv-f2";
+  skos:prefLabel "SVV-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svavb-f2> a skos:Concept;
+  skos:definition "Gewapende signaalkabel voor ondergronds gebruik."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "svavb-f2";
+  skos:prefLabel "SVAVB-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/profibuskabel> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "profibuskabel";
+  skos:prefLabel "profibuskabel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/sxavb> a skos:Concept;
+  skos:definition "Gewapende signaalkabel voor ondergronds gebruik."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "sxavb";
+  skos:prefLabel "SXAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .

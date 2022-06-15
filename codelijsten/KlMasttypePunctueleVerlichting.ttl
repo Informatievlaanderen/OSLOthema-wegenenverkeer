@@ -7,16 +7,16 @@
   skos:definition "Het type van de mast voor punctuele verlichting."@nl;
   skos:prefLabel "Masttype voor punctuele verlichting"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMasttypePunctueleVerlichting/mt> a skos:Concept;
-  skos:definition "MT"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMasttypePunctueleVerlichting>;
-  skos:notation "mt";
-  skos:prefLabel "MT"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMasttypePunctueleVerlichting> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMasttypePunctueleVerlichting/mts> a skos:Concept;
-  skos:definition "MTS"@nl;
+  skos:definition "Metalen galgmast voor punctuele verlichting op voetplaat."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMasttypePunctueleVerlichting>;
   skos:notation "mts";
   skos:prefLabel "MTS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMasttypePunctueleVerlichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMasttypePunctueleVerlichting/mt> a skos:Concept;
+  skos:definition "Metalen galgmast voor punctuele verlichting met inplantingsstuk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMasttypePunctueleVerlichting>;
+  skos:notation "mt";
+  skos:prefLabel "MT"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMasttypePunctueleVerlichting> .

@@ -7,6 +7,13 @@
   skos:definition "Keuzelijst met de verschillende mogelijke blusmiddelen voor een brandblusser."@nl;
   skos:prefLabel "Brandblusser blusmiddel"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/schuim> a skos:Concept;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel>;
+  skos:notation "schuim";
+  skos:prefLabel "schuim"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/poeder> a skos:Concept;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel>;
@@ -14,9 +21,9 @@
   skos:prefLabel "poeder"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/schuim> a skos:Concept;
-  skos:definition ""@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/co2> a skos:Concept;
+  skos:definition "CO2 als blusmiddel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel>;
-  skos:notation "schuim";
-  skos:prefLabel "schuim"@nl;
+  skos:notation "co2";
+  skos:prefLabel "CO2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel> .

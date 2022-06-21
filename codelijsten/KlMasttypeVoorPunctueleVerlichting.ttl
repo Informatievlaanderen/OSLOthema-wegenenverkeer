@@ -1,0 +1,22 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://.data.wegenenverkeer.be/id/conceptscheme/KlMasttypeVoorPunctueleVerlichting> a skos:ConceptScheme;
+  skos:definition "Het type van de mast voor punctuele verlichting."@nl;
+  skos:prefLabel "Masttype voor punctuele verlichting"@nl.
+
+<https://.data.wegenenverkeer.be/id/concept/KlMasttypeVoorPunctueleVerlichting/mt> a skos:Concept;
+  skos:definition "MT"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlMasttypeVoorPunctueleVerlichting>;
+  skos:notation "mt";
+  skos:prefLabel "MT"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlMasttypeVoorPunctueleVerlichting> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlMasttypeVoorPunctueleVerlichting/mts> a skos:Concept;
+  skos:definition "MTS"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlMasttypeVoorPunctueleVerlichting>;
+  skos:notation "mts";
+  skos:prefLabel "MTS"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlMasttypeVoorPunctueleVerlichting> .

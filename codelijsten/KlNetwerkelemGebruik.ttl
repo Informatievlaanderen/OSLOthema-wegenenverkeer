@@ -7,13 +7,6 @@
   skos:definition "Keuzelijst met de verschillende mogelijke netwerkstructuren waarbinnen een netwerkelement kan ingezet worden."@nl;
   skos:prefLabel "Netwerkelement gebruik"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/4g-wireless-router> a skos:Concept;
-  skos:definition "Het netwerkelement wordt gebruikt binnen een 4G draadloos netwerk."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
-  skos:notation "4g-wireless-router";
-  skos:prefLabel "4G wireless router"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/cen> a skos:Concept;
   skos:definition "Het netwerkelement wordt gebruikt binnen het CEN netwerk."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
@@ -28,11 +21,11 @@
   skos:prefLabel "SDH"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/otn> a skos:Concept;
-  skos:definition "Het netwerkelement wordt gebruikt binnen het optisch transport netwerk."@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/4g-wireless-router-dsl-backup> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen een 4G draadloos netwerk. DSL wordt gebruikt als backup bij faling van het 4G draadloos netwerk."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
-  skos:notation "otn";
-  skos:prefLabel "OTN"@nl;
+  skos:notation "4g-wireless-router-dsl-backup";
+  skos:prefLabel "4G wireless router - DSL backup"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/l2-switch> a skos:Concept;
@@ -47,4 +40,32 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
   skos:notation "l3-switch";
   skos:prefLabel "L3-switch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/dsl-router-4g-wireless-backup> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen een DSL netwerk. Een 4G  wordt gebruikt als backup bij faling van het DSL netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "dsl-router-4g-wireless-backup";
+  skos:prefLabel "DSL router - 4G wireless backup"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/4g-wireless-router> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen een 4G draadloos netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "4g-wireless-router";
+  skos:prefLabel "4G wireless router"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/otn> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen het optisch transport netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "otn";
+  skos:prefLabel "OTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/dsl-router> a skos:Concept;
+  skos:definition "Het netwerkelement wordt gebruikt binnen een DSL netwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "dsl-router";
+  skos:prefLabel "DSL  router"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .

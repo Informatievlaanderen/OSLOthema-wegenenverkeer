@@ -6,3 +6,17 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> a skos:ConceptScheme;
   skos:definition "Het merk van de PLC."@nl;
   skos:prefLabel "PLC merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/vaisala> a skos:Concept;
+  skos:definition "Vaisala"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "vaisala";
+  skos:prefLabel "Vaisala"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/dtn> a skos:Concept;
+  skos:definition "DTN"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "dtn";
+  skos:prefLabel "DTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .

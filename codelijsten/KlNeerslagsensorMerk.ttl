@@ -13,3 +13,17 @@
   skos:notation "Luft";
   skos:prefLabel "Luft"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorMerk/dtn> a skos:Concept;
+  skos:definition "DTN"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorMerk>;
+  skos:notation "dtn";
+  skos:prefLabel "DTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorMerk/vaisala> a skos:Concept;
+  skos:definition "Vaisala"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorMerk>;
+  skos:notation "vaisala";
+  skos:prefLabel "Vaisala"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorMerk> .

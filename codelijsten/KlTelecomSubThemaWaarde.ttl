@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomSubThemaWaarde> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met waardes uit de IMKL1.0 subthema lijst voor het thema telecom."@nl;
   skos:prefLabel "Telecom subthema waarde"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomSubThemaWaarde/elektrische-communicatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het telecomelement wordt gebruikt voor elektrische communicatie."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomSubThemaWaarde>;
   skos:notation "elektrische-communicatie";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomSubThemaWaarde> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomSubThemaWaarde/telecommunicatie-hoofdlijn> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het telecomelement wordt gebruikt in de telecommunicatie hoofdlijn."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomSubThemaWaarde>;
   skos:notation "telecommunicatie-hoofdlijn";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomSubThemaWaarde> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomSubThemaWaarde/telecommunicatie-distributie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het telecomelement wordt gebruikt in de distributie van telecommunicatie."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomSubThemaWaarde>;
   skos:notation "telecommunicatie-distributie";

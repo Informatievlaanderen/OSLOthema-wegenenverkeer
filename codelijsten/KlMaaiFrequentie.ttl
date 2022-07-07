@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het aantal keer dat er gemaaid wordt per jaar."@nl;
   skos:prefLabel "Maaifrequentie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/7-9> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Zeven tot negen keer per jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "7-9";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/1-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Eén keer om de drie jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "1-3";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Eén keer per jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "1";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/4-6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vier tot zes keer per jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "4-6";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/minder-dan-1-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Minder dan één keer om de drie jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "minder-dan-1-3";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Drie keer per jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "3";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/1-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Eén keer om de twee jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "1-2";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/10-15> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "10 tot 15 keer per jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "10-15";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiFrequentie/2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Twee keer per jaar maaien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiFrequentie>;
   skos:notation "2";

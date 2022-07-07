@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Hoeveelheid palen waaruit de constructie bestaat"@nl;
   skos:prefLabel "Aantal boompalen"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De constructie bestaat uit 3 boompalen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
   skos:notation "3";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De constructie bestaat uit 4 boompalen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
   skos:notation "4";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De constructie bestaat uit 2 boompalen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
   skos:notation "2";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/een-waarde-met-d> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "een waarde met"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
   skos:notation "een-waarde-met-d";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/het-label-zo-tonen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het $label_zo/tonen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
   skos:notation "het-label-zo-tonen";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De constructie bestaat uit 1 boompaal."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
   skos:notation "1";

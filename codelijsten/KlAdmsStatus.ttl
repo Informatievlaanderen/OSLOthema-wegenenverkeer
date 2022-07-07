@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAdmsStatus> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke statussen van keuzelijsten en keuzelijst-opties."@nl;
   skos:prefLabel "ADMS keuzelijst status"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De keuzelijst of optie is actief. Deze keuzelijst of optie kan aangeleverd worden."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAdmsStatus>;
   skos:notation "ingebruik";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAdmsStatus> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De keuzelijst of optie is actief. De keuzelijst of optie mag aangeleverd worden maar is niet meer aangewezen om te gebruiken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAdmsStatus>;
   skos:notation "uitgebruik";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAdmsStatus> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De keuzelijst of optie is inactief en niet meer beschikbaar voor aanlevering."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAdmsStatus>;
   skos:notation "verwijderd";

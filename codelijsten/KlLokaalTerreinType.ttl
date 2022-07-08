@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lokale terrein types"@nl;
   skos:prefLabel "Lokaal terreintype"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/vlak-zonder-bomen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vlak zonder bomen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
   skos:notation "vlak-zonder-bomen";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/vlak-en-verspreid-bomen-struiken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vlak en verspreid bomen / struiken"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
   skos:notation "vlak-en-verspreid-bomen-struiken";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/vlak-en-overwegend-bomen-struiken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vlak en overwegend bomen / struiken"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
   skos:notation "vlak-en-overwegend-bomen-struiken";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/golvend-zonder-bomen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Golvend zonder bomen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
   skos:notation "golvend-zonder-bomen";

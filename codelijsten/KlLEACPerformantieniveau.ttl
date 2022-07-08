@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende performantieniveaus van de afschermende constructies."@nl;
   skos:prefLabel "Performantieniveau"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACPerformantieniveau/50> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Obstakelbeveiliger beperkt getest aan 50km/h"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau>;
   skos:notation "50";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACPerformantieniveau/80> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Obstakelbeveiliger getest aan 80km/h"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau>;
   skos:notation "80";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACPerformantieniveau/100> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Obstakelbeveiliger getest aan 100km/h"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau>;
   skos:notation "100";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACPerformantieniveau/110> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Obstakelbeveiliger getest aan 110km/h"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau>;
   skos:notation "110";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACPerformantieniveau/80-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Obstakelbeveiliger beperkt getest aan 80km/h "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACPerformantieniveau>;
   skos:notation "80-1";

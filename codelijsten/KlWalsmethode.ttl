@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWalsmethode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De manier waarop het staal is gewalst."@nl;
   skos:prefLabel "Walsmethode"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWalsmethode/koud> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Staal die bij omgevingstemperatuur wordt gevormd (getrokken) uit warmgewalst staal."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWalsmethode>;
   skos:notation "koud";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWalsmethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWalsmethode/warm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Heet staal wordt vervormd onder druk van persen en walsen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWalsmethode>;
   skos:notation "warm";

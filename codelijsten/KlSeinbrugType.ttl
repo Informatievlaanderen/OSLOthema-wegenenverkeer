@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types van seinbrug."@nl;
   skos:prefLabel "Seinbrug type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/koker> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
   skos:notation "koker";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/nietDoorlopendeBuis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
   skos:notation "nietDoorlopendeBuis";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/vakwerk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
   skos:notation "vakwerk";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/enkeleLigger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
   skos:notation "enkeleLigger";

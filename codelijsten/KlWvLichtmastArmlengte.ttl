@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lengte van de arm van de lichtmast in meter."@nl;
   skos:prefLabel "WV-mast armlengte"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastArmlengte/1.5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte>;
   skos:notation "1.5";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastArmlengte/2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte>;
   skos:notation "2";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastArmlengte/2.5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte>;
   skos:notation "2.5";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastArmlengte/3.2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte>;
   skos:notation "3.2";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastArmlengte/niet-van-toepassing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastArmlengte>;
   skos:notation "niet-van-toepassing";

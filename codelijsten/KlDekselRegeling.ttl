@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijke regelingen van het deksel."@nl;
   skos:prefLabel "Dekselregeling"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselRegeling/met-ter-plaatse-gestorte-ringbalk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "met ter plaatse gestorte ringbalk"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling>;
   skos:notation "met-ter-plaatse-gestorte-ringbalk";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselRegeling/ingestort-in-de-dakplaat-van-kunstwerken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "ingestort in de dakplaat van kunstwerken"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling>;
   skos:notation "ingestort-in-de-dakplaat-van-kunstwerken";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselRegeling/geprefabriceerd-of-ter-plaatse-gestorte-regeling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geprefabriceerd of ter plaatse gestorte regeling"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling>;
   skos:notation "geprefabriceerd-of-ter-plaatse-gestorte-regeling";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselRegeling/Traploos-instelbare-afdekkingsinrichting> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Traploos instelbare afdekkingsinrichting"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselRegeling>;
   skos:notation "Traploos-instelbare-afdekkingsinrichting";

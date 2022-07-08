@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Codes van de markering op lijnvormige elementen."@nl;
   skos:prefLabel "Markering code"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-NJ> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De code voor LE markering New Jersey"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
   skos:notation "DIV-NJ";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De code voor LE markering boordsteen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
   skos:notation "DIV-BRDSTN";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN-PV> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De code voor LE markering boordsteen parkeerverbod"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
   skos:notation "DIV-BRDSTN-PV";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BIG> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De code voor LE markering biggenrug"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode>;
   skos:notation "DIV-BIG";

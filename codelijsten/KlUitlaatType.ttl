@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitlaatType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende types van uitlaat."@nl;
   skos:prefLabel "Uitlaat type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlUitlaatType/inlaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "locatie waar water van een open profiel naar een inbuizing overgaat"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitlaatType>;
   skos:notation "inlaat";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitlaatType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlUitlaatType/uitlaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "locatie waar water van een inbuizing naar een open profiel overgaat"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitlaatType>;
   skos:notation "uitlaat";

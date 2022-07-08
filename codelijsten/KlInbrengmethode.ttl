@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Manier waarop het object wordt ingebracht."@nl;
   skos:prefLabel "Inbrengmethode"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlInbrengmethode/inbrengen-d-m-v-statisch-drukken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het object wordt ingebracht door middel van statisch drukken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode>;
   skos:notation "inbrengen-d-m-v-statisch-drukken";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlInbrengmethode/inbrengen-d-m-v-heien> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het object wordt ingebracht door middel van heien."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode>;
   skos:notation "inbrengen-d-m-v-heien";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlInbrengmethode/inbrengen-d-m-v-hoogfrequent-trillen-met-variabel-moment> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het object wordt ingebracht door middel van hoogfrequent trillen met variabel moment."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode>;
   skos:notation "inbrengen-d-m-v-hoogfrequent-trillen-met-variabel-moment";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlInbrengmethode/inbrengen-d-m-v-combinatie-van-meerdere-technieken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het object wordt ingebracht door middel van een combinatie van meerdere technieken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode>;
   skos:notation "inbrengen-d-m-v-combinatie-van-meerdere-technieken";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlInbrengmethode/inbrengen-volgens-methode-bepaald-door-de-aannemer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het object wordt ingebracht volgens een methode bepaald door de aannemer."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode>;
   skos:notation "inbrengen-volgens-methode-bepaald-door-de-aannemer";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlInbrengmethode/inbrengen-door-voorboring-aangezet-met-betonprop-onderaan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het object wordt ingebracht door een voorboring aangezet met betonprop onderaan."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlInbrengmethode>;
   skos:notation "inbrengen-door-voorboring-aangezet-met-betonprop-onderaan";

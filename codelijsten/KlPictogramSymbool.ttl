@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke symbolen op het pictogram."@nl;
   skos:prefLabel "Pictogram symbool"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/nooddeurnummer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "nooddeurnummer"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "nooddeurnummer";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/nummer-veiligheidsnis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "nummer-veiligheidsnis";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-bovengronds-(H)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "hydrant-bovengronds-(H)";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-ondergronds-(B)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "hydrant-ondergronds-(B)";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/tunnelnaam> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "tunnelnaam";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/verbodsbord> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "verbodsbord";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtend-persoon> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "vluchtend-persoon";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPictogramSymbool/halte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Duidt de locatie aan waar het openbaar vervoer, bv. bus, tram of trolley, stopt om passagiers te laten in- en uitstappen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "halte";

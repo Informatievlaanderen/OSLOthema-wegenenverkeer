@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogeglijke markeringskleuren."@nl;
   skos:prefLabel "Kleur markering"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/wit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Wit als de kleur van de markering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering>;
   skos:notation "wit";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/oker-(RAL1024)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Oker als de kleur van de markering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering>;
   skos:notation "oker-(RAL1024)";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/rood-(RAL3020)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rood als de kleur van de markering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering>;
   skos:notation "rood-(RAL3020)";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/geel-(Y1)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geel (Y1) als kleur van de markering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering>;
   skos:notation "geel-(Y1)";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/geel-(Y2)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geel (Y2) als kleur van de markering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering>;
   skos:notation "geel-(Y2)";

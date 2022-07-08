@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De steenverbanden van de bestrating."@nl;
   skos:prefLabel "Bestrating steenverband"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/segmentverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Segmentverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "segmentverband";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/schubbenverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Schubbenverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "schubbenverband";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/waaierverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Waaierverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "waaierverband";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/schelpen--of-pauwstaartverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Schelpen- of pauwstaartverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "schelpen--of-pauwstaartverband";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/halfsteensverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Halfsteensverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "halfsteensverband";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/elleboogverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Elleboogverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "elleboogverband";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/visgraatverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Visgraatverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "visgraatverband";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/keperverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keperverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "keperverband";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingSteenverband/blokverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Blokverband"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingSteenverband>;
   skos:notation "blokverband";

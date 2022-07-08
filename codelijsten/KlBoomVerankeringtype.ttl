@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomVerankeringtype> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende types van verankering van een boom."@nl;
   skos:prefLabel "Boom verankeringtype"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomVerankeringtype/boompaalconstructie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een constructie uit houten palen en dwarslatten die de stabiliteit van de boom waarborgt"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomVerankeringtype>;
   skos:notation "boompaalconstructie";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomVerankeringtype> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomVerankeringtype/niet-afbreekbare-grondankers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een constructie van stalen grondankers en kunststofverankeringsbanden die de stabilietit van de boom waarborgt"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomVerankeringtype>;
   skos:notation "niet-afbreekbare-grondankers";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomVerankeringtype> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomVerankeringtype/biologisch-afbreekbare-grondankers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een constructie van 100% biologisch afbreekbare grondankers en verankeringstouwen die de stabilietit van de boom waarborgt"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomVerankeringtype>;
   skos:notation "biologisch-afbreekbare-grondankers";

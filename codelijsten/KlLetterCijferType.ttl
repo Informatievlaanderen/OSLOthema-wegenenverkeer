@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van een individuele letter- of cijfermarkering."@nl;
   skos:prefLabel "Type van de letter of het cijfer"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/normaal---Hoofdletters-(basishoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "normaal---Hoofdletters-(basishoogte)";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/normaal---Kleine-letters-(basishoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "normaal---Kleine-letters-(basishoogte)";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Hoofdletters-(basishoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Hoofdletters-(basishoogte)";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Kleine-letters-(basishoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Kleine-letters-(basishoogte)";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Hoofdletters-(4m-hoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Hoofdletters-(4m-hoogte)";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Hoofdletters-(6m-hoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Hoofdletters-(6m-hoogte)";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/normaal---Cijfers-(basishoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "normaal---Cijfers-(basishoogte)";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Cijfers-(basishoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Cijfers-(basishoogte)";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Cijfers-(4m-hoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Cijfers-(4m-hoogte)";
@@ -71,6 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLetterCijferType/versmald---Cijfers-(6m-hoogte)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLetterCijferType>;
   skos:notation "versmald---Cijfers-(6m-hoogte)";

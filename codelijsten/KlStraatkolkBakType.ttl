@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van bak van de straatkolk."@nl;
   skos:prefLabel "Straatkolk bak type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/gietijzeren-bak> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gietijzeren bak"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "gietijzeren-bak";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/infiltratiekolk-type-1-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Infiltratiekolk type 1+"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "infiltratiekolk-type-1-2";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/infiltratiekolk-type-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Infiltratiekolk type 2"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "infiltratiekolk-type-2";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/geprefabriceerde-betonnen-bak-type-I> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geprefabriceerde betonnen bak type I"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "geprefabriceerde-betonnen-bak-type-I";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/infiltratiekolk-type-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Infiltratiekolk type 1"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "infiltratiekolk-type-1";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/gemetst> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gemetst"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "gemetst";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkBakType/geprefabriceerde-betonnen-bak-type-II> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geprefabriceerde betonnen bak type II"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStraatkolkBakType>;
   skos:notation "geprefabriceerde-betonnen-bak-type-II";

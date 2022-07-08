@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De vormen van wegbebakening."@nl;
   skos:prefLabel "Wegbebakening type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbebakeningType/type-1-(new-jersey-reclip)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "type 1 (new jersey reclip)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType>;
   skos:notation "type-1-(new-jersey-reclip)";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbebakeningType/type-2-(new-jersey)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "type 2 (new jersey)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType>;
   skos:notation "type-2-(new-jersey)";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbebakeningType/type-A-(vangrail-reclip)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "type A (vangrail reclip)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType>;
   skos:notation "type-A-(vangrail-reclip)";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbebakeningType/type-C-(vangrail-trapezium)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Type C (vangrail trapezium)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType>;
   skos:notation "type-C-(vangrail-trapezium)";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbebakeningType/type-B-(vangrail)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "type B (vangrail)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType>;
   skos:notation "type-B-(vangrail)";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbebakeningType/type-3-(referentiepaal)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "type 3 (referentiepaal)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbebakeningType>;
   skos:notation "type-3-(referentiepaal)";

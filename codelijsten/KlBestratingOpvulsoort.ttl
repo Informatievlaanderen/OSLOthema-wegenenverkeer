@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke opvulsoorten van de grasbetontegel en graskunststofplaat."@nl;
   skos:prefLabel "Bestrating opvulsoort"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingOpvulsoort/bodemsubstraat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opgevuld met bodemsubstraat."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort>;
   skos:notation "bodemsubstraat";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingOpvulsoort/bodemsubstraat-en-ingezaaid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opgevuld met bodemsubstraat en ingezaaid."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort>;
   skos:notation "bodemsubstraat-en-ingezaaid";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingOpvulsoort/bomenzand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opgevuld met bomenzand."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort>;
   skos:notation "bomenzand";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingOpvulsoort/bomenzand-en-ingezaaid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opgevuld met bomenzand en ingezaaid."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort>;
   skos:notation "bomenzand-en-ingezaaid";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBestratingOpvulsoort/steenslag-2-6.3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opgevuld met steenslag 2/6,3"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBestratingOpvulsoort>;
   skos:notation "steenslag-2-6.3";

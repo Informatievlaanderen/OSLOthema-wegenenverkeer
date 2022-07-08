@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aantal armen van de lichtmast."@nl;
   skos:prefLabel "WV-mast aantal armen"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/0> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen>;
   skos:notation "0";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen>;
   skos:notation "1";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen>;
   skos:notation "2";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen>;
   skos:notation "3";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen>;
   skos:notation "4";

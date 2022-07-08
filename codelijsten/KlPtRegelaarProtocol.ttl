@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarProtocol> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Beschrijft het protocol waarmee de PT-regelaar communiceert."@nl;
   skos:prefLabel "PT-regelaar protocol"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPtRegelaarProtocol/R0916> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarProtocol>;
   skos:notation "R0916";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarProtocol> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPtRegelaarProtocol/R0918> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPtRegelaarProtocol>;
   skos:notation "R0918";

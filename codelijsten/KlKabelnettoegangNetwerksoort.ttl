@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelnettoegangNetwerksoort> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van netwerktypes die bereikbaar is via het kabelnet toegangspunt."@nl;
   skos:prefLabel "Kabelnet toegang netwerksoort"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelnettoegangNetwerksoort/Cu> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelnettoegangNetwerksoort>;
   skos:notation "Cu";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelnettoegangNetwerksoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelnettoegangNetwerksoort/FO> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKabelnettoegangNetwerksoort>;
   skos:notation "FO";

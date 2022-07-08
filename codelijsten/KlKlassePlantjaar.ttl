@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het geschatte tijdsinterval waarin de boom is aangeplant."@nl;
   skos:prefLabel "Klasse plantjaar"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/1880-1900> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 1880 en 1900."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "1880-1900";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/ongekend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het is niet gekend wanneer de boom is aangeplant."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "ongekend";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/1900-1920> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 1900 en 1920."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "1900-1920";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/1920-1940> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 1920 en 1940."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "1920-1940";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/1940-1960> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 1940 en 1960."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "1940-1960";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/1960-1980> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 1960 en 1980."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "1960-1980";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/1980-2000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 1980 en 2000."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "1980-2000";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/2000-2020> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 2000 en 2020."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "2000-2020";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKlassePlantjaar/2020-2040> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is aangeplant tussen 2020 en 2040."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "2020-2040";

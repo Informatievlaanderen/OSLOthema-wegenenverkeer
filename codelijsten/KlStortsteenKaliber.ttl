@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijke kalibers van stortsteen."@nl;
   skos:prefLabel "Stortsteen kaliber"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/kleiner-dan-0.063-mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "< 0,063 mm"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "kleiner-dan-0.063-mm";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/groter-dan-125-mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "> 125 mm"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "groter-dan-125-mm";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/CP-90-180A> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "< 0,063 mm"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "CP-90-180A";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/CP-90-250> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "< 0,063 mm"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "CP-90-250";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA-5-40> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "< 0,063 mm"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "LMA-5-40";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA-10-60> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "< 0,063 mm"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "LMA-10-60";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA-40-200> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LMA 40/200"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "LMA-40-200";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA-60-300> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LMA 60/300"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "LMA-60-300";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA-15-300> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LMA 15/300"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "LMA-15-300";
@@ -71,6 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/LMA-300-1000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LMA 300/1000"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "LMA-300-1000";
@@ -78,6 +89,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/HMA-3000-6000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "HMA 3000/6000"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "HMA-3000-6000";
@@ -85,6 +97,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/HMA-6000-10000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "HMA 6000/10000"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "HMA-6000-10000";
@@ -92,6 +105,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/HMA10000-15000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "HMA10000/15000"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "HMA10000-15000";
@@ -99,6 +113,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/HMA1000-3000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "HMA1000/3000"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "HMA1000-3000";
@@ -106,6 +121,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/korrelmaal-14-20> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "korrelmaal 14/20"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "korrelmaal-14-20";
@@ -113,6 +129,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/korrelmaat-20-31.5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "korrelmaat 20/31.5"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "korrelmaat-20-31.5";
@@ -120,6 +137,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenKaliber/korrelmaat-31.5-63> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "korrelmaat 31.5/63"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenKaliber>;
   skos:notation "korrelmaat-31.5-63";

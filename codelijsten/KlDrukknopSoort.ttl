@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met verschillende soorten drukknoppen."@nl;
   skos:prefLabel "Drukknop soort"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/voetganger-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "voetganger-drukknop";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/WV-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "WV-drukknop";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/combi-v-f-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "combi-v-f-drukknop";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/combi-v-vg-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "combi-v-vg-drukknop";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/fietser-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "fietser-drukknop";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/ruiter-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "ruiter-drukknop";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDrukknopSoort/visueel-gehandicapt-drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDrukknopSoort>;
   skos:notation "visueel-gehandicapt-drukknop";

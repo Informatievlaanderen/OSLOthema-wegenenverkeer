@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De meerwaarde (ecologisch,erfgoed) van de boom."@nl;
   skos:prefLabel "Boomtoestand meerwaardefactor"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomtoestandMeerwaardefactor/1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom heeft geen of minder dan 3 specifieke kenmerken die de ecologische en/of erfgoedwaarde verhogen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor>;
   skos:notation "1";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomtoestandMeerwaardefactor/15> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom heeft minstens 3 kenmerken van ecologische waarde EN/OF erfgoedwaarde OF boom is opgenomen in de Vlaamse wetenschappelijke erfgoedinventaris"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor>;
   skos:notation "15";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomtoestandMeerwaardefactor/2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom heeft minstens 4 kenmerken van ecologische EN/OF erfgoedwaarde OF de boom heeft minstens 2 kenmerken van ecologische waarde in combinatie met 1 kenmerk van zeer hoge ecologische waarde; OF de boom maakt deel uit van een (ruimere) bescherming als monument, cultuurhistorisch landschap of stads- en dorpsgezicht"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor>;
   skos:notation "2";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomtoestandMeerwaardefactor/25> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De boom is individueel beschermd als monument"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomtoestandMeerwaardefactor>;
   skos:notation "25";

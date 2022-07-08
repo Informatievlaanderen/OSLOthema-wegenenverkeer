@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bijzonder ingerichte onderdelen van de wegbermen."@nl;
   skos:prefLabel "Wegberm BIO"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermBIO/bijzondere-bedding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gedeelte van de wegberm, uitsluitend bestemd voor voertuigen van het openbaar vervoer en andere toegelaten voertuigen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO>;
   skos:notation "bijzondere-bedding";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermBIO/ruiterpad> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gedeelte van de wegberm, bestemd voor ruiters en als zodanig aangeduid."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO>;
   skos:notation "ruiterpad";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermBIO/fietspad> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gedeelte van het wegplatform, dat bestemd is voor fietsers en bromfietsers en als zodanig aangeduid."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO>;
   skos:notation "fietspad";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermBIO/voetpad> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gedeelte van de wegberm, bestemd voor voetgangers."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO>;
   skos:notation "voetpad";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermBIO/verkeerseiland> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Heeft als doel het verkeer te geleiden en kan verhoogd zijn."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO>;
   skos:notation "verkeerseiland";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermBIO/vluchtheuvel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeersheuvel ten behoeve van voetgangers."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermBIO>;
   skos:notation "vluchtheuvel";

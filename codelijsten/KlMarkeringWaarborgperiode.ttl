@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringWaarborgperiode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opties om de waarborgperiode aan te duiden."@nl;
   skos:prefLabel "markeringswaarborgperiode"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringWaarborgperiode/1-jaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Waarborgperiode van 1 jaar."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringWaarborgperiode>;
   skos:notation "1-jaar";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringWaarborgperiode> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringWaarborgperiode/3-jaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Waarborgperiode van 3 jaar."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringWaarborgperiode>;
   skos:notation "3-jaar";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringWaarborgperiode> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMarkeringWaarborgperiode/6-jaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Waarborgperiode van 6 jaar."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMarkeringWaarborgperiode>;
   skos:notation "6-jaar";

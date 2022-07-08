@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBMeteropnameFrequentie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Frequentie waarmee de meterstand opgenomen wordt door de netbeheerder."@nl;
   skos:prefLabel "Energiemeter DNB meteropname frequentie"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterDNBMeteropnameFrequentie/YMR> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "jaarlijks"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBMeteropnameFrequentie>;
   skos:notation "YMR";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBMeteropnameFrequentie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterDNBMeteropnameFrequentie/MMR> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBMeteropnameFrequentie>;
   skos:notation "MMR";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBMeteropnameFrequentie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterDNBMeteropnameFrequentie/AMR> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "automatische meter reading"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBMeteropnameFrequentie>;
   skos:notation "AMR";

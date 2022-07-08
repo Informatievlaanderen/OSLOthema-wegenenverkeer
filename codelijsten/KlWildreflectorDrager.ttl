@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijke dragers van een wildreflector."@nl;
   skos:prefLabel "Wildreflector drager"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWildreflectorDrager/houten-paal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "houten paal als drager."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager>;
   skos:notation "houten-paal";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWildreflectorDrager/metalen-paal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "metalen paal als drager."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWildreflectorDrager>;
   skos:notation "metalen-paal";

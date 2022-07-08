@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het soort profiel gebruikt als MV-paal."@nl;
   skos:prefLabel "Type profiel MV-paal"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/buisprofiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Holle langwerpige koker."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "buisprofiel";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/hp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Breedflensprofiel : een HP-profiel heeft brede maar dunne flenzen en een dun lijf."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "hp";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/hd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Breedflensprofiel : een HD-profiel heeft dikkere flenzen en lijf. Dit profiel is speciaal voor kolommen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "hd";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/heb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Meest voorkomende breedflensprofiel (een profiel met brede evenwijdige flenzen)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "heb";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/hem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Breedflensprofiel : een HEM-profiel heeft dikkere flenzen en lijf dan HEA- en HEB-profielen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "hem";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/hl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Extra breedflensprofiel : een HL-profiel heeft bredere flenzen dan HEA- en HEB-profielen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "hl";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeProfielMVPaal/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een ander type profiel. Details zijn terug te vinden in technische fiche."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeProfielMVPaal>;
   skos:notation "andere";

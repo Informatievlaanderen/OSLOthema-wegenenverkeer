@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vormen van het calamiteitsbord."@nl;
   skos:prefLabel "Calamiteitsbord vorm"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordVorm/rechthoekig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een rechthoekig calamiteitsbord."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm>;
   skos:notation "rechthoekig";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordVorm/ruitvormig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een ruitvormig calamiteitsbord."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordVorm>;
   skos:notation "ruitvormig";

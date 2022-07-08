@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types van houtige vegetatie."@nl;
   skos:prefLabel "Type houtige vegetatie"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHoutigeType/houtkant> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een houtkant is een lijnvormige begroeiing met houtgewas (combinatie van bomen en struiken) met een minimale breedte van 3meter en meer en minstens 1 plantrij. "@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType>;
   skos:notation "houtkant";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHoutigeType/bomen---bos> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Opgaande beplanting van houtachtige gewassen die boomvormend zijn."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlHoutigeType>;
   skos:notation "bomen---bos";

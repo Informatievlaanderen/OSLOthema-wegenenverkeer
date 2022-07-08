@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types voor een verkeersbordsteun."@nl;
   skos:prefLabel "Verkeersbordsteuntype"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Constructie die na aanrijding zijn oorspronkelijke positie hersteld"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "botsvriendelijke-steun";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/rechte-paal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een rechte paal met als doel een verkeersbord te bevestigen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "rechte-paal";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/vakwerksteun> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een keuzelijst om het type verkeersbordpaal te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "vakwerksteun";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/galgpaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een keuzelijst om het type verkeersbordpaal te bepalen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "galgpaal";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/seinbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Metalen constructie bestaande uit 2 of meer verticale steunen met voetplaat en uit een enkele of een dubbel uitgevoerde horizontale dwarsverbinding, allen kokervormig met rechthoekige doorsnede. Ook wel portiek of portaal genoemd"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "seinbrug";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "botsvriendelijke-steun-type-100NE2";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordsteunType/botsvriendelijke-steun-type-100NE3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordsteunType>;
   skos:notation "botsvriendelijke-steun-type-100NE3";

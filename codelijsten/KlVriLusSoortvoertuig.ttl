@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met verschillende types voertuigen die een detectielus volgens diens instellingen kan detecteren."@nl;
   skos:prefLabel "VRI-lus soort voertuig"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/voertuig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig>;
   skos:notation "voertuig";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/fiets> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig>;
   skos:notation "fiets";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/motor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig>;
   skos:notation "motor";

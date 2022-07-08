@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van referenties van paden die redundantie kunnen leveren aan een Pad."@nl;
   skos:prefLabel "Pad netwerkprotectie"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/STP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Carrier Ethernet"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "STP";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/SNCP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Sub Network Connection Protection (Bij OTN en SDH)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "SNCP";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/LCAS> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Link Capacity Adjustment Scheme (Enkel bij SDH)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "LCAS";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/NULL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geen systeembeveiliging"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "NULL";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/MSSpring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "MSSpring";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/MPLS-TP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "MPLS-TP";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/None> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "None";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/Customer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "Customer";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/LACP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "LACP";
@@ -71,6 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/OPS> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "OPS";
@@ -78,6 +89,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPadNetwerkprotectie/Other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPadNetwerkprotectie>;
   skos:notation "Other";

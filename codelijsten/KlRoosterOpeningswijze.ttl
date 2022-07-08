@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Deze keuzelijst geeft de manier aan hoe het rooster geopend kan worden."@nl;
   skos:prefLabel "Rooster openingswijze"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/scharnierend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "scharnierend"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
   skos:notation "scharnierend";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/uitneembaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "uitneembaar"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
   skos:notation "uitneembaar";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/ovaal-deksel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "ovaal deksel"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze>;
   skos:notation "ovaal-deksel";

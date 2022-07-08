@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types van figuratiemarkering."@nl;
   skos:prefLabel "Figuratie type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl rechtdoor (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-(5m)";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-+-Links-+-Rechts-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechtdoor + Links + Rechts (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-+-Links-+-Rechts-(5m)";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-+-Links-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechtdoor + Links (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-+-Links-(5m)";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-+-Links-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechtdoor + Links (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-+-Links-(7.5m)";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-+-Rechts-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechtdoor + Rechts (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-+-Rechts-(5m)";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-+-Rechts-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechtdoor + Rechts (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-+-Rechts-(7.5m)";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/links-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Links (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "links-(5m)";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/links-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Links (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "links-(7.5m)";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechts-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechts (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechts-(5m)";
@@ -71,6 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechts-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechts (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechts-(7.5m)";
@@ -78,6 +89,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/2e-afslag-links-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl 2e afslag links (5m)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "2e-afslag-links-(5m)";
@@ -85,6 +97,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/2e-afslag-links-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl 2e afslag links (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "2e-afslag-links-(7.5m)";
@@ -92,6 +105,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/2e-afslag-rechts-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl 2e afslag rechts (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "2e-afslag-rechts-(5m)";
@@ -99,6 +113,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/2e-afslag-rechts-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl 2e afslag rechts (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "2e-afslag-rechts-(7.5m)";
@@ -106,6 +121,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/links-+-Rechts-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Links + Rechts (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "links-+-Rechts-(5m)";
@@ -113,6 +129,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/links-+-Rechts-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Links + Rechts (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "links-+-Rechts-(7.5m)";
@@ -120,6 +137,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rechtdoor-+-Links-+-Rechts-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rechtdoor + Links + Rechts (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rechtdoor-+-Links-+-Rechts-(7.5m)";
@@ -127,6 +145,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/voorsortering-Links-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Voorsortering Links (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "voorsortering-Links-(5m)";
@@ -134,6 +153,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/voorsortering-Links-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Voorsortering Links (7,5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "voorsortering-Links-(7.5m)";
@@ -141,6 +161,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/voorsortering-Rechts-(5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Voorsortering Rechts (5m)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "voorsortering-Rechts-(5m)";
@@ -148,6 +169,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/voorsortering-Rechts-(7.5m)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aanduiding A49 kruising van een openbare weg door één of meer in de rijbaan aangelegde sporen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "voorsortering-Rechts-(7.5m)";
@@ -155,6 +177,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rijstrook-vermindering-links> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rijstrook vermindering links"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rijstrook-vermindering-links";
@@ -162,6 +185,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/rijstrook-vermindering-rechts> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Rijstrook vermindering rechts"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "rijstrook-vermindering-rechts";
@@ -169,6 +193,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietspadpijl-(std)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Fietspadpijl (std)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietspadpijl-(std)";
@@ -176,6 +201,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietspadpijl-(klein---dubbele-fietspadpijl)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Fietspadpijl (klein - dubbele fietspadpijl)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietspadpijl-(klein---dubbele-fietspadpijl)";
@@ -183,6 +209,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietsvoorsortering-Links> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Fietsvoorsortering Links"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietsvoorsortering-Links";
@@ -190,6 +217,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/turborotonde-Links> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Turborotonde Links"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "turborotonde-Links";
@@ -197,6 +225,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/turborotonde-Rechtdoor-en-Links> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Turborotonde Rechtdoor en Links"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "turborotonde-Rechtdoor-en-Links";
@@ -204,6 +233,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/turborotonde-Rechtdoor.-Links-en-rechts> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Turborotonde Rechtdoor, Links en rechts"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "turborotonde-Rechtdoor.-Links-en-rechts";
@@ -211,6 +241,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/turborotonde-Rechtdoor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Turborotonde Rechtdoor"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "turborotonde-Rechtdoor";
@@ -218,6 +249,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/turborotonde-Rechts> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Turborotonde Rechts"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "turborotonde-Rechts";
@@ -225,6 +257,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/turborotonde-Rechtdoor-en-Rechts> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pijl Turborotonde Rechtdoor en Rechts"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "turborotonde-Rechtdoor-en-Rechts";
@@ -232,6 +265,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/BUS-(dwars-op-busstrook)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van bus (dwars op busstrook)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "BUS-(dwars-op-busstrook)";
@@ -239,6 +273,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/BUS-(dwars-op-BOB)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van bus (dwars op BOB)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "BUS-(dwars-op-BOB)";
@@ -246,6 +281,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/BUS-(langs-op-BOB)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van bus (langs op BOB)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "BUS-(langs-op-BOB)";
@@ -253,6 +289,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/TAXI-(dwars)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van taxiplaats (dwars)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "TAXI-(dwars)";
@@ -260,6 +297,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/TAXI-(langs)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van taxiplaats (langs)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "TAXI-(langs)";
@@ -267,6 +305,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/TRAM-(dwars)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van tramhalte (dwars)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "TRAM-(dwars)";
@@ -274,6 +313,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/TRAM-(langs)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering van tramhalte (langs)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "TRAM-(langs)";
@@ -281,6 +321,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/STOP-(smal)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering STOP (smal)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "STOP-(smal)";
@@ -288,6 +329,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/STOP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering STOP"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "STOP";
@@ -295,6 +337,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kleiner-dan-22.75-m²> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering bus met arcering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "kleiner-dan-22.75-m²";
@@ -302,6 +345,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/groter-dan-22.75-m²> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering bus met arcering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "groter-dan-22.75-m²";
@@ -309,6 +353,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/bushalte-op-de-rijweg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering bus zonder arcering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "bushalte-op-de-rijweg";
@@ -316,6 +361,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/parkeerverbod> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeersbordmarkering parkeerverbod."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "parkeerverbod";
@@ -323,6 +369,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/schoolkinderen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeersbordmarkering schoolkinderen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "schoolkinderen";
@@ -330,6 +377,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/blauwe-zone-(parkeerschijf)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeersbordmarkering blauwe zone (parkeerschijf)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "blauwe-zone-(parkeerschijf)";
@@ -337,6 +385,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietslogo-Groot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Logomarkering fiestslogo Groot."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietslogo-Groot";
@@ -344,6 +393,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietslogo-Klein> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Logomarkering fiestslogo Klein."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietslogo-Klein";
@@ -351,6 +401,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/mindervaliden-logo-klein> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Logomarkering Mindervaliden klein."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "mindervaliden-logo-klein";
@@ -358,6 +409,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/mindervaliden-logo-normaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Logomarkering Mindervaliden normaal."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "mindervaliden-logo-normaal";
@@ -365,6 +417,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/mindervaliden-logo-vergroot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Logomarkering Mindervaliden vergroot."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "mindervaliden-logo-vergroot";
@@ -372,6 +425,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/groot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Omgekeerde driehoek markering groot type."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "groot";
@@ -379,6 +433,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/klein> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Omgekeerde driehoek markering klein type."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "klein";
@@ -386,6 +441,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/null> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geen aanduiding."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "null";
@@ -393,6 +449,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kruising-sporen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aanduiding A49 kruising van een openbare weg door één of meer in de rijbaan aangelegde sporen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "kruising-sporen";
@@ -400,6 +457,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/oversteekplaats-voor-voetgangers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aanduiding A21 oversteekplaats voor voetgangers."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "oversteekplaats-voor-voetgangers";
@@ -407,6 +465,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietsstraat-einde> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeersbord F113 dat het einde van de fietsstraat aanduidt."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietsstraat-einde";
@@ -414,6 +473,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/fietsstraat-begin> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeersbord F111 dat het einde van de fietsstraat aanduidt."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "fietsstraat-begin";
@@ -421,6 +481,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/bromfiets-groot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool bromfiets groot."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "bromfiets-groot";
@@ -428,6 +489,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/bromfiets-klein> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool bromfiets klein."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "bromfiets-klein";
@@ -435,6 +497,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/autocar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool autocar."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "autocar";
@@ -442,6 +505,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/woon-werkverkeer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool woon-werkverkeer."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "woon-werkverkeer";
@@ -449,6 +513,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/elektrische-voertuigen-verkleind> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool elektrische voertuigen verkleind."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "elektrische-voertuigen-verkleind";
@@ -456,6 +521,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/elektrische-voertuigen-normaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool elektrische voertuigen normaal."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "elektrische-voertuigen-normaal";
@@ -463,6 +529,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/elektrische-voertuigen-vergroot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Symbool elektrische voertuigen vergroot."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "elektrische-voertuigen-vergroot";

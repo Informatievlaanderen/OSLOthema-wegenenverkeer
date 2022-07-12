@@ -5,23 +5,15 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke productfamiles."@nl;
-  skos:prefLabel "Productfamilies"@nl.
+  skos:definition "De mogelijke productfamiles voor een slemlaag."@nl;
+  skos:prefLabel "Productfamilies slemlaag"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/1> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/6> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Productfamilie 1"@nl;
+  skos:definition "Productfamilie 6"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie>;
-  skos:notation "1";
-  skos:prefLabel "1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Productfamilie 2"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie>;
-  skos:notation "2";
-  skos:prefLabel "2"@nl;
+  skos:notation "6";
+  skos:prefLabel "6"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/5> a skos:Concept;
@@ -32,10 +24,18 @@
   skos:prefLabel "5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/6> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Productfamilie 6"@nl;
+  skos:definition "Productfamilie 2"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie>;
-  skos:notation "6";
-  skos:prefLabel "6"@nl;
+  skos:notation "2";
+  skos:prefLabel "2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlemProductfamilie/1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Productfamilie 1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie>;
+  skos:notation "1";
+  skos:prefLabel "1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlemProductfamilie> .

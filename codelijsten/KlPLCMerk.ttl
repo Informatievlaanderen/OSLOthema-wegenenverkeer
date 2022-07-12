@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de PLC."@nl;
   skos:prefLabel "PLC merk"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/vaisala> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vaisala"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
   skos:notation "vaisala";
@@ -15,8 +17,33 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/dtn> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "DTN"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
   skos:notation "dtn";
   skos:prefLabel "DTN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/phoenics> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Phoenics"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "phoenics";
+  skos:prefLabel "Phoenics"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/seneca> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SENECA"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "seneca";
+  skos:prefLabel "SENECA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/siemens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Siemens"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "siemens";
+  skos:prefLabel "Siemens"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .

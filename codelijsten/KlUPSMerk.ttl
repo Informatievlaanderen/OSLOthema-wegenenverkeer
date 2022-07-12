@@ -4,5 +4,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de UPS."@nl;
   skos:prefLabel "UPS merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/adelsystems> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AdelSystems"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "adelsystems";
+  skos:prefLabel "AdelSystems"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/eaton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Eaton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "eaton";
+  skos:prefLabel "Eaton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .

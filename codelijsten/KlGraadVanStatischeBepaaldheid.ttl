@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De statische bepaaldheid van het brugdeel."@nl;
   skos:prefLabel "Graad van statische bepaaldheid"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanStatischeBepaaldheid/isostatisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Statisch bepaald. De reacties en inwendige krachten zijn te berekenen met de statica."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanStatischeBepaaldheid>;
+  skos:notation "isostatisch";
+  skos:prefLabel "Isostatisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanStatischeBepaaldheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanStatischeBepaaldheid/hyperstatisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Statisch onbepaald. De reacties (de momenten en dwarskrachten) kunnen niet worden berekend met de statica alleen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanStatischeBepaaldheid>;
+  skos:notation "hyperstatisch";
+  skos:prefLabel "Hyperstatisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanStatischeBepaaldheid> .

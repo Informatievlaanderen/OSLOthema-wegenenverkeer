@@ -7,3 +7,99 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van het beweegbaar brugdeel."@nl;
   skos:prefLabel "Type beweegbaar brugdeel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/helft-dubbele-basculebrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bij een dubbele basculebrug hebben de brughelften slechts één vast steunpunt, het scharnierpunt. Wanneer het brugdeel gesloten wordt, worden de brughelften aan elkaar verbonden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "helft-dubbele-basculebrug";
+  skos:prefLabel "Helft dubbele basculebrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/klapbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Soort van basculebrug zonder contragewicht. Het voordeel van dergelijk brugdeel is dat deze minder plaats inneemt, maar het grote nadeel is dat er veel meer energie nodig is om de klapbrug te openen dan bij de volwaardige basculebrug. Daarom worden klapbruggen alleen bij kleine overspanningen gebruikt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "klapbrug";
+  skos:prefLabel "Klapbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/rolbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel dat op het land gerold wordt om het scheepvaartverkeer door te laten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "rolbrug";
+  skos:prefLabel "Rolbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/ophaalbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Brugdeel waarvan het brugdek (ook wel de val of de klap genoemd) aan één kant scharnierend is opgehangen en aan de andere zijde door middel van een ketting of kabel opgehaald en naar beneden gelaten kan worden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "ophaalbrug";
+  skos:prefLabel "Ophaalbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/hefbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel waarvan het wegdek recht omhoog opgehesen wordt om de scheepvaart door te laten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "hefbrug";
+  skos:prefLabel "Hefbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/draaibrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel waarvan het beweegbare deel in een horizontaal vlak om een verticale as kan draaien. Een draaibrug kan gelijke of ongelijke armen hebben: de as waarrond het brugdeel draait, bevindt zich dan respectievelijk in het midden van of aan één zijde."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "draaibrug";
+  skos:prefLabel "Draaibrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/basculebrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Brugdeel dat zich kan openen en sluiten door te draaien om het scharnierpunt, waar het brugdeel (ongeveer) in evenwicht is tussen het gewicht van het brugdek en dat van het contragewicht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "basculebrug";
+  skos:prefLabel "Basculebrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/rolbasculebrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel dat openklapt en rolt met een behulp van een contragewicht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "rolbasculebrug";
+  skos:prefLabel "Rolbasculebrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/vast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel dat niet kan bewegen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "vast";
+  skos:prefLabel "Vast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/geen-standaardtype> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel dat kan bewogen worden, maar niet kan beschreven worden door de andere termen. Vb.: een combinatie van bewegingsmethoden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "geen-standaardtype";
+  skos:prefLabel "Geen standaardtype"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/straussbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Type basculebrug waarvan het tegengewicht zich boven het wegdek bevindt en die door drijfstangen geopend of gesloten wordt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "straussbrug";
+  skos:prefLabel "Straussbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/pontonbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een brugdeel naar een op het water drijvende ponton. Het brugdeel heeft een scharnier aan de ene kant en rolt aan de andere om toegang tot het ponton vanop de oever toe te laten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
+  skos:notation "pontonbrug";
+  skos:prefLabel "Pontonbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .

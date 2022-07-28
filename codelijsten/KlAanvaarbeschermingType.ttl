@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De soort van de aanvaarbescherming."@nl;
   skos:prefLabel "Type aanvaarbescherming"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/dukdalf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een in het water geplaatste rechtopstaande paal, al dan niet met schoorpalen voor het vastleggen en afmeren van schepen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
+  skos:notation "dukdalf";
+  skos:prefLabel "Dukdalf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Constructie met als doel schepen zodanig te begeleiden dat zowel het schip als het kunstwerk wordt beschermd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
+  skos:notation "geleidewerk";
+  skos:prefLabel "Geleidewerk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk-met-dukdalf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geleidewerk voorzien van dukdalven."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
+  skos:notation "geleidewerk-met-dukdalf";
+  skos:prefLabel "Geleidewerk met dukdalf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/niet-opgenomen-in-de-lijst> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet opgenomen in de lijst"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
+  skos:notation "niet-opgenomen-in-de-lijst";
+  skos:prefLabel "Niet opgenomen in de lijst"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .

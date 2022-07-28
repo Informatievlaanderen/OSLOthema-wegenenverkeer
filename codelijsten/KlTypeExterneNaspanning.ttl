@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type externe naspanning."@nl;
   skos:prefLabel "Type externe naspanning"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeExterneNaspanning/voorspanning-met-aanhechting> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bij voorspanning met aanhechting (VMA) worden de strengen in de omhullingsbuizen ingevoerd, aangespannen, verankerd en daarna worden de omhullingsbuizen geïnjecteerd met een speciale cementmortel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning>;
+  skos:notation "voorspanning-met-aanhechting";
+  skos:prefLabel "Voorspanning met aanhechting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeExterneNaspanning/voorspanning-zonder-aanhechting> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bij voorspanning zonder aanhechting (VZA) zit elke streng van de kabel in een aparte polyethyleen-omhulling dewelke gevuld is met vet. Deze omhulde strengen worden ingevoerd in de omhullingsbuizen, daarna worden de omhullingsbuizen geïnjecteerd met cementmortel en dan pas worden de strengen aangespannen en verankerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning>;
+  skos:notation "voorspanning-zonder-aanhechting";
+  skos:prefLabel "Voorspanning zonder aanhechting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning> .

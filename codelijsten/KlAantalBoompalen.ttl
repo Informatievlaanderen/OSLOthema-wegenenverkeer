@@ -24,6 +24,14 @@
   skos:prefLabel "4"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen>;
+  skos:notation "6";
+  skos:prefLabel "6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAantalBoompalen> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAantalBoompalen/1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De constructie bestaat uit 1 boompaal."@nl;

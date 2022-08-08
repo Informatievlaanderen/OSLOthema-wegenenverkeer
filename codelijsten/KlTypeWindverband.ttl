@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type windverband."@nl;
   skos:prefLabel "Type windverband"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWindverband/horizontaal-boven> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een windverband dat horizontaal boven wordt gebruikt (vb. in het dakvlak)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWindverband>;
+  skos:notation "horizontaal-boven";
+  skos:prefLabel "Horizontaal - boven"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWindverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWindverband/horizontaal-onder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een windverband dat horizontaal onder wordt gebruikt (vb. in het bodemvlak)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWindverband>;
+  skos:notation "horizontaal-onder";
+  skos:prefLabel "Horizontaal - onder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWindverband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWindverband/verticaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een windverband dat verticaal wordt gebruikt (vb. in de gevel)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWindverband>;
+  skos:notation "verticaal";
+  skos:prefLabel "Verticaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWindverband> .

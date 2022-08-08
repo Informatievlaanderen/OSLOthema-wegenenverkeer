@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type landhoofd."@nl;
   skos:prefLabel "Type landhoofd"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeLandhoofd/hoog-gefundeerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Landhoofd waarvan de aanlegdiepte boven het maaiveld gelegen is."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeLandhoofd>;
+  skos:notation "hoog-gefundeerd";
+  skos:prefLabel "Hoog gefundeerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeLandhoofd> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeLandhoofd/laag-gefundeerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Landhoofd waarvan de aanlegdiepte beneden het maaiveld gelegen is."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeLandhoofd>;
+  skos:notation "laag-gefundeerd";
+  skos:prefLabel "Laag gefundeerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeLandhoofd> .

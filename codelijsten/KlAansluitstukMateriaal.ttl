@@ -16,12 +16,28 @@
   skos:prefLabel "polyethyleen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/gres> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gres"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "gres";
+  skos:prefLabel "gres"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/tets> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "def"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
   skos:notation "tets";
   skos:prefLabel "Tets"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc-u-composiet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "pvc-u-composietmenietje"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "pvc-u-composiet";
+  skos:prefLabel "pvc-u-composiet"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc> a skos:Concept;
@@ -38,20 +54,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
   skos:notation "pp";
   skos:prefLabel "pp"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/gres> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Gres"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
-  skos:notation "gres";
-  skos:prefLabel "gres"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc-u-composiet> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "pvc-u-composiet"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
-  skos:notation "pvc-u-composiet";
-  skos:prefLabel "pvc-u-composiet"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .

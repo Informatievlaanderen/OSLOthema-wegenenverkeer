@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De dikte van de betonnen plaat, opgedeeld in categorieën."@nl;
   skos:prefLabel "Dikte betonnen plaat"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDikteBetonnenPlaat/kleiner-of-gelijk-aan-300mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De dikte van de betonnen plaat is kleiner of gelijk aan 300 millimeter."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat>;
+  skos:notation "kleiner-of-gelijk-aan-300mm";
+  skos:prefLabel "Kleiner of gelijk aan 300mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDikteBetonnenPlaat/tussen-300mm-en-of-gelijk-aan-600mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De dikte van de betonnen plaat is tussen 300 millimeter en/of gelijk aan 600 millimeter."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat>;
+  skos:notation "tussen-300mm-en-of-gelijk-aan-600mm";
+  skos:prefLabel "Tussen 300mm en/of gelijk aan 600mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDikteBetonnenPlaat/tussen-600mm-en-of-gelijk-aan-1000mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De dikte van de betonnen plaat is tussen 600 millimeter en/of gelijk aan 1000 millimeter."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat>;
+  skos:notation "tussen-600mm-en-of-gelijk-aan-1000mm";
+  skos:prefLabel "Tussen 600mm en/of gelijk aan 1000mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDikteBetonnenPlaat/groter-dan-1000mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De dikte van de betonnen plaat is groter dan 1000 millimeter."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat>;
+  skos:notation "groter-dan-1000mm";
+  skos:prefLabel "Groter dan 1000mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDikteBetonnenPlaat> .

@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De grootst mogelijke uitzetting die mogelijk is voor een bepaalde dilatatieoplossing."@nl;
   skos:prefLabel "Uitzetttingswaarde dilatatie"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitzettingswaardeDilatatie/10-cm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De uitzettingswaarde is 10 cm."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie>;
   skos:notation "10-cm";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitzettingswaardeDilatatie/20-cm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De uitzettingswaarde is 20 cm."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie>;
   skos:notation "20-cm";
@@ -25,9 +25,14 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitzettingswaardeDilatatie/90-cm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De uitzettingswaarde is 90 cm."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie>;
   skos:notation "90-cm";
   skos:prefLabel "90 cm"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACUitzettingswaardeDilatatie> .
+
+
+
+
+

@@ -3,39 +3,43 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met waardes voor het type materiaal van een telecomkabel."@nl;
   skos:prefLabel "Telecomkabel materiaal type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/coax-kabel> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/coax-kabel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De telecomkabel is een coax kabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
   skos:notation "coax-kabel";
   skos:prefLabel "coax kabel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/optische-vezel> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/optische-vezel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De telecomkabel is een optische vezel, ook wel een glasvezel genoemd."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
   skos:notation "optische-vezel";
   skos:prefLabel "optische vezel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/andere> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De telecomkabel is van een type dat niet in deze lijst is opgenomen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
   skos:notation "andere";
   skos:prefLabel "andere"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/koperpaar-kabel> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecomkabelMateriaalTypeWaarde/koperpaar-kabel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De telecomkabel is een koperpaar kabel. In het Engels spreekt men van een Twisted Pair (TP). Deze kan shielded (STP) of unprotected (UTP) zijn. Een Ethernet kabel is een voorbeeld van een TP kabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde>;
   skos:notation "koperpaar-kabel";
   skos:prefLabel "koperpaar kabel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelMateriaalTypeWaarde> .
+
+
+
+

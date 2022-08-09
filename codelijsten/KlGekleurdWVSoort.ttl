@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types van gekleurd wegvlak."@nl;
   skos:prefLabel "Gekleurd WV type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/fietspad-(met-lijnen)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als fietspad (met lijnen)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "fietspad-(met-lijnen)";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/fietsoversteekplaats-met-blokken-(FOP)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als fietsoversteekplaats met blokken."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "fietsoversteekplaats-met-blokken-(FOP)";
@@ -25,7 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/fiets-suggestiestrook> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als fiets suggestiestrook."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "fiets-suggestiestrook";
@@ -33,7 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/parkeerplaats-mindervaliden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als parkeerplaats mindervaliden."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "parkeerplaats-mindervaliden";
@@ -41,7 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/OFOS-(Opgeblazen-fietsopstelstrook)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als OFOS."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "OFOS-(Opgeblazen-fietsopstelstrook)";
@@ -49,7 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/OFOS-variant> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als OFOS variant."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "OFOS-variant";
@@ -57,7 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/middengeleider-(Bv.-Groene-strook)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als middengeleider."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "middengeleider-(Bv.-Groene-strook)";
@@ -65,7 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/verkeersplateau> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als verkeersplateau."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "verkeersplateau";
@@ -73,9 +73,14 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGekleurdWVSoort/voetgangers-oversteekplaats> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gekleurd wegvlak als voetgangers-oversteekplaats."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort>;
   skos:notation "voetgangers-oversteekplaats";
   skos:prefLabel "voetgangers-oversteekplaats"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGekleurdWVSoort> .
+
+
+
+
+

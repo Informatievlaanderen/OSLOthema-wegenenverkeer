@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bepaling van het vervaardigingsmateriaal van de antiparkeerpaal."@nl;
   skos:prefLabel "Antiparkeerpaal materiaal"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/hout> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuze hout voor het antiparkeerpaal materiaal."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal>;
   skos:notation "hout";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/metaal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuze metaal voor het antiparkeerpaal materiaal."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal>;
   skos:notation "metaal";
@@ -25,9 +25,14 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/kunststof> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuze kunststof voor het antiparkeerpaal materiaal."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal>;
   skos:notation "kunststof";
   skos:prefLabel "kunststof"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal> .
+
+
+
+
+

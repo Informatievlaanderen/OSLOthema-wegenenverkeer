@@ -3,71 +3,75 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het materiaal waaruit de dragende structuur van het brugdeel is opgebouwd."@nl;
   skos:prefLabel "Materiaal dragende structuur brugdeel"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/beton> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Beton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "beton";
   skos:prefLabel "Beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/gegolfd-plaatstaal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/gegolfd-plaatstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gegolfd plaatstaal"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "gegolfd-plaatstaal";
   skos:prefLabel "Gegolfd plaatstaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/metselwerk> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/metselwerk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Metselwerk"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "metselwerk";
   skos:prefLabel "Metselwerk"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/staal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Staal"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "staal";
   skos:prefLabel "Staal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/mixte-staal-en-beton> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/mixte-staal-en-beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mixte (staal en beton)"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "mixte-staal-en-beton";
   skos:prefLabel "Mixte (staal en beton)"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/hout> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/hout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Hout"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "hout";
   skos:prefLabel "Hout"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/voorgebogen-liggers> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/voorgebogen-liggers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Voorgebogen liggers"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "voorgebogen-liggers";
   skos:prefLabel "Voorgebogen liggers"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/natuursteen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalDragendeStructuurBrugdeel/natuursteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Natuursteen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel>;
   skos:notation "natuursteen";
   skos:prefLabel "Natuursteen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalDragendeStructuurBrugdeel> .
+
+
+
+

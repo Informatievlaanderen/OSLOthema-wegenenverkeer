@@ -3,31 +3,34 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van de metselvoeg."@nl;
   skos:prefLabel "Type metselvoeg"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVoeg/klassiek> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeVoeg/klassiek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Traditioneel metselwerk met voegen van (meestal) 10 mm tot 12 mm."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
   skos:notation "klassiek";
   skos:prefLabel "Klassiek"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVoeg/verlijmd> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Gebruikmakende van lijmmortel waardoor er geen zichtbare voegen zijn (de 'voeg' is slechts 5 mm à 6 mm)."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeVoeg/verlijmd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gebruikmakende van lijmmortel waardoor er geen zichtbare voegen zijn (de 'voeg' is slechts 5 mm ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  6 mm)."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
   skos:notation "verlijmd";
   skos:prefLabel "Verlijmd"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVoeg/dunmortel> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Gemetseld op een gewone manier, maar de voeg bedraagt slechts 6 mm à 7 mm."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeVoeg/dunmortel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gemetseld op een gewone manier, maar de voeg bedraagt slechts 6 mm ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  7 mm."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
   skos:notation "dunmortel";
   skos:prefLabel "Dunmortel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
+
+
+

@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Oppervalktebehandelingen van de cement/beton verharding."@nl;
   skos:prefLabel "CBV oppervlaktebehandeling"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/uitwassen-van-het-steenslagskelet> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Uitwassen van het steenslagskelet"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
   skos:notation "uitwassen-van-het-steenslagskelet";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/bezemen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bezemen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
   skos:notation "bezemen";
@@ -25,7 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/eenvoudig-dwars-bezemen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Eenvoudig dwars bezemen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
   skos:notation "eenvoudig-dwars-bezemen";
@@ -33,7 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/eenvoudig-langs-bezemen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Eenvoudig langs bezemen"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
   skos:notation "eenvoudig-langs-bezemen";
@@ -41,7 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/figureren> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Figureren"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
   skos:notation "figureren";
@@ -49,9 +49,14 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCBVOppervlaktebehandeling/Reinigen-met-water-onder-hoge-druk-(minstens-50-bar)-> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Reinigen met water onder hoge druk (minstens 50 bar) "@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling>;
   skos:notation "Reinigen-met-water-onder-hoge-druk-(minstens-50-bar)-";
   skos:prefLabel "Reinigen met water onder hoge druk (minstens 50 bar) "@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCBVOppervlaktebehandeling> .
+
+
+
+
+

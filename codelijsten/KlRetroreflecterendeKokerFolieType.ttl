@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzeijst voor het bepalen van folietype van de retroreflecterende koker."@nl;
   skos:prefLabel "Retroreflecterende koker folie type"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRetroreflecterendeKokerFolieType/type-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuze folie type 2 (geel) als folietype van de retroreflecterende koker"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType>;
   skos:notation "type-2";
@@ -17,9 +17,13 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRetroreflecterendeKokerFolieType/type-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuze folie type 3 als folietype (geel - fluorescerend) van de retroreflecterende koker"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType>;
   skos:notation "type-3";
   skos:prefLabel "type 3"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRetroreflecterendeKokerFolieType> .
+
+
+
+

@@ -8,6 +8,14 @@
   skos:definition "Het materiaal van het aansluitstuk."@nl;
   skos:prefLabel "Aansluitstuk materiaal"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/tets> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "def"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
+  skos:notation "tets";
+  skos:prefLabel "Tets"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/polyethyleen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "polyethyleen2"@nl;
@@ -22,14 +30,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
   skos:notation "gres";
   skos:prefLabel "gres"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/tets> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "def"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal>;
-  skos:notation "tets";
-  skos:prefLabel "Tets"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc-u-composiet> a skos:Concept;

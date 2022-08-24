@@ -1,0 +1,17 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingAswegerzone> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De afmeting in meter van de zone aangelegd voor en na de asweger die de voertuigen gebruiken."@nl;
+  skos:prefLabel "Afmeting asweger zone"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingAswegerzone/35> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een zone met twee aanrijzones van 15 meter en een weegzone van ongeveer 5 meter."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingAswegerzone>;
+  skos:notation "35";
+  skos:prefLabel "35"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingAswegerzone> .

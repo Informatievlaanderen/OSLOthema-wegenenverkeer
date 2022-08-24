@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingMateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het materiaal waaruit de afsluiting vervaardigd is."@nl;
+  skos:prefLabel "Afsluiting materiaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluitingMateriaal/metaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Metaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingMateriaal>;
+  skos:notation "metaal";
+  skos:prefLabel "Metaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluitingMateriaal/geplastificeerde-metaaldraad> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "(Geplastificeerde) Metaaldraad"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingMateriaal>;
+  skos:notation "geplastificeerde-metaaldraad";
+  skos:prefLabel "(Geplastificeerde) Metaaldraad"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingMateriaal> .

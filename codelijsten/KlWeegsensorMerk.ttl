@@ -4,11 +4,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorMerk> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de weegsensor."@nl;
   skos:prefLabel "Weegsensor merk"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeegsensorMerk/Kistler> a skos:Concept;
-  skos:definition ""@nl;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorMerk>;
   skos:notation "Kistler";
   skos:prefLabel "Kistler"@nl;

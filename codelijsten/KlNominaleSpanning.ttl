@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuzelijst voor de nominale spanning van een elektrische installatie."@nl;
+  skos:prefLabel "Nominale spanning"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/230v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "230V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "230v";
+  skos:prefLabel "230V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/24v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "24V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "24v";
+  skos:prefLabel "24V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/400v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "400V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "400v";
+  skos:prefLabel "400V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/230-400v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "230/400V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "230-400v";
+  skos:prefLabel "230/400V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/12v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "12V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "12v";
+  skos:prefLabel "12V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/660v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "660V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "660v";
+  skos:prefLabel "660V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/6kv> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "6kV"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "6kv";
+  skos:prefLabel "6kV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/130-230v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "130/230V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "130-230v";
+  skos:prefLabel "130/230V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/400-690v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "400/690V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "400-690v";
+  skos:prefLabel "400/690V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .

@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het merk van een noodstopknop."@nl;
+  skos:prefLabel "Noodstopknop merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopMerk/isotron> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ISOTRON"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk>;
+  skos:notation "isotron";
+  skos:prefLabel "ISOTRON"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopMerk/pilz> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "PILZ"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk>;
+  skos:notation "pilz";
+  skos:prefLabel "PILZ"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopMerk/phoenics> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Phoenics"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk>;
+  skos:notation "phoenics";
+  skos:prefLabel "Phoenics"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopMerk> .

@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormStalenDamplank> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De vorm van de stalen damplank."@nl;
   skos:prefLabel "Vorm stalen damplank"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormStalenDamplank/u-vorm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Stalen damplank (U-profiel)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormStalenDamplank>;
   skos:notation "u-vorm";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormStalenDamplank> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormStalenDamplank/z-vorm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Stalen damplank (Z-profiel)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormStalenDamplank>;
   skos:notation "z-vorm";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormStalenDamplank> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormStalenDamplank/platte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Platte damplank."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormStalenDamplank>;
   skos:notation "platte";

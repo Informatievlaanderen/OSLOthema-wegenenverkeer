@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Soort lamp voor inwendig verlichte verkeerzuilen."@nl;
   skos:prefLabel "Inwendig verlichte verkeerszuil soort lamp"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVLichtzuilSoortLamp/spaarlamp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "spaarlamp"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp>;
   skos:notation "spaarlamp";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVLichtzuilSoortLamp/gloeilamp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gloeilamp"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp>;
   skos:notation "gloeilamp";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVLichtzuilSoortLamp/tl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TL"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp>;
   skos:notation "tl";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVLichtzuilSoortLamp/led> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LED"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp>;
   skos:notation "led";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVLichtzuilSoortLamp/halogeen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "halogeen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVLichtzuilSoortLamp>;
   skos:notation "halogeen";

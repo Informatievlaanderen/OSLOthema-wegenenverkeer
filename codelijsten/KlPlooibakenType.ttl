@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition " vormen van een plooibaken."@nl;
   skos:prefLabel "Plooibaken type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlooibakenType/plooibaken-diameter-80-mm---M16> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Plooibaken diameter 80 mm – M16"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType>;
   skos:notation "plooibaken-diameter-80-mm---M16";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlooibakenType/plooibaken-diameter-80-mm---M24> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Plooibaken diameter 80 mm – M24"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType>;
   skos:notation "plooibaken-diameter-80-mm---M24";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlooibakenType/plooibaken-diameter-130-mm---M24> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Plooibaken diameter 130 mm – M24"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType>;
   skos:notation "plooibaken-diameter-130-mm---M24";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlooibakenType/verkeerszuil> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verkeerszuil"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlooibakenType>;
   skos:notation "verkeerszuil";

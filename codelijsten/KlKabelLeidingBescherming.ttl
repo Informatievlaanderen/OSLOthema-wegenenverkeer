@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met mogelijke types bijkomende mechanische bescherming van kabels of leidingen."@nl;
   skos:prefLabel "Kabels en Leidingen bescherming"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/kabeldekband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming van kabels en leidingen in de vorm van een band (uitgevoerd in hoogwaardig hogedrukpolyethyleen)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "kabeldekband";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/niet-gekend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type bescherming kan niet langer achterhaald worden zonder bijzondere inventarisatie inspanningen of zal in een latere fase toegevoegd worden."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "niet-gekend";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/u-ijzers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming van kabels en leidingen door middel van metaal dekkingen in de vorm van een u die boven de kabels of leidingen geplaatst worden."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "u-ijzers";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/waarschuwingslint> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming tegen beschadiging van kabels of leidingen door middel van een lint dat wijst op de aanwezigheid van kabels of leidingen in de onmiddellijke nabijheid."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "waarschuwingslint";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/omegaprofiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming van kabels of leidingen door middel van een omegaprofiel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "omegaprofiel";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/tegels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming van kabels of leidingen door middel van tegels."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "tegels";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/synthetische-kabeldekking> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming van kabels en leidingen door middel van een synthetische kabeldekking."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "synthetische-kabeldekking";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/mager-beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming voor kabels of leidingen in mager beton."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "mager-beton";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelLeidingBescherming/waarschuwingsnet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bescherming tegen beschadiging van kabels en leidingen door middel van een net dat waarschuwt voor de aanwezigheid van kabels en leidingen in de onmiddellijke nabijheid."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelLeidingBescherming>;
   skos:notation "waarschuwingsnet";

@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rioleringsbuis materiaal"@nl;
   skos:prefLabel "Rioleringsbuis materiaal"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/voorgespannen-gewapende-betonbuizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Voorgespannen gewapende betonbuizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "voorgespannen-gewapende-betonbuizen";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/betonbuizen-met-plaatstalen-kern> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Betonbuizen met plaatstalen kern"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "betonbuizen-met-plaatstalen-kern";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/ongewapende-betonbuizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Ongewapende betonbuizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "ongewapende-betonbuizen";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/hdpe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "HDPE"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "hdpe";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-gevuld-en-glasvezelversterkt-polyesterhars> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Doorpersbuizen van gevuld en glasvezelversterkt polyesterhars"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "doorpersbuizen-van-gevuld-en-glasvezelversterkt-polyesterhars";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/PP-buizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "PP-buizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "PP-buizen";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/buizen-van-hoogwaardig-beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Buizen van hoogwaardig beton"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "buizen-van-hoogwaardig-beton";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/PVC-buizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "PVC-buizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "PVC-buizen";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-beton-met-plaatstalen-kern-en-dubbel-voegsysteem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Doorpersbuizen van beton met plaatstalen kern en dubbel voegsysteem"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "doorpersbuizen-van-beton-met-plaatstalen-kern-en-dubbel-voegsysteem";
@@ -71,6 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-gewapend-beton-voorzien-van-een-harde-PVC-bekleding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Doorpersbuizen van polymeerbeton"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "doorpersbuizen-van-gewapend-beton-voorzien-van-een-harde-PVC-bekleding";
@@ -78,6 +89,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/wandversterkte-HDPE-buizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Wandversterkte HDPE-buizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "wandversterkte-HDPE-buizen";
@@ -85,6 +97,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-gewapend-beton.-sterktereeks-135> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Doorpersbuizen van gewapend beton, sterktereeks 135"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "doorpersbuizen-van-gewapend-beton.-sterktereeks-135";
@@ -92,6 +105,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-gres> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Doorpersbuizen van gres"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "doorpersbuizen-van-gres";
@@ -99,6 +113,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/gewapend-betonbuizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gewapend-betonbuizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "gewapend-betonbuizen";
@@ -106,6 +121,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/PVC-U-composietleidingen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "PVC-U-composietleidingen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "PVC-U-composietleidingen";
@@ -113,6 +129,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/gresbuizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gresbuis is een (riool)buis gemaakt van vette klei en chamotte met een gladde en zeer harde afwerking."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "gresbuizen";
@@ -120,6 +137,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/afvoerbuizen-van-polyethyleen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "buizen vervaardigd uit polyethyleen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "afvoerbuizen-van-polyethyleen";
@@ -127,6 +145,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/buizen-van-nodulair-gietijzer-zonder-inwendige-druk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Buizen van nodulair gietijzer zonder inwendige druk"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "buizen-van-nodulair-gietijzer-zonder-inwendige-druk";
@@ -134,6 +153,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/buizen-van-poreus-beton-volgens-3-24.6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Buizen van poreus beton volgens 3-24.6"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "buizen-van-poreus-beton-volgens-3-24.6";
@@ -141,6 +161,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/met-staalvezels-versterkte-betonbuizen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Met staalvezels versterkte betonbuizen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "met-staalvezels-versterkte-betonbuizen";
@@ -148,6 +169,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-(UP-GF)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Buizen van gevuld en glasvezelversterkt polyesterhars (UP-GF)"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "buizen-van-gevuld-en-glasvezelversterkt-polyesterhars-(UP-GF)";

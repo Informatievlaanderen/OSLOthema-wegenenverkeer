@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStopcontactAantalPolen> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijke waarden voor het aantal polen van een stopcontact."@nl;
   skos:prefLabel "stopcontact aantal polen"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStopcontactAantalPolen/3P> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStopcontactAantalPolen>;
   skos:notation "3P";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStopcontactAantalPolen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStopcontactAantalPolen/4P> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStopcontactAantalPolen>;
   skos:notation "4P";

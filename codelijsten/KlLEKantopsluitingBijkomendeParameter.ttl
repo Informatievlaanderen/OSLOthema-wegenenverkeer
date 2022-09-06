@@ -4,10 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gedetailleerder typeren van de kantopsluiting."@nl;
   skos:prefLabel "Kantopsluiting bijkomende parameter"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/eindschikking-voor-schampkant> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "eindschikking voor schampkant"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "eindschikking-voor-schampkant";
@@ -15,6 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-trottoirband-of-Trottoirband-watergreppel-straal-kleiner-of-gelijk-5m-reflectoren-schuin> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gebogen trottoirband of trottoirband-watergreppel, met straal kleiner of gelijk aan 5m en schuin geplaatste reflectoren."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-trottoirband-of-Trottoirband-watergreppel-straal-kleiner-of-gelijk-5m-reflectoren-schuin";
@@ -22,6 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-trottoirband-of-Trottoirband-watergreppel-straal-kleiner-of-gelijk-5m> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gebogen trottoirband of trottoirband-watergreppel, met straal kleiner of gelijk aan 5m"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-trottoirband-of-Trottoirband-watergreppel-straal-kleiner-of-gelijk-5m";
@@ -29,6 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/rechte-schampkant> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "rechte schampkant"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "rechte-schampkant";
@@ -36,6 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/supplement-voor-in-verstek-zagen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "supplement voor in verstek zagen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "supplement-voor-in-verstek-zagen";
@@ -43,6 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-trottoirband-of-Trottoirband-watergreppel-straal-groter-5m-reflectoren-schuin> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gebogen trottoirband of trottoirband-watergreppel, met straal groter dan 5 m met schuin geplaatste reflectoren."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-trottoirband-of-Trottoirband-watergreppel-straal-groter-5m-reflectoren-schuin";
@@ -50,6 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-kantstrook-of-watergreppel-straal-groter-5m> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gebogen kantstrook of watergreppel, met straal groter dan 5m"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-kantstrook-of-watergreppel-straal-groter-5m";
@@ -57,6 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/rechte-kantstrook-of-watergreppel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rechte kantstrook of watergreppel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "rechte-kantstrook-of-watergreppel";
@@ -64,6 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/hoekstukken.-hoek-verschillend-90°-of-270°> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Hoekstukken, hoek verschillend van 90° of 270°"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "hoekstukken.-hoek-verschillend-90°-of-270°";
@@ -71,6 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/rechte-trottoirband-of-trottoirband-watergreppel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rechte trottoirband of trottoirband-watergreppel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "rechte-trottoirband-of-trottoirband-watergreppel";
@@ -78,6 +89,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/hoekstukken.-hoek-90°-of-270°> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "hoekstukken waarbij de hoek gelijk is aan 90° of 270°"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "hoekstukken.-hoek-90°-of-270°";
@@ -85,6 +97,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/trottoirbanden-voor-minder-validen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "trottoirbanden voor minder-validen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "trottoirbanden-voor-minder-validen";
@@ -92,6 +105,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/rechte-trottoirband-of-trottoirbandwater-greppel-reflectoren-verticaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rechte trottoirband of trottoirband-watergreppel met verticaal geplaatste reflectoren."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "rechte-trottoirband-of-trottoirbandwater-greppel-reflectoren-verticaal";
@@ -99,6 +113,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/rechte-trottoirband-of-Trottoirband-watergreppel-reflectoren-schuin> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rechte trottoirband of trottoirband-watergreppel met schuin geplaatste reflectoren."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "rechte-trottoirband-of-Trottoirband-watergreppel-reflectoren-schuin";
@@ -106,6 +121,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-trottoirband-of-Trottoirband-watergreppel-straal-groter-5m> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gebogen trottoirband of trottoirband-watergreppel, met straal groter dan 5 m."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-trottoirband-of-Trottoirband-watergreppel-straal-groter-5m";
@@ -113,6 +129,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-trottoirband-of-Trottoirband-watergreppel-straal-groter-5m-reflectoren-verticaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gebogen trottoirband of trottoirband-watergreppel, met straal groter dan 5 m met verticaal geplaatste reflectoren."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-trottoirband-of-Trottoirband-watergreppel-straal-groter-5m-reflectoren-verticaal";
@@ -120,6 +137,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-kantstrook-of-watergreppel-straal-kleiner-of-gelijk-5m> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gebogen kantstrook of watergreppel, met straal kleiner of gelijk 5m"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-kantstrook-of-watergreppel-straal-kleiner-of-gelijk-5m";
@@ -127,6 +145,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/gebogen-trottoirband-of-Trottoirband-watergreppel-straal-kleiner-of-gelijk-5m-reflectoren-verticaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gebogen trottoirband of trottoirband-watergreppel, met straal kleiner of gelijk aan 5m met verticaal geplaatste reflectoren."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "gebogen-trottoirband-of-Trottoirband-watergreppel-straal-kleiner-of-gelijk-5m-reflectoren-verticaal";
@@ -134,6 +153,7 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/overgangstrottoirbanden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Overgangstrottoirbanden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
   skos:notation "overgangstrottoirbanden";

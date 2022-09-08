@@ -6,14 +6,14 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Datakabel aders en sectie"@nl;
-  skos:prefLabel "Datakabel aders en sectie"@nl.
+  skos:prefLabel "Datakabel aders en sectie."@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/10x2x0.8> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/4x2x1.5> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "10x2x0.8"@nl;
+  skos:definition "4x2x1.5"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
-  skos:notation "10x2x0.8";
-  skos:prefLabel "10x2x0.8"@nl;
+  skos:notation "4x2x1.5";
+  skos:prefLabel "4x2x1.5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/2x1.5> a skos:Concept;
@@ -22,6 +22,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
   skos:notation "2x1.5";
   skos:prefLabel "2x1.5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/10x2x0.8> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "10x2x0.8"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
+  skos:notation "10x2x0.8";
+  skos:prefLabel "10x2x0.8"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/2x2.5> a skos:Concept;
@@ -38,12 +46,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
   skos:notation "2x1n5";
   skos:prefLabel "2x1n5"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/4x2x1.5> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "4x2x1.5"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
-  skos:notation "4x2x1.5";
-  skos:prefLabel "4x2x1.5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .

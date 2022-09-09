@@ -8,14 +8,6 @@
   skos:definition "Voedingskabel aders en sectie"@nl;
   skos:prefLabel "Voedingskabel aders en sectie"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
-  skos:notation ".";
-  skos:prefLabel "."@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/4x4> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "4x4"@nl;
@@ -462,6 +454,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
   skos:notation "3x10-6";
   skos:prefLabel "3x10+6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
+  skos:notation ".";
+  skos:prefLabel "."@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/3x16-16> a skos:Concept;

@@ -5,12 +5,20 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Beschermbuis materiaal"@nl;
+  skos:definition "Keuzelijst voor het bepalen van het materiaal van de beschermbuis."@nl;
   skos:prefLabel "Beschermbuis materiaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal>;
+  skos:notation "rvs";
+  skos:prefLabel "RVS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/hdpe> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "HDPE"@nl;
+  skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal>;
   skos:notation "hdpe";
   skos:prefLabel "HDPE"@nl;
@@ -26,18 +34,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/pvc> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "PVC"@nl;
+  skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal>;
   skos:notation "pvc";
   skos:prefLabel "PVC"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/rvs> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/hdpe-pn10> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RVS"@nl;
+  skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal>;
-  skos:notation "rvs";
-  skos:prefLabel "RVS"@nl;
+  skos:notation "hdpe-pn10";
+  skos:prefLabel "HDPE PN10"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/pe> a skos:Concept;

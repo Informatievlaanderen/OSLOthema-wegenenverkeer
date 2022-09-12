@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de RIS."@nl;
   skos:prefLabel "iVRIMerkRIS"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/swarco> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Swarco"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS>;
+  skos:notation "swarco";
+  skos:prefLabel "Swarco"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/peek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Peek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS>;
+  skos:notation "peek";
+  skos:prefLabel "Peek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS> .

@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met types van pies voor het oude AKELA-type Pipe."@nl;
   skos:prefLabel "Pipe container type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPipeContainerType/mantelbuis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPipeContainerType>;
+  skos:notation "mantelbuis";
+  skos:prefLabel "mantelbuis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPipeContainerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPipeContainerType/kabelenleidinggoot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPipeContainerType>;
+  skos:notation "kabelenleidinggoot";
+  skos:prefLabel "kabelEnLeidingGoot"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPipeContainerType> .

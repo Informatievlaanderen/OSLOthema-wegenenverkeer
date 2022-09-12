@@ -8,20 +8,20 @@
   skos:definition "Kabelmantel kleur"@nl;
   skos:prefLabel "Kabelmantel kleur"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/groen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "groen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "groen";
+  skos:prefLabel "groen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/rood-wit> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "rood-wit"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
   skos:notation "rood-wit";
   skos:prefLabel "rood-wit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/koperkleurig> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "koperkleurig"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "koperkleurig";
-  skos:prefLabel "koperkleurig"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/blauw> a skos:Concept;
@@ -64,28 +64,12 @@
   skos:prefLabel "glasvezel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/yp> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "yp"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "yp";
-  skos:prefLabel "yp"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/zwart> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "zwart"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
   skos:notation "zwart";
   skos:prefLabel "zwart"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/koper> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "koper"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "koper";
-  skos:prefLabel "koper"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/ge-gr> a skos:Concept;
@@ -96,28 +80,12 @@
   skos:prefLabel "ge-gr"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-groen-zwart> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "geel-groen-zwart"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "geel-groen-zwart";
-  skos:prefLabel "geel-groen-zwart"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-zwart> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geel-zwart"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
   skos:notation "geel-zwart";
   skos:prefLabel "geel-zwart"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-groen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "geel-groen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "geel-groen";
-  skos:prefLabel "geel-groen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-grijs> a skos:Concept;
@@ -142,22 +110,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
   skos:notation "fiber";
   skos:prefLabel "fiber"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/blankkoper> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "blankkoper"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "blankkoper";
-  skos:prefLabel "blankkoper"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/groen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "groen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "groen";
-  skos:prefLabel "groen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/transparant> a skos:Concept;
@@ -200,6 +152,14 @@
   skos:prefLabel "geel of zwart"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/koper> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "koper"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "koper";
+  skos:prefLabel "koper"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/rood-zwart> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "rood-zwart"@nl;
@@ -230,4 +190,52 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
   skos:notation "geel";
   skos:prefLabel "geel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/koperkleurig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "koperkleurig"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "koperkleurig";
+  skos:prefLabel "koperkleurig"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/yp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "yp"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "yp";
+  skos:prefLabel "yp"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-groen-zwart> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "geel-groen-zwart"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "geel-groen-zwart";
+  skos:prefLabel "geel-groen-zwart"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/blankkoper> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "blankkoper"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "blankkoper";
+  skos:prefLabel "blankkoper"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-groen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "geel-groen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "geel-groen";
+  skos:prefLabel "geel-groen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/blank-koper> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "blank koper"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "blank-koper";
+  skos:prefLabel "blank koper"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .

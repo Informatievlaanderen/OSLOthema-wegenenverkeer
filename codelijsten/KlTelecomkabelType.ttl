@@ -48,28 +48,12 @@
   skos:prefLabel "TPGF"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/pepy> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Telecom koper kabels waarvan de geleiders ge&#239;soleerd zijn door plastic (pe) omhuld door bescherming in Py zonder bewapening."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "pepy";
-  skos:prefLabel "PePy"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/appj> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Papier-lood geïsoleerde telecom koper kabels met een omhulsel in jute. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
   skos:notation "appj";
   skos:prefLabel "APPj"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg11> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RG 11 Coaxkabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "rg11";
-  skos:prefLabel "RG11"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/twavb> a skos:Concept;
@@ -142,6 +126,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
   skos:notation "mok-micro";
   skos:prefLabel "MOK micro"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/pepy> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Telecom koper kabels waarvan de geleiders geïsoleerd zijn door plastic (pe) omhuld door bescherming in Py zonder bewapening."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "pepy";
+  skos:prefLabel "PePy"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg11> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RG 11 Coaxkabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "rg11";
+  skos:prefLabel "RG11"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/cu> a skos:Concept;

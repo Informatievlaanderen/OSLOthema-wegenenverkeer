@@ -40,6 +40,14 @@
   skos:prefLabel "RTT-34"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/tpgf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije telefoniekabel met enkel afgeschermde paren voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "tpgf";
+  skos:prefLabel "TPGF"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/pepy> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Telecom koper kabels waarvan de geleiders ge&#239;soleerd zijn door plastic (pe) omhuld door bescherming in Py zonder bewapening."@nl;
@@ -88,14 +96,6 @@
   skos:prefLabel "F.O."@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg59> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RG 59 Coaxkabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "rg59";
-  skos:prefLabel "RG59"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/app> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Papier-lood geïsoleerde telecom koper kabels. Zogenaamde Armee Papier Plomb geleiders, geïsoleerd door papier met daarrond een loden mantel en daarrond bewapening."@nl;
@@ -128,22 +128,6 @@
   skos:prefLabel "APP/PE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/tpgf> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Halogeenvrije telefoniekabel met enkel afgeschermde paren voor binnen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "tpgf";
-  skos:prefLabel "TPGF"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/alu-pet> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Telecom koper kabels waarvan de geleiders ge&#239;soleerd zijn door plastic met daarrond een omhulsel van aluminium en PET."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "alu-pet";
-  skos:prefLabel "Alu/PET"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/onbekend> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "onbekend"@nl;
@@ -174,6 +158,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
   skos:notation "j-h(st)h-bd";
   skos:prefLabel "J-H(St)H-BD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg59> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RG 59 Coaxkabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "rg59";
+  skos:prefLabel "RG59"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/alu-pet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Telecom koper kabels waarvan de geleiders geïsoleerd zijn door plastic met daarrond een omhulsel van aluminium en PET."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "alu-pet";
+  skos:prefLabel "Alu/PET"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg12> a skos:Concept;

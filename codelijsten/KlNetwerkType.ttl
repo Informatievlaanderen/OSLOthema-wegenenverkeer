@@ -5,23 +5,15 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Keuzelijst voor het type netwerk waartoe een asset behoort."@nl;
+  skos:definition "Netwerk type"@nl;
   skos:prefLabel "Netwerk type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/elektriciteit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/glasvezel> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De Klasse hoort in het elektriciteitsnet."@nl;
+  skos:definition "glasvezel"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
-  skos:notation "elektriciteit";
-  skos:prefLabel "elektriciteit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/telecommunicatie> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De Klasse hoort in het telecomnet."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
-  skos:notation "telecommunicatie";
-  skos:prefLabel "telecommunicatie"@nl;
+  skos:notation "glasvezel";
+  skos:prefLabel "glasvezel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/gemengd> a skos:Concept;
@@ -38,4 +30,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
   skos:notation "riool";
   skos:prefLabel "riool"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/elektriciteit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De Klasse hoort in het elektriciteitsnet."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
+  skos:notation "elektriciteit";
+  skos:prefLabel "elektriciteit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/telecommunicatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De Klasse hoort in het telecomnet."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
+  skos:notation "telecommunicatie";
+  skos:prefLabel "telecommunicatie"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .

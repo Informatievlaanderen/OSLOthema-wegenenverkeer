@@ -24,12 +24,12 @@
   skos:prefLabel "gemengd"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/riool> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/electricity> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "riool"@nl;
+  skos:definition "electricity"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
-  skos:notation "riool";
-  skos:prefLabel "riool"@nl;
+  skos:notation "electricity";
+  skos:prefLabel "electricity"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/elektriciteit> a skos:Concept;
@@ -40,10 +40,42 @@
   skos:prefLabel "elektriciteit"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/telecom> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "telecom"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
+  skos:notation "telecom";
+  skos:prefLabel "telecom"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/telecommunicatie> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De Klasse hoort in het telecomnet."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
   skos:notation "telecommunicatie";
   skos:prefLabel "telecommunicatie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/sewer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "sewer"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
+  skos:notation "sewer";
+  skos:prefLabel "sewer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/riool> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "riool"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
+  skos:notation "riool";
+  skos:prefLabel "riool"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkType/crosstheme> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "crossTheme"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType>;
+  skos:notation "crosstheme";
+  skos:prefLabel "crossTheme"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkType> .

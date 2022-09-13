@@ -18,10 +18,10 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-ontwerp> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in-ontwerp"@nl;
+  skos:definition "in ontwerp"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "in-ontwerp";
-  skos:prefLabel "in-ontwerp"@nl;
+  skos:prefLabel "in ontwerp"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/overgedragen> a skos:Concept;
@@ -32,28 +32,20 @@
   skos:prefLabel "overgedragen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/uit-gebruik> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "uit-gebruik"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "uit-gebruik";
-  skos:prefLabel "uit-gebruik"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-opbouw> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in-opbouw"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "in-opbouw";
-  skos:prefLabel "in-opbouw"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-gebruik> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in-gebruik"@nl;
+  skos:definition "in gebruik"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "in-gebruik";
-  skos:prefLabel "in-gebruik"@nl;
+  skos:prefLabel "in gebruik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/uit-gebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "uit gebruik"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "uit-gebruik";
+  skos:prefLabel "uit gebruik"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/gepland> a skos:Concept;
@@ -70,4 +62,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "geannuleerd";
   skos:prefLabel "geannuleerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-opbouw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in opbouw"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "in-opbouw";
+  skos:prefLabel "in opbouw"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .

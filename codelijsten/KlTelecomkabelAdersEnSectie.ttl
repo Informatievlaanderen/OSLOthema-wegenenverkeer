@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst van mogelijke waarden volgens de catalogusposten van het standaardbestek voor de samenstelling van een telecomkabel volgens het aantal aders en hun dikte in vierkante millimeter."@nl;
+  skos:definition "Telecomkabel aders en sectie"@nl;
   skos:prefLabel "Telecomkabel aders en sectie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/21-x-2-x-1-mm2> a skos:Concept;
@@ -32,12 +32,12 @@
   skos:prefLabel "7x2x0.8"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/8> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/20x4x1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "8"@nl;
+  skos:definition "20x4x1"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
-  skos:notation "8";
-  skos:prefLabel "8"@nl;
+  skos:notation "20x4x1";
+  skos:prefLabel "20x4x1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/96-vezels> a skos:Concept;
@@ -56,14 +56,6 @@
   skos:prefLabel "32x4x1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/10x4x1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
-  skos:notation "10x4x1";
-  skos:prefLabel "10x4x1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/48-vezels> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -80,14 +72,6 @@
   skos:prefLabel "30x4x1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/25x4x1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "25x4x1"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
-  skos:notation "25x4x1";
-  skos:prefLabel "25x4x1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/50x4x1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "50x4x1"@nl;
@@ -98,10 +82,18 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/40x4x1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "40x4x1"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
   skos:notation "40x4x1";
   skos:prefLabel "40x4x1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/34x4x1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "34x4x1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
+  skos:notation "34x4x1";
+  skos:prefLabel "34x4x1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/24> a skos:Concept;
@@ -120,20 +112,28 @@
   skos:prefLabel "onbekend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/8> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "8"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
+  skos:notation "8";
+  skos:prefLabel "8"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/5x4x1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "5x4x1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
+  skos:notation "5x4x1";
+  skos:prefLabel "5x4x1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/48> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "48"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
   skos:notation "48";
   skos:prefLabel "48"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/5x4x1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
-  skos:notation "5x4x1";
-  skos:prefLabel "5x4x1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/12> a skos:Concept;
@@ -160,6 +160,22 @@
   skos:prefLabel "zonder verdere specificatie"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/10x4x1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "10x4x1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
+  skos:notation "10x4x1";
+  skos:prefLabel "10x4x1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/25x4x1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "25x4x1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
+  skos:notation "25x4x1";
+  skos:prefLabel "25x4x1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/100-x-2-x-1-mm2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -174,20 +190,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
   skos:notation "7x1.5";
   skos:prefLabel "7x1.5"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/20x4x1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
-  skos:notation "20x4x1";
-  skos:prefLabel "20x4x1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelAdersEnSectie/34x4x1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "34x4x1"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie>;
-  skos:notation "34x4x1";
-  skos:prefLabel "34x4x1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelAdersEnSectie> .

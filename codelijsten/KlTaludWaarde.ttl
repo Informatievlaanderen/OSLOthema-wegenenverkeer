@@ -8,33 +8,33 @@
   skos:definition "De verschillende mogelijke waardes voor de hellingsgraad van de talud."@nl;
   skos:prefLabel "Talud waarde"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTaludWaarde/tot-1-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een hellingsgraad tot 1/3 (33,33%, 18,4°)."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde>;
-  skos:notation "tot-1-3";
-  skos:prefLabel "tot 1 3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTaludWaarde/van-1-3-tot-1-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een hellingsgraad van 1/3 (33,33%, 18,4°) tot 1/2 (50%, 26,6°)."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde>;
-  skos:notation "van-1-3-tot-1-2";
-  skos:prefLabel "van 1 3 tot 1 2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTaludWaarde/van-1-2-tot-1-1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een hellingsgraad van 1/2 (50%, 26,6%) tot 1/1 (100%, 45°)."@nl;
+  skos:definition "Een hellingsgraad van 1/2 (50%, 26,6%) tot 1/1 (100%, 45°). "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde>;
   skos:notation "van-1-2-tot-1-1";
   skos:prefLabel "van 1 2 tot 1 1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTaludWaarde/van-1-3-tot-1-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een hellingsgraad van 1/3 (33,33%, 18,4°) tot 1/2 (50%, 26,6°). "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde>;
+  skos:notation "van-1-3-tot-1-2";
+  skos:prefLabel "van 1 3 tot 1 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTaludWaarde/tot-1-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een hellingsgraad tot 1/3 (33,33%, 18,4°). "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde>;
+  skos:notation "tot-1-3";
+  skos:prefLabel "tot 1 3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTaludWaarde/van-1-1-en-steiler> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Hellingsgraad van 1/1 (100%, 45°) of steiler."@nl;
+  skos:definition "Hellingsgraad van 1/1 (100%, 45°) of steiler. "@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTaludWaarde>;
   skos:notation "van-1-1-en-steiler";
   skos:prefLabel "van 1 1 en steiler"@nl;

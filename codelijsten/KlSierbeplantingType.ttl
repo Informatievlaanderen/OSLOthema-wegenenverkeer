@@ -8,6 +8,14 @@
   skos:definition "Verschillende types van sierbeplanting."@nl;
   skos:prefLabel "Sierbeplanting type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/bol-en-knolgewassen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bol- en knolgewassen beschikken over boven- of ondergrondse delen waarin voedsel voor 'barre' tijden kan worden opgeslagen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
+  skos:notation "bol-en-knolgewassen";
+  skos:prefLabel "bol- en knolgewassen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/vaste-planten> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Begroeiingstype met planten die een kruidachtige stengel hebben en overblijvend zijn. Dus niet de eenjarige en tweejarige kruidachtige soorten."@nl;
@@ -30,12 +38,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
   skos:notation "bodembedekkers";
   skos:prefLabel "bodembedekkers"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSierbeplantingType/bol-en-knolgewassen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bol- en knolgewassen beschikken over boven- of ondergrondse delen waarin voedsel voor ‘barre’ tijden kan worden opgeslagen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType>;
-  skos:notation "bol-en-knolgewassen";
-  skos:prefLabel "bol- en knolgewassen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSierbeplantingType> .

@@ -8,25 +8,81 @@
   skos:definition "Lijst van types voor datakabels en telefoniekabels volgens hun constructieve kenmerken."@nl;
   skos:prefLabel "Telecom- en datakabel types"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/app-pe> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/je-h(st)h-rf-1h> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "Telefoniekabel met functiebehoud."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "app-pe";
-  skos:prefLabel "APP/PE"@nl;
+  skos:notation "je-h(st)h-rf-1h";
+  skos:prefLabel "JE-H(St)H Rf 1h"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/alu-pet> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/muk> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Telecom koper kabels waarvan de geleiders ge&#239;soleerd zijn door plastic met daarrond een omhulsel van aluminium en PET."@nl;
+  skos:definition "MUltimode optische Kabel, voor gebruik in volle grond of blaasbuis."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "alu-pet";
-  skos:prefLabel "Alu/PET"@nl;
+  skos:notation "muk";
+  skos:prefLabel "MUK"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg6a> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RG 6 Coaxkabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "rg6a";
+  skos:prefLabel "RG6A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rtt-34> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Oude RRT-kabels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "rtt-34";
+  skos:prefLabel "RTT-34"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/tpgf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije telefoniekabel met enkel afgeschermde paren voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "tpgf";
+  skos:prefLabel "TPGF"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/mok-micro> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "MOnomode optische MICROKabel voor aanleg in microtubes."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "mok-micro";
+  skos:prefLabel "MOK micro"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/appj> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Papier-lood geïsoleerde telecom koper kabels met een omhulsel in jute. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "appj";
+  skos:prefLabel "APPj"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/j-h(st)h-bd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije telefoniekabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "j-h(st)h-bd";
+  skos:prefLabel "J-H(St)H-BD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/twavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gewapende telefoniekabel voor buiten en ondergronds gebruik."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
+  skos:notation "twavb";
+  skos:prefLabel "TWAVB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/app> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Papier-lood ge&#239;soleerde telecom koper kabels. Zogenaamde Armee Papier Plomb geleiders, ge&#239;soleerd door papier met daarrond een loden mantel en daarrond bewapening."@nl;
+  skos:definition "Papier-lood geïsoleerde telecom koper kabels. Zogenaamde Armee Papier Plomb geleiders, geïsoleerd door papier met daarrond een loden mantel en daarrond bewapening."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
   skos:notation "app";
   skos:prefLabel "APP"@nl;
@@ -40,52 +96,28 @@
   skos:prefLabel "andere"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg12> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/mok> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RG 12 Coaxkabel."@nl;
+  skos:definition "MOnomode optische Kabel, voor gebruik in volle grond of blaasbuis."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "rg12";
-  skos:prefLabel "RG12"@nl;
+  skos:notation "mok";
+  skos:prefLabel "MOK"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg59> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/app-pe> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RG 59 Coaxkabel."@nl;
+  skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "rg59";
-  skos:prefLabel "RG59"@nl;
+  skos:notation "app-pe";
+  skos:prefLabel "APP/PE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg6a> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/pepy> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RG 6 Coaxkabel."@nl;
+  skos:definition "Telecom koper kabels waarvan de geleiders geïsoleerd zijn door plastic (pe) omhuld door bescherming in Py zonder bewapening."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "rg6a";
-  skos:prefLabel "RG6A"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/mok-micro> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "MOnomode optische MICROKabel voor aanleg in microtubes."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "mok-micro";
-  skos:prefLabel "MOK micro"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/appj> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Papier-lood ge&#239;soleerde telecom koper kabels met een omhulsel in jute. "@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "appj";
-  skos:prefLabel "APPj"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/je-h(st)h-rf-1h> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Telefoniekabel met functiebehoud."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "je-h(st)h-rf-1h";
-  skos:prefLabel "JE-H(St)H Rf 1h"@nl;
+  skos:notation "pepy";
+  skos:prefLabel "PePy"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg11> a skos:Concept;
@@ -96,28 +128,28 @@
   skos:prefLabel "RG11"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/muk> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg59> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "MUltimode optische Kabel, voor gebruik in volle grond of blaasbuis."@nl;
+  skos:definition "RG 59 Coaxkabel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "muk";
-  skos:prefLabel "MUK"@nl;
+  skos:notation "rg59";
+  skos:prefLabel "RG59"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/pepy> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/alu-pet> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Telecom koper kabels waarvan de geleiders ge&#239;soleerd zijn door plastic (pe) omhuld door bescherming in Py zonder bewapening."@nl;
+  skos:definition "Telecom koper kabels waarvan de geleiders geïsoleerd zijn door plastic met daarrond een omhulsel van aluminium en PET."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "pepy";
-  skos:prefLabel "PePy"@nl;
+  skos:notation "alu-pet";
+  skos:prefLabel "Alu/PET"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rtt-34> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/rg12> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Oude RRT-kabels."@nl;
+  skos:definition "RG 12 Coaxkabel."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "rtt-34";
-  skos:prefLabel "RTT-34"@nl;
+  skos:notation "rg12";
+  skos:prefLabel "RG12"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/teletransmissiekabel-uit-kwarten> a skos:Concept;
@@ -126,36 +158,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
   skos:notation "teletransmissiekabel-uit-kwarten";
   skos:prefLabel "teletransmissiekabel uit kwarten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/j-h(st)h-bd> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Halogeenvrije telefoniekabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "j-h(st)h-bd";
-  skos:prefLabel "J-H(St)H-BD"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/mok> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "MOnomode optische Kabel, voor gebruik in volle grond of blaasbuis."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "mok";
-  skos:prefLabel "MOK"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/tpgf> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Halogeenvrije telefoniekabel met enkel afgeschermde paren voor binnen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "tpgf";
-  skos:prefLabel "TPGF"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomkabelType/twavb> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Gewapende telefoniekabel voor buiten en ondergronds gebruik."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType>;
-  skos:notation "twavb";
-  skos:prefLabel "TWAVB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelType> .

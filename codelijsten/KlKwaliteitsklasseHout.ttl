@@ -24,18 +24,18 @@
   skos:prefLabel "Klasse B"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKwaliteitsklasseHout/klasse-c> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Klasse C-hout geldt als standaard en is voornamelijk afkomstig uit Noord-Europa, waar de bomen in duurzame bossen geteeld worden. Gezonde knoesten zijn toegestaan, evenals een beetje hart. Dit hout is van lagere kwaliteit dan A-hout en kan niet worden hergebruikt. Klasse C houdt ook in dat het hout geïmpregneerd is. "@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout>;
-  skos:notation "klasse-c";
-  skos:prefLabel "Klasse C"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKwaliteitsklasseHout/tropisch-hardhout> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Zwaardere houtsoorten uit de tropen, zoals vb.: azobé (afkomstig uit tropische bossen in Afrika). "@nl;
+  skos:definition "Zwaardere houtsoorten uit de tropen, zoals vb.: azobé (afkomstig uit tropische bossen in Afrika)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout>;
   skos:notation "tropisch-hardhout";
   skos:prefLabel "Tropisch hardhout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKwaliteitsklasseHout/klasse-c> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Klasse C-hout geldt als standaard en is voornamelijk afkomstig uit Noord-Europa, waar de bomen in duurzame bossen geteeld worden. Gezonde knoesten zijn toegestaan, evenals een beetje hart. Dit hout is van lagere kwaliteit dan A-hout en kan niet worden hergebruikt. Klasse C houdt ook in dat het hout geïmpregneerd is."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout>;
+  skos:notation "klasse-c";
+  skos:prefLabel "Klasse C"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout> .

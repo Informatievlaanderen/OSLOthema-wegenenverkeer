@@ -8,6 +8,14 @@
   skos:definition "De omstandigheden waarin het beton gebruikt zal worden."@nl;
   skos:prefLabel "Gebruiksdomein"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/gzb-gewapend-zichtbeton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gewapend zichtbeton."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein>;
+  skos:notation "gzb-gewapend-zichtbeton";
+  skos:prefLabel "GZB (gewapend zichtbeton) "@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/ob-ongewapend> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Ongewapend beton."@nl;

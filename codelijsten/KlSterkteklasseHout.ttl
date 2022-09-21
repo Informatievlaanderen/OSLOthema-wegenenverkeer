@@ -16,14 +16,6 @@
   skos:prefLabel "C35"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c14> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "C staat voor naaldhout. 14 N/mm² (megaPascal) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
-  skos:notation "c14";
-  skos:prefLabel "C14"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c45> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "C staat voor naaldhout. 45 N/mm² (megaPascal) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
@@ -48,22 +40,6 @@
   skos:prefLabel "D40"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c16> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "C staat voor naaldhout. 16 N/mm² (megaPascal) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
-  skos:notation "c16";
-  skos:prefLabel "C16"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c40> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "C staat voor naaldhout. 40 N/mm² (megaPascal) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
-  skos:notation "c40";
-  skos:prefLabel "C40"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/d35> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "D staat voor loofhout. 35 N/mm² (megaPascal) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
@@ -86,6 +62,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
   skos:notation "d70";
   skos:prefLabel "D70"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c16> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C staat voor naaldhout. 16 N/megaPascal (vierkante mm) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
+  skos:notation "c16";
+  skos:prefLabel "C16"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c24> a skos:Concept;
@@ -134,6 +118,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
   skos:notation "c27";
   skos:prefLabel "C27"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c14> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C staat voor naaldhout. 14 N/megaPascal (vierkante mm) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
+  skos:notation "c14";
+  skos:prefLabel "C14"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c40> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C staat voor naaldhout. 40 N/mm² (megaPascal) drukt de buigsterkte uit evenwijdig aan de vezel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout>;
+  skos:notation "c40";
+  skos:prefLabel "C40"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSterkteklasseHout> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSterkteklasseHout/c20> a skos:Concept;

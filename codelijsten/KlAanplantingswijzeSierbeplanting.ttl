@@ -8,12 +8,12 @@
   skos:definition "De mogelijke manieren van aanplanten van sierbeplanting."@nl;
   skos:prefLabel "aanplantingswijze sierbeplanting"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-helm> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-bol--en-knolgewassen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Aanplanting via helm"@nl;
+  skos:definition "Aanplanting via bol- en knolgewassen één"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
-  skos:notation "aanplanting-helm";
-  skos:prefLabel "aanplanting helm"@nl;
+  skos:notation "aanplanting-bol--en-knolgewassen";
+  skos:prefLabel "aanplanting bol- en knolgewassen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-zonder-helm> a skos:Concept;
@@ -24,10 +24,10 @@
   skos:prefLabel "aanplanting zonder helm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-bol--en-knolgewassen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanplantingswijzeSierbeplanting/aanplanting-helm> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Aanplanting via bol- en knolgewassen"@nl;
+  skos:definition "Aanplanting via helm"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting>;
-  skos:notation "aanplanting-bol--en-knolgewassen";
-  skos:prefLabel "aanplanting bol- en knolgewassen"@nl;
+  skos:notation "aanplanting-helm";
+  skos:prefLabel "aanplanting helm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanplantingswijzeSierbeplanting> .

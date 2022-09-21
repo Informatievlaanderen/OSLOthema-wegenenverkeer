@@ -8,6 +8,30 @@
   skos:definition "De soorten van markingsproduct. Afgeleid van de COPRO_code."@nl;
   skos:prefLabel "Soort markeringsproduct"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastische-ribbelmarkering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reliëf met een wisselende hoogte. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:notation "thermoplastische-ribbelmarkering";
+  skos:prefLabel "thermoplastische ribbelmarkering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastisch-vlak> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Een vlak systeem is een film met constante dosering. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:notation "thermoplastisch-vlak";
+  skos:prefLabel "thermoplastisch vlak"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastische-multi-dot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reliëf met een wisselende hoogte. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
+  skos:notation "thermoplastische-multi-dot";
+  skos:prefLabel "thermoplastische multi-dot"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/verf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Wegenverf die zich uitstekend leent tot de markering van openbare wegen. Wegenverf is een vloeibaar product dat vaste stoffen zoals bindmiddel, stoffen die kleuren reflecteren, vulstoffen en additieven bevat."@nl;
@@ -24,34 +48,10 @@
   skos:prefLabel "koudplastisch"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastisch-vlak> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Een vlak systeem is een film met constante dosering."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
-  skos:notation "thermoplastisch-vlak";
-  skos:prefLabel "thermoplastisch vlak"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/geprefabriceerd> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Voorgevormde wegmarkering."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
   skos:notation "geprefabriceerd";
   skos:prefLabel "geprefabriceerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastische-ribbelmarkering> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reliëf met een wisselende hoogte."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
-  skos:notation "thermoplastische-ribbelmarkering";
-  skos:prefLabel "thermoplastische ribbelmarkering"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringSoort/thermoplastische-multi-dot> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd. Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reliëf met een wisselende hoogte."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort>;
-  skos:notation "thermoplastische-multi-dot";
-  skos:prefLabel "thermoplastische multi-dot"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringSoort> .

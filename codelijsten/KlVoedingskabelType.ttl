@@ -1,0 +1,257 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lijst met types voor energie- en installatiekabels volgens de gebruikte materialen zoals opgenomen in het Standaarbestek 270"@nl;
+  skos:prefLabel "Voedingskabel types"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/eaxecwb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Monopolaire middenspanningskabels met aluminium geleiders."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "eaxecwb";
+  skos:prefLabel "EAXeCWB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/h07-z1-r> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "h07-z1-r";
+  skos:prefLabel "H07 Z1-R"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/svavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "svavb";
+  skos:prefLabel "SVAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/exvb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-gewapende energiekabels met koperen geleiders voor buiten en ondergronds gebruik."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "exvb";
+  skos:prefLabel "EXVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/twavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "twavb";
+  skos:prefLabel "TWAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/h07-v-r> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "h07-v-r";
+  skos:prefLabel "H07 V-R"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/elec> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ELEC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "elec";
+  skos:prefLabel "ELEC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/eaxevb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-gewapende energiekabels met aluminium geleiders voor buiten en ondergronds gebruik."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "eaxevb";
+  skos:prefLabel "EAXeVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/twab> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TWAB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "twab";
+  skos:prefLabel "TWAB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/emggb-f2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije energiekabels met functiebehoud Rf1,5h."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "emggb-f2";
+  skos:prefLabel "EmGGB-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/vob> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VOB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "vob";
+  skos:prefLabel "VOB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/h07-rn-f> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Flexibele energiekabel (snoer)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "h07-rn-f";
+  skos:prefLabel "H07 RN-F"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/vvb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "vvb";
+  skos:prefLabel "VVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xvg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "XVG"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xvg";
+  skos:prefLabel "XVG"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/emxgb-f2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije energiekabels met functiebehoud Rf1h."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "emxgb-f2";
+  skos:prefLabel "EmXGB-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/h07-z1-k> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "h07-z1-k";
+  skos:prefLabel "H07 Z1-K"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xfvb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Installatiekabels met metalen bescherming voor binnen en buiten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xfvb";
+  skos:prefLabel "XFVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xvb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Installatiekabels voor binnen en buiten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xvb";
+  skos:prefLabel "XVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/execvb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "execvb";
+  skos:prefLabel "EXeCVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/emxgb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "EmXGB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "emxgb";
+  skos:prefLabel "EmXGB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/h07-v-u> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "h07-v-u";
+  skos:prefLabel "H07 V-U"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/svv> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "svv";
+  skos:prefLabel "SVV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xfgb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije installatiekabels met metalen bescherming voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xfgb";
+  skos:prefLabel "XFGB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/exavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gewapende energiekabels met koperen geleiders voor binnen, buiten en ondergronds gebruik."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "exavb";
+  skos:prefLabel "EXAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/j-h(st)h> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "j-h(st)h";
+  skos:prefLabel "J-H(St)H"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/cu> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "CU"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "cu";
+  skos:prefLabel "CU"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/evavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "EVAVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "evavb";
+  skos:prefLabel "EVAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/h07-v-k> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "h07-v-k";
+  skos:prefLabel "H07 V-K"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/sxavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "sxavb";
+  skos:prefLabel "SXAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/xgb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije installatiekabels voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "xgb";
+  skos:prefLabel "XGB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/lixy(cub)cy> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Installatiekabel voor frequentiesturingen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "lixy(cub)cy";
+  skos:prefLabel "LiXY(Cub)CY"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .

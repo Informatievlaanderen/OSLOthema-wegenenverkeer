@@ -1,49 +1,50 @@
-@prefix dct: <http://purl.org/dc/terms/> .
+﻿@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Formaten van de mozaïekkei."@nl;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Formaten van de mozaÃ¯ekkei."@nl;
   skos:prefLabel "Mozaiekkei formaat"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaïekkeien-van-het-2de-formaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bestratingen van mozaïekkeien van het 2de formaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
-  skos:notation "bestratingen-van-mozaïekkeien-van-het-2de-formaat";
-  skos:prefLabel "bestratingen van mozaïekkeien van het 2de formaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaÃ¯ekkeien-van-het-2de-formaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bestratingen van mozaÃ¯ekkeien van het 2de formaat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
+  skos:notation "bestratingen-van-mozaÃ¯ekkeien-van-het-2de-formaat";
+  skos:prefLabel "bestratingen van mozaÃ¯ekkeien van het 2de formaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaïekkeien-van-het-5de-formaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bestratingen van mozaïekkeien van het 5de formaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
-  skos:notation "bestratingen-van-mozaïekkeien-van-het-5de-formaat";
-  skos:prefLabel "bestratingen van mozaïekkeien van het 5de formaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaÃ¯ekkeien-van-het-5de-formaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bestratingen van mozaÃ¯ekkeien van het 5de formaat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
+  skos:notation "bestratingen-van-mozaÃ¯ekkeien-van-het-5de-formaat";
+  skos:prefLabel "bestratingen van mozaÃ¯ekkeien van het 5de formaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaïekkeien-van-het-3de-formaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bestratingen van mozaïekkeien van het 3de formaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
-  skos:notation "bestratingen-van-mozaïekkeien-van-het-3de-formaat";
-  skos:prefLabel "bestratingen van mozaïekkeien van het 3de formaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaÃ¯ekkeien-van-het-3de-formaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bestratingen van mozaÃ¯ekkeien van het 3de formaat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
+  skos:notation "bestratingen-van-mozaÃ¯ekkeien-van-het-3de-formaat";
+  skos:prefLabel "bestratingen van mozaÃ¯ekkeien van het 3de formaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaïekkeien-van-het-4de-formaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bestratingen van mozaïekkeien van het 4de formaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
-  skos:notation "bestratingen-van-mozaïekkeien-van-het-4de-formaat";
-  skos:prefLabel "bestratingen van mozaïekkeien van het 4de formaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaÃ¯ekkeien-van-het-4de-formaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bestratingen van mozaÃ¯ekkeien van het 4de formaat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
+  skos:notation "bestratingen-van-mozaÃ¯ekkeien-van-het-4de-formaat";
+  skos:prefLabel "bestratingen van mozaÃ¯ekkeien van het 4de formaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaïekkeien-van-het-1ste-formaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bestratingen van mozaïekkeien van het 1ste formaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
-  skos:notation "bestratingen-van-mozaïekkeien-van-het-1ste-formaat";
-  skos:prefLabel "bestratingen van mozaïekkeien van het 1ste formaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMozaiekkeiFormaat/bestratingen-van-mozaÃ¯ekkeien-van-het-1ste-formaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bestratingen van mozaÃ¯ekkeien van het 1ste formaat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat>;
+  skos:notation "bestratingen-van-mozaÃ¯ekkeien-van-het-1ste-formaat";
+  skos:prefLabel "bestratingen van mozaÃ¯ekkeien van het 1ste formaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMozaiekkeiFormaat> .
+

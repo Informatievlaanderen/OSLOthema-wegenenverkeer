@@ -8,14 +8,6 @@
   skos:definition "Types van wegberm die de plaats ten opzichte van de weg aangeven."@nl;
   skos:prefLabel "Wegberm type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermType/tussenberm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Wegberm tussen twee rijbanen van een weg met meer dan Ã©Ã©n rijbaan, de middenberm uitgezonderd. "@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
-  skos:notation "tussenberm";
-  skos:prefLabel "tussenberm"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
-
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermType/buitenberm> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Wegberm tussen de grens van het wegplatform en de buitengrens van de verharde zijstrook of van de rijbaan, als er geen verharde zijstrook is."@nl;
@@ -32,4 +24,10 @@
   skos:prefLabel "middenberm"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .
 
-
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegbermType/tussenberm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wegberm tussen twee rijbanen van een weg met meer dan één rijbaan, de middenberm uitgezonderd. "@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType>;
+  skos:notation "tussenberm";
+  skos:prefLabel "tussenberm"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegbermType> .

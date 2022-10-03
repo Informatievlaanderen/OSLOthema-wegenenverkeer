@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorRichting> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Keuzelijst die aangeeft of de luchtstroom in Ã©Ã©n richting of beide richtingen kan plaatsvinden."@nl;
+  skos:definition "Keuzelijst die aangeeft of de luchtstroom in één richting of beide richtingen kan plaatsvinden."@nl;
   skos:prefLabel "Ventilator richting"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVentilatorRichting/unidirectioneel> a skos:Concept;
@@ -23,6 +23,3 @@
   skos:notation "bidirectioneel";
   skos:prefLabel "bidirectioneel"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVentilatorRichting> .
-
-
-

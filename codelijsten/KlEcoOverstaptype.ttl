@@ -10,7 +10,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoOverstaptype/dassenpoort> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een dassenpoortje is een luikje dat schuin in het raster bevestigd is. Dat luikje gaat maar langs Ã©Ã©n kant open en valt automatisch terug dicht. "@nl;
+  skos:definition "Een dassenpoortje is een luikje dat schuin in het raster bevestigd is. Dat luikje gaat maar langs één kant open en valt automatisch terug dicht. "@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype>;
   skos:notation "dassenpoort";
   skos:prefLabel "dassenpoort"@nl;
@@ -23,5 +23,3 @@
   skos:notation "ree-overstap";
   skos:prefLabel "ree overstap"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoOverstaptype> .
-
-

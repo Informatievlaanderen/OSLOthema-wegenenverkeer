@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de batterij."@nl;
   skos:prefLabel "Batterij modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijModelnaam/batzelt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "batzelt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam>;
+  skos:notation "batzelt";
+  skos:prefLabel "batzelt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijModelnaam/nsa-lp12-55-t6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NSA LP12-55 T6"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam>;
+  skos:notation "nsa-lp12-55-t6";
+  skos:prefLabel "NSA LP12-55 T6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam> .

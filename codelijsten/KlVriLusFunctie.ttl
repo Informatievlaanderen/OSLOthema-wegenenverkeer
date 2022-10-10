@@ -8,14 +8,6 @@
   skos:definition "Keuzelijst met verschillende types detectielussen naar functie."@nl;
   skos:prefLabel "VRI-lus functie"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/filelus> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
-  skos:notation "filelus";
-  skos:prefLabel "filelus"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/afstandslus> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -24,12 +16,20 @@
   skos:prefLabel "afstandslus"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/hiaatlus> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/stopstreeplus> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
-  skos:notation "hiaatlus";
-  skos:prefLabel "hiaatlus"@nl;
+  skos:notation "stopstreeplus";
+  skos:prefLabel "stopstreeplus"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/filelus> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "filelus";
+  skos:prefLabel "filelus"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/KAR-inmeldlus> a skos:Concept;
@@ -40,6 +40,14 @@
   skos:prefLabel "KAR inmeldlus"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/tellus> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "tellus"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
+  skos:notation "tellus";
+  skos:prefLabel "tellus"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/KAR-uitmeldlus> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -48,10 +56,10 @@
   skos:prefLabel "KAR uitmeldlus"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/stopstreeplus> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusFunctie/hiaatlus> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie>;
-  skos:notation "stopstreeplus";
-  skos:prefLabel "stopstreeplus"@nl;
+  skos:notation "hiaatlus";
+  skos:prefLabel "hiaatlus"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusFunctie> .

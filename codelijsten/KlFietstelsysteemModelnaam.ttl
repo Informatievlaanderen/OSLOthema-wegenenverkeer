@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met mogelijke modelnamen voor fietstelsystemen."@nl;
   skos:prefLabel "Modelnaam fietstelsysteem"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFietstelsysteemModelnaam/eco-combo-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "eco-combo 2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFietstelsysteemModelnaam>;
+  skos:notation "eco-combo-2";
+  skos:prefLabel "eco-combo 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFietstelsysteemModelnaam> .

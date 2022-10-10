@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van mogelijke merknamen voor fietstelsystemen."@nl;
   skos:prefLabel "Merknaam fietstelsysteem"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFietstelsysteemMerk/eco-counter> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "eco-counter"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFietstelsysteemMerk>;
+  skos:notation "eco-counter";
+  skos:prefLabel "eco-counter"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFietstelsysteemMerk> .

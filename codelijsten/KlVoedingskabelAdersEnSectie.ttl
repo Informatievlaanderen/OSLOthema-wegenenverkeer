@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst van mogelijke waarden volgens de catalogusposten van het standaardbestek voor de samenstelling van een voedingskabel volgens het aantal aders en hun dikte in vierkante millimeter"@nl;
+  skos:definition "Voedingskabel aders en sectie"@nl;
   skos:prefLabel "Voedingskabel aders en sectie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/3x25-10> a skos:Concept;
@@ -854,6 +854,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
   skos:notation "4x150";
   skos:prefLabel "4x150"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/4g35> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "4G35"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
+  skos:notation "4g35";
+  skos:prefLabel "4G35"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/zonder-bijkomende-specificatie> a skos:Concept;

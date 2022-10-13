@@ -8,6 +8,14 @@
   skos:definition "Beschermbuis kleur"@nl;
   skos:prefLabel "Beschermbuis kleur"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/zwart-met-groene-streep> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "zwart-met-groene-streep"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
+  skos:notation "zwart-met-groene-streep";
+  skos:prefLabel "zwart-met-groene-streep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/grijs> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "grijs"@nl;
@@ -24,20 +32,20 @@
   skos:prefLabel "blauw-geel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/blauw-met-gele-streep> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "blauw met gele streep"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
-  skos:notation "blauw-met-gele-streep";
-  skos:prefLabel "blauw met gele streep"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/geel> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geel"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
   skos:notation "geel";
   skos:prefLabel "geel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/beb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "beb"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
+  skos:notation "beb";
+  skos:prefLabel "beb"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/groen> a skos:Concept;
@@ -80,6 +88,14 @@
   skos:prefLabel "rvs"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/blauw-met-gele-streep> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "blauw-met-gele-streep"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
+  skos:notation "blauw-met-gele-streep";
+  skos:prefLabel "blauw-met-gele-streep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/zwart> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "zwart"@nl;
@@ -102,14 +118,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
   skos:notation "patchkoord";
   skos:prefLabel "patchkoord"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/zwart-met-groene-streep> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "zwart met groene streep"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
-  skos:notation "zwart-met-groene-streep";
-  skos:prefLabel "zwart met groene streep"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/multi> a skos:Concept;

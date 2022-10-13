@@ -5,32 +5,8 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Keuzelijst die de verschillende types rechte steunen aanduidt."@nl;
+  skos:definition "Rechte steun type"@nl;
   skos:prefLabel "Rechte steun type"@nl.
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/a-paal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
-  skos:notation "a-paal";
-  skos:prefLabel "a-paal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/d-paal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
-  skos:notation "d-paal";
-  skos:prefLabel "d-paal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/variabele-Z30> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
-  skos:notation "variabele-Z30";
-  skos:prefLabel "variabele Z30"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/bi-flash> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -46,4 +22,36 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
   skos:notation "VRI-met-zwanehals";
   skos:prefLabel "VRI met zwanehals"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/a-paal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "a-paal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "a-paal";
+  skos:prefLabel "a-paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/d-paal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "d-paal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "d-paal";
+  skos:prefLabel "d-paal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/vri-met-zwanehals> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VRI met zwanehals"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "vri-met-zwanehals";
+  skos:prefLabel "VRI met zwanehals"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/variabele-Z30> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "variabele-Z30";
+  skos:prefLabel "variabele Z30"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .

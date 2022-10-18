@@ -5,31 +5,23 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met types voor signalisatiekabels volgens de gebruikte materialen zoals opgenomen in het Standaarbestek 270."@nl;
-  skos:prefLabel "Signalisatiekabel types"@nl.
+  skos:definition "Lijst met mogelijke specificaties van het type van de signaalkabel volgens een vaste lijst om bv. de brandklasse mee te geven."@nl;
+  skos:prefLabel "Signaalkabel type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/koperkabel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/profibuskabel> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
-  skos:notation "koperkabel";
-  skos:prefLabel "koperkabel"@nl;
+  skos:notation "profibuskabel";
+  skos:prefLabel "profibuskabel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/sxag-f2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svab> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "SVAB"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
-  skos:notation "sxag-f2";
-  skos:prefLabel "SXAG-F2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svv-f2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Niet-gewapende signaalkabel voor binnen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
-  skos:notation "svv-f2";
-  skos:prefLabel "SVV-F2"@nl;
+  skos:notation "svab";
+  skos:prefLabel "SVAB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svavb-f2> a skos:Concept;
@@ -40,12 +32,44 @@
   skos:prefLabel "SVAVB-F2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/profibuskabel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/coax-rg12> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "coax RG12"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
-  skos:notation "profibuskabel";
-  skos:prefLabel "profibuskabel"@nl;
+  skos:notation "coax-rg12";
+  skos:prefLabel "coax RG12"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SVAVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "svavb";
+  skos:prefLabel "SVAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/twavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TWAVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "twavb";
+  skos:prefLabel "TWAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/elec> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ELEC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "elec";
+  skos:prefLabel "ELEC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/coax-rg11> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "coax RG11"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "coax-rg11";
+  skos:prefLabel "coax RG11"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/sxavb> a skos:Concept;
@@ -54,4 +78,92 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
   skos:notation "sxavb";
   skos:prefLabel "SXAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/sxag-f2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "sxag-f2";
+  skos:prefLabel "SXAG-F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/li2ycy> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LI2YCY"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "li2ycy";
+  skos:prefLabel "LI2YCY"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/koperkabel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "koperkabel";
+  skos:prefLabel "koperkabel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/liycy> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LIYCY"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "liycy";
+  skos:prefLabel "LIYCY"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/xlpe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "XLPE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "xlpe";
+  skos:prefLabel "XLPE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/coax> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "coax"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "coax";
+  skos:prefLabel "coax"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/gefaradiseerde-kabel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gefaradiseerde kabel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "gefaradiseerde-kabel";
+  skos:prefLabel "gefaradiseerde kabel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/liycy(tp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LIYCY(TP)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "liycy(tp)";
+  skos:prefLabel "LIYCY(TP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/coax-rg59> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "coax RG59"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "coax-rg59";
+  skos:prefLabel "coax RG59"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/liy(st)yy> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LiY(st)YY"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "liy(st)yy";
+  skos:prefLabel "LiY(st)YY"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svv-f2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-gewapende signaalkabel voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "svv-f2";
+  skos:prefLabel "SVV-F2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .

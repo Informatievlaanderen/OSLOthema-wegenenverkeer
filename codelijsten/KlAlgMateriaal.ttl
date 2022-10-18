@@ -6,7 +6,15 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het materiaal waaruit een object voornamelijk gebouwd is."@nl;
-  skos:prefLabel "Materiaal soorten"@nl.
+  skos:prefLabel "Alg materiaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RVS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "rvs";
+  skos:prefLabel "RVS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/kunststof> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -24,12 +32,20 @@
   skos:prefLabel "glasvezelversterkt polyester"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/aluminium> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/pvc> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "PVC"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "aluminium";
-  skos:prefLabel "aluminium"@nl;
+  skos:notation "pvc";
+  skos:prefLabel "PVC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/inox> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Inox"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "inox";
+  skos:prefLabel "Inox"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/houtvezelbeton> a skos:Concept;
@@ -40,20 +56,12 @@
   skos:prefLabel "houtvezelbeton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/polycarbonaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "polycarbonaat"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "polycarbonaat";
-  skos:prefLabel "polycarbonaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/hout> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/kunstof> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "hout";
-  skos:prefLabel "hout"@nl;
+  skos:notation "kunstof";
+  skos:prefLabel "kunstof"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/roestvrijstaal> a skos:Concept;
@@ -64,12 +72,12 @@
   skos:prefLabel "roestvrijstaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/staal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/aluminium> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "staal"@nl;
+  skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "staal";
-  skos:prefLabel "staal"@nl;
+  skos:notation "aluminium";
+  skos:prefLabel "aluminium"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/beton> a skos:Concept;
@@ -80,6 +88,14 @@
   skos:prefLabel "beton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/hout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "hout";
+  skos:prefLabel "hout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/metselwerk> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "metselwerk"@nl;
@@ -88,10 +104,26 @@
   skos:prefLabel "metselwerk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/kunstof> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/staal> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "staal"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "kunstof";
-  skos:prefLabel "kunstof"@nl;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/polycarbonaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "polycarbonaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "polycarbonaat";
+  skos:prefLabel "polycarbonaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/hdpe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HDPE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "hdpe";
+  skos:prefLabel "HDPE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .

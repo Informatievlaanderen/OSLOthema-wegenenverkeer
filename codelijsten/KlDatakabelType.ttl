@@ -32,20 +32,20 @@
   skos:prefLabel "F-UTP Cat5E"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp-cat6outdoor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "F-UTP Cat6outdoor"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "f-utp-cat6outdoor";
+  skos:prefLabel "F-UTP Cat6outdoor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat6-outdoor> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "UTP Cat6 outdoor"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "utp-cat6-outdoor";
   skos:prefLabel "UTP Cat6 outdoor"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp-cat6outdoor> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "F-UTP Cat6outdoor"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "f-utp-cat6outdoor";
-  skos:prefLabel "F-UTP Cat6outdoor"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/rg59> a skos:Concept;
@@ -70,6 +70,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "tpgf";
   skos:prefLabel "TPGF"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/rg11> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RG 11 Coaxkabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "rg11";
+  skos:prefLabel "RG11"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat5e-outdoor> a skos:Concept;
@@ -142,6 +150,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "andere";
   skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat6outdoor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "UTP Cat6outdoor"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "utp-cat6outdoor";
+  skos:prefLabel "UTP Cat6outdoor"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat6> a skos:Concept;
@@ -262,22 +278,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "rg6";
   skos:prefLabel "RG6"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat6outdoor> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "UTP Cat6outdoor"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "utp-cat6outdoor";
-  skos:prefLabel "UTP Cat6outdoor"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/rg11> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "RG 11 Coaxkabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "rg11";
-  skos:prefLabel "RG11"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp> a skos:Concept;

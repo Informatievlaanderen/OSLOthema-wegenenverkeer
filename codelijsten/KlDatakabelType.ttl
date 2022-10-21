@@ -8,14 +8,6 @@
   skos:definition "Lijst van types voor datakabels volgens hun constructieve kenmerken."@nl;
   skos:prefLabel "Datakabel type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp-cat6-outdoor> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "F-UTP Cat6 outdoor"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "f-utp-cat6-outdoor";
-  skos:prefLabel "F-UTP Cat6 outdoor"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/stralende-kabel> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Stralende kabel."@nl;
@@ -40,12 +32,12 @@
   skos:prefLabel "F-UTP Cat5E"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/j-h(st)h-bd> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Halogeenvrije telefoniekabel."@nl;
+  skos:definition "U/UTP Categorie 5E."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "j-h(st)h-bd";
-  skos:prefLabel "J-H(St)H-BD"@nl;
+  skos:notation "utp";
+  skos:prefLabel "UTP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/rg59> a skos:Concept;
@@ -78,6 +70,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "tpgf";
   skos:prefLabel "TPGF"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp-cat6-outdoor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "F-UTP Cat6 outdoor"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "f-utp-cat6-outdoor";
+  skos:prefLabel "F-UTP Cat6 outdoor"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/rg11> a skos:Concept;
@@ -160,20 +160,20 @@
   skos:prefLabel "F-UTP Cat5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat6-outdoor> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/j-h(st)h-bd> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije telefoniekabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "j-h(st)h-bd";
+  skos:prefLabel "J-H(St)H-BD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp-cat6-outdoor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "UTP Cat6 outdoor"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "utp-cat6-outdoor";
   skos:prefLabel "UTP Cat6 outdoor"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/utp> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "U/UTP Categorie 5E."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "utp";
-  skos:prefLabel "UTP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp-cat5-outdoor> a skos:Concept;

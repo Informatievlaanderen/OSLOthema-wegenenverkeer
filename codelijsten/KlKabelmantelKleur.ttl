@@ -48,14 +48,6 @@
   skos:prefLabel "ekm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/groen-zwart> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "groen-zwart"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
-  skos:notation "groen-zwart";
-  skos:prefLabel "groen-zwart"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/glasvezel> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "glasvezel"@nl;
@@ -190,6 +182,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
   skos:notation "geel";
   skos:prefLabel "geel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/groen-zwart> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "groen-zwart"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "groen-zwart";
+  skos:prefLabel "groen-zwart"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/grijs-blauw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "grijs-blauw"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur>;
+  skos:notation "grijs-blauw";
+  skos:prefLabel "grijs-blauw"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmantelKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmantelKleur/geel-groen> a skos:Concept;

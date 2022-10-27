@@ -8,14 +8,6 @@
   skos:definition "Lijst van types voor datakabels volgens hun constructieve kenmerken."@nl;
   skos:prefLabel "Datakabel type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/stralende-kabel> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Stralende kabel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "stralende-kabel";
-  skos:prefLabel "Stralende kabel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp-cat6> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "F-UTP Cat6"@nl;
@@ -158,6 +150,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "f-utp-cat5";
   skos:prefLabel "F-UTP Cat5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/eo-ymekaszh> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "EO-YMeKaszh"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "eo-ymekaszh";
+  skos:prefLabel "EO-YMeKaszh"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/stralende-kabel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Stralende kabel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "stralende-kabel";
+  skos:prefLabel "Stralende kabel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/j-h(st)h-bd> a skos:Concept;

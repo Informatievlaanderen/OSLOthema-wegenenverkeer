@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de types failure modes van een beveiligingssysteem."@nl;
   skos:prefLabel "Algemeen faalmodus type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgFaalmodusType/fail-safe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgFaalmodusType>;
+  skos:notation "fail-safe";
+  skos:prefLabel "fail safe"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgFaalmodusType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgFaalmodusType/fail-secure> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgFaalmodusType>;
+  skos:notation "fail-secure";
+  skos:prefLabel "fail secure"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgFaalmodusType> .

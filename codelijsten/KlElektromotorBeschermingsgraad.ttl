@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De beschmeringsgraad van een elektromotor, uitgerdukt als 'IP', gevolgd door 2 cijfers."@nl;
   skos:prefLabel "Elektromotor beschermingsgraad"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorBeschermingsgraad/ip20> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorBeschermingsgraad>;
+  skos:notation "ip20";
+  skos:prefLabel "IP20"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorBeschermingsgraad> .

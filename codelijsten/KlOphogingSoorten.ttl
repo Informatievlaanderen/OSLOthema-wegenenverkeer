@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De specificatie van type grond bij ophoging."@nl;
   skos:prefLabel "Aanvulling soorten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/strandzand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond met verwijdering naar een grondreinigingsbedrijf."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "strandzand";
+  skos:prefLabel "strandzand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/zeezand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond met verwijdering naar een grondreinigingsbedrijf."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "zeezand";
+  skos:prefLabel "zeezand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/onbevaarbare-waterlopen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "onbevaarbare-waterlopen";
+  skos:prefLabel "onbevaarbare waterlopen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/in-den-droge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond met verwijdering naar een vergunde stortplaats."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "in-den-droge";
+  skos:prefLabel "in den droge"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het verwerken van bodemverbeteringsmiddelen omvat het gelijkmatig spreiden ervan op bepaalde grondoppervlakken en/of het verwerken in plantputten."@nl;
   skos:prefLabel "Grondverbeteringsmiddel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/groencompost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel>;
+  skos:notation "groencompost";
+  skos:prefLabel "groencompost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/gft-compost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel>;
+  skos:notation "gft-compost";
+  skos:prefLabel "GFT-compost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/bezanden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel>;
+  skos:notation "bezanden";
+  skos:prefLabel "bezanden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> .

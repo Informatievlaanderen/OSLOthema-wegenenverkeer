@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de beveiligingsfactor van de slotcilinder."@nl;
   skos:prefLabel "Slotcilinder beveiligingsfactor"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotcilinderBeveiligingsfactor/skg-1-ster> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderBeveiligingsfactor>;
+  skos:notation "skg-1-ster";
+  skos:prefLabel "SKG 1 ster"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderBeveiligingsfactor> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotcilinderBeveiligingsfactor/skg-2-sterren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderBeveiligingsfactor>;
+  skos:notation "skg-2-sterren";
+  skos:prefLabel "SKG 2 sterren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderBeveiligingsfactor> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotcilinderBeveiligingsfactor/skg-3-sterren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderBeveiligingsfactor>;
+  skos:notation "skg-3-sterren";
+  skos:prefLabel "SKG 3 sterren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderBeveiligingsfactor> .

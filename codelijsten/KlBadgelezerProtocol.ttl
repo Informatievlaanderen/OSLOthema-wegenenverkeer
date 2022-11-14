@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van protocollen gebruikt door badgelezers."@nl;
   skos:prefLabel "Badgelezer protocollen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBadgelezerProtocol/rs485> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBadgelezerProtocol>;
+  skos:notation "rs485";
+  skos:prefLabel "RS485"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBadgelezerProtocol> .

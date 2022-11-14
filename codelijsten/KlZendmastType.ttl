@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de types zendmast."@nl;
   skos:prefLabel "Zendmast type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZendmastType/vakwerkmast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZendmastType>;
+  skos:notation "vakwerkmast";
+  skos:prefLabel "vakwerkmast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZendmastType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZendmastType/conische-mast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZendmastType>;
+  skos:notation "conische-mast";
+  skos:prefLabel "conische mast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZendmastType> .

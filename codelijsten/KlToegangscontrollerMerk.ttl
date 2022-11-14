@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met merknamen voor toegangscontrollers volgens de fabrikant"@nl;
   skos:prefLabel "Toegangscontroller merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangscontrollerMerk/aeos> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangscontrollerMerk>;
+  skos:notation "aeos";
+  skos:prefLabel "AEOS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangscontrollerMerk> .

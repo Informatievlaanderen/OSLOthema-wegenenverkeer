@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de rol van de elektromotor in de aandrijflijn."@nl;
   skos:prefLabel "Elektromotor rol"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/hoofdmotor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol>;
+  skos:notation "hoofdmotor";
+  skos:prefLabel "hoofdmotor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/hulpmotor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol>;
+  skos:notation "hulpmotor";
+  skos:prefLabel "hulpmotor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/noodmotor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol>;
+  skos:notation "noodmotor";
+  skos:prefLabel "noodmotor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol> .

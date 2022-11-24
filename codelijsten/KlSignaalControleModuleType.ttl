@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van detectie dat uitgevoerd wordt door de signaal controle module."@nl;
   skos:prefLabel "Signaal controle module type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalControleModuleType/kabelbreuk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalControleModuleType>;
+  skos:notation "kabelbreuk";
+  skos:prefLabel "kabelbreuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalControleModuleType> .

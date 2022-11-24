@@ -72,14 +72,6 @@
   skos:prefLabel "LIYY"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingskabel/draadloos> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Draadloos"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel>;
-  skos:notation "draadloos";
-  skos:prefLabel "Draadloos"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingskabel/liycy> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LIYCY"@nl;
@@ -102,4 +94,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel>;
   skos:notation "lihh";
   skos:prefLabel "LIHH"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingskabel/draadloos> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Draadloos"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel>;
+  skos:notation "draadloos";
+  skos:prefLabel "Draadloos"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingskabel/telefoonkabel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Telefoonkabel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel>;
+  skos:notation "telefoonkabel";
+  skos:prefLabel "Telefoonkabel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .

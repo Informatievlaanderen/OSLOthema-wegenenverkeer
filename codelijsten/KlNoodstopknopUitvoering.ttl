@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verschillende types voor de uitvoering van een noodstopknop of -schakelaarvolgens zijn werkingsprincipe."@nl;
   skos:prefLabel "Noodstopknop uitvoering"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopUitvoering/met-sleutel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopUitvoering>;
+  skos:notation "met-sleutel";
+  skos:prefLabel "met sleutel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopUitvoering/drukknop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopUitvoering>;
+  skos:notation "drukknop";
+  skos:prefLabel "drukknop"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopUitvoering/draaischakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopUitvoering>;
+  skos:notation "draaischakelaar";
+  skos:prefLabel "draaischakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopUitvoering> .

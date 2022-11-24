@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor het type slotcilinder."@nl;
   skos:prefLabel "Slotcilinder type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotcilinderType/isio> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderType>;
+  skos:notation "isio";
+  skos:prefLabel "ISIO"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotcilinderType/edwa> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderType>;
+  skos:notation "edwa";
+  skos:prefLabel "EDWA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderType> .

@@ -8,52 +8,20 @@
   skos:definition "Merknamen voor Netwerkelementen."@nl;
   skos:prefLabel "Netwerkelement merk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/HP> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/hirschmann> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "HP"@nl;
+  skos:definition "Hirschmann"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "HP";
-  skos:prefLabel "HP"@nl;
+  skos:notation "hirschmann";
+  skos:prefLabel "Hirschmann"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Ciena> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Proxim> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Ciena"@nl;
+  skos:definition "Proxim"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "Ciena";
-  skos:prefLabel "Ciena"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/NULL> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "null"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/fortinet> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Fortinet"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "fortinet";
-  skos:prefLabel "Fortinet"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Other> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Andere"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Cisco> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Cisco"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "Cisco";
-  skos:prefLabel "Cisco"@nl;
+  skos:notation "Proxim";
+  skos:prefLabel "Proxim"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/actelis> a skos:Concept;
@@ -64,14 +32,6 @@
   skos:prefLabel "Actelis"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/hirschmann> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Hirschmann"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "hirschmann";
-  skos:prefLabel "Hirschmann"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/NOKIA> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "NOKIA"@nl;
@@ -80,12 +40,68 @@
   skos:prefLabel "NOKIA"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Proxim> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/aerohive> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Proxim"@nl;
+  skos:definition "Aerohive"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "Proxim";
-  skos:prefLabel "Proxim"@nl;
+  skos:notation "aerohive";
+  skos:prefLabel "Aerohive"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/hiveap-122> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HiveAP 122"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "hiveap-122";
+  skos:prefLabel "HiveAP 122"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/HP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "HP";
+  skos:prefLabel "HP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Andere"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "Other";
+  skos:prefLabel "Other"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Ciena> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ciena"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "Ciena";
+  skos:prefLabel "Ciena"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/fortinet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Fortinet"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "fortinet";
+  skos:prefLabel "Fortinet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/NULL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "null"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "NULL";
+  skos:prefLabel "NULL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Cisco> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Cisco"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "Cisco";
+  skos:prefLabel "Cisco"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/ABB> a skos:Concept;

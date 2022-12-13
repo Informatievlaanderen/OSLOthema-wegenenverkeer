@@ -8,33 +8,33 @@
   skos:definition "De herkomst van de grond."@nl;
   skos:prefLabel "Grondherkomst"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/aanbestedende-overheid> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
-  skos:notation "aanbestedende-overheid";
-  skos:prefLabel "aanbestedende overheid"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/gezeefde-gronden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Grond met verwijdering naar een vergunde stortplaats."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
-  skos:notation "gezeefde-gronden";
-  skos:prefLabel "gezeefde gronden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/ander-project> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Grond voor tijdelijke opslag binnen de werfzone."@nl;
+  skos:definition "Grond afkomstig van een ander project."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
   skos:notation "ander-project";
   skos:prefLabel "ander project"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/gezeefde-gronden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gezeefde gronden afkomstig van zones met invasieve duizendknoop."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
+  skos:notation "gezeefde-gronden";
+  skos:prefLabel "gezeefde gronden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/aanbestedende-overheid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond aan te leveren door de aanbestedende overheid."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
+  skos:notation "aanbestedende-overheid";
+  skos:prefLabel "aanbestedende overheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/de-aannemer> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Grond met verwijdering naar een grondreinigingsbedrijf."@nl;
+  skos:definition "Grond geleverd door de aannemer."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
   skos:notation "de-aannemer";
   skos:prefLabel "de aannemer"@nl;
@@ -42,7 +42,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondherkomst/werfzone> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Grond voor hergebruik binnen de werfzone."@nl;
+  skos:definition "Grond afkomstig van binnen de werfzone."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondherkomst>;
   skos:notation "werfzone";
   skos:prefLabel "werfzone"@nl;

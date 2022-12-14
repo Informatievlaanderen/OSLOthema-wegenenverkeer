@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de WIM-datalogger."@nl;
   skos:prefLabel "WIM-datalogger modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWIMDataloggerModelnaam/wim-data-logger-5204ac04> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "WIM Data Logger 5204AC04"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWIMDataloggerModelnaam>;
+  skos:notation "wim-data-logger-5204ac04";
+  skos:prefLabel "WIM Data Logger 5204AC04"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWIMDataloggerModelnaam> .

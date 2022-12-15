@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De specificatie van de vastgestelde vervuiling van de grond."@nl;
   skos:prefLabel "Vervuiling soorten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVervuilingSoorten/pfos> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Perfluoroctaansulfonaten zijn chemische stoffen die behoren tot de bredere PFAS (perfluorinated alkylated substances), een grote familie van duizenden synthetische stoffen met meerdere fluoratomen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVervuilingSoorten>;
+  skos:notation "pfos";
+  skos:prefLabel "PFOS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVervuilingSoorten> .

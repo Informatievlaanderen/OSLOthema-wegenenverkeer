@@ -24,6 +24,14 @@
   skos:prefLabel "reiniging"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondbestemming/buiten-werfzone-of-top> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond met verwijdering voor gebruik buiten de werf of voor afvoer naar een tussentijdse opslagplaats (TOP)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming>;
+  skos:notation "buiten-werfzone-of-top";
+  skos:prefLabel "buiten werfzone of TOP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondbestemming> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondbestemming/storten> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Grond met verwijdering naar een vergunde stortplaats."@nl;

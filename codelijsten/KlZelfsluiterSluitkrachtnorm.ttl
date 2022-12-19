@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Codelijst met mogelijke waarden voor de sluitkracht van een zefsluiter voor deuren, poorten etc.volgens de bestaande normering."@nl;
+  skos:prefLabel "Zelfsluiter sluitkrachtnorm"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZelfsluiterSluitkrachtnorm/en-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm>;
+  skos:notation "en-2";
+  skos:prefLabel "EN 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZelfsluiterSluitkrachtnorm/en-4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm>;
+  skos:notation "en-4";
+  skos:prefLabel "EN 4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZelfsluiterSluitkrachtnorm/en-6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm>;
+  skos:notation "en-6";
+  skos:prefLabel "EN 6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterSluitkrachtnorm> .

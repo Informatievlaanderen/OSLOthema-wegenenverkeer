@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuzelijst voor de kant langs dewelke het slot geÃƒÂ¯nstalleerd kan worden. Je kijkt hierbij naar de deur vanuit de kant dat je de deur openduwt (en niet de kant waarlangs je zou moeten trekken)."@nl;
+  skos:prefLabel "Slot gebruik"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotGebruik/links> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik>;
+  skos:notation "links";
+  skos:prefLabel "links"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotGebruik/rechts> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik>;
+  skos:notation "rechts";
+  skos:prefLabel "rechts"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotGebruik/omkeerbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik>;
+  skos:notation "omkeerbaar";
+  skos:prefLabel "omkeerbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik> .

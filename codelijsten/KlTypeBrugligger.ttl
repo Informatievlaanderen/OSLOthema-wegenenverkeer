@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het type van de brugligger."@nl;
+  skos:prefLabel "Type brugligger"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/hoofdligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hoofdconstructiedeel van een brug, aan weerskanten van de te overspannen rivier of weg opgelegd en onderling verbonden tot een stijf geheel door zogenaamd windkruizen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
+  skos:notation "hoofdligger";
+  skos:prefLabel "Hoofdligger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/langsligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Balk volgens de lengterichting van de brug, waarop de eigenlijke rijvloer direct komt te dragen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
+  skos:notation "langsligger";
+  skos:prefLabel "Langsligger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/dwarsdrager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Dragende dwarsbalk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
+  skos:notation "dwarsdrager";
+  skos:prefLabel "Dwarsdrager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .

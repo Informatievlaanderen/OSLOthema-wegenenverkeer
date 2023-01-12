@@ -24,14 +24,6 @@
   skos:prefLabel "Proxim"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/actelis> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Actelis"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "actelis";
-  skos:prefLabel "Actelis"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/NOKIA> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "NOKIA"@nl;
@@ -62,6 +54,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
   skos:notation "HP";
   skos:prefLabel "HP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/edge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Edge"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "edge";
+  skos:prefLabel "Edge"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/actelis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Actelis"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "actelis";
+  skos:prefLabel "Actelis"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Other> a skos:Concept;

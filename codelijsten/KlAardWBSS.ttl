@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke vormen die ervoor zorgen dat hemelwater infiltreert langs de waterdoorlatende betonstraatsteen."@nl;
+  skos:prefLabel "Aard van waterdoorlatende betonstraatsteen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardWBSS/test-demo> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Test demo"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS>;
+  skos:notation "test-demo";
+  skos:prefLabel "Test demo"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardWBSS/poreus-beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vorm voor waterdoorlatende betonstraatsteen waarbij hemelwater infiltreert doorheen de betonstraatsteen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS>;
+  skos:notation "poreus-beton";
+  skos:prefLabel "poreus beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardWBSS/met-verbrede-voegen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vorm voor waterdoorlatende betonstraatsteen waarbij hemelwater infiltreert langs de betonstraatsteen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS>;
+  skos:notation "met-verbrede-voegen";
+  skos:prefLabel "met verbrede voegen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardWBSS/met-drainageopeningen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vorm voor waterdoorlatende betonstraatsteen waarbij hemelwater infiltreert langs de betonstraatsteen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS>;
+  skos:notation "met-drainageopeningen";
+  skos:prefLabel "met drainageopeningen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardWBSS> .

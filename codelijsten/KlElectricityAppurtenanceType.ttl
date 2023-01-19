@@ -8,14 +8,6 @@
   skos:definition "Lijst voor types  van de ElectricityAppurtenance"@nl;
   skos:prefLabel "Electricity appurtenance type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/streetlight> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType>;
-  skos:notation "streetlight";
-  skos:prefLabel "streetLight"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/mof> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -24,12 +16,12 @@
   skos:prefLabel "mof"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/deliverypoint> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/f-utp-cat-6> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "F/UTP Categorie 6"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType>;
-  skos:notation "deliverypoint";
-  skos:prefLabel "deliveryPoint"@nl;
+  skos:notation "f-utp-cat-6";
+  skos:prefLabel "F/UTP cat 6"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/aarding> a skos:Concept;
@@ -38,4 +30,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType>;
   skos:notation "aarding";
   skos:prefLabel "aarding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/streetlight> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType>;
+  skos:notation "streetlight";
+  skos:prefLabel "streetLight"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/deliverypoint> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType>;
+  skos:notation "deliverypoint";
+  skos:prefLabel "deliveryPoint"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType> .

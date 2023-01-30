@@ -1,22 +1,25 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de weegsensor."@nl;
   skos:prefLabel "Weegsensor modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeegsensorModelnaam/lineas-wim-sensor-9195gc41> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lineas WIM Sensor 9195GC41"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam>;
+  skos:notation "lineas-wim-sensor-9195gc41";
+  skos:prefLabel "Lineas WIM Sensor 9195GC41"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam> .
 
-
-
-
-
-
-
-
-
-
-
-
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeegsensorModelnaam/lineas-wim-sensor-9195gc51> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lineas WIM Sensor 9195GC51"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam>;
+  skos:notation "lineas-wim-sensor-9195gc51";
+  skos:prefLabel "Lineas WIM Sensor 9195GC51"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam> .

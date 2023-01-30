@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lijst met mogelijke manieren van aanleg waarmee onderwaterkruisingen kunnen gerealiseerd worden."@nl;
+  skos:prefLabel "Onderwaterkruising aanleg wijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnderwaterkruisingAanlegWijze/ingegoten-in-sluis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Buizen in een sleuf aangestort met beton, in de deurnis, drempel of sluisvloer."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze>;
+  skos:notation "ingegoten-in-sluis";
+  skos:prefLabel "ingegoten in sluis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnderwaterkruisingAanlegWijze/ingegraven> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Buizen in een sleuf in de bodem van een waterweg die vervolgens terug aangestort wordt met specie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze>;
+  skos:notation "ingegraven";
+  skos:prefLabel "ingegraven"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnderwaterkruisingAanlegWijze/met-zandzakken-vastgelegd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Buizen in of op de bodem van een waterweg die afgedekt worden met gewicht in de vorm van zandzakken, grote metalen stukken of arduinen blokken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze>;
+  skos:notation "met-zandzakken-vastgelegd";
+  skos:prefLabel "met zandzakken vastgelegd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnderwaterkruisingAanlegWijze> .

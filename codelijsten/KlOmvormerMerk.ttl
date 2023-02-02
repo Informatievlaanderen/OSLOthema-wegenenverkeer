@@ -16,6 +16,14 @@
   skos:prefLabel "KTI NETWORKS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/c4line> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C4LINE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "c4line";
+  skos:prefLabel "C4LINE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/bosch> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bosch"@nl;

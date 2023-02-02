@@ -8,6 +8,14 @@
   skos:definition "Het merk van de omvormer."@nl;
   skos:prefLabel "Omvormer merk"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/kti-networks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KTI NETWORKS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "kti-networks";
+  skos:prefLabel "KTI NETWORKS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/bosch> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bosch"@nl;

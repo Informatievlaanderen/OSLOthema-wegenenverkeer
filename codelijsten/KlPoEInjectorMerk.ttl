@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de PoE-injector."@nl;
   skos:prefLabel "Power over ethernet injector merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoEInjectorMerk/bosch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bosch"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorMerk>;
+  skos:notation "bosch";
+  skos:prefLabel "Bosch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorMerk> .

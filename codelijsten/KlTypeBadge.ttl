@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst die de verschillende badgetypes specifieert."@nl;
   skos:prefLabel "Type badge"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBadge/facilitair-bedrijf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge>;
+  skos:notation "facilitair-bedrijf";
+  skos:prefLabel "Facilitair bedrijf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge> .

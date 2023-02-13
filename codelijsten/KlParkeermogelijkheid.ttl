@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst die types van parkeergelegenheden specifieert."@nl;
   skos:prefLabel "Parkeermogelijkheid"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlParkeermogelijkheid/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid>;
+  skos:notation "geen";
+  skos:prefLabel "GEEN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlParkeermogelijkheid/op-terrein> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid>;
+  skos:notation "op-terrein";
+  skos:prefLabel "OP TERREIN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlParkeermogelijkheid/op-fietspad> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid>;
+  skos:notation "op-fietspad";
+  skos:prefLabel "OP FIETSPAD"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlParkeermogelijkheid/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid>;
+  skos:notation "andere";
+  skos:prefLabel "ANDERE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlParkeermogelijkheid/pechstrook> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid>;
+  skos:notation "pechstrook";
+  skos:prefLabel "PECHSTROOK"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlParkeermogelijkheid> .

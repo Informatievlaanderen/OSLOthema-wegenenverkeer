@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de verschillende wijzen van smering van een mechanisch systeem."@nl;
   skos:prefLabel "Smering type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSmeringType/handmatig-te-smeren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType>;
+  skos:notation "handmatig-te-smeren";
+  skos:prefLabel "handmatig te smeren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSmeringType/met-automatische-smering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType>;
+  skos:notation "met-automatische-smering";
+  skos:prefLabel "met automatische smering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSmeringType/droog-lopend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType>;
+  skos:notation "droog-lopend";
+  skos:prefLabel "droog lopend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSmeringType/zelf-smerend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType>;
+  skos:notation "zelf-smerend";
+  skos:prefLabel "zelf smerend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType> .

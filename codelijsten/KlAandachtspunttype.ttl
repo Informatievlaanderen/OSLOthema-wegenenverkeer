@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De soorten aandachtspunten bij werken en/of toegang."@nl;
   skos:prefLabel "Aandachtspunttype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAandachtspunttype/botser-nodig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAandachtspunttype>;
+  skos:notation "botser-nodig";
+  skos:prefLabel "BOTSER NODIG"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAandachtspunttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAandachtspunttype/onveilig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAandachtspunttype>;
+  skos:notation "onveilig";
+  skos:prefLabel "ONVEILIG"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAandachtspunttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAandachtspunttype/aan-autosnelweg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAandachtspunttype>;
+  skos:notation "aan-autosnelweg";
+  skos:prefLabel "AAN AUTOSNELWEG"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAandachtspunttype> .

@@ -7,3 +7,59 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de verschillende soorten wentellager."@nl;
   skos:prefLabel "Wentellager type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/diabololager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "diabololager";
+  skos:prefLabel "diabololager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/bollager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "bollager";
+  skos:prefLabel "bollager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/kegellager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "kegellager";
+  skos:prefLabel "kegellager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/cilinderlager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "cilinderlager";
+  skos:prefLabel "cilinderlager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/kogellager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "kogellager";
+  skos:prefLabel "kogellager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/naaldlager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "naaldlager";
+  skos:prefLabel "naaldlager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWentellagerType/tonlager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType>;
+  skos:notation "tonlager";
+  skos:prefLabel "tonlager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType> .

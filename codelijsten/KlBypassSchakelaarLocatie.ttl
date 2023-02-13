@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke locaties van een bypass schakelaar."@nl;
   skos:prefLabel "Bypass schakelaar locatie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBypassSchakelaarLocatie/ups> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBypassSchakelaarLocatie>;
+  skos:notation "ups";
+  skos:prefLabel "UPS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBypassSchakelaarLocatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBypassSchakelaarLocatie/laagspanningsbord> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBypassSchakelaarLocatie>;
+  skos:notation "laagspanningsbord";
+  skos:prefLabel "Laagspanningsbord"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBypassSchakelaarLocatie> .

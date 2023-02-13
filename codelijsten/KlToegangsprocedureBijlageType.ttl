@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst die de bijlagetypes van een toegangsprocedure specifieert."@nl;
   skos:prefLabel "Bijlagetype toegangsprocedure"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/aanvraagformulier> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "aanvraagformulier";
+  skos:prefLabel "aanvraagformulier"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/routebeschrijving> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "routebeschrijving";
+  skos:prefLabel "routebeschrijving"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/handleiding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "handleiding";
+  skos:prefLabel "handleiding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/reglement> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "reglement";
+  skos:prefLabel "reglement"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .

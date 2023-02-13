@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de verschillende types van opstelling van een waaier."@nl;
   skos:prefLabel "Waaier opstelling type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWaaierTypeOpstelling/axiaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaaierTypeOpstelling>;
+  skos:notation "axiaal";
+  skos:prefLabel "axiaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaaierTypeOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWaaierTypeOpstelling/radiaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaaierTypeOpstelling>;
+  skos:notation "radiaal";
+  skos:prefLabel "radiaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaaierTypeOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWaaierTypeOpstelling/gemengd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaaierTypeOpstelling>;
+  skos:notation "gemengd";
+  skos:prefLabel "gemengd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaaierTypeOpstelling> .

@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met de types flensen."@nl;
   skos:prefLabel "Flens type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFlensType/overschuifflens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType>;
+  skos:notation "overschuifflens";
+  skos:prefLabel "overschuifflens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFlensType/blindflens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType>;
+  skos:notation "blindflens";
+  skos:prefLabel "blindflens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFlensType/voorlasflens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType>;
+  skos:notation "voorlasflens";
+  skos:prefLabel "voorlasflens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFlensType/vlakkelasflens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType>;
+  skos:notation "vlakkelasflens";
+  skos:prefLabel "vlakkelasflens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFlensType> .

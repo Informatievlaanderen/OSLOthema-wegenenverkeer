@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types voor toestellen voor motorbeveiliging volgens de toegepaste techniek."@nl;
   skos:prefLabel "Motorbeveiliging type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMotorbeveiligingType/thermisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType>;
+  skos:notation "thermisch";
+  skos:prefLabel "thermisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMotorbeveiligingType/magnetisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType>;
+  skos:notation "magnetisch";
+  skos:prefLabel "magnetisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMotorbeveiligingType/koppelcontrole> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType>;
+  skos:notation "koppelcontrole";
+  skos:prefLabel "koppelcontrole"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType> .

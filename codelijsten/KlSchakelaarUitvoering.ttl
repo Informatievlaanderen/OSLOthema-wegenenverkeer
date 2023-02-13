@@ -7,3 +7,59 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de uitvoering van een schakelaar."@nl;
   skos:prefLabel "Uitvoering schakelaar"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/sleutelschakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "sleutelschakelaar";
+  skos:prefLabel "sleutelschakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/trekschakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "trekschakelaar";
+  skos:prefLabel "trekschakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/standenschakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "standenschakelaar";
+  skos:prefLabel "standenschakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/klikschakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "klikschakelaar";
+  skos:prefLabel "klikschakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/binaire-draaischakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "binaire-draaischakelaar";
+  skos:prefLabel "binaire draaischakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/schuifschakelaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "schuifschakelaar";
+  skos:prefLabel "schuifschakelaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchakelaarUitvoering/niet-gespecificeerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering>;
+  skos:notation "niet-gespecificeerd";
+  skos:prefLabel "niet gespecificeerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelaarUitvoering> .

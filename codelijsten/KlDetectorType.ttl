@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TODO"@nl;
   skos:prefLabel "Detector type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectorType/slibdetectie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectorType>;
+  skos:notation "slibdetectie";
+  skos:prefLabel "slibdetectie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectorType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectorType/gasdetectie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectorType>;
+  skos:notation "gasdetectie";
+  skos:prefLabel "gasdetectie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectorType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectorType/olielaagdiktedetectie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectorType>;
+  skos:notation "olielaagdiktedetectie";
+  skos:prefLabel "olielaagdiktedetectie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectorType> .

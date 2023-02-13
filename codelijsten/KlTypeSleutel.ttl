@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst die de verschillende sleuteltypes specifieert."@nl;
   skos:prefLabel "Type sleutel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSleutel/yale-5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel>;
+  skos:notation "yale-5";
+  skos:prefLabel "Yale 5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel> .

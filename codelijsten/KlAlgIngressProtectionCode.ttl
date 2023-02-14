@@ -8,20 +8,28 @@
   skos:definition "De IP-codering als een aanduiding voor de mate van beveiliging van de constructie van elektrische of elektronische apparatuur tegen eigen schade door gebruik in 'vijandige omgevingen' en tegen eventueel gevaar voor de gebruiker volgens IEC 60529."@nl;
   skos:prefLabel "Ingress Protection Codering"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip66> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip66"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip66";
-  skos:prefLabel "ip66"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip64> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "ip64"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
   skos:notation "ip64";
-  skos:prefLabel "ip64"@nl;
+  skos:prefLabel "IP64"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/i-p-65> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Stofvrij en sproeidicht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "i-p-65";
+  skos:prefLabel "IP65"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip67> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip67"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip67";
+  skos:prefLabel "IP67"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip58> a skos:Concept;
@@ -29,55 +37,15 @@
   skos:definition "ip58"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
   skos:notation "ip58";
-  skos:prefLabel "ip58"@nl;
+  skos:prefLabel "IP58"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip56> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip65> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip56"@nl;
+  skos:definition "Stofvrij en sproeidicht."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip56";
-  skos:prefLabel "ip56"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip46> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip46"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip46";
-  skos:prefLabel "ip46"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip55> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip55"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip55";
-  skos:prefLabel "ip55"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip49> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip49"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip49";
-  skos:prefLabel "ip49"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip48> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip48"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip48";
-  skos:prefLabel "ip48"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/i-p-44> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bescherming tegen spitse voorwerpen en plensdicht."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "i-p-44";
-  skos:prefLabel "IP44"@nl;
+  skos:notation "ip65";
+  skos:prefLabel "IP65"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip54> a skos:Concept;
@@ -88,36 +56,20 @@
   skos:prefLabel "IP54"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip67> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip49> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip67"@nl;
+  skos:definition "ip49"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip67";
-  skos:prefLabel "ip67"@nl;
+  skos:notation "ip49";
+  skos:prefLabel "IP49"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/i-p-65> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip56> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Stofvrij en sproeidicht."@nl;
+  skos:definition "ip56"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "i-p-65";
-  skos:prefLabel "IP65"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip47> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip47"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip47";
-  skos:prefLabel "ip47"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip57> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ip57"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
-  skos:notation "ip57";
-  skos:prefLabel "ip57"@nl;
+  skos:notation "ip56";
+  skos:prefLabel "IP56"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip59> a skos:Concept;
@@ -125,7 +77,7 @@
   skos:definition "ip59"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
   skos:notation "ip59";
-  skos:prefLabel "ip59"@nl;
+  skos:prefLabel "IP59"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip68> a skos:Concept;
@@ -133,5 +85,69 @@
   skos:definition "ip68"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
   skos:notation "ip68";
-  skos:prefLabel "ip68"@nl;
+  skos:prefLabel "IP68"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip47> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip47"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip47";
+  skos:prefLabel "IP47"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip57> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip57"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip57";
+  skos:prefLabel "IP57"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip48> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip48"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip48";
+  skos:prefLabel "IP48"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip66> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip66"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip66";
+  skos:prefLabel "IP66"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/i-p-44> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Bescherming tegen spitse voorwerpen en plensdicht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "i-p-44";
+  skos:prefLabel "IP44"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip46> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip46"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip46";
+  skos:prefLabel "IP46"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip44> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bescherming tegen spitse voorwerpen en plensdicht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip44";
+  skos:prefLabel "IP44"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgIngressProtectionCode/ip55> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ip55"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode>;
+  skos:notation "ip55";
+  skos:prefLabel "IP55"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgIngressProtectionCode> .

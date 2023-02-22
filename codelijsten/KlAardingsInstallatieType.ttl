@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een keuzelijst waarin aangeduid kan worden over welke aardingsinstallatietype het gaat."@nl;
   skos:prefLabel "Type van aardingsinstallatie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/laagspanningsinstallatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "laagspanningsinstallatie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType>;
+  skos:notation "laagspanningsinstallatie";
+  skos:prefLabel "laagspanningsinstallatie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType> .

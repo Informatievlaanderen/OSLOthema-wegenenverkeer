@@ -8,12 +8,20 @@
   skos:definition "Beschrijft de oriëntatie van het geplaatste schermelement tov de weg. De oriëntatie van vlakke schermen kan naast loodrecht op het maaiveld ook schuin naar achter hellend of schuin naar voor hellend zijn."@nl;
   skos:prefLabel "Vlak geluidschermelement opstelling"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/loodrecht-op-maaiveld> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/verticaal> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "loodrecht op maaiveld"@nl;
+  skos:definition "Verticaal"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling>;
-  skos:notation "loodrecht-op-maaiveld";
-  skos:prefLabel "loodrecht op maaiveld"@nl;
+  skos:notation "verticaal";
+  skos:prefLabel "verticaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/gebogen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gebogen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling>;
+  skos:notation "gebogen";
+  skos:prefLabel "gebogen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/schuin-naar-achter-hellend> a skos:Concept;
@@ -30,4 +38,28 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling>;
   skos:notation "schuin-naar-voor-hellend";
   skos:prefLabel "schuin naar voor hellend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/loodrecht-op-maaiveld> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "loodrecht op maaiveld"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling>;
+  skos:notation "loodrecht-op-maaiveld";
+  skos:prefLabel "loodrecht op maaiveld"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/taludvorm---vertikaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Taludvorm + vertikaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling>;
+  skos:notation "taludvorm---vertikaal";
+  skos:prefLabel "taludvorm + vertikaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGOpstelling/taludvorm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Taludvorm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling>;
+  skos:notation "taludvorm";
+  skos:prefLabel "taludvorm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGOpstelling> .

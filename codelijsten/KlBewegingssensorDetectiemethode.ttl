@@ -3,31 +3,31 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> a skos:ConceptScheme;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De methode waarvolgens de detectie gebeurt. "@nl;
   skos:prefLabel "Bewegingssensor detectiemethode"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewegingssensorDetectiemethode/actief-infrarood-(air)> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingssensorDetectiemethode/actief-infrarood-(air)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode>;
   skos:notation "actief-infrarood-(air)";
   skos:prefLabel "actief infrarood (AIR)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewegingssensorDetectiemethode/passief-infrarood-(pir)> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingssensorDetectiemethode/passief-infrarood-(pir)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode>;
   skos:notation "passief-infrarood-(pir)";
   skos:prefLabel "passief infrarood (PIR)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewegingssensorDetectiemethode/microgolven-(hf)> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingssensorDetectiemethode/microgolven-(hf)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode>;
   skos:notation "microgolven-(hf)";
   skos:prefLabel "microgolven (HF)"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingssensorDetectiemethode> .

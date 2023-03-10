@@ -3,79 +3,87 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> a skos:ConceptScheme;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van rijstrookcodes."@nl;
   skos:prefLabel "Algemeen rijstrookcode"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/7> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/7> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
   skos:notation "7";
   skos:prefLabel "7"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/2> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "2";
-  skos:prefLabel "2"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/8> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "8";
-  skos:prefLabel "8"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/3> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "3";
-  skos:prefLabel "3"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/4> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "4";
-  skos:prefLabel "4"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/1> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "1";
-  skos:prefLabel "1"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/9> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "9";
-  skos:prefLabel "9"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/6> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
-  skos:notation "6";
-  skos:prefLabel "6"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
-
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/5> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vijfde rijstrook van rechts te tellen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
   skos:notation "5";
   skos:prefLabel "5"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/9> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "9";
+  skos:prefLabel "9"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "tweede rijstrook van rechts te tellen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "2";
+  skos:prefLabel "2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/0> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "pechstrook of BOB (Bijzondere Overrijdbare Bedding)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "0";
+  skos:prefLabel "0"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/8> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "8";
+  skos:prefLabel "8"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "derde rijstrook van rechts te tellen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "3";
+  skos:prefLabel "3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vierde rijstrook van rechts te tellen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "4";
+  skos:prefLabel "4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "meest rechtse rijstrook"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "1";
+  skos:prefLabel "1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijstrookcode/6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode>;
+  skos:notation "6";
+  skos:prefLabel "6"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijstrookcode> .

@@ -8,17 +8,9 @@
   skos:definition "Mogelijke MIV meetpuntgebieden."@nl;
   skos:prefLabel "MIV meetpuntgebied"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/afrit> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied>;
-  skos:notation "afrit";
-  skos:prefLabel "afrit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/hoofdweg> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "De rijstrook maakt deel uit van een wegvak met meestal meerdere rijstroken bedoeld voor doorgaand verkeer."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied>;
   skos:notation "hoofdweg";
   skos:prefLabel "hoofdweg"@nl;
@@ -26,7 +18,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/oprit> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "De rijstrook wordt gebruikt door het verkeer dat de hoofdweg wenst te betreden."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied>;
   skos:notation "oprit";
   skos:prefLabel "oprit"@nl;
@@ -40,9 +32,17 @@
   skos:prefLabel "spookstrook"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/afrit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De rijstrook wordt gebruikt door het verkeer dat de hoofdweg wenst te verlaten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied>;
+  skos:notation "afrit";
+  skos:prefLabel "afrit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/tunnel> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "De rijstrook maakt deel uit van een tunnel (overdekte weg)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied>;
   skos:notation "tunnel";
   skos:prefLabel "tunnel"@nl;

@@ -104,6 +104,14 @@
   skos:prefLabel "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/video-avi> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "dit is een video"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
+  skos:notation "video-avi";
+  skos:prefLabel "video/avi"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/image-svg> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -142,14 +150,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
   skos:notation "text-xml";
   skos:prefLabel "text/xml"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/video-avi> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
-  skos:notation "video-avi";
-  skos:prefLabel "video/avi"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/image-png> a skos:Concept;

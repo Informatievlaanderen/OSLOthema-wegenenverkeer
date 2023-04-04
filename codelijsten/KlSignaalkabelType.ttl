@@ -40,14 +40,6 @@
   skos:prefLabel "coax RG12"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svavb> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "SVAVB"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
-  skos:notation "svavb";
-  skos:prefLabel "SVAVB"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/twavb> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TWAVB"@nl;
@@ -102,6 +94,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
   skos:notation "koperkabel";
   skos:prefLabel "koperkabel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/svavb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SVAVB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "svavb";
+  skos:prefLabel "SVAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/uxl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "UXL"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "uxl";
+  skos:prefLabel "UXL"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/liycy> a skos:Concept;

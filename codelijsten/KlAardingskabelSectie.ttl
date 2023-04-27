@@ -24,6 +24,14 @@
   skos:prefLabel "25 mm²"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/2-5-mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "2.5 mm²"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie>;
+  skos:notation "2-5-mm";
+  skos:prefLabel "2.5 mm²"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/16-mm2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -46,6 +54,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie>;
   skos:notation "25";
   skos:prefLabel "25"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/35-mm2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie>;
+  skos:notation "35-mm2";
+  skos:prefLabel "35 mm²"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/10-mm2> a skos:Concept;
@@ -102,22 +118,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie>;
   skos:notation "6-mm";
   skos:prefLabel "6 mm²"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/2-5-mm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "2.5 mm²"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie>;
-  skos:notation "2-5-mm";
-  skos:prefLabel "2.5 mm²"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/35-mm2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie>;
-  skos:notation "35-mm2";
-  skos:prefLabel "35 mm²"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingskabelSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingskabelSectie/50-mm> a skos:Concept;

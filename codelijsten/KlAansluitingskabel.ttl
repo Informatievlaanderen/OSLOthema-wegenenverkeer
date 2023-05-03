@@ -16,6 +16,14 @@
   skos:prefLabel "alarmkabel 2+6"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingskabel/test> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "test"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel>;
+  skos:notation "test";
+  skos:prefLabel "test"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingskabel> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingskabel/liyy> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

@@ -5,8 +5,16 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Mogelijke opties van eenheid types/"@nl;
+  skos:definition "Mogelijke opties van eenheid types."@nl;
   skos:prefLabel "MIV eenheid type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/lve-19-inch-3h> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LVE 19 inch 3H"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
+  skos:notation "lve-19-inch-3h";
+  skos:prefLabel "LVE 19 inch 3H"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/lve-19-inch> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -16,12 +24,20 @@
   skos:prefLabel "LVE 19 inch"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/lve-ip-detectoren> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/mini-lve> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "mini LVE"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
-  skos:notation "lve-ip-detectoren";
-  skos:prefLabel "LVE IP-detectoren"@nl;
+  skos:notation "mini-lve";
+  skos:prefLabel "mini LVE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/satelliet-module> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "satelliet module"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
+  skos:notation "satelliet-module";
+  skos:prefLabel "satelliet module"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/sat> a skos:Concept;
@@ -30,6 +46,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
   skos:notation "sat";
   skos:prefLabel "SAT"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/compact> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "compact"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
+  skos:notation "compact";
+  skos:prefLabel "compact"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/lve-mini> a skos:Concept;
@@ -46,4 +70,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
   skos:notation "lve-compact";
   skos:prefLabel "LVE compact"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/lve-19-inch-6h> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LVE 19 inch 6H"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
+  skos:notation "lve-19-inch-6h";
+  skos:prefLabel "LVE 19 inch 6H"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVEenheidType/lve-ip-detectoren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType>;
+  skos:notation "lve-ip-detectoren";
+  skos:prefLabel "LVE IP-detectoren"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVEenheidType> .

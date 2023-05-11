@@ -16,6 +16,14 @@
   skos:prefLabel "MIC IP 7100i"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TrafiBot2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "trafibot2";
+  skos:prefLabel "TrafiBot2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/dinion-ip-starlight-8000-m> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dinion IP Starlight 8000 M"@nl;

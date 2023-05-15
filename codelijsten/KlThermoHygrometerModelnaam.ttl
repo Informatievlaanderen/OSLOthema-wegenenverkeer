@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Thermo- hygrometer modelnamen."@nl;
   skos:prefLabel "Thermo- hygrometer modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlThermoHygrometerModelnaam/hmp155> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HMP155"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerModelnaam>;
+  skos:notation "hmp155";
+  skos:prefLabel "HMP155"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerModelnaam> .

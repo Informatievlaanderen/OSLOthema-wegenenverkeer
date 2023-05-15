@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijke spectra."@nl;
   skos:prefLabel "Spectrum"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpectrum/dag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Dag"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum>;
+  skos:notation "dag";
+  skos:prefLabel "Dag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpectrum/nacht> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Nacht"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum>;
+  skos:notation "nacht";
+  skos:prefLabel "Nacht"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpectrum/dag-nacht> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Dag/nacht"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum>;
+  skos:notation "dag-nacht";
+  skos:prefLabel "Dag/nacht"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpectrum/infrarood> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Infrarood"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum>;
+  skos:notation "infrarood";
+  skos:prefLabel "Infrarood"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpectrum> .

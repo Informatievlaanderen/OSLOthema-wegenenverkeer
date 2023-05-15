@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "wsensor merken."@nl;
   skos:prefLabel "Wegdeksensor merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegdeksensorMerk/vaisala> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vaisala"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegdeksensorMerk>;
+  skos:notation "vaisala";
+  skos:prefLabel "Vaisala"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegdeksensorMerk> .

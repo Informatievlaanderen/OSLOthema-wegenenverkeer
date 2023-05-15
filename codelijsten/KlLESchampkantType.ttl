@@ -72,6 +72,14 @@
   skos:prefLabel "afgeknotte New Jersey eenzijdig"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLESchampkantType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLESchampkantType/aanrijbescherming> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Voorziening die een kunstwerk of wegmeubilair moet beschermen tegen beschadiging door aanrijdingen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLESchampkantType>;
+  skos:notation "aanrijbescherming";
+  skos:prefLabel "Aanrijbescherming"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLESchampkantType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLESchampkantType/stootband-dupuis> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geprefabriceerde betonnen veiligheidsstootband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afgeraken. Deze zijn overwegend parallel aan de hartlijn van de wegbaan georiënteerd. "@nl;

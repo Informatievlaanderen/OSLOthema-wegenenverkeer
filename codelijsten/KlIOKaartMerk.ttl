@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van mogelijke merken voor IO-kaarten."@nl;
   skos:prefLabel "IO-kaart merken"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartMerk/vaisala> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vaisala"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartMerk>;
+  skos:notation "vaisala";
+  skos:prefLabel "Vaisala"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartMerk> .

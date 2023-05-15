@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types van stralingsschermen."@nl;
   skos:prefLabel "Type stralingsscherm"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeStralingsscherm/vaisala-dtr13> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vaisala DTR13"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm>;
+  skos:notation "vaisala-dtr13";
+  skos:prefLabel "Vaisala DTR13"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm> .

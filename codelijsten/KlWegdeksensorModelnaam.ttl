@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Wegdeksensor modelnamen."@nl;
   skos:prefLabel "Wegdeksensor modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegdeksensorModelnaam/drs511> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DRS511"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegdeksensorModelnaam>;
+  skos:notation "drs511";
+  skos:prefLabel "DRS511"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegdeksensorModelnaam> .

@@ -16,6 +16,22 @@
   skos:prefLabel "bochtstuk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/aansluitstuk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "aansluitstuk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "aansluitstuk";
+  skos:prefLabel "aansluitstuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/perrot-koppeling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "perrot koppeling"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "perrot-koppeling";
+  skos:prefLabel "perrot koppeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/Y-stuk> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Y-stuk"@nl;
@@ -30,12 +46,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
   skos:notation "T-stuk";
   skos:prefLabel "T-stuk"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/aansluitstuk> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "aansluitstuk"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
-  skos:notation "aansluitstuk";
-  skos:prefLabel "aansluitstuk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .

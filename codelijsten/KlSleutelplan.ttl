@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een keuzelijst met verschillende types van sleutel."@nl;
   skos:prefLabel "Sleutelplan"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleutelplan/yale-5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "yale 5"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleutelplan>;
+  skos:notation "yale-5";
+  skos:prefLabel "yale 5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleutelplan> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSleutelplan/uniek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "uniek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleutelplan>;
+  skos:notation "uniek";
+  skos:prefLabel "uniek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSleutelplan> .

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor het type riem."@nl;
   skos:prefLabel "Riem type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRiemType/v-riem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "V-riem"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType>;
+  skos:notation "v-riem";
+  skos:prefLabel "V-riem"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRiemType/platte-riem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "platte riem"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType>;
+  skos:notation "platte-riem";
+  skos:prefLabel "platte riem"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRiemType/getande-riem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "getande riem"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType>;
+  skos:notation "getande-riem";
+  skos:prefLabel "getande riem"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType> .

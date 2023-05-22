@@ -15,3 +15,27 @@
   skos:notation "yale-5";
   skos:prefLabel "Yale 5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSleutel/dom> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DOM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel>;
+  skos:notation "dom";
+  skos:prefLabel "DOM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSleutel/specifiek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "specifiek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel>;
+  skos:notation "specifiek";
+  skos:prefLabel "specifiek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSleutel/extern> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "extern"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel>;
+  skos:notation "extern";
+  skos:prefLabel "extern"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSleutel> .

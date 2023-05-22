@@ -8,10 +8,42 @@
   skos:definition "Keuzelijst die de verschillende badgetypes specifieert."@nl;
   skos:prefLabel "Type badge"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBadge/tunnels-antwerpen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "tunnels Antwerpen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge>;
+  skos:notation "tunnels-antwerpen";
+  skos:prefLabel "tunnels Antwerpen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBadge/facilitair-bedrijf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge>;
   skos:notation "facilitair-bedrijf";
   skos:prefLabel "Facilitair bedrijf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBadge/specifiek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "specifiek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge>;
+  skos:notation "specifiek";
+  skos:prefLabel "specifiek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBadge/vwt-net> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VWT-NET"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge>;
+  skos:notation "vwt-net";
+  skos:prefLabel "VWT-NET"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBadge/extern> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "extern"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge>;
+  skos:notation "extern";
+  skos:prefLabel "extern"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBadge> .

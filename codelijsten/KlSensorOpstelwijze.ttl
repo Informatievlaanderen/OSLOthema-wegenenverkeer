@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Senor opstelwijzen."@nl;
+  skos:definition "Sensor opstelwijzen."@nl;
   skos:prefLabel "Sensor opstelwijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSensorOpstelwijze/via-dwarsligger-op-rechte-steun> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Via dwarsligger op rechte steun"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze>;
+  skos:notation "via-dwarsligger-op-rechte-steun";
+  skos:prefLabel "Via dwarsligger op rechte steun"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSensorOpstelwijze/rechtstreeks-op-rechte-steun> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Rechtstreeks op rechte steun"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze>;
+  skos:notation "rechtstreeks-op-rechte-steun";
+  skos:prefLabel "Rechtstreeks op rechte steun"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze> .

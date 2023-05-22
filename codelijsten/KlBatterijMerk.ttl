@@ -23,3 +23,11 @@
   skos:notation "landport";
   skos:prefLabel "landport"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/yuasa> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "yuasa"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
+  skos:notation "yuasa";
+  skos:prefLabel "yuasa"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de PoE-injector."@nl;
   skos:prefLabel "Power over ethernet injector modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoEInjectorModelnaam/npd-6001b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NPD 6001B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorModelnaam>;
+  skos:notation "npd-6001b";
+  skos:prefLabel "NPD 6001B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoEInjectorModelnaam/npd-9501a> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NPD 9501A"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorModelnaam>;
+  skos:notation "npd-9501a";
+  skos:prefLabel "NPD 9501A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoEInjectorModelnaam/npd-5001poe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NPD 5001POE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorModelnaam>;
+  skos:notation "npd-5001poe";
+  skos:prefLabel "NPD 5001POE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorModelnaam> .

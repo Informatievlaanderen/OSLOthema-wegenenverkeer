@@ -7,3 +7,67 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type betonnen profiel."@nl;
   skos:prefLabel "Type betonnen profiel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/omgekeerd-u-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardprofiel met een bovenflens en twee lijven die samen een omgekeerde U vormen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "omgekeerd-u-profiel";
+  skos:prefLabel "Omgekeerd U-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/rechthoekige-ligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-standaardprofiel met een dwarsdoorsnede van een rechthoek (massieve ligger)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "rechthoekige-ligger";
+  skos:prefLabel "Rechthoekige ligger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/u-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardprofiel met een onderflens en twee lijven die samen een U vormen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "u-profiel";
+  skos:prefLabel "U-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/i-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardprofiel met een dwarsdoorsnede in de vorm van een I (onder- en bovenflens die met elkaar verbonden zijn door het lijf)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "i-profiel";
+  skos:prefLabel "I-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/omgekeerd-t-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardprofiel met een dwarsdoorsnede in de vorm van een T (geen bovenfles, wel een onderflens en een lijf)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "omgekeerd-t-profiel";
+  skos:prefLabel "Omgekeerd T-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/plaatligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardprofiel met een dwarsdoorsnede in de vorm van een I (onder- en bovenflens die met elkaar verbonden zijn door het lijf) maar de bovenflens is verbreed."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "plaatligger";
+  skos:prefLabel "Plaatligger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-standaardprofiel: een profiel in een andere, specifieke vorm."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "andere";
+  skos:prefLabel "Andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBetonnenProfiel/z-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-standaardprofiel met een dwarsdoorsnede in de vorm van een Z."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel>;
+  skos:notation "z-profiel";
+  skos:prefLabel "Z-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBetonnenProfiel> .

@@ -23,3 +23,19 @@
   skos:notation "sat-module";
   skos:prefLabel "SAT module"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVComkaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVComkaartType/serieel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVComkaartType>;
+  skos:notation "serieel";
+  skos:prefLabel "serieel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVComkaartType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVComkaartType/module> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVComkaartType>;
+  skos:notation "module";
+  skos:prefLabel "module"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVComkaartType> .

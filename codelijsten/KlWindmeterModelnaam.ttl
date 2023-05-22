@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Windmeter modelnamen."@nl;
   skos:prefLabel "Windmeter modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWindmeterModelnaam/wmt700> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "WMT700"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterModelnaam>;
+  skos:notation "wmt700";
+  skos:prefLabel "WMT700"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterModelnaam> .

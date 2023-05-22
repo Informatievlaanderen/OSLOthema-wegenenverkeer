@@ -5,5 +5,13 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPMUModelnaam> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Power management unit modelnamen"@nl;
+  skos:definition "Power management unit modelnamen."@nl;
   skos:prefLabel "Power management unit modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPMUModelnaam/pmu701> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "PMU701"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPMUModelnaam>;
+  skos:notation "pmu701";
+  skos:prefLabel "PMU701"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPMUModelnaam> .

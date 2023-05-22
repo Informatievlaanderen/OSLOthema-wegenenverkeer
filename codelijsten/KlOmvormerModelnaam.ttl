@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de omvormer."@nl;
   skos:prefLabel "Omvormer modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/c4l6400-eoc-p> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C4L6400 EOC P"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
+  skos:notation "c4l6400-eoc-p";
+  skos:prefLabel "C4L6400 EOC P"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/kc-300d-c> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KC300D C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
+  skos:notation "kc-300d-c";
+  skos:prefLabel "KC 300D C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .

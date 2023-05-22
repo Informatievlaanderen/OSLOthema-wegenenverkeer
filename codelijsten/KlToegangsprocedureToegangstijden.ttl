@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst die mogelijke toegangstijden bij een toegangsprocedure specifieert."@nl;
   skos:prefLabel "Toegangsprocedure toegangstijden"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureToegangstijden/24-7> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "24/7"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureToegangstijden>;
+  skos:notation "24-7";
+  skos:prefLabel "24/7"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureToegangstijden> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureToegangstijden/op-afspraak> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "op afspraak"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureToegangstijden>;
+  skos:notation "op-afspraak";
+  skos:prefLabel "op afspraak"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureToegangstijden> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureToegangstijden/tijdens-kantooruren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "tijdens kantooruren"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureToegangstijden>;
+  skos:notation "tijdens-kantooruren";
+  skos:prefLabel "tijdens kantooruren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureToegangstijden> .

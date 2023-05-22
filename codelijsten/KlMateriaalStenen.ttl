@@ -7,3 +7,115 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het materiaal van de stenen."@nl;
   skos:prefLabel "Materiaal stenen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/leisteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een metamorf gesteente dat gekenmerkt is door een duidelijke foliatie van afwisselende laagjes kwarts en andere mineralen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "leisteen";
+  skos:prefLabel "Leisteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/blauwe-hardsteen-volgens-categorie-c> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ook wel: Petit Granit. Een natuursteen met een natuurlijke blauwgrijze kleur door de aanwezigheid van crinoÃ¯deresten samengeklit met microkristallijn calciet. Blauwe hardsteen van categorie C wordt gebruikt in houwstenen of bekledingswerken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "blauwe-hardsteen-volgens-categorie-c";
+  skos:prefLabel "Blauwe hardsteen volgens categorie C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/breuksteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Breuksteen is een natuursteen van onregelmatige vorm."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "breuksteen";
+  skos:prefLabel "Breuksteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/snelbouwsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Dit is een keramische binnenmuursteen die vooral uit klei(houdende) materialen bestaat, al dan niet gemengd met zand en andere toeslagstoffen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "snelbouwsteen";
+  skos:prefLabel "Snelbouwsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/blauwe-hardsteen-volgens-categorie-b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ook wel: Petit Granit. Een natuursteen met een natuurlijke blauwgrijze kleur door de aanwezigheid van crinoÃ¯deresten samengeklit met microkristallijn calciet. Blauwe hardsteen van categorie B wordt gebruikt in bouwwerken, restauratiewerken of marmerwerken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "blauwe-hardsteen-volgens-categorie-b";
+  skos:prefLabel "Blauwe hardsteen volgens categorie B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/zandsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een afzettingsgesteente dat voornamelijk bestaat uit zand/kwartskorrels die met elkaar verbonden werden met een bindmiddel (leem, kalk,...)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "zandsteen";
+  skos:prefLabel "Zandsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/blauwe-hardsteen-volgens-categorie-a> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ook wel: Petit Granit. Een natuursteen met een natuurlijke blauwgrijze kleur door de aanwezigheid van crinoÃ¯deresten samengeklit met microkristallijn calciet. Blauwe hardsteen van categorie A wordt gebruikt in beeldhouwwerken, grafzerken of werken met een uitzonderlijke afwerking."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "blauwe-hardsteen-volgens-categorie-a";
+  skos:prefLabel "Blauwe hardsteen volgens categorie A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/volle-baksteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aarde die in een bepaald vorm gebakken wordt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "volle-baksteen";
+  skos:prefLabel "Volle baksteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/gevelsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een gevelsteen is een baksteen die toegepast kan worden als buitengevelsteen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "gevelsteen";
+  skos:prefLabel "Gevelsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/cellenbeton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ook wel: gasbeton. Dit is een betonsoort die gekenmerkt wordt door zijn lage dichtheid en sterk isolerend vermogen. Het bekendste merk is Ytong."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "cellenbeton";
+  skos:prefLabel "Cellenbeton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/crino-denkalksteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Kalksteen met vele overblijfselen, voornamelijk stengeldelen, van Crinoiden of Haarsterren."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "crino-denkalksteen";
+  skos:prefLabel "Crinoïdenkalksteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Betonspecie van zand, cement, grind, water en eventueel vulstoffen en hulpstoffen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "beton";
+  skos:prefLabel "Beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/kalksteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een natuursteen, ontstaan door kalkafzettingen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "kalksteen";
+  skos:prefLabel "Kalksteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStenen/natuursteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een gesteente dat in de natuur wordt aangetroffen en dat, na een eventuele bewerking, geschikt is als bouwmateriaal."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen>;
+  skos:notation "natuursteen";
+  skos:prefLabel "Natuursteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStenen> .

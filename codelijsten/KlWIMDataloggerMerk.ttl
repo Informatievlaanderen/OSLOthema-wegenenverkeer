@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de WIM-datalogger."@nl;
   skos:prefLabel "WIM-datalogger merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWIMDataloggerMerk/kistler> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Kistler"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWIMDataloggerMerk>;
+  skos:notation "kistler";
+  skos:prefLabel "Kistler"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWIMDataloggerMerk> .

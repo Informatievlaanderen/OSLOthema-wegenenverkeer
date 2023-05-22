@@ -24,6 +24,14 @@
   skos:prefLabel "andere"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/veiligheidsvoorschriften> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "veiligheidsvoorschriften"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "veiligheidsvoorschriften";
+  skos:prefLabel "veiligheidsvoorschriften"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/routebeschrijving> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

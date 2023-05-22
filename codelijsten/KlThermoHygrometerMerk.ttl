@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Thermo- hygrometer merken."@nl;
   skos:prefLabel "Thermo- hygrometer merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlThermoHygrometerMerk/vaisala> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vaisala"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk>;
+  skos:notation "vaisala";
+  skos:prefLabel "Vaisala"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk> .

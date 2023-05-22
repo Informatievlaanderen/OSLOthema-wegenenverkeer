@@ -24,6 +24,14 @@
   skos:prefLabel "Bosch"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/mobotix> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Mobotix"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "mobotix";
+  skos:prefLabel "Mobotix"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/dahua> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dahua"@nl;
@@ -46,4 +54,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
   skos:notation "sony";
   skos:prefLabel "SONY"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/teledyne-flir> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Teledyne FLIR"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "teledyne-flir";
+  skos:prefLabel "Teledyne FLIR"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .

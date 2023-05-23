@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst die de mogelijke types van langsgrachten bevat."@nl;
   skos:prefLabel "Langsgracht type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLangsgrachtType/open> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "open"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLangsgrachtType>;
+  skos:notation "open";
+  skos:prefLabel "open"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLangsgrachtType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLangsgrachtType/ingebuisd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ingebuisd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLangsgrachtType>;
+  skos:notation "ingebuisd";
+  skos:prefLabel "ingebuisd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLangsgrachtType> .

@@ -5,5 +5,37 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De aansluiting van de damwand op een bestaande constructie"@nl;
+  skos:definition "De aansluiting van de damwand op een bestaande constructie."@nl;
   skos:prefLabel "Aansluiting damwand bestaande constructie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingDamwandBestaandeConstructie/door-middel-van-betonprop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie>;
+  skos:notation "door-middel-van-betonprop";
+  skos:prefLabel "door middel van betonprop"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingDamwandBestaandeConstructie/door-middel-van-groutprop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie>;
+  skos:notation "door-middel-van-groutprop";
+  skos:prefLabel "door middel van groutprop"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingDamwandBestaandeConstructie/door-middel-van-vrijzittend-slot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie>;
+  skos:notation "door-middel-van-vrijzittend-slot";
+  skos:prefLabel "door middel van vrijzittend slot"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingDamwandBestaandeConstructie/door-middel-van-kleiprop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie>;
+  skos:notation "door-middel-van-kleiprop";
+  skos:prefLabel "door middel van kleiprop"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie> .

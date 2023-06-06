@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De vulling van het slot van de damwand."@nl;
+  skos:prefLabel "Slotvulling damwand"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotvullingDamwand/zonder-voegvulling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Zonder voegvulling"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand>;
+  skos:notation "zonder-voegvulling";
+  skos:prefLabel "Zonder voegvulling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotvullingDamwand/bitumineuze> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand>;
+  skos:notation "bitumineuze";
+  skos:prefLabel "Bitumineuze"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotvullingDamwand/zwellende> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand>;
+  skos:notation "zwellende";
+  skos:prefLabel "Zwellende"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotvullingDamwand/gelaste> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand>;
+  skos:notation "gelaste";
+  skos:prefLabel "Gelaste"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand> .

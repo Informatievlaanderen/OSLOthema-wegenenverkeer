@@ -8,6 +8,14 @@
   skos:definition "Keuzelijst die de bijlagetypes van een toegangsprocedure specifieert."@nl;
   skos:prefLabel "Bijlagetype toegangsprocedure"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/parkeergelegenheid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "parkeergelegenheid"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "parkeergelegenheid";
+  skos:prefLabel "parkeergelegenheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/aanvraagformulier> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -38,6 +46,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
   skos:notation "routebeschrijving";
   skos:prefLabel "routebeschrijving"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/noodprocedure> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "noodprocedure"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType>;
+  skos:notation "noodprocedure";
+  skos:prefLabel "noodprocedure"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureBijlageType/handleiding> a skos:Concept;

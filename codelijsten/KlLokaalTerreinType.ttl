@@ -5,8 +5,16 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lokale terrein types."@nl;
+  skos:definition "Lokale terrein types"@nl;
   skos:prefLabel "Lokaal terreintype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/bergachtig-en-overwegend-bomen-struiken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bergachtig en overwegend bomen / struiken"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
+  skos:notation "bergachtig-en-overwegend-bomen-struiken";
+  skos:prefLabel "Bergachtig en overwegend bomen / struiken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/geen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -14,6 +22,30 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
   skos:notation "geen";
   skos:prefLabel "Geen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/golvend-verspreid-bomen-struiken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Golvend verspreid bomen / struiken"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
+  skos:notation "golvend-verspreid-bomen-struiken";
+  skos:prefLabel "Golvend verspreid bomen / struiken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/bergachtig-verspreid-bomen-struiken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bergachtig verspreid bomen / struiken"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
+  skos:notation "bergachtig-verspreid-bomen-struiken";
+  skos:prefLabel "Bergachtig verspreid bomen / struiken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/andere-gelieve-te-omschrijven-in-extra-notitie-voor-het-object> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Andere (gelieve te omschrijven in extra notitie voor het object)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
+  skos:notation "andere-gelieve-te-omschrijven-in-extra-notitie-voor-het-object";
+  skos:prefLabel "Andere (gelieve te omschrijven in extra notitie voor het object)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/vlak-zonder-bomen> a skos:Concept;
@@ -46,4 +78,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
   skos:notation "vlak-en-overwegend-bomen-struiken";
   skos:prefLabel "Vlak en overwegend bomen / struiken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/golvend-en-overwegend-bomen-struiken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Golvend en overwegend bomen / struiken"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
+  skos:notation "golvend-en-overwegend-bomen-struiken";
+  skos:prefLabel "Golvend en overwegend bomen / struiken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLokaalTerreinType/bergachtig-zonder-bomen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bergachtig zonder bomen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType>;
+  skos:notation "bergachtig-zonder-bomen";
+  skos:prefLabel "Bergachtig zonder bomen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLokaalTerreinType> .

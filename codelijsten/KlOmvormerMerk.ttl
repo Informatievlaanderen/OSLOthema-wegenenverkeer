@@ -8,20 +8,12 @@
   skos:definition "Het merk van de omvormer."@nl;
   skos:prefLabel "Omvormer merk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/kti-networks> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/siqura> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "KTI NETWORKS"@nl;
+  skos:definition "Siqura"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
-  skos:notation "kti-networks";
-  skos:prefLabel "KTI NETWORKS"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/c4line> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "C4LINE"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
-  skos:notation "c4line";
-  skos:prefLabel "C4LINE"@nl;
+  skos:notation "siqura";
+  skos:prefLabel "Siqura"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/bosch> a skos:Concept;
@@ -32,10 +24,26 @@
   skos:prefLabel "Bosch"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/c4line> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C4LINE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "c4line";
+  skos:prefLabel "C4LINE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/axis> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Axis"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
   skos:notation "axis";
   skos:prefLabel "Axis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/kti-networks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KTI NETWORKS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "kti-networks";
+  skos:prefLabel "KTI NETWORKS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .

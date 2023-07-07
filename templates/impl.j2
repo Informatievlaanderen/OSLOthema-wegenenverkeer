@@ -2,9 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 {% set language = "nl" %}
 {% set sortattr = "sort" %}
-
 <html xml:lang="nl" lang="nl" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="nl" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
   {% set name = metadata.title|lower|replace(' ', '-') %} 
   <title>{{ metadata.title }}</title>
@@ -126,7 +124,7 @@
             <div class="region" id="introduction">
               <div class="introduction typography">
               {% block introduction %}
-                <p>Dit document beschrijft een <strong>implementatiemodel</strong>, in dit geval <strong>{{ metadata.title[language] }}</strong>.
+                <p>Dit document beschrijft een <strong>implementatiemodel</strong>, in dit geval <strong>{{ metadata.title }}</strong>.
                 Een implementatiemodel is een toepassing van vocabularia voor een concreet doel.
                 Het beschrijft in alle detail (zoals kardinaliteiten, codelijsten, datatypes, ...) de gewenste datastructuur.
                 </p>

@@ -4,6 +4,7 @@
 {% set sortattr = "sort" %}
 <html xml:lang="nl" lang="nl" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="nl" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
   {% set name = metadata.title|lower|replace(' ', '-') %} 
   <title>{{ metadata.title }}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het type van het hulpstuk."@nl;
+  skos:prefLabel "Hulpstuk type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/bochtstuk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "bochtstuk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "bochtstuk";
+  skos:prefLabel "bochtstuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/aansluitstuk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "aansluitstuk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "aansluitstuk";
+  skos:prefLabel "aansluitstuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/perrot-koppeling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "perrot koppeling"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "perrot-koppeling";
+  skos:prefLabel "perrot koppeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/Y-stuk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Y-stuk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "Y-stuk";
+  skos:prefLabel "Y-stuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/T-stuk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "T-stuk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "T-stuk";
+  skos:prefLabel "T-stuk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .

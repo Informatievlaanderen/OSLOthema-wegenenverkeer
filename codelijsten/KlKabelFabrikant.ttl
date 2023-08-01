@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met producenten van kabels."@nl;
   skos:prefLabel "Kabel fabrikant"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelFabrikant/stl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Sterlite Technologies."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelFabrikant>;
+  skos:notation "stl";
+  skos:prefLabel "STL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelFabrikant> .

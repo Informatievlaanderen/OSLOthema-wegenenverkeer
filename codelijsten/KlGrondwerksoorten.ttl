@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Soorten van grondwerk."@nl;
+  skos:prefLabel "Grondwerksoorten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/afdekking> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond voor afdekking."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:notation "afdekking";
+  skos:prefLabel "afdekking"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/afgraving> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond van afgraving."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:notation "afgraving";
+  skos:prefLabel "afgraving"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/uitgraving> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond van uitgraving."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:notation "uitgraving";
+  skos:prefLabel "uitgraving"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondwerksoorten/ophoging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grond voor ophoging."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten>;
+  skos:notation "ophoging";
+  skos:prefLabel "ophoging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondwerksoorten> .

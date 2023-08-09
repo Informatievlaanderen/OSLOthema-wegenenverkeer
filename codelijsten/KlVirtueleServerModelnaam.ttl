@@ -8,6 +8,14 @@
   skos:definition "De modelnaam van de virtuele server."@nl;
   skos:prefLabel "Virtuele server modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/poweredge-r620> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "PowerEdge R620"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerModelnaam>;
+  skos:notation "poweredge-r620";
+  skos:prefLabel "PowerEdge R620"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/boxedacu> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "BoxedACU."@nl;

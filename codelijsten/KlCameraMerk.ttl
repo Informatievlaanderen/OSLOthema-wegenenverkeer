@@ -16,6 +16,14 @@
   skos:prefLabel "Nestor Company"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/axis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Axis"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "axis";
+  skos:prefLabel "Axis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/bosch> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bosch"@nl;

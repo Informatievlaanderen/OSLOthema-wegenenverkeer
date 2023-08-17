@@ -23,3 +23,11 @@
   skos:notation "balk-ligger";
   skos:prefLabel "Balk/ligger"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBalk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBalk/ringbalk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ringbalk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBalk>;
+  skos:notation "ringbalk";
+  skos:prefLabel "Ringbalk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBalk> .

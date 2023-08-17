@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TODO"@nl;
   skos:prefLabel "Kamer functie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompKamerFunctie/natte-pompkelder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een kamer waarin de op te pompen vloeistof verzameld wordt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "natte-pompkelder";
+  skos:prefLabel "natte pompkelder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompKamerFunctie/slibvang> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een kamer waarin deeltjes zwaarder dan water kunnen bezinken zodat die niet in de natte pompkelder terecht komen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie>;
+  skos:notation "slibvang";
+  skos:prefLabel "slibvang"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompKamerFunctie> .

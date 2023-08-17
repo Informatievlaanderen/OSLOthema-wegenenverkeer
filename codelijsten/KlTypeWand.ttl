@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De functie die de wand uitoefent."@nl;
   skos:prefLabel "Type wand"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/brilwand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "brilwand"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "brilwand";
+  skos:prefLabel "brilwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .

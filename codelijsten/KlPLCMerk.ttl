@@ -8,6 +8,14 @@
   skos:definition "Het merk van de PLC."@nl;
   skos:prefLabel "PLC merk"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/phoenix-contact> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Phoenix Contact"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "phoenix-contact";
+  skos:prefLabel "Phoenix Contact"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/vaisala> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vaisala"@nl;

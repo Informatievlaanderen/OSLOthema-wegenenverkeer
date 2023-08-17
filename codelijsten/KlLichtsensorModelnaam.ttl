@@ -5,5 +5,13 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorModelnaam> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lichtsensor modelnamen"@nl;
+  skos:definition "Lichtsensor modelnamen."@nl;
   skos:prefLabel "Lichtsensor modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtsensorModelnaam/luminance-luci-l20> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Luminance LUCI L20"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorModelnaam>;
+  skos:notation "luminance-luci-l20";
+  skos:prefLabel "Luminance LUCI L20"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorModelnaam> .

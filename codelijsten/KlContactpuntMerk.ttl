@@ -15,3 +15,11 @@
   skos:notation "locinox";
   skos:prefLabel "LOCINOX"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactpuntMerk/heinen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Heinen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk>;
+  skos:notation "heinen";
+  skos:prefLabel "Heinen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk> .

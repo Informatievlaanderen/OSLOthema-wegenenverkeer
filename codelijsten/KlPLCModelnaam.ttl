@@ -8,6 +8,22 @@
   skos:definition "De modelnaam van de PLC."@nl;
   skos:prefLabel "PLC model"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCModelnaam/axc-f-3152> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AXC-F-3152"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam>;
+  skos:notation "axc-f-3152";
+  skos:prefLabel "AXC-F-3152"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCModelnaam/dmf-133> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DMF 133"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam>;
+  skos:notation "dmf-133";
+  skos:prefLabel "DMF 133"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCModelnaam/dmu703> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "DMU703"@nl;
@@ -30,12 +46,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam>;
   skos:notation "dmf-132";
   skos:prefLabel "DMF 132"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCModelnaam/dmf-133> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "DMF 133"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam>;
-  skos:notation "dmf-133";
-  skos:prefLabel "DMF 133"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCModelnaam> .

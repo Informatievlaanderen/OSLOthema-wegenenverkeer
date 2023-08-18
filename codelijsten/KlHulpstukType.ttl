@@ -16,6 +16,14 @@
   skos:prefLabel "bochtstuk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/storz-koppeling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een storz koppeling is bedoeld om slangen met elkaar of met vaste armaturen te verbinden. Het is een symmetrische koppeling met een bajonet dichting die door een opstaande kraag wordt beschermd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType>;
+  skos:notation "storz-koppeling";
+  skos:prefLabel "storz koppeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHulpstukType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHulpstukType/aansluitstuk> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "aansluitstuk"@nl;

@@ -8,6 +8,14 @@
   skos:definition "Keuzelijst met modelnamen voor Verkeersregelaar."@nl;
   skos:prefLabel "verkeersregelaar modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarModelnaam/itc-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ITC-3"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam>;
+  skos:notation "itc-3";
+  skos:prefLabel "ITC-3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersregelaarModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersregelaarModelnaam/flow-node> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "FlowNode"@nl;

@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van vakwerk-element."@nl;
   skos:prefLabel "Type vakwerk-element"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVakwerkElement/bovenregel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bovenregel bij vakwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement>;
+  skos:notation "bovenregel";
+  skos:prefLabel "Bovenregel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVakwerkElement/onderregel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Onderregel bij vakwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement>;
+  skos:notation "onderregel";
+  skos:prefLabel "Onderregel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVakwerkElement/diagonaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Diagonale staaf bij vakwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement>;
+  skos:notation "diagonaal";
+  skos:prefLabel "Diagonaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVakwerkElement/stijl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verticale staaf bij vakwerk."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement>;
+  skos:notation "stijl";
+  skos:prefLabel "Stijl"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVakwerkElement> .

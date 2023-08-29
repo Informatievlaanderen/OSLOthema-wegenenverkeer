@@ -10,7 +10,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/hoofdligger> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Hoofdconstructiedeel van een brug, aan weerskanten van de te overspannen rivier of weg opgelegd en onderling verbonden tot een stijf geheel door zogenaamd windkruizen."@nl;
+  skos:definition "Primaire dragende balk of ligger volgens de lengterichting van de brug, die de belastingen afdraagt naar de oplegpunten van de brug, hetzij rechtstreeks, hetzij via einddwarsdragers/diafragma’s."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
   skos:notation "hoofdligger";
   skos:prefLabel "Hoofdligger"@nl;
@@ -18,7 +18,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/langsligger> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Balk volgens de lengterichting van de brug, waarop de eigenlijke rijvloer direct komt te dragen."@nl;
+  skos:definition "Secundaire balk of ligger volgens de lengterichting van de brug, die ondersteuning biedt aan het brugdek en de belastingen erop afdraagt naar de dwarsliggers."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
   skos:notation "langsligger";
   skos:prefLabel "Langsligger"@nl;
@@ -26,7 +26,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/dwarsdrager> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Dragende dwarsbalk."@nl;
+  skos:definition "Balk of ligger volgens de dwarsrichting van de brug die één of meerdere van volgende functies vervult:biedt ondersteuning aan het brugdek en/of de langsliggers en/of de hoofdliggers,verstijft de langs- en/of hoofdliggers,draagt de belastingen af naar de hoofdliggers,bevordert de samenwerking tussen de hoofdliggers."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
   skos:notation "dwarsdrager";
   skos:prefLabel "Dwarsdrager"@nl;

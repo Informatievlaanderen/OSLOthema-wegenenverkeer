@@ -23,3 +23,11 @@
   skos:notation "botser-nodig";
   skos:prefLabel "botser nodig"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/niet-machinaal-bereikbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object kan niet bereikt worden met een machine voor bijvoorbeeld reiniging, onderhoud of vervanging."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt>;
+  skos:notation "niet-machinaal-bereikbaar";
+  skos:prefLabel "niet machinaal bereikbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt> .

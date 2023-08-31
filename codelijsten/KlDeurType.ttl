@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van een deur."@nl;
   skos:prefLabel "Deur type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/vluchtdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deur voor het ontvluchten in geval van calamiteiten weg van de incidentlocatie naar een veilige zone. Een vluchtdeur wordt onder alle omstandigheden zonder sleutel geopend en dit met beperkte kracht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "vluchtdeur";
+  skos:prefLabel "Vluchtdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/toegangsdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Element dat de doorgang naar een ruimte (in een gebouw) afsluit of er toegang toe verleent. De doorgang is minder breed dan die die afgesloten wordt door een toegangspoort."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "toegangsdeur";
+  skos:prefLabel "Toegangsdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .

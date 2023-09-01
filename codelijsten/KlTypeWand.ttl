@@ -8,9 +8,25 @@
   skos:definition "De functie die de wand uitoefent."@nl;
   skos:prefLabel "Type wand"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/steunwand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wand die ontworpen is om belastingen te dragen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "steunwand";
+  skos:prefLabel "steunwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/binnenwand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wand zonder dragende functie, meestal gebruikt om ruimtes van elkaar te scheiden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "binnenwand";
+  skos:prefLabel "binnenwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/brilwand> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "brilwand"@nl;
+  skos:definition "Wand met een uitsparing/opening voor het doorlaten van een tunnelboormachine."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
   skos:notation "brilwand";
   skos:prefLabel "brilwand"@nl;

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke openingtypes van de toegangsdeur."@nl;
   skos:prefLabel "Toegangsdeur type opening"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/schuivend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "schuivend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening>;
+  skos:notation "schuivend";
+  skos:prefLabel "schuivend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/binnendraaiend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "binnendraaiend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening>;
+  skos:notation "binnendraaiend";
+  skos:prefLabel "binnendraaiend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/buitendraaiend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "buitendraaiend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening>;
+  skos:notation "buitendraaiend";
+  skos:prefLabel "buitendraaiend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening> .

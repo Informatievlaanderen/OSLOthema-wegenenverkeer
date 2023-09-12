@@ -8,6 +8,22 @@
   skos:definition "De specificatieversie van het protocol van de iVRI component."@nl;
   skos:prefLabel "iVRIBaseline"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIBaseline/idd-tlc-fi-version-1-4-0> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IDD TLC-FI version 1.4.0"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIBaseline>;
+  skos:notation "idd-tlc-fi-version-1-4-0";
+  skos:prefLabel "IDD TLC-FI version 1.4.0"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIBaseline> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIBaseline/idd-tlc-fi-version-2-0-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IDD TLC-FI version 2.0.1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIBaseline>;
+  skos:notation "idd-tlc-fi-version-2-0-1";
+  skos:prefLabel "IDD TLC-FI version 2.0.1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIBaseline> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIBaseline/idd-tlc-fi-version-1-3-1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "IDD TLC-FI version 1.3.1"@nl;

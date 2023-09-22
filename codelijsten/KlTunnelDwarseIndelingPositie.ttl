@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TODO"@nl;
+  skos:prefLabel "Tunnel dwarse indeling positie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTunnelDwarseIndelingPositie/op-de-brug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie>;
+  skos:notation "op-de-brug";
+  skos:prefLabel "op de brug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTunnelDwarseIndelingPositie/in-de-tunnel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie>;
+  skos:notation "in-de-tunnel";
+  skos:prefLabel "in de tunnel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTunnelDwarseIndelingPositie/op-de-tunnel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie>;
+  skos:notation "op-de-tunnel";
+  skos:prefLabel "op de tunnel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTunnelDwarseIndelingPositie/achter-de-keermuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie>;
+  skos:notation "achter-de-keermuur";
+  skos:prefLabel "achter de keermuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTunnelDwarseIndelingPositie> .

@@ -1,0 +1,105 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TODO"@nl;
+  skos:prefLabel "Koker gebruikers type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/leiding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "leiding";
+  skos:prefLabel "leiding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/trein> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "trein";
+  skos:prefLabel "trein"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/duiker> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "duiker";
+  skos:prefLabel "duiker"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/wegverkeer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "wegverkeer";
+  skos:prefLabel "wegverkeer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/tram> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "tram";
+  skos:prefLabel "tram"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/metro> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "metro";
+  skos:prefLabel "metro"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/wegverkeer-(tern)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "wegverkeer-(tern)";
+  skos:prefLabel "wegverkeer (TERN)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/ruiter> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "ruiter";
+  skos:prefLabel "ruiter"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/voetgangers-en-of-fietsers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "voetgangers-en-of-fietsers";
+  skos:prefLabel "voetgangers en of fietsers"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/hevelduiker> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "hevelduiker";
+  skos:prefLabel "hevelduiker"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/ecopassage> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "ecopassage";
+  skos:prefLabel "ecopassage"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKokerGebruikersType/autosnelweg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType>;
+  skos:notation "autosnelweg";
+  skos:prefLabel "autosnelweg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKokerGebruikersType> .

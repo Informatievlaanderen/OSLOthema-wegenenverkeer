@@ -6,7 +6,7 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Modelnamen voor Netwerkkaarten."@nl;
-  skos:prefLabel "Netwerkkaart type"@nl.
+  skos:prefLabel "Netwerkkaart modelnaam"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/LKA48> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -24,14 +24,6 @@
   skos:prefLabel "PSM-12V"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/NTK552AB> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
-  skos:notation "NTK552AB";
-  skos:prefLabel "NTK552AB"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/ddm-8-3441> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "DDM-8-3441"@nl;
@@ -46,6 +38,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
   skos:notation "ntk669am";
   skos:prefLabel "NTK669AM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/F10E-T90-TN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "F10E-T90-TN";
+  skos:prefLabel "F10E-T90-TN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/n-100-a80> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "N-100-A80"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "n-100-a80";
+  skos:prefLabel "N-100-A80"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/Other> a skos:Concept;
@@ -110,6 +118,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
   skos:notation "CN-OPS-2";
   skos:prefLabel "CN-OPS-2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/dcdm-8he> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "DCDM-8HE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "dcdm-8he";
+  skos:prefLabel "DCDM-8HE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/NTK552AB> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "NTK552AB";
+  skos:prefLabel "NTK552AB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/NTK505YA> a skos:Concept;
@@ -312,14 +336,6 @@
   skos:prefLabel "CN-C4L-00"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/dcdm-8he> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "DCDM-8HE"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
-  skos:notation "dcdm-8he";
-  skos:prefLabel "DCDM-8HE"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/LKA58> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -352,22 +368,6 @@
   skos:prefLabel "CN-100-C4L"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/n-100-a80> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "N-100-A80"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
-  skos:notation "n-100-a80";
-  skos:prefLabel "N-100-A80"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/F10E-T90-TN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
-  skos:notation "F10E-T90-TN";
-  skos:prefLabel "F10E-T90-TN"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/CN-200-RBS> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -376,12 +376,28 @@
   skos:prefLabel "CN-200-RBS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/dcmd-8he> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DCMD-8HE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "dcmd-8he";
+  skos:prefLabel "DCMD-8HE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/NTK505DA> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
   skos:notation "NTK505DA";
   skos:prefLabel "NTK505DA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/cn-100-a80> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "CN-100-A80"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "cn-100-a80";
+  skos:prefLabel "CN-100-A80"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/CN-100-C80> a skos:Concept;

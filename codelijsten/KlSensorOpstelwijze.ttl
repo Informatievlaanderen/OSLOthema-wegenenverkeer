@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Sensor opstelwijzen."@nl;
   skos:prefLabel "Sensor opstelwijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSensorOpstelwijze/rechtstreeks-op-rechte-steun> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "rechtstreeks-op-rechte-steun"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze>;
+  skos:notation "rechtstreeks-op-rechte-steun";
+  skos:prefLabel "rechtstreeks-op-rechte-steun"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze> .

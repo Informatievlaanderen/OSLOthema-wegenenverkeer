@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lichtsensor merken."@nl;
   skos:prefLabel "Lichtsensor merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtsensorMerk/schreder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "schreder"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerk>;
+  skos:notation "schreder";
+  skos:prefLabel "schreder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerk> .

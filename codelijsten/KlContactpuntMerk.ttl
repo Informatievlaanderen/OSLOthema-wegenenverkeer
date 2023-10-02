@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van merknamen van contactpunten volgens de fabrikant."@nl;
   skos:prefLabel "Merknamen contactpunten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactpuntMerk/heinen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "heinen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk>;
+  skos:notation "heinen";
+  skos:prefLabel "heinen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk> .

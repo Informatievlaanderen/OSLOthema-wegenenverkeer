@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van modelnamen van contactpunten volgens de fabrikant."@nl;
   skos:prefLabel "Modelnamen contactpunten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactpuntModelnaam/aritech-dc-107> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "aritech-dc-107"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntModelnaam>;
+  skos:notation "aritech-dc-107";
+  skos:prefLabel "aritech-dc-107"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntModelnaam> .

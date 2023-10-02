@@ -8,28 +8,20 @@
   skos:definition "IoT-sensor parameters."@nl;
   skos:prefLabel "IoT-sensor parameter"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/vibraties> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vibraties"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
+  skos:notation "vibraties";
+  skos:prefLabel "Vibraties"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/rek> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rek"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
   skos:notation "rek";
   skos:prefLabel "Rek"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/vibraties-of-trillingen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Vibraties of trillingen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
-  skos:notation "vibraties-of-trillingen";
-  skos:prefLabel "Vibraties of trillingen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/hoekverdraaiing> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Hoekverdraaiing"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
-  skos:notation "hoekverdraaiing";
-  skos:prefLabel "Hoekverdraaiing"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/verplaatsing> a skos:Concept;
@@ -46,4 +38,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
   skos:notation "temperatuur";
   skos:prefLabel "Temperatuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/hoekverdraaiing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hoekverdraaiing"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
+  skos:notation "hoekverdraaiing";
+  skos:prefLabel "Hoekverdraaiing"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorParameter/vibraties-of-trillingen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Vibraties of trillingen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter>;
+  skos:notation "vibraties-of-trillingen";
+  skos:prefLabel "Vibraties of trillingen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorParameter> .

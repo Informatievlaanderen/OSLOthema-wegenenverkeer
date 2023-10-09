@@ -7,3 +7,59 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van een deur."@nl;
   skos:prefLabel "Deur type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/nooddeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Nooddeur"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "nooddeur";
+  skos:prefLabel "Nooddeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/vluchtdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deur voor het ontvluchten in geval van calamiteiten weg van de incidentlocatie naar een veilige zone. Een vluchtdeur wordt onder alle omstandigheden zonder sleutel geopend en dit met beperkte kracht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "vluchtdeur";
+  skos:prefLabel "Vluchtdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/kopdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vluchtdeur aan de kop van een middenkoker, waarlangs de middenkoker kan worden verlaten richting de verzamelplaats (het eindpunt van een vluchtroute)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "kopdeur";
+  skos:prefLabel "Kopdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/branddeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Branddeur"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "branddeur";
+  skos:prefLabel "Branddeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/toegangsdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Elke deur die geen specifieke rol vervult."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "toegangsdeur";
+  skos:prefLabel "Toegangsdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/interventiedeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deur die de hulpdiensten aanvullende toetredingsroutes bieden naar een incidentkoker vanuit een andere koker."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "interventiedeur";
+  skos:prefLabel "Interventiedeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDeurType/dienstdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deur die technische lokalen of ruimten, waar zich technische installaties bevinden, afsluit. De lokalen of ruimten zijn enkel toegankelijk voor bevoegden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType>;
+  skos:notation "dienstdeur";
+  skos:prefLabel "Dienstdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDeurType> .

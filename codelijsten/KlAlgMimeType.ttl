@@ -64,6 +64,14 @@
   skos:prefLabel "image/dxf"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/application-json> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "application/json"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
+  skos:notation "application-json";
+  skos:prefLabel "application/json"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/application-pdf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

@@ -32,12 +32,12 @@
   skos:prefLabel "M5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/M2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m3-0> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "M2"@nl;
+  skos:definition "M3+0"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
-  skos:notation "M2";
-  skos:prefLabel "M2"@nl;
+  skos:notation "m3-0";
+  skos:prefLabel "M3+0"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/C2> a skos:Concept;
@@ -46,14 +46,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
   skos:notation "C2";
   skos:prefLabel "C2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/P4> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "P4"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
-  skos:notation "P4";
-  skos:prefLabel "P4"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/ZL> a skos:Concept;
@@ -78,6 +70,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
   skos:notation "zl3";
   skos:prefLabel "ZL3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m3-p4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "M3+P4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "m3-p4";
+  skos:prefLabel "M3+P4"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/M4> a skos:Concept;
@@ -110,6 +110,38 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
   skos:notation "zr3";
   skos:prefLabel "ZR3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m3-c4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "M3+C4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "m3-c4";
+  skos:prefLabel "M3+C4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/M2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "M2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "M2";
+  skos:prefLabel "M2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m4-p4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "M4+P4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "m4-p4";
+  skos:prefLabel "M4+P4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/P4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "P4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "P4";
+  skos:prefLabel "P4"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/c5> a skos:Concept;

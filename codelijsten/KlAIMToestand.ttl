@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "AIM toestand"@nl;
+  skos:definition "Keuzelijst met fasen uit de levenscyclus van een object om de toestand op een moment mee vast te leggen."@nl;
   skos:prefLabel "AIM toestand"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/verwijderd> a skos:Concept;
@@ -14,6 +14,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "verwijderd";
   skos:prefLabel "verwijderd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-ontwerp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in ontwerp"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "in-ontwerp";
+  skos:prefLabel "in ontwerp"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/overgedragen> a skos:Concept;
@@ -29,23 +37,7 @@
   skos:definition "in gebruik"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "in-gebruik";
-  skos:prefLabel "in-gebruik"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-ontwerp> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in ontwerp"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "in-ontwerp";
-  skos:prefLabel "in-ontwerp"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-opbouw> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in opbouw"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "in-opbouw";
-  skos:prefLabel "in-opbouw"@nl;
+  skos:prefLabel "in gebruik"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/uit-gebruik> a skos:Concept;
@@ -53,7 +45,7 @@
   skos:definition "uit gebruik"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "uit-gebruik";
-  skos:prefLabel "uit-gebruik"@nl;
+  skos:prefLabel "uit gebruik"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/gepland> a skos:Concept;
@@ -70,4 +62,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "geannuleerd";
   skos:prefLabel "geannuleerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-opbouw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in opbouw"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "in-opbouw";
+  skos:prefLabel "in opbouw"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .

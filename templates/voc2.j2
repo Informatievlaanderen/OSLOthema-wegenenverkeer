@@ -200,13 +200,9 @@
                                     <div class="grid">
                                         <p>
                                             |
-                                     {% for class in classes | sort(attribute=sortattr) %}
+											{% for class in classes | sort(attribute=sortattr) %}
                                             <a href="{{ class.uri  | replace(metadata.uri, '') }}" rel="class">{{ class.name}}</a> |
-                                            {% endfor %}
-											
-							
-					  
-					  
+                                            {% endfor %}														  
                                         </p>
                                     </div>
                                 </div>
@@ -304,7 +300,7 @@
 
                                 {% for property in properties | sort(attribute=sortattr) %}
                                 <div class="region region--no-space-top">
-                                    <h3 class="h3"  id="{{ property.uri | replace(metadata.uri + '#', '') }}">Eigenschap <em>{{  property.name }}</em></h3>
+                                    <h3 class="h3"  id="{{ property.uri | replace(metadata.uri + '#', '') }}">Eigenschap <em>{{  property.name[language] }}</em></h3>
                                     <table class="definition">
                                         <tbody>
                                           <tr>

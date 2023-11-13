@@ -24,6 +24,14 @@
   skos:prefLabel "Swarco Nederland"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/rhdhv> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Royal HaskoningDHV"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS>;
+  skos:notation "rhdhv";
+  skos:prefLabel "RHDHV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/peek> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Peek"@nl;

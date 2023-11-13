@@ -8,6 +8,14 @@
   skos:definition "Het type van de brugdekvoeg."@nl;
   skos:prefLabel "Type brugdekvoeg"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/klauwprofiel-met-voegband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Klauwprofiel met voegband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:notation "klauwprofiel-met-voegband";
+  skos:prefLabel "Klauwprofiel met voegband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/getande-voeg-met-voegband> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Brugdekvoeg van het type klauwprofiel, met voegband."@nl;

@@ -1,61 +1,57 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van de brugdekvoeg."@nl;
   skos:prefLabel "Type brugdekvoeg"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/getande-voeg-met-voegband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/klauwprofiel-met-voegband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Klauwprofiel met voegband"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:notation "klauwprofiel-met-voegband";
+  skos:prefLabel "Klauwprofiel met voegband"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/getande-voeg-met-voegband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Brugdekvoeg van het type klauwprofiel, met voegband."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
   skos:notation "getande-voeg-met-voegband";
   skos:prefLabel "Getande voeg met voegband"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/niet-gekend> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/niet-gekend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type brugdekvoeg is niet gekend."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
   skos:notation "niet-gekend";
   skos:prefLabel "Niet gekend"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/getande-voeg-zonder-voegband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/getande-voeg-zonder-voegband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Brugdekvoeg van het type klauwprofiel, zonder voegband."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
   skos:notation "getande-voeg-zonder-voegband";
   skos:prefLabel "Getande voeg zonder voegband"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/polymeer-voeg> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/polymeer-voeg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "(Flexibele) voegovergang op basis van polymeren."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
   skos:notation "polymeer-voeg";
   skos:prefLabel "Polymeer voeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/compound-voeg> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/compound-voeg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "(Flexibele) voegovergang op basis van bitumen (compoundvoeg)."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
   skos:notation "compound-voeg";
   skos:prefLabel "Compound voeg"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
-
-
-
-
-
-
-
-
-
-
-
-
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .

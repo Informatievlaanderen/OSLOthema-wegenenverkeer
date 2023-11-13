@@ -8,6 +8,14 @@
   skos:definition "De soort van oplegging."@nl;
   skos:prefLabel "Type oplegging"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/rubber-oplegging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Rubber oplegging"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
+  skos:notation "rubber-oplegging";
+  skos:prefLabel "Rubber oplegging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/stalen-oplegging-roloplegging> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rolopleggingen bieden een oplossing voor het overdragen van oplegkrachten verticaal en horizontaal en tegelijkertijd ook het mogelijk maken van translaties en kleine rotaties met een geringe weerstand."@nl;

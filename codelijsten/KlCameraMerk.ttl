@@ -8,6 +8,14 @@
   skos:definition "Het merk van de camera."@nl;
   skos:prefLabel "Camera merk"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/macq> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Macq"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "macq";
+  skos:prefLabel "Macq"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/bosch> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bosch"@nl;

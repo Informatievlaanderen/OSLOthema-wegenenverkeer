@@ -16,6 +16,14 @@
   skos:prefLabel "Siqura"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/nvt-phybridge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NVT Phybridge"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk>;
+  skos:notation "nvt-phybridge";
+  skos:prefLabel "NVT Phybridge"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerMerk/bosch> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bosch"@nl;

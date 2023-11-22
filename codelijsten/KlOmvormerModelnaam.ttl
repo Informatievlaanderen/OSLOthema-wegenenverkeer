@@ -31,3 +31,11 @@
   skos:notation "s-60-e-v2";
   skos:prefLabel "S-60 E V2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/nv-eclk-bse> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NV-ECLK-BSE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
+  skos:notation "nv-eclk-bse";
+  skos:prefLabel "NV-ECLK-BSE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .

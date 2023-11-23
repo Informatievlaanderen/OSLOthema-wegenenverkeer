@@ -18,8 +18,16 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/bm-technics> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "BM Technics"@nl;
+  skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk>;
   skos:notation "bm-technics";
   skos:prefLabel "BM Technics"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/hormann> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HÃƒÂ¶rmann"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk>;
+  skos:notation "hormann";
+  skos:prefLabel "Hormann"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .

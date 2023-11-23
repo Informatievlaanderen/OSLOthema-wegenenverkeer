@@ -24,6 +24,14 @@
   skos:prefLabel "pigmenteerbaar bitumen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVBindmiddel/polymeerbitumen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "polymeerbitumen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel>;
+  skos:notation "polymeerbitumen";
+  skos:prefLabel "polymeerbitumen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVBindmiddel/gewoon-wegenbitumen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "gewoon wegenbitumen"@nl;
@@ -46,14 +54,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel>;
   skos:notation "met-polymeren-gemodificeerd-kleurloos-synthetisch-bindmiddel";
   skos:prefLabel "met polymeren gemodificeerd kleurloos synthetisch bindmiddel"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVBindmiddel/polymeerbitumen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "polymeerbitumen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel>;
-  skos:notation "polymeerbitumen";
-  skos:prefLabel "polymeerbitumen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVBindmiddel> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVBindmiddel/niet-gespecifieerd-(keuze-van-de-aannemer)> a skos:Concept;

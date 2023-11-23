@@ -8,52 +8,12 @@
   skos:definition "Soorten van kantopsluiting."@nl;
   skos:prefLabel "Kantopsluiting soort"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-kantstroken-en-watergreppels> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/hoekstukken-van-betonnen-trottoirbanden> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen kantstroken en watergreppels."@nl;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde hoekstukken van betonnen trottoirbanden."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "betonnen-kantstroken-en-watergreppels";
-  skos:prefLabel "betonnen kantstroken en watergreppels"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/watergreppels-in-gietasfalt> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Watergreppels in gietasfalt."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "watergreppels-in-gietasfalt";
-  skos:prefLabel "watergreppels in gietasfalt"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/kantstroken-of-watergreppels-in-betonstraatstenen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Kantstroken en watergreppels in betonstraatstenen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "kantstroken-of-watergreppels-in-betonstraatstenen";
-  skos:prefLabel "kantstroken of watergreppels in betonstraatstenen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-schampkant> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprefabriceerde of ter plaatste vervaardigde schampkant."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "betonnen-schampkant";
-  skos:prefLabel "betonnen schampkant"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/trottoirbanden-van-natuursteen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Trottoirbanden van natuursteen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "trottoirbanden-van-natuursteen";
-  skos:prefLabel "trottoirbanden van natuursteen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-trottoirbanden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "betonnen-trottoirbanden";
-  skos:prefLabel "betonnen trottoirbanden"@nl;
+  skos:notation "hoekstukken-van-betonnen-trottoirbanden";
+  skos:prefLabel "hoekstukken van betonnen trottoirbanden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-overgangstrottoirbanden> a skos:Concept;
@@ -64,28 +24,52 @@
   skos:prefLabel "betonnen overgangstrottoirbanden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/hoekstukken-van-betonnen-trottoirbanden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprefabriceerde of ter plaatste vervaardigde hoekstukken van betonnen trottoirbanden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "hoekstukken-van-betonnen-trottoirbanden";
-  skos:prefLabel "hoekstukken van betonnen trottoirbanden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-trottoirbanden-voor-mindervaliden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden voor minder_validen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "betonnen-trottoirbanden-voor-mindervaliden";
-  skos:prefLabel "betonnen trottoirbanden voor mindervaliden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-trottoirbanden-watergreppels> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden_watergreppels."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
   skos:notation "betonnen-trottoirbanden-watergreppels";
   skos:prefLabel "betonnen trottoirbanden-watergreppels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/watergreppels-in-gietasfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Watergreppels in gietasfalt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "watergreppels-in-gietasfalt";
+  skos:prefLabel "watergreppels in gietasfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-perronbanden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Perronbanden of bushaltebanden maken het mogelijk om passagiers gemakkelijk en vooral veilig te laten in- en uitstappen. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "betonnen-perronbanden";
+  skos:prefLabel "betonnen perronbanden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-kantstroken-en-watergreppels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen kantstroken en watergreppels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "betonnen-kantstroken-en-watergreppels";
+  skos:prefLabel "betonnen kantstroken en watergreppels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/kantstroken-of-watergreppels-in-betonstraatstenen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Kantstroken en watergreppels in betonstraatstenen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "kantstroken-of-watergreppels-in-betonstraatstenen";
+  skos:prefLabel "kantstroken of watergreppels in betonstraatstenen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-kantstroken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen kantstroken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "betonnen-kantstroken";
+  skos:prefLabel "betonnen kantstroken"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/hoekstukken-van-betonnen-trottoirbanden-watergreppels> a skos:Concept;
@@ -96,12 +80,36 @@
   skos:prefLabel "hoekstukken van betonnen trottoirbanden-watergreppels"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-kantstroken> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-schampkant> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen kantstroken."@nl;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde schampkant."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
-  skos:notation "betonnen-kantstroken";
-  skos:prefLabel "betonnen kantstroken"@nl;
+  skos:notation "betonnen-schampkant";
+  skos:prefLabel "betonnen schampkant"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-trottoirbanden-voor-mindervaliden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden voor minder_validen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "betonnen-trottoirbanden-voor-mindervaliden";
+  skos:prefLabel "betonnen trottoirbanden voor mindervaliden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-trottoirbanden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geprefabriceerde of ter plaatste vervaardigde betonnen trottoirbanden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "betonnen-trottoirbanden";
+  skos:prefLabel "betonnen trottoirbanden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/trottoirbanden-van-natuursteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Trottoirbanden van natuursteen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort>;
+  skos:notation "trottoirbanden-van-natuursteen";
+  skos:prefLabel "trottoirbanden van natuursteen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingSoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEKantopsluitingSoort/betonnen-watergreppels> a skos:Concept;

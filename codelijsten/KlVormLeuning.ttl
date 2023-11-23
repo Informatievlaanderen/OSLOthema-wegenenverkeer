@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De keuzelijst die de verschillende opties van vormen voor een leuning bevat."@nl;
   skos:prefLabel "Vorm leuning"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormLeuning/rechthoekig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormLeuning>;
+  skos:notation "rechthoekig";
+  skos:prefLabel "Rechthoekig"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormLeuning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormLeuning/getrapt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormLeuning>;
+  skos:notation "getrapt";
+  skos:prefLabel "Getrapt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormLeuning> .

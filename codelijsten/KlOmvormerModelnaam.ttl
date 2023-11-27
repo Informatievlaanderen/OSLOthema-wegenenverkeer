@@ -8,6 +8,14 @@
   skos:definition "De modelnaam van de omvormer."@nl;
   skos:prefLabel "Omvormer modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/nv-eclk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NV-ECLK"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
+  skos:notation "nv-eclk";
+  skos:prefLabel "NV-ECLK"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/c4l6400-eoc-p> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "C4L6400 EOC P"@nl;
@@ -16,20 +24,20 @@
   skos:prefLabel "C4L6400 EOC P"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/kc-300d-c> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "KC300D C"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
-  skos:notation "kc-300d-c";
-  skos:prefLabel "KC 300D C"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/s-60-e-v2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "S-60 E V2"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
   skos:notation "s-60-e-v2";
   skos:prefLabel "S-60 E V2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/kc-300d-c> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KC300D C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam>;
+  skos:notation "kc-300d-c";
+  skos:prefLabel "KC 300D C"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerModelnaam/nv-eclk-bse> a skos:Concept;

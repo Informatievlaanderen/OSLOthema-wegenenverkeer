@@ -8,12 +8,12 @@
   skos:definition "Keuzelijst met de verschillende types schanskorven."@nl;
   skos:prefLabel "Type schanskorf"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/5-x-7> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/4-5-x-4-5> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "4.5 x 4.5"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf>;
-  skos:notation "5-x-7";
-  skos:prefLabel "5 x 7"@nl;
+  skos:notation "4-5-x-4-5";
+  skos:prefLabel "4.5 x 4.5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/6-x-8> a skos:Concept;
@@ -22,4 +22,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf>;
   skos:notation "6-x-8";
   skos:prefLabel "6 x 8"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/5-x-7> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf>;
+  skos:notation "5-x-7";
+  skos:prefLabel "5 x 7"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf> .

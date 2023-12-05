@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke merken voor een segmentcontroller."@nl;
   skos:prefLabel "Segmentcontroller merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSegmentcontrollerMerk/smartnodes> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SmartNodes"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSegmentcontrollerMerk>;
+  skos:notation "smartnodes";
+  skos:prefLabel "SmartNodes"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSegmentcontrollerMerk> .

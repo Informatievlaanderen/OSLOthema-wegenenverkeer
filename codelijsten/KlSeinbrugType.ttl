@@ -8,14 +8,6 @@
   skos:definition "Types van seinbrug."@nl;
   skos:prefLabel "Seinbrug type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/koker> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
-  skos:notation "koker";
-  skos:prefLabel "koker"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/nietDoorlopendeBuis> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -24,12 +16,12 @@
   skos:prefLabel "nietDoorlopendeBuis"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/vakwerk> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/dubbeleligger> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "dubbeleLigger"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
-  skos:notation "vakwerk";
-  skos:prefLabel "vakwerk"@nl;
+  skos:notation "dubbeleligger";
+  skos:prefLabel "dubbeleLigger"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/enkeleLigger> a skos:Concept;
@@ -38,4 +30,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
   skos:notation "enkeleLigger";
   skos:prefLabel "enkeleLigger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/koker> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
+  skos:notation "koker";
+  skos:prefLabel "koker"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/vakwerk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType>;
+  skos:notation "vakwerk";
+  skos:prefLabel "vakwerk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType> .

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De soorten aandachtspunten voor toegang tot een object."@nl;
   skos:prefLabel "Toegangsprocedure aandachtspunt"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/hoogtewerker-nodig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "hoogtewerker nodig"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt>;
+  skos:notation "hoogtewerker-nodig";
+  skos:prefLabel "hoogtewerker nodig"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/botser-nodig> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "botser nodig"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt>;
+  skos:notation "botser-nodig";
+  skos:prefLabel "botser nodig"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/niet-machinaal-bereikbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object kan niet bereikt worden met een machine voor bijvoorbeeld reiniging, onderhoud of vervanging."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt>;
+  skos:notation "niet-machinaal-bereikbaar";
+  skos:prefLabel "niet machinaal bereikbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt> .

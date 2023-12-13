@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De bewegingsvrijheid in het vlak bij een oplegging."@nl;
   skos:prefLabel "Bewegingsvrijheid in vlak bij oplegging"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingsvrijheidInVlakBijOplegging/vast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vast"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging>;
+  skos:notation "vast";
+  skos:prefLabel "vast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingsvrijheidInVlakBijOplegging/dwars-beweegbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "dwars beweegbaar"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging>;
+  skos:notation "dwars-beweegbaar";
+  skos:prefLabel "dwars beweegbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingsvrijheidInVlakBijOplegging/langs-beweegbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "langs beweegbaar"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging>;
+  skos:notation "langs-beweegbaar";
+  skos:prefLabel "langs beweegbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewegingsvrijheidInVlakBijOplegging/alzijdig-beweegbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "alzijdig beweegbaar"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging>;
+  skos:notation "alzijdig-beweegbaar";
+  skos:prefLabel "alzijdig beweegbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewegingsvrijheidInVlakBijOplegging> .

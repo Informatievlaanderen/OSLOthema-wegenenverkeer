@@ -56,6 +56,14 @@
   skos:prefLabel "liggerbrug - balk(en) met veranderlijke hoogte"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/integraalbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een specifiek type brug waarbij het rijdek monoliet is verbonden aan de onderliggende constructie (onderbouw)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:notation "integraalbrug";
+  skos:prefLabel "integraalbrug"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/bowstringbrug> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dit brugtype wordt toegepast voor overspanningen van 60 tot 200 meter. Een bowstringbrug bestaat uit twee hoofdcomponenten: de boog (bow) en een trekker (string). Deze brug kan geen spatkrachten uitoefenen op de funderingen en is in zijn geheel verplaatsbaar."@nl;

@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type nutsvoorziening van een straatkap verwijst naar de specifieke aard van de nutsinfrastructuur waartoe het deksel toegang biedt."@nl;
   skos:prefLabel "Type nutsvoorziening"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeNutsvoorziening/gas> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gas"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening>;
+  skos:notation "gas";
+  skos:prefLabel "gas"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeNutsvoorziening/elektriciteit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "elektriciteit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening>;
+  skos:notation "elektriciteit";
+  skos:prefLabel "elektriciteit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeNutsvoorziening/brandkraan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "brandkraan"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening>;
+  skos:notation "brandkraan";
+  skos:prefLabel "brandkraan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeNutsvoorziening/water> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "water"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening>;
+  skos:notation "water";
+  skos:prefLabel "water"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeNutsvoorziening/telecom> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "telecom"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening>;
+  skos:notation "telecom";
+  skos:prefLabel "telecom"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeNutsvoorziening> .

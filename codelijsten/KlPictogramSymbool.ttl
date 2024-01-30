@@ -16,20 +16,12 @@
   skos:prefLabel "nooddeurnummer"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/nummer-veiligheidsnis> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/verbodsbord> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
-  skos:notation "nummer-veiligheidsnis";
-  skos:prefLabel "nummer veiligheidsnis"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-bovengronds-(H)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
-  skos:notation "hydrant-bovengronds-(H)";
-  skos:prefLabel "hydrant bovengronds (H)"@nl;
+  skos:notation "verbodsbord";
+  skos:prefLabel "verbodsbord"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-ondergronds-(B)> a skos:Concept;
@@ -40,6 +32,30 @@
   skos:prefLabel "hydrant ondergronds (B)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtend-persoon> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "vluchtend-persoon";
+  skos:prefLabel "vluchtend persoon"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/hydrant-bovengronds-(H)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "hydrant-bovengronds-(H)";
+  skos:prefLabel "hydrant bovengronds (H)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/nummer-veiligheidsnis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "nummer-veiligheidsnis";
+  skos:prefLabel "nummer veiligheidsnis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/tunnelnaam> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -48,20 +64,12 @@
   skos:prefLabel "tunnelnaam"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/verbodsbord> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtroute> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "Aankondiging van de dichtstbijzijnde nooduitgang, in de aangeduide richting. De afstand in meter is aangeduid op het pictogram (F52bis)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
-  skos:notation "verbodsbord";
-  skos:prefLabel "verbodsbord"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtend-persoon> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
-  skos:notation "vluchtend-persoon";
-  skos:prefLabel "vluchtend persoon"@nl;
+  skos:notation "vluchtroute";
+  skos:prefLabel "vluchtroute"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/halte> a skos:Concept;

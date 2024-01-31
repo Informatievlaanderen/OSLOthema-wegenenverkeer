@@ -8,12 +8,28 @@
   skos:definition "Lijst van types voor Netwerkpoort."@nl;
   skos:prefLabel "Netwerkpoort type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/UNI> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "User-Network-Interface: deze poort verbindt het netwerk toestel direct met de poort van een gebruiker"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "UNI";
+  skos:prefLabel "UNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NULL> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geen interface."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
   skos:notation "NULL";
   skos:prefLabel "NULL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/i-uni> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Internal User-Network-Interface: deze poort verbindt het netwerk toestel via een link met de poort van een gebruiker."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "i-uni";
+  skos:prefLabel "i-UNI"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/ncni> a skos:Concept;
@@ -32,18 +48,18 @@
   skos:prefLabel "Other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/e-nni> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "External Network-Network-Interface: deze poort verbindt het netwerk toestel met een ander netwerk toestel van een andere netwerk technologie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "e-nni";
+  skos:prefLabel "e-NNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/NNI> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Network-Network-Interface: deze poort verbindt het netwerk toestel met een poort van een ander netwerk toestel."@nl;
+  skos:definition "Network-Network-Interface: deze poort verbindt het netwerk toestel met een ander netwerk toestel binnen eenzelfde netwerk technologie"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
   skos:notation "NNI";
   skos:prefLabel "NNI"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/UNI> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "User-Network-Interface: deze poort verbindt het netwerk toestel met de poort van een gebruiker."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
-  skos:notation "UNI";
-  skos:prefLabel "UNI"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .

@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De specificatie van type grond bij uitgraving."@nl;
+  skos:prefLabel "Uitgraving soorten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitgravingSoorten/plaatselijke-uitvoering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De uitgraving van grond in functie van plaatselijke uitvoering."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten>;
+  skos:notation "plaatselijke-uitvoering";
+  skos:prefLabel "plaatselijke uitvoering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitgravingSoorten/losse-grond> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitgraving van losse grond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten>;
+  skos:notation "losse-grond";
+  skos:prefLabel "losse grond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitgravingSoorten/rotsachtige-grond> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitgraving in rotsachtige grond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten>;
+  skos:notation "rotsachtige-grond";
+  skos:prefLabel "rotsachtige grond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitgravingSoorten/compacte-grond> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitgraving in compacte grond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten>;
+  skos:notation "compacte-grond";
+  skos:prefLabel "compacte grond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitgravingSoorten> .

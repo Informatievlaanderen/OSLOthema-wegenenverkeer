@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuzelijst voor de verschillende materialen waaruit een batterij gemaakt kan zijn."@nl;
+  skos:prefLabel "Batterij materiaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMateriaal/lithium-ion-(li-ion)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal>;
+  skos:notation "lithium-ion-(li-ion)";
+  skos:prefLabel "Lithium-ion (Li-ion)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMateriaal/nikkel-cadmium-(nicd)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal>;
+  skos:notation "nikkel-cadmium-(nicd)";
+  skos:prefLabel "Nikkel-cadmium (NiCd)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMateriaal/nikkel-metaalhydride-(nimh)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal>;
+  skos:notation "nikkel-metaalhydride-(nimh)";
+  skos:prefLabel "Nikkel-metaalhydride (NiMH)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMateriaal/loodaccu-(pb)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal>;
+  skos:notation "loodaccu-(pb)";
+  skos:prefLabel "Loodaccu (Pb)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMateriaal> .

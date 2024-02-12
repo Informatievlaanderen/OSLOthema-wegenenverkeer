@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De soort van de boorpaal."@nl;
+  skos:prefLabel "Type boorpaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBoorpaal/met-voerbuis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een metalen voerbuis wordt mechanisch in de grond gedreven, waarna de grond, die zich binnen de voerbuis bevindt, er wordt uitgehaald. De metalen voerbuis wordt geleidelijk uitgetrokken, nadat het betonneren werd aangevat."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal>;
+  skos:notation "met-voerbuis";
+  skos:prefLabel "Met voerbuis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBoorpaal/met-bentoniet-zonder-voerbuis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Er is geen voerbuis nodig. De stabiliteit van het boorgat wordt verzekerd door het inbrengen van een vloeistof met thixotrope eigenschappen (steunvloeistof genoemd). Deze steunvloeistof wordt geleidelijk verdreven door het in het boorgat gestorte beton."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal>;
+  skos:notation "met-bentoniet-zonder-voerbuis";
+  skos:prefLabel "Met bentoniet zonder voerbuis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBoorpaal/met-continue-schroefboor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Er wordt zonder ondersteuning geboord (dit wordt ook 'droog geboord' genoemd)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal>;
+  skos:notation "met-continue-schroefboor";
+  skos:prefLabel "Met continue schroefboor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBoorpaal> .

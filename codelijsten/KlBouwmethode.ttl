@@ -1,0 +1,73 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuzelijst om aan te geven welke bouwmethode gebruikt is om het koker element tot stand te brengen."@nl;
+  skos:prefLabel "type bouwmethode"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/geboord> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "geboord";
+  skos:prefLabel "Geboord"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/doorgeperst> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "doorgeperst";
+  skos:prefLabel "Doorgeperst"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/microtunneling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "microtunneling";
+  skos:prefLabel "Microtunneling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/zink> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "zink";
+  skos:prefLabel "Zink"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/box-in-box> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "box-in-box";
+  skos:prefLabel "Box in Box"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/cut-and-cover> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "cut-and-cover";
+  skos:prefLabel "Cut and Cover"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/paralumen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "paralumen";
+  skos:prefLabel "Paralumen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwmethode/in-situ> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode>;
+  skos:notation "in-situ";
+  skos:prefLabel "In Situ"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwmethode> .

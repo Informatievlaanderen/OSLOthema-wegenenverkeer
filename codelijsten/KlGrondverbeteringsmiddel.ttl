@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het verwerken van bodemverbeteringsmiddelen omvat het gelijkmatig spreiden ervan op bepaalde grondoppervlakken en/of het verwerken in plantputten."@nl;
+  skos:prefLabel "Grondverbeteringsmiddel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/groencompost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Groencompost is een product verkregen door een gecontroleerde aerobe compostering van groenafval tot volledige rijping, voorafgegaan of gevolgd door mechanische behandelingen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel>;
+  skos:notation "groencompost";
+  skos:prefLabel "groencompost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/gft-compost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "GFT-compost is het product verkregen door een gecontroleerde aÃƒÂ«robe compostering van het gescheiden ingezamelde organische deel van het huishoudelijk afval tot volledige rijping."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel>;
+  skos:notation "gft-compost";
+  skos:prefLabel "GFT-compost"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/bezanden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Natuurlijk zand."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel>;
+  skos:notation "bezanden";
+  skos:prefLabel "bezanden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel> .

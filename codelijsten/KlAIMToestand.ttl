@@ -10,64 +10,64 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/verwijderd> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "verwijderd"@nl;
+  skos:definition "  Het object vervult geen functie meer en is fysiek niet meer aanwezig op het terrein."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "verwijderd";
   skos:prefLabel "verwijderd"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-ontwerp> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in ontwerp"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "in-ontwerp";
-  skos:prefLabel "in ontwerp"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/overgedragen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "overgedragen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "overgedragen";
-  skos:prefLabel "overgedragen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-gebruik> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in gebruik"@nl;
+  skos:definition "Het object vervult zijn functie."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "in-gebruik";
   skos:prefLabel "in gebruik"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/uit-gebruik> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-ontwerp> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "uit gebruik"@nl;
+  skos:definition "Het (virtueel) object wordt geselecteerd, geconfigureerd en beschreven. Zowel van toepassing op een voorontwerp als definitief ontwerp."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "uit-gebruik";
-  skos:prefLabel "uit gebruik"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/gepland> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "gepland"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
-  skos:notation "gepland";
-  skos:prefLabel "gepland"@nl;
+  skos:notation "in-ontwerp";
+  skos:prefLabel "in ontwerp"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/geannuleerd> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "geannuleerd"@nl;
+  skos:definition "Het object werd ontworpen maar het ontwerpproces is stopgezet."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "geannuleerd";
   skos:prefLabel "geannuleerd"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/uit-gebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object vervult geen functie (meer) en is fysiek (deels) nog/al aanwezig op het terrein."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "uit-gebruik";
+  skos:prefLabel "uit gebruik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/overgedragen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object was in het beheer van AWV en werd overgedragen aan een andere organisatie of onderneming."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "overgedragen";
+  skos:prefLabel "overgedragen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/in-opbouw> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "in opbouw"@nl;
+  skos:definition "  Het object wordt geïmplementeerd of opgebouwd op het terrein en geïnventariseerd."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
   skos:notation "in-opbouw";
   skos:prefLabel "in opbouw"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAIMToestand/gepland> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "  AIM toestand na ontwerp en voor start opbouw of installatie. Start na het uitsturen van het dienstbevel voor aanvang werken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand>;
+  skos:notation "gepland";
+  skos:prefLabel "gepland"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAIMToestand> .

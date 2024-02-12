@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende types afdichtingen. "@nl;
+  skos:prefLabel "Afdichting type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingType/membraan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een membraan of vlies is een dunne, vlakke structuur die twee ruimtes van elkaar scheidt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType>;
+  skos:notation "membraan";
+  skos:prefLabel "membraan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingType/hars> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hars is een organische vaste of half-vloeibare, vaak kleverige verbinding die meestal lichtgeel en doorschijnend is, onoplosbare is in water, geen of weinig neiging heeft tot kristalliseren, mogelijk kan gaan vloeien als het aan spanningen wordt onderworpen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType>;
+  skos:notation "hars";
+  skos:prefLabel "hars"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingType/gietasfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gietasfalt is een soort asfalt die door zijn overmaat aan bitumen in het mengsel van stenen, zand, vulstof en bitumen zijn waterdichte en dampdichte eigenschap verkrijgt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType>;
+  skos:notation "gietasfalt";
+  skos:prefLabel "gietasfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingType> .

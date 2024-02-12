@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De specificatie van type grond bij ophoging."@nl;
+  skos:prefLabel "Ophoging soorten"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/strandzand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Zand afkomstig van zones gelegen rechtover de op te hogen strandzones vanaf peil (TAW + 2,5 m) tot tegen de waterlijn."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "strandzand";
+  skos:prefLabel "strandzand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/zeezand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Zand gebaggerd op de consessie van de Vlaamse overheid, of de consessie van de opdrachtnemer."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "zeezand";
+  skos:prefLabel "zeezand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/onbevaarbare-waterlopen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het grondwerk aan deze waterlopen heeft tot doel de bedding, ondervlak, taluds, dijken, ontwateringssloten en bermen te verwezenlijken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "onbevaarbare-waterlopen";
+  skos:prefLabel "onbevaarbare waterlopen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/in-den-droge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het droog grondverzet heeft tot doel het baanbed, de wegbermen, de steunbermen, de taluds en de sloten te verwezenlijken."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten>;
+  skos:notation "in-den-droge";
+  skos:prefLabel "in den droge"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten> .

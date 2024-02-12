@@ -1,0 +1,65 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De functie die de wand uitoefent."@nl;
+  skos:prefLabel "Type wand"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/vleugelmuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition " Zijdelingse muur van een landhoofd die in het verlengde ligt van de frontmuur."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "vleugelmuur";
+  skos:prefLabel "vleugelmuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/steunwand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wand die ontworpen is om belastingen te dragen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "steunwand";
+  skos:prefLabel "steunwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/retourmuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Zijdelingse muur van een landhoofd die ongeveer evenwijdig is met de brugas."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "retourmuur";
+  skos:prefLabel "retourmuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/frontmuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition " Muur van een landhoofd die de belastingen van de bovenbouw van de brug afdraagt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "frontmuur";
+  skos:prefLabel "frontmuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/scheenmuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grondkerende muur op de zool of frontmuur van een landhoofd die de voeg ondersteund en de vlotplaat draagt. De scheenmuur draagt geen belastingen van de bovenbouw van de brug af."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "scheenmuur";
+  skos:prefLabel "scheenmuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/binnenwand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wand zonder dragende functie, meestal gebruikt om ruimtes van elkaar te scheiden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "binnenwand";
+  skos:prefLabel "binnenwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/brilwand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wand met een uitsparing/opening voor het doorlaten van een tunnelboormachine."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "brilwand";
+  skos:prefLabel "brilwand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .

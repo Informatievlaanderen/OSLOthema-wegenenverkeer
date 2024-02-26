@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijk types van een bevestigingssteun."@nl;
   skos:prefLabel "Bevestigingssteun type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBevestigingssteunType/baar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een staaf waaraan bv. een antenne kan worden bevestigd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingssteunType>;
+  skos:notation "baar";
+  skos:prefLabel "baar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingssteunType> .

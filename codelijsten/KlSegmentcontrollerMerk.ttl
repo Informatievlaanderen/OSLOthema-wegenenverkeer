@@ -15,3 +15,11 @@
   skos:notation "smartnodes";
   skos:prefLabel "SmartNodes"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSegmentcontrollerMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSegmentcontrollerMerk/lacroix> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lacroix"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSegmentcontrollerMerk>;
+  skos:notation "lacroix";
+  skos:prefLabel "Lacroix"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSegmentcontrollerMerk> .

@@ -72,6 +72,14 @@
   skos:prefLabel "S270GP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/rvs-316-brut> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een staalsoort met een kwaliteit die beter bestand is tegen zouten en zuren."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "rvs-316-brut";
+  skos:prefLabel "RVS 316 brut"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s-460-ml> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "S staat voor Structural steel (constructiestaal), 460 voor de vloeigrens in MPa en ML staat voor thermo mechanisch gewalst staal met min. gespecificeerde kerfslagwaarden onder -50 graden celsius."@nl;

@@ -8,12 +8,20 @@
   skos:definition "Protocol gebruikt door de LED driver voor het aansturen van de LED's."@nl;
   skos:prefLabel "LED stuurprotocol"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/dali> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/dali-2-d4i> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DALI-2 protocol met D4i uitbreiding."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
+  skos:notation "dali-2-d4i";
+  skos:prefLabel "Dali-2 D4i"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/1-10v> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
-  skos:notation "dali";
-  skos:prefLabel "dali"@nl;
+  skos:notation "1-10v";
+  skos:prefLabel "1-10v"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/daliv2> a skos:Concept;
@@ -24,10 +32,10 @@
   skos:prefLabel "daliv2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/1-10v> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverProtocol/dali> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol>;
-  skos:notation "1-10v";
-  skos:prefLabel "1-10v"@nl;
+  skos:notation "dali";
+  skos:prefLabel "dali"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverProtocol> .

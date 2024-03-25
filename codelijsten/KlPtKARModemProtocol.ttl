@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Beschrijft het protocol dat de PT-KAR-Modem gebruikt om te communiceren."@nl;
   skos:prefLabel "PT-KAR-modem protocol"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPtKARModemProtocol/daiser> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DAISER"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtKARModemProtocol>;
+  skos:notation "daiser";
+  skos:prefLabel "DAISER"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPtKARModemProtocol> .

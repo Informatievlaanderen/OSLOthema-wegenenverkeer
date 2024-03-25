@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met merknamen voor PTRegelaarModule."@nl;
   skos:prefLabel "PT regelaarmodule merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPTRegelaarModuleMerk/adeunis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Adeunis"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk>;
+  skos:notation "adeunis";
+  skos:prefLabel "Adeunis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPTRegelaarModuleMerk/puls> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Puls"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk>;
+  skos:notation "puls";
+  skos:prefLabel "Puls"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPTRegelaarModuleMerk/spie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Spie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk>;
+  skos:notation "spie";
+  skos:prefLabel "Spie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPTRegelaarModuleMerk/moxa> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Moxa"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk>;
+  skos:notation "moxa";
+  skos:prefLabel "Moxa"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPTRegelaarModuleMerk> .

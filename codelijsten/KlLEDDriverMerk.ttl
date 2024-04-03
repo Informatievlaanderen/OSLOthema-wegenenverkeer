@@ -31,3 +31,11 @@
   skos:notation "mean-well";
   skos:prefLabel "Mean Well"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverMerk/signify> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Signify"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverMerk>;
+  skos:notation "signify";
+  skos:prefLabel "Signify"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverMerk> .

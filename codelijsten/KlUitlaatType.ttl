@@ -5,16 +5,8 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De verschillende types van uitlaat."@nl;
+  skos:definition "De verschillende types van riooltoegang."@nl;
   skos:prefLabel "Uitlaat type"@nl.
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitlaatType/inlaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "locatie waar water van een open profiel naar een inbuizing overgaat"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType>;
-  skos:notation "inlaat";
-  skos:prefLabel "inlaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitlaatType/uitlaat> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -22,4 +14,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType>;
   skos:notation "uitlaat";
   skos:prefLabel "uitlaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitlaatType/inlaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "locatie waar water van een open profiel naar een inbuizing overgaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType>;
+  skos:notation "inlaat";
+  skos:prefLabel "inlaat"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitlaatType> .

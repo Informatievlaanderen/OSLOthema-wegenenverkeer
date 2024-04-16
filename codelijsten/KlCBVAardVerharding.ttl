@@ -8,12 +8,28 @@
   skos:definition "Mogelijke waarden voor de aard van de cement/beton verharding."@nl;
   skos:prefLabel "CBV aard verharding"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/ongewapend-beton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/staalvezelbeton-met-deuvels> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Verharding van ongewapend beton."@nl;
+  skos:definition "Verharding van staalvezelbeton met deuvels."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
-  skos:notation "ongewapend-beton";
-  skos:prefLabel "ongewapend beton"@nl;
+  skos:notation "staalvezelbeton-met-deuvels";
+  skos:prefLabel "staalvezelbeton met deuvels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/ongewapend-beton-zonder-deuvels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verharding van ongewapend beton zonder deuvels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:notation "ongewapend-beton-zonder-deuvels";
+  skos:prefLabel "ongewapend beton zonder deuvels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/ongewapend-beton-met-deuvels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verharding van ongewapend beton met deuvels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:notation "ongewapend-beton-met-deuvels";
+  skos:prefLabel "ongewapend beton met deuvels"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/doorgaand-gewapend-beton> a skos:Concept;
@@ -25,17 +41,49 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/gewapend-beton> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Verharding van gewapend beton."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "gewapend-beton";
   skos:prefLabel "gewapend beton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/staalvezelbeton> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/gewapend-beton-zonder-deuvels> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verharding van gewapend beton zonder deuvels"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:notation "gewapend-beton-zonder-deuvels";
+  skos:prefLabel "gewapend beton zonder deuvels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/staalvezelbeton-zonder-deuvels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verharding van staalvezelbeton zonder deuvels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:notation "staalvezelbeton-zonder-deuvels";
+  skos:prefLabel "staalvezelbeton zonder deuvels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/staalvezelbeton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Verharding van staalvezelbeton."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
   skos:notation "staalvezelbeton";
   skos:prefLabel "staalvezelbeton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/gewapend-beton-met-deuvels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verharding van gewapend beton met deuvels."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:notation "gewapend-beton-met-deuvels";
+  skos:prefLabel "gewapend beton met deuvels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCBVAardVerharding/ongewapend-beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Verharding van ongewapend beton."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding>;
+  skos:notation "ongewapend-beton";
+  skos:prefLabel "ongewapend beton"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCBVAardVerharding> .

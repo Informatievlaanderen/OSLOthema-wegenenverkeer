@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het materiaal waaruit de damwand bestaat."@nl;
   skos:prefLabel "Damwand materiaal"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDamwandMateriaal/staal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "staal"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal>;
   skos:notation "staal";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDamwandMateriaal/hout> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "hout"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal>;
   skos:notation "hout";
@@ -25,9 +25,11 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDamwandMateriaal/beton> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "beton"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal>;
   skos:notation "beton";
   skos:prefLabel "beton"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDamwandMateriaal> .
+
+

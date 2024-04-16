@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een keuzelijst met werkingsprincipes van een codeklavier."@nl;
   skos:prefLabel "Codeklavier werking"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCodeklavierWerking/cijfercodeslot> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking>;
   skos:notation "cijfercodeslot";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCodeklavierWerking/drukknop> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking>;
   skos:notation "drukknop";
@@ -25,9 +25,11 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCodeklavierWerking/cijfercodeslot-met-drukknop> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking>;
   skos:notation "cijfercodeslot-met-drukknop";
   skos:prefLabel "cijfercodeslot met drukknop"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCodeklavierWerking> .
+
+

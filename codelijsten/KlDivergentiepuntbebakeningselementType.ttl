@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDivergentiepuntbebakeningselementType> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De vormen van het divergentiepuntbebakeningselement."@nl;
   skos:prefLabel "Divergentiepuntbebakeningselementtype"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDivergentiepuntbebakeningselementType/standaard-model> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Divergentiepuntbebakeningselement van 2 meter diameter (folie type 2)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDivergentiepuntbebakeningselementType>;
   skos:notation "standaard-model";
@@ -17,9 +17,11 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDivergentiepuntbebakeningselementType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDivergentiepuntbebakeningselementType/klein-model> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Divergentiepuntbebakeningselement van 1 meter diameter (folie type 3.a)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDivergentiepuntbebakeningselementType>;
   skos:notation "klein-model";
   skos:prefLabel "klein model"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDivergentiepuntbebakeningselementType> .
+
+

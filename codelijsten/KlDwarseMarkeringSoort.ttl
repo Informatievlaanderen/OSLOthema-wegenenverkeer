@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Soorten van dwarse markering."@nl;
   skos:prefLabel "Dwarse markering soort"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/stopstreep-(alg)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een stopstreep is een witte streep die dwars op de rijbaan is aangebracht. Het geeft aan waar de bestuurders moeten stoppen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "stopstreep-(alg)";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/stopstreep-(ofos)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een stopstreep bij de opgeblazen fietsopstelstrook (OFOS)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "stopstreep-(ofos)";
@@ -25,7 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/voetgangers-oversteekplaats-(vop)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een locatie op de rijbaan die bestemd is voor voetgangers om over te steken."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "voetgangers-oversteekplaats-(vop)";
@@ -33,7 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/verdrijvingsvlak-(arcering)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor het bepalen van het type van dwarse markering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "verdrijvingsvlak-(arcering)";
@@ -41,7 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/driehoek-(haaientand)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Haaietanden is een markering die de bestuurders aangeeft om voorrang te verlenen aan bestuurders op de kruisende weg."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "driehoek-(haaientand)";
@@ -49,7 +49,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/parkeerstrook> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een gemarkeerde parkeergelegenheid langs een rijweg."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "parkeerstrook";
@@ -57,7 +57,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/afremmingsstreep> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Ribbelvlak bestaande uit een aantal permanente dwarse lijnen, ook afremmingsstrepen genoemd"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "afremmingsstreep";
@@ -65,7 +65,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/dambord> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een dambord bakent de plaats af voorbehouden aan voertuigen van geregelde diensten voor gemeenschappelijk vervoer op een bijzondere overrijdbare bedding of de plaats die eigen beddingen en bijzondere overrijdbare beddingen met elkaar verbinden."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "dambord";
@@ -73,7 +73,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/fietsoversteekplaats-met-blokken-(fop)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een oversteekplaats voor fietsers gemarkeerd door witte blokken."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "fietsoversteekplaats-met-blokken-(fop)";
@@ -81,7 +81,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/fietsoversteekplaats-met-lijnen-(fopl)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een oversteekplaats voor fietsers gemarkeerd door witte evenwijdige lijnen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "fietsoversteekplaats-met-lijnen-(fopl)";
@@ -89,7 +89,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/verkeersdrempel-markering> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "?"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "verkeersdrempel-markering";
@@ -97,9 +97,11 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringSoort/onderbroken-verbindingsmarkering> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Markering om de geleiding voor de fietsers te verbeteren en het attentieniveau van een afdraaiend voertuig ten opzichte van de fietsers te verhogen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort>;
   skos:notation "onderbroken-verbindingsmarkering";
   skos:prefLabel "onderbroken verbindingsmarkering"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringSoort> .
+
+

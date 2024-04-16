@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Materialen van de draineerbuis."@nl;
   skos:prefLabel "Draineerbuis materiaal"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraineerbuisMateriaal/geribbelde-draineerbuizen-van-pvc-zonder-kous-volgens-3-26.1.1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geribbelde draineerbuizen van PVC zonder kous volgens 3-26.1.1"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal>;
   skos:notation "geribbelde-draineerbuizen-van-pvc-zonder-kous-volgens-3-26.1.1";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraineerbuisMateriaal/geribbelde-draineerbuizen-van-pvc-met-kous-volgens-3-26.1.1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "geribbelde draineerbuizen van PVC met kous volgens 3-26.1.1"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal>;
   skos:notation "geribbelde-draineerbuizen-van-pvc-met-kous-volgens-3-26.1.1";
@@ -25,7 +25,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraineerbuisMateriaal/draineerbuizen-van-polyethyleen-volgens-3-26.1.2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "draineerbuizen van polyethyleen volgens 3-26.1.2"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal>;
   skos:notation "draineerbuizen-van-polyethyleen-volgens-3-26.1.2";
@@ -33,7 +33,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraineerbuisMateriaal/draineerbuizen-van-gres-volgens-3-26.1.4> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "draineerbuizen van gres volgens 3-26.1.4"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal>;
   skos:notation "draineerbuizen-van-gres-volgens-3-26.1.4";
@@ -41,7 +41,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraineerbuisMateriaal/draineerbuizen-van-beton-volgens-3-26.1.5> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "draineerbuizen van beton volgens 3-26.1.5"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal>;
   skos:notation "draineerbuizen-van-beton-volgens-3-26.1.5";
@@ -49,9 +49,11 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraineerbuisMateriaal/draineerbuizen-van-profielversterkte-hdpe-volgens-3-26.1.6> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "draineerbuizen van profielversterkte HDPE volgens 3-26.1.6"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal>;
   skos:notation "draineerbuizen-van-profielversterkte-hdpe-volgens-3-26.1.6";
   skos:prefLabel "draineerbuizen van profielversterkte HDPE volgens 3-26.1.6"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraineerbuisMateriaal> .
+
+

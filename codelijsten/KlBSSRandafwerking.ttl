@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende manieren van de randafwerking van de verharding."@nl;
+  skos:prefLabel "randafwerking"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBSSRandafwerking/kardinaalsmutsen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een kantsteen die wordt toegepast wanneer de betonstraatsteen in keperverband wordt gestraat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking>;
+  skos:notation "kardinaalsmutsen";
+  skos:prefLabel "kardinaalsmutsen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBSSRandafwerking/biscchopsmutsen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een kantsteen die wordt toegepast wanneer de betonstraatsteen in keperverband wordt gestraat."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking>;
+  skos:notation "biscchopsmutsen";
+  skos:prefLabel "biscchopsmutsen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBSSRandafwerking/gezaagde-betonstraatstenen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een kantsteen, meestal uit hetzelfde materiaal,  die op maat werd gebracht."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking>;
+  skos:notation "gezaagde-betonstraatstenen";
+  skos:prefLabel "gezaagde betonstraatstenen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBSSRandafwerking/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De randafwerking is overbodig. "@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking>;
+  skos:notation "geen";
+  skos:prefLabel "geen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBSSRandafwerking> .

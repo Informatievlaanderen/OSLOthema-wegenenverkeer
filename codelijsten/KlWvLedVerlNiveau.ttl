@@ -1,0 +1,107 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een set van verlichtingstechnische eisen zoals gemiddelde luminantie, verlichtingsterkte, uniformeiten."@nl;
+  skos:prefLabel "WV LED verlichtingsniveau"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "m2";
+  skos:prefLabel "M2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "m3";
+  skos:prefLabel "M3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/m4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "m4";
+  skos:prefLabel "M4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/p3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "p3";
+  skos:prefLabel "P3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/p4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "p4";
+  skos:prefLabel "P4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/p5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "p5";
+  skos:prefLabel "P5"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/c1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "c1";
+  skos:prefLabel "C1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/c2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "c2";
+  skos:prefLabel "C2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/c3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "c3";
+  skos:prefLabel "C3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/c4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "c4";
+  skos:prefLabel "C4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/zr> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "zr";
+  skos:prefLabel "ZR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLedVerlNiveau/zl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau>;
+  skos:notation "zl";
+  skos:prefLabel "ZL"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWvLedVerlNiveau> .
+
+

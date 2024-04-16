@@ -1,0 +1,51 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Types van waterdoorlatende betonstraatstenen en betontegels."@nl;
+  skos:prefLabel "WBSS type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWBSSType/grijze> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "grijze waterdoorlatende betonstraatstenen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType>;
+  skos:notation "grijze";
+  skos:prefLabel "grijze"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWBSSType/gekleurde-met-anorganische-pigmenten> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gekleurde waterdoorlatende betonstraatstenen met anorganische pigmenten"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType>;
+  skos:notation "gekleurde-met-anorganische-pigmenten";
+  skos:prefLabel "gekleurde met anorganische pigmenten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWBSSType/gekleurde-met-kleurondersteunende-granulaten> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gekleurde waterdoorlatende betonstraatstenen met kleurondersteunende granulaten"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType>;
+  skos:notation "gekleurde-met-kleurondersteunende-granulaten";
+  skos:prefLabel "gekleurde met kleurondersteunende granulaten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWBSSType/witte-met-kleurondersteunende-granulaten> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "witte waterdoorlatende betonstraatstenen met kleurondersteunende granulaten"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType>;
+  skos:notation "witte-met-kleurondersteunende-granulaten";
+  skos:prefLabel "witte met kleurondersteunende granulaten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWBSSType/waterdoorlatende-betontegel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "waterdoorlatende betontegel"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType>;
+  skos:notation "waterdoorlatende-betontegel";
+  skos:prefLabel "waterdoorlatende betontegel"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWBSSType> .
+
+

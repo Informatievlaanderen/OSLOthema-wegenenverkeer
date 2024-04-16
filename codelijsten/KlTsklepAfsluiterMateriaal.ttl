@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Materialen van de terugslagklep."@nl;
+  skos:prefLabel "Terugslagklep afsluiter materiaal"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTsklepAfsluiterMateriaal/am---gietijzer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een gietijzeren terugslagklep."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal>;
+  skos:notation "am---gietijzer";
+  skos:prefLabel "am - Gietijzer"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTsklepAfsluiterMateriaal/av---hdpe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een terugslagklep uit HDPE."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal>;
+  skos:notation "av---hdpe";
+  skos:prefLabel "av - Hdpe"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTsklepAfsluiterMateriaal/ap---staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een stalen terugslagklep."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal>;
+  skos:notation "ap---staal";
+  skos:prefLabel "ap - Staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTsklepAfsluiterMateriaal/z---anders> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een terugslagklep uit een ander materiaal."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal>;
+  skos:notation "z---anders";
+  skos:prefLabel "z - Anders"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal> .
+
+

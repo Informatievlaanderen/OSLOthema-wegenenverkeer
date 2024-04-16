@@ -1,0 +1,51 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De wijze waarop het plantgoed wordt aangeleverd."@nl;
+  skos:prefLabel "Vorm aanlevering houtige vegetatie"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormAanleveringHoutigeVegetatie/poten> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aanlevering van houtige vegetatie in de vorm van poten."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie>;
+  skos:notation "poten";
+  skos:prefLabel "poten"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormAanleveringHoutigeVegetatie/bosgoed> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aanlevering van houtige vegetatie in de vorm van bosgoed."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie>;
+  skos:notation "bosgoed";
+  skos:prefLabel "bosgoed"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormAanleveringHoutigeVegetatie/bomen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aanlevering van houtige vegetatie in de vorm van bomen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie>;
+  skos:notation "bomen";
+  skos:prefLabel "bomen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormAanleveringHoutigeVegetatie/veer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aanlevering van houtige vegetatie in de vorm van veer."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie>;
+  skos:notation "veer";
+  skos:prefLabel "veer"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormAanleveringHoutigeVegetatie/meerstammige-bomen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aanlevering van houtige vegetatie in de vorm van meerstammige bomen."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie>;
+  skos:notation "meerstammige-bomen";
+  skos:prefLabel "meerstammige bomen"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVormAanleveringHoutigeVegetatie> .
+
+

@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende opties van hoe de wortel was bij aanplanting."@nl;
+  skos:prefLabel "Vegetatie wortel"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/naakt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wortels waarrond geen grond aanwezig is"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:notation "naakt";
+  skos:prefLabel "naakt"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/draadkluit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De wortels zitten in een met draad ingebonden kluit aarde"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:notation "draadkluit";
+  skos:prefLabel "draadkluit"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/container> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De wortels zitten in een container of pot bij aanlevering en aanplant."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:notation "container";
+  skos:prefLabel "container"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/kluit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De wortels zijn omringd met aarde."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel>;
+  skos:notation "kluit";
+  skos:prefLabel "kluit"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel> .
+
+

@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke manieren of methodes om een tijdelijke waterkerende constrcutie te plaatsen."@nl;
+  skos:prefLabel "Plaatsingsmethode TWC"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies/invaren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies>;
+  skos:notation "invaren";
+  skos:prefLabel "invaren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies/plaatsenmetkraan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies>;
+  skos:notation "plaatsenmetkraan";
+  skos:prefLabel "plaatsenMetKraan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTijdelijkeWaterkerendeConstructies> .

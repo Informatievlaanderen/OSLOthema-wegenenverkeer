@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke materialen van een aanslagprofiel."@nl;
+  skos:prefLabel "Materiaal aanslagprofiel"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalAanslagprofiel/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel>;
+  skos:notation "rvs";
+  skos:prefLabel "rvs"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalAanslagprofiel/constructiestaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel>;
+  skos:notation "constructiestaal";
+  skos:prefLabel "constructiestaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalAanslagprofiel/thermisch-verzinkt-staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel>;
+  skos:notation "thermisch-verzinkt-staal";
+  skos:prefLabel "thermisch verzinkt staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalAanslagprofiel> .
+
+

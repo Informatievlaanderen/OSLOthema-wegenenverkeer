@@ -1,0 +1,43 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuzelijst met modelnamen voor OntvangerToepassing."@nl;
+  skos:prefLabel "Ontvanger toepassing"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/wifi> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:notation "wifi";
+  skos:prefLabel "WIFI"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/kar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:notation "kar";
+  skos:prefLabel "KAR"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/gprs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:notation "gprs";
+  skos:prefLabel "GPRS"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/gsm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing>;
+  skos:notation "gsm";
+  skos:prefLabel "GSM"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing> .
+
+

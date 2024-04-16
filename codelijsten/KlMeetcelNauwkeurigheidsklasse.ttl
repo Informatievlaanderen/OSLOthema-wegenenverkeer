@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Nauwkeurigheidsklasse van de meetcel (vb 0,2; 0,2s; 0,5; ...)."@nl;
+  skos:prefLabel "Meetcel nauwkeurigheidsklasse"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsklasse/0.2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse>;
+  skos:notation "0.2";
+  skos:prefLabel "0.2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsklasse/0.2-s> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse>;
+  skos:notation "0.2-s";
+  skos:prefLabel "0.2 S"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsklasse/0.5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse>;
+  skos:notation "0.5";
+  skos:prefLabel "0.5"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsklasse> .
+
+

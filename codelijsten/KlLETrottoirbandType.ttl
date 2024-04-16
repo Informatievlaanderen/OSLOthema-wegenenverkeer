@@ -1,0 +1,211 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Types van trottoirband."@nl;
+  skos:prefLabel "Trottoirband type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-a> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I A"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-a";
+  skos:prefLabel "beton type I A"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I B"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-b";
+  skos:prefLabel "beton type I B"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-c1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I C1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-c1";
+  skos:prefLabel "beton type I C1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-c2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I C2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-c2";
+  skos:prefLabel "beton type I C2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-d1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I D1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-d1";
+  skos:prefLabel "beton type I D1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-d2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I D2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-d2";
+  skos:prefLabel "beton type I D2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-d3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I D3"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-d3";
+  skos:prefLabel "beton type I D3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-d4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I D4"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-d4";
+  skos:prefLabel "beton type I D4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I E"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-e";
+  skos:prefLabel "beton type I E"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-f1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I F1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-f1";
+  skos:prefLabel "beton type I F1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-f2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I F2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-f2";
+  skos:prefLabel "beton type I F2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-a-i-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type A I 1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-a-i-1";
+  skos:prefLabel "natuursteen type A I 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-a-ii-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type A II 1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-a-ii-1";
+  skos:prefLabel "natuursteen type A II 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-a-ii-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type A II 2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-a-ii-2";
+  skos:prefLabel "natuursteen type A II 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-a-ii-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type A II 3"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-a-ii-3";
+  skos:prefLabel "natuursteen type A II 3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-a-i-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type A I 2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-a-i-2";
+  skos:prefLabel "natuursteen type A I 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-a-i-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type A I 3"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-a-i-3";
+  skos:prefLabel "natuursteen type A I 3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-b-i-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type B I 1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-b-i-1";
+  skos:prefLabel "natuursteen type B I 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-b-i-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type B I 2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-b-i-2";
+  skos:prefLabel "natuursteen type B I 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-b-ii> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type B II"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-b-ii";
+  skos:prefLabel "natuursteen type B II"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-c-i-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type C I 1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-c-i-1";
+  skos:prefLabel "natuursteen type C I 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-c-i-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type C I 2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-c-i-2";
+  skos:prefLabel "natuursteen type C I 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-c-ii-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type C II 1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-c-ii-1";
+  skos:prefLabel "natuursteen type C II 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/natuursteen-type-c-ii-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "natuursteen type C II 2"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "natuursteen-type-c-ii-2";
+  skos:prefLabel "natuursteen type C II 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandType/beton-type-i-h> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type I H"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType>;
+  skos:notation "beton-type-i-h";
+  skos:prefLabel "beton type I H"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandType> .
+
+

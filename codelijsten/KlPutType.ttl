@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Types van put."@nl;
+  skos:prefLabel "Put type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutType/doorlooptoegangs--of-verbindingsput-(dtp-of-dvp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Doorlooptoegangs- of verbindingsput (= DTP of DVP)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "doorlooptoegangs--of-verbindingsput-(dtp-of-dvp)";
+  skos:prefLabel "doorlooptoegangs- of verbindingsput (DTP of DVP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutType/begintoegangs--of-verbindingsput-(bip-of-dvp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Begintoegangs- of verbindingsput (= BIP of DVP)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "begintoegangs--of-verbindingsput-(bip-of-dvp)";
+  skos:prefLabel "begintoegangs- of verbindingsput (BIP of DVP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutType/putbuis-of-schachttoegangsput-(stp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Putbuis of schachttoegangsput (= STP)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "putbuis-of-schachttoegangsput-(stp)";
+  skos:prefLabel "putbuis of schachttoegangsput (STP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutType/hoektoegangsput-(htp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hoektoegangsput (= HTP)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "hoektoegangsput-(htp)";
+  skos:prefLabel "hoektoegangsput (HTP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutType/aansluitingstoegangsput-(atp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Knijpopening"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "aansluitingstoegangsput-(atp)";
+  skos:prefLabel "aansluitingstoegangsput (ATP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutType/vervaltoegangsput-(vtp)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vervaltoegangsput (= VTP)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType>;
+  skos:notation "vervaltoegangsput-(vtp)";
+  skos:prefLabel "vervaltoegangsput (VTP)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutType> .
+
+

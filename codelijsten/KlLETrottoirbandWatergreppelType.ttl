@@ -1,0 +1,51 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De vormen van een trottoirband_watergreppel."@nl;
+  skos:prefLabel "Trottoirband watergreppel type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandWatergreppelType/type-iii-a> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type III A"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType>;
+  skos:notation "type-iii-a";
+  skos:prefLabel "type III A"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandWatergreppelType/type-iii-b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type III B"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType>;
+  skos:notation "type-iii-b";
+  skos:prefLabel "type III B"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandWatergreppelType/type-iii-c> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type III C"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType>;
+  skos:notation "type-iii-c";
+  skos:prefLabel "type III C"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandWatergreppelType/type-iii-d> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type III D"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType>;
+  skos:notation "type-iii-d";
+  skos:prefLabel "type III D"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandWatergreppelType/type-iii-e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "type III E"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType>;
+  skos:notation "type-iii-e";
+  skos:prefLabel "type III E"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandWatergreppelType> .
+
+

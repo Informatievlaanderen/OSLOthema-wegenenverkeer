@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Soorten pomp."@nl;
+  skos:prefLabel "Pomp soort"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompSoort/radiale-centrifugaalpomp-(dompel)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Radiale centrifugaalpomp (dompel)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort>;
+  skos:notation "radiale-centrifugaalpomp-(dompel)";
+  skos:prefLabel "radiale centrifugaalpomp (dompel)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompSoort/radiale-centrifugaalpomp-(droog)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Radiale centrifugaalpomp (droog)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort>;
+  skos:notation "radiale-centrifugaalpomp-(droog)";
+  skos:prefLabel "radiale centrifugaalpomp (droog)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompSoort/vijzelpomp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Vijzelpomp"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort>;
+  skos:notation "vijzelpomp";
+  skos:prefLabel "vijzelpomp"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompSoort/schachtpomp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Schachtpomp"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort>;
+  skos:notation "schachtpomp";
+  skos:prefLabel "schachtpomp"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompSoort/lpr-pomp-(luchtpersriolering)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LPR-pomp (luchtpersriolering)"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort>;
+  skos:notation "lpr-pomp-(luchtpersriolering)";
+  skos:prefLabel "LPR-pomp (luchtpersriolering)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPompSoort/dompelpomp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "dompelpomp"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort>;
+  skos:notation "dompelpomp";
+  skos:prefLabel "dompelpomp"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPompSoort> .
+
+

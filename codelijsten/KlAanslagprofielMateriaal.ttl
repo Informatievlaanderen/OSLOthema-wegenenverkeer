@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke materialen voor een aanslagprofiel."@nl;
+  skos:prefLabel "Aanslagprofiel materiaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanslagprofielMateriaal/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanslagprofielMateriaal/natuursteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal>;
+  skos:notation "natuursteen";
+  skos:prefLabel "natuursteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanslagprofielMateriaal/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanslagprofielMateriaal> .

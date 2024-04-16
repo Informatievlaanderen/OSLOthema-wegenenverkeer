@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Materialen van de paal in het ecoraster."@nl;
+  skos:prefLabel "Paalmateriaal"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoPaalmateriaal/hout-robina> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een houten paal van robina hout."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal>;
+  skos:notation "hout-robina";
+  skos:prefLabel "hout Robina"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoPaalmateriaal/hout-kastanje> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een houten paal van kastanje hout."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal>;
+  skos:notation "hout-kastanje";
+  skos:prefLabel "hout Kastanje"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoPaalmateriaal/metaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een metalen paal."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal>;
+  skos:notation "metaal";
+  skos:prefLabel "metaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlEcoPaalmateriaal> .
+
+

@@ -1,0 +1,91 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende niveaus van kerend vermogen gedefinieerd : van T1 (laagste niveau) tot H4b (hoogste niveau) Voor elk kerend vermogen wordt in de norm precies vastgelegd welke botsproeven moeten uitgevoerd worden."@nl;
+  skos:prefLabel "Kerend vermogen"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/t1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "kerend vermogen voor lage impacthoeken, geschikt voor tijdelijke situaties, getest met een wagen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "t1";
+  skos:prefLabel "T1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/t2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "kerend vermogen voor lage impacthoeken, geschikt voor tijdelijke situaties, getest met een wagen maar voor hogere impacthoeken dan T1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "t2";
+  skos:prefLabel "T2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/t3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "kerend vermogen voor lage impacthoeken, geschikt voor tijdelijke situaties, getest met een vrachtwagen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "t3";
+  skos:prefLabel "T3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/n1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "normaal kerend vermogen, getest met een wagen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "n1";
+  skos:prefLabel "N1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/n2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "normaal kerend vermogen, getest met een wagen aan hoge snelheid"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "n2";
+  skos:prefLabel "N2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/h1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "hoog kerend vermogen, getest met een vrachtwagen van 10 ton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "h1";
+  skos:prefLabel "H1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/h2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "hoog kerend vermogen, getest met een bus van 13 ton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "h2";
+  skos:prefLabel "H2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/h3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "hoog kerend vermogen, getest met een vrachtwagen van 16 ton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "h3";
+  skos:prefLabel "H3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/h4a> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "zeer hoog kerend vermogen, getest met een vrachtwagen van 30 ton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "h4a";
+  skos:prefLabel "H4a"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACKerendVermogen/h4b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "zeer hoog kerend vermogen, getest met een vrachtwagen van 38 ton"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen>;
+  skos:notation "h4b";
+  skos:prefLabel "H4b"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACKerendVermogen> .
+
+

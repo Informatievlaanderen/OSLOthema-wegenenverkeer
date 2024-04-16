@@ -1,0 +1,27 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACObstakelbeveiligerType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende types van obstakelbeveiliger."@nl;
+  skos:prefLabel "Obstakelbeveiliger type"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACObstakelbeveiligerType/geleidend-(r)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Obstakelbeveiliger brengt het voertuig niet tot stilstand maar terug in de juiste richting"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACObstakelbeveiligerType>;
+  skos:notation "geleidend-(r)";
+  skos:prefLabel "geleidend (R)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACObstakelbeveiligerType> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACObstakelbeveiligerType/afstoppend-(nr)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Obstakelbeveiliger brengt het voertuig tot stilstand maar zijn niet getest op zijdelingse aanrijdingen"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACObstakelbeveiligerType>;
+  skos:notation "afstoppend-(nr)";
+  skos:prefLabel "afstoppend (NR)"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACObstakelbeveiligerType> .
+
+

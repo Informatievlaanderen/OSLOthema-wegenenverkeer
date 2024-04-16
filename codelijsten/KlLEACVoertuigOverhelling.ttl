@@ -1,0 +1,83 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende maten van voertuigoverhelling."@nl;
+  skos:prefLabel "Voertuig overhelling"@nl.
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 0.6"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin1";
+  skos:prefLabel "vIn1"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 0.8"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin2";
+  skos:prefLabel "vIn2"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 1.0"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin3";
+  skos:prefLabel "vIn3"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 1.3"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin4";
+  skos:prefLabel "vIn4"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 1.7"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin5";
+  skos:prefLabel "vIn5"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin6> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 2.1"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin6";
+  skos:prefLabel "vIn6"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin7> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 2.5"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin7";
+  skos:prefLabel "vIn7"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin8> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn <= 3.5"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin8";
+  skos:prefLabel "vIn8"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACVoertuigOverhelling/vin9> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VIn > 3.5"@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling>;
+  skos:notation "vin9";
+  skos:prefLabel "vIn9"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEACVoertuigOverhelling> .
+
+

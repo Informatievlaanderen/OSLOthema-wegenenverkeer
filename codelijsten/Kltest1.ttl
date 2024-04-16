@@ -4,14 +4,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer.data.dev-vlaanderen.be/id/conceptscheme/Kltest> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Codes voor de figuratie markering."@nl;
   skos:prefLabel "Figuratie code"@nl.
 
 <https://wegenenverkeer.data.dev-vlaanderen.be/id/concept/Kltest/BBK-BLOK> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aanduiding bebouwde kom met blokken."@nl;
   skos:inScheme <https://wegenenverkeer.data.dev-vlaanderen.be/id/conceptscheme/Kltest>;
   skos:notation "BBK-BLOK";
   skos:prefLabel "BBK BLOK"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.dev-vlaanderen.be/id/conceptscheme/Kltest> .
+
+

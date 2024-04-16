@@ -3,39 +3,40 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De soort van oplegging."@nl;
   skos:prefLabel "Type oplegging"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/rubber-oplegging> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/rubber-oplegging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rubber oplegging"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
   skos:notation "rubber-oplegging";
   skos:prefLabel "Rubber oplegging"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/stalen-oplegging-roloplegging> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/stalen-oplegging-roloplegging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rolopleggingen bieden een oplossing voor het overdragen van oplegkrachten verticaal en horizontaal en tegelijkertijd ook het mogelijk maken van translaties en kleine rotaties met een geringe weerstand."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
   skos:notation "stalen-oplegging-roloplegging";
   skos:prefLabel "Stalen oplegging - roloplegging"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-freyssinetscharnier> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-freyssinetscharnier> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Betonnen oplegging die ontstaat door een plaatselijke vernauwing, over een hoogte van niet meer dan 2 cm, van de doorsnede die de drukkracht overbrengt."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
   skos:notation "betonnen-oplegging-freyssinetscharnier";
   skos:prefLabel "Betonnen oplegging - Freyssinetscharnier"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-mesnagerscharnier> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-mesnagerscharnier> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Betonnen oplegging die uit kruiselings geplaatste wapeningsstaven bestaat. Deze wapeningsstaven zijn niet ingestort over een lengte van ongeveer tienmaal hun diameter."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging>;
   skos:notation "betonnen-oplegging-mesnagerscharnier";
   skos:prefLabel "Betonnen oplegging - Mesnagerscharnier"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging> .
+

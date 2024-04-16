@@ -3,135 +3,136 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het soort brugdeel."@nl;
   skos:prefLabel "Type brugdeel"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/portaalbrug-met-liggers> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/portaalbrug-met-liggers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De bovenbouw is ter plaatse van de pijlers monoliet aan de onderbouw verbonden. Het horizontale deel bestaat uit liggers."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "portaalbrug-met-liggers";
   skos:prefLabel "portaalbrug met liggers"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/hangbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/hangbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dit brugtype wordt vooral toegepast bij de grootste overspanningen (van 500 tot meer dan 2000 meter). De brug vereist steeds twee hoge pijlers waarover twee zware draagkabels lopen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "hangbrug";
   skos:prefLabel "hangbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/baileybrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/baileybrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Deze brug is opgebouwd uit panelen die met elkaar verbonden worden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "baileybrug";
   skos:prefLabel "baileybrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/niet-gekend> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/niet-gekend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type brugdeel is onbekend.	"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "niet-gekend";
   skos:prefLabel "niet gekend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/plaatbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/plaatbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het brugdek wordt gevormd met een plaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "plaatbrug";
   skos:prefLabel "plaatbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-balk-en-met-veranderlijke-hoogte> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-balk-en-met-veranderlijke-hoogte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vaste brug met een plank, of meerdere planken met verschillende hoogtes, die het water of het land overspant. Onderaan de balken bevindt zich de wapening (passieve wapening of actieve voorspanwapening) die de trek opneemt, bovenaan bevindt zich de brugdekplaat die de druk opneemt. Ook balkbrug genoemd."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "liggerbrug-balk-en-met-veranderlijke-hoogte";
   skos:prefLabel "liggerbrug - balk(en) met veranderlijke hoogte"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/integraalbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/integraalbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een specifiek type brug waarbij het rijdek monoliet is verbonden aan de onderliggende constructie (onderbouw)."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "integraalbrug";
   skos:prefLabel "integraalbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/bowstringbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/bowstringbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dit brugtype wordt toegepast voor overspanningen van 60 tot 200 meter. Een bowstringbrug bestaat uit twee hoofdcomponenten: de boog (bow) en een trekker (string). Deze brug kan geen spatkrachten uitoefenen op de funderingen en is in zijn geheel verplaatsbaar."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "bowstringbrug";
   skos:prefLabel "bowstringbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-koker-s-met-veranderlijke-hoogte> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-koker-s-met-veranderlijke-hoogte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vaste brug waarbij het brugdek gevormd wordt met kokerliggers (enkelvoudige of meercellige). Ook caissonliggerbrug genoemd. Dit brugtype wordt vooral gebruikt om grote overspanningen te maken. Boven de pijlers voorziet men een hoge zware doorsnede waardoor de doorsnede in het midden van de overspanning aanzienlijk lichter kan gemaakt worden. Dit zijn voornamelijk betonnen bruggen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "liggerbrug-koker-s-met-veranderlijke-hoogte";
   skos:prefLabel "liggerbrug - koker(s) met veranderlijke hoogte"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-balk-en-met-constante-hoogte> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-balk-en-met-constante-hoogte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vaste brug met een plank, of meerdere planken met gelijke hoogtes, die het water of het land overspant. Onderaan de balken bevindt zich de wapening (passieve wapening of actieve voorspanwapening) die de trek opneemt, bovenaan bevindt zich de brugdekplaat die de druk opneemt. Ook balkbrug genoemd."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "liggerbrug-balk-en-met-constante-hoogte";
   skos:prefLabel "liggerbrug - balk(en) met constante hoogte"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/boogbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/boogbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dit brugtype wordt toegepast voor overspanningen van 20 tot 200 meter. Een boogbrug heeft slechts 1 dragende hoofdcomponent: de boog. De landhoofden of funderingsmassief t. p. v. de booggeboortes worden meer belast."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "boogbrug";
   skos:prefLabel "boogbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/vierendeelbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/vierendeelbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vierendeelligger bestaat uit vierhoekige elementen. De knopen van de vierendeelbrug moeten in staat zijn om momenten op te nemen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "vierendeelbrug";
   skos:prefLabel "vierendeelbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/portaalbrug-met-plaat> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/portaalbrug-met-plaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De bovenbouw is ter plaatse van de pijlers monoliet aan de onderbouw verbonden. Het horizontale deel bestaat uit een plaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "portaalbrug-met-plaat";
   skos:prefLabel "portaalbrug met plaat"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/tuibrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/tuibrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Dit brugtype wordt toegepast voor overspanningen van 100 tot 500 meter (of soms ook meer). De trekkers (tuien) worden vanaf het brugdek rechtstreek naar de pijler geleid. De tuien kunnen in de pylonen verankerd worden of doorheen de pylonen geleid worden om in de volgende overspanning opnieuw in het brugdek verankerd te worden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "tuibrug";
   skos:prefLabel "tuibrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-koker-s-met-constante-hoogte> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/liggerbrug-koker-s-met-constante-hoogte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vaste brug waarbij het brugdek gevormd wordt met kokerliggers (enkelvoudige of meercellige). Ook caissonliggerbrug genoemd. Dit brugtype wordt vooral gebruikt om grote overspanningen te maken."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "liggerbrug-koker-s-met-constante-hoogte";
   skos:prefLabel "liggerbrug - koker(s) met constante hoogte"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdeel/vakwerkbrug> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugdeel/vakwerkbrug> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vakwerk bestaat uit een bovenregel en onderregel, die met elkaar verbonden zijn door schuine en rechte stijlen via de knopen. Beide hoofdliggers zijn bovenaan verbonden met een windverband."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel>;
   skos:notation "vakwerkbrug";
   skos:prefLabel "vakwerkbrug"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdeel> .
+

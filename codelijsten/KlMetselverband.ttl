@@ -3,71 +3,72 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De rangschikking waarin stenen worden gemetseld."@nl;
   skos:prefLabel "Metselverband"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/halfsteenverband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/halfsteenverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Ook wel strekverband of Grieks verband genoemd. In dit verband ziet men enkel de lange zijden van de steen (strekken) en per laag wordt er telkens een halve steen versprongen. Op deze manier ontstaat een sterk verband, aangezien de stootvoegen maximaal verspringen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "halfsteenverband";
   skos:prefLabel "Halfsteenverband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/kettingverband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/kettingverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Ook wel Noor(d)s verband genoemd. Hierbij worden telkens twee strekken (lange zijde van de steen) met een kop (zijde van een steen die de kleinste oppervlakte heeft) afgewisseld. De koppen komen midden boven de stootvoegen tussen de twee strekken van de laag eronder en erboven."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "kettingverband";
   skos:prefLabel "Kettingverband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/klezoorverband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/klezoorverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "In dit verband ziet men enkel de lange zijden van de steen (strekken). De lagen verspringen onderling slechts met 1 klezoor (1/4 steen). Het klezoorverband is een zwak verband omdat de stootvoegen in de verschillende lagen dicht bij elkaar liggen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "klezoorverband";
   skos:prefLabel "Klezoorverband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/kruisverband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/kruisverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Ook Hollands verband genoemd. Hierbij worden koppenlagen (zijde van een steen die de kleinste oppervlakte heeft) met streklagen (lange zijde van de steen) afgewisseld. Het patroon herhaalt zich iedere vier lagen, waarbij door het verspringen een sterk verband ontstaat."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "kruisverband";
   skos:prefLabel "Kruisverband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/staand-verband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/staand-verband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Hierbij worden koppenlagen (zijde van een steen die de kleinste oppervlakte heeft) met streklagen (lange zijde van de steen) afgewisseld. Het patroon herhaalt zich iedere twee lagen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "staand-verband";
   skos:prefLabel "Staand verband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/koppenverband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/koppenverband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een koppen- of patijtsverband bestaat uit koppenlagen die onderling per laag een halve kop (zijde van een steen die de kleinste oppervlakte heeft) zijn versprongen. Dit verband is het meest geschikt voor gebogen muren."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "koppenverband";
   skos:prefLabel "Koppenverband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/engels-verband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/engels-verband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Hierbij worden telkens drie strekken (lange zijde van de steen) met een kop (zijde van een steen die de kleinste oppervlakte heeft) afgewisseld. De koppen komen midden boven de middelste van de strekken van de laag eronder en erboven."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "engels-verband";
   skos:prefLabel "Engels verband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMetselverband/vlaams-verband> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMetselverband/vlaams-verband> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het Vlaams verband bestaat uit een afwisseling van koppen (zijde van een steen die de kleinste oppervlakte heeft) en strekken (lange zijde van de baksteen). De koppen liggen daarbij in het midden van de strekken van de laag eronder en erboven."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband>;
   skos:notation "vlaams-verband";
   skos:prefLabel "Vlaams verband"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMetselverband> .
+

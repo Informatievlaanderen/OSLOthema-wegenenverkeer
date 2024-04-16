@@ -3,151 +3,152 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Milieuklasse (X-klasse) waaraan het beton wordt blootgesteld."@nl;
   skos:prefLabel "Betonmilieuklasse"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-0> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-0> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Geen risico op corrosie of aantasting, voor beton zonder wapening of ingesloten metalen, behalve bij vorst, dooi of chemische aantasting."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-0";
   skos:prefLabel "X0"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door carbonatatie (Carbonatation) : omgeving met matige vochtigheid."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-c-3";
   skos:prefLabel "XC3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-4> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door carbonatatie (Carbonatation) : wisselend natte en droge omgeving."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-c-4";
   skos:prefLabel "XC4"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-s-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-s-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door chloriden (zeewater, Seawater) : blijvend onder zeewater."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-s-2";
   skos:prefLabel "XS2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-a-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-a-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Chemische aantasting (Aggressive) : sterk agressieve omgeving."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-a-3";
   skos:prefLabel "XA3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-a-1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-a-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Chemische aantasting (Aggressive) : zwak agressieve omgeving."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-a-1";
   skos:prefLabel "XA1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-s-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-s-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door chloriden (zeewater, Seawater) : getijde-, spat- en stuifzone."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-s-3";
   skos:prefLabel "XS3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-a-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-a-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Chemische aantasting (Aggressive) : matig agressieve omgeving."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-a-2";
   skos:prefLabel "XA2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aantasting door vorst-/dooi-wisseling met of zonder dooizouten (Frost) : omgeving niet-volledig verzadigd met water, met dooizouten."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-f-2";
   skos:prefLabel "XF2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door carbonatatie (Carbonatation) : natte omgeving die zelden droog is."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-c-2";
   skos:prefLabel "XC2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-4> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aantasting door vorst-/dooi-wisseling met of zonder dooizouten (Frost) : omgeving verzadigd met water, met dooizouten."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-f-4";
   skos:prefLabel "XF4"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aantasting door vorst-/dooi-wisseling met of zonder dooizouten (Frost) : omgeving niet-volledig verzadigd met water, zonder dooizouten."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-f-1";
   skos:prefLabel "XF1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-s-1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-s-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door chloriden (zeewater, Seawater) : omgeving met zouthoudende lucht."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-s-1";
   skos:prefLabel "XS1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-d-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-d-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door chloriden anders dan afkomstig uit zeewater (dooizouten, De-icing salts) : natte omgeving die zelden droog is."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-d-2";
   skos:prefLabel "XD2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-d-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-d-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door chloriden anders dan afkomstig uit zeewater (dooizouten, De-icing salts) : wisselend natte en droge omgeving."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-d-3";
   skos:prefLabel "XD3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-c-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door carbonatatie (Carbonatation) : droge of blijvend natte omgeving."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-c-1";
   skos:prefLabel "XC1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-d-1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-d-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Corrosie ingeleid door chloriden anders dan afkomstig uit zeewater (dooizouten, De-icing salts) : omgeving met matige vochtigheid."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-d-1";
   skos:prefLabel "XD1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-3> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBetonmilieuklasse/x-f-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aantasting door vorst-/dooi-wisseling met of zonder dooizouten (Frost) : omgeving verzadigd met water, zonder dooizouten."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse>;
   skos:notation "x-f-3";
   skos:prefLabel "XF3"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBetonmilieuklasse> .
+

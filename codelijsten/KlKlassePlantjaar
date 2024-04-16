@@ -3,13 +3,14 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> a skos:ConceptScheme;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> a skos:ConceptScheme;
   skos:definition "Het geschatte tijdsinterval waarin de boom is aangeplant."@nl;
   skos:prefLabel "Klasse plantjaar"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar/onbekend> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar/onbekend> a skos:Concept;
   skos:definition "Het is niet gekend wanneer de boom is aangeplant."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar>;
   skos:notation "onbekend";
   skos:prefLabel "onbekend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKlassePlantjaar> .
+

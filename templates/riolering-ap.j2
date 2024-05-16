@@ -47,9 +47,23 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
-   <ul>
-     <li><a href="{{ documentroot }}/html/Riolering-Put.pdf">Detail Put</a></li>
-     <li><a href="{{ documentroot }}/html/Riolering-Buizen-LinkendeElementen.pdf">Linkende elementen</a></li>
+   
+<ul class="grid grid--is-stacked js-equal-height-container">
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Riolering-Put.pdf" id="doormat">
+			<div class="doormat__title">
+				Put
+			</div>
+		<span class="doormat__text">Detail Put</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Riolering-Buizen-LinkendeElementen.pdf" id="doormat">
+			<div class="doormat__title">
+				Buizen
+			</div>
+		<span class="doormat__text">Linkende elementen</span></a>
+	</li>
+
  </ul>
 {% endblock %}
 

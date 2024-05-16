@@ -54,10 +54,23 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
-   <ul>
-   	<li><a href="{{ documentroot }}/html/Signalisatie-Markering.pdf">Detail Markering</a></li>
-	<li><a href="{{ documentroot }}/html/Signalisatie-Verkeersborden.pdf">Detail Bebording</a></li>
-   </ul>
+   
+<ul class="grid grid--is-stacked js-equal-height-container">
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Signalisatie-Markering.pdf" id="doormat">
+			<div class="doormat__title">
+				Markering
+			</div>
+		<span class="doormat__text">Detail Markering</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Signalisatie-Verkeersborden.pdf" id="doormat">
+			<div class="doormat__title">
+				Retroreflecterende verkeersborden
+			</div>
+		<span class="doormat__text">Detail bebording</span></a>
+	</li>
+    </ul>
 {% endblock %}
 
 

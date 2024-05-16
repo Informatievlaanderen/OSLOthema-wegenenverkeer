@@ -55,9 +55,22 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
-   <ul>
-   	<li><a href="{{ documentroot }}/html/Vegetatie-BegroeidVoorkomen.pdf">Detail Begroeid voorkomen</a></li>
-	<li><a href="{{ documentroot }}/html/Vegetatie-VegetatieElement.pdf">Detail Vegetatie-element</a></li>
+   
+<ul class="grid grid--is-stacked js-equal-height-container">
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Vegetatie-BegroeidVoorkomen.pdf" id="doormat">
+			<div class="doormat__title">
+				Begroeid voorkomen
+			</div>
+		<span class="doormat__text">Detail begroeid voorkomen</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Vegetatie-VegetatieElement.pdf" id="doormat">
+			<div class="doormat__title">
+				Vegetatie-element
+			</div>
+		<span class="doormat__text">Detail Vegetatie-element</span></a>
+	</li>
    </ul>
 {% endblock %}
 

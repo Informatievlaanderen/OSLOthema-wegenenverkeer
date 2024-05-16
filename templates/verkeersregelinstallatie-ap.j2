@@ -56,10 +56,30 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
-   <ul>
-     <li><a href="{{ documentroot }}/html/Firmware.pdf">Firmware</a></li>
-	<li><a href="{{ documentroot }}/html/VRI-Tunnel.pdf">VRI-Tunnel</a></li>
-	<li><a href="{{ documentroot }}/html/IVRIComponent.pdf">iVRI-opstelling</a></li>
+   
+<ul class="grid grid--is-stacked js-equal-height-container">
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Firmware.pdf" id="doormat">
+			<div class="doormat__title">
+				Firmware
+			</div>
+		<span class="doormat__text">Firmware</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/VRI-Tunnel.pdf" id="doormat">
+			<div class="doormat__title">
+				VRI-Tunnel
+			</div>
+		<span class="doormat__text">VRI-Tunnel</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/IVRIComponent.pdf" id="doormat">
+			<div class="doormat__title">
+				VRI-Tunnel
+			</div>
+		<span class="doormat__text">iVRI-opstelling</span></a>
+	</li>
+
  </ul>
 {% endblock %}
 

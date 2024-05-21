@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke (aanplant)plantmanieren."@nl;
   skos:prefLabel "Plantwijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/solitair> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "solitair"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "solitair";
+  skos:prefLabel "solitair"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/in-rijbeplanting> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in rijbeplanting"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "in-rijbeplanting";
+  skos:prefLabel "in rijbeplanting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/in-groep-2-5-stuks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in groep (2-5 stuks)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "in-groep-2-5-stuks";
+  skos:prefLabel "in groep (2-5 stuks)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/in-grotere-groepen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in grotere groepen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "in-grotere-groepen";
+  skos:prefLabel "in grotere groepen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .

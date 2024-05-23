@@ -8,6 +8,14 @@
   skos:definition "De schoorhoek van het object, uitgedrukt in 1 op x (vb.: 1/4)."@nl;
   skos:prefLabel "Schoorhoek"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchoorhoek/1-5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een schoorhoek van 1 op 5."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchoorhoek>;
+  skos:notation "1-5";
+  skos:prefLabel "1/5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchoorhoek> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSchoorhoek/1-3> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een schoorhoek van 1 op 3."@nl;

@@ -46,12 +46,37 @@ Dit document is bedoeld om uit te groeien tot een standaard in het beschreven do
 
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
-   <ul>
-     <li><a href="{{ documentroot }}/html/OpstellingCentrifugaalpomp-droog.pdf">Opstelling centrifugaalpomp droog</a></li>
-     <li><a href="{{ documentroot }}/html/OpstellingDompelpomp.pdf">Opstelling dompelpomp</a></li>
-     <li><a href="{{ documentroot }}/html/OpstellingSchachtpomp-droog.pdf">Opstelling schachtpomp droog</a></li>
-	 <li><a href="{{ documentroot }}/html/OpstellingSchachtpomp-nat.pdf">Opstelling schachtpomp nat</a></li>
-     <li><a href="{{ documentroot }}/html/OpstellingVijzelpomp.pdf">Opstelling vijzelpomp</a></li>   
+ 
+<ul class="grid grid--is-stacked js-equal-height-container">
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/OpstellingCentrifugaalpomp-droog.pdf" id="doormat">
+			<div class="doormat__title">
+				Centrifugaalpomp
+			</div>
+		<span class="doormat__text">Opstelling centrifugaalpomp-droog</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/OpstellingSchachtpomp-droog.pdf" id="doormat">
+			<div class="doormat__title">
+				Schachtpomp
+			</div>
+		<span class="doormat__text">Opstelling schachtpomp-droog</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/OpstellingSchachtpomp-nat.pdf" id="doormat">
+			<div class="doormat__title">
+				Schachtpomp
+			</div>
+		<span class="doormat__text">Opstelling schachtpomp-nat</span></a>
+	</li>
+   <li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/OpstellingVijzelpomp.pdf" id="doormat">
+			<div class="doormat__title">
+				Vijzelpomp
+			</div>
+		<span class="doormat__text">Opstelling vijzelpomp</span></a>
+	</li>
+   
  </ul>
 {% endblock %}
 

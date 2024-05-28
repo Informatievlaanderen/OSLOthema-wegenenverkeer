@@ -47,10 +47,30 @@ Dit document is bedoeld om uit te groeien tot een standaard in het beschreven do
 
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
-   <ul>
-	 <li><a href="{{ documentroot }}/html/Z30 installatie.pdf">Z30 installatie</a></li>
-     <li><a href="{{ documentroot }}/html/Z30_gen1.pdf">Z30 generatie 1</a></li>
-     <li><a href="{{ documentroot }}/html/Z30_gen2.pdf">Z30 generatie 2</a></li>
+
+<ul class="grid grid--is-stacked js-equal-height-container">
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Z30 installatie.pdf" id="doormat">
+			<div class="doormat__title">
+				Z30
+			</div>
+		<span class="doormat__text">Zone 30 installatie</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Z30_gen1.pdf" id="doormat">
+			<div class="doormat__title">
+				Z30 gen 1
+			</div>
+		<span class="doormat__text">Zone 30 generatie 1</span></a>
+	</li>
+	<li class="col--4-12 col--1-2--s col--12-12--xs">
+		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Z30_gen2.pdf" id="doormat">
+			<div class="doormat__title">
+				Z30 gen 2
+			</div>
+		<span class="doormat__text">Zone 30 generatie 2</span></a>
+	</li>
+
  </ul>
 {% endblock %}
 

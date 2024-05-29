@@ -1,35 +1,42 @@
 {
-  "specificatiedocument": [
+  "title": "wegenenverkeer implementatiemodel Draagconstructies",
+  "category": "implementatiemodel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "erkende-standaard",
+  "descriptionFileName": "Draagconstructies.md",
+  "responsibleOrganisation": [
     {
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/draagconstructies/",
-      "naam": "Eenvoudige datatypes"
+      "name": "Agentschap Wegen en Verkeer",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000098"
     }
   ],
-  "naam": "wegenenverkeer implementatiemodel Draagconstructies",
-  "beschrijving": "Draagconstructies.md",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Wegen en Verkeer",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000098",
-  "publicatiedatum": "2020-12-02",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "implementatiemodel",
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [
+  "publicationDate": "2020-12-02",
+  "specificationDocuments": [
     {
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be",
-      "naam": "wegenenverkeer.data.vlaanderen.be"
+      "name": "Eenvoudige datatypes",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/draagconstructies/"
     }
   ],
-  "presentaties": [
+  "documentation": [],
+  "reports": [
     {
-      "waarde": "https://wegenenverkeer.data.vlaanderen.be",
-      "naam": "wegenenverkeer.data.vlaanderen.be"
+      "name": "wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
     }
   ],
-  "functioneel_toepassingsgebied": "Erkenningsprocedure voor data standaarden in Vlaanderen",
-  "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "08 Maart 2020",
-  "erkenning_werkgroep_datastandaarden": "10 April 2020",
-  "erkenning_stuurgroep": "22 Mei 2020"
+  "charter": {
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-wegenenverkeer/standaardenregister/charter/"
+  },
+  "presentations": [
+    {
+      "name": "wegenenverkeer.data.vlaanderen.be",
+      "resourceReference": "https://wegenenverkeer.data.vlaanderen.be"
+    }
+  ],
+  "dateOfRegistration": "08 Maart 2020",
+  "dateOfAcknowledgementByWorkingGroup": "10 April 2020",
+  "dateOfAcknowledgementBySteeringCommittee": "22 Mei 2020",
+  "repository": "OSLOthema-wegenenverkeer",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
 }

@@ -1,0 +1,73 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types van een afdichtingsvoorziening."@nl;
+  skos:prefLabel "Afdichtingsvoorzieningtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/omega> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "omega";
+  skos:prefLabel "omega"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/muzieknoot-met-dubbelzijdige-bevestiging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "muzieknoot-met-dubbelzijdige-bevestiging";
+  skos:prefLabel "muzieknoot met dubbelzijdige bevestiging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/muzieknoot-met-enkelzijdigde-bevestiging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "muzieknoot-met-enkelzijdigde-bevestiging";
+  skos:prefLabel "muzieknoot met enkelzijdigde bevestiging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/hoekprofiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "hoekprofiel";
+  skos:prefLabel "hoekprofiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/d-fender> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "d-fender";
+  skos:prefLabel "d-fender"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/rubberflap> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "rubberflap";
+  skos:prefLabel "rubberflap"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfdichtingsvoorzieningtype/gina-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype>;
+  skos:notation "gina-profiel";
+  skos:prefLabel "gina-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfdichtingsvoorzieningtype> .

@@ -128,6 +128,14 @@
   skos:prefLabel "multi"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/zwart-met-rode-streep> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "zwart-met-rode-streep"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur>;
+  skos:notation "zwart-met-rode-streep";
+  skos:prefLabel "zwart-met-rode-streep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisKleur> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisKleur/onbekend> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "onbekend"@nl;

@@ -23,3 +23,11 @@
   skos:notation "gegalvaniseerd";
   skos:prefLabel "Gegalvaniseerd"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfwerkingstypeLeuning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfwerkingstypeLeuning/roestvrij-cortenstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "roestvrij cortenstaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfwerkingstypeLeuning>;
+  skos:notation "roestvrij-cortenstaal";
+  skos:prefLabel "Roestvrij cortenstaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfwerkingstypeLeuning> .

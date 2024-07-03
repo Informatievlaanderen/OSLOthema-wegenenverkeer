@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke materialen waaruit een afdichtingsvoorziening bestaat."@nl;
   skos:prefLabel "Materiaal afdichtingsvoorziening"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichtingsvoorziening/hout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichtingsvoorziening>;
+  skos:notation "hout";
+  skos:prefLabel "hout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichtingsvoorziening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichtingsvoorziening/rubber> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichtingsvoorziening>;
+  skos:notation "rubber";
+  skos:prefLabel "rubber"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichtingsvoorziening> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichtingsvoorziening/kunststof> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichtingsvoorziening>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichtingsvoorziening> .

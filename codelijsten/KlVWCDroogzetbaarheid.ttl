@@ -5,5 +5,29 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geeft aan of het constructiefhoofd al dan niet droog gezet kan worden."@nl;
+  skos:definition "TODO"@nl;
   skos:prefLabel "Droogzetbaarheidtypes"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/ja> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid>;
+  skos:notation "ja";
+  skos:prefLabel "ja"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/nee> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid>;
+  skos:notation "nee";
+  skos:prefLabel "nee"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/gedeeltelijkewaterpeilverlaging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid>;
+  skos:notation "gedeeltelijkewaterpeilverlaging";
+  skos:prefLabel "gedeeltelijkeWaterpeilVerlaging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid> .

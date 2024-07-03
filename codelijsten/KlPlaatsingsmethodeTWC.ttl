@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke manieren of methodes om een tijdelijke waterkerende constrcutie te plaatsen."@nl;
   skos:prefLabel "Plaatsingsmethode TWC"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlaatsingsmethodeTWC/invaren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTWC>;
+  skos:notation "invaren";
+  skos:prefLabel "invaren"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlaatsingsmethodeTWC/plaatsen-met-kraan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTWC>;
+  skos:notation "plaatsen-met-kraan";
+  skos:prefLabel "plaatsen met kraan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlaatsingsmethodeTWC> .

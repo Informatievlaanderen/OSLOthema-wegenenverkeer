@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van een tijdelijke waterkerende constructie."@nl;
   skos:prefLabel "Type tijdelijke waterkerende constructie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTWC/droogzetkuip> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC>;
+  skos:notation "droogzetkuip";
+  skos:prefLabel "droogzetkuip"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTWC/schipdeur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC>;
+  skos:notation "schipdeur";
+  skos:prefLabel "schipdeur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTWC/afsluitcaisson> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC>;
+  skos:notation "afsluitcaisson";
+  skos:prefLabel "afsluitcaisson"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTWC/noodschot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC>;
+  skos:notation "noodschot";
+  skos:prefLabel "noodschot"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTWC/schotbalk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC>;
+  skos:notation "schotbalk";
+  skos:prefLabel "schotbalk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC> .

@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenpenetratieMateriaal> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Het materiaal met welk de stortstenen worden gepenetreerd."@nl;
+  skos:definition "TODO"@nl;
   skos:prefLabel "Stortsteenpenetratiemateriaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenpenetratieMateriaal/asfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenpenetratieMateriaal>;
+  skos:notation "asfalt";
+  skos:prefLabel "asfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenpenetratieMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenpenetratieMateriaal/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenpenetratieMateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenpenetratieMateriaal> .

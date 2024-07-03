@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -170,7 +170,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/voorsortering-Rechts-(7.5m)> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Aanduiding A49 kruising van een openbare weg door één of meer in de rijbaan aangelegde sporen."@nl;
+  skos:definition "Aanduiding A49 kruising van een openbare weg door Ã©Ã©n of meer in de rijbaan aangelegde sporen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "voorsortering-Rechts-(7.5m)";
   skos:prefLabel "voorsortering Rechts (7.5m)"@nl;
@@ -336,20 +336,20 @@
   skos:prefLabel "STOP"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kleiner-dan-22.75-m²> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kleiner-dan-22.75-mÂ²> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering bus met arcering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "kleiner-dan-22.75-m²";
-  skos:prefLabel "kleiner dan 22.75 m²"@nl;
+  skos:notation "kleiner-dan-22.75-mÂ²";
+  skos:prefLabel "kleiner dan 22.75 mÂ²"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/groter-dan-22.75-m²> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/groter-dan-22.75-mÂ²> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lettermarkering bus met arcering."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
-  skos:notation "groter-dan-22.75-m²";
-  skos:prefLabel "groter dan 22.75 m²"@nl;
+  skos:notation "groter-dan-22.75-mÂ²";
+  skos:prefLabel "groter dan 22.75 mÂ²"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/bushalte-op-de-rijweg> a skos:Concept;
@@ -450,7 +450,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFiguratieType/kruising-sporen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Aanduiding A49 kruising van een openbare weg door één of meer in de rijbaan aangelegde sporen."@nl;
+  skos:definition "Aanduiding A49 kruising van een openbare weg door Ã©Ã©n of meer in de rijbaan aangelegde sporen."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType>;
   skos:notation "kruising-sporen";
   skos:prefLabel "kruising sporen"@nl;
@@ -535,3 +535,5 @@
   skos:notation "elektrische-voertuigen-vergroot";
   skos:prefLabel "elektrische voertuigen vergroot"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlFiguratieType> .
+
+

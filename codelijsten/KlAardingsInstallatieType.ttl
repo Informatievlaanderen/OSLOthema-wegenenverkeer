@@ -4,12 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType> a skos:ConceptScheme;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een keuzelijst waarin aangeduid kan worden over welke aardingsinstallatietype het gaat."@nl;
   skos:prefLabel "Type van aardingsinstallatie"@nl.
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/laagspanningsinstallatie> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType>;
   skos:notation "laagspanningsinstallatie";
@@ -17,7 +17,7 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/hoogspanningsinstallatie> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType>;
   skos:notation "hoogspanningsinstallatie";
@@ -25,9 +25,11 @@
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/nulpuntinstallatie> a skos:Concept;
-<http://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<http://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType>;
   skos:notation "nulpuntinstallatie";
   skos:prefLabel "nulpuntinstallatie"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType> .
+
+

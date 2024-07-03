@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -26,7 +26,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKwaliteitsklasseHout/tropisch-hardhout> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Zwaardere houtsoorten uit de tropen, zoals vb.: azobé (afkomstig uit tropische bossen in Afrika). "@nl;
+  skos:definition "Zwaardere houtsoorten uit de tropen, zoals vb.: azobÃ© (afkomstig uit tropische bossen in Afrika). "@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout>;
   skos:notation "tropisch-hardhout";
   skos:prefLabel "Tropisch hardhout"@nl;
@@ -34,8 +34,10 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKwaliteitsklasseHout/klasse-c> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Klasse C-hout geldt als standaard en is voornamelijk afkomstig uit Noord-Europa, waar de bomen in duurzame bossen geteeld worden. Gezonde knoesten zijn toegestaan, evenals een beetje hart. Dit hout is van lagere kwaliteit dan A-hout en kan niet worden hergebruikt. Klasse C houdt ook in dat het hout geïmpregneerd is. "@nl;
+  skos:definition "Klasse C-hout geldt als standaard en is voornamelijk afkomstig uit Noord-Europa, waar de bomen in duurzame bossen geteeld worden. Gezonde knoesten zijn toegestaan, evenals een beetje hart. Dit hout is van lagere kwaliteit dan A-hout en kan niet worden hergebruikt. Klasse C houdt ook in dat het hout geÃ¯mpregneerd is. "@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout>;
   skos:notation "klasse-c";
   skos:prefLabel "Klasse C"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlKwaliteitsklasseHout> .
+
+

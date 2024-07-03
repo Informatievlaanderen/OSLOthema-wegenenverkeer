@@ -3,47 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke beschrijvingen voor meteo-gerelateerde foto's."@nl;
   skos:prefLabel "Meteo foto beschrijving"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-west> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-west> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Foto site kijkrichting west"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
   skos:notation "foto-site-kijkrichting-west";
   skos:prefLabel "Foto site kijkrichting west"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-rechte-steun-met-sensoren> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-rechte-steun-met-sensoren> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Foto rechte steun met sensoren"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
   skos:notation "foto-rechte-steun-met-sensoren";
   skos:prefLabel "Foto rechte steun met sensoren"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-oost> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-oost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Foto site kijkrichting oost"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
   skos:notation "foto-site-kijkrichting-oost";
   skos:prefLabel "Foto site kijkrichting oost"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-noord> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-noord> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Foto site kijkrichting noord"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
   skos:notation "foto-site-kijkrichting-noord";
   skos:prefLabel "Foto site kijkrichting noord"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-zuid> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeteoFotoBeschrijving/foto-site-kijkrichting-zuid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Foto site kijkrichting zuid"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving>;
   skos:notation "foto-site-kijkrichting-zuid";
   skos:prefLabel "Foto site kijkrichting zuid"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMeteoFotoBeschrijving> .
+

@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -64,12 +64,12 @@
   skos:prefLabel "voorgevormde voegband"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegdekvoegType> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegdekvoegType/geëxtrudeerde-voegband> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegdekvoegType/geÃ«xtrudeerde-voegband> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een geëxtrudeerde voegband die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
+  skos:definition "Een geÃ«xtrudeerde voegband die het uitzetten en krimpen van materialen, ook wel werking genoemd, opvangt."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegdekvoegType>;
-  skos:notation "geëxtrudeerde-voegband";
-  skos:prefLabel "geëxtrudeerde voegband"@nl;
+  skos:notation "geÃ«xtrudeerde-voegband";
+  skos:prefLabel "geÃ«xtrudeerde voegband"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegdekvoegType> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegdekvoegType/isolatievoeg-tussen-bestaande-constructie-en-betonverharding> a skos:Concept;
@@ -98,8 +98,10 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegdekvoegType/langse-buigingsvoeg> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een zaagsnede om de verharding toe te laten te scharnieren volgens de lengteas en om de spanningen ingevolge de thermische gradiënt te beperken."@nl;
+  skos:definition "Een zaagsnede om de verharding toe te laten te scharnieren volgens de lengteas en om de spanningen ingevolge de thermische gradiÃ«nt te beperken."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegdekvoegType>;
   skos:notation "langse-buigingsvoeg";
   skos:prefLabel "langse buigingsvoeg"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWegdekvoegType> .
+
+

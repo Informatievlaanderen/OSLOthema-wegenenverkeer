@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -72,28 +72,28 @@
   skos:prefLabel "staal"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeïdentificeerd-type-ijzer-of-staal> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeÃ¯dentificeerd-type-ijzer-of-staal> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ongeïdentificeerd type ijzer of staal"@nl;
+  skos:definition "ongeÃ¯dentificeerd type ijzer of staal"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
-  skos:notation "ongeïdentificeerd-type-ijzer-of-staal";
-  skos:prefLabel "ongeïdentificeerd type ijzer of staal"@nl;
+  skos:notation "ongeÃ¯dentificeerd-type-ijzer-of-staal";
+  skos:prefLabel "ongeÃ¯dentificeerd type ijzer of staal"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeïdentificeerd-type-kunststof> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeÃ¯dentificeerd-type-kunststof> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ongeïdentificeerd type kunststof"@nl;
+  skos:definition "ongeÃ¯dentificeerd type kunststof"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
-  skos:notation "ongeïdentificeerd-type-kunststof";
-  skos:prefLabel "ongeïdentificeerd type kunststof"@nl;
+  skos:notation "ongeÃ¯dentificeerd-type-kunststof";
+  skos:prefLabel "ongeÃ¯dentificeerd type kunststof"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeïdentificeerd-materiaal> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/ongeÃ¯dentificeerd-materiaal> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "ongeïdentificeerd materiaal"@nl;
+  skos:definition "ongeÃ¯dentificeerd materiaal"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal>;
-  skos:notation "ongeïdentificeerd-materiaal";
-  skos:prefLabel "ongeïdentificeerd materiaal"@nl;
+  skos:notation "ongeÃ¯dentificeerd-materiaal";
+  skos:prefLabel "ongeÃ¯dentificeerd materiaal"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselMateriaal/anders> a skos:Concept;
@@ -103,3 +103,5 @@
   skos:notation "anders";
   skos:prefLabel "anders"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDekselMateriaal> .
+
+

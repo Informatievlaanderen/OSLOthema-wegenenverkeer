@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -72,12 +72,12 @@
   skos:prefLabel "rechte kantstrook of watergreppel"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/hoekstukken.-hoek-verschillend-90Â°-of-270Â°> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/hoekstukken.-hoek-verschillend-90Ã‚Â°-of-270Ã‚Â°> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Hoekstukken, hoek verschillend van 90Â° of 270Â°"@nl;
+  skos:definition "Hoekstukken, hoek verschillend van 90Ã‚Â° of 270Ã‚Â°"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
-  skos:notation "hoekstukken.-hoek-verschillend-90Â°-of-270Â°";
-  skos:prefLabel "hoekstukken. hoek verschillend 90Â° of 270Â°"@nl;
+  skos:notation "hoekstukken.-hoek-verschillend-90Ã‚Â°-of-270Ã‚Â°";
+  skos:prefLabel "hoekstukken. hoek verschillend 90Ã‚Â° of 270Ã‚Â°"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/rechte-trottoirband-of-trottoirband-watergreppel> a skos:Concept;
@@ -88,12 +88,12 @@
   skos:prefLabel "rechte trottoirband of trottoirband-watergreppel"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/hoekstukken.-hoek-90Â°-of-270Â°> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/hoekstukken.-hoek-90Ã‚Â°-of-270Ã‚Â°> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "hoekstukken waarbij de hoek gelijk is aan 90Â° of 270Â°"@nl;
+  skos:definition "hoekstukken waarbij de hoek gelijk is aan 90Ã‚Â° of 270Ã‚Â°"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter>;
-  skos:notation "hoekstukken.-hoek-90Â°-of-270Â°";
-  skos:prefLabel "hoekstukken. hoek 90Â° of 270Â°"@nl;
+  skos:notation "hoekstukken.-hoek-90Ã‚Â°-of-270Ã‚Â°";
+  skos:prefLabel "hoekstukken. hoek 90Ã‚Â° of 270Ã‚Â°"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEKantopsluitingBijkomendeParameter/trottoirbanden-voor-minder-validen> a skos:Concept;
@@ -159,6 +159,8 @@
   skos:notation "overgangstrottoirbanden";
   skos:prefLabel "overgangstrottoirbanden"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEKantopsluitingBijkomendeParameter> .
+
+
 
 
 

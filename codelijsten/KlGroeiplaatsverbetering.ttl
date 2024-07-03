@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -74,7 +74,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/gft-compost> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "GFT-compost is het product verkregen door een gecontroleerde aërobe compostering (anaërobe vergisting met een aërobe nacompostering in het geval van humotex) van het gescheiden ingezamelde organische deel van het huishoudelijk afval (bestaande hoofdzakelijk uit keukenafval en het fijne, niet-houtige, gedeelte van het tuinafval) tot volledige rijping."@nl;
+  skos:definition "GFT-compost is het product verkregen door een gecontroleerde aÃ«robe compostering (anaÃ«robe vergisting met een aÃ«robe nacompostering in het geval van humotex) van het gescheiden ingezamelde organische deel van het huishoudelijk afval (bestaande hoofdzakelijk uit keukenafval en het fijne, niet-houtige, gedeelte van het tuinafval) tot volledige rijping."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
   skos:notation "gft-compost";
   skos:prefLabel "GFT-compost"@nl;
@@ -82,7 +82,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGroeiplaatsverbetering/groencompost> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Groencompost is een product verkregen door een gecontroleerde aërobe compostering van groenafval (bestaande hoofdzakelijk uit snoeihout met een diameter van max. 10 cm, planten (resten), haagscheersel, bladeren, gazon- en wegbermmaaisel) tot volledige rijping, voorafgegaan of gevolgd door mechanische behandelingen (verkleining, zeving, …)."@nl;
+  skos:definition "Groencompost is een product verkregen door een gecontroleerde aÃ«robe compostering van groenafval (bestaande hoofdzakelijk uit snoeihout met een diameter van max. 10 cm, planten (resten), haagscheersel, bladeren, gazon- en wegbermmaaisel) tot volledige rijping, voorafgegaan of gevolgd door mechanische behandelingen (verkleining, zeving, â€¦)."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering>;
   skos:notation "groencompost";
   skos:prefLabel "groencompost"@nl;
@@ -135,3 +135,5 @@
   skos:notation "irrgatie-drainagebuis";
   skos:prefLabel "irrgatie drainagebuis"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlGroeiplaatsverbetering> .
+
+

@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,7 +10,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomGroeifase/plantfase> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De periode na de aanplant waarbij het beheer gericht is op het aanslaan van de boom (water geven, boompalen verwijderen,â€¦)"@nl;
+  skos:definition "De periode na de aanplant waarbij het beheer gericht is op het aanslaan van de boom (water geven, boompalen verwijderen,Ã¢â‚¬Â¦)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
   skos:notation "plantfase";
   skos:prefLabel "plantfase"@nl;
@@ -18,7 +18,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomGroeifase/eindfase> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De periode waarbij regressie/aftakeling plaatsvindt â€“ beheer gericht op in stand houding (kroonverzorging)"@nl;
+  skos:definition "De periode waarbij regressie/aftakeling plaatsvindt Ã¢â‚¬â€œ beheer gericht op in stand houding (kroonverzorging)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
   skos:notation "eindfase";
   skos:prefLabel "eindfase"@nl;
@@ -34,7 +34,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomGroeifase/jeugdfase> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De periode van de lengte-ontwikkeling van de boom â€“ beheer gericht op tot stand brengen van de takvrije stamlengte (begeleidingssnoei,..)"@nl;
+  skos:definition "De periode van de lengte-ontwikkeling van de boom Ã¢â‚¬â€œ beheer gericht op tot stand brengen van de takvrije stamlengte (begeleidingssnoei,..)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
   skos:notation "jeugdfase";
   skos:prefLabel "jeugdfase"@nl;
@@ -42,11 +42,13 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomGroeifase/volwassenfase> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De periode van de kroonontwikkeling â€“ beheer gericht op in stand houden van de boom (onderhoudssnoei)"@nl;
+  skos:definition "De periode van de kroonontwikkeling Ã¢â‚¬â€œ beheer gericht op in stand houden van de boom (onderhoudssnoei)"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase>;
   skos:notation "volwassenfase";
   skos:prefLabel "volwassenfase"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBoomGroeifase> .
+
+
 
 
 

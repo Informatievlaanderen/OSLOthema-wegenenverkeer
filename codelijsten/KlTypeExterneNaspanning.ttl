@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,7 +10,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeExterneNaspanning/voorspanning-met-aanhechting> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bij voorspanning met aanhechting (VMA) worden de strengen in de omhullingsbuizen ingevoerd, aangespannen, verankerd en daarna worden de omhullingsbuizen geïnjecteerd met een speciale cementmortel."@nl;
+  skos:definition "Bij voorspanning met aanhechting (VMA) worden de strengen in de omhullingsbuizen ingevoerd, aangespannen, verankerd en daarna worden de omhullingsbuizen geÃ¯njecteerd met een speciale cementmortel."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning>;
   skos:notation "voorspanning-met-aanhechting";
   skos:prefLabel "Voorspanning met aanhechting"@nl;
@@ -18,11 +18,13 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeExterneNaspanning/voorspanning-zonder-aanhechting> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bij voorspanning zonder aanhechting (VZA) zit elke streng van de kabel in een aparte polyethyleen-omhulling dewelke gevuld is met vet. Deze omhulde strengen worden ingevoerd in de omhullingsbuizen, daarna worden de omhullingsbuizen geïnjecteerd met cementmortel en dan pas worden de strengen aangespannen en verankerd."@nl;
+  skos:definition "Bij voorspanning zonder aanhechting (VZA) zit elke streng van de kabel in een aparte polyethyleen-omhulling dewelke gevuld is met vet. Deze omhulde strengen worden ingevoerd in de omhullingsbuizen, daarna worden de omhullingsbuizen geÃ¯njecteerd met cementmortel en dan pas worden de strengen aangespannen en verankerd."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning>;
   skos:notation "voorspanning-zonder-aanhechting";
   skos:prefLabel "Voorspanning zonder aanhechting"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeExterneNaspanning> .
+
+
 
 
 

@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,10 +8,12 @@
   skos:definition "Het type van de weegsensor."@nl;
   skos:prefLabel "Weegsensor type"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeegsensorType/piëzo-kwarts> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeegsensorType/piÃ«zo-kwarts> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "piëzo-kwarts"@nl;
+  skos:definition "piÃ«zo-kwarts"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeegsensorType>;
-  skos:notation "piëzo-kwarts";
-  skos:prefLabel "piëzo-kwarts"@nl;
+  skos:notation "piÃ«zo-kwarts";
+  skos:prefLabel "piÃ«zo-kwarts"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlWeegsensorType> .
+
+

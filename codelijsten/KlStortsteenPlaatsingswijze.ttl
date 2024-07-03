@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,20 +8,20 @@
   skos:definition "De manier waarop de stenen worden geplaatst."@nl;
   skos:prefLabel "Plaatsingswijze stortsteen"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/gewone-bestorting-met-fixatie-colloïdaal-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/gewone-bestorting-met-fixatie-colloÃ¯daal-beton> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "gewone bestorting met fixatie colloïdaal beton"@nl;
+  skos:definition "gewone bestorting met fixatie colloÃ¯daal beton"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze>;
-  skos:notation "gewone-bestorting-met-fixatie-colloïdaal-beton";
-  skos:prefLabel "gewone bestorting met fixatie colloïdaal beton"@nl;
+  skos:notation "gewone-bestorting-met-fixatie-colloÃ¯daal-beton";
+  skos:prefLabel "gewone bestorting met fixatie colloÃ¯daal beton"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/gewone-bestorting-zonder-fixatie-colloïdaal-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/gewone-bestorting-zonder-fixatie-colloÃ¯daal-beton> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "gewone bestorting zonder fixatie colloïdaal beton"@nl;
+  skos:definition "gewone bestorting zonder fixatie colloÃ¯daal beton"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze>;
-  skos:notation "gewone-bestorting-zonder-fixatie-colloïdaal-beton";
-  skos:prefLabel "gewone bestorting zonder fixatie colloïdaal beton"@nl;
+  skos:notation "gewone-bestorting-zonder-fixatie-colloÃ¯daal-beton";
+  skos:prefLabel "gewone bestorting zonder fixatie colloÃ¯daal beton"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze> .
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/gestapeld> a skos:Concept;
@@ -32,18 +32,20 @@
   skos:prefLabel "gestapeld"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/stroomkuilenprofiel-met-fixatie-colloïdaal-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/stroomkuilenprofiel-met-fixatie-colloÃ¯daal-beton> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "stroomkuilenprofiel met fixatie colloïdaal beton"@nl;
+  skos:definition "stroomkuilenprofiel met fixatie colloÃ¯daal beton"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze>;
-  skos:notation "stroomkuilenprofiel-met-fixatie-colloïdaal-beton";
-  skos:prefLabel "stroomkuilenprofiel met fixatie colloïdaal beton"@nl;
+  skos:notation "stroomkuilenprofiel-met-fixatie-colloÃ¯daal-beton";
+  skos:prefLabel "stroomkuilenprofiel met fixatie colloÃ¯daal beton"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/stroomkuilenprofiel-zonder-fixatie-colloïdaal-beton> a skos:Concept;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStortsteenPlaatsingswijze/stroomkuilenprofiel-zonder-fixatie-colloÃ¯daal-beton> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "stroomkuilenprofiel zonder fixatie colloïdaal beton"@nl;
+  skos:definition "stroomkuilenprofiel zonder fixatie colloÃ¯daal beton"@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze>;
-  skos:notation "stroomkuilenprofiel-zonder-fixatie-colloïdaal-beton";
-  skos:prefLabel "stroomkuilenprofiel zonder fixatie colloïdaal beton"@nl;
+  skos:notation "stroomkuilenprofiel-zonder-fixatie-colloÃ¯daal-beton";
+  skos:prefLabel "stroomkuilenprofiel zonder fixatie colloÃ¯daal beton"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlStortsteenPlaatsingswijze> .
+
+

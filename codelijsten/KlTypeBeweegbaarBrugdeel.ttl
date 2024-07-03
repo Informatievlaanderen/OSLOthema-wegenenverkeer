@@ -1,4 +1,4 @@
-﻿@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,7 +10,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/helft-dubbele-basculebrug> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bij een dubbele basculebrug hebben de brughelften slechts één vast steunpunt, het scharnierpunt. Wanneer het brugdeel gesloten wordt, worden de brughelften aan elkaar verbonden."@nl;
+  skos:definition "Bij een dubbele basculebrug hebben de brughelften slechts Ã©Ã©n vast steunpunt, het scharnierpunt. Wanneer het brugdeel gesloten wordt, worden de brughelften aan elkaar verbonden."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
   skos:notation "helft-dubbele-basculebrug";
   skos:prefLabel "Helft dubbele basculebrug"@nl;
@@ -34,7 +34,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/ophaalbrug> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Brugdeel waarvan het brugdek (ook wel de val of de klap genoemd) aan één kant scharnierend is opgehangen en aan de andere zijde door middel van een ketting of kabel opgehaald en naar beneden gelaten kan worden."@nl;
+  skos:definition "Brugdeel waarvan het brugdek (ook wel de val of de klap genoemd) aan Ã©Ã©n kant scharnierend is opgehangen en aan de andere zijde door middel van een ketting of kabel opgehaald en naar beneden gelaten kan worden."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
   skos:notation "ophaalbrug";
   skos:prefLabel "Ophaalbrug"@nl;
@@ -50,7 +50,7 @@
 
 <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBeweegbaarBrugdeel/draaibrug> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een brugdeel waarvan het beweegbare deel in een horizontaal vlak om een verticale as kan draaien. Een draaibrug kan gelijke of ongelijke armen hebben: de as waarrond het brugdeel draait, bevindt zich dan respectievelijk in het midden van of aan één zijde."@nl;
+  skos:definition "Een brugdeel waarvan het beweegbare deel in een horizontaal vlak om een verticale as kan draaien. Een draaibrug kan gelijke of ongelijke armen hebben: de as waarrond het brugdeel draait, bevindt zich dan respectievelijk in het midden van of aan Ã©Ã©n zijde."@nl;
   skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel>;
   skos:notation "draaibrug";
   skos:prefLabel "Draaibrug"@nl;
@@ -103,6 +103,8 @@
   skos:notation "pontonbrug";
   skos:prefLabel "Pontonbrug"@nl;
   skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBeweegbaarBrugdeel> .
+
+
 
 
 

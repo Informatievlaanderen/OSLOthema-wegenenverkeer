@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke soorten van voegmateriaal."@nl;
   skos:prefLabel "Soort voegmateriaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoortVoegmateriaal/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoortVoegmateriaal>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoortVoegmateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoortVoegmateriaal/asfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoortVoegmateriaal>;
+  skos:notation "asfalt";
+  skos:prefLabel "asfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoortVoegmateriaal> .

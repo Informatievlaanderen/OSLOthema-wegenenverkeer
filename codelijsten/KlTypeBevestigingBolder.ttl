@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke bevestigingstypes van een bolder."@nl;
   skos:prefLabel "Type bevestiging bolder"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingBolder/draadstang> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder>;
+  skos:notation "draadstang";
+  skos:prefLabel "draadstang"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingBolder/ingestort> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder>;
+  skos:notation "ingestort";
+  skos:prefLabel "ingestort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingBolder/breekbout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder>;
+  skos:notation "breekbout";
+  skos:prefLabel "breekbout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder> .

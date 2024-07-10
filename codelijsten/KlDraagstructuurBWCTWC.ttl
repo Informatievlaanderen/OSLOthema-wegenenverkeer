@@ -3,9 +3,71 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "TODO"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Type van draagstructuur gebruikt in beweegbare waterkerende constructies en tijdelijke waterkerende constructies."@nl;
   skos:prefLabel "Draagstructuur BWCTWC"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/diagonaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "diagonaal";
+  skos:prefLabel "diagonaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/voorhar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "voorhar";
+  skos:prefLabel "voorhar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/beplating> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "beplating";
+  skos:prefLabel "beplating"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/bovenregel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "bovenregel";
+  skos:prefLabel "bovenregel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/achterhar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "achterhar";
+  skos:prefLabel "achterhar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/onderregel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "onderregel";
+  skos:prefLabel "onderregel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/tussenstijl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "tussenstijl";
+  skos:prefLabel "tussenstijl"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagstructuurBWCTWC/tussenregel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC>;
+  skos:notation "tussenregel";
+  skos:prefLabel "tussenregel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagstructuurBWCTWC> .

@@ -3,24 +3,39 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "TODO"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De graad van penetratie."@nl;
   skos:prefLabel "Penetratiegraad"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPenetratiegraad/halfgepenetreerd> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/halfgepenetreerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad>;
   skos:notation "halfgepenetreerd";
   skos:prefLabel "halfGepenetreerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPenetratiegraad/volenzatgenepetreerd> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/volenzatgenepetreerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad>;
   skos:notation "volenzatgenepetreerd";
   skos:prefLabel "volEnZatGenepetreerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/half-gepenetreerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad>;
+  skos:notation "half-gepenetreerd";
+  skos:prefLabel "half gepenetreerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/vol-en-zat-genepetreerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad>;
+  skos:notation "vol-en-zat-genepetreerd";
+  skos:prefLabel "vol en zat genepetreerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad> .

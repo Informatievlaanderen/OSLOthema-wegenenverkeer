@@ -3,32 +3,39 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke materialen van een bolder."@nl;
   skos:prefLabel "Materiaal bolder."@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBolder/inox> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBolder/inox> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
   skos:notation "inox";
   skos:prefLabel "inox"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBolder/staal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBolder/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
   skos:notation "staal";
   skos:prefLabel "staal"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBolder/gietijzer> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBolder/gietijzer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
   skos:notation "gietijzer";
   skos:prefLabel "gietijzer"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBolder/roestvaststaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder>;
+  skos:notation "roestvaststaal";
+  skos:prefLabel "roestvaststaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBolder> .

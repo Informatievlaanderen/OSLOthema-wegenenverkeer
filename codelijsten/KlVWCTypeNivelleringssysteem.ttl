@@ -3,40 +3,39 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke typen van een vaste waterbouw constructie."@nl;
-  skos:prefLabel "Typen nivelleringssysteem"@nl.
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke typen van het nivelleringssysteem van een vaste waterbouwkundige constructie."@nl;
+  skos:prefLabel "Type nivelleringssysteem"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/door-de-deur> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/door-de-deur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
   skos:notation "door-de-deur";
   skos:prefLabel "door de deur"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/onder-de-deur> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/onder-de-deur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
   skos:notation "onder-de-deur";
   skos:prefLabel "onder de deur"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/omloopriolen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/omloopriolen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
   skos:notation "omloopriolen";
   skos:prefLabel "omloopriolen"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/niet-van-toepassing> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCTypeNivelleringssysteem/niet-van-toepassing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem>;
   skos:notation "niet-van-toepassing";
   skos:prefLabel "niet van toepassing"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .
-
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCTypeNivelleringssysteem> .

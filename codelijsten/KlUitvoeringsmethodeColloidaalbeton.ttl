@@ -3,27 +3,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke uitvoeringsmethoden van colloÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯daal beton."@nl;
-  skos:prefLabel "Uitvoeringsmethode colloÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯daal beton"@nl.
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke uitvoeringsmethoden van colloïdaal beton."@nl;
+  skos:prefLabel "Uitvoeringsmethode colloïdaal beton"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeColloidaalbeton/hop-dobber> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeColloidaalbeton/hop-dobber> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton>;
   skos:notation "hop-dobber";
   skos:prefLabel "hop-dobber"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeColloidaalbeton/venturi> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeColloidaalbeton/venturi> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton>;
   skos:notation "venturi";
   skos:prefLabel "venturi"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton> .
-
-
-
-
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeColloidaalbeton> .

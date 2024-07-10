@@ -3,9 +3,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "TODO"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende types van geleidewerk."@nl;
   skos:prefLabel "Types geleidewerk"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGeleidewerk/vast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk>;
+  skos:notation "vast";
+  skos:prefLabel "vast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGeleidewerk/drijvend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk>;
+  skos:notation "drijvend";
+  skos:prefLabel "drijvend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk> .

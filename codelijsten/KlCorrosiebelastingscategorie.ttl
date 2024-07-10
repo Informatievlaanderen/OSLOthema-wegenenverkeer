@@ -3,56 +3,55 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke codes om de mate van corrosieve belasting in een bepaalde omgeving te beschrijven."@nl;
   skos:prefLabel "Corrosiebelastingscategorie"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c3-gemiddeld> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Binnen: Ruimten met een hoge luchtvochtigheid en enige vervuiling, zoals brouwerijen, melkerijen, washuizen. Buiten: Stedelijke en industriÃƒÂ«le gebieden met matige zwaveldioxidevervuiling; kustgebieden met lage zoutniveaus."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c3-gemiddeld> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen: Ruimten met een hoge luchtvochtigheid en enige vervuiling, zoals brouwerijen, melkerijen, washuizen. Buiten: Stedelijke en industriële gebieden met matige zwaveldioxidevervuiling; kustgebieden met lage zoutniveaus."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
   skos:notation "c3-gemiddeld";
   skos:prefLabel "C3 - Gemiddeld"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c1-zeer-laag> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c1-zeer-laag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Binnen : Verwarmde gebouwen met een schone atmosfeer."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
   skos:notation "c1-zeer-laag";
   skos:prefLabel "C1 - Zeer Laag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c2-laag> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c2-laag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Binnen: Niet-verwarmde gebouwen waar condensatie kan optreden, zoals bv. magazijnen en sporthallen. Buiten: Atmosferen met lage vervuilingsniveaus; meestal landelijke gebieden."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
   skos:notation "c2-laag";
   skos:prefLabel "C2 - Laag"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c5-i-industrieel-zeer-hoog> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Binnen: Gebouwen of gebieden met bijna constante condensatie en hoge vervuiling. Buiten: IndustriÃƒÂ«le gebieden met hoge vochtigheid en agressieve atmosfeer."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c5-i-industrieel-zeer-hoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen: Gebouwen of gebieden met bijna constante condensatie en hoge vervuiling. Buiten: Industriële gebieden met hoge vochtigheid en agressieve atmosfeer."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
   skos:notation "c5-i-industrieel-zeer-hoog";
   skos:prefLabel "C5-I (Industrieel) - Zeer Hoog"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c4-hoog> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Binnen: Chemische fabrieken, zwembaden, kustscheepswerven. Buiten: IndustriÃƒÂ«le gebieden en kustgebieden met matig zoutgehalte."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c4-hoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen: Chemische fabrieken, zwembaden, kustscheepswerven. Buiten: Industriële gebieden en kustgebieden met matig zoutgehalte."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
   skos:notation "c4-hoog";
   skos:prefLabel "C4 - Hoog"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c5-m-marien-zeer-hoog> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c5-m-marien-zeer-hoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Binnen: Gebouwen of gebieden met bijna constante condensatie en hoge vervuiling. Buiten: Kust- en offshore-gebieden met hoge zoutconcentraties."@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
   skos:notation "c5-m-marien-zeer-hoog";
   skos:prefLabel "C5-M (Marien) - Zeer Hoog"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
-
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .

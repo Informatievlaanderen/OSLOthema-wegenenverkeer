@@ -1,0 +1,65 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De keuzelijst die de verschillende type van materialen van de toegangsluik bevat."@nl;
+  skos:prefLabel "Keuzelijst materiaal toegangsluik"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/aluminium> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "aluminium";
+  skos:prefLabel "aluminium"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/cortenstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "cortenstaal";
+  skos:prefLabel "cortenstaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/kunststof> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/hout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "hout";
+  skos:prefLabel "hout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/roestvaststaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "roestvaststaal";
+  skos:prefLabel "roestvaststaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalToegangsluik/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalToegangsluik> .

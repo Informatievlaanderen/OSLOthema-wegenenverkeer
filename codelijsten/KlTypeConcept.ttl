@@ -1,0 +1,121 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types van concepten van een beweegbare waterkerende constructie."@nl;
+  skos:prefLabel "type beweging"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/wiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "wiel";
+  skos:prefLabel "wiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/hef> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "hef";
+  skos:prefLabel "hef"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/glij> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "glij";
+  skos:prefLabel "glij"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/klep> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "klep";
+  skos:prefLabel "klep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/segment> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "segment";
+  skos:prefLabel "segment"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/draai> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "draai";
+  skos:prefLabel "draai"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/zink> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "zink";
+  skos:prefLabel "zink"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/sector> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "sector";
+  skos:prefLabel "sector"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/jaloezieofspiegel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "jaloezieofspiegel";
+  skos:prefLabel "jaloezieOfSpiegel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/cilinder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "cilinder";
+  skos:prefLabel "cilinder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/rol> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "rol";
+  skos:prefLabel "rol"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/punt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "punt";
+  skos:prefLabel "punt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/vlinder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "vlinder";
+  skos:prefLabel "vlinder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeConcept/waaier> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept>;
+  skos:notation "waaier";
+  skos:prefLabel "waaier"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeConcept> .

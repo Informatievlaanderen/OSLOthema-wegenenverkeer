@@ -8,12 +8,12 @@
   skos:definition "Het merk van de UPS."@nl;
   skos:prefLabel "UPS merk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/phoenix-contact> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/delta> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Phoenix Contact"@nl;
+  skos:definition "Delta"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
-  skos:notation "phoenix-contact";
-  skos:prefLabel "Phoenix Contact"@nl;
+  skos:notation "delta";
+  skos:prefLabel "Delta"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/prostar> a skos:Concept;
@@ -22,6 +22,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
   skos:notation "prostar";
   skos:prefLabel "Prostar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/apc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "APC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "apc";
+  skos:prefLabel "APC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/phoenix-contact> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Phoenix Contact"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "phoenix-contact";
+  skos:prefLabel "Phoenix Contact"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/pulse-dimension> a skos:Concept;

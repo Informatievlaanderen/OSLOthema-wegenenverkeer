@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De aansluiting van de meetlussen op het verwerkingssysteem."@nl;
   skos:prefLabel "aansluiting meetlussen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingMIVMeetpunt/edv> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition " EDV"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingMIVMeetpunt>;
+  skos:notation "edv";
+  skos:prefLabel "EDV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingMIVMeetpunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingMIVMeetpunt/uxl> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "UXL"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingMIVMeetpunt>;
+  skos:notation "uxl";
+  skos:prefLabel "UXL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingMIVMeetpunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitingMIVMeetpunt/rechtstreeks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Rechtstreeks"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingMIVMeetpunt>;
+  skos:notation "rechtstreeks";
+  skos:prefLabel "Rechtstreeks"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingMIVMeetpunt> .

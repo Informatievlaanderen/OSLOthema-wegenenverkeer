@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type wegdek waarin de meetlussen zijn verwerkt."@nl;
   skos:prefLabel "MIV wegdek"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVWegdek/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Beton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVWegdek>;
+  skos:notation "beton";
+  skos:prefLabel "Beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVWegdek> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVWegdek/asfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Asfalt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVWegdek>;
+  skos:notation "asfalt";
+  skos:prefLabel "Asfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVWegdek> .

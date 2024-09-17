@@ -8,10 +8,42 @@
   skos:definition "De mogelijke types of categorieën van het document."@nl;
   skos:prefLabel "Bijlage type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/verslag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "verslag"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
+  skos:notation "verslag";
+  skos:prefLabel "verslag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/attest> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "attest"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
+  skos:notation "attest";
+  skos:prefLabel "attest"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/foto> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "foto"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
   skos:notation "foto";
   skos:prefLabel "foto"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/plan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "plan"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
+  skos:notation "plan";
+  skos:prefLabel "plan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/technische-fiche> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "technische fiche"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
+  skos:notation "technische-fiche";
+  skos:prefLabel "technische fiche"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .

@@ -48,6 +48,14 @@
   skos:prefLabel "scheenmuur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/tunnelfronton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het voorste deel van een tunnel, dat de overgang vormt tussen de tunnelopening en het omliggende landschap. Het biedt structurele ondersteuning en bescherming tegen instorting en erosie rond de tunnelopening."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand>;
+  skos:notation "tunnelfronton";
+  skos:prefLabel "tunnelfronton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeWand> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeWand/binnenwand> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Wand zonder dragende functie, meestal gebruikt om ruimtes van elkaar te scheiden."@nl;

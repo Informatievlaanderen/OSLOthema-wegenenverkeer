@@ -48,7 +48,7 @@ jobs:
             cp -R target/all.ttl /tmp/OSLO-codelistgenerated/
             cp -R target/muuid.nt /tmp/OSLO-codelistgenerated/
             cd /tmp/OSLO-codelistgenerated
-            zip all.ttl.zip all.ttl
+            zip -j all.ttl.zip all.ttl
       - run:
           name: Push results to github
           working_directory: /tmp/OSLO-codelistgenerated

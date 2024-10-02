@@ -29,27 +29,28 @@ jobs:
             - "cb:25:97:b6:bd:cd:4d:ac:8c:c6:63:9b:b9:d7:75:46"
       - run:
           name: Checkout target repo
-          workdir: /tmp
+          working_directory: /tmp
           command: |
             rm -rf codelist-generated
             git clone git@github.com:Informatievlaanderen/OSLO-codelistgenerated.git
       - run:
           name: Switch to the target directory
-          workdir: /tmp/OSLO-codelistgenerated
+          working_directory: /tmp/OSLO-codelistgenerated
           command: |
             git fetch origin
             git checkout -b "wegenenverkeer-${CIRCLE_BRANCH}" --track "origin/wegenenverkeer-${CIRCLE_BRANCH}"
       - run:
           name: Copy assets
-          workdir: /tmp/workspace
+          working_directory: /tmp/workspace
           command: |
             cp -R target/all.nt.gz /tmp/OSLO-codelistgenerated/
             gunzip -f /tmp/OSLO-codelistgenerated/all.nt.gz
             cp -R target/all.ttl /tmp/OSLO-codelistgenerated/
             cp -R target/muuid.nt /tmp/OSLO-codelistgenerated/
+            zip /tmp/OSLO-codelistgenerated/all.ttl.zip /tmp/OSLO-codelistgenerated/all.ttl
       - run:
           name: Push results to github
-          workdir: /tmp/OSLO-codelistgenerated
+          working_directory: /tmp/OSLO-codelistgenerated
           command: |
             git config user.email "circleci@data.vlaanderen.be"
             git config user.name "Circle CI Builder"

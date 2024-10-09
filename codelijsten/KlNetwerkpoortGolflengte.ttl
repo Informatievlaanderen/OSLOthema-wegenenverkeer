@@ -112,14 +112,6 @@
   skos:prefLabel "C1610"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortGolflengte/Other> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortGolflengte/D1561.01> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -318,6 +310,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte>;
   skos:notation "D1564.27";
   skos:prefLabel "D1564.27"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortGolflengte/Other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deze optie mag uitsluitend TIJDELIJK worden gebruikt en enkel tot de juiste gegevens beschikbaar zijn. Misbruik van deze optie leidt tot verminderde datakwaliteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte>;
+  skos:notation "Other";
+  skos:prefLabel "Other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortGolflengte> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortGolflengte/D1550.52> a skos:Concept;

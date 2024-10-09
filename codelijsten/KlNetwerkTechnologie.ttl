@@ -8,12 +8,28 @@
   skos:definition "Lijst van mogelijke intern gebruikte netwerk protocollen."@nl;
   skos:prefLabel "Netwerk technologie"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/PDH> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
+  skos:notation "PDH";
+  skos:prefLabel "PDH"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/SDH> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
   skos:notation "SDH";
   skos:prefLabel "SDH"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/Other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deze optie mag uitsluitend TIJDELIJK worden gebruikt en enkel tot de juiste gegevens beschikbaar zijn. Misbruik van deze optie leidt tot verminderde datakwaliteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
+  skos:notation "Other";
+  skos:prefLabel "Other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/OTN> a skos:Concept;
@@ -24,28 +40,20 @@
   skos:prefLabel "OTN"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/NULL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
+  skos:notation "NULL";
+  skos:prefLabel "NULL"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/CEN> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
   skos:notation "CEN";
   skos:prefLabel "CEN"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/WDM> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
-  skos:notation "WDM";
-  skos:prefLabel "WDM"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/PDH> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
-  skos:notation "PDH";
-  skos:prefLabel "PDH"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/Wireless> a skos:Concept;
@@ -56,18 +64,10 @@
   skos:prefLabel "Wireless"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/Other> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/WDM> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkTechnologie/NULL> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie>;
-  skos:notation "NULL";
-  skos:prefLabel "NULL"@nl;
+  skos:notation "WDM";
+  skos:prefLabel "WDM"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkTechnologie> .

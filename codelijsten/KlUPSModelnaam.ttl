@@ -40,14 +40,6 @@
   skos:prefLabel "PS15"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/quint4-ps-1ac-24dc-2-5-pt> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "QUINT4-PS-1AC-24DC-2.5-PT"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam>;
-  skos:notation "quint4-ps-1ac-24dc-2-5-pt";
-  skos:prefLabel "QUINT4-PS-1AC-24DC-2.5-PT"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/smt750i> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "SMT750I"@nl;
@@ -70,4 +62,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam>;
   skos:notation "smx750i";
   skos:prefLabel "SMX750I"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/quint4-ps-1ac-24dc-2-5-pt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "QUINT4-PS-1AC-24DC-2.5-PT"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam>;
+  skos:notation "quint4-ps-1ac-24dc-2-5-pt";
+  skos:prefLabel "QUINT4-PS-1AC-24DC-2.5-PT"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deze optie mag uitsluitend TIJDELIJK worden gebruikt en enkel tot de juiste gegevens beschikbaar zijn. Misbruik van deze optie leidt tot verminderde datakwaliteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam>;
+  skos:notation "other";
+  skos:prefLabel "Other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .

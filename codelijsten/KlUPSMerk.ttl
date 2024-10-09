@@ -8,6 +8,14 @@
   skos:definition "Het merk van de UPS."@nl;
   skos:prefLabel "UPS merk"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deze optie mag uitsluitend TIJDELIJK worden gebruikt en enkel tot de juiste gegevens beschikbaar zijn. Misbruik van deze optie leidt tot verminderde datakwaliteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "other";
+  skos:prefLabel "Other"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/delta> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Delta"@nl;

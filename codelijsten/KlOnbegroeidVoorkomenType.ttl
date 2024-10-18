@@ -56,14 +56,6 @@
   skos:prefLabel "grindgazon eenlaags"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnbegroeidVoorkomenType/kunstgras> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bedekking bestaande uit synthetisch materiaal, met de bedoeling om natuurlijk gras te imiteren."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType>;
-  skos:notation "kunstgras";
-  skos:prefLabel "kunstgras"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnbegroeidVoorkomenType/steenslag-rolgrind> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Bedekking van een onverharde zone die opgebouwd is uit een niet-gecompacteerde groep van individuele componenten die voldoen aan de volgende specificaties: losse steenslag, behalve dolomiet, afgeronde en onregelmatige vorm en onregelmatig verband."@nl;
@@ -102,4 +94,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType>;
   skos:notation "gesloten-kunststofverharding";
   skos:prefLabel "gesloten kunststofverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnbegroeidVoorkomenType/zand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bedekkingstype bestaande uit aangevoerd zand (Natuurlijk zand bestaat uit zuiver kwarts in een fractie 0-2 mm)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType>;
+  skos:notation "zand";
+  skos:prefLabel "zand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOnbegroeidVoorkomenType/kunstgras> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bedekking bestaande uit synthetisch materiaal, met de bedoeling om natuurlijk gras te imiteren."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType>;
+  skos:notation "kunstgras";
+  skos:prefLabel "kunstgras"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOnbegroeidVoorkomenType> .

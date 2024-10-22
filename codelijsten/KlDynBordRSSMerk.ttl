@@ -15,3 +15,11 @@
   skos:notation "swarco";
   skos:prefLabel "Swarco"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordRSSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordRSSMerk/dms> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DMS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordRSSMerk>;
+  skos:notation "dms";
+  skos:prefLabel "DMS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordRSSMerk> .

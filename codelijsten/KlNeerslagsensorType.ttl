@@ -8,14 +8,6 @@
   skos:definition "Het type van de neerslagsensor."@nl;
   skos:prefLabel "Neerslagsensor type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/capacitief> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een type sensor dat neerslag detecteert door veranderingen in de elektrische capaciteit op te merken. Wanneer neerslag (sneeuw, regen, hagel) op het sensoroppervlak komt, verandert de capaciteit door de aanwezigheid van deze neerslag, wat wordt gedetecteerd door de sensor."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
-  skos:notation "capacitief";
-  skos:prefLabel "capacitief"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/radar> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Detecteert neerslag (sneeuw, regen, hagel) door gebruik te maken van radartechnologie. Dit type sensor zendt radargolven uit en analyseert de reflectie van deze golven op vallende neerslag."@nl;
@@ -30,4 +22,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
   skos:notation "optisch";
   skos:prefLabel "optisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/capacitief> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een type sensor dat neerslag (sneeuw, regen, hagel) detecteert door veranderingen in de elektrische capaciteit op te merken. Wanneer neerslag (sneeuw, regen, hagel) op het sensoroppervlak komt, verandert de capaciteit door de aanwezigheid van deze neerslag, wat wordt gedetecteerd door de sensor."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
+  skos:notation "capacitief";
+  skos:prefLabel "capacitief"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .

@@ -10,24 +10,24 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/capacitief> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "capacitief"@nl;
+  skos:definition "Een type sensor dat neerslag detecteert door veranderingen in de elektrische capaciteit op te merken. Wanneer neerslag (sneeuw, regen, hagel) op het sensoroppervlak komt, verandert de capaciteit door de aanwezigheid van deze neerslag, wat wordt gedetecteerd door de sensor."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
   skos:notation "capacitief";
   skos:prefLabel "capacitief"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/optisch> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
-  skos:notation "optisch";
-  skos:prefLabel "optisch"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/radar> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "Detecteert neerslag (sneeuw, regen, hagel) door gebruik te maken van radartechnologie. Dit type sensor zendt radargolven uit en analyseert de reflectie van deze golven op vallende neerslag."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
   skos:notation "radar";
   skos:prefLabel "radar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorType/optisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Detecteert neerslag (sneeuw, regen, hagel) door licht te gebruiken. Wanneer bv. regendruppels op het oppervlak van de sensor vallen, verstrooien ze het licht, wat de sensor registreert als een verandering in de lichtintensiteit. Deze verstrooiing of vermindering van licht geeft aan dat er neerslag aanwezig is."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType>;
+  skos:notation "optisch";
+  skos:prefLabel "optisch"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorType> .

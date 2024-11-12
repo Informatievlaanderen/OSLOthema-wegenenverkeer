@@ -72,14 +72,6 @@
   skos:prefLabel "S270GP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/rvs-316-brut> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een staalsoort met een kwaliteit die beter bestand is tegen zouten en zuren."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
-  skos:notation "rvs-316-brut";
-  skos:prefLabel "RVS 316 brut"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s-460-ml> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "S staat voor Structural steel (constructiestaal), 460 voor de vloeigrens in MPa en ML staat voor thermo mechanisch gewalst staal met min. gespecificeerde kerfslagwaarden onder -50 graden celsius."@nl;
@@ -128,14 +120,6 @@
   skos:prefLabel "S240GP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s-355-j-2-n> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "S staat voor Structural steel (constructiestaal), 355 voor de vloeigrens in MPa, J staat voor een kerfslagwaarde van 27 Joule en 2 voor -20 graden celsius. De N duidt aan dat producten in genormaliseerde of equivalente toestand dienen geleverd te worden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
-  skos:notation "s-355-j-2-n";
-  skos:prefLabel "S355J2+N"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s-430-gp> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Warmgewalste staalsoort S 430 GP."@nl;
@@ -182,4 +166,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
   skos:notation "s-275-jr";
   skos:prefLabel "S275JR"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s-355-j-2-n> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "S staat voor Structural steel (constructiestaal), 355 voor de vloeigrens in MPa, J staat voor een kerfslagwaarde van 27 Joule en 2 voor -20 graden celsius. De N duidt aan dat producten in genormaliseerde of equivalente toestand dienen geleverd te worden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "s-355-j-2-n";
+  skos:prefLabel "S355J2+N"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/rvs-316-brut> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Een staalsoort met een kwaliteit die beter bestand is tegen zouten en zuren."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "rvs-316-brut";
+  skos:prefLabel "RVS 316 brut"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .

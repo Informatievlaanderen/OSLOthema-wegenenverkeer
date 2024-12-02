@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanBeweegbaardheid> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hoeveel een brugdeel kan bewegen. Dit wordt bepaald door de manier waarop het brugdeel beweegt."@nl;
+  skos:prefLabel "Graad van beweegbaarheid"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanBeweegbaardheid/vast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het brugdeel is vast en beweegt niet"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanBeweegbaardheid>;
+  skos:notation "vast";
+  skos:prefLabel "vast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanBeweegbaardheid> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanBeweegbaardheid/beweegbaar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het brugdeel is beweegbaar."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanBeweegbaardheid>;
+  skos:notation "beweegbaar";
+  skos:prefLabel "beweegbaar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanBeweegbaardheid> .

@@ -8,14 +8,6 @@
   skos:definition "De soort van de aanvaarbescherming."@nl;
   skos:prefLabel "Type aanvaarbescherming"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/dukdalf> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een in het water geplaatste rechtopstaande paal, al dan niet met schoorpalen voor het vastleggen en afmeren van schepen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
-  skos:notation "dukdalf";
-  skos:prefLabel "Dukdalf"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk-met-dukdalf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "Geleidewerk voorzien van dukdalven."@nl;
@@ -30,6 +22,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
   skos:notation "andere";
   skos:prefLabel "Andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/dukdalf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Een in het water geplaatste rechtopstaande paal, al dan niet met schoorpalen voor het vastleggen en afmeren van schepen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType>;
+  skos:notation "dukdalf";
+  skos:prefLabel "Dukdalf"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/niet-opgenomen-in-de-lijst> a skos:Concept;

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met merknamen voor Detectiecamera."@nl;
   skos:prefLabel "Detectiecamera merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectiecameraMerk/flir> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "FLIR"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraMerk>;
+  skos:notation "flir";
+  skos:prefLabel "FLIR"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraMerk> .

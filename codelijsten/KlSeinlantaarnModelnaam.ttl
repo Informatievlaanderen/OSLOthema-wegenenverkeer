@@ -15,3 +15,19 @@
   skos:notation "ciway";
   skos:prefLabel "CIWAY"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinlantaarnModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinlantaarnModelnaam/futurit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Futurit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinlantaarnModelnaam>;
+  skos:notation "futurit";
+  skos:prefLabel "Futurit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinlantaarnModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinlantaarnModelnaam/alustar> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Alustar"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinlantaarnModelnaam>;
+  skos:notation "alustar";
+  skos:prefLabel "Alustar"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinlantaarnModelnaam> .

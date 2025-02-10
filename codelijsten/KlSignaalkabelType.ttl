@@ -160,6 +160,14 @@
   skos:prefLabel "coax RG59"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/emggb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "EmGGB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "emggb";
+  skos:prefLabel "EmGGB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/liy(st)yy> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "LiY(st)YY"@nl;

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een verdere specificatie van het type van de datakabel volgens een vaste lijst om bv. de brandklasse mee te geven."@nl;
   skos:prefLabel "Datakabel type specificatie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelTypeSpecificatie/fr2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "FR2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelTypeSpecificatie>;
+  skos:notation "fr2";
+  skos:prefLabel "FR2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelTypeSpecificatie> .

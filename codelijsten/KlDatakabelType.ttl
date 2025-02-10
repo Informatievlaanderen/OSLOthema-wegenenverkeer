@@ -272,18 +272,26 @@
   skos:prefLabel "RG6"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "F-UTP"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
-  skos:notation "f-utp";
-  skos:prefLabel "F-UTP"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/u-utp-cat-6e-outdoor> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "U/UTP Categorie 6."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
   skos:notation "u-utp-cat-6e-outdoor";
   skos:prefLabel "U/UTP cat 6E outdoor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/s-utp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "S-UTP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "s-utp";
+  skos:prefLabel "S-UTP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelType/f-utp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "F-UTP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType>;
+  skos:notation "f-utp";
+  skos:prefLabel "F-UTP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelType> .

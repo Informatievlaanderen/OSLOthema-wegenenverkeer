@@ -8,14 +8,6 @@
   skos:definition "Lijst van mogelijke waarden volgens de catalogusposten van het standaardbestek voor de samenstelling van een voedingskabel volgens het aantal aders en hun dikte in vierkante millimeter."@nl;
   skos:prefLabel "Voedingskabel aders en sectie"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/1-x-16-mm2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "uitgebruik"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
-  skos:notation "1-x-16-mm2";
-  skos:prefLabel "1 x 16 mm²"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/4-x-150-mm2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "uitgebruik"@nl;
@@ -46,6 +38,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
   skos:notation "4-x-16-mm2";
   skos:prefLabel "4 x 16 mm²"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/5g25> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "5G25"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
+  skos:notation "5g25";
+  skos:prefLabel "5G25"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/1-x-16-mm2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "uitgebruik"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie>;
+  skos:notation "1-x-16-mm2";
+  skos:prefLabel "1 x 16 mm²"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelAdersEnSectie/3g4> a skos:Concept;

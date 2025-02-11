@@ -40,6 +40,14 @@
   skos:prefLabel "ACTi"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/tatille> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Tatille"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "tatille";
+  skos:prefLabel "Tatille"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/mobotix> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mobotix"@nl;

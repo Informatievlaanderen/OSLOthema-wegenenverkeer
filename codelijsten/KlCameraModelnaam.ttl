@@ -24,6 +24,14 @@
   skos:prefLabel "Ulisse HD"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/pelco-esprit-compact> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Pelco Esprit Compact"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "pelco-esprit-compact";
+  skos:prefLabel "Pelco Esprit Compact"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TrafiBot2"@nl;
@@ -62,6 +70,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
   skos:notation "q3517-lve-22mm";
   skos:prefLabel "Q3517-LVE-22mm"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot-ai> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TrafiBot AI"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "trafibot-ai";
+  skos:prefLabel "TrafiBot AI"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/g3> a skos:Concept;

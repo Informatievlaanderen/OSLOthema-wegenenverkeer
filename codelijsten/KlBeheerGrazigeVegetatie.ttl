@@ -8,28 +8,12 @@
   skos:definition "De verschillende soorten van beheer voor grazige vegetatie."@nl;
   skos:prefLabel "Beheer grazige vegetatie "@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/begrazing> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/beluchten> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De vegetatie wordt begraasd door dieren."@nl;
+  skos:definition "Beluchten van grazige vegetatie."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "begrazing";
-  skos:prefLabel "begrazing"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/niets-doen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Er wordt geen beheer uitgevoerd"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "niets-doen";
-  skos:prefLabel "niets doen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/aflagen> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Het verwijderen van de bovenste grondlaag met begroeiing om afwatering te garanderen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "aflagen";
-  skos:prefLabel "aflagen"@nl;
+  skos:notation "beluchten";
+  skos:prefLabel "beluchten"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/plaggen> a skos:Concept;
@@ -40,52 +24,12 @@
   skos:prefLabel "plaggen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/afboorden> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maairegime-4> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Het afsteken van de overgroeiende vegetatie langs de rand van de verharding. (wordt afranden genoemd in SB250) "@nl;
+  skos:definition "2 maaibeurten waarbij een maaibreedte van 2 maaibalken gemaaid wordt. Eerste maaibeurt gebeurt in periode na15 juni, 2e maaibeurt gebeurt na 15 september. Het maaisel wordt afgevoerd."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "afboorden";
-  skos:prefLabel "afboorden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/beluchten> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Beluchten van grazige vegetatie."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "beluchten";
-  skos:prefLabel "beluchten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/konijnenbeheer> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Het reduceren van konijnenpopulaties om de stabilietit van taluds te blijven garanderen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "konijnenbeheer";
-  skos:prefLabel "konijnenbeheer"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/reiten> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Het inkorten van het riet tot ongeveer 10 cm boven het wateroppervlak met maaikorf. Maaisel wordt verwijderd."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "reiten";
-  skos:prefLabel "reiten"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/uitharken> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Uitharken van grazige vegetatie."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "uitharken";
-  skos:prefLabel "uitharken"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/bestrijden-ongewenste-vegetatie> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bestrijden van ongewenste vegetatie die zich bevingt in het perceel van grazige vegetatie.."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
-  skos:notation "bestrijden-ongewenste-vegetatie";
-  skos:prefLabel "bestrijden ongewenste vegetatie"@nl;
+  skos:notation "maairegime-4";
+  skos:prefLabel "Maairegime 4"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maaisel-verwijderen-hooien-oprapen> a skos:Concept;
@@ -96,6 +40,54 @@
   skos:prefLabel "maaisel verwijderen hooien-oprapen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/aflagen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het verwijderen van de bovenste grondlaag met begroeiing om afwatering te garanderen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "aflagen";
+  skos:prefLabel "aflagen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maairegime-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "2 maaibeurten waarbij de volledige berm gemaaid wordt. Eerste maaibeurt gebeurt in periode van 1mei tot 15 juni, 2e maaibeurt gebeurt na 15 september. Het maaisel wordt afgevoerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "maairegime-1";
+  skos:prefLabel "Maairegime 1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maairegime-3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "2 maaibeurten waarbij de volledige berm gemaaid wordt. Eerste maaibeurt gebeurt in periode na 15 juni, 2e maaibeurt gebeurt na 15 september. Het maaisel wordt afgevoerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "maairegime-3";
+  skos:prefLabel "Maairegime 3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maairegime-5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "1 maaibeurt waarbij de volledige berm gemaaid wordt. Deze maaibeurt vindt plaats tussen augustus en oktober. Het maaisel wordt afgevoerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "maairegime-5";
+  skos:prefLabel "Maairegime 5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/reiten> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het inkorten van het riet tot ongeveer 10 cm boven het wateroppervlak met maaikorf. Maaisel wordt verwijderd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "reiten";
+  skos:prefLabel "reiten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/bestrijden-ongewenste-vegetatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bestrijden van ongewenste vegetatie die zich bevingt in het perceel van grazige vegetatie.."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "bestrijden-ongewenste-vegetatie";
+  skos:prefLabel "bestrijden ongewenste vegetatie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/profielherstelling-zonder-herinzaaien> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Profielherstelling zonder herinzaaiing van grazige vegetatie."@nl;
@@ -104,10 +96,74 @@
   skos:prefLabel "profielherstelling zonder herinzaaien"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/uitharken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitharken van grazige vegetatie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "uitharken";
+  skos:prefLabel "uitharken"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/konijnenbeheer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het reduceren van konijnenpopulaties om de stabilietit van taluds te blijven garanderen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "konijnenbeheer";
+  skos:prefLabel "konijnenbeheer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maairegime-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "2 maaibeurten waarbij een maaibreedte van 2 maaibalken gemaaid wordt. Eerste maaibeurt gebeurt in periode van 1mei tot 15 juni, 2e maaibeurt gebeurt na 15 september. Het maaisel wordt afgevoerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "maairegime-2";
+  skos:prefLabel "Maairegime 2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/maaisel-verwijderen-directe-opzuig> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "het verwijderen van het maaisel met een maaizuigcombinatie"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
   skos:notation "maaisel-verwijderen-directe-opzuig";
   skos:prefLabel "maaisel verwijderen directe opzuig"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/rietbeheer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De volledige berm wordt 1 keer per 2 jaar gemaaid in de periode van augustus tot oktober. Jaarlijks gebeurt er een veiligheidsmaaibeurt van 1 maaibalk breed."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "rietbeheer";
+  skos:prefLabel "Rietbeheer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/afboorden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het afsteken van de overgroeiende vegetatie langs de rand van de verharding. (wordt afranden genoemd in SB250) "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "afboorden";
+  skos:prefLabel "afboorden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/begrazing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De vegetatie wordt begraasd door dieren."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "begrazing";
+  skos:prefLabel "begrazing"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/ruigtebeheer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De volledige berm wordt 1 keer per 3 jaar gemaaid in de periode van augustus tot oktober. Jaarlijks gebeurt er een veiligheidsmaaibeurt van 1 maaibalk breed."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "ruigtebeheer";
+  skos:prefLabel "Ruigtebeheer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeheerGrazigeVegetatie/niets-doen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Er wordt geen beheer uitgevoerd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie>;
+  skos:notation "niets-doen";
+  skos:prefLabel "niets doen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeheerGrazigeVegetatie> .

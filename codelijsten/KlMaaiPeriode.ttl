@@ -8,20 +8,12 @@
   skos:definition "De maand waarin het maaien wordt uitgevoerd."@nl;
   skos:prefLabel "Maaiperiode"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/april> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/augustus-tot-oktober> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De maand april."@nl;
+  skos:definition "De periode augustus tot oktober."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
-  skos:notation "april";
-  skos:prefLabel "april"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/mei> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De maand mei."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
-  skos:notation "mei";
-  skos:prefLabel "mei"@nl;
+  skos:notation "augustus-tot-oktober";
+  skos:prefLabel "augustus tot oktober"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/juni> a skos:Concept;
@@ -32,20 +24,12 @@
   skos:prefLabel "juni"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/juli> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/oktober> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De maand juli."@nl;
+  skos:definition "De maand oktober."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
-  skos:notation "juli";
-  skos:prefLabel "juli"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/augustus> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De maand augustus."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
-  skos:notation "augustus";
-  skos:prefLabel "augustus"@nl;
+  skos:notation "oktober";
+  skos:prefLabel "oktober"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/september> a skos:Concept;
@@ -56,10 +40,50 @@
   skos:prefLabel "september"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/oktober> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/mei> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De maand oktober."@nl;
+  skos:definition "De maand mei."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
-  skos:notation "oktober";
-  skos:prefLabel "oktober"@nl;
+  skos:notation "mei";
+  skos:prefLabel "mei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/juli> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De maand juli."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
+  skos:notation "juli";
+  skos:prefLabel "juli"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/juni-tot-september> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De periode juni tot september."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
+  skos:notation "juni-tot-september";
+  skos:prefLabel "juni tot september"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/mei-tot-september> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De periode van mei tot september."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
+  skos:notation "mei-tot-september";
+  skos:prefLabel "mei tot september"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/augustus> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De maand augustus."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
+  skos:notation "augustus";
+  skos:prefLabel "augustus"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMaaiPeriode/april> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De maand april."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode>;
+  skos:notation "april";
+  skos:prefLabel "april"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMaaiPeriode> .

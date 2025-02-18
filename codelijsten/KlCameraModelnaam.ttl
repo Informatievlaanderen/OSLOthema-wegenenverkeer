@@ -104,6 +104,14 @@
   skos:prefLabel "B95A"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/vega-tasc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "VEGA TaSC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "vega-tasc";
+  skos:prefLabel "VEGA TaSC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/icar-cam5> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "iCar cam5"@nl;

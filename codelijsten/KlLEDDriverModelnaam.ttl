@@ -56,6 +56,14 @@
   skos:prefLabel "HLG 320H C700B"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xitanium-fp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xitanium FP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xitanium-fp";
+  skos:prefLabel "Xitanium FP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/ot-dx-40-220-240-1a0-dima-lt2-e> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "OT DX 40 220-240 1A0 DIMA LT2 E"@nl;

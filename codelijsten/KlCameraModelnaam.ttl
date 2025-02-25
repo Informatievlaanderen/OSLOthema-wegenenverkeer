@@ -48,6 +48,14 @@
   skos:prefLabel "Q3536-LVE-9mm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TrafiBot"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "trafibot";
+  skos:prefLabel "TrafiBot"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/mx-m16b> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "MX-M16B"@nl;
@@ -62,14 +70,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
   skos:notation "dinion-ip-starlight-8000-m";
   skos:prefLabel "Dinion IP Starlight 8000 M"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/q3517-lve-22mm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Q3517-LVE-22mm"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
-  skos:notation "q3517-lve-22mm";
-  skos:prefLabel "Q3517-LVE-22mm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot-ai> a skos:Concept;
@@ -126,4 +126,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
   skos:notation "mic-ip-7100i";
   skos:prefLabel "MIC IP 7100i"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/ulisse-evo> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ulisse EVO"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "ulisse-evo";
+  skos:prefLabel "Ulisse EVO"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/q3517-lve-22mm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Q3517-LVE-22mm"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "q3517-lve-22mm";
+  skos:prefLabel "Q3517-LVE-22mm"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .

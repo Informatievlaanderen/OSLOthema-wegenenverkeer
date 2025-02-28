@@ -8,6 +8,14 @@
   skos:definition "Lijst van mogelijke waarden volgens de catalogusposten van het standaardbestek voor de samenstelling van een datakabel volgens het aantal aders en in voorkomende gevallen, hun dikte in vierkante millimeter."@nl;
   skos:prefLabel "Datakabel aders en sectie"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/5g1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "5G1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
+  skos:notation "5g1";
+  skos:prefLabel "5G1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/100-x-2-x-1-mm2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

@@ -64,6 +64,14 @@
   skos:prefLabel "Videotec"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/pelco> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Pelco"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk>;
+  skos:notation "pelco";
+  skos:prefLabel "Pelco"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraMerk/teledyne-flir> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Teledyne FLIR"@nl;

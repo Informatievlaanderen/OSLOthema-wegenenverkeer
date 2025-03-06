@@ -8,6 +8,14 @@
   skos:definition "Modelnamen voor Netwerkelementen."@nl;
   skos:prefLabel "Netwerkelement modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/ips-3082-gc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IPS-3082-GC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
+  skos:notation "ips-3082-gc";
+  skos:prefLabel "IPS-3082-GC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/5171> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "5171"@nl;
@@ -110,6 +118,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
   skos:notation "ie-3000";
   skos:prefLabel "IE-3000"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/igps-9084gp-la> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IGPS-9084GP-LA"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
+  skos:notation "igps-9084gp-la";
+  skos:prefLabel "IGPS-9084GP-LA"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/6500-S8> a skos:Concept;

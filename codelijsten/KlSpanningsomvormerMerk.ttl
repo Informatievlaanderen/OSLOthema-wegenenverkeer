@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van merknamen van spanningsomvormers volgens de fabrikant."@nl;
   skos:prefLabel "Merknamen spanningsomvormers"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpanningsomvormerMerk/eltek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Eltek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerMerk>;
+  skos:notation "eltek";
+  skos:prefLabel "Eltek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerMerk> .

@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van modelnamen van spanningsomvormers volgens de fabrikant."@nl;
   skos:prefLabel "Modelnamen spanningsomvormers"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpanningsomvormerModelnaam/minipack> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Minipack"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam>;
+  skos:notation "minipack";
+  skos:prefLabel "Minipack"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpanningsomvormerModelnaam/smartpack-s> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Smartpack S "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam>;
+  skos:notation "smartpack-s";
+  skos:prefLabel "Smartpack S "@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam> .

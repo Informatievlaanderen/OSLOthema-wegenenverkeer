@@ -96,14 +96,6 @@
   skos:prefLabel "DigiStreet"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/Focal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
-  skos:notation "Focal";
-  skos:prefLabel "Focal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/izylum-1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Izylum-1"@nl;
@@ -382,6 +374,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
   skos:notation "HCI-TS";
   skos:prefLabel "HCI-TS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/Focal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "Focal";
+  skos:prefLabel "Focal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/albany-midi> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Albany Midi"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "albany-midi";
+  skos:prefLabel "Albany Midi"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/lumistreet-gen2-mini> a skos:Concept;

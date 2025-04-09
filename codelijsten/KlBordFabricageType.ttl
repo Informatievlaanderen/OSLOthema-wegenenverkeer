@@ -112,14 +112,6 @@
   skos:prefLabel "standardbestek 250 bandit band"@nl;
   skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/SB250> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Standaardbestek 250"@nl;
-  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "SB250";
-  skos:prefLabel "Standaardbestek 250"@nl;
-  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/VLAK> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vlak"@nl;
@@ -134,6 +126,14 @@
   skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "BRUGGEN_EN_WEGEN";
   skos:prefLabel "Bruggen en wegen"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/SB250> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardbestek 250"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "SB250";
+  skos:prefLabel "Standaardbestek 250"@nl;
   skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/PRISMABORDEN> a skos:Concept;

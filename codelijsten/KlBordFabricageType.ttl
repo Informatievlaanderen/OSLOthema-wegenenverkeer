@@ -8,14 +8,6 @@
   skos:definition "Fabricagetype van een verkeersbord."@nl;
   skos:prefLabel "Bord fabricage type"@nl.
 
-<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/VARIABLE_MESSAGE_SIGN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Variable Message Sign"@nl;
-  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "VARIABLE_MESSAGE_SIGN";
-  skos:prefLabel "Variable Message Sign"@nl;
-  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/SB270> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Standaardbestek 270"@nl;
@@ -104,6 +96,22 @@
   skos:prefLabel "Standaardbestek 270"@nl;
   skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
 
+<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/VARIABLE_MESSAGE_SIGN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Variable Message Sign"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "VARIABLE_MESSAGE_SIGN";
+  skos:prefLabel "Variable Message Sign"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/INWENDIG_VERLICHT> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Inwendig verlicht"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "INWENDIG_VERLICHT";
+  skos:prefLabel "Inwendig verlicht"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
+
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/SB250_BANDIT_BAND> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "standardbestek 250 bandit band"@nl;
@@ -166,14 +174,6 @@
   skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "standardbestek-250-bandit-band";
   skos:prefLabel "standardbestek 250 bandit band"@nl;
-  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
-
-<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/INWENDIG_VERLICHT> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Inwendig verlicht"@nl;
-  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "INWENDIG_VERLICHT";
-  skos:prefLabel "Inwendig verlicht"@nl;
   skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/standaardbestek-250> a skos:Concept;

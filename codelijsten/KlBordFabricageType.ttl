@@ -48,14 +48,6 @@
   skos:prefLabel "Standaardbestek 270"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/VARIABLE_MESSAGE_SIGN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Variable Message Sign"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "VARIABLE_MESSAGE_SIGN";
-  skos:prefLabel "Variable Message Sign"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/vlak> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "Vlak"@nl;
@@ -78,6 +70,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "bruggen-en-wegen";
   skos:prefLabel "Bruggen en wegen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/VARIABLE_MESSAGE_SIGN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Variable Message Sign"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "VARIABLE_MESSAGE_SIGN";
+  skos:prefLabel "Variable Message Sign"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/T2000> a skos:Concept;

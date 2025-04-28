@@ -32,6 +32,14 @@
   skos:prefLabel "Bruggen en wegen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/gordijnborden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Gordijnborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "gordijnborden";
+  skos:prefLabel "Gordijnborden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/ONBEKEND> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Onbekend"@nl;
@@ -46,6 +54,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "SB270";
   skos:prefLabel "Standaardbestek 270"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/t2000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "T2000"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "t2000";
+  skos:prefLabel "T2000"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/vlak> a skos:Concept;
@@ -80,20 +96,20 @@
   skos:prefLabel "Variable Message Sign"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/T2000> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "T2000"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "T2000";
-  skos:prefLabel "T2000"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/VLAK> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vlak"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "VLAK";
   skos:prefLabel "Vlak"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/GORDIJNBORDEN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gordijnborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "GORDIJNBORDEN";
+  skos:prefLabel "Gordijnborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/standaardbestek-270> a skos:Concept;
@@ -136,22 +152,6 @@
   skos:prefLabel "Standaardbestek 250"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/gordijnborden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
-  skos:definition "Gordijnborden"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "gordijnborden";
-  skos:prefLabel "Gordijnborden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/PRISMABORDEN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Prismaborden"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "PRISMABORDEN";
-  skos:prefLabel "Prismaborden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/prismaborden> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "Prismaborden"@nl;
@@ -168,18 +168,18 @@
   skos:prefLabel "Inwendig verlicht"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/t2000> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
-  skos:definition "T2000"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/PRISMABORDEN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Prismaborden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "t2000";
-  skos:prefLabel "T2000"@nl;
+  skos:notation "PRISMABORDEN";
+  skos:prefLabel "Prismaborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/GORDIJNBORDEN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Gordijnborden"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/T2000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "T2000"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "GORDIJNBORDEN";
-  skos:prefLabel "Gordijnborden"@nl;
+  skos:notation "T2000";
+  skos:prefLabel "T2000"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .

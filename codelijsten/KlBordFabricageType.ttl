@@ -16,14 +16,6 @@
   skos:prefLabel "Inwendig verlicht"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/SB250> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Standaardbestek 250"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "SB250";
-  skos:prefLabel "Standaardbestek 250"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/standardbestek-250-bandit-band> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "standardbestek 250 bandit band"@nl;
@@ -54,6 +46,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "SB270";
   skos:prefLabel "Standaardbestek 270"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/vlak> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Vlak"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "vlak";
+  skos:prefLabel "Vlak"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/onbekend> a skos:Concept;
@@ -102,6 +102,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "standaardbestek-270";
   skos:prefLabel "Standaardbestek 270"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/SB250> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardbestek 250"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "SB250";
+  skos:prefLabel "Standaardbestek 250"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/SB250_BANDIT_BAND> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "standardbestek 250 bandit band"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "SB250_BANDIT_BAND";
+  skos:prefLabel "standardbestek 250 bandit band"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/variable-message-sign> a skos:Concept;
@@ -166,20 +182,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "GORDIJNBORDEN";
   skos:prefLabel "Gordijnborden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/vlak> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
-  skos:definition "Vlak"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "vlak";
-  skos:prefLabel "Vlak"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/SB250_BANDIT_BAND> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "standardbestek 250 bandit band"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "SB250_BANDIT_BAND";
-  skos:prefLabel "standardbestek 250 bandit band"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .

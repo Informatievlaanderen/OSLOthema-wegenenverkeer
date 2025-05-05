@@ -32,14 +32,6 @@
   skos:prefLabel "Bruggen en wegen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/ONBEKEND> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Onbekend"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
-  skos:notation "ONBEKEND";
-  skos:prefLabel "Onbekend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/SB270> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Standaardbestek 270"@nl;
@@ -166,6 +158,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "inwendig-verlicht";
   skos:prefLabel "Inwendig verlicht"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/ONBEKEND> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Onbekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "ONBEKEND";
+  skos:prefLabel "Onbekend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBordFabricageType/t2000> a skos:Concept;

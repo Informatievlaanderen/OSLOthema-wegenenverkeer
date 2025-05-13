@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met modelnamen voor Drukknop."@nl;
   skos:prefLabel "Drukknop modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDrukknopModelnaam/daps-2100l-230v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DAPS 2100L 230V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopModelnaam>;
+  skos:notation "daps-2100l-230v";
+  skos:prefLabel "DAPS 2100L 230V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDrukknopModelnaam/daps-2100l-42v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DAPS 2100L 42V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopModelnaam>;
+  skos:notation "daps-2100l-42v";
+  skos:prefLabel "DAPS 2100L 42V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopModelnaam> .

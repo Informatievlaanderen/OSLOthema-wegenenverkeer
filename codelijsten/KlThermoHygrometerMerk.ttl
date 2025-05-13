@@ -15,3 +15,19 @@
   skos:notation "vaisala";
   skos:prefLabel "Vaisala"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlThermoHygrometerMerk/apc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "APC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk>;
+  skos:notation "apc";
+  skos:prefLabel "APC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlThermoHygrometerMerk/gude> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gude"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk>;
+  skos:notation "gude";
+  skos:prefLabel "Gude"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerMerk> .

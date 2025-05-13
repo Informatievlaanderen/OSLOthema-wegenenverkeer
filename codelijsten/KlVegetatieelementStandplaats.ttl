@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke standplaatsen van een vegetatieelement."@nl;
   skos:prefLabel "Vegetatieelement standplaats"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieelementStandplaats/overgangszone-bebouwde-kom-landelijk-gebied> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,7 - overgangszone: bebouwde kom - landelijk gebied"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats>;
+  skos:notation "overgangszone-bebouwde-kom-landelijk-gebied";
+  skos:prefLabel "overgangszone bebouwde kom - landelijk gebied"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieelementStandplaats/landelijk-gebied> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,6 - landelijk gebied"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats>;
+  skos:notation "landelijk-gebied";
+  skos:prefLabel "landelijk gebied"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieelementStandplaats/gesloten-bebouwing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,9 - gesloten bebouwing"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats>;
+  skos:notation "gesloten-bebouwing";
+  skos:prefLabel "gesloten bebouwing"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieelementStandplaats/open-en-halfopen-bebouwing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,8 - open en halfopen bebouwing"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats>;
+  skos:notation "open-en-halfopen-bebouwing";
+  skos:prefLabel "open en halfopen bebouwing"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieelementStandplaats/sterk-verstedelijkte-stads-of-dorpskern> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "1,0 - sterk verstedelijkte stads- of dorpskern"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats>;
+  skos:notation "sterk-verstedelijkte-stads-of-dorpskern";
+  skos:prefLabel "sterk verstedelijkte stads- of dorpskern"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieelementStandplaats> .

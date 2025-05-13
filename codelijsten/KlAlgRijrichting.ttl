@@ -8,6 +8,14 @@
   skos:definition "De mogelijke rijrichtingen."@nl;
   skos:prefLabel "Rijrichting"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijrichting/aflopend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aflopende rijrichting."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijrichting>;
+  skos:notation "aflopend";
+  skos:prefLabel "aflopend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijrichting> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijrichting/oplopend> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Oplopende rijrichting."@nl;
@@ -16,10 +24,10 @@
   skos:prefLabel "oplopend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijrichting> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijrichting/aflopend> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgRijrichting/dubbele-rijrichting> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Aflopende rijrichting."@nl;
+  skos:definition "Dubbele rijrichting."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijrichting>;
-  skos:notation "aflopend";
-  skos:prefLabel "aflopend"@nl;
+  skos:notation "dubbele-rijrichting";
+  skos:prefLabel "dubbele rijrichting"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgRijrichting> .

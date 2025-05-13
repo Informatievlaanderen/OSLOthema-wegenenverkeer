@@ -8,14 +8,6 @@
   skos:definition "De soort omvorming die gebeurt er in de omvormer."@nl;
   skos:prefLabel "Omvormer type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-Coax> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "UTP-Coax";
-  skos:prefLabel "UTP-Coax"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-(Serieel)-UTP> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -24,44 +16,12 @@
   skos:prefLabel "UTP (Serieel)-UTP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Decoder> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/lre> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "Long Range Extender voor UTP"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "Decoder";
-  skos:prefLabel "Decoder"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-UTP-(serieel)> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "UTP-UTP-(serieel)";
-  skos:prefLabel "UTP-UTP (serieel)"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Encoder> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "Encoder";
-  skos:prefLabel "Encoder"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/draadloos-utp> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Draadloos-UTP"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "draadloos-utp";
-  skos:prefLabel "Draadloos-UTP"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Coax-UTP> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "Coax-UTP";
-  skos:prefLabel "Coax-UTP"@nl;
+  skos:notation "lre";
+  skos:prefLabel "LRE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Glasvezel-UTP> a skos:Concept;
@@ -72,12 +32,12 @@
   skos:prefLabel "Glasvezel-UTP"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-Glasvezel> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-UTP-(serieel)> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
-  skos:notation "UTP-Glasvezel";
-  skos:prefLabel "UTP-Glasvezel"@nl;
+  skos:notation "UTP-UTP-(serieel)";
+  skos:prefLabel "UTP-UTP (serieel)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/utp-draadloos> a skos:Concept;
@@ -86,4 +46,60 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
   skos:notation "utp-draadloos";
   skos:prefLabel "UTP-Draadloos"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/draadloos-utp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Draadloos-UTP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "draadloos-utp";
+  skos:prefLabel "Draadloos-UTP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/rs485-tcp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het RS485 signaal wordt omgevormd tot een TCP signaal zodat het over het netwerk kan worden getransporteerd. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "rs485-tcp";
+  skos:prefLabel "RS485-TCP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-Glasvezel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "UTP-Glasvezel";
+  skos:prefLabel "UTP-Glasvezel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Decoder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "Decoder";
+  skos:prefLabel "Decoder"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Coax-UTP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "Coax-UTP";
+  skos:prefLabel "Coax-UTP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/UTP-Coax> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "UTP-Coax";
+  skos:prefLabel "UTP-Coax"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmvormerType/Encoder> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType>;
+  skos:notation "Encoder";
+  skos:prefLabel "Encoder"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmvormerType> .

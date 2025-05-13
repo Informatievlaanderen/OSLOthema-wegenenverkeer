@@ -8,12 +8,12 @@
   skos:definition "Lijst van mogelijke waarden volgens de catalogusposten van het standaardbestek voor de samenstelling van een datakabel volgens het aantal aders en in voorkomende gevallen, hun dikte in vierkante millimeter."@nl;
   skos:prefLabel "Datakabel aders en sectie"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/20-x-2-x-1-mm2> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/5g1> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "5G1"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
-  skos:notation "20-x-2-x-1-mm2";
-  skos:prefLabel "20 x 2 X 1 mm²"@nl;
+  skos:notation "5g1";
+  skos:prefLabel "5G1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/100-x-2-x-1-mm2> a skos:Concept;
@@ -56,6 +56,22 @@
   skos:prefLabel "2x1n5"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/4x1-5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "4x1.5"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
+  skos:notation "4x1-5";
+  skos:prefLabel "4x1.5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/3g0-75> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "3G0.75"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
+  skos:notation "3g0-75";
+  skos:prefLabel "3G0.75"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/4x2x1.5> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "4x2x1.5"@nl;
@@ -86,6 +102,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
   skos:notation "48-vezels";
   skos:prefLabel "48 vezels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/20-x-2-x-1-mm2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
+  skos:notation "20-x-2-x-1-mm2";
+  skos:prefLabel "20 x 2 X 1 mm²"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/4x2x0-34> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "4x2x0.34"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie>;
+  skos:notation "4x2x0-34";
+  skos:prefLabel "4x2x0.34"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDatakabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDatakabelAdersEnSectie/zonder-verdere-specificatie> a skos:Concept;

@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met fasen uit de levenscyclus van een object om de toestand op een moment mee vast te leggen."@nl;
   skos:prefLabel "VLAG AIM toestand"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVLAGAIMToestand/in-gebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "in gebruik"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVLAGAIMToestand>;
+  skos:notation "in-gebruik";
+  skos:prefLabel "in gebruik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVLAGAIMToestand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVLAGAIMToestand/uit-gebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "uit gebruik"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVLAGAIMToestand>;
+  skos:notation "uit-gebruik";
+  skos:prefLabel "uit gebruik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVLAGAIMToestand> .

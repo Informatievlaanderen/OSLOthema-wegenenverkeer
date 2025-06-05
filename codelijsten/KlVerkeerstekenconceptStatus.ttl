@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TODO"@nl;
   skos:prefLabel "Verkeerstekenconcept status"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerstekenconceptStatus/test-status> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "test status"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerstekenconceptStatus>;
+  skos:notation "test-status";
+  skos:prefLabel "test status"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerstekenconceptStatus> .

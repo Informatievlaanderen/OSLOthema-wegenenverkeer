@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "variabele waarden"@nl;
   skos:prefLabel "variabele waarden"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVariabeleWaarden/varoptie1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "varoptie1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVariabeleWaarden>;
+  skos:notation "varoptie1";
+  skos:prefLabel "varoptie1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVariabeleWaarden> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVariabeleWaarden/varoptie2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "varoptie2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVariabeleWaarden>;
+  skos:notation "varoptie2";
+  skos:prefLabel "varoptie2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVariabeleWaarden> .

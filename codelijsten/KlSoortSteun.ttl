@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TODO"@nl;
   skos:prefLabel "Soort steun"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoortSteun/rechte-steun> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "rechte steun of baar"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoortSteun>;
+  skos:notation "rechte-steun";
+  skos:prefLabel "rechte steun"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoortSteun> .

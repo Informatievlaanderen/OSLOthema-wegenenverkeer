@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met waarden die de wettelijke status van een verkeersteken aangeven."@nl;
   skos:prefLabel "VerkeerstekenWettelijkeStatus"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeerstekenWettelijkeStatus/test-wettelijke-status> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "test wettelijke status"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerstekenWettelijkeStatus>;
+  skos:notation "test-wettelijke-status";
+  skos:prefLabel "test wettelijke status"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerstekenWettelijkeStatus> .

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met modelnamen voor pompen."@nl;
   skos:prefLabel "Typepomp modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompModelnaam/1sv22f011t> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "1SV22F011T"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam>;
+  skos:notation "1sv22f011t";
+  skos:prefLabel "1SV22F011T"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam> .

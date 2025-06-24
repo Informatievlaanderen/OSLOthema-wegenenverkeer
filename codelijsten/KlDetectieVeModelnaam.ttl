@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke opties voor de modelnaam van een detectieverwerkingseenheid."@nl;
   skos:prefLabel "Detectieverwerkingseenheid modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectieVeModelnaam/ti-bpl3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TI BPL3"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectieVeModelnaam>;
+  skos:notation "ti-bpl3";
+  skos:prefLabel "TI BPL3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectieVeModelnaam> .

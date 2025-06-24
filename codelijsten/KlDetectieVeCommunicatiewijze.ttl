@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke opties voor de communicatiewijze van een detectieverwerkingseenhei"@nl;
   skos:prefLabel "Detectie verwerkingseenheid communicatiewijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectieVeCommunicatiewijze/detection-output> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "detection output"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectieVeCommunicatiewijze>;
+  skos:notation "detection-output";
+  skos:prefLabel "detection output"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectieVeCommunicatiewijze> .

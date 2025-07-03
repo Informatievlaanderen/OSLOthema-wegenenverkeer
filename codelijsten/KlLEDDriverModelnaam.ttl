@@ -3,16 +3,151 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de LED-driver."@nl;
   skos:prefLabel "LED-driver modelnaam"@nl.
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/elg-100-c350b-3y> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "elg-100-c350b-3y"@nl;
-  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
-  skos:notation "elg-100-c350b-3y";
-  skos:prefLabel "elg-100-c350b-3y"@nl;
-  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/ot-dx-110-220-240-1a0-dima-lt2-e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OT DX 110 220-240 1A0 DIMA LT2 E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "ot-dx-110-220-240-1a0-dima-lt2-e";
+  skos:prefLabel "OT DX 110 220-240 1A0 DIMA LT2 E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/ot-dx-165-220-240-1a0-dima-lt2-e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OT DX 165 220-240 1A0 DIMA LT2 E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "ot-dx-165-220-240-1a0-dima-lt2-e";
+  skos:prefLabel "OT DX 165 220-240 1A0 DIMA LT2 E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/slc-g3-r3-sp0b-pm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SLC-G3-R3-SP0B-PM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "slc-g3-r3-sp0b-pm";
+  skos:prefLabel "SLC-G3-R3-SP0B-PM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-fp-75w-0-2-0-7a-snldae-230v-c133-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi FP 75W 0.2-0.7A SNLDAE 230V C133 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-fp-75w-0-2-0-7a-snldae-230v-c133-sxt";
+  skos:prefLabel "Xi FP 75W 0.2-0.7A SNLDAE 230V C133 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-fp-110w-0-3-1-0a-snldae-230v-c133-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi FP 110W 0.3-1.0A SNLDAE 230V C133 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-fp-110w-0-3-1-0a-snldae-230v-c133-sxt";
+  skos:prefLabel "Xi FP 110W 0.3-1.0A SNLDAE 230V C133 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-sr-110w-0-2-0-7a-snemp-230v-c150-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi SR 110W 0.2-0.7A SNEMP 230V C150 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-sr-110w-0-2-0-7a-snemp-230v-c150-sxt";
+  skos:prefLabel "Xi SR 110W 0.2-0.7A SNEMP 230V C150 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/hlg-320h-c700b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HLG 320H C700B"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "hlg-320h-c700b";
+  skos:prefLabel "HLG 320H C700B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-sr-40w-0-2-1-0a-snemp-230v-c123-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi SR 40W 0.2-1.0A SNEMP 230V C123 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-sr-40w-0-2-1-0a-snemp-230v-c123-sxt";
+  skos:prefLabel "Xi SR 40W 0.2-1.0A SNEMP 230V C123 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xitanium-fp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xitanium FP"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xitanium-fp";
+  skos:prefLabel "Xitanium FP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/ot-dx-40-220-240-1a0-dima-lt2-e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OT DX 40 220-240 1A0 DIMA LT2 E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "ot-dx-40-220-240-1a0-dima-lt2-e";
+  skos:prefLabel "OT DX 40 220-240 1A0 DIMA LT2 E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-fp-110w-0-2-0-7a-snldae-230v-c133-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi FP 110W 0.2-0.7A SNLDAE 230V C133 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-fp-110w-0-2-0-7a-snldae-230v-c133-sxt";
+  skos:prefLabel "Xi FP 110W 0.2-0.7A SNLDAE 230V C133 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/elg-100-c350b-3y> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ELG 100 C350B 3Y"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "elg-100-c350b-3y";
+  skos:prefLabel "ELG 100 C350B 3Y"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/ot-dx-75-220-240-1a0-dima-lt2-e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OT DX 75 220-240 1A0 DIMA LT2 E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "ot-dx-75-220-240-1a0-dima-lt2-e";
+  skos:prefLabel "OT DX 75 220-240 1A0 DIMA LT2 E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-sr-150w-0-2-0-7a-snemp-230v-s240-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi SR 150W 0.2-0.7A SNEMP 230V S240 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-sr-150w-0-2-0-7a-snemp-230v-s240-sxt";
+  skos:prefLabel "Xi SR 150W 0.2-0.7A SNEMP 230V S240 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/slc-g3-r3-sp0b-p0> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SLC-G3-R3-SP0B-P0"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "slc-g3-r3-sp0b-p0";
+  skos:prefLabel "SLC-G3-R3-SP0B-P0"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/xi-sr-40w-0-2-0-7a-snemp-230v-c133-sxt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Xi SR 40W 0.2-0.7A SNEMP 230V C133 sXt"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "xi-sr-40w-0-2-0-7a-snemp-230v-c133-sxt";
+  skos:prefLabel "Xi SR 40W 0.2-0.7A SNEMP 230V C133 sXt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/ebs-080s070bt2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ebs-080s070bt2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "ebs-080s070bt2";
+  skos:prefLabel "ebs-080s070bt2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverModelnaam/eum-320s105bg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "EUM-320S105BG"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam>;
+  skos:notation "eum-320s105bg";
+  skos:prefLabel "EUM-320S105BG"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverModelnaam> .

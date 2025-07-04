@@ -3,47 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vervaardigingsmaterialen van de put."@nl;
   skos:prefLabel "Put materiaal"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutMateriaal/PE-of-PP> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/PE-of-PP> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "PE of PP"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
   skos:notation "PE-of-PP";
   skos:prefLabel "PE of PP"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutMateriaal/beton-of-metselwerk> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/beton-of-metselwerk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "beton of metselwerk"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
   skos:notation "beton-of-metselwerk";
   skos:prefLabel "beton of metselwerk"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutMateriaal/beton-of-gres> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/beton-of-gres> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "beton of gres"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
   skos:notation "beton-of-gres";
   skos:prefLabel "beton of gres"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutMateriaal/glasvezelversterkt-polyesterhars> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/glasvezelversterkt-polyesterhars> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "glasvezelversterkt polyesterhars"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
   skos:notation "glasvezelversterkt-polyesterhars";
   skos:prefLabel "glasvezelversterkt polyesterhars"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutMateriaal/ter-plaatse-gestort-beton> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutMateriaal/ter-plaatse-gestort-beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "ter plaatse gestort beton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal>;
   skos:notation "ter-plaatse-gestort-beton";
   skos:prefLabel "ter plaatse gestort beton"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlPutMateriaal> .
+

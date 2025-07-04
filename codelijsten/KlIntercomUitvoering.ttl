@@ -3,39 +3,40 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met types voor intercomtoestellen naargelang hun functie in het gesloten netwerk"@nl;
   skos:prefLabel "Intercom uitvoering"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIntercomUitvoering/antwoordpost> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIntercomUitvoering/antwoordpost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Toestel dat bestemd is om in een lokaal netwerk oproepen van een of meer oproepposten te ontvangen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
   skos:notation "antwoordpost";
   skos:prefLabel "antwoordpost"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIntercomUitvoering/oproeppost> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIntercomUitvoering/oproeppost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Toestel waarmee een gebruiker rechtstreeks een ander toestel binnen een lokaal netwerk kan contacteren of een centrale hoofdpost."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
   skos:notation "oproeppost";
   skos:prefLabel "oproeppost"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIntercomUitvoering/noodintercom> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIntercomUitvoering/noodintercom> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Oproeppost waarmee een gebruiker rechtstreeks contact opneemt met een noodcentrale. "@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
   skos:notation "noodintercom";
   skos:prefLabel "noodintercom"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIntercomUitvoering/oproep-antwoordpost> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIntercomUitvoering/oproep-antwoordpost> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Toestel in een netwerk van onderling verbonden toestellen die met elkaar kunnen communiceren."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering>;
   skos:notation "oproep-antwoordpost";
   skos:prefLabel "oproep-antwoordpost"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlIntercomUitvoering> .
+

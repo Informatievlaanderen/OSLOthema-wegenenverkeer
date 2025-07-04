@@ -3,31 +3,32 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De specificatie van type handeling bij afgraving."@nl;
   skos:prefLabel "Afgraving soorten"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfgravingSoorten/op-veranderlijke-dikte> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfgravingSoorten/op-veranderlijke-dikte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De afgraving op veranderlijke dikte omvat het wegnemen van de bouwlaag van bedding, taluds, ondervlak, dijken en/of bermen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten>;
   skos:notation "op-veranderlijke-dikte";
   skos:prefLabel "op veranderlijke dikte"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfgravingSoorten/plaatselijke-uitvoering> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfgravingSoorten/plaatselijke-uitvoering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De afgraving in plaatselijke uitvoering omvat het wegnemen van de bouwlaag van bedding, taluds, ondervlak, dijken en/of bermen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten>;
   skos:notation "plaatselijke-uitvoering";
   skos:prefLabel "plaatselijke uitvoering"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfgravingSoorten/20-cm> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfgravingSoorten/20-cm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De afgraving met vaste dikte (E = 20 cm) omvat het wegnemen van de bouwlaag van bedding, taluds, ondervlak, dijken en/of bermen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten>;
   skos:notation "20-cm";
   skos:prefLabel "20 cm"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAfgravingSoorten> .
+

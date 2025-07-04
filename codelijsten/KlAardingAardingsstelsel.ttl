@@ -3,31 +3,32 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van mogelijke aardinggsstelsels."@nl;
   skos:prefLabel "Aardingsinstallatie aardingsstelsel"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsstelsel/gescheiden> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsstelsel/gescheiden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een aardingsstelsel waarin de aardingen (LS, N, HS) niet met elkaar verbonden zijn."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel>;
   skos:notation "gescheiden";
   skos:prefLabel "gescheiden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsstelsel/gemeenschappelijk---globaal> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsstelsel/gemeenschappelijk---globaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een aardingsstelsel waarin alle aardingen (LS, N, HS) met elkaar verbonden zijn en waarvoor bovendien de distributienetbeheerder aan de hand van een attest garandeert dat de aardingen verbonden zijn met ten minste x andere aardingsinstallaties van andere installaties. Voor een globaal stelsel moet altijd het attest toegevoegd worden. Zonder dergelijk attest kan er enkel sprake zijn van een gemeenschappelijk stelsel en moet die optie gekozen worden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel>;
   skos:notation "gemeenschappelijk---globaal";
   skos:prefLabel "gemeenschappelijk + globaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsstelsel/gemeenschappelijk> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsstelsel/gemeenschappelijk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een aardingsstelsel waarin de aardingen (LS, N, HS) met elkaar verbonden zijn. Indien de distributienetbeheerder met een attest garandeerd dat de aardingen verbonden zijn met andere aardingsinstallaties is er sprake van een gemeenschappelijk globaal stelsel en moet die optie gekozen worden."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel>;
   skos:notation "gemeenschappelijk";
   skos:prefLabel "gemeenschappelijk"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsstelsel> .
+

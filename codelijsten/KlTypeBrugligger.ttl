@@ -3,31 +3,32 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van de brugligger."@nl;
   skos:prefLabel "Type brugligger"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/hoofdligger> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Primaire dragende balk of ligger volgens de lengterichting van de brug, die de belastingen afdraagt naar de oplegpunten van de brug, hetzij rechtstreeks, hetzij via einddwarsdragers/diafragma’s."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugligger/hoofdligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Primaire dragende balk of ligger volgens de lengterichting van de brug, die de belastingen afdraagt naar de oplegpunten van de brug, hetzij rechtstreeks, hetzij via einddwarsdragers/diafragmaÃ¢â‚¬â„¢s."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
   skos:notation "hoofdligger";
   skos:prefLabel "Hoofdligger"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/langsligger> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugligger/langsligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Secundaire balk of ligger volgens de lengterichting van de brug, die ondersteuning biedt aan het brugdek en de belastingen erop afdraagt naar de dwarsliggers."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
   skos:notation "langsligger";
   skos:prefLabel "Langsligger"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugligger/dwarsdrager> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Balk of ligger volgens de dwarsrichting van de brug die één of meerdere van volgende functies vervult:biedt ondersteuning aan het brugdek en/of de langsliggers en/of de hoofdliggers,verstijft de langs- en/of hoofdliggers,draagt de belastingen af naar de hoofdliggers,bevordert de samenwerking tussen de hoofdliggers."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeBrugligger/dwarsdrager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Balk of ligger volgens de dwarsrichting van de brug die ÃƒÂ©ÃƒÂ©n of meerdere van volgende functies vervult:biedt ondersteuning aan het brugdek en/of de langsliggers en/of de hoofdliggers,verstijft de langs- en/of hoofdliggers,draagt de belastingen af naar de hoofdliggers,bevordert de samenwerking tussen de hoofdliggers."@nl;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger>;
   skos:notation "dwarsdrager";
   skos:prefLabel "Dwarsdrager"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlTypeBrugligger> .
+

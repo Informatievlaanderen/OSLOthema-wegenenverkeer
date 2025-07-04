@@ -3,47 +3,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types van dunne overlaging."@nl;
   skos:prefLabel "Dunne overlaging type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDunneOverlagingType/waterdichte-toplaag-met-instrooi-ng> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/waterdichte-toplaag-met-instrooi-ng> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De waterdichte toplaag is een meerlaags vloeibaar aangebracht systeem om de drager (beton, staal, ...) te beschermen tegen waterinfiltratie waarbij de 2de laag wordt ingestrooid met instrooimateriaal om stroefheid te verkrijgen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
   skos:notation "waterdichte-toplaag-met-instrooi-ng";
-  skos:prefLabel "waterdichte toplaag met instrooiïng"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+  skos:prefLabel "waterdichte toplaag met instrooiÃƒÂ¯ng"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDunneOverlagingType/SME-D2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/SME-D2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "SME-D2"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
   skos:notation "SME-D2";
   skos:prefLabel "SME-D2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDunneOverlagingType/SME-D1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/SME-D1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "SME-D1"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
   skos:notation "SME-D1";
   skos:prefLabel "SME-D1"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDunneOverlagingType/antisliplaag> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/antisliplaag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "antisliplaag"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
   skos:notation "antisliplaag";
   skos:prefLabel "antisliplaag"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDunneOverlagingType/waterdichte-toplaag-zonder-instrooi-ng> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDunneOverlagingType/waterdichte-toplaag-zonder-instrooi-ng> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De waterdichte toplaag is een meerlaags vloeibaar aangebracht systeem om de drager (beton, staal, ...) te beschermen tegen waterinfiltratie."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType>;
   skos:notation "waterdichte-toplaag-zonder-instrooi-ng";
-  skos:prefLabel "waterdichte toplaag zonder instrooiïng"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+  skos:prefLabel "waterdichte toplaag zonder instrooiÃƒÂ¯ng"@nl;
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlDunneOverlagingType> .
+

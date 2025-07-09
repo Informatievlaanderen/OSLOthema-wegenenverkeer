@@ -23,3 +23,11 @@
   skos:notation "virtualacu";
   skos:prefLabel "VirtualACU"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelRIS/stridefx> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "StrideFX"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS>;
+  skos:notation "stridefx";
+  skos:prefLabel "StrideFX"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS> .

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+<head>
+	<title>VLAG implementatiemodel Data.Vlaanderen.be</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui.css" rel="stylesheet">
+	<link href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui-corporate.css" rel="stylesheet">
+	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/icon-highres-precomposed.png" rel="icon" sizes="192x192">
+	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-precomposed.png" rel="apple-touch-icon">
+	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png" rel="apple-touch-icon" sizes="152x152">
+	<meta content="https://dij151upo6vad.net.cloudfront/2.latest/icons/app-icon/tile-small.png" name="msapplication-square70x70logo">
+	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-medium.png" name="msapplication-square150x150logo">
+	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-wide.png" name="msapplication-wide310x150logo">
+	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-large.png" name="msapplication-square310x310logo">
+	<meta content="#FFE615" name="msapplication-TileColor">
+</head>
+
+<body>
+	<div id="vlaanderen-header" style="min-height:44px;">
+		<!-- insert your global header here -->
+		<script src="//widgets.vlaanderen.be/widget/live/5ecf33a0a922428cb9d944c55362ed15" type="text/javascript">
+		</script> <!-- end global header-->
+	</div>
+	<!-- Start page content -->
+
+
+	<div class="page">
+		<header class="content-header" role="banner">
+			<div class="content-header__wrapper">
+				<picture><source media="(min-width: 1024px)" srcset="/cms/images/page_banner_wide_alt/header.jpg 1x"> <source media="(max-device-width: 767px)" srcset="/cms/images/page_banner_mobile_alt/header.jpg 1x"> <source media="(max-width: 1023px)" srcset="/cms/images/page_banner_narrow/header.jpg 1x"> <img alt="" src="/cms/images/page_banner_wide_alt/header.jpg" srcset="/cms/images/page_banner_mobile_alt/header.jpg 320w, /cms/images/page_banner_narrow/header.jpg 1024w, /cms/images/page_banner_wide_alt/header.jpg 1600w" title=""></picture>
+
+				<div class="layout layout--wide">
+					<div class="content-header__content">
+						<h1 class="content-header__title"><span class="content-header__title__content">Beleidsdomein MOW implementatiemodel en vocabularia - VLAG (IN ONTWERP)</span>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="main-content" id="main" itemprop="mainContentOfPage" role="main" tabindex="-1">
+		
+		
+		
+			<section class="region">
+				<div class="layout layout--wide" id="introductie">
+					<div class="grid">
+						<div class="col--8-12 col--12-12--s">
+						
+					<!--	<P STYLE="border: solid #ff0000;">Dit is een ontwikkel- en testomgeving. <br> Deze omgeving wordt momenteel gebruikt om het implementatiemodel <strong>Sluizen en stuwen</strong> te illustreren als een ontwerpstandaard. -->
+
+						<P STYLE="border: solid #ff0000;">Dit is een ontwikkel- en testomgeving. <br> Deze omgeving wordt momenteel gebruikt om een extractie uit de implementatiemodellen m.b.t. het <strong>VLAG project</strong> te illustreren. 
+					<br>
+						Dit impliceert dat de standaard die in dit document beschreven wordt in ontwikkeling is. Bijgevolg kan het document op elk moment aangepast, vervangen of ingetrokken worden.
+						</P>
+						
+						<br>
+							<div class="typography introduction">
+								Met het programma Open Standaarden voor Linkende Organisaties (OSLO) zet de Vlaamse overheid in op een éénduidige standaard voor de uitwisseling van informatie. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Ontdek hier de beschikbare vocabularia en implementatiemodellen, alsook codelijsten.
+							</div>
+							<br>
+						</div>
+
+
+						<div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
+							<nav class="side-navigation js-sticky" id="sideNav">
+								<div class="side-navigation__content">
+									<div class="side-navigation__group">
+										<ul>
+											<li class="side-navigation__item">
+												<a href="#Implementatiemodellen">Implementatiemodellen</a>
+											</li>
+
+											<li class="side-navigation__item">
+												<a href="#Vocabularia">Vocabularia</a>
+											</li>
+
+											<li class="side-navigation__item">
+												<a href="https://github.com/Informatievlaanderen/OSLOthema-wegenenverkeer/tree/dev/codelijsten">Codelijsten</a>
+											</li>
+
+											<li class="side-navigation__item">
+												<a href="#veelgestelde-vragen">Veelgestelde vragen</a>
+							
+										</ul>
+									</div>
+
+									<div class="side-navigation__group side-navigation__group--has-title">
+										<div class="side-navigation__title">
+											Technische documentatie
+										</div>
+
+
+										<ul>
+										
+										<!--
+										
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes</a>
+											</li>
+											
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a>
+											</li>
+											-->
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL-SQLite.pdf" target="_blank">SQLite datamodel</a>
+											</li>
+											
+											<!--
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="https://opendata.apps.mow.vlaanderen.be/otltool" target="_blank">SQLite subset aanmaken</a>
+											</li
+										
+
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL.zip" target="_blank">XMI download</a>
+											</li>
+											-->
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/OTL-TechnischeDocumentatie.pdf" target="_blank">OTL concepten</a>
+											</li>
+											
+											<!--
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/GeometrieArtefact.zip" target="_blank">Geometrie artefact</a>
+											</li>
+											
+											<li class="side-navigation__item">
+												<a class="link--icon--caret link--icon--block" href="/doc/implementatiemodel/master/html/DownloadPaginaVersies.html" target="_blank">Vorige OTL versies</a>
+											</li>
+											-->
+										</ul>
+									</div>
+
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="region">
+				<div class="layout layout--wide">
+					<p>De <strong>vocabularia</strong> op deze pagina zijn de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling en zijn tot stand gekomen in de werkgroep <a href="https://overheid.vlaanderen.be/producten-diensten/OSLO2" target="_blank">OSLO²</a> van Informatie Vlaanderen.</p>
+					<br>
+
+					<p>Een <strong>implementatiemodel</strong> is een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. Een implementatiemodel dient als documentatie voor analisten, ontwikkelaars en dataleveranciers.</p>
+					<br>
+					
+					<p>Het implementatiemodel (VLAG) wegenenverkeer bouwt voort op een reeks bestaanden standaarden waaronder:<br>
+						<ul> 
+							<li><a href="https://overheid.vlaanderen.be/informatie-vlaanderen/producten-diensten/basiskaart-vlaanderen-grb">Grootschalig Referentiebestand (GRB)</a></li>
+							<li><a href="https://www.wegenenverkeer.be/zakelijk/documenten?search=legendeboek">MOW-AWV Legendeboek</a></li>
+							<li><a href="https://wegenenverkeer.be/standaardbestek">Standaardbestek 250</a></li>
+							<li><a href="http://www.expertisebetonenstaal.be/standaardbestek-260">Standaardbestek 260</a></li>
+							<li><a href="http://wegenenverkeer.be/standaardbestek">Standaardbestek 270</a></li>
+							<li><a href="https://data.vlaanderen.be/cms/openbaardomein">OSLO Openbaar-domein</a></li>
+						</ul>
+					</p><br/>
+		   			<p>Op basis van bovenstaande standaarden is er één master-implementatiemodel ontwikkeld waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Met de VLAG kan tijdens alle levensfases van een object data uniform uitgewisseld worden. Te beginnen bij het voorontwerp en zo verder tijdens ontwerp, uitvoering en uiteindelijk beheer en onderhoud. <br>
+					Dit implementatiemodel maakt het mogelijk om een digitale tweeling op te bouwen die voldoende gedetailleerd overeenkomt met de toestand buiten op het terrein. De klassieke as-builtplannen na uitvoering zijn hier uiteraard ook een deel van.</p><br/>
+					<p>Vanuit het implementatiemodel wordt een OSLO standaard ontwikkeld die een maximaal hergebruik van gedefinieerde objecten zal toelaten.</p>
+					<p>De overeenkomst met de objectcatalogus OSLO-openbaar domein wordt beschreven in de <a href="https://test.data.vlaanderen.be/cms/openbaardomein/AWV_mapping.html">mapping OD OTL</a></p>
+					<br>
+
+					<p>De informatie in de vocabularia en implementatiemodellen is georganiseerd volgens het <a href="http://www.w3.org/TR/2004/REC-rdf-primer-20040210/" target="_blank">Resource Description Framework (RDF)</a>, wat ze geschikt maakt voor gebruik in Linked Data toepassingen.<br>
+					Niet alle concepten die in de implementatiemodellen beschreven worden zijn vandaag ondersteund door de RDF specificaties, details hierover vindt u in volgende <a href="https://wegenenverkeer.data.vlaanderen.be/cms/disclaimer">disclaimer</a>.</p>
+					<br>
+					<p>Daarnaast is het integrale implementatiemodel OTL in een machine-leesbare versie digitaal beschikbaar in volgende formaten:<br>
+					<ul>				
+					<li><a href="/doc/implementatiemodel/master/html/OTL.db">SQLITE</a></li>				
+					</ul>			
+					<br>
+					<!--
+					Aan de hand van deze <a href="https://opendata.apps.mow.vlaanderen.be/otltool">tool</a> kan je van de SQLite je eigen subset aanmaken.
+					-->
+					</p>
+					<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeaxOnrCkcarNHWI21YfPJ7sZChHVzOB2-P9ptzxkD9YX69-g/viewform" target="_blank">Contacteer ons</a> voor alle mogelijke vragen, opmerking of feedback.
+					</p>
+					<br>
+				</div>
+			</section>
+
+
+			<section class="info-block info-block--news" id="Implementatiemodellen">
+				<div class="layout layout--wide">
+					<header class="info-block__header">
+						<h1 class="info-block__title">Implementatiemodellen</h1>
+					</header>
+				<div>
+				Het volledige master-implementatiemodel wordt opgesplitst in een aantal thematische deel-implementatiemodellen. Deze deel-modellen zijn een overzichtelijke manier om een bepaald deeldomein uit de master weer te geven. Ze behoren echter steeds tot het grotere geheel omdat er immers steeds raakvlakken zijn met andere deeldomeinen. Hieronder volgt een overzicht van de verschillende deel-implementatiemodellen.
+				</div>
+
+
+
+				<div class="info-block__content">
+						<div id="doormats">
+							<ul class="grid grid--is-stacked js-equal-height-container">
+							
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/eenvoudige-datatypes/" id="doormat">
+									<div class="doormat__title">
+										Eenvoudige datatypes
+									</div>
+									<span class="doormat__text">Geeft een overzicht van de basis datatypes die gebruikt worden in de verschillende vocabularia.</span></a>
+								</li>
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/complexe-datatypes/" id="doormat">
+									<div class="doormat__title">
+										Complexe datatypes
+									</div>
+									<span class="doormat__text">Geeft een overzicht van de complexe datatypes die gebruikt worden in de verschillende vocabularia.</span></a>
+								</li>
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/union-datatypes/" id="doormat">
+									<div class="doormat__title">
+										Union datatypes
+									</div>
+									<span class="doormat__text">Geeft een overzicht van de union datatypes die gebruikt worden in de verschillende vocabularia.</span></a>
+								</li>
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/relaties/" id="doormat">
+									<div class="doormat__title">
+										Relaties
+									</div>
+									<span class="doormat__text">Geeft een technisch overzicht van de soorten relaties die tussen objecten kunnen voorkomen.</span></a>
+								</li>
+														
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/" id="doormat">
+									<div class="doormat__title">
+										Master-implementatiemodel
+									</div>
+									<span class="doormat__text">Geeft een overzicht van alle objecten die voorkomen in het implementatiemodel VLAG.</span></a>
+								</li>
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/aim-object/" id="doormat">
+									<div class="doormat__title">
+										VLAG AIM Object
+									</div>
+									<span class="doormat__text">Geeft een overzicht van de technische specificaties die nodig zijn voor data-uitwisseling met de MOW AIM-omgeving.</span></a>
+								</li>
+							</ul>
+							<br>
+							<br>
+							<br>
+							<br>
+							
+
+							<br>
+
+							<ul class="grid grid--is-stacked js-equal-height-container">
+
+							<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/vlag/" id="doormat">
+									<div class="doormat__title">
+										VLAG
+									</div>
+									<span class="doormat__text">Volgen van Linkende Asset Gegevens</span></a>
+							</li>
+						</ul>
+						<br>
+							<br>
+							
+							<ul class="grid grid--is-stacked js-equal-height-container">
+							
+								
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/signalisatie/" id="doormat">
+									<div class="doormat__title">
+										Signalisatie
+									</div>
+									<span class="doormat__text">Beschrijft de objecten die horen bij signalisatie zoals gespecificeerd in hoofdstuk 10 van Standaardbestek 250.</span></a>
+								</li>
+								
+																						
+																			
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="info-block info-block--news" id="Vocabularia">
+				<div class="layout layout--wide">
+					<header class="info-block__header">
+						<h1 class="info-block__title">Vocabularia</h1>
+					</header>
+					<div>
+					Het domeinoverkoepelende OTL master-implementatiemodel vormt de basis voor data-uitwisseling conform de verschillende Standaardbestekken. Dit overkoepelende implementatiemodel maakt gebruik van volgende vocabularia binnen het wegenenverkeer domein:
+					</div>
+
+					<div class="info-block__content">
+						<div id="doormats">
+							<ul class="grid grid--is-stacked js-equal-height-container">
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/abstracten/" id="doormat">
+									<div class="doormat__title">
+										Abstracten
+									</div>
+									<span class="doormat__text">Definieert objecten die gemeenschappelijke relaties en attributen groeperen vanuit modelleertechnisch oogpunt.</span></a>
+								</li>
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/implementatieelement/" id="doormat">
+									<div class="doormat__title">
+										Implementatie-element
+									</div>
+									<span class="doormat__text">Definieert technische objecten nodig voor de data-uitwisseling met de VLAG AIM-omgeving.</span></a>
+								</li>
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/installatie/" id="doormat">
+									<div class="doormat__title">
+										Installatie
+									</div>
+									<span class="doormat__text">Definieert de installaties en groeperingen die een samenvoeging zijn van onderdelen.</span></a>
+								</li>
+								
+								
+								
+								<li class="col--4-12 col--1-2--s col--12-12--xs">
+									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/ns/onderdeel/" id="doormat">
+									<div class="doormat__title">
+										Onderdeel
+									</div>
+									<span class="doormat__text">Definieert de fysieke objecten of bouwstenen van de weg(aanhorigheden).</span></a>
+								</li>
+																		
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<div class="region" id="veelgestelde-vragen">
+				<section class="named-anchor info-block info-block--faq">
+					<div class="layout layout--wide" id="infoblock">
+						<div class="layout__wrapper">
+							<header class="info-block__header">
+								<h1 class="label-above info-block__title">Veelgestelde vragen</h1>
+							</header>
+
+							<div class="info-block__content">
+								<div class="view-ip-related-questions view-display-id-default">
+									<ul class="grid">
+										
+										<li class="col--6-12 col--12-12--s">
+											<ul class="link-list">
+												<li>
+													<a class="toggle--arrow-down link--icon--caret link--block" data-drawer-content-id="270936" data-drawer-id="related-questions" href="#">Hoe gebruik ik de vocabularia en applicatieprofielen om interoperabele toepassingen en web services te ontwikkelen?</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<div>
+					<div class="drawer" data-drawer="related-questions" tabindex="-1">
+						<button class="drawer__close link link--icon--close js-drawer__close" title="sluiten"><span class="u-visually-hidden">Venster sluiten</span></button>
+
+						<div class="drawer__content" data-drawer-content="270933">
+							<div class="">
+								<div class="layout layout--wide">
+									<div class="layout__wrapper">
+										<div class="grid grid--align-center">
+											<div class="col--8-12 col--12-12--s col--6-12--l">
+												<div class="content typography">
+													<p>Meer informatie lees je op een bevattelijke manier in deze <a href="https://overheid.vlaanderen.be/sites/default/files/documenten/informatie-vlaanderen/producten/OSLO/OSLO%20Infodag%2031032017%20Final.pdf">presentatie</a>.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="drawer__content" data-drawer-content="270936">
+							<div class="">
+								<div class="layout layout--wide">
+									<div class="layout__wrapper">
+										<div class="grid grid--align-center">
+											<div class="col--8-12 col--12-12--s col--6-12--l">
+												<div class="content typography">
+													<p>Onze <a href="https://docs.google.com/document/d/1tbK17wmgkIlNOXjYRE3Arf3PMI--8TvidBprKOcgcvQ/edit">handleiding</a> legt in verschillende stappen uit hoe je aan de slag kan gaan met de OSLO² vocabularia en applicatieprofielen.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End page content -->
+
+
+	<div id="vlaanderen-footer">
+		<!-- insert your Vlaanderen-footer-code here -->
+		<script src="//widgets.vlaanderen.be/widget/live/d6d44414e7c242f396ab6da8f8da5198" type="text/javascript">
+		</script> <!-- End global footer-->
+	</div>
+	<script src="https://ui.vlaanderen.be/2.latest/js/vlaanderen-ui.js">
+	</script>
+</body>
+</html>

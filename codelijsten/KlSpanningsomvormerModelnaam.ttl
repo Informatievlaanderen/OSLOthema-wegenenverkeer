@@ -23,3 +23,11 @@
   skos:notation "smartpack-s";
   skos:prefLabel "Smartpack S "@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpanningsomvormerModelnaam/trio> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Trio"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam>;
+  skos:notation "trio";
+  skos:prefLabel "Trio"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerModelnaam> .

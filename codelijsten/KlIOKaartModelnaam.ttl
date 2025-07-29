@@ -8,20 +8,28 @@
   skos:definition "Lijst van mogelijke modelnamen voor IO-kaarten."@nl;
   skos:prefLabel "IO-kaart modelnaam"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/dri701> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "DRI701"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam>;
-  skos:notation "dri701";
-  skos:prefLabel "DRI701"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/pma701> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "PMA701"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam>;
   skos:notation "pma701";
   skos:prefLabel "PMA701"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/siu701> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SIU701"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam>;
+  skos:notation "siu701";
+  skos:prefLabel "SIU701"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/axl-f-ai4-i-1h> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AXL F AI4 I 1H"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam>;
+  skos:notation "axl-f-ai4-i-1h";
+  skos:prefLabel "AXL F AI4 I 1H"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/pms701> a skos:Concept;
@@ -32,10 +40,10 @@
   skos:prefLabel "PMS701"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/siu701> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOKaartModelnaam/dri701> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "SIU701"@nl;
+  skos:definition "DRI701"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam>;
-  skos:notation "siu701";
-  skos:prefLabel "SIU701"@nl;
+  skos:notation "dri701";
+  skos:prefLabel "DRI701"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOKaartModelnaam> .

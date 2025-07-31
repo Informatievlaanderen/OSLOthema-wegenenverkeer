@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijk types van een simkaart."@nl;
   skos:prefLabel "Simkaarttype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSimkaarttype/standaard> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "standaard simkaart"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSimkaarttype>;
+  skos:notation "standaard";
+  skos:prefLabel "standaard"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSimkaarttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSimkaarttype/olu> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OLU simkaart"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSimkaarttype>;
+  skos:notation "olu";
+  skos:prefLabel "OLU"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSimkaarttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSimkaarttype/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "geen simkaart"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSimkaarttype>;
+  skos:notation "geen";
+  skos:prefLabel "geen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSimkaarttype> .

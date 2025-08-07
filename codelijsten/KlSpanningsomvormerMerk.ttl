@@ -23,3 +23,11 @@
   skos:notation "phoenix-contact";
   skos:prefLabel "Phoenix Contact"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSpanningsomvormerMerk/puls> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Puls"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerMerk>;
+  skos:notation "puls";
+  skos:prefLabel "Puls"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerMerk> .

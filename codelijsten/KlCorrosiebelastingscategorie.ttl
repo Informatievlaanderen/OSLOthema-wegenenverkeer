@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke codes om de mate van corrosieve belasting in een bepaalde omgeving te beschrijven."@nl;
   skos:prefLabel "Corrosiebelastingscategorie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c5> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Zeer hoge corrosiviteit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:notation "c5";
+  skos:prefLabel "C5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lage corrosiviteit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:notation "c2";
+  skos:prefLabel "C2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Zeer lage corrosiviteit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:notation "c1";
+  skos:prefLabel "C1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hoge corrosiviteit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:notation "c4";
+  skos:prefLabel "C4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosiebelastingscategorie/c3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Gemiddelde corrosiviteit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie>;
+  skos:notation "c3";
+  skos:prefLabel "C3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosiebelastingscategorie> .

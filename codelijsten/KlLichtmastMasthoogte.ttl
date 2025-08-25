@@ -8,14 +8,6 @@
   skos:definition "De standaard masthoogten."@nl;
   skos:prefLabel "Wv masthoogte"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/10.00> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst paalhoogtes/ CLASS : VPLMAST"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte>;
-  skos:notation "10.00";
-  skos:prefLabel "10.00"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/12.00> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst paalhoogtes/ CLASS : VPLMAST"@nl;
@@ -62,6 +54,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte>;
   skos:notation "20.00";
   skos:prefLabel "20.00"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/10.00> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lijst paalhoogtes/ CLASS : VPLMAST"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte>;
+  skos:notation "10.00";
+  skos:prefLabel "10.00"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/10> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Mast onder de grond"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte>;
+  skos:notation "10";
+  skos:prefLabel "-10"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/12.50> a skos:Concept;

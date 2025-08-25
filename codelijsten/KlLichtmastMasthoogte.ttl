@@ -24,6 +24,14 @@
   skos:prefLabel "5.00"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/10-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "boven de grond"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte>;
+  skos:notation "10-2";
+  skos:prefLabel "10"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasthoogte> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasthoogte/4.00> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst paalhoogtes/ CLASS : VPLMAST"@nl;

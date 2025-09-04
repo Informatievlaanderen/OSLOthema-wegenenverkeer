@@ -24,6 +24,14 @@
   skos:prefLabel "image-tiff"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/image-jpeg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "image-jpeg"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
+  skos:notation "image-jpeg";
+  skos:prefLabel "image-jpeg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/application-rtf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -40,6 +48,14 @@
   skos:prefLabel "application-acad"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/image-jpg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "image-jpg"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
+  skos:notation "image-jpg";
+  skos:prefLabel "image-jpg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/application-xml> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -54,14 +70,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
   skos:notation "video-avi";
   skos:prefLabel "video-avi"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/image-jpeg> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "image-jpg"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType>;
-  skos:notation "image-jpeg";
-  skos:prefLabel "image-jpeg"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMimeType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMimeType/text-xml> a skos:Concept;

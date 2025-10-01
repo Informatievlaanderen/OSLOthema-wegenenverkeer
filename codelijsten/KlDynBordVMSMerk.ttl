@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met de gangbare merken van VMS borden. De merken verwijzen doorgaans naar de fabrikant of leverancier."@nl;
   skos:prefLabel "Dyn bord VMS merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordVMSMerk/dms> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Display and Mobility Solutions"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordVMSMerk>;
+  skos:notation "dms";
+  skos:prefLabel "DMS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordVMSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordVMSMerk/swarco> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Swarco"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordVMSMerk>;
+  skos:notation "swarco";
+  skos:prefLabel "Swarco"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordVMSMerk> .

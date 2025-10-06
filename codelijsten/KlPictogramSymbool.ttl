@@ -32,6 +32,14 @@
   skos:prefLabel "hydrant ondergronds (B)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/brandblusser> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "brandblusser"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "brandblusser";
+  skos:prefLabel "brandblusser"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtend-persoon> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -62,6 +70,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
   skos:notation "tunnelnaam";
   skos:prefLabel "tunnelnaam"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/telefoon> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "telefoon"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "telefoon";
+  skos:prefLabel "telefoon"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/vluchtroute> a skos:Concept;

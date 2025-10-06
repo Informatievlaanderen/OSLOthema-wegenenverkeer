@@ -23,3 +23,11 @@
   skos:notation "vaisala";
   skos:prefLabel "Vaisala"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPLCMerk/siemens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Siemens"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk>;
+  skos:notation "siemens";
+  skos:prefLabel "Siemens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPLCMerk> .

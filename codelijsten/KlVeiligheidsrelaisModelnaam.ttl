@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een lijst met modelnamen van veilgheidsrelais volgens de fabrikant."@nl;
   skos:prefLabel "Veilgheidsrelais modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisModelnaam/pnoz-x7> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "PNOZ-X7"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVeiligheidsrelaisModelnaam>;
+  skos:notation "pnoz-x7";
+  skos:prefLabel "PNOZ-X7"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVeiligheidsrelaisModelnaam> .

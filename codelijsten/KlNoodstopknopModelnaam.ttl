@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van een noodstopknop."@nl;
   skos:prefLabel "Noodstopknop modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNoodstopknopModelnaam/xb4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "XB4"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopModelnaam>;
+  skos:notation "xb4";
+  skos:prefLabel "XB4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopModelnaam> .

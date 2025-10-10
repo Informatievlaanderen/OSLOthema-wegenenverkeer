@@ -8,14 +8,6 @@
   skos:definition "Keuzelijst met waardes voor het type materiaal van een telecomkabel."@nl;
   skos:prefLabel "Telecom cable materiaal type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomCableMateriaalType/other> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomCableMateriaalType>;
-  skos:notation "other";
-  skos:prefLabel "other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomCableMateriaalType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomCableMateriaalType/twistedpair> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -46,6 +38,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomCableMateriaalType>;
   skos:notation "tvavb";
   skos:prefLabel "TVAVB"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomCableMateriaalType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomCableMateriaalType/other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deze optie mag uitsluitend TIJDELIJK worden gebruikt en enkel tot de juiste gegevens beschikbaar zijn. Misbruik van deze optie leidt tot verminderde datakwaliteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomCableMateriaalType>;
+  skos:notation "other";
+  skos:prefLabel "other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomCableMateriaalType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecomCableMateriaalType/sty-sy> a skos:Concept;

@@ -40,14 +40,6 @@
   skos:prefLabel "NCNI"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/Other> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Ander, onbekend type interface."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
-  skos:notation "Other";
-  skos:prefLabel "Other"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/e-nni> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "External Network-Network-Interface: deze poort verbindt het netwerk toestel met een ander netwerk toestel van een andere netwerk technologie"@nl;
@@ -62,4 +54,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
   skos:notation "NNI";
   skos:prefLabel "NNI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortType/Other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ander, onbekend type interface. Deze optie mag uitsluitend TIJDELIJK worden gebruikt en enkel tot de juiste gegevens beschikbaar zijn. Misbruik van deze optie leidt tot verminderde datakwaliteit."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType>;
+  skos:notation "Other";
+  skos:prefLabel "Other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortType> .

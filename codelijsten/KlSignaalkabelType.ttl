@@ -48,6 +48,14 @@
   skos:prefLabel "TWAVB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/olflex> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ölflex"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "olflex";
+  skos:prefLabel "Olflex"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/sxavb> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Gewapende signaalkabel voor ondergronds gebruik."@nl;

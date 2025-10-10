@@ -8,6 +8,22 @@
   skos:definition "De modelnaam van de batterij."@nl;
   skos:prefLabel "Batterij modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijModelnaam/l33-12> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "L33-12"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam>;
+  skos:notation "l33-12";
+  skos:prefLabel "L33-12"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijModelnaam/cr2032> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "CR2032"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam>;
+  skos:notation "cr2032";
+  skos:prefLabel "CR2032"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijModelnaam/batzelt> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "batzelt"@nl;
@@ -30,12 +46,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam>;
   skos:notation "np24-12i";
   skos:prefLabel "NP24-12I"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijModelnaam/cr2032> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "CR2032"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam>;
-  skos:notation "cr2032";
-  skos:prefLabel "CR2032"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijModelnaam> .

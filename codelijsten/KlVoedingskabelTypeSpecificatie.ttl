@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met mogelijke specificaties van het type van de voedingskabel volgens een vaste lijst om bv. de brandklasse mee te geven"@nl;
+  skos:definition "Lijst met mogelijke specificaties van het type van de voedingskabel volgens een vaste lijst om bv. de brandklasse mee te geven."@nl;
   skos:prefLabel "Voedingskabel type specificatie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelTypeSpecificatie/cca-s3-d2-a3> a skos:Concept;
@@ -30,14 +30,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie>;
   skos:notation "eca";
   skos:prefLabel "Eca"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelTypeSpecificatie/cca-a1> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Halogeenvrije installatiekabels voor binnen."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie>;
-  skos:notation "cca-a1";
-  skos:prefLabel "Cca-a1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelTypeSpecificatie/rf1.5h> a skos:Concept;
@@ -86,6 +78,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie>;
   skos:notation "cca-s1-d2-a1";
   skos:prefLabel "Cca-s1 d2 a1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelTypeSpecificatie/cca-a1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije installatiekabels voor binnen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie>;
+  skos:notation "cca-a1";
+  skos:prefLabel "Cca-a1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelTypeSpecificatie/emggb> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "EmGGB"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie>;
+  skos:notation "emggb";
+  skos:prefLabel "EmGGB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelTypeSpecificatie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelTypeSpecificatie/cca-d2> a skos:Concept;

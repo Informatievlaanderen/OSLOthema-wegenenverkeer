@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Pyranometer modelnamen."@nl;
   skos:prefLabel "Pyranometer modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPyranometerModelnaam/nr-lite2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "NR Lite2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPyranometerModelnaam>;
+  skos:notation "nr-lite2";
+  skos:prefLabel "NR Lite2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPyranometerModelnaam> .

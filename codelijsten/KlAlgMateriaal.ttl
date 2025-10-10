@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Alg materiaal"@nl;
+  skos:definition "Het materiaal waaruit een object voornamelijk gebouwd is."@nl;
   skos:prefLabel "Alg materiaal"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/kunststof> a skos:Concept;
@@ -14,6 +14,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
   skos:notation "kunststof";
   skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/glasvezelversterkt-polyester> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "glasvezelversterkt polyester"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "glasvezelversterkt-polyester";
+  skos:prefLabel "glasvezelversterkt polyester"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/polystyreen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "polystyreen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "polystyreen";
+  skos:prefLabel "polystyreen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/pvc> a skos:Concept;
@@ -38,6 +54,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
   skos:notation "houtvezelbeton";
   skos:prefLabel "houtvezelbeton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/kunstof> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "kunststof"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
+  skos:notation "kunstof";
+  skos:prefLabel "kunstof"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/roestvrijstaal> a skos:Concept;
@@ -102,22 +126,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
   skos:notation "gegalvaniseerd-staal";
   skos:prefLabel "gegalvaniseerd staal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/kunstof> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "NIET GEBRUIKEN - kunstof"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "kunstof";
-  skos:prefLabel "kunstof"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/glasvezelversterkt-polyester> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "glasvezelversterkt polyester"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal>;
-  skos:notation "glasvezelversterkt-polyester";
-  skos:prefLabel "glasvezelversterkt polyester"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgMateriaal/polycarbonaat> a skos:Concept;

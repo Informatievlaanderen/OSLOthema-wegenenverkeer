@@ -8,14 +8,6 @@
   skos:definition "De kleur van de zichtbare buitenkant van een verlichtingstoestel."@nl;
   skos:prefLabel "Armatuurkleur"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlArmatuurkleur/ral-7035> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Grijs - HS-cabines + LS-kasten standaardbestek"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur>;
-  skos:notation "ral-7035";
-  skos:prefLabel "RAL 7035"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlArmatuurkleur/ral-7017> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Donkerbruin"@nl;
@@ -54,6 +46,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur>;
   skos:notation "ral-7012";
   skos:prefLabel "RAL 7012"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlArmatuurkleur/ral-7035> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grijs - HS-cabines + LS-kasten standaardbestek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur>;
+  skos:notation "ral-7035";
+  skos:prefLabel "RAL 7035"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlArmatuurkleur/ral-7016> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RAL 7016"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur>;
+  skos:notation "ral-7016";
+  skos:prefLabel "RAL 7016"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlArmatuurkleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlArmatuurkleur/ral-9003> a skos:Concept;

@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met modelnaen van de contactoren volgens de fabrikanten."@nl;
   skos:prefLabel "Contactor modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactorModelnaam/drm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DRM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorModelnaam>;
+  skos:notation "drm";
+  skos:prefLabel "DRM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactorModelnaam/lc1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LC1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorModelnaam>;
+  skos:notation "lc1";
+  skos:prefLabel "LC1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorModelnaam> .

@@ -23,3 +23,11 @@
   skos:notation "prioritair";
   skos:prefLabel "prioritair"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlServicePrioriteit> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlServicePrioriteit/spitsstrook> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geeft aan dat de camera een rol speelt bij de monitoring of controle van een spitsstrook en impliceert dat er een hogere prioriteit nodig is voor opvolging van storingen of interventies, gezien de directe impact op verkeersveiligheid en doorstroming."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlServicePrioriteit>;
+  skos:notation "spitsstrook";
+  skos:prefLabel "spitsstrook"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlServicePrioriteit> .

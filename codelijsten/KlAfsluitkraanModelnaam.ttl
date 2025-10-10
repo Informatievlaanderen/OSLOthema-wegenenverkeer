@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Modelnamen van afsluitkranen volgens de fabrikant."@nl;
   skos:prefLabel "Modelnaam afsluitkraan"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluitkraanModelnaam/e3-gate-valve-dn250> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "E3 gate valve DN250"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitkraanModelnaam>;
+  skos:notation "e3-gate-valve-dn250";
+  skos:prefLabel "E3 gate valve DN250"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitkraanModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfsluitkraanModelnaam/e3-gate-valve-dn50> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "E3 gate valve DN50"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitkraanModelnaam>;
+  skos:notation "e3-gate-valve-dn50";
+  skos:prefLabel "E3 gate valve DN50"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitkraanModelnaam> .

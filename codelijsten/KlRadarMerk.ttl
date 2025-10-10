@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met merknamen voor Radar."@nl;
   skos:prefLabel "Radar merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRadarMerk/icoms> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ICOMS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRadarMerk>;
+  skos:notation "icoms";
+  skos:prefLabel "ICOMS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRadarMerk> .

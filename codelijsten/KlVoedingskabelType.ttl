@@ -5,8 +5,8 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met types voor energie- en installatiekabels volgens de gebruikte materialen zoals opgenomen in het Standaarbestek 270"@nl;
-  skos:prefLabel "Voedingskabel types"@nl.
+  skos:definition "Lijst met types voor energie- en installatiekabels volgens de gebruikte materialen zoals opgenomen in het Standaarbestek 270."@nl;
+  skos:prefLabel "Voedingskabel type"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/eaxecwb> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -22,6 +22,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
   skos:notation "h07-z1-r";
   skos:prefLabel "H07 Z1-R"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/olflex> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ölflex"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "olflex";
+  skos:prefLabel "Olflex"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/svavb> a skos:Concept;

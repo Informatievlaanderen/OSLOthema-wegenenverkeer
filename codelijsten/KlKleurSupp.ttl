@@ -8,33 +8,9 @@
   skos:definition "Keuzelijst om de kleur van de toegevoegde supplementen van de verharding te bepalen."@nl;
   skos:prefLabel "Kleur supplementen"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/rood> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De kleur beige."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
-  skos:notation "rood";
-  skos:prefLabel "rood"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/bordeaux-bruin> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De kleur bordeaux/bruin."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
-  skos:notation "bordeaux-bruin";
-  skos:prefLabel "bordeaux-bruin"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/oker> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De kleur oker."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
-  skos:notation "oker";
-  skos:prefLabel "oker"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/beige> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De kleur rood."@nl;
+  skos:definition "De kleur beige."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
   skos:notation "beige";
   skos:prefLabel "beige"@nl;
@@ -46,4 +22,28 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
   skos:notation "geen";
   skos:prefLabel "geen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/oker> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De kleur oker."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
+  skos:notation "oker";
+  skos:prefLabel "oker"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/rood> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De kleur rood."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
+  skos:notation "rood";
+  skos:prefLabel "rood"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurSupp/bordeaux-bruin> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De kleur bordeaux/bruin."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp>;
+  skos:notation "bordeaux-bruin";
+  skos:prefLabel "bordeaux-bruin"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> .

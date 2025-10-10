@@ -8,14 +8,6 @@
   skos:definition "De kleur van de tank."@nl;
   skos:prefLabel "Tank kleur"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTankKleur/blauw> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Blauw"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur>;
-  skos:notation "blauw";
-  skos:prefLabel "Blauw"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTankKleur/rood> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rood"@nl;
@@ -62,6 +54,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur>;
   skos:notation "wit";
   skos:prefLabel "Wit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTankKleur/blauw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "blauw"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur>;
+  skos:notation "blauw";
+  skos:prefLabel "blauw"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTankKleur/groen> a skos:Concept;

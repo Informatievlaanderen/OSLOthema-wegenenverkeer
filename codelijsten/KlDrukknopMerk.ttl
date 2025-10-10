@@ -23,3 +23,11 @@
   skos:notation "eao";
   skos:prefLabel "EAO"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDrukknopMerk/printronic> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Printronic"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopMerk>;
+  skos:notation "printronic";
+  skos:prefLabel "Printronic"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDrukknopMerk> .

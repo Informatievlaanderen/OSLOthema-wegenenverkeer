@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelAdersEnSectie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Signaalkabel aders en sectie"@nl;
+  skos:definition "Lijst van mogelijke waarden volgens de catalogusposten van het standaardbestek voor de samenstelling van een signalisatiekabel volgens het aantal aders en hun sectie in vierkante millimeter."@nl;
   skos:prefLabel "Signaalkabel aders en sectie"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelAdersEnSectie/7x2x0.8> a skos:Concept;
@@ -390,6 +390,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelAdersEnSectie>;
   skos:notation "25x1.5";
   skos:prefLabel "25x1.5"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelAdersEnSectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelAdersEnSectie/8x0-25> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "8x0.25"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelAdersEnSectie>;
+  skos:notation "8x0-25";
+  skos:prefLabel "8x0.25"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelAdersEnSectie> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelAdersEnSectie/30x2.5> a skos:Concept;

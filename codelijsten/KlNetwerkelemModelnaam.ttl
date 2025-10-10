@@ -400,6 +400,14 @@
   skos:prefLabel "AM1+"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/c9500> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "C9500"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
+  skos:notation "c9500";
+  skos:prefLabel "C9500"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/NULL> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "NULL"@nl;

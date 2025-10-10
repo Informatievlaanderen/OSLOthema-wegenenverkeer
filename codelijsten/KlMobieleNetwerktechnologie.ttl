@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende generaties van mobiele netwerktechnologieÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«n."@nl;
+  skos:prefLabel "Mobiele netwerktechologie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMobieleNetwerktechnologie/4g> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "4G"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie>;
+  skos:notation "4g";
+  skos:prefLabel "4G"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMobieleNetwerktechnologie/5g> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "5G"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie>;
+  skos:notation "5g";
+  skos:prefLabel "5G"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMobieleNetwerktechnologie/3g> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "3G"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie>;
+  skos:notation "3g";
+  skos:prefLabel "3G"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMobieleNetwerktechnologie/2g> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "2G"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie>;
+  skos:notation "2g";
+  skos:prefLabel "2G"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMobieleNetwerktechnologie/vast-netwerk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vast netwerk"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie>;
+  skos:notation "vast-netwerk";
+  skos:prefLabel "vast netwerk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> .

@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met merken van contactoren volgens de fabrikanten."@nl;
   skos:prefLabel "Contactor merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactorMerk/wei> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "WEI"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorMerk>;
+  skos:notation "wei";
+  skos:prefLabel "WEI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactorMerk/schneider> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Schneider"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorMerk>;
+  skos:notation "schneider";
+  skos:prefLabel "Schneider"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorMerk> .

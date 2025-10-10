@@ -15,3 +15,11 @@
   skos:notation "bosch";
   skos:prefLabel "Bosch"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoEInjectorMerk/planet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "PLANET"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorMerk>;
+  skos:notation "planet";
+  skos:prefLabel "PLANET"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorMerk> .

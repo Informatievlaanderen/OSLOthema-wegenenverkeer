@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De merknaam van de pompgoep."@nl;
   skos:prefLabel "Pompgroep merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompGroepMerk/homa> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HOMA"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompGroepMerk>;
+  skos:notation "homa";
+  skos:prefLabel "HOMA"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompGroepMerk> .

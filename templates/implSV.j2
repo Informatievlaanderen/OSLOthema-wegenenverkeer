@@ -54,14 +54,14 @@
               <dt>Status</dt><dd><a href="{{metadata.status}}">{{metadata.status}}</a></dd>
               <dt>Uitgegeven op</dt><dd>{{metadata.issued}}</dd>
               <dt>Deze versie</dt><dd><a href="{{metadata.navigation.self}}">{{metadata.navigation.self}}</a></dd>
-			  <!-- <dt>Release notes deze versie</dt><dd><a href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes</a></dd>
+			   <dt>Release notes deze versie</dt><dd><a href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes</a></dd>
               {% if metadata.navigation.next %}
               <dt>Volgende versie</dt><dd><a href="{{metadata.navigation.next}}">{{metadata.navigation.next}}</a></dd>
               {% endif %}
               {% if metadata.navigation.prev %}
               <dt>Vorige versie</dt><dd><a href="{{metadata.navigation.prev}}">{{metadata.navigation.prev}}</a></dd>
               {% endif %}
-              </dl>-->
+              </dl>
 		
 			   <!--
 			<dl>
@@ -124,7 +124,7 @@
           <div class="col--8-12 col--12-12--s">
             <div class="region" id="introduction">
               <div class="introduction typography">
-               {% block introduction %}
+              {% block introduction %}
                 <p>Dit document beschrijft het <strong>implementatiemodel {{ metadata.title }}</strong>.
 				Het model vormt een integratie tussen de juridische kant van de materie, zoals beschreven in OSLO-Besluit-Mobiliteit, en de fysieke kant, zoals vastgelegd in de OTL (Object Typenbibliotheek).
                 
@@ -364,9 +364,8 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SQLite download</h2>
 
                 {% block sqlite %}
-			<p>Een herbruikbare SQLite database van het Signalisatie Vlaanderen implementatiemodel is terug te vinden op: <a href="https://wegenenverkeer.data.dev-vlaanderen.be/doc/implementatiemodel/signalisatievlaanderen/html/SignalisatieVlaanderen.db" target="_blank">SQLite download</a></p>
+			<p>Een herbruikbare SQLite database van alle implementatiemodellen is terug te vinden op: <a href="https://wegenenverkeer.data.dev-vlaanderen.be/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a></p>
 
-			<p>Een herbruikbare SQLite database van alle OTL implementatiemodellen is terug te vinden op: <a href="https://wegenenverkeer.data.dev-vlaanderen.be/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a></p>
 		
                 {% endblock %}
             </div>

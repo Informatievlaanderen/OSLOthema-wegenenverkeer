@@ -24,12 +24,28 @@
   skos:prefLabel "attest"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/elektrisch-schema> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "elektrisch schema"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
+  skos:notation "elektrisch-schema";
+  skos:prefLabel "elektrisch schema"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/foto> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "foto"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
   skos:notation "foto";
   skos:prefLabel "foto"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/handleiding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "handleiding"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType>;
+  skos:notation "handleiding";
+  skos:prefLabel "handleiding"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBijlageType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBijlageType/plan> a skos:Concept;

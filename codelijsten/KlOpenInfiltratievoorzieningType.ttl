@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van een open infiltratievoorziening."@nl;
   skos:prefLabel "Open infiltratievoorziening type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOpenInfiltratievoorzieningType/wadi> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een wadi (Water Afvoer Drainage Infiltratie) is een met grind en zand gevulde kom of bekken dat zowel water kan vasthouden als laten infiltreren. "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOpenInfiltratievoorzieningType>;
+  skos:notation "wadi";
+  skos:prefLabel "wadi"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOpenInfiltratievoorzieningType> .

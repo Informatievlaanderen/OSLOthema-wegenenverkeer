@@ -8,6 +8,14 @@
   skos:definition "De vormen van een trottoirband."@nl;
   skos:prefLabel "Trottoirband vorm"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLETrottoirbandVorm/niet-afgeschuind> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "niet afgeschuind"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandVorm>;
+  skos:notation "niet-afgeschuind";
+  skos:prefLabel "niet afgeschuind"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandVorm> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLETrottoirbandVorm/afgeschuind> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Afgeschuind"@nl;

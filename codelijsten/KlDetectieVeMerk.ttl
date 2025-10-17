@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke opties voor het merk van een detectieverwerkingseenheid."@nl;
   skos:prefLabel "Detectieverwerkingseenheid merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectieVeMerk/flir> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "FLIR"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectieVeMerk>;
+  skos:notation "flir";
+  skos:prefLabel "FLIR"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectieVeMerk> .

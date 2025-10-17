@@ -3,9 +3,39 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met modelnamen voor relais volgens de fabrikant."@nl;
   skos:prefLabel "Modelnamen relais"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRelaisModelnaam/mur3> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "MUR3"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam>;
+  skos:notation "mur3";
+  skos:prefLabel "MUR3"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRelaisModelnaam/drm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DRM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam>;
+  skos:notation "drm";
+  skos:prefLabel "DRM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRelaisModelnaam/g2tf02> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "G2TF02"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam>;
+  skos:notation "g2tf02";
+  skos:prefLabel "G2TF02"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRelaisModelnaam/rm35l> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RM35L"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam>;
+  skos:notation "rm35l";
+  skos:prefLabel "RM35L"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRelaisModelnaam> .

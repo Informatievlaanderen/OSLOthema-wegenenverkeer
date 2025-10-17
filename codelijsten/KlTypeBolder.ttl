@@ -16,12 +16,12 @@
   skos:prefLabel "kikker"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/andere> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/dubbelekikker> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
-  skos:notation "andere";
-  skos:prefLabel "andere"@nl;
+  skos:notation "dubbelekikker";
+  skos:prefLabel "dubbeleKikker"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/hoorns> a skos:Concept;
@@ -40,6 +40,14 @@
   skos:prefLabel "dubbele kruis"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/dubbelet-hoofd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
+  skos:notation "dubbelet-hoofd";
+  skos:prefLabel "dubbeleT-hoofd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/kruis> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -54,6 +62,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
   skos:notation "dubbele-t-hoofd";
   skos:prefLabel "dubbele T-hoofd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/dubbelekruis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
+  skos:notation "dubbelekruis";
+  skos:prefLabel "dubbeleKruis"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/dubbele-paddenstoel> a skos:Concept;
@@ -72,12 +88,36 @@
   skos:prefLabel "t-hoofd"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/dubbelepaddenstoel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
+  skos:notation "dubbelepaddenstoel";
+  skos:prefLabel "dubbelepaddenstoel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/quick-release> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
   skos:notation "quick-release";
   skos:prefLabel "quick release"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/horens> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
+  skos:notation "horens";
+  skos:prefLabel "horens"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder>;
+  skos:notation "andere";
+  skos:prefLabel "andere"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBolder> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBolder/dubbele-kikker> a skos:Concept;

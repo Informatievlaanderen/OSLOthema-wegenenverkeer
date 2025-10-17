@@ -31,3 +31,11 @@
   skos:notation "slechts-1-kolkdeel";
   skos:prefLabel "slechts 1 kolkdeel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieKolk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieKolk/slechts1kolkdeel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieKolk>;
+  skos:notation "slechts1kolkdeel";
+  skos:prefLabel "slechts1Kolkdeel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieKolk> .

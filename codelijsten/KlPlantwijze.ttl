@@ -7,3 +7,51 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke (aanplant)plantmanieren."@nl;
   skos:prefLabel "Plantwijze"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/solitair> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "1 - solitair"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "solitair";
+  skos:prefLabel "solitair"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/in-grote-dicht-beplante-groepen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,4 - in grote dicht beplante groepen (>10 stuks) (ook bosachtige beplantingen, bospark)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "in-grote-dicht-beplante-groepen";
+  skos:prefLabel "in grote dicht beplante groepen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/in-groep-van-2-5-stuks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,7 - in groep van 2 - 5 stuks"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "in-groep-van-2-5-stuks";
+  skos:prefLabel "in groep van 2 - 5 stuks"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/perfecte-rijbeplanting-zonder-uitval> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,9 - perfecte rijbeplanting (zonder uitval)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "perfecte-rijbeplanting-zonder-uitval";
+  skos:prefLabel "perfecte rijbeplanting (zonder uitval)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/rijbeplanting-met-belangrijke-uitval> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,8 - rijbeplanting met belangrijke uitval"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "rijbeplanting-met-belangrijke-uitval";
+  skos:prefLabel "rijbeplanting met belangrijke uitval"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPlantwijze/in-groep-van-6-10-stuks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "0,6 - in groep van 6 - 10 stuks"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze>;
+  skos:notation "in-groep-van-6-10-stuks";
+  skos:prefLabel "in groep van 6 - 10 stuks"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPlantwijze> .

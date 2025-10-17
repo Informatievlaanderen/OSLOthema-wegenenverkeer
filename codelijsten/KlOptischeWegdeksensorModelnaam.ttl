@@ -3,9 +3,31 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Optische wegdeksensor modelnamen."@nl;
   skos:prefLabel "Optische wegdeksensor modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOptischeWegdeksensorModelnaam/dsc111> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DSC111"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam>;
+  skos:notation "dsc111";
+  skos:prefLabel "DSC111"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOptischeWegdeksensorModelnaam/dsc211> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DSC211"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam>;
+  skos:notation "dsc211";
+  skos:prefLabel "DSC211"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOptischeWegdeksensorModelnaam/dst111> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DST111"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam>;
+  skos:notation "dst111";
+  skos:prefLabel "DST111"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam> .

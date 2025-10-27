@@ -195,7 +195,7 @@ body {
 					<div class="grid">
 						<div class="col--8-12 col--12-12--s">
 							<div class="typography introduction">
-								Op deze pagina vindt u de release notes van de gepubliceerde OTL versies.						
+								Op deze pagina vindt u de release notes van de gepubliceerde OTL versies.
 							</div>
 							<br>
 						</div>
@@ -224,17 +224,27 @@ body {
 				</div>
 	</section> 
 			
-	<div>
-	<div class="layout layout--wide">
+<div class="layout layout--wide" style="margin-top:10px;">
 	<p>Feedback, een vraag of een melding van een probleem kan gegeven worden via <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a>.
 								</p>
 								<br>
-		Search : 
-		<input type="text" id="searchInput" placeholder="Zoek op Change Ticket, Oplossing, Implementatiemodel, etc."/>
-	</div>			
-	</div>	
+    <Strong>Zoek :</Strong>
+    <input type="text" id="searchInput" placeholder="Zoek op Objecttype, Thema of een trefwoord...">
+    <button id="resetButton" style="
+        margin-left:1090px;
+        padding:8px 14px;
+        background-color:#2b3a67;
+        color:white;
+        border:none;
+        border-radius:5px;
+        cursor:pointer;
+        font-size:0.95em;">
+        Alles sluiten
+    </button>
+</div>
 
-        <!--NEWVersionCards-->
+
+<!--NEWVersionCards-->
         <section class="info-block info-block--news" id="2.17.0">
 		<div class="layout layout--wide">
 			<header class="info-block__header">
@@ -244,8 +254,6 @@ body {
 				Release datum : 21/10/2025
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -869,8 +877,6 @@ body {
 				Release datum : 13/07/2025
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -1533,8 +1539,6 @@ body {
 				Release datum : 4/09/2025
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -2089,8 +2093,6 @@ body {
 				Release datum : 1/08/2025
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -2423,8 +2425,6 @@ body {
 				Release datum : 15/10/2024
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -2706,8 +2706,6 @@ body {
 				Release datum : 7/09/2024
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -3247,8 +3245,6 @@ body {
 				Release datum : 4/04/2024
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -3563,8 +3559,6 @@ body {
 				Release datum : 1/11/2024
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -3810,8 +3804,6 @@ body {
 				Release datum : 11/09/2023
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -4411,8 +4403,6 @@ body {
 				Release datum : 4/07/2023
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -4850,8 +4840,6 @@ body {
 				Release datum : 3/29/2023
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -5133,8 +5121,6 @@ body {
 				Release datum : 12/20/2022
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -5629,8 +5615,6 @@ body {
 				Release datum : 8/05/2022
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -5921,8 +5905,6 @@ body {
 				Release datum : 13/06/2022
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -5971,6 +5953,15 @@ body {
                     
                     </div>
 					<div class="field"><strong>OPLOSSING:</strong> Het AIMObject model werd uitgebreid met de klasse AanvullendeGeometrie. Elk AIMObject krijgt via overerving de relatie HeeftAanvullendeGeometrie toegewezen zodat een bijlage met een geometrie, zoals een detailplan, veiligheidsvoorschriften, enz.. gerelateerd kan worden bijgehouden.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000260 - PRB0041132</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#FieldOfView">FieldOfView</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De klasse FieldOfView werd uit gebruik genomen en wordt vervangen door de klasse AanvullendeGeometrie.</div>
 				</div>
             </details>
             <details>
@@ -6192,8 +6183,6 @@ body {
 				Release datum : 4/01/2022
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -6391,8 +6380,6 @@ body {
 				Release datum : 1/10/2022
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -6485,8 +6472,6 @@ body {
 				Release datum : 13/10/2021
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -7056,8 +7041,6 @@ body {
 				Release datum : 7/02/2021
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -7912,8 +7895,6 @@ body {
 				Release datum : 20/04/2021
 			</div>			
 			<Br>
-
-	
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
             <details>
@@ -8591,46 +8572,59 @@ body {
 					<div class="field"><strong>OPLOSSING:</strong> Label-nl van Seinlantaarn verbeterd om beter de betekenis volgens de naam en de definitie te weerspiegelen.</div>
 				</div></details>	
                     </section>
-
-			
-
 	<script src="https://ui.vlaanderen.be/2.latest/js/vlaanderen-ui.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
+    const resetButton = document.getElementById('resetButton');
     const detailsGroups = document.querySelectorAll('details');
 
     function filterNotes() {
         const searchTerm = searchInput.value.toLowerCase().trim();
 
         detailsGroups.forEach(detailsGroup => {
-            let cards = detailsGroup.querySelectorAll('.card');
+            const summaryText = detailsGroup.querySelector('summary').textContent.toLowerCase();
+            const cards = detailsGroup.querySelectorAll('.card');
             let groupHasMatch = false;
 
             cards.forEach(card => {
                 const cardText = card.textContent.toLowerCase();
-
-                if (cardText.includes(searchTerm)) {
-                    card.style.display = ''; // toon kaart
+                if (cardText.includes(searchTerm) || summaryText.includes(searchTerm)) {
+                    card.style.display = '';
                     groupHasMatch = true;
                 } else {
-                    card.style.display = 'none'; // verberg kaart
+                    card.style.display = 'none';
                 }
             });
 
-            // Als minstens één kaart in deze groep overeenkomt, toon de hele groep
-            if (groupHasMatch) {
+            if (groupHasMatch || summaryText.includes(searchTerm)) {
                 detailsGroup.style.display = '';
-                detailsGroup.setAttribute('open', ''); // optioneel: automatisch openklappen
+                detailsGroup.setAttribute('open', '');
             } else {
                 detailsGroup.style.display = 'none';
             }
         });
     }
 
+    function resetAll() {
+        // Wis de zoekterm
+        searchInput.value = '';
+
+        // Sluit en toon alle implementatiemodellen opnieuw
+        detailsGroups.forEach(detailsGroup => {
+            detailsGroup.style.display = '';
+            detailsGroup.removeAttribute('open');
+            detailsGroup.querySelectorAll('.card').forEach(card => {
+                card.style.display = '';
+            });
+        });
+    }
+
+    // Koppel events
     searchInput.addEventListener('input', filterNotes);
+    resetButton.addEventListener('click', resetAll);
 });
 </script>
 	

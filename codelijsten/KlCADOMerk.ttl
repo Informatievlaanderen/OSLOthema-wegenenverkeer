@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de calamiteitendoorsteek."@nl;
   skos:prefLabel "Calamiteitendoorsteek merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCADOMerk/heintzmann> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Heintzmann"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCADOMerk>;
+  skos:notation "heintzmann";
+  skos:prefLabel "Heintzmann"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCADOMerk> .

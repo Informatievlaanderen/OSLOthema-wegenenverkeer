@@ -40,6 +40,14 @@
   skos:prefLabel "PS15"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/modulys> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Modulys"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam>;
+  skos:notation "modulys";
+  skos:prefLabel "Modulys"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSModelnaam/smt750i> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "SMT750I"@nl;

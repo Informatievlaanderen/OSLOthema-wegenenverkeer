@@ -196,9 +196,24 @@ body {
 						<div class="col--8-12 col--12-12--s">
 							<div class="typography introduction">
 								Op deze pagina vindt u de release notes van de gepubliceerde OTL versies.
-							</div>
-							<br>
+								Hierin worden de wijzigingen, uitbreidingen en correcties aan de OTL geregistreerd en toegelicht.
+															
+							</div>	
+							<Br>
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdT5r4x-l0LjE2kdTWL86rZNB042XPoBVnfvBwYxkXynUrkHw/viewform" target="_blank"> 
+								<button id="nieuwsbrief" style="											
+														padding:8px 14px;
+														background-color:#06c;
+														color:white;
+														border:none;
+														border-radius:5px;
+														cursor:pointer;
+														font-size:0.95em;">
+														Schrijf je in op onze nieuwsbrief
+								</button>
+								</a>
 						</div>
+						
 
 
 						<!--<div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
@@ -221,19 +236,20 @@ body {
 							</nav></div>
 						</div>-->
 					</div>
+					<Br>
+					<a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a> om feedback, een vraag of een melding van een probleem te gegeven.
+							
 				</div>
 	</section> 
 			
 <div class="layout layout--wide" style="margin-top:10px;">
-	<p>Feedback, een vraag of een melding van een probleem kan gegeven worden via <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a>.
-								</p>
-								<br>
+	
     <Strong>Zoek :</Strong>
     <input type="text" id="searchInput" placeholder="Zoek op Objecttype, Thema of een trefwoord...">
     <button id="resetButton" style="
         margin-left:1090px;
         padding:8px 14px;
-        background-color:#2b3a67;
+        background-color:#06c;
         color:white;
         border:none;
         border-radius:5px;
@@ -245,14 +261,16 @@ body {
 
 
 <!--NEWVersionCards-->
+
         <section class="info-block info-block--news" id="2.17.0">
 		<div class="layout layout--wide">
 			<header class="info-block__header">
-				<h1 class="info-block__title">Release Notes 2.17.0</h1>
+				<h1 class="info-block__title" style="color : #3c3d3c;">Release Notes 2.17.0</h1>
 			</header>
 			<div>
 				Release datum : 21/10/2025
 			</div>			
+
 			<Br>
 		<details>
 		<summary>IMPLEMENTATIEMODELLEN</summary>
@@ -8588,18 +8606,28 @@ document.addEventListener('DOMContentLoaded', function() {
             const summaryText = detailsGroup.querySelector('summary').textContent.toLowerCase();
             const cards = detailsGroup.querySelectorAll('.card');
             let groupHasMatch = false;
+			let visibleCardCount = 0;
 
             cards.forEach(card => {
                 const cardText = card.textContent.toLowerCase();
                 if (cardText.includes(searchTerm) || summaryText.includes(searchTerm)) {
                     card.style.display = '';
                     groupHasMatch = true;
+					visibleCardCount++;
                 } else {
                     card.style.display = 'none';
                 }
             });
 
             if (groupHasMatch || summaryText.includes(searchTerm)) {
+                detailsGroup.style.display = '';
+                detailsGroup.setAttribute('open', '');
+            } else {
+                detailsGroup.style.display = 'none';
+            }
+			
+			// Toon of verberg de hele groep
+            if (visibleCardCount > 0 || summaryText.includes(searchTerm)) {
                 detailsGroup.style.display = '';
                 detailsGroup.setAttribute('open', '');
             } else {

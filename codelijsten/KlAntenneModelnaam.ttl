@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met modelnamen voor Antenne."@nl;
   skos:prefLabel "Antenne modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAntenneModelnaam/cm-s1-08nj> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "CM-S1-08NJ"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneModelnaam>;
+  skos:notation "cm-s1-08nj";
+  skos:prefLabel "CM-S1-08NJ"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneModelnaam> .

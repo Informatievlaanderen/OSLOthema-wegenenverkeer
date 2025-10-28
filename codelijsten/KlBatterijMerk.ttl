@@ -8,14 +8,6 @@
   skos:definition "Het merk van de batterij."@nl;
   skos:prefLabel "Batterij merk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/yuasa> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "yuasa"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
-  skos:notation "yuasa";
-  skos:prefLabel "yuasa"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/eco-counter> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "eco-counter"@nl;
@@ -24,18 +16,34 @@
   skos:prefLabel "eco-counter"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/landport> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "landport"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
-  skos:notation "landport";
-  skos:prefLabel "landport"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/pbq> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "pbq"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
   skos:notation "pbq";
   skos:prefLabel "pbq"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/yuasa> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "yuasa"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
+  skos:notation "yuasa";
+  skos:prefLabel "yuasa"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/marathon> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Marathon Powercycle"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
+  skos:notation "marathon";
+  skos:prefLabel "Marathon"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/landport> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "landport"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk>;
+  skos:notation "landport";
+  skos:prefLabel "landport"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk> .

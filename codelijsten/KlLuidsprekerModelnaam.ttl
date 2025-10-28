@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de luidspreker."@nl;
   skos:prefLabel "Luidspreker modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLuidsprekerModelnaam/abf-260-100w-pa6-v0> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ABF-260/100W PA6 V0"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuidsprekerModelnaam>;
+  skos:notation "abf-260-100w-pa6-v0";
+  skos:prefLabel "ABF-260/100W PA6 V0"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuidsprekerModelnaam> .

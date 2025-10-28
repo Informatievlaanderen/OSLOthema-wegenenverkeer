@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de audioversterker."@nl;
   skos:prefLabel "Audioversterker merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAudioversterkerMerk/harman> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Harman"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioversterkerMerk>;
+  skos:notation "harman";
+  skos:prefLabel "Harman"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioversterkerMerk> .

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de calamiteitendoorsteek."@nl;
   skos:prefLabel "Calamiteitendoorsteek modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCADOModelnaam/duo-gate> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "DUO-GATE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCADOModelnaam>;
+  skos:notation "duo-gate";
+  skos:prefLabel "DUO-GATE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCADOModelnaam> .

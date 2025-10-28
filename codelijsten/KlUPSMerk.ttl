@@ -16,14 +16,6 @@
   skos:prefLabel "Other"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/delta> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Delta"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
-  skos:notation "delta";
-  skos:prefLabel "Delta"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/prostar> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Prostar"@nl;
@@ -54,4 +46,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
   skos:notation "pulse-dimension";
   skos:prefLabel "Pulse Dimension"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/delta> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Delta"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "delta";
+  skos:prefLabel "Delta"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUPSMerk/socomec> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Socomec"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk>;
+  skos:notation "socomec";
+  skos:prefLabel "Socomec"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUPSMerk> .

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de audioversterker."@nl;
   skos:prefLabel "Audioversterker modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAudioversterkerModelnaam/industryamp-pb-800-dn> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IndustryAmp PB-800-DN"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioversterkerModelnaam>;
+  skos:notation "industryamp-pb-800-dn";
+  skos:prefLabel "IndustryAmp PB-800-DN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAudioversterkerModelnaam> .

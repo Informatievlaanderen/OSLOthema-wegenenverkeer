@@ -8,6 +8,14 @@
   skos:definition "De modelnaam van de camera."@nl;
   skos:prefLabel "Camera modelnaam"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot-dual-ai> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Trafibot DUAL AI"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "trafibot-dual-ai";
+  skos:prefLabel "Trafibot DUAL AI"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/q3515-lve-22mm> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Q3515-LVE-22mm"@nl;

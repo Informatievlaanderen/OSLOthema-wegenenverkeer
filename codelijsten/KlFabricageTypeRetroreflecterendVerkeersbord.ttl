@@ -16,12 +16,28 @@
   skos:prefLabel "Bruggen en wegen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Standaardbestek 250"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "SB250";
+  skos:prefLabel "Standaardbestek 250"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/testreferentie-rrvkb-type> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "testreferentie RRVKB type"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
   skos:notation "testreferentie-rrvkb-type";
   skos:prefLabel "testreferentie RRVKB type"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/ONBEKEND> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Onbekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "ONBEKEND";
+  skos:prefLabel "Onbekend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/PRISMABORDEN> a skos:Concept;
@@ -33,43 +49,11 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB270> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Standaardbestek 270"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
   skos:notation "SB270";
   skos:prefLabel "Standaardbestek 270"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/VLAK> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Vlak"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "VLAK";
-  skos:prefLabel "Vlak"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Standaardbestek 250"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "SB250";
-  skos:prefLabel "Standaardbestek 250"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/INWENDIG_VERLICHT> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Inwendig verlicht"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "INWENDIG_VERLICHT";
-  skos:prefLabel "Inwendig verlicht"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/ONBEKEND> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Onbekend"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "ONBEKEND";
-  skos:prefLabel "Onbekend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/T2000> a skos:Concept;
@@ -80,20 +64,28 @@
   skos:prefLabel "T2000"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/BRUGGEN_EN_WEGEN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Bruggen en wegen"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "BRUGGEN_EN_WEGEN";
-  skos:prefLabel "Bruggen en wegen"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/GORDIJNBORDEN> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Gordijnborden"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
   skos:notation "GORDIJNBORDEN";
   skos:prefLabel "Gordijnborden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/BRUGGEN_EN_WEGEN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Bruggen en wegen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "BRUGGEN_EN_WEGEN";
+  skos:prefLabel "Bruggen en wegen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/VLAK> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Vlak"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "VLAK";
+  skos:prefLabel "Vlak"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250_BANDIT_BAND> a skos:Concept;
@@ -110,4 +102,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
   skos:notation "VARIABLE_MESSAGE_SIGN";
   skos:prefLabel "Variable Message Sign"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/INWENDIG_VERLICHT> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Inwendig verlicht"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "INWENDIG_VERLICHT";
+  skos:prefLabel "Inwendig verlicht"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .

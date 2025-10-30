@@ -24,6 +24,14 @@
   skos:prefLabel "testreferentie RRVKB type"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/T2000> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "T2000"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "T2000";
+  skos:prefLabel "T2000"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/PRISMABORDEN> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Prismaborden"@nl;
@@ -70,14 +78,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
   skos:notation "ONBEKEND";
   skos:prefLabel "Onbekend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/T2000> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "T2000"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "T2000";
-  skos:prefLabel "T2000"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/BRUGGEN_EN_WEGEN> a skos:Concept;

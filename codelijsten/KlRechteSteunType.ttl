@@ -8,28 +8,28 @@
   skos:definition "Keuzelijst die de verschillende types rechte steunen aanduidt."@nl;
   skos:prefLabel "Rechte steun type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/bi-flash> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
-  skos:notation "bi-flash";
-  skos:prefLabel "bi-flash"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/vri-met-zwanehals> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "VRI met zwanehals"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
   skos:notation "vri-met-zwanehals";
   skos:prefLabel "VRI met zwanehals"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/VRI-met-zwanehals> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/variabele-Z30> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "variabele Z30 (uit gebruik : vervangen door optie 'a-paal')"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
-  skos:notation "VRI-met-zwanehals";
-  skos:prefLabel "VRI met zwanehals"@nl;
+  skos:notation "variabele-Z30";
+  skos:prefLabel "variabele Z30"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/bi-flash> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "bi-flash  (uit gebruik : vervangen door optie 'a-paal')"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "bi-flash";
+  skos:prefLabel "bi-flash"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/a-paal> a skos:Concept;
@@ -48,10 +48,18 @@
   skos:prefLabel "d-paal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/variabele-Z30> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/zwanehals> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "Een paal met zwanehals (verwijzing naar de bocht in de paal)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
-  skos:notation "variabele-Z30";
-  skos:prefLabel "variabele Z30"@nl;
+  skos:notation "zwanehals";
+  skos:prefLabel "zwanehals"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRechteSteunType/VRI-met-zwanehals> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "VRI met zwanehals (uit gebruik : vervangen door optie 'zwanehals')"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType>;
+  skos:notation "VRI-met-zwanehals";
+  skos:prefLabel "VRI met zwanehals"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRechteSteunType> .

@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke producten voor een markering."@nl;
   skos:prefLabel "Markeringsproduct"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/thermoplast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
+  skos:notation "thermoplast";
+  skos:prefLabel "Thermoplast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/verf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een vloeibaar product dat vaste stoffen zoals bindmiddel, stoffen die kleuren reflecteren, vulstoffen en additieven bevat. Dit in combinatie met een oplosmiddel, organisch of op basis van water. De verf wordt aangebracht met een borstel, rol of pistool en vormt een geheel door verdamping van het oplosmiddel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
+  skos:notation "verf";
+  skos:prefLabel "Verf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/koudplast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een koudplast is een markeringssubstantie gevormd door de chemische reactie van 2 of meerdere componenten (minstens 1 verharder en 1 hoofdcomponent), waarvan geen oplosmiddelen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
+  skos:notation "koudplast";
+  skos:prefLabel "Koudplast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/voorgevormd-koudgekleefd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Deze markeringsproducten, vervaardigd in de fabriek, zijn voorzien van een kleefstrook en worden op het wegdek vastgedrukt (bv. tape). De eigenschappen worden niet noemenswaardig gewijzigd bij het aanbrengen. Naast de klassieke lijnmarkeringen worden voorgevormde markeringen ook gebruikt voor afbeeldingen op het wegdek."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
+  skos:notation "voorgevormd-koudgekleefd";
+  skos:prefLabel "Voorgevormd koudgekleefd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/voorgevormd-warmgekleefd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een warm gekleefde voorgevormde markering is een voorgevormd wegmarkeringsproduct dat gemaakt wordt aan de hand van een thermoplast. Het wordt aangebracht door het product te verwarmen tot zijn smelttemperatuur. Voorgevormde thermoplasten worden tijdens het aanbrengen met glasparels en / of stroefmakende middelen nagestrooid."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
+  skos:notation "voorgevormd-warmgekleefd";
+  skos:prefLabel "Voorgevormd warmgekleefd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .

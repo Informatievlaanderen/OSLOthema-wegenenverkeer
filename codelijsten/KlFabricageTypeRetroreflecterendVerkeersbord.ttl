@@ -24,6 +24,14 @@
   skos:prefLabel "testreferentie RRVKB type"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/PRISMABORDEN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Prismaborden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "PRISMABORDEN";
+  skos:prefLabel "Prismaborden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB270> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Standaardbestek 270"@nl;
@@ -40,12 +48,12 @@
   skos:prefLabel "Vlak"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250_SCHARNIER> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Standaardbestek 250"@nl;
+  skos:definition "Standaardbestek 250 Scharnierbord"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "SB250";
-  skos:prefLabel "Standaardbestek 250"@nl;
+  skos:notation "SB250_SCHARNIER";
+  skos:prefLabel "Standaardbestek 250 Scharnierbord"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/INWENDIG_VERLICHT> a skos:Concept;
@@ -88,22 +96,6 @@
   skos:prefLabel "Gordijnborden"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/PRISMABORDEN> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Prismaborden"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "PRISMABORDEN";
-  skos:prefLabel "Prismaborden"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/sb250-scharnier> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Standaardbestek 250 Scharnierbord"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
-  skos:notation "sb250-scharnier";
-  skos:prefLabel "Standaardbestek 250 Scharnierbord"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250_BANDIT_BAND> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "standardbestek 250 bandit band"@nl;
@@ -118,4 +110,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
   skos:notation "VARIABLE_MESSAGE_SIGN";
   skos:prefLabel "Variable Message Sign"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/sb250-scharnier> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Standaardbestek 250 Scharnierbord"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "sb250-scharnier";
+  skos:prefLabel "Standaardbestek 250 Scharnierbord"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFabricageTypeRetroreflecterendVerkeersbord/SB250> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardbestek 250"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord>;
+  skos:notation "SB250";
+  skos:prefLabel "Standaardbestek 250"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFabricageTypeRetroreflecterendVerkeersbord> .

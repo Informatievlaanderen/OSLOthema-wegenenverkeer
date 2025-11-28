@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschijningsvorm of applicatiemethode van het materiaal, zoals plaat, paneel, gespoten materiaa"@nl;
   skos:prefLabel "type brandwerende bekleding"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrandwerendeBekleding/plaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "plaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrandwerendeBekleding>;
+  skos:notation "plaat";
+  skos:prefLabel "plaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrandwerendeBekleding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrandwerendeBekleding/gespoten-materiaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gespoten materiaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrandwerendeBekleding>;
+  skos:notation "gespoten-materiaal";
+  skos:prefLabel "gespoten materiaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrandwerendeBekleding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrandwerendeBekleding/intumescerende-verf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "intumescerende verf"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrandwerendeBekleding>;
+  skos:notation "intumescerende-verf";
+  skos:prefLabel "intumescerende verf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrandwerendeBekleding> .

@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met de verschillende specifieke temperatuur-tijdscurves die als belasting is gehanteerd bij de validatie van de brandw"@nl;
   skos:prefLabel "brandkromme"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandkromme/hcm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HCM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme>;
+  skos:notation "hcm";
+  skos:prefLabel "HCM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandkromme/rws> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RWS"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme>;
+  skos:notation "rws";
+  skos:prefLabel "RWS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandkromme/rabt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "RABT"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme>;
+  skos:notation "rabt";
+  skos:prefLabel "RABT"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandkromme/hc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HC"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme>;
+  skos:notation "hc";
+  skos:prefLabel "HC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandkromme/iso> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ISO"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme>;
+  skos:notation "iso";
+  skos:prefLabel "ISO"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandkromme> .

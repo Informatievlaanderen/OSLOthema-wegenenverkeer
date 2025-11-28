@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De lijst met mogelijke materialen waaruit de voegafdichting kan bestaan. "@nl;
   skos:prefLabel "materiaal voegafdichting"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegafdichting/rubber> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "rubber"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting>;
+  skos:notation "rubber";
+  skos:prefLabel "rubber"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegafdichting/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "staal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegafdichting/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "beton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegafdichting/fpo-flexibele-folyolefine> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "FPO (flexibele folyolefine)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting>;
+  skos:notation "fpo-flexibele-folyolefine";
+  skos:prefLabel "FPO (flexibele folyolefine)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegafdichting> .

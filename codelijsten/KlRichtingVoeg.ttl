@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De richting van de voeg waarop de voegafdichting wordt geplaatst."@nl;
   skos:prefLabel "richting voeg"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRichtingVoeg/langs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "langs"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRichtingVoeg>;
+  skos:notation "langs";
+  skos:prefLabel "langs"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRichtingVoeg> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRichtingVoeg/dwars> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "dwars"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRichtingVoeg>;
+  skos:notation "dwars";
+  skos:prefLabel "dwars"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRichtingVoeg> .

@@ -16,14 +16,6 @@
   skos:prefLabel "Tegen muur zonder armatuur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/andere> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Andere"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "andere";
-  skos:prefLabel "Andere"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/steun-inwendige-verlichting> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Steun inwendige verlichting"@nl;
@@ -46,14 +38,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "PORTIEK";
   skos:prefLabel "Portiek"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/nadarhek> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Nadarhek"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "nadarhek";
-  skos:prefLabel "Nadarhek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VANGRAIL> a skos:Concept;
@@ -150,6 +134,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "ONBEKEND";
   skos:prefLabel "Onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Andere"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "andere";
+  skos:prefLabel "Andere"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/nadarhek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Nadarhek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "nadarhek";
+  skos:prefLabel "Nadarhek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/paal-verkeerslicht-met-bandit> a skos:Concept;

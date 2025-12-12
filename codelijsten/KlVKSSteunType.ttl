@@ -16,14 +16,6 @@
   skos:prefLabel "Tegen muur zonder armatuur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Galgsteun"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "GALGPAAL";
-  skos:prefLabel "Galgpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/andere> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Andere"@nl;
@@ -38,14 +30,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "steun-inwendige-verlichting";
   skos:prefLabel "Steun inwendige verlichting"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/MUUR> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Muur"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "MUUR";
-  skos:prefLabel "Muur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERLICHTINGSPAAL> a skos:Concept;
@@ -94,6 +78,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "NEW_JERSEY";
   skos:prefLabel "New-Jersey"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Galgsteun"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "GALGPAAL";
+  skos:prefLabel "Galgpaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/MUUR> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Muur"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "MUUR";
+  skos:prefLabel "Muur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/tegen-muur-met-armatuur> a skos:Concept;

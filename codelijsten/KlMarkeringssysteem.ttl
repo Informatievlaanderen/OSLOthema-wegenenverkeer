@@ -16,18 +16,18 @@
   skos:prefLabel "Vlak"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringssysteem/geprofileerd> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reliëf met een wisselende hoogte."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem>;
-  skos:notation "geprofileerd";
-  skos:prefLabel "Geprofileerd"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringssysteem/geluidsproducerend> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Verschillende soorten wegmarkeringen zullen trillingen en geluid produceren bij het overrijden. Zo zijn er ribbelmarkeringen, ribbelstrips en ribbelstroken."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem>;
   skos:notation "geluidsproducerend";
   skos:prefLabel "Geluidsproducerend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringssysteem/geprofileerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Geprofileerde systemen hebben in dwars- en of lengterichting veranderlijke filmdikte. Hierdoor ontstaat een reliÃƒÂ«f met een wisselende hoogte."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem>;
+  skos:notation "geprofileerd";
+  skos:prefLabel "Geprofileerd"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringssysteem> .

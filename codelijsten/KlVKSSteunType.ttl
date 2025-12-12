@@ -16,14 +16,6 @@
   skos:prefLabel "Tegen muur zonder armatuur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/MUUR> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Muur"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "MUUR";
-  skos:prefLabel "Muur"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/andere> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Andere"@nl;
@@ -64,14 +56,6 @@
   skos:prefLabel "Nadarhek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Galgsteun"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "GALGPAAL";
-  skos:prefLabel "Galgpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VANGRAIL> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Tegen Vangrail"@nl;
@@ -80,20 +64,36 @@
   skos:prefLabel "Vangrail"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/verkeersbordsteun> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Steun"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "verkeersbordsteun";
-  skos:prefLabel "Verkeersbordsteun"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERKEERSBORDSTEUN_ORANJE> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Verkeersbordsteun oranje"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "VERKEERSBORDSTEUN_ORANJE";
   skos:prefLabel "Verkeersbordsteun oranje"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/NEW_JERSEY> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Tegen New-Jersey"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "NEW_JERSEY";
+  skos:prefLabel "New-Jersey"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Galgsteun"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "GALGPAAL";
+  skos:prefLabel "Galgpaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/MUUR> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "Muur"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "MUUR";
+  skos:prefLabel "Muur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/tegen-muur-met-armatuur> a skos:Concept;
@@ -169,17 +169,17 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERKEERSBORDSTEUN_GRIJS> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Verkeersbordsteun grijs"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "VERKEERSBORDSTEUN_GRIJS";
   skos:prefLabel "Verkeersbordsteun grijs"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/NEW_JERSEY> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/verkeersbordsteun> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Tegen New-Jersey"@nl;
+  skos:definition "Steun"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "NEW_JERSEY";
-  skos:prefLabel "New-Jersey"@nl;
+  skos:notation "verkeersbordsteun";
+  skos:prefLabel "Verkeersbordsteun"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .

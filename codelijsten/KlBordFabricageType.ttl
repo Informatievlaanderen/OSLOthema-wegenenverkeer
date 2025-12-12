@@ -64,6 +64,14 @@
   skos:prefLabel "Gordijnborden"@nl;
   skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
 
+<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/sb250-scharnier> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardbestek 250 Scharnierbord"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "sb250-scharnier";
+  skos:prefLabel "SB250_SCHARNIER"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
+
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/ONBEKEND> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Onbekend"@nl;
@@ -102,6 +110,14 @@
   skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
   skos:notation "VARIABLE_MESSAGE_SIGN";
   skos:prefLabel "Variable Message Sign"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/standaardbestek-280> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Standaardbestek 280"@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType>;
+  skos:notation "standaardbestek-280";
+  skos:prefLabel "Standaardbestek 280"@nl;
   skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlBordFabricageType> .
 
 <https://.data.wegenenverkeer.be/id/concept/KlBordFabricageType/INWENDIG_VERLICHT> a skos:Concept;

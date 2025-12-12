@@ -8,6 +8,14 @@
   skos:definition "Steun types van een verkeersbord opstelling."@nl;
   skos:prefLabel "Steun type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/tegen-muur-zonder-armatuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Tegen muur zonder armatuur"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "tegen-muur-zonder-armatuur";
+  skos:prefLabel "Tegen muur zonder armatuur"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/andere> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Andere"@nl;
@@ -48,14 +56,6 @@
   skos:prefLabel "Nadarhek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/paal-verkeerslicht-met-bandit> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Paal verkeerslicht met bandit"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "paal-verkeerslicht-met-bandit";
-  skos:prefLabel "Paal verkeerslicht met bandit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VANGRAIL> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Tegen Vangrail"@nl;
@@ -78,22 +78,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "NEW_JERSEY";
   skos:prefLabel "New-Jersey"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/tegen-muur-zonder-armatuur> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Tegen muur zonder armatuur"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "tegen-muur-zonder-armatuur";
-  skos:prefLabel "Tegen muur zonder armatuur"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/OMEGAPROFIEL> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Omegaprofiel"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "OMEGAPROFIEL";
-  skos:prefLabel "Omegaprofiel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
@@ -166,6 +150,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "ONBEKEND";
   skos:prefLabel "Onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/paal-verkeerslicht-met-bandit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Paal verkeerslicht met bandit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "paal-verkeerslicht-met-bandit";
+  skos:prefLabel "Paal verkeerslicht met bandit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/OMEGAPROFIEL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Omegaprofiel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "OMEGAPROFIEL";
+  skos:prefLabel "Omegaprofiel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERKEERSBORDSTEUN_GRIJS> a skos:Concept;

@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De lijst met de mogelijke uitvoeringen van de voegafdichting. "@nl;
+  skos:prefLabel "uitvoering voegafdichting"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringVoegafdichting/band-bv-combiflex> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "band (bv combiflex)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting>;
+  skos:notation "band-bv-combiflex";
+  skos:prefLabel "band (bv combiflex)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringVoegafdichting/mat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "mat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting>;
+  skos:notation "mat";
+  skos:prefLabel "mat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringVoegafdichting/plaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "plaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting>;
+  skos:notation "plaat";
+  skos:prefLabel "plaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringVoegafdichting> .

@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Voegt een attribuut toe aan de subklasse dat de huidige stand in de levenscyclus van het object aangeeft."@nl;
+  skos:prefLabel "Toestand Signalisatie Vlaanderen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToestandSV/in-gebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object vervult zijn functie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV>;
+  skos:notation "in-gebruik";
+  skos:prefLabel "in gebruik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToestandSV/uit-gebruik> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object vervult geen functie (meer) en is fysiek (deels) nog/al aanwezig op het terrein."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV>;
+  skos:notation "uit-gebruik";
+  skos:prefLabel "uit gebruik"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToestandSV/verwijderd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het object vervult geen functie meer en is fysiek niet meer aanwezig op het terrein."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV>;
+  skos:notation "verwijderd";
+  skos:prefLabel "verwijderd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestandSV> .

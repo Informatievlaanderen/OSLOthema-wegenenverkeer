@@ -8,14 +8,6 @@
   skos:definition "De mogelijke producten voor een markering."@nl;
   skos:prefLabel "Markeringsproduct"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/thermoplast> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geëigend apparaat of toestel. Door afkoeling wordt een geheel gevormd."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
-  skos:notation "thermoplast";
-  skos:prefLabel "Thermoplast"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/verf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Een vloeibaar product dat vaste stoffen zoals bindmiddel, stoffen die kleuren reflecteren, vulstoffen en additieven bevat. Dit in combinatie met een oplosmiddel, organisch of op basis van water. De verf wordt aangebracht met een borstel, rol of pistool en vormt een geheel door verdamping van het oplosmiddel."@nl;
@@ -30,6 +22,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
   skos:notation "koudplast";
   skos:prefLabel "Koudplast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/thermoplast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een thermoplast is een wegmarkeringsproduct zonder oplosmiddel. De substantie wordt door verwarming vloeibaar gemaakt en wordt manueel of mechanisch aangebracht met een geÃƒÂ«igend apparaat of toestel. Door afkoeling wordt een geheel gevormd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct>;
+  skos:notation "thermoplast";
+  skos:prefLabel "Thermoplast"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMarkeringsproduct> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMarkeringsproduct/voorgevormd-koudgekleefd> a skos:Concept;

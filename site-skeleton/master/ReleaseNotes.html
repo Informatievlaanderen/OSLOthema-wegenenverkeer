@@ -181,7 +181,7 @@ body {
 
 				<div class="layout layout--wide">
 					<div class="content-header__content">
-						<h1 class="content-header__title"><span class="content-header__title__content">Beleidsdomein MOW : OTL Release notes</span>
+						<h1 class="content-header__title"><span class="content-header__title__content">Beleidsdomein MOW : OTL Release notes Testversie</span>
 						</h1>
 					</div>
 				</div>
@@ -261,6 +261,1079 @@ body {
 
 
 <!--NEWVersionCards-->
+        <section class="info-block info-block--news" id="2.18.0-RC2">
+		<div class="layout layout--wide">
+			<header class="info-block__header">
+				<h1 class="info-block__title" style="color : #3c3d3c;">Release Notes 2.18.0-RC2</h1>
+			</header>
+			<div>
+				Release datum : 12/12/2025
+			</div>			
+			<Br>
+		<details>
+		<summary>IMPLEMENTATIEMODELLEN</summary>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/aarding">Aarding</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000730 - PRB3638</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Aardingskabel">Aardingskabel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Aardingskabel werd uitgebreid met een extra attribuut 'typeBescherming' met een keuzelijst als datatype. Deze eigenschap geeft aan of en hoe de kabel bijkomend mechanisch beschermd is.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/afwatering-kunstwerken">Afwatering-kunstwerken</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000736 - PRB3385</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Koker">Koker</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De kardinaliteit van attribuut 'brandwerendeMaatregelen' werd omhoog gebracht naar 1..*. </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000737 - PRB3361</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De afzonderlijke attributen 'afwerkingstype' en 'materiaal' van Leuning werden uit gebruik genomen en vervangen door attribuut 'materiaalUitvoering' als één complex datatype dat beiden combineert. Eveneens werd Leuning via HoortBij-relaties gekoppeld aan de relevante constructie-elementen zoals stalen profielen, platen en houten constructieprofielen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000741 - PRB3654</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Koker">Koker</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De definitie van het attribuut 'brandwerendeMaatregelen' werd aangepast naar "De verschillende brandwerende maatregelen toegepast in de koker.". Het label-nl werd aangepast naar 'brandwerende maatregelen'.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000744 - PRB3607</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Straatkolk">Straatkolk</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Straatkolk werd uitgebreid met de eigenschap 'bakDiameter' met als definitie "De diameter van de kolkbak wanneer deze is uitgevoerd als een ronde straatkolk, doorgaans in PVC of een ander cilindrisch materiaal." en gebruiksnota : "Deze eigenschap wordt enkel gebruikt voor ronde uitvoeringen van een straatkolk. Voor rechthoekige uitvoeringen wordt de eigenschap bakAfmetingen gebruikt."</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000746 - PRB3666</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De beschrijving van het attribuut professioneelGebruik werd aangepast. De dubbele en foutieve tekst werd verwijderd en vervangen door: "Geeft aan of het gebruik enkel voor professionelen is of ook publiekelijk gebruikt wordt."</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/aswegersite">Aswegersite</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000735 - PRB3624</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouw">Gebouw</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het attribuut 'gebruik' werd toegevoegd op Gebouw als keuzelijst. Op deze manier kan het dominante gebruikstype dat het gebouw het best omschrijft, worden bepaald zoals bv. dienstgebouw.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000754 - PRB3672</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouwuitrusting">Gebouwuitrusting</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Aswegersite">Aswegersite</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende HoortBij-relaties toegevoegd naar de Aswegersite. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/biflash">BiFlash</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000733 - PRB3626</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#ForfaitaireAansluiting">ForfaitaireAansluiting</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNBReactief">EnergiemeterDNBReactief</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNB">EnergiemeterDNB</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNBPiek">EnergiemeterDNBPiek</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De eigenschappen ‘adresVolgensDNB’, ‘eanNummer’ en ‘referentieDNB’ van ForfaitaireAansluiting werden buiten gebruik gesteld.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/brug">Brug</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000737 - PRB3361</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De afzonderlijke attributen 'afwerkingstype' en 'materiaal' van Leuning werden uit gebruik genomen en vervangen door attribuut 'materiaalUitvoering' als één complex datatype dat beiden combineert. Eveneens werd Leuning via HoortBij-relaties gekoppeld aan de relevante constructie-elementen zoals stalen profielen, platen en houten constructieprofielen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000738 - PRB2979</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Ladder">Ladder</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Naar aanleiding van de werkgroep mbt de uitbreiding van het model GrondkerendeConstructies werd duidelijk dat de reeds gepubliceerde klasse Ladder nog een aantal eigenschappen ontbreekt. Ladder werd uitgebreid met de attributen 'materiaalVerankering' (keuzelijst met staalsoorten) en 'typeBevestiging' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000743 - PRB3538</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randafwerking">Randafwerking</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randprofiel">Randprofiel (uit gebruik)</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De naam van Randprofiel werd veranderd naar Randafwerking. Dwz. Randprofiel werd uit gebruik genomen en Randafwerking komt in de plaats.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000745 - PRB3658</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randafwerking">Randafwerking</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Klasse Randafwerking werd uitgebreid met een aantal nieuwe eigenschappen als keuzelijst, nl.  'materiaal' (keuzelijst), 'type' (keuzelijst), 'uitvoering' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000746 - PRB3666</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De beschrijving van het attribuut professioneelGebruik werd aangepast. De dubbele en foutieve tekst werd verwijderd en vervangen door: "Geeft aan of het gebruik enkel voor professionelen is of ook publiekelijk gebruikt wordt."</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000749 - PRB3675</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Voorzetconstructie">Voorzetconstructie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Voorzetconstructie bevatte attributen die betrekking hadden op brandwerende eigenschappen. Dit is echter te vermijden gezien deze niet van toepassing zijn voor de voorzetconstructie, wel de bekleding die ervoor zit. Volgende overbodige eigenschappen werden uit gebruik genomen : 'isBrandwerend', 'getestOpSpalling','maximaleInterfaceTemperatuur','brandweerstand' en 'dikte' . </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/camerainstallatie">Camerainstallatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/draagconstructies">Draagconstructies</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000742 - PRB3586</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#WVLichtmast">WVLichtmast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De definitie van WVLichtmast werd aangepast waarbij het woord 'montagekastje' werd verwijderd aangezien deze altijd als een afzonderlijk object dient aangeleverd te worden.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/dynamische-borden">Dynamische-borden</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000731 - PRB3637</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#DynBordZ30">DynBordZ30</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> DynBordZ30 werd uitgebreid met de eigenschap 'serienummer' (via overerving van SerienummerObject).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000735 - PRB3624</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouw">Gebouw</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het attribuut 'gebruik' werd toegevoegd op Gebouw als keuzelijst. Op deze manier kan het dominante gebruikstype dat het gebouw het best omschrijft, worden bepaald zoals bv. dienstgebouw.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000753 - PRB3696</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#DynBordOpMaat">DynBordOpMaat</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden HoortBij-relaties van verschillende kabels toegevoegd naar DynBordOpMaat.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/elektrische-componenten">Elektrische-componenten</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000733 - PRB3626</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#ForfaitaireAansluiting">ForfaitaireAansluiting</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNBReactief">EnergiemeterDNBReactief</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNB">EnergiemeterDNB</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNBPiek">EnergiemeterDNBPiek</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De eigenschappen ‘adresVolgensDNB’, ‘eanNummer’ en ‘referentieDNB’ van ForfaitaireAansluiting werden buiten gebruik gesteld.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#DNBHoogspanning">DNBHoogspanning</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Spanningsomvormer">Spanningsomvormer</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Transformator">Transformator</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/elektromechanische-afbakening">Elektromechanische-afbakening</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/fietstelinstallatie">Fietstelinstallatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000739 - PRB3605</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Fietstelsysteem">Fietstelsysteem</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Fietstelsysteem werd uitgebreid met het attribuut 'serienummer' als String via overerving van abstracte SerienummerObject.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/grondkerende-constructies">Grondkerende-constructies</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000737 - PRB3361</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De afzonderlijke attributen 'afwerkingstype' en 'materiaal' van Leuning werden uit gebruik genomen en vervangen door attribuut 'materiaalUitvoering' als één complex datatype dat beiden combineert. Eveneens werd Leuning via HoortBij-relaties gekoppeld aan de relevante constructie-elementen zoals stalen profielen, platen en houten constructieprofielen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000738 - PRB2979</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Ladder">Ladder</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Naar aanleiding van de werkgroep mbt de uitbreiding van het model GrondkerendeConstructies werd duidelijk dat de reeds gepubliceerde klasse Ladder nog een aantal eigenschappen ontbreekt. Ladder werd uitgebreid met de attributen 'materiaalVerankering' (keuzelijst met staalsoorten) en 'typeBevestiging' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000743 - PRB3538</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randafwerking">Randafwerking</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randprofiel">Randprofiel (uit gebruik)</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De naam van Randprofiel werd veranderd naar Randafwerking. Dwz. Randprofiel werd uit gebruik genomen en Randafwerking komt in de plaats.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000745 - PRB3658</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randafwerking">Randafwerking</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Klasse Randafwerking werd uitgebreid met een aantal nieuwe eigenschappen als keuzelijst, nl.  'materiaal' (keuzelijst), 'type' (keuzelijst), 'uitvoering' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000746 - PRB3666</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De beschrijving van het attribuut professioneelGebruik werd aangepast. De dubbele en foutieve tekst werd verwijderd en vervangen door: "Geeft aan of het gebruik enkel voor professionelen is of ook publiekelijk gebruikt wordt."</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/hoppinpunten">Hoppinpunten</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/hulpposten">Hulpposten</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/inbreuken-zwaar-vervoer">Inbreuken-zwaar-vervoer</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/ip-netwerk">IP-Netwerk</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/kasten-cabines-behuizing">Kasten-Cabines-Behuizing</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000735 - PRB3624</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouw">Gebouw</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het attribuut 'gebruik' werd toegevoegd op Gebouw als keuzelijst. Op deze manier kan het dominante gebruikstype dat het gebouw het best omschrijft, worden bepaald zoals bv. dienstgebouw.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/koker">Koker</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000734 - PRB2475</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Rookdetector">Rookdetector (Nieuw)</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De klasse Rookdetector werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000736 - PRB3385</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Koker">Koker</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De kardinaliteit van attribuut 'brandwerendeMaatregelen' werd omhoog gebracht naar 1..*. </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000737 - PRB3361</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De afzonderlijke attributen 'afwerkingstype' en 'materiaal' van Leuning werden uit gebruik genomen en vervangen door attribuut 'materiaalUitvoering' als één complex datatype dat beiden combineert. Eveneens werd Leuning via HoortBij-relaties gekoppeld aan de relevante constructie-elementen zoals stalen profielen, platen en houten constructieprofielen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000738 - PRB2979</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Ladder">Ladder</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Naar aanleiding van de werkgroep mbt de uitbreiding van het model GrondkerendeConstructies werd duidelijk dat de reeds gepubliceerde klasse Ladder nog een aantal eigenschappen ontbreekt. Ladder werd uitgebreid met de attributen 'materiaalVerankering' (keuzelijst met staalsoorten) en 'typeBevestiging' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000741 - PRB3654</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Koker">Koker</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De definitie van het attribuut 'brandwerendeMaatregelen' werd aangepast naar "De verschillende brandwerende maatregelen toegepast in de koker.". Het label-nl werd aangepast naar 'brandwerende maatregelen'.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000743 - PRB3538</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randafwerking">Randafwerking</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randprofiel">Randprofiel (uit gebruik)</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De naam van Randprofiel werd veranderd naar Randafwerking. Dwz. Randprofiel werd uit gebruik genomen en Randafwerking komt in de plaats.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000745 - PRB3658</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Randafwerking">Randafwerking</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Klasse Randafwerking werd uitgebreid met een aantal nieuwe eigenschappen als keuzelijst, nl.  'materiaal' (keuzelijst), 'type' (keuzelijst), 'uitvoering' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000746 - PRB3666</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De beschrijving van het attribuut professioneelGebruik werd aangepast. De dubbele en foutieve tekst werd verwijderd en vervangen door: "Geeft aan of het gebruik enkel voor professionelen is of ook publiekelijk gebruikt wordt."</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000748 - PRB3673</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#BrandwerendeBekleding">BrandwerendeBekleding (Nieuw)</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Klasse BrandwerendeBekleding werd aan de OTL toegevoegd. </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000749 - PRB3675</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Voorzetconstructie">Voorzetconstructie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Voorzetconstructie bevatte attributen die betrekking hadden op brandwerende eigenschappen. Dit is echter te vermijden gezien deze niet van toepassing zijn voor de voorzetconstructie, wel de bekleding die ervoor zit. Volgende overbodige eigenschappen werden uit gebruik genomen : 'isBrandwerend', 'getestOpSpalling','maximaleInterfaceTemperatuur','brandweerstand' en 'dikte' . </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000751 - PRB3677</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Voegafdichting">Voegafdichting (Nieuw)</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Klasse Voegafdichting werd in de OTL toegevoegd.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen">Lijnvormige-elementen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/luidspreker-intercom">Luidspreker-intercom</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/meten-in-vlaanderen">Meten-in-Vlaanderen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/meteo">Meteo</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000740 - PRB3587</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#IoTSensor">IoTSensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> IoTSensor werd uitgebreid met een extra attribuut 'typeIoTSensor' als keuzelijst om het type van sensor te inventariseren, bv. Tiltsensor, Scheursensor, Chloridesensor,....</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Spanningsomvormer">Spanningsomvormer</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Transformator">Transformator</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/optisch-transport-netwerk">Optisch-Transport-Netwerk</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/pompgroep">Pompgroep</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Controlepaneel">Controlepaneel</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/pompstation">Pompstation</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000735 - PRB3624</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouw">Gebouw</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het attribuut 'gebruik' werd toegevoegd op Gebouw als keuzelijst. Op deze manier kan het dominante gebruikstype dat het gebouw het best omschrijft, worden bepaald zoals bv. dienstgebouw.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000738 - PRB2979</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Ladder">Ladder</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Naar aanleiding van de werkgroep mbt de uitbreiding van het model GrondkerendeConstructies werd duidelijk dat de reeds gepubliceerde klasse Ladder nog een aantal eigenschappen ontbreekt. Ladder werd uitgebreid met de attributen 'materiaalVerankering' (keuzelijst met staalsoorten) en 'typeBevestiging' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Controlepaneel">Controlepaneel</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000757 - PRB3698</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Schacht">Schacht</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Een Hoortbij relatie werd toegevoegd van Schacht naar Pompstation.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/proeven-metingen">Proeven-metingen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000729 - PRB3597</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Markering">Markering</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De eigenschap 'markeringsoort' werd uitgebruik genomen en opgesplitst in de eigenschappen 'markeringsproduct' en 'markeringssysteem'. Deze wijzigingen werden uitgevoerd ikv Signalisatie Vlaanderen. Ook werd een extra eigenschap 'technischeFiche' toegevoegd met kardinaliteit om deze fiches te kunnen inventariseren.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/punctuele-verlichting">Punctuele-verlichting</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000758 - PRB3690</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#PunctueleVerlichtingsmast">PunctueleVerlichtingsmast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De definitie van PunctueleVerlichtingsmast werd aangepast waarbij het woord 'montagekastje' werd verwijderd aangezien deze altijd als een afzonderlijk object dient aangeleverd te worden.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/radioheruitzending">Radioheruitzending</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000735 - PRB3624</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouw">Gebouw</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het attribuut 'gebruik' werd toegevoegd op Gebouw als keuzelijst. Op deze manier kan het dominante gebruikstype dat het gebouw het best omschrijft, worden bepaald zoals bv. dienstgebouw.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Codeklavier">Codeklavier</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Controlepaneel">Controlepaneel</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/riolering">Riolering</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000744 - PRB3607</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Straatkolk">Straatkolk</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Straatkolk werd uitgebreid met de eigenschap 'bakDiameter' met als definitie "De diameter van de kolkbak wanneer deze is uitgevoerd als een ronde straatkolk, doorgaans in PVC of een ander cilindrisch materiaal." en gebruiksnota : "Deze eigenschap wordt enkel gebruikt voor ronde uitvoeringen van een straatkolk. Voor rechthoekige uitvoeringen wordt de eigenschap bakAfmetingen gebruikt."</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000757 - PRB3698</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Schacht">Schacht</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Een Hoortbij relatie werd toegevoegd van Schacht naar Pompstation.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/signalisatie">Signalisatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000729 - PRB3597</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Markering">Markering</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De eigenschap 'markeringsoort' werd uitgebruik genomen en opgesplitst in de eigenschappen 'markeringsproduct' en 'markeringssysteem'. Deze wijzigingen werden uitgevoerd ikv Signalisatie Vlaanderen. Ook werd een extra eigenschap 'technischeFiche' toegevoegd met kardinaliteit om deze fiches te kunnen inventariseren.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/sites">Sites</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000754 - PRB3672</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Aswegersite">Aswegersite</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende HoortBij-relaties toegevoegd naar de Aswegersite. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/slagboom-doorsteek">Slagboom-Doorsteek</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Codeklavier">Codeklavier</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Controlepaneel">Controlepaneel</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/sluizen-stuwen">Sluizen-stuwen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000737 - PRB3361</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De afzonderlijke attributen 'afwerkingstype' en 'materiaal' van Leuning werden uit gebruik genomen en vervangen door attribuut 'materiaalUitvoering' als één complex datatype dat beiden combineert. Eveneens werd Leuning via HoortBij-relaties gekoppeld aan de relevante constructie-elementen zoals stalen profielen, platen en houten constructieprofielen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000738 - PRB2979</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Ladder">Ladder</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Naar aanleiding van de werkgroep mbt de uitbreiding van het model GrondkerendeConstructies werd duidelijk dat de reeds gepubliceerde klasse Ladder nog een aantal eigenschappen ontbreekt. Ladder werd uitgebreid met de attributen 'materiaalVerankering' (keuzelijst met staalsoorten) en 'typeBevestiging' (keuzelijst).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000746 - PRB3666</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De beschrijving van het attribuut professioneelGebruik werd aangepast. De dubbele en foutieve tekst werd verwijderd en vervangen door: "Geeft aan of het gebruik enkel voor professionelen is of ook publiekelijk gebruikt wordt."</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/snelheids-roodlichtcamera">Snelheids-roodlichtcamera</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/toegangscontrole">Toegangscontrole</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Spanningsomvormer">Spanningsomvormer</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Transformator">Transformator</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/trajectcontrole">Trajectcontrole</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/tunnelevacuatie">Tunnelevacuatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000749 - PRB3675</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Voorzetconstructie">Voorzetconstructie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Voorzetconstructie bevatte attributen die betrekking hadden op brandwerende eigenschappen. Dit is echter te vermijden gezien deze niet van toepassing zijn voor de voorzetconstructie, wel de bekleding die ervoor zit. Volgende overbodige eigenschappen werden uit gebruik genomen : 'isBrandwerend', 'getestOpSpalling','maximaleInterfaceTemperatuur','brandweerstand' en 'dikte' . </div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/ups">UPS</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Spanningsomvormer">Spanningsomvormer</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Transformator">Transformator</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/ventilatie">Ventilatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000755 - PRB3670</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Rookkoepel">Rookkoepel (Nieuw)</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Codeklavier">Codeklavier</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Controlepaneel">Controlepaneel</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Deur">Deur</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Temperatuursensor">Temperatuursensor</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden relaties toegevoegd die bij het thema Tunnels horen. Ook werd een nieuwe klasse in het leven geroepen 'Rookkoepel'.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/verlichtingsinstallatie">Verlichtingsinstallatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000742 - PRB3586</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#WVLichtmast">WVLichtmast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De definitie van WVLichtmast werd aangepast waarbij het woord 'montagekastje' werd verwijderd aangezien deze altijd als een afzonderlijk object dient aangeleverd te worden.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Transformator">Transformator</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/waterlopen">Waterlopen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000737 - PRB3361</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De afzonderlijke attributen 'afwerkingstype' en 'materiaal' van Leuning werden uit gebruik genomen en vervangen door attribuut 'materiaalUitvoering' als één complex datatype dat beiden combineert. Eveneens werd Leuning via HoortBij-relaties gekoppeld aan de relevante constructie-elementen zoals stalen profielen, platen en houten constructieprofielen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000744 - PRB3607</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Straatkolk">Straatkolk</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Straatkolk werd uitgebreid met de eigenschap 'bakDiameter' met als definitie "De diameter van de kolkbak wanneer deze is uitgevoerd als een ronde straatkolk, doorgaans in PVC of een ander cilindrisch materiaal." en gebruiksnota : "Deze eigenschap wordt enkel gebruikt voor ronde uitvoeringen van een straatkolk. Voor rechthoekige uitvoeringen wordt de eigenschap bakAfmetingen gebruikt."</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000746 - PRB3666</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Leuning">Leuning</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De beschrijving van het attribuut professioneelGebruik werd aangepast. De dubbele en foutieve tekst werd verwijderd en vervangen door: "Geeft aan of het gebruik enkel voor professionelen is of ook publiekelijk gebruikt wordt."</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/wilddetectiesysteem">Wilddetectiesysteem</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000753 - PRB3696</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#DynBordOpMaat">DynBordOpMaat</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden HoortBij-relaties van verschillende kabels toegevoegd naar DynBordOpMaat.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/zone-30">Zone-30</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000731 - PRB3637</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#DynBordZ30">DynBordZ30</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> DynBordZ30 werd uitgebreid met de eigenschap 'serienummer' (via overerving van SerienummerObject).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000733 - PRB3626</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#ForfaitaireAansluiting">ForfaitaireAansluiting</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNBReactief">EnergiemeterDNBReactief</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNB">EnergiemeterDNB</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#EnergiemeterDNBPiek">EnergiemeterDNBPiek</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De eigenschappen ‘adresVolgensDNB’, ‘eanNummer’ en ‘referentieDNB’ van ForfaitaireAansluiting werden buiten gebruik gesteld.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/zonnepanelenpark">Zonnepanelenpark</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000735 - PRB3624</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#Gebouw">Gebouw</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het attribuut 'gebruik' werd toegevoegd op Gebouw als keuzelijst. Op deze manier kan het dominante gebruikstype dat het gebouw het best omschrijft, worden bepaald zoals bv. dienstgebouw.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000752 - PRB3679</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#ZonnepanelenInstallatie">ZonnepanelenInstallatie (Nieuw)</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Netontkoppelbord">Netontkoppelbord (Nieuw)</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#DNBHoogspanning">DNBHoogspanning</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Spanningsomvormer">Spanningsomvormer</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Transformator">Transformator</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Zonnepaneel">Zonnepaneel</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Het model Zonnepanelenpark werd toegevoegd aan de OTL.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer-test.data.vlaanderen.be/doc/implementatiemodel/zoutbijlaadplaats">Zoutbijlaadplaats</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000756 - PRB3697</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/onderdeel#Laagspanningsbord">Laagspanningsbord</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/abstracten#Kast">Kast</a>,<a href="https://wegenenverkeer-test.data.vlaanderen.be/ns/installatie#RadioheruitzendInstallatie">RadioheruitzendInstallatie</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> In het kader van de EMVerweving werden verschillende voedt relaties voorzien vanuit het Laagspanningsbord & HoortBij-relaties vanuit de kast. </div>
+				</div></details>	
+                    </section>
         
 	<script src="https://ui.vlaanderen.be/2.latest/js/vlaanderen-ui.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -324,4 +1397,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </iframe>
 </body>
 </html>
+
 

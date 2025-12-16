@@ -8,6 +8,14 @@
   skos:definition "Het merk van de luidspreker."@nl;
   skos:prefLabel "Luidspreker merk"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLuidsprekerMerk/ic-audio> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IC Audio"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuidsprekerMerk>;
+  skos:notation "ic-audio";
+  skos:prefLabel "IC Audio"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLuidsprekerMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLuidsprekerMerk/harman> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Harman"@nl;

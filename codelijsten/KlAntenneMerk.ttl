@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met merknamen voor Antenne."@nl;
   skos:prefLabel "Antenne merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAntenneMerk/panorama-antennas> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Panorama Antennas"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneMerk>;
+  skos:notation "panorama-antennas";
+  skos:prefLabel "Panorama Antennas"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneMerk> .

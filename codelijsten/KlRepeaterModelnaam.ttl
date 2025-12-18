@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met modelnamen voor Repeater."@nl;
   skos:prefLabel "repeater modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRepeaterModelnaam/lcn7622-01> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "LCN7622-01"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRepeaterModelnaam>;
+  skos:notation "lcn7622-01";
+  skos:prefLabel "LCN7622-01"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRepeaterModelnaam> .

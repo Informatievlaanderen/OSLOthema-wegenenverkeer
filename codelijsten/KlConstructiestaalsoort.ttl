@@ -464,6 +464,14 @@
   skos:prefLabel "S355J2+N"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/b500b> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wapeningsstaal voor betonwapening. De letter B staat voor staal bedoeld voor gebruik in de bouw, de waarde 500 is de vloeigrens uitgedrukt in MPa."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "b500b";
+  skos:prefLabel "B500B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/rvs-316-brut> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Een staalsoort met een kwaliteit die beter bestand is tegen zouten en zuren."@nl;

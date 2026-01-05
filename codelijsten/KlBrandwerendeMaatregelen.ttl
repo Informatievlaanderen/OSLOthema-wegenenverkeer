@@ -8,12 +8,28 @@
   skos:definition "Het type brandwerendheid van de koker."@nl;
   skos:prefLabel "Type brandwerendheid"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeMaatregelen/brandwerende-deur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Brandwerende deur "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen>;
+  skos:notation "brandwerende-deur";
+  skos:prefLabel "brandwerende deur "@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeMaatregelen/brandwerende-platen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Brandwerende platen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen>;
   skos:notation "brandwerende-platen";
   skos:prefLabel "brandwerende platen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeMaatregelen/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Er zijn geen brandwerende maatregelen aanwezig."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen>;
+  skos:notation "geen";
+  skos:prefLabel "geen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeMaatregelen/brandwerende-bespuiting> a skos:Concept;
@@ -30,12 +46,4 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen>;
   skos:notation "brandwerende-dichtingen";
   skos:prefLabel "brandwerende dichtingen "@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandwerendeMaatregelen/brandwerende-deur> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Brandwerende deur "@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen>;
-  skos:notation "brandwerende-deur";
-  skos:prefLabel "brandwerende deur "@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandwerendeMaatregelen> .

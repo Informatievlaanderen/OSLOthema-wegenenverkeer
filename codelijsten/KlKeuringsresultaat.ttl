@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke keuringsresultaten."@nl;
+  skos:prefLabel "Keuringsresultaat"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsresultaat/conform> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het gekeurde object, onderdeel of installatie voldoet aan alle vastgelegde criteria, normen of voorschriften op het moment van de keuring."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat>;
+  skos:notation "conform";
+  skos:prefLabel "conform"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsresultaat/niet-conform> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het gekeurde object, onderdeel of installatie voldoet niet aan ÃƒÂ©ÃƒÂ©n of meerdere vastgelegde criteria, normen of voorschriften op het moment van de keuring."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat>;
+  skos:notation "niet-conform";
+  skos:prefLabel "niet-conform"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> .

@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuzelijst met het type materiaal van de ankers, bouten of andere"@nl;
+  skos:prefLabel "bevestigingsmateriaal brandwerende bekleding"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBevestigingsMateriaalBrandwerendeBekleding/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "rvs"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding>;
+  skos:notation "rvs";
+  skos:prefLabel "rvs"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBevestigingsMateriaalBrandwerendeBekleding/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "staal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBevestigingsMateriaalBrandwerendeBekleding/n-v-t> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "n.v.t."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding>;
+  skos:notation "n-v-t";
+  skos:prefLabel "n.v.t."@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingsMateriaalBrandwerendeBekleding> .

@@ -776,6 +776,14 @@
   skos:prefLabel "Tilia mongolica 'Buda'"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/hyppophae-salicifolia> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Hyppophae salicifolia -- foutief geschreven = Hippophae salicifolia"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
+  skos:notation "hyppophae-salicifolia";
+  skos:prefLabel "Hyppophae salicifolia"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/fraxinus-excelsior> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -1080,14 +1088,6 @@
   skos:prefLabel "Robinia pseudoacacia 'Myrtifolia'"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/betula-pendula-laciniata> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
-  skos:notation "betula-pendula-laciniata";
-  skos:prefLabel "Betula pendula 'Laciniata'"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/robinia-pseudoacacia-unifoliola> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -1150,6 +1150,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
   skos:notation "robinia-pseudoacacia-umbraculifera";
   skos:prefLabel "Robinia pseudoacacia 'Umbraculifera'"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/betula-pendula-laciniata> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
+  skos:notation "betula-pendula-laciniata";
+  skos:prefLabel "Betula pendula 'Laciniata'"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/hippophae-salicifolia> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hippophae salicifolia"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
+  skos:notation "hippophae-salicifolia";
+  skos:prefLabel "Hippophae salicifolia"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/crataegus-coccinea> a skos:Concept;
@@ -2230,14 +2246,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
   skos:notation "ulmus-glabra-lutescens";
   skos:prefLabel "Ulmus glabra 'Lutescens'"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/hyppophae-salicifolia> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam>;
-  skos:notation "hyppophae-salicifolia";
-  skos:prefLabel "Hyppophae salicifolia"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWetenschappelijkeSoortnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWetenschappelijkeSoortnaam/acer-x-freemanii> a skos:Concept;

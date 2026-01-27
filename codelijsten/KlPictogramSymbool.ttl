@@ -56,6 +56,14 @@
   skos:prefLabel "hydrant bovengronds (H)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/verzamelplaats> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een pictogram dat iedereen helpt om tijdens een noodsituatie snel de juiste plek te vinden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool>;
+  skos:notation "verzamelplaats";
+  skos:prefLabel "verzamelplaats"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPictogramSymbool> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPictogramSymbool/nummer-veiligheidsnis> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

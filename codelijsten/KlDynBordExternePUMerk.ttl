@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst met merknamen van externe PUs."@nl;
   skos:prefLabel "Keuzelijst met merknamen van externe PUs"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordExternePUMerk/techbase> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Techbase"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordExternePUMerk>;
+  skos:notation "techbase";
+  skos:prefLabel "Techbase"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordExternePUMerk> .

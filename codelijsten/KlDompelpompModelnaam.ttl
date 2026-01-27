@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van modelnamen van dompelpompen volgens de fabrikant."@nl;
   skos:prefLabel "Modelnamen dompelpompen"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDompelpompModelnaam/tp50v26> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TP50V26"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDompelpompModelnaam>;
+  skos:notation "tp50v26";
+  skos:prefLabel "TP50V26"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDompelpompModelnaam> .

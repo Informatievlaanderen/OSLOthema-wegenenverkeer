@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De lijst verschillende types randafwerking."@nl;
   skos:prefLabel "type randafwerking"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeRandafwerking/deksteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-dragend, vlakvormig element dat op de bovenzijde van een rand of constructiedeel wordt geplaatst, met als primair doel bescherming tegen weersinvloeden en esthetische afwerking, zonder constructieve versterkingsfunctie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeRandafwerking>;
+  skos:notation "deksteen";
+  skos:prefLabel "deksteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeRandafwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeRandafwerking/randsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-dragend, lineair element dat langs de rand van een brugdek, verharding of constructie wordt aangebracht om een fysieke en visuele begrenzing of opsluiting te vormen tussen verschillende zones."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeRandafwerking>;
+  skos:notation "randsteen";
+  skos:prefLabel "randsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeRandafwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeRandafwerking/randprofiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet-dragend, profielvormig element (doorgaans metaal of kunststof) dat op de hoek of rand van een constructie wordt bevestigd voor mechanische bescherming, waterafvoer en lokale versteviging van de randzone."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeRandafwerking>;
+  skos:notation "randprofiel";
+  skos:prefLabel "randprofiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeRandafwerking> .

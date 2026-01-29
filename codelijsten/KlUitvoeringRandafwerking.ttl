@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De lijst met verschillende types uitvoering van de randafwerking."@nl;
   skos:prefLabel "uitvoering randafwerking"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringRandafwerking/losse-elementen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitvoeringswijze waarbij de randafwerking wordt opgebouwd uit afzonderlijke, vooraf vervaardigde elementen die individueel worden geplaatst en samen een doorlopende afwerking vormen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringRandafwerking>;
+  skos:notation "losse-elementen";
+  skos:prefLabel "losse elementen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringRandafwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringRandafwerking/ter-plaatste-gestort> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitvoeringswijze waarbij de randafwerking op de werf in situ wordt gerealiseerd door het storten van materiaal in een bekisting, resulterend in een monolithisch geheel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringRandafwerking>;
+  skos:notation "ter-plaatste-gestort";
+  skos:prefLabel "ter plaatste gestort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringRandafwerking> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringRandafwerking/profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Uitvoeringswijze waarbij de randafwerking bestaat uit een doorlopend, industrieel vervaardigd profiel dat als afgewerkt element langs de rand of hoek van de constructie wordt gemonteerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringRandafwerking>;
+  skos:notation "profiel";
+  skos:prefLabel "profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringRandafwerking> .

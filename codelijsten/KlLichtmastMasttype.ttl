@@ -56,14 +56,6 @@
   skos:prefLabel "RM"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/MS> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Metalen paal met arm en voet"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
-  skos:notation "MS";
-  skos:prefLabel "MS"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/K> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Kreukelpaal met arm"@nl;
@@ -102,4 +94,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
   skos:notation "B";
   skos:prefLabel "B"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/niet-standaard> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet standaard"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:notation "niet-standaard";
+  skos:prefLabel "Niet standaard"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/MS> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Metalen paal met arm en voet"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:notation "MS";
+  skos:prefLabel "MS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .

@@ -261,6 +261,335 @@ body {
 
 
 <!--NEWVersionCards-->
+        <section class="info-block info-block--news" id="2.18.1">
+		<div class="layout layout--wide">
+			<header class="info-block__header">
+				<h1 class="info-block__title" style="color : #3c3d3c;">Release Notes 2.18.1</h1>
+			</header>
+			<div>
+				Release datum : 2/02/2026
+			</div>			
+			<Br>
+		<details>
+		<summary>IMPLEMENTATIEMODELLEN</summary>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/aim-object">AIM-Object</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000771 - PRB3718</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#ElektrischeKeuring">ElektrischeKeuring</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Elektrische keuring werd toegevoegd met eigenschappen 'geldigTot' (Date), 'resultaat' (keuzelijst), 'keuringsdatum' (Date) en gerelateerd aan HSCabine, ForfaitaireAansluiting en Laagspanningsbord via de relatie HeeftKeuring. De definitie : "Een formele controle en beoordeling waarbij wordt nagegaan of de elektrische installatie voldoet aan de geldende wettelijke, normatieve en veiligheidsvereisten, met als doel de elektrische veiligheid en conformiteit te waarborgen.".  Hoeft geometrisch niet gelokaliseerd te worden. Opmerkingen of inbreuken kunnen worden bijgehouden in het veld ‘notitie’, gezien het tijdelijke karakter van deze vaststellingen.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/aswegersite">Aswegersite</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000774 - PRB3773</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie#Lokaal">Lokaal</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Een bevestigingsrelatie tussen Lokaal en Netwerkelement werd toegevoegd ikv. EM-verweving.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/camerainstallatie">Camerainstallatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/draagconstructies">Draagconstructies</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/dynamische-borden">Dynamische-borden</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/elektrische-componenten">Elektrische-componenten</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000771 - PRB3718</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#ElektrischeKeuring">ElektrischeKeuring</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Elektrische keuring werd toegevoegd met eigenschappen 'geldigTot' (Date), 'resultaat' (keuzelijst), 'keuringsdatum' (Date) en gerelateerd aan HSCabine, ForfaitaireAansluiting en Laagspanningsbord via de relatie HeeftKeuring. De definitie : "Een formele controle en beoordeling waarbij wordt nagegaan of de elektrische installatie voldoet aan de geldende wettelijke, normatieve en veiligheidsvereisten, met als doel de elektrische veiligheid en conformiteit te waarborgen.".  Hoeft geometrisch niet gelokaliseerd te worden. Opmerkingen of inbreuken kunnen worden bijgehouden in het veld ‘notitie’, gezien het tijdelijke karakter van deze vaststellingen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/hulpposten">Hulpposten</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/inbreuken-zwaar-vervoer">Inbreuken-zwaar-vervoer</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/kasten-cabines-behuizing">Kasten-Cabines-Behuizing</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000771 - PRB3718</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#ElektrischeKeuring">ElektrischeKeuring</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Elektrische keuring werd toegevoegd met eigenschappen 'geldigTot' (Date), 'resultaat' (keuzelijst), 'keuringsdatum' (Date) en gerelateerd aan HSCabine, ForfaitaireAansluiting en Laagspanningsbord via de relatie HeeftKeuring. De definitie : "Een formele controle en beoordeling waarbij wordt nagegaan of de elektrische installatie voldoet aan de geldende wettelijke, normatieve en veiligheidsvereisten, met als doel de elektrische veiligheid en conformiteit te waarborgen.".  Hoeft geometrisch niet gelokaliseerd te worden. Opmerkingen of inbreuken kunnen worden bijgehouden in het veld ‘notitie’, gezien het tijdelijke karakter van deze vaststellingen.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#Buitenkast">Buitenkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000774 - PRB3773</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie#Lokaal">Lokaal</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Een bevestigingsrelatie tussen Lokaal en Netwerkelement werd toegevoegd ikv. EM-verweving.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/koker">Koker</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000773 - PRB3767</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#VerlichtingstoestelLED">VerlichtingstoestelLED</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De kardinaliteit van eigenschap 'verlichtingsniveau' werd verhoogd naar 1..*. Dit laat toe om aparte en verschillende verlichtingsklassen bij te houden voor eenzelfde VerlichtingstoestelLED (bv. voor dim secario's).</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000774 - PRB3773</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie#Lokaal">Lokaal</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Een bevestigingsrelatie tussen Lokaal en Netwerkelement werd toegevoegd ikv. EM-verweving.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/lijnvormige-elementen">Lijnvormige-elementen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000773 - PRB3767</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#VerlichtingstoestelLED">VerlichtingstoestelLED</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De kardinaliteit van eigenschap 'verlichtingsniveau' werd verhoogd naar 1..*. Dit laat toe om aparte en verschillende verlichtingsklassen bij te houden voor eenzelfde VerlichtingstoestelLED (bv. voor dim secario's).</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/luidspreker-intercom">Luidspreker-intercom</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/meten-in-vlaanderen">Meten-in-Vlaanderen</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/meteo">Meteo</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/punctuele-verlichting">Punctuele-verlichting</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000773 - PRB3767</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#VerlichtingstoestelLED">VerlichtingstoestelLED</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De kardinaliteit van eigenschap 'verlichtingsniveau' werd verhoogd naar 1..*. Dit laat toe om aparte en verschillende verlichtingsklassen bij te houden voor eenzelfde VerlichtingstoestelLED (bv. voor dim secario's).</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/slagboom-doorsteek">Slagboom-Doorsteek</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/snelheids-roodlichtcamera">Snelheids-roodlichtcamera</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#Buitenkast">Buitenkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/trajectcontrole">Trajectcontrole</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/tunnelevacuatie">Tunnelevacuatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verkeersregelinstallatie">Verkeersregelinstallatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/verlichtingsinstallatie">Verlichtingsinstallatie</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000773 - PRB3767</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#VerlichtingstoestelLED">VerlichtingstoestelLED</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> De kardinaliteit van eigenschap 'verlichtingsniveau' werd verhoogd naar 1..*. Dit laat toe om aparte en verschillende verlichtingsklassen bij te houden voor eenzelfde VerlichtingstoestelLED (bv. voor dim secario's).</div>
+				</div>
+            </details>
+            <details>
+                <summary> <a target="_blank" href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/zone-30">Zone-30</a></summary>
+				<div class="card">
+					<div class="field"><strong>CHANGE - PROBLEEM NR:</strong>CT000772 - PRB3766</div>
+					<div class="field"><strong>PRIMAIRE OTL KLASSE:</strong> 
+                    
+                   <a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Wegkantkast">Wegkantkast</a>,<a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Montagekast">Montagekast</a>
+                    
+                    </div>
+					<div class="field"><strong>OPLOSSING:</strong> Volgende eigenschappen werden uit gebruik genomen wegens de toevoeging van het nieuwe objecttype ElektrischeKeuring : Buitenkast.laatsteKeuringsdatum, Buitenkast.keuringsfrequentie, Montagekast.eplanMechanischplan, Wegkantkast.elektrischSchema.</div>
+				</div></details>	
+                    </section>
         <section class="info-block info-block--news" id="2.18.0">
 		<div class="layout layout--wide">
 			<header class="info-block__header">
@@ -20358,5 +20687,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </iframe>
 </body>
 </html>
+
 
 

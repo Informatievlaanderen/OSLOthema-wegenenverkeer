@@ -17,9 +17,25 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsresultaat/niet-conform> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "Het gekeurde object, onderdeel of installatie voldoet niet aan één of meerdere vastgelegde criteria, normen of voorschriften op het moment van de keuring."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat>;
   skos:notation "niet-conform";
   skos:prefLabel "niet-conform"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsresultaat/conform-met-opmerkingen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het gekeurde object, onderdeel of installatie voldoet aan alle vastgelegde criteria, normen of voorschriften op het moment van de keuring maar met aanwezige opmerkingen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat>;
+  skos:notation "conform-met-opmerkingen";
+  skos:prefLabel "conform met opmerkingen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsresultaat/inbreuken> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Het gekeurde object, onderdeel of installatie voldoet niet aan één of meerdere vastgelegde criteria, normen of voorschriften op het moment van de keuring."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat>;
+  skos:notation "inbreuken";
+  skos:prefLabel "inbreuken"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> .

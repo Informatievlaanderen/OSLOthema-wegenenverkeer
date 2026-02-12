@@ -56,6 +56,14 @@
   skos:prefLabel "Aerohive"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/weidm-ller> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Weidmüller"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "weidm-ller";
+  skos:prefLabel "Weidmüller"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/hiveap-122> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "HiveAP 122"@nl;

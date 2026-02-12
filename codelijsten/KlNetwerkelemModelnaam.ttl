@@ -56,14 +56,6 @@
   skos:prefLabel "HiveAP 122"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/air> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "AIR"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
-  skos:notation "air";
-  skos:prefLabel "AIR"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/1511BA> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "1511BA"@nl;
@@ -422,6 +414,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
   skos:notation "OMS";
   skos:prefLabel "OMS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/ie-sr-4tx-lte-4g-eu> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IE-SR-4TX-LTE/4G-EU"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
+  skos:notation "ie-sr-4tx-lte-4g-eu";
+  skos:prefLabel "IE-SR-4TX-LTE/4G-EU"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/air> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AIR"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam>;
+  skos:notation "air";
+  skos:prefLabel "AIR"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemModelnaam/c3550> a skos:Concept;

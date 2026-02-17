@@ -8,14 +8,6 @@
   skos:definition "De modelnaam van de camera."@nl;
   skos:prefLabel "Camera modelnaam"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot-dual-ai> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Trafibot DUAL AI"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
-  skos:notation "trafibot-dual-ai";
-  skos:prefLabel "Trafibot DUAL AI"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/q3515-lve-22mm> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Q3515-LVE-22mm"@nl;
@@ -102,6 +94,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
   skos:notation "b95a";
   skos:prefLabel "B95A"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/q6355-le> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Q6355-LE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "q6355-le";
+  skos:prefLabel "Q6355-LE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/trafibot-dual-ai> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Trafibot DUAL AI"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam>;
+  skos:notation "trafibot-dual-ai";
+  skos:prefLabel "Trafibot DUAL AI"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCameraModelnaam/qcam3> a skos:Concept;

@@ -1,0 +1,22 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+
+<https://data.vlaanderen.be/id/conceptscheme/organisatiestatus>
+   a skos:ConceptScheme ;
+   dct:modified "2025-02-16" ;
+   skos:definition "De activiteitsstatus waarin een organisatie zich bevindt."@nl ;
+   skos:prefLabel "conceptscheme organisatiestatus"@nl .
+
+<https://data.vlaanderen.be/id/concept/organisatiestatus/actief>
+   a skos:Concept ;
+   skos:prefLabel "actief"@nl ;
+   skos:definition "De organisatie is actief."@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/organisatiestatus> ;
+   skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/organisatiestatus> .
+
+<https://data.vlaanderen.be/id/concept/organisatiestatus/nietactief>
+   a skos:Concept ;
+   skos:prefLabel "niet actief"@nl ;
+   skos:definition "De organisatie is niet actief."@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/organisatiestatus> ;
+   skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/organisatiestatus> .

@@ -7,3 +7,83 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst corrosiecategorieën"@nl;
   skos:prefLabel "keuzelijst corrosiecategorieën"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/c3-gemiddeld> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen: Ruimten met een hoge luchtvochtigheid en enige vervuiling, zoals brouwerijen, melkerijen, washuizen. Buiten: Stedelijke en industriële gebieden met matige zwaveldioxidevervuiling; kustgebieden met lage zoutniveaus."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "c3-gemiddeld";
+  skos:prefLabel "C3 - Gemiddeld"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/c2-laag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen: Niet-verwarmde gebouwen waar condensatie kan optreden, zoals bv. magazijnen en sporthallen. Buiten: Atmosferen met lage vervuilingsniveaus; meestal landelijke gebieden."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "c2-laag";
+  skos:prefLabel "C2 - Laag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/cx-extreem-hoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Offshore-gebieden met een hoog zoutgehalte en industriële  gebieden met een zeer hoge vochtigheid en agressieve atmosfeer  en subtropische en tropische atmosferen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "cx-extreem-hoog";
+  skos:prefLabel "CX (Extreem Hoog)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/c5-zeer-hoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Industriële gebieden met een hoge vochtigheid en agressieve  atmosfeer en kustgebieden met een hoog zoutgehalte."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "c5-zeer-hoog";
+  skos:prefLabel "C5 (Zeer Hoog)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/c1-zeer-laag> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen : Verwarmde gebouwen met een schone atmosfeer."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "c1-zeer-laag";
+  skos:prefLabel "C1 - Zeer Laag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/im1-zoet-water> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Rivierinstallaties - kanalen met zoet water."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "im1-zoet-water";
+  skos:prefLabel "Im1 (Zoet Water) "@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/c4-hoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Binnen: Chemische fabrieken, zwembaden, kustscheepswerven. Buiten: Industriële gebieden en kustgebieden met matig zoutgehalte."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "c4-hoog";
+  skos:prefLabel "C4 - Hoog"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/im4-zeewater-of-brakwater-met-kathodische-bescherming> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Immersie met kathodische bescherming  Havengebieden met constructies zoals sluisdeuren, dammen, pieren,  kaaimuren, offshore-constructies."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "im4-zeewater-of-brakwater-met-kathodische-bescherming";
+  skos:prefLabel "Im4 (Zeewater of Brakwater - met kathodische  bescherming)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/im2-zeewater-of-brakwater> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Immersie zonder kathodische bescherming. Havengebieden met constructies zoals sluisdeuren, dammen, pieren,  kaaimuren, offshore-constructies "@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "im2-zeewater-of-brakwater";
+  skos:prefLabel "Im2 (Zeewater of Brakwater)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCorrosieCategorie/im3-bodem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ondergrondse opslagtanks, stalen pijlers, damwanden, stalen   leidingen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie>;
+  skos:notation "im3-bodem";
+  skos:prefLabel "Im3 (Bodem)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCorrosieCategorie> .

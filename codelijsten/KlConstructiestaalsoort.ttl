@@ -48,14 +48,6 @@
   skos:prefLabel "X17CrNi16-2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/e295> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "E295"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
-  skos:notation "e295";
-  skos:prefLabel "E295"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s-355-k-2-n> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "S staat voor Structural steel (constructiestaal), 355 voor de vloeigrens in MPa, K staat voor een kerfslagwaarde van 40 Joule en 2 voor -20 graden celsius. De N duidt aan dat producten in genormaliseerde of equivalente toestand dienen geleverd te worden."@nl;
@@ -430,6 +422,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
   skos:notation "x2crni19-11-sus304l-jis-g4303";
   skos:prefLabel "X2CrNi19-11 -- SUS304L (JIS G4303)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s235j0-wp> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "S staat voor Structural steel (constructiestaal), 235 voor de vloeigrens in MPa, J staat voor een kerfslagwaarde van 27 Joule en 0 voor 0 graden celsius. WP staat voor 'Waterproof'."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "s235j0-wp";
+  skos:prefLabel "S235J0 WP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/e295> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "E295"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "e295";
+  skos:prefLabel "E295"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/g20mn5-qt> a skos:Concept;

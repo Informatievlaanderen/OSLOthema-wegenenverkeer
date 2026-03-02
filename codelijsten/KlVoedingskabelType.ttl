@@ -40,6 +40,14 @@
   skos:prefLabel "SVAVB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/svav> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SVAV"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType>;
+  skos:notation "svav";
+  skos:prefLabel "SVAV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoedingskabelType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoedingskabelType/exvb> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Niet-gewapende energiekabels met koperen geleiders voor buiten en ondergronds gebruik."@nl;

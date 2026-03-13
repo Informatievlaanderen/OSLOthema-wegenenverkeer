@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende types verbindingen tussen (kelder)landhoofd, (kelder)pijler met brugdek. "@nl;
   skos:prefLabel "type verbinding"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVerbinding/opgelegd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "opgelegd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerbinding>;
+  skos:notation "opgelegd";
+  skos:prefLabel "opgelegd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerbinding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVerbinding/integraal-verbonden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "integraal verbonden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerbinding>;
+  skos:notation "integraal-verbonden";
+  skos:prefLabel "integraal verbonden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerbinding> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVerbinding/combinatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "combinatie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerbinding>;
+  skos:notation "combinatie";
+  skos:prefLabel "combinatie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerbinding> .

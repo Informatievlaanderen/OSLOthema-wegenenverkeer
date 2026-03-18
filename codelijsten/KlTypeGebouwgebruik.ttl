@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van gebruik of functies van een gebouw."@nl;
   skos:prefLabel "type gebouwgebruik"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGebouwgebruik/test01> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "test01"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGebouwgebruik>;
+  skos:notation "test01";
+  skos:prefLabel "test01"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGebouwgebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGebouwgebruik/test02> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "test02"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGebouwgebruik>;
+  skos:notation "test02";
+  skos:prefLabel "test02"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGebouwgebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGebouwgebruik/test03> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "test03"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGebouwgebruik>;
+  skos:notation "test03";
+  skos:prefLabel "test03"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGebouwgebruik> .

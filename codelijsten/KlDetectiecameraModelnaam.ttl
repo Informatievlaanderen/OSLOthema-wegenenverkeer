@@ -32,6 +32,14 @@
   skos:prefLabel "TrafiCam2 Narrow Angle"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectiecameraModelnaam/trafione> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TrafiOne"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraModelnaam>;
+  skos:notation "trafione";
+  skos:prefLabel "TrafiOne"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDetectiecameraModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDetectiecameraModelnaam/traficam-x-stream2-bpl-narrow> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "TrafiCam X-stream2 BPL Narrow"@nl;

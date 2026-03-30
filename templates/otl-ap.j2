@@ -1,14 +1,19 @@
 {% extends "impl.j2" %}
 
 {% block summary %}
+
+<!-- Remove this for upgrading message on page
+<p STYLE="border: solid #EE4B2B;">Deze pagina ondergaat momenteel een nieuwe publicatie van de OTL. Mogelijks is de pagina niet volledig of werken de links niet naar behoren.
+</p>
+-->
 <p>
 Dit is een implementatiemodel op bestaande vocabularia m.b.t. (weg)aanhorigheden waaronder:
 <ul>
-<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a></li>
-<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/installatie">Vocabularium installatie</a></li>
-<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/implementatieelement">Vocabularium implementatie-element</a></li>
-<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/proefenmeting">Vocabularium proef en meting</a></li>
-<li><a href="https://wegenenverkeer.data.dev-vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel">Vocabularium onderdeel</a></li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/installatie">Vocabularium installatie</a></li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement">Vocabularium implementatie-element</a></li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/proefenmeting">Vocabularium proef en meting</a></li>
+<li><a href="https://wegenenverkeer.data.vlaanderen.be/ns/abstracten">Vocabularium abstracten</a></li>
 </ul>
 Dit implementatiemodel geeft een overzicht van alle objecten, attributen en relaties die horen bij de OTL data-aanleveringen.
 In dit implementatiemodel wordt de link getoond tussen alle termen uit bovenstaande vocabularia.<br>
@@ -28,9 +33,9 @@ Technische Documentatie behorende bij dit implementatiemodel :
 
 {% block status %}
 <p>Dit implementatiemodel dient om het specifieke gebruik van de entiteiten relevant voor de beschreven applicatie te verduidelijken.</p>
-<p>Dit document werd gepubliceerd als Kandidaat-standaard. De specificatie zoals in dit document beschreven doorloopt momenteel een periode van publieke review, tijdens welke geen wijzigingen aan deze specificatie worden doorgevoerd.<br/>
-Dit document is bedoeld om uit te groeien tot een standaard in het beschreven domein. Desalniettemin heeft het op dit ogenblik geen officieel statuut en vertegenwoordigt het geen consensus binnen OSLO.</p>
-<p>Feedback, een vraag of een melding van een probleem op deze specificatie kan gegeven worden via ons <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a>.</p>
+
+
+<p>Feedback, een vraag of een melding van een probleem op deze specificatie kan gegeven worden via ons <a <p>Feedback, een vraag of een melding van een probleem op deze specificatie kan gegeven worden via ons <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons</a>.</p>
 {% endblock %}
 
 {% block conformance %}

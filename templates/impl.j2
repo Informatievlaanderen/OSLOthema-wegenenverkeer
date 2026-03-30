@@ -2,9 +2,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 {% set language = "nl" %}
 {% set sortattr = "sort" %}
-<html xml:lang="nl" lang="nl" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="nl" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
-<head>
 
+<html xml:lang="nl" lang="nl" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="nl" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
   {% set name = metadata.title|lower|replace(' ', '-') %} 
   <title>{{ metadata.title }}</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -54,7 +55,7 @@
               <dt>Status</dt><dd><a href="{{metadata.status}}">{{metadata.status}}</a></dd>
               <dt>Uitgegeven op</dt><dd>{{metadata.issued}}</dd>
               <dt>Deze versie</dt><dd><a href="{{metadata.navigation.self}}">{{metadata.navigation.self}}</a></dd>
-			   <dt>Release notes deze versie</dt><dd><a href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" target="_blank">Release notes</a></dd>
+			   <dt>Release notes deze versie</dt><dd><a href="/doc/implementatiemodel/master/html/ReleaseNotes.html" target="_blank">Release notes</a></dd>
               {% if metadata.navigation.next %}
               <dt>Volgende versie</dt><dd><a href="{{metadata.navigation.next}}">{{metadata.navigation.next}}</a></dd>
               {% endif %}
@@ -363,7 +364,7 @@
                 <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SQLite download</h2>
 
                 {% block sqlite %}
-			<p>Een herbruikbare SQLite database van alle implementatiemodellen is terug te vinden op: <a href="https://wegenenverkeer.data.dev-vlaanderen.be/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a></p>
+			<p>Een herbruikbare SQLite database van alle implementatiemodellen is terug te vinden op: <a href="https://wegenenverkeer.data.vlaanderen.be/doc/implementatiemodel/master/html/OTL.db" target="_blank">SQLite download</a></p>
 
 		
                 {% endblock %}
@@ -490,7 +491,7 @@
                                   <a href="#sqlite">SQLite download</a>
                               </li>
 							  <li class="side-navigation__item">
-                                  <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be">Contacteer ons / feedback</a>
+                                  <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be" target="_blank">Contacteer ons / feedback</a>
                               </li>
 							  <!--
                               <li class="side-navigation__item">

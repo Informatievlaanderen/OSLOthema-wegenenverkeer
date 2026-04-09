@@ -8,20 +8,20 @@
   skos:definition "Keuzelijst die de types van gebruik voor de ventilator aangeeft."@nl;
   skos:prefLabel "Gebruikstypes ventilator"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-aanzuigunit> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-afvoer> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "Een ventilatie-eenheid die lucht dwars uit de tunnel onttrekt, en deze via afvoerkanalen naar buiten afvoert."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
+  skos:notation "dwarsventilatie-afvoer";
+  skos:prefLabel "dwarsventilatie afvoer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-aanzuigunit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "dwarsventilatie aanzuigunit"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
   skos:notation "dwarsventilatie-aanzuigunit";
   skos:prefLabel "dwarsventilatie aanzuigunit"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-inblaasunit> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
-  skos:notation "dwarsventilatie-inblaasunit";
-  skos:prefLabel "dwarsventilatie inblaasunit"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/langsventilator> a skos:Concept;
@@ -30,4 +30,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
   skos:notation "langsventilator";
   skos:prefLabel "langsventilator"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-inblaasunit> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "dwarsventilatie inblaasunit"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
+  skos:notation "dwarsventilatie-inblaasunit";
+  skos:prefLabel "dwarsventilatie inblaasunit"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVentilatorGebruik/dwarsventilatie-toevoer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een ventilatie-eenheid die verse lucht toevoert dwars op de lengterichting van de tunnel eventueel via roosters of sleuven in wand of plafond."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik>;
+  skos:notation "dwarsventilatie-toevoer";
+  skos:prefLabel "dwarsventilatie toevoer"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVentilatorGebruik> .

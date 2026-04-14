@@ -1,402 +1,442 @@
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://wegenenverkeer.data.vlaanderen.be/ -->
-<html lang="nl" class="bgsizecover flexbox objectfit object-fit js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html xml:lang="nl" lang="nl" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="nl" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
 	<title>OTL versies en hun artefacten Data.Vlaanderen.be</title>
 	
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui.css" rel="stylesheet">
-	<link href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui-corporate.css" rel="stylesheet">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/icon-highres-precomposed.png" rel="icon" sizes="192x192">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-precomposed.png" rel="apple-touch-icon">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-precomposed.png" rel="apple-touch-icon" sizes="76x76">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png" rel="apple-touch-icon" sizes="120x120">
-	<link href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png" rel="apple-touch-icon" sizes="152x152">
-	<meta content="https://dij151upo6vad.net.cloudfront/2.latest/icons/app-icon/tile-small.png" name="msapplication-square70x70logo">
-	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-medium.png" name="msapplication-square150x150logo">
-	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-wide.png" name="msapplication-wide310x150logo">
-	<meta content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-large.png" name="msapplication-square310x310logo">
-	<meta content="#FFE615" name="msapplication-TileColor">
-<script type="text/javascript" src="https://widgets.vlaanderen.be/modules/custom/widget/assets/js/widget_api.min.js?mtime=1634028018"></script><script type="text/javascript" src="./OSLO_files/GlobalHeader.min.js" async="true"></script><script type="text/javascript" src="./OSLO_files/GlobalBarBase.min.js" async="true"></script><script type="text/javascript" src="./OSLO_files/jquery.min.js" async="true"></script><script type="text/javascript" src="./OSLO_files/InfolijnTracker.min.js" async="true"></script><script type="text/javascript" src="./OSLO_files/ContactCenter.min.js" async="true"></script><script type="text/javascript" src="./OSLO_files/socket.io.min.js" async="true"></script><style type="text/css">@import url("//widgets.vlaanderen.be/modules/custom/infolijn_widget/assets/libraries/FlemishAuthorities.InfolijnWidget.GlobalHeader/2.0.0/GlobalHeader.css?mtime=1634028018");</style><script type="text/javascript" src="./OSLO_files/analytics.js" async="true"></script><script type="text/javascript" src="./OSLO_files/GlobalFooter.min.js" async="true"></script><style type="text/css">@import url("//widgets.vlaanderen.be/modules/custom/infolijn_widget/assets/libraries/FlemishAuthorities.InfolijnWidget.GlobalFooter/2.0.0/GlobalFooterRedesign.css?mtime=1634028018");</style></head>
+	
+		<style>
+			.custom-equal-grid {
+			  display: flex;
+			  flex-wrap: wrap;
+			  margin: -0.75rem;
+			}
+
+			.custom-equal-grid > li {
+			  display: flex;
+			  padding: 0.75rem;
+			}
+
+			.custom-equal-grid .vl-doormat {
+			  display: flex;
+			  width: 100%;
+			}
+
+			.custom-equal-grid .vl-doormat__content {
+			  display: flex;
+			  flex-direction: column;
+			  height: 100%;
+			}
+
+			.custom-equal-grid .vl-doormat__title {
+			  display: -webkit-box;
+			  -webkit-line-clamp: 2;
+			  -webkit-box-orient: vertical;
+			  overflow: hidden;
+			  min-height: 3em;
+			}
+
+			.custom-equal-grid .vl-doormat__text {
+			  display: -webkit-box;
+			  -webkit-line-clamp: 3;
+			  -webkit-box-orient: vertical;
+			  overflow: hidden;
+			  min-height: 4.5em;
+			}
+		</style>
+	
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="msapplication-square70x70logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-small.png"/>
+    <meta name="msapplication-square150x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-medium.png"/>
+    <meta name="msapplication-wide310x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-wide.png"/>
+    <meta name="msapplication-square310x310logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-large.png"/>
+    <meta name="msapplication-TileColor" content="#FFE615"/>
+
+	<link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
+
+	<link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+	<link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+
+
+
+</head>
+
 
 <body>
-	<div id="vlaanderen-header" style="min-height:44px;">
-		<!-- insert your global header here -->
-		<script src="./OSLO_files/5ecf33a0a922428cb9d944c55362ed15" type="text/javascript">
-		</script><div id="af231868b5d2f36511cc7c30ac0c0788c9b3f741" class="iwgh2 iw2-no-mobile  iw2-mobile-supported iwgh2-redesign iwgh2-redesign-alt iw2-responsive iwgh2-non-sticky iwgh2-default-margin iw2-retina-enabled iw2-js iw2-desktop-mode-active" aria-live="off" lang="nl">
-  <div class="iwgh2-bar">
-    <div class="iw2-layout iw2-default-breakpoint">
-      <div class="iw2-wrapper iw2-default-margin">
-        <div class="iw2-inner-wrapper">
-          <div class="iwgh2-navigation">
-            <a class="iw2-branded" href="https://www.vlaanderen.be/nl" target="_self">
-                            <div class="iwgh2-branding-logo"></div>
-                            <span>Vlaanderen</span>
-            </a>
-            <div class="iw2-menu iw2-menu-no-items" data-show-menu-help="Toon navigatie menu" data-hide-menu-help="Verberg navigatie menu">
-              <div class="iwgh2-navigation-menu-toggle-wrapper">
-                <div class="iwgh2-navigation-menu-toggle-animation-wrapper" style="">
-                  <a class="iwgh2-navigation-menu-site" style="" href="http://data.vlaanderen.be/">Data Vlaanderen</a>
-                  <a class="iwgh2-navigation-menu-breadcrumb" style="display:none;" href="javascript:;"></a>
-                  <span class="iwgh2-navigation-menu-toggle iw2-hidden"><span class="iw2-visually-hidden iw2-help-text"> Toon navigatie menu </span></span>
-                </div>
-              </div>
-              <div class="iwgh2-flyout-wrapper iw2-window-closed" style="display: none; left: 0px;" tabindex="-1" id="16087d91-92a4-9575-5f23-fd1da2723865">
-                <div class="iwgh2-search iw2-hidden" role="search">
-                  <form method="POST" action="https://wegenenverkeer.data.vlaanderen.be/" novalidate="novalidate">
-                    <div class="iwgh2-form-label">
-                      <label for="iwgh2-search-field">Zoeken</label>
-                    </div>
-                    <div class="iwgh2-form-textfield">
-                      <input id="iwgh2-search-field" type="search" class="iwgh2-search-field iwgh2-form-text" name="query">
-                    </div>
-                    <div class="iwgh2-form-actions">
-                      <div class="iwgh2-form-action">
-                        <div class="iwgh2-form-button">
-                          <input type="submit" class="iwgh2-form-submit" name="op" value="">
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <ul class="iw2-menu-items" tabindex="-1"></ul>
-              </div>
-            </div>
-          </div>
-          <div class="iwgh2-extensions">
-            <div class="iwgh2-extension-contact" data-show-menu-help="Toon menu" data-hide-menu-help="Verberg menu">
-              <a class="iwgh2-extension-contact-toggle iw2-exclude-from-outbound-link-tracking" href="http://data.vlaanderen.be/" target="_self" aria-owns="fe0efcd4-80b7-1d34-2737-82f9c6a5012c" aria-controls="fe0efcd4-80b7-1d34-2737-82f9c6a5012c" aria-expanded="false"><span class="iw2-visually-hidden iw2-help-text"> Toon menu </span>Contacteer ons</a>
-              <div class="iwgh2-extension-contact-wrapper iwgh2-flyout-wrapper">
-                <div class="iwgh2-contact-menu iw2-window-closed iw2-menu-has-items" style="display:none;" tabindex="-1" id="fe0efcd4-80b7-1d34-2737-82f9c6a5012c">
-                  <div class="iwgh2-contact-menu-header">
-                    <span class="iw2-menu-item-title">Contacteer ons</span>
-                  </div>
-                  <ul class="iw2-menu-items"><li class="iw2-menu-item iw2-contact-section-entry iw2-contact-section-entry-icon-mail iw2-contact-section-entry-type-link"><a class="iw2-menu-item-wrapper" href="mailto:digitaal.vlaanderen@vlaanderen.be" target="_self"><span class="iw2-menu-item-title">Stuur een mail naar</span><div class="iw2-menu-item-description">digitaal.vlaanderen@vlaanderen.be</div></a></li></ul>
-                </div>
-                <div class="iwgh2-windows">
-                                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      </div>
-</div> <!-- end global header-->
+	<div style="min-height:44px;;" id="vlaanderen-header">
+    <!-- insert your global header here -->
+    <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/b0dae312-e7a6-4612-978a-f0e3b2d975bf/embed"></script>
+	
+	
+    <!-- end global header-->
 	</div>
 
 	<!-- Start page content -->
 
+	<div class="vl-page">
+		<header class="vl-content-header vl-content-header--large vl-content-header--has-logo vl-content-header--show-mobile">
+			<div class="vl-content-header__wrapper">
+				  <picture class="vl-content-header__bg">
+						<img sizes="100vw" src="//www.vlaanderen.be/sites/default/files/ip_acm/page_banner_narrow/header.jpg" srcset="//www.vlaanderen.be/sites/default/files/ip_acm/page_banner_mobile_alt/header.jpg 320w, //www.vlaanderen.be/sites/default/files/ip_acm/page_banner_narrow/header.jpg 1024w, //www.vlaanderen.be/sites/default/files/ip_acm/page_banner_wide_alt/header.jpg 1600w" alt="Content Header">
+					</picture>
 
-	<div class="page">
-		<header class="content-header" role="banner">
-			<div class="content-header__wrapper">
-				<picture><source media="(min-width: 1024px)" srcset="https://wegenenverkeer.data.vlaanderen.be/cms/images/page_banner_wide_alt/header.jpg 1x"> <source media="(max-device-width: 767px)" srcset="/cms/images/page_banner_mobile_alt/header.jpg 1x"> <source media="(max-width: 1023px)" srcset="/cms/images/page_banner_narrow/header.jpg 1x"> <img alt="" src="https://wegenenverkeer.data.vlaanderen.be/cms/images/page_banner_wide_alt/header.jpg" srcset="/cms/images/page_banner_mobile_alt/header.jpg 320w, /cms/images/page_banner_narrow/header.jpg 1024w, /cms/images/page_banner_wide_alt/header.jpg 1600w" title=""></picture>
-
-				<div class="layout layout--wide">
-					<div class="content-header__content">
-						<h1 class="content-header__title"><span class="content-header__title__content">Beleidsdomein MOW : OTL versies en hun artefacten</span>
-						</h1>
+				<div class="vl-layout">
+					<div class="vl-content-header__content">
+							<div class="vl-content-header__logo-wrapper">
+									<a href="https://www.vlaanderen.be/organisaties/administratieve-diensten-van-de-vlaamse-overheid/beleidsdomein-mobiliteit-en-openbare-werken" class="vl-content-header__entity-logo vl-content-header__entity-logo--small">
+										<span class="vl-content-header__entity-logo__prefix">Beleidsdomein</span>
+										<span class="vl-content-header__entity-logo__title">MOW</span>
+									</a>
+							</div>
+							<div class="vl-content-header__context vl-content-header__context--has-link">
+							  <a class="vl-content-header__context__link" href="https://wegenenverkeer.data.vlaanderen.be/">OTL</a>
+							</div>
+						<h2 class="vl-content-header__title ">
+							<span class="vl-content-header__title__content">OTL versies en hun artefacten</span>
+						</h2>
 					</div>
 				</div>
 			</div>
 		</header>
 
 
-		<div class="main-content" id="main" itemprop="mainContentOfPage" role="main" tabindex="-1">
-			<section class="region">
-				<div class="layout layout--wide" id="introductie">
-					<div class="grid">
-						<div class="col--8-12 col--12-12--s">
-							<div class="typography introduction">
+		<div class="vl-main-content" id="main" itemprop="mainContentOfPage" role="main" tabindex="-1">
+			<section class="vl-region">
+				<div class="vl-layout" id="introductie">
+					<div class="vl-grid" >
+						<div class="vl-col--8-12 vl-col--12-12--s">
+			
+							<p class="vl-introduction">
 								Op deze pagina vindt u van de gepubliceerde OTL versies alle bijhorende artefacten. Indien een artefact niet aanwezig is, kan dit wijzen op het feit dat op het moment van publicatie dit type artefact nog niet beschikbaar was. U kan van de laatste drie versies van de OTL ook de OSLO pagina's bekijken door op de bijhorende link te klikken.
-							</div>
-							<br>
+							</p>
 						</div>
+		
 
-
-						<div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
-							<div class="js-sticky--placeholder"><nav class="side-navigation js-sticky js-sticky-bound" id="sideNav" data-original-top="438.1875" data-original-left="1215.984375" data-original-width="282.5" data-max-y="852.1875" style="top: auto; bottom: auto; left: auto; width: auto;">
-								<div class="side-navigation__content">
-
-									<div class="side-navigation__group side-navigation__group--has-title">
-										<div class="side-navigation__title">
-											Overzicht versies
-										</div>
-
-
-										<ul>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.18.1">2.18.1</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.18.0">2.18.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.17.0">2.17.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.16.0">2.16.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.15.0">2.15.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.14.0">2.14.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.13.0">2.13.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.12.0">2.12.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.11.0">2.11.0</a>
-											</li>							
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.10.0">2.10.0</a>
-											</li>							
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.9.0">2.9.0</a>
-											</li>
+						<div class="vl-col--3-12 col--12-12--s vl-col--4-12--m" id="sideNav">
+						
+								<label for="vl-select-select-1" class="vl-form__label __field__label" style="font-size: 20px;">Overzicht OTL versies</label>
+										<select name="vl-select-default" id="vl-select-select-1" class="vl-select--block vl-select vl-select--block" onchange="location = this.value;" tabindex="0">					 
+										 <optgroup label="">
+											<option value="#2.18.1">2.19.0</option>
+											<option value="#2.18.1">2.18.1</option>
+											<option value="#2.18.0">2.18.0</option>
+											<option value="#2.17.0">2.17.0</option>
+											<option value="#2.16.0">2.16.0</option>
+											<option value="#2.15.0">2.15.0</option>
+											<option value="#2.14.0">2.14.0</option>
+											<option value="#2.13.0">2.13.0</option>
+											<option value="#2.12.0">2.12.0</option>
+											<option value="#2.11.0">2.11.0</option>
+											<option value="#2.10.0">2.10.0</option>
+											<option value="#2.9.0">2.9.0</option>
+											<option value="#2.8.0">2.8.0</option>
+											<option value="#2.7.0">2.7.0</option>
+											<option value="#2.6.0">2.6.0</option>
+											<option value="#2.5.0">2.5.0</option>
+											<option value="#2.4.0">2.4.0</option>
+											<option value="#2.3.0">2.3.0</option>
+											<option value="#2.6.0">2.6.0</option>
+											<option value="#2.5.0">2.5.0</option>
+											<option value="#2.4.0">2.4.0</option>
+											<option value="#2.3.0">2.3.0</option>
+											<option value="#2.2.0">2.2.0</option>
+											<option value="#2.1.0">2.1.0</option>
+											<option value="#2.0.0">2.0.0</option>
+											<option value="#1.1.0">1.1.0</option>
+											<option value="#1.0.0">1.0.0</option>
 											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.8.0">2.8.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.7.1">2.7.1</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.6.0">2.6.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.5.0">2.5.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.4.0">2.4.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.3.0">2.3.0</a>
-											</li>
-										
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.2.0">2.2.0</a>
-											</li>
 											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.1.0">2.1.0</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#2.0.0">2.0.0</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#1.1.0">1.1.0</a>
-											</li>
-											
-											<li class="side-navigation__item">
-												<a class="link--icon--caret link--icon--block" href="#1.0.0">1.0.0</a>
-											</li>
-										</ul>
-									</div>
+										  </optgroup>
+									</select>
+								
+													
+						</div>	
 
-								</div>
-							</nav></div>
-						</div>
 					</div>
+						
+
 				</div>
+
 			</section>
 			
-			<section class="info-block info-block--news" id="2.18.1">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.18.1</h1>
+		
+		
+			
+		<section class="vl-infoblock vl-infoblock--news" id="2.19.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.19.0</h1>
 					</header>
 				<div>
-					Release datum : 11/02/2026
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 15/04/2026
 				</div>
 				<div>
-					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.18.1">Link naar OSLO master model</a>
+					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.19.0">OSLO master model</a>
 				</div>
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.18.1.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.19.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>								
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </div></div></a>
+								</li>
+														
+							</ul>																							
+						</div>				
+				</div>
+				</div>
+		</section>
+	
+		
+		
+		
+		<section class="vl-infoblock vl-infoblock--news" id="2.18.1">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.18.1</h1>
+					</header>
+				<div>
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 11/02/2026
+				</div>
+				<div>
+					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.18.1">OSLO master model</a>
+				</div>
+
+
+
+				<div class="vl-infoblock__content">
+						<div id="doormats">
+							<ul class="vl-grid custom-equal-grid">
+							
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.18.1.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</div></div></a>
+								</li>
+								
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>								
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </div></div></a>
+								</li>
+														
+							</ul>																							
+						</div>				
+				</div>
+				</div>
+		</section>
+			
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.18.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.18.0</h1>
+					</header>
+				<div>
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 16/01/2026
+				</div>
+				<div>
+					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.18.0">OSLO master model</a>
+				</div>
+
+
+
+				<div class="vl-infoblock__content">
+						<div id="doormats">
+							<ul class="vl-grid custom-equal-grid">
+							
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.18.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
+								</li>
+								
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>								
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
-			<section class="info-block info-block--news" id="2.18.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.18.0</h1>
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.17.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.17.0</h1>
 					</header>
 				<div>
-					Release datum : 16/01/2026
-				</div>
-				<div>
-					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.18.0">Link naar OSLO master model</a>
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 22/10/2025
 				</div>
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.18.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.17.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
-			
-			<section class="info-block info-block--news" id="2.17.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.17.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.16.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.16.0</h1>
 					</header>
 				<div>
-					Release datum : 22/10/2025
-				</div>
-				<div>
-					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.17.0">Link naar OSLO master model</a>
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 17/07/2025
 				</div>
 
 
-
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.17.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.16.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.html" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
-			<section class="info-block info-block--news" id="2.16.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.16.0</h1>
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.15.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.15.0</h1>
 					</header>
 				<div>
-					Release datum : 17/07/2025
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 15/04/20245
 				</div>
 				<div>
-					<a href="/doc/implementatiemodel/master/ontwerpdocument/2.16.0">Link naar OSLO master model</a>
+
 				</div>
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.16.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.15.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.15.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
 			
-			<section class="info-block info-block--news" id="2.15.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.15.0</h1>
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.14.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.14.0</h1>
 					</header>
 				<div>
-					Release datum : 15/04/20245
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 15/01/20245
 				</div>
 				<div>
 
@@ -404,42 +444,45 @@
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.15.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.14.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.15.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.14.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
 			
 			
-			<section class="info-block info-block--news" id="2.14.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.14.0</h1>
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.13.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.13.0</h1>
 					</header>
 				<div>
-					Release datum : 15/01/20245
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 21/10/2024
 				</div>
 				<div>
 
@@ -447,646 +490,637 @@
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.14.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.13.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.14.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.13.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
-			
-			
-			
-			<section class="info-block info-block--news" id="2.13.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.13.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.12.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.12.0</h1>
 					</header>
 				<div>
-					Release datum : 21/10/2024
-				</div>
-				<div>
-
-				</div>
-
-
-
-				<div class="info-block__content">
-						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
-							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.13.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.13.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
-								</li>
-														
-							</ul>																							
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			
-			<section class="info-block info-block--news" id="2.12.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.12.0</h1>
-					</header>
-				<div>
-					Release datum : 12/7/2024
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 12/7/2024
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.12.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.12.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.12.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.12.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
-			<section class="info-block info-block--news" id="2.11.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.11.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.11.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.11.0</h1>
 					</header>
 				<div>
-					Release datum : 15/4/2024
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 15/4/2024
 				</div>
 				
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.11.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.11.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.11.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.11.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
 			
-			<section class="info-block info-block--news" id="2.10.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.10.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.10.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.10.0</h1>
 					</header>
 				<div>
-					Release datum : 15/1/2024
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 15/1/2024
 				</div>
 				
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.10.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.10.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.10.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.10.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
-			<section class="info-block info-block--news" id="2.9.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.9.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.9.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.9.0</h1>
 					</header>
 				<div>
-					Release datum : 13/11/2023
-				</div>
-				
-
-
-
-				<div class="info-block__content">
-						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
-							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.9.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.9.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
-								</li>
-														
-							</ul>																							
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			
-			<section class="info-block info-block--news" id="2.8.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.8.0</h1>
-					</header>
-				<div>
-					Release datum : 7/7/2023
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 13/11/2023
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.8.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.9.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.8.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.9.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
-			<section class="info-block info-block--news" id="2.7.1">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.7.1</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.8.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.8.0</h1>
 					</header>
 				<div>
-					Release datum : 4/4/2023
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 7/7/2023
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.7.1.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.8.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.7.1.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.8.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
-			
-			<section class="info-block info-block--news" id="2.6.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.6.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.7.1">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.7.1</h1>
 					</header>
 				<div>
-					Release datum : 21/12/2022
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 4/4/2023
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.6.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.7.1.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.6.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.7.1.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
-			<section class="info-block info-block--news" id="2.5.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.5.0</h1>
+			
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.6.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.6.0</h1>
 					</header>
 				<div>
-					Release datum : 8/08/2022
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 21/12/2022
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.5.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.6.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.5.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.6.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
-			
-			
-			<section class="info-block info-block--news" id="2.4.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.4.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.5.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.5.0</h1>
 					</header>
 				<div>
-					Release datum : 13/06/2022
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 8/08/2022
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.4.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.5.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.4.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.5.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 			
 			
 			
-			<section class="info-block info-block--news" id="2.3.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.3.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.4.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.4.0</h1>
 					</header>
 				<div>
-					Release datum : 1/04/2022
-				</div>
-				
-
-
-				<div class="info-block__content">
-						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
-							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.3.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
-								</li>
-								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.3.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
-								</li>
-														
-							</ul>																							
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			
-			<section class="info-block info-block--news" id="2.2.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.2.0</h1>
-					</header>
-				<div>
-					Release datum : 11/01/2022
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 13/06/2022
 				</div>
 				
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.2.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.4.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.2.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.4.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
+				</div>
+			</section>
+			
+			
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.3.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.3.0</h1>
+					</header>
+				<div>
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 1/04/2022
+				</div>
+				
+
+
+				<div class="vl-infoblock__content">
+						<div id="doormats">
+							<ul class="vl-grid custom-equal-grid">
+							
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.3.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
+								</li>
+								
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.3.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
+								</li>
+														
+							</ul>																							
+						</div>
+				</div>
+				</div>
+			</section>
+			
+			
+			<section class="vl-infoblock vl-infoblock--news" id="2.2.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.2.0</h1>
+					</header>
+				<div>
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 11/01/2022
+				</div>
+				
+
+
+
+				<div class="vl-infoblock__content">
+						<div id="doormats">
+							<ul class="vl-grid custom-equal-grid">
+							
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.2.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
+								</li>
+								
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.2.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
+								</li>
+														
+							</ul>																							
+						</div>
+				</div>
 				</div>
 			</section>
 			
 
-			<section class="info-block info-block--news" id="2.1.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.1.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.1.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.1.0</h1>
 					</header>
 				<div>
-					Release datum : 13/10/2021
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 13/10/2021
 				</div>
 	
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.1.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.1.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.1.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.1.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 														
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 
-			<section class="info-block info-block--news" id="2.0.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 2.0.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="2.0.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 2.0.0</h1>
 					</header>
 				<div>
-					Release datum : 02/07/2021
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 02/07/2021
 				</div>
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.0.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-2.0.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.0.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes2.0.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 								
 								
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 
-			<section class="info-block info-block--news" id="1.1.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 1.1.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="1.1.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 1.1.0</h1>
 					</header>
 				<div>
-					Release datum : 20/04/2021
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 20/04/2021
 				</div>
 				
 				
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-1.1.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-1.1.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes1.1.0.pdf" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										Release Notes
-									</div>
-									<span class="doormat__text">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie. </span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/ReleaseNotes1.1.0.pdf" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">Release Notes</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van de wijzigingen (tov. de vorige versie) die zijn opgenomen in deze versie.</div></div></a>
 								</li>
 								
 							</ul>																							
 						</div>
-					</div>
+				</div>
 				</div>
 			</section>
 
-			<section class="info-block info-block--news" id="1.0.0">
-				<div class="layout layout--wide">
-					<header class="info-block__header">
-						<h1 class="info-block__title">OTL 1.0.0</h1>
+			<section class="vl-infoblock vl-infoblock--news" id="1.0.0">
+				<div class="vl-layout">
+					<header class="vl-infoblock__header" role="presentation">
+                    <i class="vl-infoblock__header__icon" aria-hidden="true"></i>
+						<h1 class="vl-infoblock__title">OTL 1.0.0</h1>
 					</header>
 				<div>
-					Release datum : 4/12/2020
+					<span class="vl-icon vl-vi vl-vi-calendar-check vl-icon--large"  aria-hidden="true"></span>
+                    Release datum : 4/12/2020
 				</div>
 
 
 
-				<div class="info-block__content">
+				<div class="vl-infoblock__content">
 						<div id="doormats">
-							<ul class="grid grid--is-stacked js-equal-height-container">
+							<ul class="vl-grid custom-equal-grid">
 							
-								<li class="col--4-12 col--1-2--s col--12-12--xs">
-									<a class="doormat js-equal-height u-mobile-no-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-1.0.0.zip" id="doormat" style="min-height: 144px;">
-									<div class="doormat__title">
-										SQLite
-									</div>
-									<span class="doormat__text">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties ertussen.</span></a>
+								<li class="vl-col--4-12 vl-col--1-2--s vl-col--12-12--xs">
+									<a class="vl-doormat js-vl-equal-height" href="/doc/implementatiemodel/master/html/OTL-PROD-1.0.0.zip" id="doormat" style="min-height: 144px;">
+									<div class="vl-doormat__content">
+                                    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+                                    <h2 class="vl-doormat__title" data-vl-clamp="2">SQLite</h2>
+									<div class="vl-doormat__text" data-vl-clamp="3">Geeft een overzicht van alle klasses, hun attributen en de onderlinge relaties </div></div></a>
 								</li>
 								
 								
 							</ul>																							
 						</div>
-					</div>
 				</div>
+			</div>
 			</section>
+		
+	</div>	
+</div>
+	<div id="vlaanderen-footer">
+            <!-- insert your Vlaanderen-footer-code here -->
+          <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
 
-
-	<script src="https://ui.vlaanderen.be/2.latest/js/vlaanderen-ui.js">
-	</script>
+            <!-- End global footer-->
+    </div>
 
 
 <iframe style="display:none;" src="./OSLO_files/shared-ga.html" title="VO Google Analytics snippet">

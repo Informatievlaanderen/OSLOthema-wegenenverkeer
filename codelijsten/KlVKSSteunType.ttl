@@ -16,6 +16,14 @@
   skos:prefLabel "Tegen muur zonder armatuur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Galgsteun"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "GALGPAAL";
+  skos:prefLabel "Galgpaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/andere> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Andere"@nl;
@@ -40,20 +48,20 @@
   skos:prefLabel "Armatuur ÃƒÆ’Ã†â€™Ãƒâ€¹Ã…â€œ77"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/PORTIEK> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Portiek"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "PORTIEK";
-  skos:prefLabel "Portiek"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/nadarhek> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Nadarhek"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "nadarhek";
   skos:prefLabel "Nadarhek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERKEERSBORDSTEUN_GROEN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Verkeersbordsteun groen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "VERKEERSBORDSTEUN_GROEN";
+  skos:prefLabel "Verkeersbordsteun groen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VANGRAIL> a skos:Concept;
@@ -72,6 +80,22 @@
   skos:prefLabel "Verkeersbordsteun"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/ONBEKEND> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Onbekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "ONBEKEND";
+  skos:prefLabel "Onbekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/armatuur-77-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "Armatuur van 77"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
+  skos:notation "armatuur-77-2";
+  skos:prefLabel "Armatuur Ø77"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERKEERSBORDSTEUN_GRIJS> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
   skos:definition "Verkeersbordsteun grijs"@nl;
@@ -86,22 +110,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
   skos:notation "NEW_JERSEY";
   skos:prefLabel "New-Jersey"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/GALGPAAL> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Galgsteun"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "GALGPAAL";
-  skos:prefLabel "Galgpaal"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/MUUR> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Muur"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "MUUR";
-  skos:prefLabel "Muur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/tegen-muur-met-armatuur> a skos:Concept;
@@ -160,28 +168,20 @@
   skos:prefLabel "Vakwerksteun"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/ONBEKEND> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Onbekend"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "ONBEKEND";
-  skos:prefLabel "Onbekend"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/VERKEERSBORDSTEUN_GROEN> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/MUUR> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
-  skos:definition "Verkeersbordsteun groen"@nl;
+  skos:definition "Muur"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "VERKEERSBORDSTEUN_GROEN";
-  skos:prefLabel "Verkeersbordsteun groen"@nl;
+  skos:notation "MUUR";
+  skos:prefLabel "Muur"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/armatuur-77-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
-  skos:definition "Armatuur van 77"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/PORTIEK> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Portiek"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType>;
-  skos:notation "armatuur-77-2";
-  skos:prefLabel "Armatuur Ø77"@nl;
+  skos:notation "PORTIEK";
+  skos:prefLabel "Portiek"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVKSSteunType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVKSSteunType/paal-verkeerslicht-met-bandit> a skos:Concept;

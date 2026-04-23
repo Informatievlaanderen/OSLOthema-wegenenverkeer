@@ -336,6 +336,14 @@
   skos:prefLabel "toplaag van SMA-D"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/zoap-b1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ZOAP-B1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "zoap-b1";
+  skos:prefLabel "ZOAP-B1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IA> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "IA"@nl;

@@ -16,6 +16,14 @@
   skos:prefLabel "Klauwprofiel met voegband"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/glijplaatvoeg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Brugdekvoeg waarbij bvb. een plaat aan één zijde vast verbonden is met het brugdek en aan de andere zijde kan glijden over het landhoofd, een steunpunt of een aansluitende constructie, om bewegingen van de brug op te vangen en de opening te overbruggen."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:notation "glijplaatvoeg";
+  skos:prefLabel "Glijplaatvoeg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/getande-voeg-met-voegband> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Brugdekvoeg van het type klauwprofiel, met voegband."@nl;
@@ -40,6 +48,14 @@
   skos:prefLabel "Getande voeg zonder voegband"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/compound-voeg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "(Flexibele) voegovergang op basis van bitumen (compoundvoeg)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:notation "compound-voeg";
+  skos:prefLabel "Compound voeg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/polymeer-voeg> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "(Flexibele) voegovergang op basis van polymeren."@nl;
@@ -48,10 +64,10 @@
   skos:prefLabel "Polymeer voeg"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/compound-voeg> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/open-voeg> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "(Flexibele) voegovergang op basis van bitumen (compoundvoeg)."@nl;
+  skos:definition "Brugdekvoeg waarbij een opening tussen constructiedelen aanwezig is zonder voegprofiel, voegvulling of ander afsluitend voegmateriaal."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
-  skos:notation "compound-voeg";
-  skos:prefLabel "Compound voeg"@nl;
+  skos:notation "open-voeg";
+  skos:prefLabel "Open voeg"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .

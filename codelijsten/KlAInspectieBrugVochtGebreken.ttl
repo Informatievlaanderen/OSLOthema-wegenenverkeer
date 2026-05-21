@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de vochtgebreken voor een a-inspectie bij bruggen."@nl;
   skos:prefLabel "A-Inspectie brug vocht gebreken"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugVochtGebreken/kalkafzetting> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "kalkafzetting"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken>;
+  skos:notation "kalkafzetting";
+  skos:prefLabel "kalkafzetting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugVochtGebreken/vochtplek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vochtplek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken>;
+  skos:notation "vochtplek";
+  skos:prefLabel "vochtplek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugVochtGebreken/waterafloop> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "waterafloop"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken>;
+  skos:notation "waterafloop";
+  skos:prefLabel "waterafloop"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugVochtGebreken/waterstagnatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "waterstagnatie"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken>;
+  skos:notation "waterstagnatie";
+  skos:prefLabel "waterstagnatie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugVochtGebreken/waterdoorsijpeling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "waterdoorsijpeling"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken>;
+  skos:notation "waterdoorsijpeling";
+  skos:prefLabel "waterdoorsijpeling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugVochtGebreken> .

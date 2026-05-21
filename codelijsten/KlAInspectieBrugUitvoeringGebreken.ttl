@@ -15,3 +15,11 @@
   skos:notation "achtergebleven-bouwmateriaal";
   skos:prefLabel "achtergebleven bouwmateriaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugUitvoeringGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugUitvoeringGebreken/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "geen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugUitvoeringGebreken>;
+  skos:notation "geen";
+  skos:prefLabel "geen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugUitvoeringGebreken> .

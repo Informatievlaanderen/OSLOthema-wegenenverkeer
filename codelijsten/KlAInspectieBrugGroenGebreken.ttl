@@ -7,3 +7,51 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de groen gebreken voor een a-inspectie bij bruggen."@nl;
   skos:prefLabel "A-Inspectie brug groen gebreken"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugGroenGebreken/struikgroei> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "struikgroei"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken>;
+  skos:notation "struikgroei";
+  skos:prefLabel "struikgroei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugGroenGebreken/gras> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gras"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken>;
+  skos:notation "gras";
+  skos:prefLabel "gras"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugGroenGebreken/slibophoping> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "slibophoping"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken>;
+  skos:notation "slibophoping";
+  skos:prefLabel "slibophoping"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugGroenGebreken/grondophoping> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "grondophoping"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken>;
+  skos:notation "grondophoping";
+  skos:prefLabel "grondophoping"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugGroenGebreken/vuilophoping> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vuilophoping"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken>;
+  skos:notation "vuilophoping";
+  skos:prefLabel "vuilophoping"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugGroenGebreken/duivenmest> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "duivenmest"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken>;
+  skos:notation "duivenmest";
+  skos:prefLabel "duivenmest"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugGroenGebreken> .

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de uitvoeringsgebreken voor een a-inspectie bij bruggen."@nl;
   skos:prefLabel "A-Inspectie brug uitvoering gebreken"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugUitvoeringGebreken/achtergebleven-bouwmateriaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "achtergebleven bouwmateriaal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugUitvoeringGebreken>;
+  skos:notation "achtergebleven-bouwmateriaal";
+  skos:prefLabel "achtergebleven bouwmateriaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugUitvoeringGebreken> .

@@ -7,3 +7,91 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de assettypes voor een a-inspectie bij bruggen."@nl;
   skos:prefLabel "A-Inspectie brug assetypes"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/randsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "randsteen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "randsteen";
+  skos:prefLabel "randsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/uitkraging> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "uitkraging"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "uitkraging";
+  skos:prefLabel "uitkraging"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/bodemplaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "bodemplaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "bodemplaat";
+  skos:prefLabel "bodemplaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/hoofdligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "hoofdligger"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "hoofdligger";
+  skos:prefLabel "hoofdligger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/brugdek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "brugdek"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "brugdek";
+  skos:prefLabel "brugdek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/dakplaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "dakplaat"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "dakplaat";
+  skos:prefLabel "dakplaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/langsligger> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "langsligger"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "langsligger";
+  skos:prefLabel "langsligger"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/eindblok> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "eindblok"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "eindblok";
+  skos:prefLabel "eindblok"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/wand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "wand"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "wand";
+  skos:prefLabel "wand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/brugdeel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "brugdeel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "brugdeel";
+  skos:prefLabel "brugdeel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAssetTypes/dwarsdrager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "dwarsdrager"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes>;
+  skos:notation "dwarsdrager";
+  skos:prefLabel "dwarsdrager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAssetTypes> .

@@ -7,3 +7,107 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor de algemene gebreken voor een a-inspectie bij bruggen."@nl;
   skos:prefLabel "A-Inspectie brug algemene gebreken"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/holte> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "holte"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "holte";
+  skos:prefLabel "holte"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/spoorvorming> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "spoorvorming"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "spoorvorming";
+  skos:prefLabel "spoorvorming"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/vandalisme> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "vandalisme"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "vandalisme";
+  skos:prefLabel "vandalisme"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/beschadigd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "beschadigd"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "beschadigd";
+  skos:prefLabel "beschadigd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/ontbrekend-onderdeel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ontbrekend onderdeel"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "ontbrekend-onderdeel";
+  skos:prefLabel "ontbrekend onderdeel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/afbladdering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "afbladdering"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "afbladdering";
+  skos:prefLabel "afbladdering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/onvakkundige-herstelling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "onvakkundige herstelling"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "onvakkundige-herstelling";
+  skos:prefLabel "onvakkundige herstelling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/verstopping> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "verstopping"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "verstopping";
+  skos:prefLabel "verstopping"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/schuinstand> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "schuinstand"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "schuinstand";
+  skos:prefLabel "schuinstand"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/roestvorming> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "roestvorming"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "roestvorming";
+  skos:prefLabel "roestvorming"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/afschilfering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "afschilfering"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "afschilfering";
+  skos:prefLabel "afschilfering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/gaten-en-onvlakheden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "gaten en onvlakheden"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "gaten-en-onvlakheden";
+  skos:prefLabel "gaten en onvlakheden"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAInspectieBrugAlgemeenGebreken/slijtage> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "slijtage"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken>;
+  skos:notation "slijtage";
+  skos:prefLabel "slijtage"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAInspectieBrugAlgemeenGebreken> .

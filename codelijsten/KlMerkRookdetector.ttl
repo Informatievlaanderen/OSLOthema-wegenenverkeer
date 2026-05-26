@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de rookdetector."@nl;
   skos:prefLabel "Merk rookdetector"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMerkRookdetector/kidde> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Kidde"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMerkRookdetector>;
+  skos:notation "kidde";
+  skos:prefLabel "Kidde"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMerkRookdetector> .

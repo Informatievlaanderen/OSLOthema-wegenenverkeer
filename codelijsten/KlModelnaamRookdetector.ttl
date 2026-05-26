@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de rookdetector."@nl;
   skos:prefLabel "Modelnaam rookdetector"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlModelnaamRookdetector/ke-dp3120w> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KE-DP3120W"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector>;
+  skos:notation "ke-dp3120w";
+  skos:prefLabel "KE-DP3120W"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlModelnaamRookdetector/ke-dp3120w-sn> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KE-DP3120W-SN"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector>;
+  skos:notation "ke-dp3120w-sn";
+  skos:prefLabel "KE-DP3120W-SN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlModelnaamRookdetector/ke-dp3120w-snv> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "KE-DP3120W-SNV"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector>;
+  skos:notation "ke-dp3120w-snv";
+  skos:prefLabel "KE-DP3120W-SNV"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector> .

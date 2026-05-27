@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVullingBalg> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschillende types vulling van een balg"@nl;
+  skos:definition "De verschillende types vulling van een balg"@nl;
   skos:prefLabel "Type vulling balg"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVullingBalg/lucht> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVullingBalg>;
+  skos:notation "lucht";
+  skos:prefLabel "lucht"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVullingBalg> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVullingBalg/water> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVullingBalg>;
+  skos:notation "water";
+  skos:prefLabel "water"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVullingBalg> .

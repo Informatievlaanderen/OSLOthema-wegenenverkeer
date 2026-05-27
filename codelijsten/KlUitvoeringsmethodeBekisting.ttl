@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De uitvoeringsmethode van de bekisting."@nl;
   skos:prefLabel "Uitvoeringsmethode bekisting"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeBekisting/inzetmethode> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting>;
+  skos:notation "inzetmethode";
+  skos:prefLabel "Inzetmethode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeBekisting/afzinkmethode> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting>;
+  skos:notation "afzinkmethode";
+  skos:prefLabel "Afzinkmethode"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlUitvoeringsmethodeBekisting/rolsteunbeschoeiing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting>;
+  skos:notation "rolsteunbeschoeiing";
+  skos:prefLabel "Rolsteunbeschoeiing"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting> .

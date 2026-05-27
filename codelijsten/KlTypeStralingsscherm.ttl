@@ -9,9 +9,33 @@
   skos:prefLabel "Type stralingsscherm"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeStralingsscherm/vaisala-dtr13> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
   skos:definition "Vaisala DTR13"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm>;
   skos:notation "vaisala-dtr13";
   skos:prefLabel "Vaisala DTR13"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeStralingsscherm/beschermingskap> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm>;
+  skos:notation "beschermingskap";
+  skos:prefLabel "beschermingskap"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeStralingsscherm/beschermingshut> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm>;
+  skos:notation "beschermingshut";
+  skos:prefLabel "beschermingshut"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeStralingsscherm/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm>;
+  skos:notation "geen";
+  skos:prefLabel "geen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeStralingsscherm> .

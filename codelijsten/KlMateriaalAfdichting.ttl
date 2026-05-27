@@ -6,4 +6,36 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende opties materiaal waaruit de afdichting kan bestaan."@nl;
-  skos:prefLabel "materiaal afdichting"@nl.
+  skos:prefLabel "Materiaal afdichting"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichting/hars> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting>;
+  skos:notation "hars";
+  skos:prefLabel "hars"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichting/roofing> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting>;
+  skos:notation "roofing";
+  skos:prefLabel "roofing"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichting/hechtend-gietasfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting>;
+  skos:notation "hechtend-gietasfalt";
+  skos:prefLabel "hechtend gietasfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAfdichting/niet-hechtend-gietasfalt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting>;
+  skos:notation "niet-hechtend-gietasfalt";
+  skos:prefLabel "niet-hechtend gietasfalt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAfdichting> .

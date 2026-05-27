@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijke uitvoeringen voor tijdschakelaars volgens de manier waarop instellingen ingegeven worden."@nl;
   skos:prefLabel "Uitvoeringen tijdschakelaar"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTijdschakelaarUitvoering/digitaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTijdschakelaarUitvoering>;
+  skos:notation "digitaal";
+  skos:prefLabel "digitaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTijdschakelaarUitvoering> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTijdschakelaarUitvoering/analoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTijdschakelaarUitvoering>;
+  skos:notation "analoog";
+  skos:prefLabel "analoog"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTijdschakelaarUitvoering> .

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Soort van funderingsput."@nl;
   skos:prefLabel "type put"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypePut/beschoeide-put> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een put waarbij de grond laagsgewijs wordt weggegraven en de putwanden systematisch worden beschoeid met houten balken, met betonplaatjes of met stalen plaatjes."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut>;
+  skos:notation "beschoeide-put";
+  skos:prefLabel "beschoeide put"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypePut/valse-put> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een cirkelvormige put waarbij de grond mechanisch wordt uitgegraven, al dan niet binnen een recupereerbare cirkelvormige mantelbuis."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut>;
+  skos:notation "valse-put";
+  skos:prefLabel "valse put"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypePut/zinkput-of-caisson> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een put waarbij de grond wordt uitgegraven binnen gewapende betonringen die in de grond worden achtergelaten. Het verschil tussen zinkputten en valse putten is de grootte van de put."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut>;
+  skos:notation "zinkput-of-caisson";
+  skos:prefLabel "zinkput of caisson"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut> .

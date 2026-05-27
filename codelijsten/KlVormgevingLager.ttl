@@ -5,5 +5,37 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Mogelijke vormen"@nl;
-  skos:prefLabel "Vormgeving"@nl.
+  skos:definition "Mogelijke vormen voor een lager."@nl;
+  skos:prefLabel "Vormgeving lager"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormgevingLager/sferische-lager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager>;
+  skos:notation "sferische-lager";
+  skos:prefLabel "sferische lager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormgevingLager/cilindrische-lager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager>;
+  skos:notation "cilindrische-lager";
+  skos:prefLabel "cilindrische lager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormgevingLager/radiale-sferische-lager-(gewrichtslager)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager>;
+  skos:notation "radiale-sferische-lager-(gewrichtslager)";
+  skos:prefLabel "radiale sferische lager (gewrichtslager)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormgevingLager/axiale-lager> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager>;
+  skos:notation "axiale-lager";
+  skos:prefLabel "axiale lager"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormgevingLager> .

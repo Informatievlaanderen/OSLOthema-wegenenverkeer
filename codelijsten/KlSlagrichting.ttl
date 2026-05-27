@@ -7,3 +7,51 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke slagrichting van een staalkabel."@nl;
   skos:prefLabel "Slagrichting"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlagrichting/rechts-kruisslag-(rh-ol)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting>;
+  skos:notation "rechts-kruisslag-(rh-ol)";
+  skos:prefLabel "rechts-kruisslag (RH-OL)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlagrichting/rechts-langslag-(rh-ll)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting>;
+  skos:notation "rechts-langslag-(rh-ll)";
+  skos:prefLabel "rechts-langslag (RH-LL)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlagrichting/links-kruisslag-(lh-ol)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting>;
+  skos:notation "links-kruisslag-(lh-ol)";
+  skos:prefLabel "links-kruisslag (LH-OL)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlagrichting/links-langslag-(lh-ll)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting>;
+  skos:notation "links-langslag-(lh-ll)";
+  skos:prefLabel "Links-langslag (LH-LL)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlagrichting/rechts-afwisselende-slag-(rh-al)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting>;
+  skos:notation "rechts-afwisselende-slag-(rh-al)";
+  skos:prefLabel "rechts-afwisselende slag (RH-AL)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlagrichting/links-afwisselende-slag-(lh-al)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting>;
+  skos:notation "links-afwisselende-slag-(lh-al)";
+  skos:prefLabel "links-afwisselende slag (LH-AL)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagrichting> .

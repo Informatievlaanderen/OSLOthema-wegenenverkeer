@@ -6,4 +6,20 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingsklasse> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Type van corrosiebescherming."@nl;
-  skos:prefLabel "beschermingsklasse"@nl.
+  skos:prefLabel "Beschermingsklasse"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermingsklasse/p1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingsklasse>;
+  skos:notation "p1";
+  skos:prefLabel "P1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingsklasse> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermingsklasse/p2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingsklasse>;
+  skos:notation "p2";
+  skos:prefLabel "P2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingsklasse> .

@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAnker> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke opties van materialen van het anker."@nl;
-  skos:prefLabel "Materiaal anker"@nl.
+  skos:definition "De keuzelijst van de optie materialen van het anker."@nl;
+  skos:prefLabel "keuzelijst materiaal anker"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAnker/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAnker>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAnker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalAnker/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAnker>;
+  skos:notation "rvs";
+  skos:prefLabel "rvs"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalAnker> .

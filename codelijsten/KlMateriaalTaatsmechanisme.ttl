@@ -5,5 +5,37 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschillende materialen van een taatsmechanisme."@nl;
+  skos:definition "De verschillende materialen van een taatsmechanisme."@nl;
   skos:prefLabel "Materiaal taatsmechanisme"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalTaatsmechanisme/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalTaatsmechanisme/gietstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme>;
+  skos:notation "gietstaal";
+  skos:prefLabel "gietstaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalTaatsmechanisme/smeedstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme>;
+  skos:notation "smeedstaal";
+  skos:prefLabel "smeedstaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalTaatsmechanisme/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme>;
+  skos:notation "rvs";
+  skos:prefLabel "rvs"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTaatsmechanisme> .

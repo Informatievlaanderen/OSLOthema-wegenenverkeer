@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorVerbindingstype> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "IoT-sensor verbindingstypes."@nl;
-  skos:prefLabel "IoT-sensor verbindingstype"@nl.
+  skos:definition "IoT-sensor verbindingtypes."@nl;
+  skos:prefLabel "IoT-sensor verbindingtype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorVerbindingstype/zigbee> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorVerbindingstype>;
+  skos:notation "zigbee";
+  skos:prefLabel "zigbee"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorVerbindingstype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensorVerbindingstype/simkaart> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorVerbindingstype>;
+  skos:notation "simkaart";
+  skos:prefLabel "simkaart"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorVerbindingstype> .

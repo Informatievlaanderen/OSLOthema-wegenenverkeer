@@ -5,5 +5,29 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschillende types bevestiging van een rail."@nl;
+  skos:definition "De verschillende mogelijke types bevestiging van een rail."@nl;
   skos:prefLabel "Type bevestiging rail"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingRail/klassieke-spoorklem> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail>;
+  skos:notation "klassieke-spoorklem";
+  skos:prefLabel "klassieke spoorklem"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingRail/draadstang> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail>;
+  skos:notation "draadstang";
+  skos:prefLabel "draadstang"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingRail/bout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail>;
+  skos:notation "bout";
+  skos:prefLabel "bout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingRail> .

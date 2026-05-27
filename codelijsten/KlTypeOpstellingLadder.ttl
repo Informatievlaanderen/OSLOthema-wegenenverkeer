@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOpstellingLadder> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke opties voor de opstelling van een ladder."@nl;
-  skos:prefLabel "Type opstelling ladder"@nl.
+  skos:definition "Lijst met de verschillende opties voor de opstelling van een ladder."@nl;
+  skos:prefLabel "keuzelijst type opstelling"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOpstellingLadder/inbouw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOpstellingLadder>;
+  skos:notation "inbouw";
+  skos:prefLabel "inbouw"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOpstellingLadder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOpstellingLadder/opbouw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOpstellingLadder>;
+  skos:notation "opbouw";
+  skos:prefLabel "opbouw"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOpstellingLadder> .

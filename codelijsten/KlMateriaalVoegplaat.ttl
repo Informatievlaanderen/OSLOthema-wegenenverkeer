@@ -5,5 +5,29 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschillende opties van materiaal voor een voegplaat."@nl;
+  skos:definition "De verschillende opties van materiaal voor een voegplaat."@nl;
   skos:prefLabel "materiaal voegplaat"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegplaat/asfaltvilt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat>;
+  skos:notation "asfaltvilt";
+  skos:prefLabel "asfaltvilt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegplaat/kurk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat>;
+  skos:notation "kurk";
+  skos:prefLabel "kurk"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegplaat/geexpandeerd-polystyreen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "geëxpandeerd polystyreen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat>;
+  skos:notation "geexpandeerd-polystyreen";
+  skos:prefLabel "geexpandeerd polystyreen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegplaat> .

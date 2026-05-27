@@ -5,5 +5,37 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De keuzelijst van de opties van materialen voor het stalen klemblok van het klemsysteem."@nl;
+  skos:definition "De mogelijke materialen voor het stalen klemblok van het klemsysteem."@nl;
   skos:prefLabel "Het materiaal van het stalen klemblok"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStalenKlemblok/gietstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok>;
+  skos:notation "gietstaal";
+  skos:prefLabel "gietstaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStalenKlemblok/smeedstaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok>;
+  skos:notation "smeedstaal";
+  skos:prefLabel "smeedstaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStalenKlemblok/constructiestaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok>;
+  skos:notation "constructiestaal";
+  skos:prefLabel "constructiestaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalStalenKlemblok/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok>;
+  skos:notation "rvs";
+  skos:prefLabel "RVS"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalStalenKlemblok> .

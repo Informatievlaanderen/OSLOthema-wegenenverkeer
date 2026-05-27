@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke primaire vormen van een combiwand."@nl;
   skos:prefLabel "Primaire vorm combiwand"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPrimaireVormCombiwand/buis> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand>;
+  skos:notation "buis";
+  skos:prefLabel "Buis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPrimaireVormCombiwand/h-profiel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand>;
+  skos:notation "h-profiel";
+  skos:prefLabel "H-profiel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPrimaireVormCombiwand/stalen-caisson> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand>;
+  skos:notation "stalen-caisson";
+  skos:prefLabel "Stalen caisson"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand> .

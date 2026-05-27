@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke type ankers."@nl;
   skos:prefLabel "Type anker"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAnker/voorgespannen-ankers-met-tegenplaat> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnker>;
+  skos:notation "voorgespannen-ankers-met-tegenplaat";
+  skos:prefLabel "voorgespannen ankers met tegenplaat"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAnker/ingestort> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnker>;
+  skos:notation "ingestort";
+  skos:prefLabel "ingestort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnker> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAnker/ingeboord> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnker>;
+  skos:notation "ingeboord";
+  skos:prefLabel "ingeboord"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnker> .

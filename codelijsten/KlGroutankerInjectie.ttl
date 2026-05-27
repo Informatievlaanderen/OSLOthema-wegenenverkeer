@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroutankerInjectie> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Manier waarop het groutanker wordt uitgevoerd."@nl;
-  skos:prefLabel "groutanker injectie"@nl.
+  skos:definition "De manier waarop het groutanker wordt uitgevoerd."@nl;
+  skos:prefLabel "Groutankerinjectie"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroutankerInjectie/irs-(injection-repetitive-et-selective)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroutankerInjectie>;
+  skos:notation "irs-(injection-repetitive-et-selective)";
+  skos:prefLabel "IRS (Injection Répétitive et Sélective)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroutankerInjectie> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGroutankerInjectie/igu-(injection-globale-et-unitaire)> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroutankerInjectie>;
+  skos:notation "igu-(injection-globale-et-unitaire)";
+  skos:prefLabel "IGU (Injection Globale et Unitaire)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroutankerInjectie> .

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Mogelijk types van beweging"@nl;
   skos:prefLabel "Type beweging"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweging/rotatie-rond-meerdere-assen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweging>;
+  skos:notation "rotatie-rond-meerdere-assen";
+  skos:prefLabel "rotatie rond meerdere assen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweging/rotatie-rond-1-as> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweging>;
+  skos:notation "rotatie-rond-1-as";
+  skos:prefLabel "rotatie rond 1 as"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBeweging/translatie> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweging>;
+  skos:notation "translatie";
+  skos:prefLabel "translatie"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBeweging> .

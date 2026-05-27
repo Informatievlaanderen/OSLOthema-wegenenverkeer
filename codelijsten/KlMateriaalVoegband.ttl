@@ -5,5 +5,29 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke opties van materiaal voor een voegband."@nl;
-  skos:prefLabel "Materiaal voegband"@nl.
+  skos:definition "Lijst met de verschillende opties van materiaal voor een voegband."@nl;
+  skos:prefLabel "keuzelijst materiaal voegband"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegband/rubber> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband>;
+  skos:notation "rubber";
+  skos:prefLabel "rubber"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegband/rubber-staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband>;
+  skos:notation "rubber-staal";
+  skos:prefLabel "rubber-staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalVoegband/manillatouw> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband>;
+  skos:notation "manillatouw";
+  skos:prefLabel "manillatouw"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalVoegband> .

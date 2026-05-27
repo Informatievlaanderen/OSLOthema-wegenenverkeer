@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met de verschillende types mechanismen."@nl;
   skos:prefLabel "Type mechanisme"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMechanisme/vast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMechanisme>;
+  skos:notation "vast";
+  skos:prefLabel "vast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMechanisme> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMechanisme/los> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMechanisme>;
+  skos:notation "los";
+  skos:prefLabel "los"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMechanisme> .

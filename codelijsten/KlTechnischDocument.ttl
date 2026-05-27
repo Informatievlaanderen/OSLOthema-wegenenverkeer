@@ -5,5 +5,29 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "De mogelijke opties voor technische documenten."@nl;
+  skos:definition "De verschillende opties voor technische documenten"@nl;
   skos:prefLabel "Technisch document"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTechnischDocument/detailplan> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument>;
+  skos:notation "detailplan";
+  skos:prefLabel "detailplan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTechnischDocument/technische-fiche> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument>;
+  skos:notation "technische-fiche";
+  skos:prefLabel "technische fiche"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTechnischDocument/rekennota> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument>;
+  skos:notation "rekennota";
+  skos:prefLabel "rekennota"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTechnischDocument> .

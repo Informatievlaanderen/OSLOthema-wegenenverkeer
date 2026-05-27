@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het type van de metselvoeg."@nl;
   skos:prefLabel "Type metselvoeg"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVoeg/klassiek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
+  skos:notation "klassiek";
+  skos:prefLabel "klassiek"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVoeg/verlijmd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
+  skos:notation "verlijmd";
+  skos:prefLabel "verlijmd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVoeg/dunmortel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg>;
+  skos:notation "dunmortel";
+  skos:prefLabel "dunmortel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg> .

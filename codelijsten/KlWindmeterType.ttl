@@ -15,3 +15,27 @@
   skos:notation "ultrasoon";
   skos:prefLabel "Ultrasoon"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWindmeterType/windsnelheid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType>;
+  skos:notation "windsnelheid";
+  skos:prefLabel "windsnelheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWindmeterType/windrichting> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType>;
+  skos:notation "windrichting";
+  skos:prefLabel "windrichting"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWindmeterType/windrichting-en-windsnelheid> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "windrichting en windsnelheid"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType>;
+  skos:notation "windrichting-en-windsnelheid";
+  skos:prefLabel "windrichting en windsnelheid"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWindmeterType> .

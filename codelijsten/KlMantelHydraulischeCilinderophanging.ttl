@@ -6,4 +6,20 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMantelHydraulischeCilinderophanging> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De wijze van ophanging van de mantel van een hydraulische cilinder."@nl;
-  skos:prefLabel "Mantel hydraulische Cinlinderophanging"@nl.
+  skos:prefLabel "Mantel hydraulische cinlinderophanging"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMantelHydraulischeCilinderophanging/astappen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMantelHydraulischeCilinderophanging>;
+  skos:notation "astappen";
+  skos:prefLabel "astappen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMantelHydraulischeCilinderophanging> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMantelHydraulischeCilinderophanging/eindoog> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMantelHydraulischeCilinderophanging>;
+  skos:notation "eindoog";
+  skos:prefLabel "eindoog"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMantelHydraulischeCilinderophanging> .

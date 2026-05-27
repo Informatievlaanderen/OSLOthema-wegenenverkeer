@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst voor het type encryptie."@nl;
   skos:prefLabel "Encryptie type"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEncryptieType/nedap> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEncryptieType>;
+  skos:notation "nedap";
+  skos:prefLabel "NEDAP"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEncryptieType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEncryptieType/mifare> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEncryptieType>;
+  skos:notation "mifare";
+  skos:prefLabel "MIFARE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEncryptieType> .

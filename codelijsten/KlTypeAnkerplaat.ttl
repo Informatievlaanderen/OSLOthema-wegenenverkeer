@@ -5,5 +5,29 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschilende types van een ankerplaat"@nl;
+  skos:definition "De verschilende types van een ankerplaat"@nl;
   skos:prefLabel "Type ankerplaat"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAnkerplaat/niet-ingestort> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat>;
+  skos:notation "niet-ingestort";
+  skos:prefLabel "niet-ingestort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAnkerplaat/ingestort> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat>;
+  skos:notation "ingestort";
+  skos:prefLabel "ingestort"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAnkerplaat/voorgespannen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat>;
+  skos:notation "voorgespannen";
+  skos:prefLabel "voorgespannen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAnkerplaat> .

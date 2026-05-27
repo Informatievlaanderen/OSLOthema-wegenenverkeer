@@ -5,5 +5,37 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschileende materialen van een bus of ring."@nl;
+  skos:definition "Lijst met de verschillende materialen van een bus of ring."@nl;
   skos:prefLabel "Materiaal bus en ring"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBusEnRing/brons> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing>;
+  skos:notation "brons";
+  skos:prefLabel "brons"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBusEnRing/kunststof> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing>;
+  skos:notation "kunststof";
+  skos:prefLabel "kunststof"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBusEnRing/staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing>;
+  skos:notation "staal";
+  skos:prefLabel "staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBusEnRing/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing>;
+  skos:notation "rvs";
+  skos:prefLabel "rvs"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBusEnRing> .

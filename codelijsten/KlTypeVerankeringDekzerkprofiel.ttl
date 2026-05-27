@@ -5,5 +5,21 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerankeringDekzerkprofiel> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lijst met de verschillende opties voor de verankering van een dekzerkprofiel."@nl;
+  skos:definition "De verschillende opties voor de verankering van een dekzerkprofiel."@nl;
   skos:prefLabel "type verankering dekzerkprofiel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVerankeringDekzerkprofiel/plaatstaal-met-zwaluwstaarten> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerankeringDekzerkprofiel>;
+  skos:notation "plaatstaal-met-zwaluwstaarten";
+  skos:prefLabel "plaatstaal met zwaluwstaarten"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerankeringDekzerkprofiel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeVerankeringDekzerkprofiel/deuvels> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerankeringDekzerkprofiel>;
+  skos:notation "deuvels";
+  skos:prefLabel "deuvels"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVerankeringDekzerkprofiel> .

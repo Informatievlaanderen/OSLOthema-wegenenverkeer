@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Types kabelsteun"@nl;
   skos:prefLabel "Type kabelsteun"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeKabelsteun/rollend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeKabelsteun>;
+  skos:notation "rollend";
+  skos:prefLabel "rollend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeKabelsteun> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeKabelsteun/geleidend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeKabelsteun>;
+  skos:notation "geleidend";
+  skos:prefLabel "geleidend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeKabelsteun> .

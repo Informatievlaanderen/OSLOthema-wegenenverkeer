@@ -7,3 +7,19 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van mogelijke types glijmateriaal."@nl;
   skos:prefLabel "Type glijmateriaal"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGlijmateriaal/glijblok> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGlijmateriaal>;
+  skos:notation "glijblok";
+  skos:prefLabel "glijblok"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGlijmateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGlijmateriaal/glijstrip> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGlijmateriaal>;
+  skos:notation "glijstrip";
+  skos:prefLabel "glijstrip"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGlijmateriaal> .

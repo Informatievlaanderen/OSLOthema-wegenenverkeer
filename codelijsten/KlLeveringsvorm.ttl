@@ -7,3 +7,35 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De configuratie waarin de plank besteld wordt."@nl;
   skos:prefLabel "Leveringsvorm"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLeveringsvorm/dubbel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm>;
+  skos:notation "dubbel";
+  skos:prefLabel "dubbel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLeveringsvorm/enkel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm>;
+  skos:notation "enkel";
+  skos:prefLabel "enkel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLeveringsvorm/drieling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm>;
+  skos:notation "drieling";
+  skos:prefLabel "drieling"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLeveringsvorm/pasplank> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm>;
+  skos:notation "pasplank";
+  skos:prefLabel "pasplank"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm> .

@@ -6,4 +6,20 @@
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVetType> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende soorten vet die kunnen worden gebruikt voor smering."@nl;
-  skos:prefLabel "Vet type"@nl.
+  skos:prefLabel "Vettype"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVetType/synthetisch-vet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVetType>;
+  skos:notation "synthetisch-vet";
+  skos:prefLabel "synthetisch vet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVetType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVetType/biologisch-vet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVetType>;
+  skos:notation "biologisch-vet";
+  skos:prefLabel "biologisch vet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVetType> .

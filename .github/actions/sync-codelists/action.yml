@@ -1,0 +1,70 @@
+name: Sync codelists to dataset.json
+description: >
+  Syncs .ttl codelists from a directory in the calling repository to a
+  dataset.json file in a target repository. Only entries whose sourceUrl
+  belongs to the source repository are added or removed; all other entries
+  are left untouched. Entries are sorted alphabetically by urlRef.
+
+inputs:
+  source-repo:
+    description: >
+      Source GitHub repository in owner/name format.
+      e.g. Informatievlaanderen/OSLOthema-wegenenverkeer
+    required: true
+  source-branch:
+    description: Branch of the source repository referenced in the generated sourceUrl values.
+    required: true
+  source-dir:
+    description: Directory (relative to the source repo root) containing the .ttl files.
+    required: false
+    default: codelijsten
+  target-repo:
+    description: >
+      Target GitHub repository in owner/name format.
+      e.g. Informatievlaanderen/wegenenverkeer.data.vlaanderen.be
+    required: true
+  target-branch:
+    description: Branch of the target repository to check out and push to.
+    required: false
+    default: dev
+  target-file:
+    description: Path to dataset.json within the target repository.
+    required: false
+    default: config/dataset.json
+  ssh-key:
+    description: SSH private key with write access to the target repository (deploy key).
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Checkout target repository
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ inputs.target-repo }}
+        ref: ${{ inputs.target-branch }}
+        ssh-key: ${{ inputs.ssh-key }}
+        path: _sync-target
+
+    - name: Sync dataset.json
+      shell: bash
+      env:
+        SOURCE_REPO: ${{ inputs.source-repo }}
+        SOURCE_BRANCH: ${{ inputs.source-branch }}
+        SOURCE_DIR: ${{ inputs.source-dir }}
+        TARGET_FILE: _sync-target/${{ inputs.target-file }}
+      run: node "${{ github.action_path }}/sync.js"
+
+    - name: Commit and push
+      shell: bash
+      working-directory: _sync-target
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add "${{ inputs.target-file }}"
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "chore: sync codelists from ${{ inputs.source-repo }}"
+          git push
+        fi

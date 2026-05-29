@@ -32,13 +32,11 @@ const sourceUrlBase = `https://raw.githubusercontent.com/${SOURCE_REPO}/refs/hea
 // Read source .ttl files
 // ---------------------------------------------------------------------------
 
-const currentNames = [
-  fs
-    .readdirSync(sourceDirPath)
-    .filter((f) => f.endsWith(".ttl"))
-    .map((f) => path.basename(f, ".ttl"))
-    .sort()[0],
-];
+const currentNames = fs
+  .readdirSync(sourceDirPath)
+  .filter((f) => f.endsWith(".ttl"))
+  .map((f) => path.basename(f, ".ttl"))
+  .sort();
 
 const dataset = JSON.parse(fs.readFileSync(targetFilePath, "utf8"));
 

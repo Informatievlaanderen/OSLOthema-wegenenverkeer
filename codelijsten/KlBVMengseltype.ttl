@@ -80,14 +80,6 @@
   skos:prefLabel "APO-B"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GAB-D> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "GAB-D"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
-  skos:notation "GAB-D";
-  skos:prefLabel "GAB-D"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APO-A> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "APO-A"@nl;
@@ -168,14 +160,6 @@
   skos:prefLabel "SMA-C1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GAA-E> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "GAA-E"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
-  skos:notation "GAA-E";
-  skos:prefLabel "GAA-E"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/sme-d2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "SME-D2"@nl;
@@ -246,6 +230,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
   skos:notation "AB-5D";
   skos:prefLabel "AB-5D"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GAA-E> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "GAA-E"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "GAA-E";
+  skos:prefLabel "GAA-E"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/pet-a> a skos:Concept;
@@ -374,6 +366,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
   skos:notation "zoap-b1";
   skos:prefLabel "ZOAP-B1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GAB-D> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "GAB-D"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "GAB-D";
+  skos:prefLabel "GAB-D"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IA> a skos:Concept;

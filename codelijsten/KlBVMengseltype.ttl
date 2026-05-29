@@ -40,14 +40,6 @@
   skos:prefLabel "AB-3D"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/onderlaag-APO-B-en-toplaag-AGT-klasse-II> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "onderlaag APO-B en toplaag AGT klasse II"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
-  skos:notation "onderlaag-APO-B-en-toplaag-AGT-klasse-II";
-  skos:prefLabel "onderlaag APO-B en toplaag AGT klasse II"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/GA-E> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "GA-E"@nl;
@@ -110,14 +102,6 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
   skos:notation "IB";
   skos:prefLabel "IB"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag-van-SMA-C> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "toplaag van SMA-C"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
-  skos:notation "toplaag-van-SMA-C";
-  skos:prefLabel "toplaag van SMA-C"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/AVS-B> a skos:Concept;
@@ -192,12 +176,36 @@
   skos:prefLabel "ZOA-C2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/agt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AGT"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "agt";
+  skos:prefLabel "AGT"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag-van-ZOA-C> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "toplaag van ZOA-C"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
   skos:notation "toplaag-van-ZOA-C";
   skos:prefLabel "toplaag van ZOA-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/toplaag-van-SMA-C> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "toplaag van SMA-C"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "toplaag-van-SMA-C";
+  skos:prefLabel "toplaag van SMA-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/onderlaag-APO-B-en-toplaag-AGT-klasse-II> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "onderlaag APO-B en toplaag AGT klasse II"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "onderlaag-APO-B-en-toplaag-AGT-klasse-II";
+  skos:prefLabel "onderlaag APO-B en toplaag AGT klasse II"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/APT-C> a skos:Concept;
@@ -254,6 +262,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
   skos:notation "GA-C";
   skos:prefLabel "GA-C"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ahv-b2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AHV-B2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "ahv-b2";
+  skos:prefLabel "AHV-B2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/IIIA> a skos:Concept;

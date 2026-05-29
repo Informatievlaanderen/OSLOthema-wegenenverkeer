@@ -8,6 +8,14 @@
   skos:definition "het mengseltype van de butimineuze verharding."@nl;
   skos:prefLabel "BV mengseltype"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/sme-d1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SME-D1"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "sme-d1";
+  skos:prefLabel "SME-D1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/SMA-B2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "SMA-B2"@nl;
@@ -166,6 +174,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
   skos:notation "GAA-E";
   skos:prefLabel "GAA-E"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/sme-d2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SME-D2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype>;
+  skos:notation "sme-d2";
+  skos:prefLabel "SME-D2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBVMengseltype> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBVMengseltype/ZOA-C2> a skos:Concept;

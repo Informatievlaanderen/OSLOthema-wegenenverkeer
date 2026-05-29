@@ -3,7 +3,7 @@ name: Sync codelijsten to dataset.json
 on:
   push:
     branches:
-      - test
+      - dev
     paths:
       - 'codelijsten/*.ttl'
   workflow_dispatch:

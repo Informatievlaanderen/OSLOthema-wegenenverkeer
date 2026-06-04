@@ -24,6 +24,14 @@
   skos:prefLabel "DDM-8-3441"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/ddmd-8-2532> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OTN DWDM filter met 8 kanalen Edge Optical"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "ddmd-8-2532";
+  skos:prefLabel "DDMD-8-2532"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/ntk669am> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "NTK669AM"@nl;
@@ -32,12 +40,12 @@
   skos:prefLabel "NTK669AM"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/F10E-T90-TN> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/t-oadm-2-4> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+  skos:definition "OTN CWDM filter met 1 kanaal Smartoptics"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
-  skos:notation "F10E-T90-TN";
-  skos:prefLabel "F10E-T90-TN"@nl;
+  skos:notation "t-oadm-2-4";
+  skos:prefLabel "T-OADM-2-4"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/n-100-a80> a skos:Concept;
@@ -352,6 +360,14 @@
   skos:prefLabel "LKA412"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/dcad-4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OTN CWDM filter met 4 kanalen Edge Optical"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "dcad-4";
+  skos:prefLabel "DCAD-4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/CL-DUAL-FC8> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -366,6 +382,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
   skos:notation "CN-100-C4L";
   skos:prefLabel "CN-100-C4L"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/F10E-T90-TN> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "F10E-T90-TN";
+  skos:prefLabel "F10E-T90-TN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/dcad-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OTN CWDM filter met 1 kanaal Edge Optical"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "dcad-1";
+  skos:prefLabel "DCAD-1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/CN-200-RBS> a skos:Concept;
@@ -510,6 +542,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
   skos:notation "ASC110";
   skos:prefLabel "ASC110"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/dcad-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "OTN CWDM filter met 2 kanalen Edge Optical"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam>;
+  skos:notation "dcad-2";
+  skos:prefLabel "DCAD-2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkkaartModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkkaartModelnaam/LKA39> a skos:Concept;

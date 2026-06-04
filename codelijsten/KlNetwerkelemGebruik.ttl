@@ -80,6 +80,14 @@
   skos:prefLabel "Straalverbinding"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/wdm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Wave Division Multiplexing MUX netwerk elementen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik>;
+  skos:notation "wdm";
+  skos:prefLabel "WDM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkelemGebruik> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkelemGebruik/cen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het netwerkelement wordt gebruikt binnen het CEN netwerk."@nl;

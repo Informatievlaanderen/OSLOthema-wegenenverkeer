@@ -1,0 +1,65 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke verankeringen."@nl;
+  skos:prefLabel "Verankering SV"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/signalisatievoet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "signalisatievoet";
+  skos:prefLabel "signalisatievoet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/voetplaat-diameter-76> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "voetplaat-diameter-76";
+  skos:prefLabel "voetplaat diameter 76"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/geen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "geen";
+  skos:prefLabel "geen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/bodemhuls-diameter-89> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "bodemhuls-diameter-89";
+  skos:prefLabel "bodemhuls diameter 89"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/bodemhuls-diameter-76> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "bodemhuls-diameter-76";
+  skos:prefLabel "bodemhuls diameter 76"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/bodemhuls-diameter-51> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "bodemhuls-diameter-51";
+  skos:prefLabel "bodemhuls diameter 51"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/voetplaat-diameter-51> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "voetplaat-diameter-51";
+  skos:prefLabel "voetplaat diameter 51"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .

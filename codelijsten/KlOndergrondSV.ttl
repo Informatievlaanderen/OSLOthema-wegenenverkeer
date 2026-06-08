@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke opties van ondergrond."@nl;
+  skos:prefLabel "Ondergrond SV"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvankassei> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvankassei";
+  skos:prefLabel "BestratingVanKassei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvannatuursteentegel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvannatuursteentegel";
+  skos:prefLabel "BestratingVanNatuursteentegel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/grond> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "grond";
+  skos:prefLabel "Grond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvanbetonstraatsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvanbetonstraatsteen";
+  skos:prefLabel "BestratingVanBetonstraatsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvanmozaiekkei> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvanmozaiekkei";
+  skos:prefLabel "BestratingVanMozaiekkei"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvangebakkenstraatsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvangebakkenstraatsteen";
+  skos:prefLabel "BestratingVanGebakkenStraatsteen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvangrasbetontegel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvangrasbetontegel";
+  skos:prefLabel "BestratingVanGrasbetontegel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/steenslagverharding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "steenslagverharding";
+  skos:prefLabel "Steenslagverharding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvanbetontegel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "bestratingvanbetontegel";
+  skos:prefLabel "BestratingVanBetontegel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .

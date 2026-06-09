@@ -7,3 +7,43 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van IoT sensoren."@nl;
   skos:prefLabel "type sensor"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensortype/gronddrukcel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een sensor die de druk meet die de grond uitoefent op een constructie of constructie-element (de gronddruk), respectievelijk de totale spanning in de bodem op een bepaald punt."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype>;
+  skos:notation "gronddrukcel";
+  skos:prefLabel "gronddrukcel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensortype/tiltsensor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een sensor die de hellingshoek of kanteling van een object of constructie meet ten opzichte van een referentievlak (meestal het horizontale vlak of de zwaartekrachtrichting)."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype>;
+  skos:notation "tiltsensor";
+  skos:prefLabel "tiltsensor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensortype/pi-zometer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een sensor die de waterspanning (poriënwaterdruk) in de bodem of het grondwaterpeil meet."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype>;
+  skos:notation "pi-zometer";
+  skos:prefLabel "piëzometer"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensortype/chloridesensor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een sensor die de concentratie aan chloride-ionen in een medium (zoals beton, mortel of water) meet, onder meer ter beoordeling van het risico op chloride-geïnduceerde corrosie van wapening."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype>;
+  skos:notation "chloridesensor";
+  skos:prefLabel "chloridesensor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIoTSensortype/scheursensor> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een sensor die het ontstaan en de ontwikkeling van scheuren in een constructie of constructie-element registreert, doorgaans door het meten van de scheurwijdte of de relatieve verplaatsing over een scheur."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype>;
+  skos:notation "scheursensor";
+  skos:prefLabel "scheursensor"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensortype> .

@@ -8,6 +8,14 @@
   skos:definition "De vormen van een anti-parkeerpaal."@nl;
   skos:prefLabel "Anti-parkeerpaal type"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/metkanon> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Met kanon"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType>;
+  skos:notation "metkanon";
+  skos:prefLabel "met kanon"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/metbazooka> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Met ingebouwde bazooka"@nl;

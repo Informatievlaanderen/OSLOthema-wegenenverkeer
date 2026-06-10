@@ -31,3 +31,11 @@
   skos:notation "luchtgeluidsisolatie";
   skos:prefLabel "luchtgeluidsisolatie"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCTestType/testdeef> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "testdeef"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType>;
+  skos:notation "testdeef";
+  skos:prefLabel "testdeef"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCTestType> .

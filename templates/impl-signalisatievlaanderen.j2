@@ -5,26 +5,27 @@
 <html xml:lang="nl" lang="nl" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="nl" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-  {% set name = metadata.title|lower|replace(' ', '-') %} 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="msapplication-square70x70logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-small.png"/>
+    <meta name="msapplication-square150x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-medium.png"/>
+    <meta name="msapplication-wide310x150logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-wide.png"/>
+    <meta name="msapplication-square310x310logo" content="https://data.vlaanderen.be/assets/favicon/icons/tile-large.png"/>
+    <meta name="msapplication-TileColor" content="#FFE615"/>
+
+
+    <link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
+    <link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+    <link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
+
+
+    {% set name = metadata.title|lower|replace(' ', '-') %} 
   <title>{{ metadata.title }}</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui.css" />
-  <link rel="stylesheet" href="https://ui.vlaanderen.be/2.latest/css/vlaanderen-ui-corporate.css" />
-
-  <link rel="icon" sizes="192x192" href="https://ui.vlaanderen.be/2.latest/icons/app-icon/icon-highres-precomposed.png" />
-  <link rel="apple-touch-icon" href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-precomposed.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-precomposed.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="https://ui.vlaanderen.be/2.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png" />
-
-  <meta name="msapplication-square70x70logo" content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-small.png" />
-  <meta name="msapplication-square150x150logo" content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-medium.png" />
-  <meta name="msapplication-wide310x150logo" content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-wide.png" />
-  <meta name="msapplication-square310x310logo" content="https://ui.vlaanderen.be/2.latest/icons/app-icon/tile-large.png" />
-  <meta name="msapplication-TileColor" content="#FFE615" />
-</head>
+  </head>
 
 <body>
   <div style="min-height:44px;;" id="vlaanderen-header">
@@ -34,18 +35,18 @@
   </div>
 
   <!-- Start page content -->
-  <div class="page">
-    <div class="layout layout--wide">
-      <div class="skiplink">
+  <div class="vl-page">
+    <div class="vl-layout vl-layout--wide">
+      <div class="vl-skiplink">
         <a rel="nofollow noreferrer" href="#main">Overslaan en naar de algemene inhoud gaan</a>
       </div>
     </div>
-    <div class="page">
-      <div class="region">
-        <div class="layout layout--wide">
-          <div class="grid u-hr">
-            <div class="col--9-12 col--1-1--s">
-              <h1 class="h1">{{ metadata.title }}</h1>
+    <div class="vl-page">
+      <div class="vl-region">
+        <div class="vl-layout vl-layout--wide">
+          <div class="vl-grid u-hr">
+            <div class="vl-col--9-12 vl-col--1-1--s">
+              <h1 class="vl-title--h1">{{ metadata.title }}</h1>
 
               <div class="head" role="status" id="status">
 			  
@@ -118,12 +119,12 @@
       </div>
     </div>
 
-    <div id="main" itemprop="mainContentOfPage" role="main" tabindex="-1" class="main-content">
-      <div class="layout layout--wide">
-        <div class="grid">
-          <div class="col--8-12 col--12-12--s">
-            <div class="region" id="introduction">
-              <div class="introduction typography">
+    <div id="main" itemprop="mainContentOfPage" role="main" tabindex="-1" class="vl-main-content">
+      <div class="vl-layout vl-layout--wide">
+        <div class="vl-grid">
+          <div class="vl-col--8-12 vl-col--12-12--s">
+            <div class="vl-region" id="introduction">
+              <div class="vl-introduction vl-typography">
                {% block introduction %}
                 <p>Dit document beschrijft het <strong>applicatieprofiel {{ metadata.title }}</strong>.
 				Het model vormt een integratie tussen de juridische kant van de materie, zoals beschreven in OSLO-Besluit-Mobiliteit, en de fysieke kant, zoals vastgelegd in de OTL (Object Typenbibliotheek).
@@ -135,8 +136,8 @@
               </div>
             </div>
 
-            <div class="region region--no-space-top typography" id="summary">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Samenvatting</h2>
+            <div class="vl-region vl-region--no-space-top vl-typography" id="summary">
+                <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Samenvatting</h2>
                 {% block summary %} 
                   {% if metadata.description %} 
                     {{ metadata.description[language] }}
@@ -144,9 +145,9 @@
                 {% endblock %}
             </div>
 
-            <div class="region region--no-space-top typography" id="status">
+            <div class="vl-region vl-region--no-space-top vl-typography" id="status">
               <section class="introductory" id="sotd" typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status van dit document</h2>
+                <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Status van dit document</h2>
                 {% block status %}
                 <p>
                   Dit applicatieprofiel <a href="{{metadata.status }}">{{ metadata.statuslabel }}</a> werd uitgegeven op {{ metadata.issued }}.
@@ -158,24 +159,24 @@
               </section>
             </div>
 
-            <div class="region region--no-space-top typography" id="license">
-              <h2 class="h2">Licentie</h2>
+            <div class="vl-region vl-region--no-space-top vl-typography" id="license">
+              <h2 class="vl-title--h2">Licentie</h2>
               {% block license %}
               <p><span rel="dct:type" property="dct:title" href="http://purl.org/dc/dcmitype/Text" xmlns:dct="http://purl.org/dc/terms/">Deze specificatie</span> van <a rel="cc:attributionURL" property="cc:attributionName" href="http://vlaanderen.be/informatievlaanderen" xmlns:cc="http://creativecommons.org/ns#">Informatie Vlaanderen</a> is gepubliceerd onder de <a href="{{ metadata.license }}" rel="license">"Modellicentie Gratis Hergebruik - v1.0"</a>.</p>
               {% endblock %}
             </div>
-            <div class="region region--no-space-top typography" id="conformance">
-              <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformiteit</h2>
+            <div class="vl-region vl-region--no-space-top vl-typography" id="conformance">
+              <h2 class="vl-title--h2" id="conformance" aria-level="1" role="heading">Conformiteit</h2>
               {% block conformance %}
               <p>De conformiteit voor implementatiemodellen is <a href="/doc/begeleidend/implementatiemodellen/conformiteit">hier</a> te vinden.</p>
               {% endblock %}
             </div>
-            <div class="region region--no-space-top" id="overview">
-              <h2 class="h2">Overzicht</h2>
-              <div class="grid">
-                <div class="col--9-12 col--1-1--s typography">
+            <div class="vl-region vl-region--no-space-top" id="overview">
+              <h2 class="vl-title--h2">Overzicht</h2>
+              <div class="vl-grid">
+                <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
                   {% if ( ( classes | length > 0)   ) %}
-                  <div class="region region--no-space-top">
+                  <div class="vl-region vl-region--no-space-top">
                     <p>In dit document wordt correct gebruik van de volgende entiteiten toegelicht:
                       <br />
                       |
@@ -186,7 +187,7 @@
                   </div>
                   {% endif %}
                   {% if ( ( datatypes | length ) > 0 ) %}
-                  <div class="region region--no-space-top">
+                  <div class="vl-region vl-region--no-space-top">
                     <p> In dit document worden de volgende datatypes toegelicht:
                       <br />
                       |
@@ -200,20 +201,20 @@
               </div>
             </div>
 
-            <div class="region region--no-space-top">
+            <div class="vl-region vl-region--no-space-top">
               <a href="{{ documentroot }}/html/overview.jpg" target="_blank">
                  <img src="{{ documentroot }}/html/overview.jpg" />
               </a>
               {% block images %}
               {% endblock %}
             </div>
-            <div class="region region--no-space-top">
-              <h2 class="h2">Entiteiten</h2>
+            <div class="vl-region vl-region--no-space-top">
+              <h2 class="vl-title--h2">Entiteiten</h2>
             </div>
             {% for entity in classes | sort(attribute=sortattr) %}
-              <div class="region region--no-space-top">
-              <h3 class="h3" id="{{ entity.name }}"><a href="{{ entity.uri }}" data-toggle="tooltip" data-content="{{ entity.uri }}" data-placement="right">{{ entity.label[language] }}</a></h3>
-                <div class="region region--no-space-top">
+              <div class="vl-region vl-region--no-space-top">
+              <h3 class="vl-title--h3" id="{{ entity.name }}"><a href="{{ entity.uri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.uri }}" data-vl-tooltip-placement="right">{{ entity.label[language] }}</a></h3>
+                <div class="vl-region vl-region--no-space-top">
                   <dl>
                     <dt>Beschrijving</dt><dd>{{ entity.description[language] }}</dd>
                     {% if entity.usage[language] %}
@@ -238,16 +239,16 @@
                   </dl>
                 </div>
 		{% if ((entity.properties | length) > 0 ) %} 
-                <div class="u-table-overflow">
-                  <table class="data-table">
+                <div class="vl-u-table-overflow">
+                  <table class="vl-data-table">
                     <thead>
-                      <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Eigenschap</th>
-                        <th class="data-table__header-title--sortable">Verwacht Type</th>
-                        <th class="data-table__header-title--sortable">Kardinaliteit</th>
-                        <th class="data-table__header-title--sortable">Beschrijving</th>
-                        <th class="data-table__header-title--sortable">Gebruik</th>
-                        <th class="data-table__header-title--sortable">Keuzelijst</th>
+                      <tr class="vl-data-table__header">
+                        <th class="vl-data-table__header-title vl-data-table__header-title-active">Eigenschap</th>
+                        <th class="vl-data-table__header-title">Verwacht Type</th>
+                        <th class="vl-data-table__header-title">Kardinaliteit</th>
+                        <th class="vl-data-table__header-title">Beschrijving</th>
+                        <th class="vl-data-table__header-title">Gebruik</th>
+                        <th class="vl-data-table__header-title">Keuzelijst</th>
                       </tr>
                     </thead>
 
@@ -256,14 +257,14 @@
                       <tr id="{{ (entity.name ~ ':' ~ prop.name) | urlencode }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
                         <td>
                           <code property="rdfs:label">
-                            <a href="{{ prop.uri }}" data-toggle="tooltip" data-content="{{ prop.uri }}" data-placement="right">
+                            <a href="{{ prop.uri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.uri }}" data-vl-tooltip-placement="right">
                             {{ prop.label[language] }}</a>
                           </code>
                         </td>
                         <td>
                           {% for range in prop.scopedrange %}
 			    {% if range['range_uri'] == range['range_puri'] %} 
-			    <a href="{{ range['range_uri'] }}" data-toggle="tooltip" data-content="{{ range['range_puri'] }}" data-placement="right">{{ range['range_label'][language] }}</a>
+			    <a href="{{ range['range_uri'] }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ range['range_puri'] }}" data-vl-tooltip-placement="right">{{ range['range_label'][language] }}</a>
                             {% else %}
 			    <a href="{{ range['range_uri'] }}" data-placement="right">{{ range['range_label'][language] }}</a>
 			    {% endif %}
@@ -283,17 +284,17 @@
             {% endfor %}
 
             {% if datatypes %}
-            <div class="region region--no-space-top">
-              <h2 class="h2">Datatypes</h2>
+            <div class="vl-region vl-region--no-space-top">
+              <h2 class="vl-title--h2">Datatypes</h2>
             </div>
             {% for entity in datatypes | sort(attribute=sortattr)%}
-            <div class="region region--no-space-top">
+            <div class="vl-region vl-region--no-space-top">
               {% if entity.scopeduri %}
-              <h3 class="h3" id="{{ entity.name }}"><a href="{{ entity.scopeduri }}" data-toggle="tooltip" data-content="{{ entity.uri }}" data-placement="right">{{ entity.label[language] }}</a></h3>
+              <h3 class="vl-title--h3" id="{{ entity.name }}"><a href="{{ entity.scopeduri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.uri }}" data-vl-tooltip-placement="right">{{ entity.label[language] }}</a></h3>
 	      {% else %}
-              <h3 class="h3" id="{{ entity.name }}"><a href="{{ entity.uri }}" data-toggle="tooltip" data-content="{{ entity.uri }}" data-placement="right">{{ entity.label[language] }}</a></h3>
+              <h3 class="vl-title--h3" id="{{ entity.name }}"><a href="{{ entity.uri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.uri }}" data-vl-tooltip-placement="right">{{ entity.label[language] }}</a></h3>
 	      {% endif %}
-                <div class="region region--no-space-top">
+                <div class="vl-region vl-region--no-space-top">
                   <dl>
                     <dt>Beschrijving</dt><dd>{{ entity.description[language] }}</dd>
                     {% if entity.usage[language] %}
@@ -318,16 +319,16 @@
                   </dl>
                 </div>
 		{% if ((entity.properties | length) > 0 ) %} 
-                <div class="u-table-overflow">
-                  <table class="data-table">
+                <div class="vl-u-table-overflow">
+                  <table class="vl-data-table">
                     <thead>
-                      <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Eigenschap</th>
-                        <th class="data-table__header-title--sortable">Verwacht Type</th>
-                        <th class="data-table__header-title--sortable">Kardinaliteit</th>
-                        <th class="data-table__header-title--sortable">Beschrijving</th>
-                        <th class="data-table__header-title--sortable">Gebruik</th>
-                        <th class="data-table__header-title--sortable">Keuzelijst</th>
+                      <tr class="vl-data-table__header">
+                        <th class="vl-data-table__header-title vl-data-table__header-title-active">Eigenschap</th>
+                        <th class="vl-data-table__header-title">Verwacht Type</th>
+                        <th class="vl-data-table__header-title">Kardinaliteit</th>
+                        <th class="vl-data-table__header-title">Beschrijving</th>
+                        <th class="vl-data-table__header-title">Gebruik</th>
+                        <th class="vl-data-table__header-title">Keuzelijst</th>
                       </tr>
                     </thead>
 
@@ -336,13 +337,13 @@
                       <tr id="{{ (entity.name ~ ':' ~ prop.name ) | urlencode }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
                         <td>
                           <code property="rdfs:label">
-                            <a href="{{ prop.uri }}" data-toggle="tooltip" data-content="{{ prop.uri }}" data-placement="right">{{ prop.label[language] }}</a>
+                            <a href="{{ prop.uri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.uri }}" data-vl-tooltip-placement="right">{{ prop.label[language] }}</a>
                           </code>
                         </td>
                         <td>
                           {% for range in prop.scopedrange %}
 			    {% if range['range_uri'] == range['range_puri'] %} 
-			    <a href="{{ range['range_uri'] }}" data-toggle="tooltip" data-content="{{ range['range_puri'] }}" data-placement="right">{{ range['range_label'][language] }}</a>
+			    <a href="{{ range['range_uri'] }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ range['range_puri'] }}" data-vl-tooltip-placement="right">{{ range['range_label'][language] }}</a>
                             {% else %}
 			    <a href="{{ range['range_uri'] }}" data-placement="right">{{ range['range_label'][language] }}</a>
 			    {% endif %}
@@ -361,8 +362,8 @@
             </div>
             {% endfor %}
             {% endif %}
-			<div class="region region--no-space-top" id="sqlite">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SQLite download</h2>
+			<div class="vl-region vl-region--no-space-top" id="sqlite">
+                <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">SQLite download</h2>
 
                 {% block sqlite %}
 			<p>Een herbruikbare SQLite database van het Signalisatie Vlaanderen model is terug te vinden op: <a href="https://wegenenverkeer.data.vlaanderen.be/doc/applicatieprofiel/signalisatievlaanderen/ontwerpdocument/1.0.0/html/SignalisatieVlaanderen.db" target="_blank">SQLite download</a></p>
@@ -373,15 +374,15 @@
             </div>
 			
 			<!--
-            <div class="region region--no-space-top" id="jsonld">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
+            <div class="vl-region vl-region--no-space-top" id="jsonld">
+                <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
                 (niet normatief)
                 {% block jsonld %}
                 <p>Een herbruikbare JSON-LD context definitie voor dit implementatiemodel is terug te vinden op: <a href="{{ documentroot }}/context/{{ metadata.filename }}.jsonld" target="_blank">{{ documentroot }}/context/{{ metadata.filename }}.jsonld</a></p>
                 {% endblock %}
             </div>
-            <div class="region region--no-space-top" id="shacl">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
+            <div class="vl-region vl-region--no-space-top" id="shacl">
+                <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
                 (niet normatief)
                 {% block shacl%}
                 <p>Een herbruikbare SHACL template definitie voor dit implementatiemodel is terug te vinden op: <a href="{{ documentroot }}/shacl/{{ metadata.filename }}-SHACL.ttl" target="_blank">{{ documentroot }}/context/{{ metadata.filename }}-SHACL.ttl</a></p>
@@ -389,8 +390,8 @@
             </div>
 			-->
 			
-			<div class="region region--no-space-top" id="auteursenmedewerkers">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Auteurs en medewerkers</h2>
+			<div class="vl-region vl-region--no-space-top" id="auteursenmedewerkers">
+                <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Auteurs en medewerkers</h2>
 			</div>  
 			
 			<div class="head" role="contentinfo" id="respecHeader">
@@ -466,44 +467,44 @@
 			 		  
 			  
           </div>
-          <div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
-              <nav class="side-navigation js-sticky region" id="sideNav">
-                  <div class="side-navigation__content js-scrollspy">
-                      <div class="side-navigation__group">
+          <div class="vl-col--3-12 vl-col--12-12--s vl-col--4-12--m vl-push--1-12 vl-push--reset--m" id="sideNav">
+              <nav class="vl-side-navigation vl-u-sticky vl-region vl-region" id="sideNav">
+                  <div class="vl-side-navigation__content js-scrollspy">
+                      <div class="vl-side-navigation__group">
                           <ul>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#introduction">Inleiding</a>
                               </li>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#summary">Samenvatting</a>
                               </li>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#status">Status van dit document</a>
                               </li>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#license">Licentie</a>
                               </li>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#conformance">Conformiteit</a>
                               </li>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#overview">Overzicht</a>
                               </li>
-							  <li class="side-navigation__item">
+							  <li class="vl-side-navigation__item">
                                   <a href="#sqlite">SQLite download</a>
                               </li>
-							  <li class="side-navigation__item">
+							  <li class="vl-side-navigation__item">
                                   <a href="mailto:TeamBim@verzendlijst.wegenenverkeer.be">Contacteer ons / feedback</a>
                               </li>
 							  <!--
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#jsonld">JSON-LD Context</a>
                               </li>
-                              <li class="side-navigation__item">
+                              <li class="vl-side-navigation__item">
                                   <a href="#shacl">SHACL template</a>
                               </li>
 							  -->
-							  <li class="side-navigation__item">
+							  <li class="vl-side-navigation__item">
                                   <a href="#auteursenmedewerkers">Auteurs en medewerkers</a>
                               </li>
                           </ul>
@@ -522,8 +523,6 @@
     <!-- End global footer-->
   </div>
 
-  <script src="https://ui.vlaanderen.be/2.latest/js/vlaanderen-ui.js"></script>
-  
   <style>
     @media screen {  /* hide from IE3 */
       a[href]:hover { background: #ffa }
@@ -541,21 +540,17 @@
     img {
        width: 100%;
     }
-    .tooltip {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 800;
-      display: none;
+    .vl-tooltip {
       max-width: 128rem;
-      background: #fff;
-      border: 1px solid #ccc;
-      margin-bottom: 1.5rem;
-      text-align: center;
-      font-size: 1.4rem;
-      color: #000;
-      background-clip: padding-box;
     }
   </style>
+
+    <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
+    <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
+
+
+    <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
+    <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
+
 </body>
 </html>

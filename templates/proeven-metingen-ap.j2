@@ -49,83 +49,105 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
    
-<ul class="grid grid--is-stacked js-equal-height-container">
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen.pdf" id="doormat">
-			<div class="doormat__title">
-				Proeven/Metingen
-			</div>
-		<span class="doormat__text">Alle proeven en metingen</span></a>
+<ul class="vl-grid vl-grid--is-stacked js-equal-height-container">
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Proeven/Metingen</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Alle proeven en metingen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen-Onderbouw.pdf" id="doormat">
-			<div class="doormat__title">
-				Onderbouw
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan onderbouw / (onder)funderingen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen-Onderbouw.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Onderbouw</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan onderbouw / (onder)funderingen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen-BitumineuzeLaag.pdf" id="doormat">
-			<div class="doormat__title">
-				Bitumineuze laag
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan bitumineuze lagen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen-BitumineuzeLaag.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Bitumineuze laag</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan bitumineuze lagen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen-CementBetonVerharding.pdf" id="doormat">
-			<div class="doormat__title">
-				CementBeton verharding
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan cement/beton verhardingen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen-CementBetonVerharding.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">CementBeton verharding</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan cement/beton verhardingen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen-AndereLaag.pdf" id="doormat">
-			<div class="doormat__title">
-				Andere laag
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan andere lagen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen-AndereLaag.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Andere laag</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan andere lagen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen-AndereVerharding.pdf" id="doormat">
-			<div class="doormat__title">
-				Andere verharding
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan andere verhardingen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen-AndereVerharding.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Andere verharding</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan andere verhardingen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-metingen-Bestrating.pdf" id="doormat">
-			<div class="doormat__title">
-				Andere verharding
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan bestratingen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-metingen-Bestrating.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Andere verharding</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan bestratingen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-LijnvormigeElementen.pdf" id="doormat">
-			<div class="doormat__title">
-				Lijnvormige elementen
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan lijnvormige elementen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-LijnvormigeElementen.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Lijnvormige elementen</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan lijnvormige elementen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-Rioleringen.pdf" id="doormat">
-			<div class="doormat__title">
-				Lijnvormige elementen
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan rioleringen</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-Rioleringen.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Lijnvormige elementen</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan rioleringen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-Signalisatie.pdf" id="doormat">
-			<div class="doormat__title">
-				Signalisatie
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan signalisatie</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-Signalisatie.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Signalisatie</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan signalisatie</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Proeven-Vegetatie.pdf" id="doormat">
-			<div class="doormat__title">
-				Vegetatie
-			</div>
-		<span class="doormat__text">Proeven en metingen gerelateerd aan vegetatie</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Proeven-Vegetatie.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Vegetatie</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Proeven en metingen gerelateerd aan vegetatie</div>
+		  </div>
+		</a>
 	</li>
    
  </ul>

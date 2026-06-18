@@ -1,0 +1,27 @@
+name: Sync codelijsten to dataset.json
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'codelijsten/*.ttl'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Sync codelists
+        uses: ./.github/actions/sync-codelists
+        with:
+          source-repo: ${{ github.repository }}
+          source-branch: ${{ github.ref_name }}
+          source-dir: codelijsten
+          target-repo: Informatievlaanderen/wegenenverkeer.data.vlaanderen.be
+          target-branch: prod
+          target-file: config/dataset.json
+          ssh-key: ${{ secrets.SYNC_DEPLOY_KEY }}

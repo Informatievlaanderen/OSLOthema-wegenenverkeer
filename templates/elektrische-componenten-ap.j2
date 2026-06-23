@@ -55,69 +55,87 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
    
-   <ul class="grid grid--is-stacked js-equal-height-container">
-<!--	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/HS-metingOpHS.pdf" id="doormat">
-			<div class="doormat__title">
-				HS
-			</div>
-		<span class="doormat__text">Meting op HS</span></a>
+   <ul class="vl-grid vl-grid--is-stacked js-equal-height-container">
+<!--	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/HS-metingOpHS.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">HS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op HS</div>
+		  </div>
+		</a>
 	</li>
-   <li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/HS-metingOpHS-meerdereTrafo.pdf" id="doormat">
-			<div class="doormat__title">
-				HS
-			</div>
-		<span class="doormat__text">Meting op HS meerdere trafo</span></a>
+   <li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/HS-metingOpHS-meerdereTrafo.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">HS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op HS meerdere trafo</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/HS-metingOpLS.pdf" id="doormat">
-			<div class="doormat__title">
-				HS
-			</div>
-		<span class="doormat__text">Meting op LS</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/HS-metingOpLS.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">HS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op LS</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/LS-Aftakking-DNB.pdf" id="doormat">
-			<div class="doormat__title">
-				LS
-			</div>
-		<span class="doormat__text">Meting op LS aftakking DNB</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/LS-Aftakking-DNB.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">LS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op LS aftakking DNB</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/LS-DNB.pdf" id="doormat">
-			<div class="doormat__title">
-				LS
-			</div>
-		<span class="doormat__text">Meting op LS DNB</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/LS-DNB.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">LS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op LS DNB</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/LS-Derden.pdf" id="doormat">
-			<div class="doormat__title">
-				LS
-			</div>
-		<span class="doormat__text">Meting op LS derden</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/LS-Derden.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">LS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op LS derden</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/LS-op-HS-meting-HS.pdf" id="doormat">
-			<div class="doormat__title">
-				LS
-			</div>
-		<span class="doormat__text">Meting op LS op HS cabine aan HS zijde</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/LS-op-HS-meting-HS.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">LS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op LS op HS cabine aan HS zijde</div>
+		  </div>
+		</a>
 	</li>
-   <li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/LS-op-HS-meting-LS.pdf" id="doormat">
-			<div class="doormat__title">
-				LS
-			</div>
-		<span class="doormat__text">Meting op LS op HS cabine aan LS zijde</span></a>
+   <li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/LS-op-HS-meting-LS.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">LS</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Meting op LS op HS cabine aan LS zijde</div>
+		  </div>
+		</a>
 	</li> -->
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/HS-LS-Tunnels.pdf" id="doormat">
-			<div class="doormat__title">
-				HS-LS-Tunnels
-			</div>
-		<span class="doormat__text">HS-LS Tunnels</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/HS-LS-Tunnels.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">HS-LS-Tunnels</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">HS-LS Tunnels</div>
+		  </div>
+		</a>
 	</li>
  </ul>
  

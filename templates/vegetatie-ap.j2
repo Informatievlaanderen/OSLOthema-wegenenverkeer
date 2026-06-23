@@ -56,20 +56,24 @@ Het implementatiemodel legt ook vast welke codelijsten moeten worden gebruikt. D
 {% block images %}
    Extra figuren met gerichte selectie uit bovenstaande figuur:
    
-<ul class="grid grid--is-stacked js-equal-height-container">
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Vegetatie-BegroeidVoorkomen.pdf" id="doormat">
-			<div class="doormat__title">
-				Begroeid voorkomen
-			</div>
-		<span class="doormat__text">Detail begroeid voorkomen</span></a>
+<ul class="vl-grid vl-grid--is-stacked js-equal-height-container">
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Vegetatie-BegroeidVoorkomen.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Begroeid voorkomen</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Detail begroeid voorkomen</div>
+		  </div>
+		</a>
 	</li>
-	<li class="col--4-12 col--1-2--s col--12-12--xs">
-		<a class="doormat js-equal-height u-mobile-no-equal-height" href="{{ documentroot }}/html/Vegetatie-VegetatieElement.pdf" id="doormat">
-			<div class="doormat__title">
-				Vegetatie-element
-			</div>
-		<span class="doormat__text">Detail Vegetatie-element</span></a>
+	<li class="vl-col--6-12 vl-col--1-2--s vl-col--12-12--xs">
+		<a class="vl-doormat js-vl-equal-height" href="{{ documentroot }}/html/Vegetatie-VegetatieElement.pdf">
+		  <div class="vl-doormat__content">
+		    <span class="vl-doormat__content__arrow" aria-hidden="true"></span>
+		    <h2 class="vl-doormat__title" data-vl-clamp="2">Vegetatie-element</h2>
+		    <div class="vl-doormat__text" data-vl-clamp="3">Detail Vegetatie-element</div>
+		  </div>
+		</a>
 	</li>
    </ul>
 {% endblock %}

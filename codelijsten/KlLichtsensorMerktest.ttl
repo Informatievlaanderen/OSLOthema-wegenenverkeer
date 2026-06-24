@@ -5,7 +5,7 @@
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerktest> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Lichtsensor merken test."@nl;
+  skos:definition "Lichtsensormerken test."@nl;
   skos:prefLabel "Lichtsensor merk test"@nl.
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtsensorMerktest/testwaarde1> a skos:Concept;
@@ -14,4 +14,12 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerktest>;
   skos:notation "testwaarde1";
   skos:prefLabel "testwaarde1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerktest> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtsensorMerktest/testwaarde2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "def testwaarde2"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerktest>;
+  skos:notation "testwaarde2";
+  skos:prefLabel "testwaarde2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorMerktest> .

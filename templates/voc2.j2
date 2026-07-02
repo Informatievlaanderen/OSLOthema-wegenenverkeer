@@ -15,6 +15,8 @@
     <meta name="msapplication-TileColor" content="#FFE615"/>
 
 
+	<script src="https://widgets.vlaanderen.be/api/v1/node_modules/%40govflanders/vl-widget-polyfill/dist/index.js"></script>
+   	<script src="https://widgets.vlaanderen.be/api/v1/node_modules/%40govflanders/vl-widget-client/dist/index.js"></script>
     <link rel="stylesheet" href="https://data.vlaanderen.be/assets/css/index.css"/>
     <link rel="icon" sizes="192x192" href="https://data.vlaanderen.be/assets/favicon/icons/icon-highres-precomposed.png"/>
     <link rel="apple-touch-icon" href="https://data.vlaanderen.be/assets/favicon/icons/apple-touch-icon.png"/>
@@ -27,11 +29,12 @@
     <!--[if lt IE 9]><script src='https://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]-->
   </head>
   <body class="h-entry" role="document" id="respecDocument">
-    <div style="min-height:44px;;" id="vlaanderen-header">
+  <div style="min-height:44px;;" id="vlaanderen-header">
     <!-- insert your global header here -->
-    <script type="text/javascript" src="https://widgets.vlaanderen.be/widget/live/5ecf33a0a922428cb9d944c55362ed15"></script>
+    <script type="text/javascript" src="https://widgets.vlaanderen.be/api/v1/widget/4595cc7f-4bbd-488b-9116-c4d4e3d9feaa/embed"></script>
+	 <!-- <script type="text/javascript" src="https://widgets.vlaanderen.be/widget/live/5ecf33a0a922428cb9d944c55362ed15"></script>-->
     <!-- end global header-->
-    </div>
+  </div>
     <div class="vl-page">
         <div class="vl-layout vl-layout--wide">
             <div class="vl-grid u-hr">
@@ -494,7 +497,10 @@
                                         </li>                                        
                                         <li class="vl-side-navigation__item">
                                             <a href="#sotd">Status van dit document</a>
-                                        </li>                                        
+                                        </li>
+										<li class="vl-side-navigation__item">
+											<a href="mailto:team.bim@mow.vlaanderen.be" target="_blank">Contacteer ons / feedback</a>
+										</li>                                        
                                         <li class="vl-side-navigation__item">
                                             <a href="#license-and-liability">1. Licentie</a>
                                         </li>                                       
@@ -526,11 +532,12 @@
         </div>
     </div>
 
-    <div id="vlaanderen-footer">
-        <!-- insert your Vlaanderen-footer-code here -->
-        <script type="text/javascript" src="https://widgets.vlaanderen.be/widget/live/d6d44414e7c242f396ab6da8f8da5198"></script>
-        <!-- End global footer-->
-    </div>
+  <div id="vlaanderen-footer">
+    <!-- insert your Vlaanderen-footer-code here -->
+	<script type="text/javascript" src="https://widgets.vlaanderen.be/api/v1/widget/56d41777-4250-4cab-b9e2-0d4b21084d43/embed"></script>
+   <!--  <script type="text/javascript" src="https://widgets.vlaanderen.be/widget/live/d6d44414e7c242f396ab6da8f8da5198"></script>-->
+    <!-- End global footer-->
+  </div>
 
     <style>
       @media screen {  /* hide from IE3 */

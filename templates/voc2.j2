@@ -377,6 +377,7 @@
 
                                 {% if external_terms %}
                                 {% for external in external_terms %}
+								{% if external.uri != "http://www.w3.org/2004/02/skos/core#Concept" %}
                                 <div class="vl-region vl-region--no-space-top">
                                     <h3 class="vl-title--h4" id="{{ external.name[language] }}"><em>{{ external.name[language] }}</em></h3>
                                     <table class="definition">
@@ -386,7 +387,7 @@
                                             <th>URI</th>
                                             <td><code>{{ external.uri }}</code></td>
                                           </tr>
-					 {% if external.definition[language] %}
+								{% if external.definition[language] %}
                                           <tr>
                                             <th>Definitie</th>
                                             <td>{{ external.description[language] }}</td>
@@ -402,6 +403,7 @@
                                         </tbody>
                                     </table>
                                 </div>
+								{% endif %}
                                 {% endfor %}
                                 {% else %}
                                 <div class="vl-region vl-region--no-space-top">
@@ -411,7 +413,7 @@
 
                             </section>
                         </div>
-						
+					<!--
 						<div class="vl-region vl-region--no-space-top" id="auteursenmedewerkers">
 							<h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd"><span class="secno">7. </span>Auteurs en medewerkers</h2>
 							<div class="head" role="contentinfo" id="respecHeader">
@@ -485,7 +487,7 @@
 							</dl>
 						</div>
 					</div>
-					
+					-->
                     </div>
                     <div class="vl-col--3-12 vl-col--12-12--s vl-col--4-12--m vl-push--1-12 vl-push--reset--m" id="sideNav">
                         <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">

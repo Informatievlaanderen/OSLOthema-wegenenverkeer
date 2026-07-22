@@ -32,14 +32,6 @@
   skos:prefLabel "NOKIA"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Ciena> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Ciena"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
-  skos:notation "Ciena";
-  skos:prefLabel "Ciena"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/aerohive> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Aerohive"@nl;
@@ -118,6 +110,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
   skos:notation "actelis";
   skos:prefLabel "Actelis"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/smartoptics> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Smartoptics"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "smartoptics";
+  skos:prefLabel "Smartoptics"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/Ciena> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ciena"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk>;
+  skos:notation "Ciena";
+  skos:prefLabel "Ciena"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkMerk/fortinet> a skos:Concept;

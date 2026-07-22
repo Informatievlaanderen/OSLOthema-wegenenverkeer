@@ -48,14 +48,6 @@
   skos:prefLabel "NULL"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/STM-64> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
-  skos:notation "STM-64";
-  skos:prefLabel "STM-64"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/4G-FC> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -78,6 +70,30 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
   skos:notation "10GE";
   skos:prefLabel "10GE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/200ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ethernet verbinding met bandbreedte van 200 Gb/s"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "200ge";
+  skos:prefLabel "200GE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/STM-64> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "STM-64";
+  skos:prefLabel "STM-64"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/400ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ethernet verbinding met bandbreedte van 400 Gb/s"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "400ge";
+  skos:prefLabel "400GE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/E> a skos:Concept;
@@ -150,6 +166,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
   skos:notation "OTU-1";
   skos:prefLabel "OTU-1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/800ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ethernet verbinding met bandbreedte van 800 Gb/s"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "800ge";
+  skos:prefLabel "800GE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/GE> a skos:Concept;

@@ -56,6 +56,14 @@
   skos:prefLabel "Compound voeg"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/modulaire-voeg> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Brugdekvoeg waarbij de beweging over meerdere spleten wordt verdeeld door tussenliggende profielbalken, elk afgedicht met een elastomeer dichtingsprofiel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg>;
+  skos:notation "modulaire-voeg";
+  skos:prefLabel "Modulaire voeg"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBrugdekvoeg> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBrugdekvoeg/polymeer-voeg> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "(Flexibele) voegovergang op basis van polymeren."@nl;

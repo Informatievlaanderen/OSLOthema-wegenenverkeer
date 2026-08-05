@@ -40,14 +40,6 @@
   skos:prefLabel "voorgespannen gewapende betonbuizen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-gewapend-beton-voorzien-van-een-harde-PVC-bekleding> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Doorpersbuizen van polymeerbeton"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
-  skos:notation "doorpersbuizen-van-gewapend-beton-voorzien-van-een-harde-PVC-bekleding";
-  skos:prefLabel "doorpersbuizen van gewapend beton voorzien van een harde PVC-bekleding"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-beton-met-plaatstalen-kern-en-dubbel-voegsysteem> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Doorpersbuizen van beton met plaatstalen kern en dubbel voegsysteem"@nl;
@@ -142,6 +134,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
   skos:notation "gewapend-betonbuizen";
   skos:prefLabel "gewapend-betonbuizen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/doorpersbuizen-van-gewapend-beton-voorzien-van-een-harde-PVC-bekleding> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Doorpersbuizen van polymeerbeton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
+  skos:notation "doorpersbuizen-van-gewapend-beton-voorzien-van-een-harde-PVC-bekleding";
+  skos:prefLabel "doorpersbuizen van gewapend beton voorzien van een harde PVC-bekleding"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/rvs> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Roestvast staal - Inox"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal>;
+  skos:notation "rvs";
+  skos:prefLabel "RVS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisMateriaal> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisMateriaal/wandversterkte-HDPE-buizen> a skos:Concept;

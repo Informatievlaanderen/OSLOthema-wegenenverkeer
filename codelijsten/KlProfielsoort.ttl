@@ -8,6 +8,14 @@
   skos:definition "Het type profiel (de meest genormeerde types)."@nl;
   skos:prefLabel "Profielsoort"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/ipn> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een IPN-profiel (I Normaal Profiel, ook wel INP genoemd) heeft iets schuinere flenzen dan een IPE-profiel."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
+  skos:notation "ipn";
+  skos:prefLabel "IPN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/heb> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Meest voorkomende breedflensprofiel (een profiel met brede evenwijdige flenzen). Het HEB-profiel heeft meer draagkracht dan het HEA-profiel."@nl;
@@ -16,36 +24,20 @@
   skos:prefLabel "HEB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/ipe> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/hem> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een IPE-profiel (I Profiel Europees) heeft betrekkelijk korte, evenwijdige flenzen met een constante dikte."@nl;
+  skos:definition "Breedflensprofiel : een HEM-profiel heeft dikkere flenzen en lijf dan HEA- en HEB-profielen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
-  skos:notation "ipe";
-  skos:prefLabel "IPE"@nl;
+  skos:notation "hem";
+  skos:prefLabel "HEM"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/upn> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/hp-bulbstaal> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Het meest gebruikte U-vormig profiel. Een UPN-profiel (U Normaal Profiel, ook wel UNP genoemd) heeft schuine flenzen."@nl;
+  skos:definition "Een massief profiel : Hollandprofiel (afgekort HP)."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
-  skos:notation "upn";
-  skos:prefLabel "UPN"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/upe> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "U-vormig profiel. Een UPE-profiel heeft rechte flenzen die overal even dik zijn en dikker zijn dan het lijf."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
-  skos:notation "upe";
-  skos:prefLabel "UPE"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/ipn> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een IPN-profiel (I Normaal Profiel, ook wel INP genoemd) heeft iets schuinere flenzen dan een IPE-profiel."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
-  skos:notation "ipn";
-  skos:prefLabel "IPN"@nl;
+  skos:notation "hp-bulbstaal";
+  skos:prefLabel "HP (bulbstaal)"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/hea> a skos:Concept;
@@ -64,18 +56,34 @@
   skos:prefLabel "HD"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/hem> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/omega> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Breedflensprofiel : een HEM-profiel heeft dikkere flenzen en lijf dan HEA- en HEB-profielen."@nl;
+  skos:definition " Een profiel met de vorm van de Griekse hoofdletter omega."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
-  skos:notation "hem";
-  skos:prefLabel "HEM"@nl;
+  skos:notation "omega";
+  skos:prefLabel "Omega"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/hp-bulbstaal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/upn> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een massief profiel : Hollandprofiel (afgekort HP)."@nl;
+  skos:definition "Het meest gebruikte U-vormig profiel. Een UPN-profiel (U Normaal Profiel, ook wel UNP genoemd) heeft schuine flenzen."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
-  skos:notation "hp-bulbstaal";
-  skos:prefLabel "HP (bulbstaal)"@nl;
+  skos:notation "upn";
+  skos:prefLabel "UPN"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/ipe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een IPE-profiel (I Profiel Europees) heeft betrekkelijk korte, evenwijdige flenzen met een constante dikte."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
+  skos:notation "ipe";
+  skos:prefLabel "IPE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlProfielsoort/upe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "U-vormig profiel. Een UPE-profiel heeft rechte flenzen die overal even dik zijn en dikker zijn dan het lijf."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort>;
+  skos:notation "upe";
+  skos:prefLabel "UPE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlProfielsoort> .

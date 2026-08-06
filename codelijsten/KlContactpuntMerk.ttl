@@ -15,3 +15,19 @@
   skos:notation "heinen";
   skos:prefLabel "Heinen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactpuntMerk/ifm> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "IFM"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk>;
+  skos:notation "ifm";
+  skos:prefLabel "IFM"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactpuntMerk/maasland-groep> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Maasland Groep"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk>;
+  skos:notation "maasland-groep";
+  skos:prefLabel "Maasland Groep"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk> .

@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Merknamen van de hydrostatische niveaumeting."@nl;
   skos:prefLabel "Hydrostatische niveaumeting merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHydrostatischeNiveaumetingMerk/endress-hauser> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Endress+Hauser"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHydrostatischeNiveaumetingMerk>;
+  skos:notation "endress-hauser";
+  skos:prefLabel "Endress+Hauser"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHydrostatischeNiveaumetingMerk> .

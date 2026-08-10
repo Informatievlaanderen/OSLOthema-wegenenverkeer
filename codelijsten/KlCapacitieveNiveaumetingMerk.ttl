@@ -15,3 +15,19 @@
   skos:notation "endress-hauser";
   skos:prefLabel "Endress+Hauser"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCapacitieveNiveaumetingMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCapacitieveNiveaumetingMerk/grundfos> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Grundfos"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCapacitieveNiveaumetingMerk>;
+  skos:notation "grundfos";
+  skos:prefLabel "Grundfos"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCapacitieveNiveaumetingMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCapacitieveNiveaumetingMerk/lowara> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lowara-Xylem"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCapacitieveNiveaumetingMerk>;
+  skos:notation "lowara";
+  skos:prefLabel "Lowara"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCapacitieveNiveaumetingMerk> .

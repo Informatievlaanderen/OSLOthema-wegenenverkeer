@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Merknamen van een stuurklep."@nl;
   skos:prefLabel "Stuurklep merk"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStuurklepMerk/avk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "AVK"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk>;
+  skos:notation "avk";
+  skos:prefLabel "AVK"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStuurklepMerk/genebre> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Genebre"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk>;
+  skos:notation "genebre";
+  skos:prefLabel "Genebre"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStuurklepMerk/eriks> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Eriks"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk>;
+  skos:notation "eriks";
+  skos:prefLabel "Eriks"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk> .

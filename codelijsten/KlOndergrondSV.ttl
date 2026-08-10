@@ -40,6 +40,14 @@
   skos:prefLabel "BestratingVanBetonstraatsteen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/testondergrond> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TestOndergrond"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV>;
+  skos:notation "testondergrond";
+  skos:prefLabel "TestOndergrond"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOndergrondSV> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOndergrondSV/bestratingvanmozaiekkei> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

@@ -8,28 +8,12 @@
   skos:definition "De mogelijke verankeringen."@nl;
   skos:prefLabel "Verankering SV"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/signalisatievoet> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
-  skos:notation "signalisatievoet";
-  skos:prefLabel "signalisatievoet"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/voetplaat-diameter-76> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
   skos:notation "voetplaat-diameter-76";
   skos:prefLabel "voetplaat diameter 76"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/testverankering> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "TestVerankering"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
-  skos:notation "testverankering";
-  skos:prefLabel "TestVerankering"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/geen> a skos:Concept;
@@ -70,4 +54,20 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
   skos:notation "voetplaat-diameter-51";
   skos:prefLabel "voetplaat diameter 51"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/signalisatievoet> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "signalisatievoet";
+  skos:prefLabel "signalisatievoet"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/testverankering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/uitgebruik>;
+  skos:definition "TestVerankering"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "testverankering";
+  skos:prefLabel "TestVerankering"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .

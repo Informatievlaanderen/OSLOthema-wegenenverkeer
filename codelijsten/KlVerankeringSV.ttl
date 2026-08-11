@@ -24,6 +24,14 @@
   skos:prefLabel "voetplaat diameter 76"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/testverankering> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TestVerankering"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV>;
+  skos:notation "testverankering";
+  skos:prefLabel "TestVerankering"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerankeringSV> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerankeringSV/geen> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;

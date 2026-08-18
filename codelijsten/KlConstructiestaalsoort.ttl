@@ -40,6 +40,14 @@
   skos:prefLabel "S460M"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/s355ml> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Is warmgewalst, lasbaar fijnkorrelig constructiestaal heeft een vloeigrens van 355 MPa en verbeterde lasbaarheid. De ‘S’ staat voor ‘structural steel’ (constructiestaal). De ‘M’ staat voor Thermomechanisch gewalst (TMCP). De ‘L’ geeft aan dat de impacttemperatuur niet minder dan -50 °C is."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort>;
+  skos:notation "s355ml";
+  skos:prefLabel "S355ML"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlConstructiestaalsoort> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlConstructiestaalsoort/x17crni16-2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "X17CrNi16-2"@nl;

@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke keuringstypes voor de elektrische keuring."@nl;
   skos:prefLabel "Keuringstype elektrisch"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsTypeElektrisch/indienstnamekeuring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Elektrische keuring die wordt uitgevoerd vóór de ingebruikname van een nieuwe installatie of van een belangrijk gewijzigde of uitgebreide installatie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch>;
+  skos:notation "indienstnamekeuring";
+  skos:prefLabel "indienstnamekeuring"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsTypeElektrisch/eerste-keuring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Eerste elektrische keuring van een bestaande installatie die niet eerder volgens de toepasselijke regelgeving werd gekeurd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch>;
+  skos:notation "eerste-keuring";
+  skos:prefLabel "eerste keuring"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsTypeElektrisch/periodieke-keuring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Elektrische keuring die na een eerder uitgevoerde keuring met een vastgestelde periodiciteit opnieuw wordt uitgevoerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch>;
+  skos:notation "periodieke-keuring";
+  skos:prefLabel "periodieke keuring"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> .

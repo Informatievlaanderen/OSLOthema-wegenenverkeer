@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De verschillende types materialen waaruit de vloeistofdichte kuip van de KWS afscheider kan vervaardigd zijn."@nl;
   skos:prefLabel "Materiaal kuip KWS Afscheider"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalKuipKWSAfscheider/beton> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "beton"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider>;
+  skos:notation "beton";
+  skos:prefLabel "beton"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalKuipKWSAfscheider/hdpe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "HDPE"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider>;
+  skos:notation "hdpe";
+  skos:prefLabel "HDPE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalKuipKWSAfscheider/glasvezelversterkt-kunststof-gvk> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "glasvezelversterkt kunststof (GVK)"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider>;
+  skos:notation "glasvezelversterkt-kunststof-gvk";
+  skos:prefLabel "glasvezelversterkt kunststof (GVK)"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider> .

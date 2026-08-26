@@ -8,12 +8,20 @@
   skos:definition "Lijst met merknamen voor allerlei types van toegangspoorten volgens de fabrikant"@nl;
   skos:prefLabel "Toegangspoort merk"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/hormann> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/segaf> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Hormann"@nl;
+  skos:definition "Segaf"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk>;
-  skos:notation "hormann";
-  skos:prefLabel "Hormann"@nl;
+  skos:notation "segaf";
+  skos:prefLabel "Segaf"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/lenaers> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lenaers"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk>;
+  skos:notation "lenaers";
+  skos:prefLabel "Lenaers"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/bm-technics> a skos:Concept;
@@ -24,12 +32,12 @@
   skos:prefLabel "BM Technics"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/segaf> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/hormann> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Segaf"@nl;
+  skos:definition "Hormann"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk>;
-  skos:notation "segaf";
-  skos:prefLabel "Segaf"@nl;
+  skos:notation "hormann";
+  skos:prefLabel "Hormann"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/nassau> a skos:Concept;

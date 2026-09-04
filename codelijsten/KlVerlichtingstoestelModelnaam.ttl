@@ -16,14 +16,6 @@
   skos:prefLabel "Safir"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/tflex-module> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "TFLEX Module"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
-  skos:notation "tflex-module";
-  skos:prefLabel "TFLEX Module"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/rombalux> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Rombalux"@nl;
@@ -168,6 +160,14 @@
   skos:prefLabel "RXS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/sculpline> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "SCULPLine"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "sculpline";
+  skos:prefLabel "SCULPLine"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/brugleuning> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -246,6 +246,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
   skos:notation "Iridium";
   skos:prefLabel "Iridium"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/ilum-mark> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "ILUM MARK"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "ilum-mark";
+  skos:prefLabel "ILUM MARK"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/tflex-module> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TFLEX Module"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam>;
+  skos:notation "tflex-module";
+  skos:prefLabel "TFLEX Module"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerlichtingstoestelModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerlichtingstoestelModelnaam/GSM> a skos:Concept;

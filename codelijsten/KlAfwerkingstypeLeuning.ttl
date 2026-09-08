@@ -31,3 +31,11 @@
   skos:notation "roestvrij-cortenstaal";
   skos:prefLabel "Roestvrij cortenstaal"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfwerkingstypeLeuning> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfwerkingstypeLeuning/thermisch-verzinkt> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Voorzien van een beschermende zinklaag aangebracht door onderdompeling in gesmolten zink ter bescherming tegen corrosie."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfwerkingstypeLeuning>;
+  skos:notation "thermisch-verzinkt";
+  skos:prefLabel "Thermisch verzinkt"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfwerkingstypeLeuning> .

@@ -24,6 +24,14 @@
   skos:prefLabel "TL"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLampTypeIVSB/tl-58w> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "TL 58W"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB>;
+  skos:notation "tl-58w";
+  skos:prefLabel "TL 58W"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLampTypeIVSB/mhhp-t-100-lv-e40> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "MHHP-T-100 lv. E40"@nl;
@@ -78,6 +86,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB>;
   skos:notation "hpit-400w";
   skos:prefLabel "HPIT 400W"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLampTypeIVSB/andere> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Andere"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB>;
+  skos:notation "andere";
+  skos:prefLabel "Andere"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLampTypeIVSB> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLampTypeIVSB/tl-36w> a skos:Concept;

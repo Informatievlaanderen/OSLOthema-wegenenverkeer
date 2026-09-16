@@ -1,0 +1,25 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://.data.wegenenverkeer.be/id/conceptscheme/KlTypeGeleidingssteun> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types van een geleidingssteun."@nl;
+  skos:prefLabel "Type geleidingssteun"@nl.
+
+<https://.data.wegenenverkeer.be/id/concept/KlTypeGeleidingssteun/rollend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlTypeGeleidingssteun>;
+  skos:notation "rollend";
+  skos:prefLabel "rollend"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlTypeGeleidingssteun> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlTypeGeleidingssteun/geleidend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlTypeGeleidingssteun>;
+  skos:notation "geleidend";
+  skos:prefLabel "geleidend"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlTypeGeleidingssteun> .

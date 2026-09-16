@@ -194,13 +194,13 @@
                                    <p><a href="https://service.tib.eu/webvowl/#iri={{ metadata.uri }}/voc/{{ metadata.filename }}.ttl">Verken het vocabularium</a></p>
                                 </div>
 
-                                {% if ( ( data.classes | length) > 0 )%}
+                                {% if ( ( classes | length) > 0 )%}
                                 <div class="vl-region vl-region--no-space-top">
                                     <h3 class="vl-title--h3" >Klassen</h3>
                                     <div class="vl-grid">
                                         <p>
                                             |
-                                            {% for class in data.classes | sort(attribute=sortattr) %}
+                                            {% for class in classes | sort(attribute=sortattr) %}
                                             <a href="{{ class.uri  | replace(metadata.uri, '') }}" rel="class">{{ class.name}}</a> |
                                             {% endfor %}
                                         </p>
@@ -228,11 +228,11 @@
                             <section typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter" id="classes">
 
                                 <h2 class="vl-title--h2" id="classes" aria-level="1" role="heading"><span class="secno">4. </span>Klassen</h2>
-                                {% if data.classes %}
+                                {% if classes %}
                                 <div class="vl-region vl-region--no-space-top">
                                     <p>Deze sectie geeft een formele definitie aan elke klasse.</p>
                                 </div>
-                                {% for class in data.classes | sort(attribute=sortattr) %}
+                                {% for class in classes | sort(attribute=sortattr) %}
                                 <div class="vl-region vl-region--no-space-top">
                                     <h3 class="vl-title--h3"  id="{{ class.uri | replace(metadata.uri + '#', '') }}">Klasse <em>{{ class.name }}</em></h3>
                                     <table class="definition">

@@ -173,7 +173,7 @@
               <h2 class="vl-title--h2">Overzicht</h2>
               <div class="vl-grid">
                 <div class="vl-col--9-12 vl-col--1-1--s vl-typography">
-                  {% if ( ( classes | length > 0)   ) %}
+                  {% if ( ( data.classes | length > 0)   ) %}
                   <div class="vl-region vl-region--no-space-top">
                     <p>In dit document wordt correct gebruik van de volgende entiteiten toegelicht:
                       <br />
@@ -184,12 +184,12 @@
                     </p>
                   </div>
                   {% endif %}
-                  {% if ( ( datatypes | length ) > 0 ) %}
+                  {% if ( ( data.datatypes | length ) > 0 ) %}
                   <div class="vl-region vl-region--no-space-top">
                     <p> In dit document worden de volgende datatypes toegelicht:
                       <br />
                       |
-                      {%- for datatype in datatypes |sort(attribute=sortattr) %}
+                      {%- for datatype in data.datatypes |sort(attribute=sortattr) %}
                       <a href="#{{ datatype.name }}">{{ datatype.label[language] }}</a> |
                       {%- endfor %}
                     </p>
@@ -209,7 +209,7 @@
             <div class="vl-region vl-region--no-space-top">
               <h2 class="vl-title--h2">Entiteiten</h2>
             </div>
-            {% for entity in classes | sort(attribute=sortattr) %}
+            {% for entity in data.classes | sort(attribute=sortattr) %}
               <div class="vl-region vl-region--no-space-top">
               <h3 class="vl-title--h3" id="{{ entity.name }}"><a href="{{ entity.uri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.uri }}" data-vl-tooltip-placement="right">{{ entity.label[language] }}</a></h3>
                 <div class="vl-region vl-region--no-space-top">
@@ -281,11 +281,11 @@
             </div>
             {% endfor %}
 
-            {% if datatypes %}
+            {% if data.datatypes %}
             <div class="vl-region vl-region--no-space-top">
               <h2 class="vl-title--h2">Datatypes</h2>
             </div>
-            {% for entity in datatypes | sort(attribute=sortattr)%}
+            {% for entity in data.datatypes | sort(attribute=sortattr)%}
             <div class="vl-region vl-region--no-space-top">
               {% if entity.scopeduri %}
               <h3 class="vl-title--h3" id="{{ entity.name }}"><a href="{{ entity.scopeduri }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.uri }}" data-vl-tooltip-placement="right">{{ entity.label[language] }}</a></h3>

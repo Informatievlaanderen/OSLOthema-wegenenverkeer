@@ -7,3 +7,75 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke doeleinden waarvoor een camera wordt ingezet."@nl;
   skos:prefLabel "Camera doeleinde"@nl.
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/verkeersdetectie-en-of-monitoring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Afwikkeling en sturing van het verkeer: verkeersdetectie en/of -monitoring."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "verkeersdetectie-en-of-monitoring";
+  skos:prefLabel "verkeersdetectie en/of -monitoring"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/faciliteren-handhaving-van-derden> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Faciliteren handhaving van derden (bijvoorbeeld voor Politie, Vlabel…)."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "faciliteren-handhaving-van-derden";
+  skos:prefLabel "faciliteren handhaving van derden"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/bescherming-van-infrastructuur> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bescherming van infrastructuur: voorkomen van aanrijding van een tunnel of brug vb. hoogtedetectie."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "bescherming-van-infrastructuur";
+  skos:prefLabel "bescherming van infrastructuur"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/analyses-en-onderzoek> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Analyses en onderzoek met betrekking tot verkeer en verkeersbeheer, verkeersveiligheid, technische systemen en incidentafhandeling."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "analyses-en-onderzoek";
+  skos:prefLabel "analyses en onderzoek"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/bewaking> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Preventie en vastelling van misdrijven of overlast."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "bewaking";
+  skos:prefLabel "bewaking"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/inspectie-en-inventarisatie-assetmonitoring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Exploitatie en onderhoud van infrastructuur: inspectie en inventarisatie (assetmonitoring)."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "inspectie-en-inventarisatie-assetmonitoring";
+  skos:prefLabel "inspectie en inventarisatie (assetmonitoring)"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/faciliteren-handhaving-door-awv> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Faciliteren handhaving door AWV."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "faciliteren-handhaving-door-awv";
+  skos:prefLabel "faciliteren handhaving door AWV"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/incidentdetectie-en-of-afhandeling> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Afwikkeling en sturing van het verkeer: incidentdetectie en/of -afhandeling."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "incidentdetectie-en-of-afhandeling";
+  skos:prefLabel "incidentdetectie en/of -afhandeling"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .
+
+<https://.data.wegenenverkeer.be/id/concept/KlCameraDoeleinde/toegangsbeheer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Verlenen van toegang van op afstand."@nl;
+  skos:inScheme <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde>;
+  skos:notation "toegangsbeheer";
+  skos:prefLabel "toegangsbeheer"@nl;
+  skos:topConceptOf <https://.data.wegenenverkeer.be/id/conceptscheme/KlCameraDoeleinde> .

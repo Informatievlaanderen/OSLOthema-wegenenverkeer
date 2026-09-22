@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke plaatsen volgens de Camerawet, op basis van de beslotenheid en de toegankelijkheid voor het publiek."@nl;
   skos:prefLabel "Beslotenheid plaats"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/niet-besloten-plaats> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "niet-besloten plaats."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
+  skos:notation "niet-besloten-plaats";
+  skos:prefLabel "niet-besloten plaats"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .

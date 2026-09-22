@@ -6,9 +6,8 @@ on:
       - master
     paths:
       - 'codelijsten/*.ttl'
-    paths-ignore:
-      - 'codelijsten/all.ttl'
-      - 'codelijsten/all.ttl.zip'
+      - '!codelijsten/all.ttl'
+      - '!codelijsten/all.ttl.zip'
   workflow_dispatch:
 
 jobs:

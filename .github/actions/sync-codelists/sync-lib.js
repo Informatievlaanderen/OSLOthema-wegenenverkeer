@@ -116,6 +116,7 @@ function writeDataset(targetFilePath, dataset) {
  * Write all.ttl to disk and create all.ttl.zip.
  */
 function writeAllTtlAndZip(allTtlDirPath, content) {
+  fs.mkdirSync(allTtlDirPath, { recursive: true });
   const allTtlPath = path.join(allTtlDirPath, "all.ttl");
   const allTtlZipPath = path.join(allTtlDirPath, "all.ttl.zip");
 

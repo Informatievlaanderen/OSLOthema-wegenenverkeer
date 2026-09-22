@@ -45,7 +45,7 @@ runs:
   using: composite
   steps:
     - name: Checkout target repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: ${{ inputs.target-repo }}
         ref: ${{ inputs.target-branch }}

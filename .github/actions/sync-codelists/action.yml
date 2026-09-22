@@ -26,7 +26,7 @@ inputs:
   target-branch:
     description: Branch of the target repository to check out and push to.
     required: false
-    default: dev
+    default: prod
   target-file:
     description: Path to dataset.json within the target repository.
     required: false
@@ -34,12 +34,18 @@ inputs:
   ssh-key:
     description: SSH private key with write access to the target repository (deploy key).
     required: true
+  all-ttl-dir:
+    description: >
+      Directory (relative to the source repo root) where all.ttl and
+      all.ttl.zip will be written. Leave empty to skip generation.
+    required: false
+    default: ''
 
 runs:
   using: composite
   steps:
     - name: Checkout target repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: ${{ inputs.target-repo }}
         ref: ${{ inputs.target-branch }}
@@ -53,6 +59,7 @@ runs:
         SOURCE_BRANCH: ${{ inputs.source-branch }}
         SOURCE_DIR: ${{ inputs.source-dir }}
         TARGET_FILE: _sync-target/${{ inputs.target-file }}
+        ALL_TTL_DIR: ${{ inputs.all-ttl-dir }}
       run: node "${{ github.action_path }}/sync.js"
 
     - name: Commit and push

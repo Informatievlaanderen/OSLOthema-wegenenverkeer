@@ -34,6 +34,12 @@ inputs:
   ssh-key:
     description: SSH private key with write access to the target repository (deploy key).
     required: true
+  all-ttl-dir:
+    description: >
+      Directory (relative to the source repo root) where all.ttl and
+      all.ttl.zip will be written. Leave empty to skip generation.
+    required: false
+    default: ''
 
 runs:
   using: composite
@@ -53,6 +59,7 @@ runs:
         SOURCE_BRANCH: ${{ inputs.source-branch }}
         SOURCE_DIR: ${{ inputs.source-dir }}
         TARGET_FILE: _sync-target/${{ inputs.target-file }}
+        ALL_TTL_DIR: ${{ inputs.all-ttl-dir }}
       run: node "${{ github.action_path }}/sync.js"
 
     - name: Commit and push

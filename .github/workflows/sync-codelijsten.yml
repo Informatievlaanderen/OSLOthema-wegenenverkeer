@@ -6,6 +6,9 @@ on:
       - master
     paths:
       - 'codelijsten/*.ttl'
+    paths-ignore:
+      - 'codelijsten/all.ttl'
+      - 'codelijsten/all.ttl.zip'
   workflow_dispatch:
 
 jobs:
@@ -25,3 +28,17 @@ jobs:
           target-branch: prod
           target-file: config/dataset.json
           ssh-key: ${{ secrets.SYNC_DEPLOY_KEY }}
+          all-ttl-dir: codelijsten
+
+      - name: Commit all.ttl and all.ttl.zip to source repository
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add codelijsten/all.ttl codelijsten/all.ttl.zip
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update all.ttl and all.ttl.zip"
+            git push
+          fi

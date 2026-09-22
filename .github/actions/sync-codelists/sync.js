@@ -1,7 +1,14 @@
 "use strict";
 
-const fs = require("fs");
 const path = require("path");
+const {
+  getCurrentNames,
+  computeDiff,
+  applyDiff,
+  generateAllTtlContent,
+  writeDataset,
+  writeAllTtlAndZip,
+} = require("./sync-lib");
 
 const workspace = process.env.GITHUB_WORKSPACE || process.cwd();
 
@@ -9,6 +16,7 @@ const SOURCE_REPO = process.env.SOURCE_REPO;
 const SOURCE_BRANCH = process.env.SOURCE_BRANCH;
 const SOURCE_DIR = process.env.SOURCE_DIR;
 const TARGET_FILE = process.env.TARGET_FILE;
+const ALL_TTL_DIR = process.env.ALL_TTL_DIR;
 
 for (const [key, value] of Object.entries({
   SOURCE_REPO,
@@ -32,51 +40,36 @@ const sourceUrlBase = `https://raw.githubusercontent.com/${SOURCE_REPO}/refs/hea
 // Read source .ttl files
 // ---------------------------------------------------------------------------
 
-const currentNames = fs
-  .readdirSync(sourceDirPath)
-  .filter((f) => f.endsWith(".ttl"))
-  .map((f) => path.basename(f, ".ttl"))
-  .sort();
+const currentNames = getCurrentNames(sourceDirPath);
+const dataset = JSON.parse(require("fs").readFileSync(targetFilePath, "utf8"));
 
-const dataset = JSON.parse(fs.readFileSync(targetFilePath, "utf8"));
+// ---------------------------------------------------------------------------
+// Sync dataset.json
+// ---------------------------------------------------------------------------
 
-const ownsEntry = (entry) => entry.sourceUrl.includes(`/${SOURCE_REPO}/`);
+const diff = computeDiff(currentNames, dataset, SOURCE_REPO);
+const updatedDataset = applyDiff(dataset, diff, sourceUrlBase);
 
-const ownedEntries = dataset.conceptSchemes.filter(ownsEntry);
-const otherEntries = dataset.conceptSchemes.filter((e) => !ownsEntry(e));
+if (updatedDataset) {
+  for (const name of diff.toRemove) console.log(`Removing: ${name}`);
+  for (const name of diff.toAdd) console.log(`Adding:   ${name}`);
 
-const ownedByRef = Object.fromEntries(ownedEntries.map((e) => [e.urlRef, e]));
+  writeDataset(targetFilePath, updatedDataset);
+  console.log(`Dataset.json: +${diff.toAdd.length} added, -${diff.toRemove.length} removed.`);
+} else {
+  console.log("Dataset.json: no changes needed.");
+}
 
-const currentSet = new Set(currentNames);
-const ownedSet = new Set(Object.keys(ownedByRef));
+// ---------------------------------------------------------------------------
+// Generate all.ttl and all.ttl.zip
+// ---------------------------------------------------------------------------
 
-const toAdd = currentNames.filter((n) => !ownedSet.has(n));
-const toRemove = [...ownedSet].filter((n) => !currentSet.has(n)).sort();
-
-if (toAdd.length === 0 && toRemove.length === 0) {
-  console.log("No changes needed.");
+if (!ALL_TTL_DIR) {
   process.exit(0);
 }
 
-for (const name of toRemove) console.log(`Removing: ${name}`);
-for (const name of toAdd) console.log(`Adding:   ${name}`);
+const allTtlDirPath = path.resolve(workspace, ALL_TTL_DIR);
 
-const updatedOwned = currentNames.map(
-  (name) =>
-    ownedByRef[name] ?? {
-      urlRef: name,
-      sourceUrl: `${sourceUrlBase}/${name}.ttl`,
-    },
-);
-
-dataset.conceptSchemes = [...otherEntries, ...updatedOwned].sort((a, b) =>
-  a.urlRef < b.urlRef ? -1 : a.urlRef > b.urlRef ? 1 : 0,
-);
-
-fs.writeFileSync(
-  targetFilePath,
-  JSON.stringify(dataset, null, 2) + "\n",
-  "utf8",
-);
-
-console.log(`Done. +${toAdd.length} added, -${toRemove.length} removed.`);
+console.log("Generating all.ttl...");
+const allTtlContent = generateAllTtlContent(sourceDirPath, currentNames);
+writeAllTtlAndZip(allTtlDirPath, allTtlContent);

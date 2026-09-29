@@ -8,22 +8,6 @@
   skos:definition "Lijst van mogelijke soort verbindingen aangeboden aan de klant van Netwerkpoorten."@nl;
   skos:prefLabel "Netwerkpoort configuratie"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/OTU-2> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
-  skos:notation "OTU-2";
-  skos:prefLabel "OTU-2"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/16G-FC> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
-  skos:notation "16G-FC";
-  skos:prefLabel "16G FC"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/8G-FC> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -48,20 +32,12 @@
   skos:prefLabel "NULL"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/STM-64> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
-  skos:notation "STM-64";
-  skos:prefLabel "STM-64"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/4G-FC> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition ""@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
-  skos:notation "4G-FC";
-  skos:prefLabel "4G FC"@nl;
+  skos:notation "ge";
+  skos:prefLabel "ge"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/E1> a skos:Concept;
@@ -72,12 +48,124 @@
   skos:prefLabel "E1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/10GE> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/stm-4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "stm-4";
+  skos:prefLabel "stm-4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/stm-16> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "stm-16";
+  skos:prefLabel "stm-16"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/e> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "e";
+  skos:prefLabel "e"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/OTU-2> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
-  skos:notation "10GE";
-  skos:prefLabel "10GE"@nl;
+  skos:notation "OTU-2";
+  skos:prefLabel "OTU-2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/stm-64> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "stm-64";
+  skos:prefLabel "stm-64"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/otu-4> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "otu-4";
+  skos:prefLabel "otu-4"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/16G-FC> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "16G-FC";
+  skos:prefLabel "16G FC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/100ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "100ge";
+  skos:prefLabel "100ge"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/200ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ethernet verbinding met bandbreedte van 200 Gb/s"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "200ge";
+  skos:prefLabel "200GE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/STM-64> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "STM-64";
+  skos:prefLabel "STM-64"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/400ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ethernet verbinding met bandbreedte van 400 Gb/s"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "400ge";
+  skos:prefLabel "400GE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/null> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "null";
+  skos:prefLabel "null"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/4G-FC> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "4G-FC";
+  skos:prefLabel "4G FC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/otu-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "otu-1";
+  skos:prefLabel "otu-1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/fe> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "fe";
+  skos:prefLabel "fe"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/E> a skos:Concept;
@@ -104,6 +192,30 @@
   skos:prefLabel "FE"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/4g-fc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "4g-fc";
+  skos:prefLabel "4g fc"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/40ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "40ge";
+  skos:prefLabel "40ge"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/other> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "other";
+  skos:prefLabel "other"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/40GE> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -118,6 +230,38 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
   skos:notation "1G-FC";
   skos:prefLabel "1G FC"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/otu-2> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "otu-2";
+  skos:prefLabel "otu-2"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/16g-fc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "16g-fc";
+  skos:prefLabel "16g fc"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/stm-1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "stm-1";
+  skos:prefLabel "stm-1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/10ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "10ge";
+  skos:prefLabel "10ge"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/STM-4> a skos:Concept;
@@ -152,6 +296,14 @@
   skos:prefLabel "OTU-1"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/800ge> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Ethernet verbinding met bandbreedte van 800 Gb/s"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "800ge";
+  skos:prefLabel "800GE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/GE> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
@@ -166,4 +318,36 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
   skos:notation "STM-16";
   skos:prefLabel "STM-16"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/1g-fc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "1g-fc";
+  skos:prefLabel "1g fc"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/10GE> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "10GE";
+  skos:prefLabel "10GE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/e1> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "e1";
+  skos:prefLabel "e1"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerkpoortConfig/8g-fc> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig>;
+  skos:notation "8g-fc";
+  skos:prefLabel "8g fc"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerkpoortConfig> .

@@ -31,3 +31,11 @@
   skos:notation "flygt";
   skos:prefLabel "Flygt"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompMerk> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompMerk/aspen-pumps> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aspen Pumps"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompMerk>;
+  skos:notation "aspen-pumps";
+  skos:prefLabel "Aspen Pumps"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompMerk> .

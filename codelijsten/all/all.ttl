@@ -33790,6 +33790,14 @@
   skos:prefLabel "Flygt"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompMerk/aspen-pumps> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Aspen Pumps"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompMerk>;
+  skos:notation "aspen-pumps";
+  skos:prefLabel "Aspen Pumps"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met modelnamen voor pompen."@nl;
@@ -33801,6 +33809,14 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam>;
   skos:notation "1sv22f011t";
   skos:prefLabel "1SV22F011T"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPompModelnaam/hi-lift-2l> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Hi-Lift 2L"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam>;
+  skos:notation "hi-lift-2l";
+  skos:prefLabel "Hi-Lift 2L"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompModelnaam> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompSoort> a skos:ConceptScheme;

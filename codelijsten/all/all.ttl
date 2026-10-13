@@ -43016,6 +43016,27 @@
   skos:prefLabel "drijvend"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidewerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidingssteun> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Types geleidingssteun"@nl;
+  skos:prefLabel "Type geleidingssteun"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGeleidingssteun/rollend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidingssteun>;
+  skos:notation "rollend";
+  skos:prefLabel "rollend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidingssteun> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeGeleidingssteun/geleidend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidingssteun>;
+  skos:notation "geleidend";
+  skos:prefLabel "geleidend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGeleidingssteun> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGlijmateriaal> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst van mogelijke types glijmateriaal."@nl;

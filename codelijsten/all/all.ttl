@@ -7360,6 +7360,12 @@
   skos:prefLabel "P2"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermingsklasse> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke plaatsen volgens de Camerawet, op basis van de beslotenheid en de toegankelijkheid voor het publiek."@nl;
+  skos:prefLabel "Beslotenheid plaats"@nl.
+
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBestratingAfwerking> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De manieren van afwerking van de bestrating."@nl;
@@ -10072,6 +10078,12 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserType> .
 
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBranddetectorSensortype> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types van sensor die in een  branddetector wordt gebruikt."@nl;
+  skos:prefLabel "Branddetector sensortype"@nl.
+
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandhaspelMerk> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de brandhaspel."@nl;
@@ -10938,6 +10950,12 @@
   skos:notation "adr";
   skos:prefLabel "ADR"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraBeeldverwerkingstype> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraDoeleinde> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Lijst met mogelijke doeleinden waarvoor een camera wordt ingezet."@nl;
+  skos:prefLabel "Camera doeleinde"@nl.
+
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCameraMerk> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -20740,6 +20758,12 @@
   skos:prefLabel "dubbel"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKerendeKarakterSluis> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke keuringstypes voor de elektrische keuring."@nl;
+  skos:prefLabel "Keuringstype elektrisch"@nl.
+
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsresultaat> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke keuringsresultaten."@nl;
@@ -21019,6 +21043,12 @@
   skos:notation "blauw";
   skos:prefLabel "blauw"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurReflector> .
+
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurStandaard> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke standaard (RAL) kleuren die gekozen kunnen worden."@nl;
+  skos:prefLabel "Kleur standaard"@nl.
 
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurSupp> a skos:ConceptScheme;
@@ -23672,6 +23702,12 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Keuzelijst zonder elementen, gebruikt voor dynamische keuzelijsten."@nl;
   skos:prefLabel "Lege keuzelijst"@nl.
+
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLenstypeLEDVerlichting> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke lenstypes van een LED verlichting."@nl;
+  skos:prefLabel "Lenstype LED verlichting"@nl.
 
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLetterCijfer> a skos:ConceptScheme;
@@ -26725,6 +26761,12 @@
   skos:prefLabel "materiaal golfplaat"@nl.
 
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalKuipKWSAfscheider> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende types materialen waaruit de vloeistofdichte kuip van de KWS afscheider kan vervaardigd zijn."@nl;
+  skos:prefLabel "Materiaal kuip KWS Afscheider"@nl.
+
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalLadder> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het materiaal waaruit de ladder is opgebouwd. "@nl;
@@ -27449,6 +27491,18 @@
   skos:prefLabel "WS200PI"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeetmicrofoonModelnaam> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeetprincipeDebietmeter> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende meetprincipes van de debietmeter."@nl;
+  skos:prefLabel "Meetprincipe debietmeter"@nl.
+
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMerkDebietmeter> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende merken van de debietmeter."@nl;
+  skos:prefLabel "Merk debietmeter"@nl.
+
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMerkRookdetector> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Het merk van de rookdetector."@nl;
@@ -27582,6 +27636,12 @@
   skos:prefLabel "vast netwerk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMobieleNetwerktechnologie> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamDebietmeter> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende modelnamen van de debietmeter."@nl;
+  skos:prefLabel "Modelnaam debietmeter"@nl.
+
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De modelnaam van de rookdetector."@nl;
@@ -27610,6 +27670,12 @@
   skos:notation "ke-dp3120w-snv";
   skos:prefLabel "KE-DP3120W-SNV"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlModelnaamRookdetector> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMontagewijzeDebietmeter> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De verschillende montagewijzes van de debietmeter."@nl;
+  skos:prefLabel "Montagewijze debietmeter"@nl.
+
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingMerk> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -41663,6 +41729,35 @@
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTsklepAfsluiterMateriaal> .
 
 
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types aandrijving van een takel, volgens de aard van het mechanisme waarmee de hijsbeweging wordt gerealiseerd."@nl;
+  skos:prefLabel "Type aandrijving takel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAandrijvingTakel/elektrisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel>;
+  skos:notation "elektrisch";
+  skos:prefLabel "elektrisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAandrijvingTakel/manueel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel>;
+  skos:notation "manueel";
+  skos:prefLabel "manueel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAandrijvingTakel/pneumatisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel>;
+  skos:notation "pneumatisch";
+  skos:prefLabel "pneumatisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAfwateringsgeul> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke types van een afwateringsgeul."@nl;
@@ -41977,6 +42072,51 @@
   skos:notation "breekbout-op-onderlegplaat";
   skos:prefLabel "breekbout op onderlegplaat"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingBolder> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke wijzen waarop een hijspunt aan de bouwkundige constructie is bevestigd."@nl;
+  skos:prefLabel "Type bevestigingspunt"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingHijspunt/chemisch-verankerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt>;
+  skos:notation "chemisch-verankerd";
+  skos:prefLabel "chemisch verankerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingHijspunt/gelast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt>;
+  skos:notation "gelast";
+  skos:prefLabel "gelast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingHijspunt/gebout> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt>;
+  skos:notation "gebout";
+  skos:prefLabel "gebout"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingHijspunt/gevezen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt>;
+  skos:notation "gevezen";
+  skos:prefLabel "gevezen"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeBevestigingHijspunt/ingebetonneerd> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt>;
+  skos:notation "ingebetonneerd";
+  skos:prefLabel "ingebetonneerd"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingHijspunt> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeBevestigingLadder> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
@@ -43611,6 +43751,35 @@
   skos:notation "schotbalk";
   skos:prefLabel "schotbalk"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTWC> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types takel, geclassificeerd op basis van constructie en werkingsprincipe."@nl;
+  skos:prefLabel "Type takel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTakel/kettingtakel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel>;
+  skos:notation "kettingtakel";
+  skos:prefLabel "kettingtakel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTakel/kabeltakel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel>;
+  skos:notation "kabeltakel";
+  skos:prefLabel "kabeltakel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeTakel/staaldraadtakel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel>;
+  skos:notation "staaldraadtakel";
+  skos:prefLabel "staaldraadtakel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTakel> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTrekker> a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;

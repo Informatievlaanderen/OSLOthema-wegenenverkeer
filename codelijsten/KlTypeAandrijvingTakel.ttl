@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "De mogelijke types aandrijving van een takel, volgens de aard van het mechanisme waarmee de hijsbeweging wordt gerealiseerd."@nl;
+  skos:prefLabel "Type aandrijving takel"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAandrijvingTakel/elektrisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel>;
+  skos:notation "elektrisch";
+  skos:prefLabel "elektrisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAandrijvingTakel/manueel> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel>;
+  skos:notation "manueel";
+  skos:prefLabel "manueel"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeAandrijvingTakel/pneumatisch> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition ""@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel>;
+  skos:notation "pneumatisch";
+  skos:prefLabel "pneumatisch"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeAandrijvingTakel> .

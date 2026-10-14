@@ -7,3 +7,27 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke keuringstypes voor de elektrische keuring."@nl;
   skos:prefLabel "Keuringstype elektrisch"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsTypeElektrisch/indienstnamekeuring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuring van een elektrische installatie vóór de eerste ingebruikname, om na te gaan of deze voldoet aan de geldende veiligheidsvoorschriften en wettelijke vereisten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch>;
+  skos:notation "indienstnamekeuring";
+  skos:prefLabel "indienstnamekeuring"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsTypeElektrisch/eerste-keuring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Eerste formele keuring van een bestaande elektrische installatie waarvoor nog geen eerdere keuring werd uitgevoerd of geregistreerd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch>;
+  skos:notation "eerste-keuring";
+  skos:prefLabel "eerste keuring"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKeuringsTypeElektrisch/periodieke-keuring> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Keuring die op regelmatige of wettelijk voorgeschreven tijdstippen wordt herhaald om na te gaan of een elektrische installatie nog steeds voldoet aan de geldende veiligheidsvoorschriften en wettelijke vereisten."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch>;
+  skos:notation "periodieke-keuring";
+  skos:prefLabel "periodieke keuring"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKeuringsTypeElektrisch> .

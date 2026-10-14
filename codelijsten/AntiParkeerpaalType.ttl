@@ -8,14 +8,6 @@
   skos:definition "De vormen van een anti-parkeerpaal."@nl;
   skos:prefLabel "Anti-parkeerpaal type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/metkanon> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Met kanon"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType>;
-  skos:notation "metkanon";
-  skos:prefLabel "met kanon"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/metbazooka> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Met ingebouwde bazooka"@nl;
@@ -24,12 +16,20 @@
   skos:prefLabel "metbazooka"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/diamantkoppaal> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/banaan> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een paal voorzien van een diamantkop en op de hoeken 4 vellingkanten."@nl;
+  skos:definition "leuke anti-parkeelpaal in de vorm van een banaan"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType>;
-  skos:notation "diamantkoppaal";
-  skos:prefLabel "diamantkoppaal"@nl;
+  skos:notation "banaan";
+  skos:prefLabel "banaan"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/conischetrottoirpaalamsterdammer> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
+  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType>;
+  skos:notation "conischetrottoirpaalamsterdammer";
+  skos:prefLabel "conischetrottoirpaalamsterdammer"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/conischeTrottoirpaalAmsterdammer> a skos:Concept;
@@ -40,10 +40,10 @@
   skos:prefLabel "conischeTrottoirpaalAmsterdammer"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/conischetrottoirpaalamsterdammer> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd>;
-  skos:definition "gepruts om op DEV te kunnen opladen"@nl;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/diamantkoppaal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een paal voorzien van een diamantkop en op de hoeken 4 vellingkanten."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType>;
-  skos:notation "conischetrottoirpaalamsterdammer";
-  skos:prefLabel "conischetrottoirpaalamsterdammer"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> . 
+  skos:notation "diamantkoppaal";
+  skos:prefLabel "diamantkoppaal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType> .

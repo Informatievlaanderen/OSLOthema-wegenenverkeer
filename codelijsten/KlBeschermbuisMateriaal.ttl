@@ -16,6 +16,14 @@
   skos:prefLabel "RVS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/verzinkt-staal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Staal dat ter bescherming tegen corrosie is voorzien van een zinklaag, ook gegalvaniseerd staal genoemd."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal>;
+  skos:notation "verzinkt-staal";
+  skos:prefLabel "Verzinkt staal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeschermbuisMateriaal> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeschermbuisMateriaal/opticalfiber> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "opticalFiber"@nl;

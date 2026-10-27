@@ -40,6 +40,14 @@
   skos:prefLabel "RMKS"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/bovenleidingsmast> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Bovenleidingsmast"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype>;
+  skos:notation "bovenleidingsmast";
+  skos:prefLabel "Bovenleidingsmast"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtmastMasttype> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtmastMasttype/KS> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Kreukelpaal met arm op voet"@nl;

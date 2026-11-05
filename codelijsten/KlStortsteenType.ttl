@@ -8,12 +8,20 @@
   skos:definition "Stortsteen types."@nl;
   skos:prefLabel "Stortsteen type"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/rolsteen> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/brokken-van-betonpuin> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "rolsteen"@nl;
+  skos:definition "brokken van betonpuin"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
-  skos:notation "rolsteen";
-  skos:prefLabel "rolsteen"@nl;
+  skos:notation "brokken-van-betonpuin";
+  skos:prefLabel "brokken van betonpuin"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/brokken-van-breuksteenpuin> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "brokken van breuksteenpuin"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
+  skos:notation "brokken-van-breuksteenpuin";
+  skos:prefLabel "brokken van breuksteenpuin"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/ruwe-breuksteen> a skos:Concept;
@@ -24,12 +32,20 @@
   skos:prefLabel "ruwe breuksteen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/brokken-van-betonpuin> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/natuursteenslag> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "brokken van betonpuin"@nl;
+  skos:definition "natuursteenslag"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
-  skos:notation "brokken-van-betonpuin";
-  skos:prefLabel "brokken van betonpuin"@nl;
+  skos:notation "natuursteenslag";
+  skos:prefLabel "natuursteenslag"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/rolsteen> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "rolsteen"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
+  skos:notation "rolsteen";
+  skos:prefLabel "rolsteen"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/brokken-van-mengpuin> a skos:Concept;
@@ -48,20 +64,12 @@
   skos:prefLabel "brokken van metselwerkpuin"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/brokken-van-breuksteenpuin> a skos:Concept;
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/rolgrind> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "brokken van breuksteenpuin"@nl;
+  skos:definition "Grind met goed afgeronde korrels."@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
-  skos:notation "brokken-van-breuksteenpuin";
-  skos:prefLabel "brokken van breuksteenpuin"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
-
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/natuursteenslag> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "natuursteenslag"@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
-  skos:notation "natuursteenslag";
-  skos:prefLabel "natuursteenslag"@nl;
+  skos:notation "rolgrind";
+  skos:prefLabel "rolgrind"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/dolomiet> a skos:Concept;
@@ -72,17 +80,9 @@
   skos:prefLabel "dolomiet"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/rolgrind> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Grind met goed afgeronde korrels."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
-  skos:notation "rolgrind";
-  skos:prefLabel "rolgrind"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStortsteenType/kunststeenslag> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "brokken van betonpuin"@nl;
+  skos:definition "steenslag van kunstmatig granulaat"@nl;
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStortsteenType>;
   skos:notation "kunststeenslag";
   skos:prefLabel "kunststeenslag"@nl;

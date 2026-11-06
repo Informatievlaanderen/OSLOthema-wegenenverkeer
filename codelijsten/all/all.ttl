@@ -21097,6 +21097,14 @@
   skos:definition "De mogelijke standaard (RAL) kleuren die gekozen kunnen worden."@nl;
   skos:prefLabel "Kleur standaard"@nl.
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurStandaard/niet-gekend> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Niet gekend"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurStandaard>;
+  skos:notation "niet-gekend";
+  skos:prefLabel "Niet gekend"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurStandaard> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurStandaard/ral-9002-grijswit> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "RAL-9002 (grijswit)"@nl;

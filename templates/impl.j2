@@ -395,7 +395,7 @@
 			
 			<div class="head" role="contentinfo" id="respecHeader">
                 <dl>
-                        {% for role, contributors in contributors | groupby("role") %}
+                         {% for role, contributors in (contributors | default([], true) | groupby("role")) %}
                           {% if role == "A" %}
                             {% set authors = contributors|sort(attribute='last_name') %}
                         {% if authors %}

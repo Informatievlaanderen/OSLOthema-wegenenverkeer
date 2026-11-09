@@ -3,31 +3,33 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> a skos:ConceptScheme;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> a skos:ConceptScheme;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "De mogelijke plaatsen volgens de Camerawet, op basis van de beslotenheid en de toegankelijkheid voor het publiek."@nl;
   skos:prefLabel "Beslotenheid plaats"@nl.
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/niet-besloten-plaats> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/niet-besloten-plaats> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vrij toegankelijk voor publiek en niet afgesloten: openbare weg, snelwegparkings, (fiets)-tunnels..."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
   skos:notation "niet-besloten-plaats";
   skos:prefLabel "niet-besloten plaats"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/voor-het-publiek-toegankelijke-besloten-plaats> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/voor-het-publiek-toegankelijke-besloten-plaats> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Vrij toegankelijk voor publiek maar afgesloten: vb tankstation en pompen op parking, camera's op districten."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
   skos:notation "voor-het-publiek-toegankelijke-besloten-plaats";
   skos:prefLabel "Voor het publiek toegankelijke besloten plaats"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/niet-voor-het-publiek-toegankelijke-besloten-plaats> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+<https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBeslotenheidPlaats/niet-voor-het-publiek-toegankelijke-besloten-plaats> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Niet toegankelijk voor publiek maar afgesloten: vb technische ruimtes tunnel, kantoor.."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
+  skos:inScheme <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats>;
   skos:notation "niet-voor-het-publiek-toegankelijke-besloten-plaats";
   skos:prefLabel "Niet voor het publiek toegankelijke besloten plaats"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .
+  skos:topConceptOf <https://wegenenverkeer-test.data.vlaanderen.be/id/conceptscheme/KlBeslotenheidPlaats> .
+
+

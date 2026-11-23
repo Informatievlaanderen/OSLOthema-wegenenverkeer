@@ -38234,14 +38234,6 @@
   skos:prefLabel "TWAVB"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
-<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/edv-pimf> a skos:Concept;
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
-  skos:definition "Een soepele, afgeschermde data- en signaalkabel met lage capaciteit voor storingsvrije signaaloverdracht."@nl;
-  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
-  skos:notation "edv-pimf";
-  skos:prefLabel "EDV-PiMF"@nl;
-  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
-
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/elec> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "ELEC"@nl;
@@ -38320,6 +38312,22 @@
   skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
   skos:notation "xlpe";
   skos:prefLabel "XLPE"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/afg-mbzh> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Halogeenvrije afgeschermde signaalkabel met functiebehoud."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "afg-mbzh";
+  skos:prefLabel "AFG-MBZH"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/edv-pimf> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Een soepele, afgeschermde data- en signaalkabel met lage capaciteit voor storingsvrije signaaloverdracht."@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType>;
+  skos:notation "edv-pimf";
+  skos:prefLabel "EDV-PiMF"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalkabelType> .
 
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalkabelType/liyy-st-y> a skos:Concept;

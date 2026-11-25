@@ -7,3 +7,11 @@
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Lijst met modelnamen voor allerlei types van toegangspoorten volgens de fabrikant"@nl;
   skos:prefLabel "Toegangspoort modelnaam"@nl.
+
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortModelnaam/terminus> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Terminus"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortModelnaam>;
+  skos:notation "terminus";
+  skos:prefLabel "Terminus"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortModelnaam> .

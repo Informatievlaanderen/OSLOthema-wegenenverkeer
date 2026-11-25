@@ -42054,6 +42054,14 @@
   skos:prefLabel "Hormann"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/kopal> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "Kopal"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk>;
+  skos:notation "kopal";
+  skos:prefLabel "Kopal"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/nassau> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition "Nassau"@nl;

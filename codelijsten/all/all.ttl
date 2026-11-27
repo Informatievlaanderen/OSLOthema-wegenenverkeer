@@ -31929,6 +31929,14 @@
   skos:prefLabel "48V"@nl;
   skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
 
+<https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/42v> a skos:Concept;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
+  skos:definition "42V"@nl;
+  skos:inScheme <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning>;
+  skos:notation "42v";
+  skos:prefLabel "42V"@nl;
+  skos:topConceptOf <https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNominaleSpanning> .
+
 <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNominaleSpanning/400v> a skos:Concept;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik>;
   skos:definition ""@nl;
